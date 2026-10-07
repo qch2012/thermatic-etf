@@ -1,7 +1,7 @@
 version: 1
 note: First matching rule wins; order matters. Patterns are case-insensitive Python regex applied to the fund name.
 exclude_name_regex: \b\d(\.\d+)?x\b|ultra|leverag|inverse|\bbull\b|\bbear\b|\bshort\b|daily|option|income|premium|covered|buffer|buywrite|yield|dividend|bond|treasury|muni|credit|target|defined|floor|barrier|autocall|accelerat|weeklypay|weekly
-  pay|enhanced|hedge equity|bitcoin etf|\bether|futures|strategy etf|long/short|tail risk|protect|max |-1x|2x|3x|\bpay\b
+  pay|enhanced|hedge equity|bitcoin etf|\bether|futures|strategy etf|long/short|tail risk|protect|max |-1x|2x|3x|\bpay\b|blue ?chip
 themes:
 - group: Technology
   theme: Humanoid robotics & physical AI
