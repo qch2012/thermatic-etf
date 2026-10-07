@@ -1,6 +1,6 @@
 # Thematic ETF Screener — Build Spec
 
-Spec version 1.0 · 2026-10-06
+Spec version 1.1 · 2026-10-07 (1.1: overlap uses full issuer holdings instead of Yahoo top 10)
 Builder: Claude Code, working in this repo.
 
 ## 1. Goal
@@ -19,7 +19,8 @@ The website replaces the Notion page. The Notion page will only link to it.
 ```
                  daily cron (GitHub Actions)
 nasdaqtraded.txt ──┐
-Yahoo Finance  ────┼──> pipeline/ (Python) ──> site/data/*.json ──> git commit
+Yahoo Finance  ────┤
+Issuer holdings ───┼──> pipeline/ (Python) ──> site/data/*.json ──> git commit
 config/*.yaml  ────┘                                                   │
                                                                        v
                                        Cloudflare Pages (auto-deploy on push)
@@ -35,7 +36,7 @@ Two separate jobs. Keep them separate.
 | Job | Changes | Runs | Who |
 |---|---|---|---|
 | **Refresh** | Prices, net assets, fees, holdings, scores, ranks | Daily, automatic | GitHub Actions. No AI. |
-| **Re-screen** | Universe rules, themes, overrides, exclusions, issuer links | On request | Claude Code, edits `config/` only |
+| **Re-screen** | Universe rules, themes, overrides, exclusions, issuer links, holdings sources, holding aliases | On request | Claude Code, edits `config/` only |
 
 The refresh job re-applies the theme rules to the full Nasdaq directory each day. So new launches whose names match an existing rule enter automatically. Re-screen is for judgment calls the rules can't make.
 
@@ -46,9 +47,12 @@ config/
   themes.yaml          # taxonomy, exclusion regex, overrides, excluded tickers (seeded)
   issuer_links.json    # ticker -> official issuer fund page (seeded, 97 funds)
   aum_overrides.yaml   # manual net assets from issuer sites (seeded)
+  holdings_sources.yaml # ticker -> issuer holdings file URL + parser name
+  holding_aliases.yaml # company names that should match across funds (e.g. ADR vs local listing)
   settings.yaml        # gates, weights, windows, top-N, data source
 pipeline/              # Python 3.12+: fetch, classify, gate, score, export, checks
   sources/             # data-source adapters (yahoo first; same interface for a paid API later)
+    issuers/           # one holdings parser per issuer file format (iShares, Global X, ARK, ...)
 tests/
 site/
   index.html, app.js, style.css
@@ -68,7 +72,8 @@ CHANGELOG.md
 |---|---|---|
 | Universe | `https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqtraded.txt` | Keep rows with `ETF = Y` and `Test Issue = N`. Covers all US exchanges. |
 | Daily prices (adjusted close, close, volume), first trade date | Yahoo chart endpoint, 5-year daily range | Adjusted close = total return including distributions. |
-| Net assets, expense ratio, category, top 10 holdings | Yahoo quoteSummary (`summaryDetail`, `fundProfile`, `topHoldings`, `price`) | Needs cookie + crumb session. |
+| Net assets, expense ratio, category, top 10 holdings | Yahoo quoteSummary (`summaryDetail`, `fundProfile`, `topHoldings`, `price`) | Needs cookie + crumb session. Top 10 is used only as the fallback for the top-3 holdings column, never for overlap. |
+| Full holdings (every position, weight, identifiers, as-of date) | Issuer holdings file or page, URL in `config/holdings_sources.yaml` | Used for overlap and the top-3 holdings column. Fetched for eligible funds. See 4.1. |
 | Net-asset fallback | Yahoo quote `netAssets`, then `config/aum_overrides.yaml` | Mark the source on the site (`*`). |
 | Fund page links | `config/issuer_links.json` | Ticker links go to issuer pages, never Yahoo. Missing link → show plain ticker and list it in the re-screen report. |
 
@@ -77,6 +82,17 @@ Requirements:
 - Throttle (about 3–4 requests/second max), retry with backoff on 429/5xx, and reuse one HTTP session.
 - Fetch only what's needed: full profile + 5-year prices for funds that pass name classification (roughly 350–450), not all 5,758 ETFs.
 - Per-fund failure: reuse that fund's last good data and mark it stale. Never silently drop a fund.
+
+### 4.1 Issuer holdings
+
+Why: Yahoo lists only each fund's top 10 holdings, and gives the same company different symbols in different funds (e.g. Airbus is `AIR.PA` in NATO but `EADSY` in EUAD). Both make overlap come out too low. The issuer's own holdings file lists every position.
+
+- Source: the daily holdings file (CSV/XLSX/JSON) or holdings table published on the issuer's fund page. Record the URL and parser per ticker in `config/holdings_sources.yaml`.
+- One parser per issuer file format, in `pipeline/sources/issuers/`, all returning the same shape: as-of date and a list of rows (name, ticker, ISIN/CUSIP/SEDOL if given, asset type, weight as % of net assets).
+- Keep the issuer's weights as published. Drop cash, currency, futures, swaps and other non-equity rows from overlap; don't rescale the remaining weights.
+- Same rules as Yahoo: throttle, retry with backoff, reuse last good data and mark it stale with its as-of date.
+- A fund with no source or a failed parse gets no overlap numbers. Show "full holdings unavailable" and list it in the re-screen report. Don't fill in with Yahoo's top 10: mixing full and partial lists makes numbers incomparable.
+- Holdings failures don't block publishing (they don't affect scores).
 
 ## 5. Screening method (must match exactly)
 
@@ -136,14 +152,16 @@ All views read static JSON. No server code beyond Cloudflare Access.
 2. **Live weights.** Sliders for size/cost/performance weights (normalized to 100%) and top-N. Recompute scores and ranks in the browser from the per-fund percentiles in the JSON. "Reset to default" button. Gates and windows stay as computed by the pipeline; say so next to the sliders.
 3. **Price charts.** Click a fund: its 3-year adjusted-close chart. Click a theme: all measured peers rebased to 100 at the window start, with the window shaded. Load per-ticker price files lazily.
 4. **Ranking history.** Each daily run saves a compact snapshot (ticker → theme, rank, score, net assets). Show rank change vs 1 week and 1 month in the main table, and a rank-over-time line per fund. Show funds that entered or left a theme's top 3 in the last 30 days.
-5. **Overlap.** Using Yahoo's top-10 holdings: overlap(A, B) = Σ min(weight_A, weight_B) over shared holdings. Show a matrix for the funds in a theme and a two-fund picker across themes. Label it "top-10 overlap — a lower bound on true overlap," because only top-10 weights are available. Highlight pairs ≥ 30%.
+5. **Overlap.** Using full issuer holdings (4.1): overlap(A, B) = Σ min(weight_A, weight_B) over shared companies. Show a matrix for the funds in a theme and a two-fund picker across themes. Highlight pairs ≥ 30%. Show each fund's holdings as-of date; flag pairs whose dates differ by more than 7 days.
+   - **Shared company:** match at company level, so ADRs, GDRs, local listings and share classes of one company count as one holding (sum their weights within a fund first). Why: overlap measures exposure to the same business, and issuers hold different listings of it. Match on identifier (ISIN, else CUSIP/SEDOL) when both rows have one, then on normalized company name (lowercase; drop ADR/GDR, class, "ordinary shares" and legal suffixes like Inc/Corp/PLC/AG/SE/SA/Ltd), then on `config/holding_aliases.yaml`.
+   - Load per-fund holdings files lazily (`site/data/holdings/<TICKER>.json`).
 6. **Status bar.** Data as-of date, last successful run, fund count, failed fetches, and a stale banner if data is older than 2 trading days. Link to a "Method" panel that renders section 5 in plain English.
 7. Responsive down to 390 px wide. Keyboard-accessible controls. No external CDNs, fonts or trackers. Add `noindex`.
 
 ## 7. Daily refresh job (GitHub Actions)
 
 - Schedule: weekdays 22:30 UTC (after the US close in both EST and EDT), plus manual `workflow_dispatch`.
-- Steps: fetch directory → classify → fetch data → gate → score → **checks** → write `site/data/` → commit and push (the push triggers the Cloudflare Pages deploy).
+- Steps: fetch directory → classify → fetch data → gate → score → fetch issuer holdings for eligible funds → **checks** → write `site/data/` → commit and push (the push triggers the Cloudflare Pages deploy).
 - **Checks before publishing.** If any fails, don't overwrite the latest data. Open a GitHub issue with the reason, and let the site show the stale banner.
   - ≥ 90% of classified funds fetched successfully.
   - No theme loses all its eligible funds only because of fetch errors.
@@ -170,6 +188,7 @@ Triggered when user asks ("re-screen", or `/rescreen`). Procedure is in `.claude
    - Themes with 0–1 eligible funds; themes with more than ~15 eligible funds (candidates to split).
    - Funds whose name matched two or more themes (rule order decided).
    - Missing issuer links; net-asset overrides older than 45 days; delisted funds.
+   - Eligible funds without a working holdings source; holdings files older than 7 days; holding names that look like the same company but didn't match (candidates for `holding_aliases.yaml`).
 2. Propose config changes with a one-line reason each. Edit `config/` only. Don't change scoring code or section 5 unless user asks.
 3. Run tests and the full pipeline locally. Summarize top-3 changes per theme (entered / left) caused by the config edits.
 4. Commit to branch `rescreen/YYYY-MM-DD`, add a CHANGELOG entry, and **wait for user's approval before merging.**
@@ -197,6 +216,8 @@ Site
 - [ ] Every number on the main screen matches the pipeline output.
 - [ ] Default weights reproduce the pipeline's ranks exactly; changing sliders reorders live; reset restores.
 - [ ] Charts, history (after ≥ 2 runs) and overlap work; no console errors.
+- [ ] Overlap uses issuer holdings: unit test where fund A holds a local listing and fund B the ADR of the same company → counted as shared. NATO vs EUAD overlap includes Airbus and BAE Systems.
+- [ ] Every eligible fund either has parsed issuer holdings or appears in the re-screen report as missing a holdings source.
 - [ ] Usable at 1440 px and 390 px.
 - [ ] Opening the site in a private window requires the Cloudflare Access login, on both the production and `pages.dev` URLs.
 
@@ -206,7 +227,6 @@ Process
 
 ## 12. Out of scope (v1)
 
-- Full issuer holdings files (overlap uses top 10 only).
 - Bid-ask spread and premium/discount data.
 - Canadian (TSX) listings.
 - Alerts or email digests.
