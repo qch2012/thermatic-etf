@@ -1,0 +1,228 @@
+version: 1
+note: First matching rule wins; order matters. Patterns are case-insensitive Python regex applied to the fund name.
+exclude_name_regex: \b\d(\.\d+)?x\b|ultra|leverag|inverse|\bbull\b|\bbear\b|\bshort\b|daily|option|income|premium|covered|buffer|buywrite|yield|dividend|bond|treasury|muni|credit|target|defined|floor|barrier|autocall|accelerat|weeklypay|weekly
+  pay|enhanced|hedge equity|bitcoin etf|\bether|futures|strategy etf|long/short|tail risk|protect|max |-1x|2x|3x|\bpay\b
+themes:
+- group: Technology
+  theme: Humanoid robotics & physical AI
+  match: humanoid|physical ai
+- group: Technology
+  theme: Neocloud & AI compute
+  match: neocloud
+- group: Technology
+  theme: Memory & storage
+  match: \bmemory\b
+- group: Technology
+  theme: Photonics & optics
+  match: photonic|\boptic
+- group: Technology
+  theme: Electronic components (MLCC, PCB, power semis)
+  match: \bmlcc\b|\bpcb\b|electronic component|powersemi|power semi
+- group: Technology
+  theme: Semiconductors
+  match: semiconductor|\bchip|foundr|fabless
+- group: Technology
+  theme: Quantum computing
+  match: quantum
+- group: Physical world
+  theme: AI power & energy infrastructure
+  match: (ai|artificial intelligence).*(power|energy)|power.*(ai|artificial)
+- group: Technology
+  theme: Artificial intelligence & big data
+  match: artificial intelligence|\ba\.i\.|\bai\b|generative|big data|machine learning|\bllm\b|natural language
+- group: Technology
+  theme: Cybersecurity
+  match: cyber|(?<!\w)security(?! ?s\b)
+- group: Technology
+  theme: Cloud computing
+  match: \bcloud
+- group: Technology
+  theme: Data centers & digital infrastructure
+  match: data cent|digital infra|\btower
+- group: Technology
+  theme: 5G, IoT & connectivity
+  match: \b5g\b|internet of things|\biot\b|connectivity
+- group: Technology
+  theme: Robotics & automation
+  match: robot|automation
+- group: Technology
+  theme: Blockchain & crypto equities
+  match: blockchain|crypto|bitcoin min|onchain|digital asset|bitcoin & blockchain
+- group: Technology
+  theme: Fintech & digital payments
+  match: fintech|payment|digital financ
+- group: Technology
+  theme: Internet, e-commerce & social media
+  match: internet|e-commerce|ecommerce|online retail|social media
+- group: Technology
+  theme: Video games, esports & metaverse
+  match: video game|esports|metaverse|gaming(?!.*bet)
+- group: Social
+  theme: Sports betting & prediction markets
+  match: betting|igaming|prediction market
+- group: Technology
+  theme: Space
+  match: \bspace\b|final frontier
+- group: Technology
+  theme: Drones & modern warfare
+  match: drone
+- group: Physical world
+  theme: Aerospace & defense
+  match: defense|defence|aerospace
+- group: Technology
+  theme: Electric & autonomous vehicles
+  match: electric vehicle|autonomous|self-driving|future mobility|smart mobility|\bev\b|electric & future
+- group: Physical world
+  theme: Uranium & nuclear
+  match: uranium|nuclear|\bsmr\b
+- group: Physical world
+  theme: Hydrogen
+  match: hydrogen
+- group: Physical world
+  theme: Solar
+  match: \bsolar
+- group: Physical world
+  theme: Wind
+  match: \bwind\b
+- group: Physical world
+  theme: Lithium & batteries
+  match: lithium|batter
+- group: Physical world
+  theme: Electrification & smart grid
+  match: electrif|smart grid|\bgrid\b|power infrastructure
+- group: Physical world
+  theme: Clean energy & climate tech
+  match: clean power|clean energy|renewable|alternative energy|clean ?tech|climate ?tech|energy transition|clean edge|green energy|low carbon
+- group: Physical world
+  theme: Copper miners
+  match: copper min|copper
+- group: Physical world
+  theme: Critical minerals & rare earths
+  match: rare earth|critical (mineral|metal|material)|strategic metal|battery metal|energy transition metal
+- group: Physical world
+  theme: Water
+  match: \bwater
+- group: Physical world
+  theme: Agriculture & food innovation
+  match: agri|agtech|\bfood|farm
+- group: Physical world
+  theme: US reshoring & manufacturing
+  match: reshor|onshor|manufactur|industrial renaissance
+- group: Physical world
+  theme: Infrastructure
+  match: infrastructure
+- group: Social
+  theme: Genomics & gene editing
+  match: genom|\bgene|crispr
+- group: Social
+  theme: GLP-1, obesity & heart health
+  match: glp|obesity|weight loss|heart
+- group: Social
+  theme: Oncology
+  match: oncology|cancer
+- group: Social
+  theme: Aging & longevity
+  match: aging|longevity|senior
+- group: Social
+  theme: Healthcare innovation, medtech & health AI
+  match: health(care)? ?(innovation|tech|ai)|medical device|medtech|telehealth|digital health|health innovation|healthcare ai|medical (equipment|technology)|health care equipment
+- group: Social
+  theme: Cannabis
+  match: cannabis|marijuana
+- group: Social
+  theme: Next-gen consumer (millennial, Gen Z, luxury, pets)
+  match: millennial|gen z|luxury|pet care|petcare|travel tech|consumer brands|next gen consumer
+- group: Broad thematic
+  theme: Disruptive innovation & multi-theme
+  match: innovation|disrupt|exponential|thematic|megatrend|transformational|future\b|next ?gen|new econom|frontier tech
+overrides:
+  ARKF: Fintech & digital payments
+  BETZ: Sports betting & prediction markets
+  BOTZ: Robotics & automation
+  BUYZ: Internet, e-commerce & social media
+  CABZ: Electric & autonomous vehicles
+  CARZ: Electric & autonomous vehicles
+  CQQQ: Internet, e-commerce & social media
+  CSEN: Clean energy & climate tech
+  DAPP: Blockchain & crypto equities
+  EMET: Critical minerals & rare earths
+  FDFF: Fintech & digital payments
+  FMED: Healthcare innovation, medtech & health AI
+  FOWF: Aerospace & defense
+  GDOC: Healthcare innovation, medtech & health AI
+  HLTH: Healthcare innovation, medtech & health AI
+  HUMM: Data centers & digital infrastructure
+  LEGR: Blockchain & crypto equities
+  LFSC: Healthcare innovation, medtech & health AI
+  MJ: Cannabis
+  NXTG: 5G, IoT & connectivity
+  SRVR: Data centers & digital infrastructure
+  STCE: Blockchain & crypto equities
+  TSSD: Aerospace & defense
+  XA: Cybersecurity
+  XSPC: Space
+exclude_tickers:
+- ABOT
+- AIEQ
+- AINT
+- AIQU
+- AIUP
+- AOTG
+- AV
+- BBLU
+- BCHP
+- BESO
+- BKLN
+- BTC
+- CPER
+- CRBN
+- DBA
+- EMLP
+- EMSF
+- ENFR
+- ERTH
+- EVMT
+- EZPZ
+- FBCG
+- FBCV
+- FLBL
+- FTSL
+- FTWO
+- FTXG
+- GDLC
+- HECO
+- HIAI
+- JHLN
+- KMCA
+- KRYP
+- LONZ
+- LQAI
+- MBCE
+- MLPX
+- NCIQ
+- NEWZ
+- NSI
+- PBJ
+- PDBA
+- PIPE
+- PSQA
+- QQQJ
+- QQQS
+- REIX
+- SCOP
+- SEIX
+- SLNZ
+- SRLN
+- TAGS
+- TCHP
+- THRO
+- TILL
+- TKNS
+- TKNZ
+- TSES
+- TTOP
+- TXBC
+- USAI
+- USNG
+- WTRE
+- ZSB

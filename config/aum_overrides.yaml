@@ -1,0 +1,24 @@
+note: Manual net assets (USD millions) from issuer sites. Used only when Yahoo has
+  neither totalAssets nor netAssets. Values older than 45 days are flagged stale on
+  the site.
+funds:
+  DISK:
+    net_assets_musd: 85.0
+    source: issuer website
+    as_of: '2026-08-31'
+  LAZR:
+    net_assets_musd: 118.8
+    source: issuer website
+    as_of: '2026-08-31'
+  NASA:
+    net_assets_musd: 1205.4
+    source: issuer website
+    as_of: '2026-08-31'
+  PSOX:
+    net_assets_musd: 5.1
+    source: issuer website
+    as_of: '2026-08-31'
+  WELD:
+    net_assets_musd: 281.6
+    source: issuer website
+    as_of: '2026-08-31'
