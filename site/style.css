@@ -1,0 +1,9 @@
+body { margin: 1rem; font: 1rem/1.5 system-ui, sans-serif; color: #18232c; background: #fafafa; }
+main { max-width: 100rem; margin: auto; }
+.table-scroll { overflow-x: auto; margin-top: 1rem; }
+table { border-collapse: collapse; width: 100%; }
+caption { text-align: left; font-weight: bold; padding: .5rem 0; }
+th, td { padding: .6rem; text-align: left; border-bottom: 1px solid #ccc; }
+th { white-space: nowrap; }
+a { color: #00599b; }
+:focus-visible { outline: 3px solid #00599b; outline-offset: 2px; }
