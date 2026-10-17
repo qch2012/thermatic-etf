@@ -172,6 +172,26 @@ test('filters by group, theme, text, 🆕 only and hide under $50M', async () =>
   assert.deepEqual(p.elements['#theme'].children.map(o => o.value), ['', 'Semiconductors', 'Cannabis', 'Hydrogen', 'Aging & longevity']);
 });
 
+test('bad issuer URL falls back to a plain ticker', async () => {
+  const data = structuredClone(FIXTURE);
+  data.funds[0].issuer_url = 'not a url';
+  const p = await page(data);
+  const s1 = p.fundRows()[0].children[1];
+  assert.equal(s1.children.length, 0);
+  assert.equal(text(s1), 'S1');
+});
+
+test('theme dropdown narrows to the chosen group', async () => {
+  const p = await page(FIXTURE);
+  p.set('#theme', 'value', 'Semiconductors');
+  p.set('#group', 'value', 'Social');
+  assert.deepEqual(p.elements['#theme'].children.map(o => o.value), ['', 'Cannabis', 'Aging & longevity']);
+  assert.equal(p.elements['#theme'].value, '');  // a theme outside the group is cleared
+  assert.deepEqual(p.tickers(), ['C1']);
+  p.set('#group', 'value', '');
+  assert.equal(p.elements['#theme'].children.length, 5);
+});
+
 test('sorting reorders funds inside each theme and keeps the grouping', async () => {
   const p = await page(FIXTURE);
   p.set('#mode', 'value', 'eligible');

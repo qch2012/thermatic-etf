@@ -39,3 +39,26 @@ Branch: `feat/4-main-screen` (stacked on `feat/3-full-method`). Not merged, not 
 1. **Hide under $50M** keeps funds with unknown net assets visible (5 "No net-asset data" funds). Should they be hidden too?
 2. **No-eligible section and the toggle:** it shows every candidate in all three modes (SPEC 5.6 says to list them with reasons). OK, or should Top 3 hide the candidate rows and show only theme names?
 3. **Score precision:** shown with 1 decimal (it was 2). OK?
+
+## Contract freeze (follow-up commit)
+
+Pipeline (`pipeline/__main__.py`; `method.py` unchanged):
+- Price files `site/data/prices/<TICKER>.json` = `{ticker, dates, adjusted_close}`, last 3 calendar years up to each fund's last adjusted close, for every fund with price data. Days without an adjusted close are left out. Written atomically after the 90% check. Prices are now written before they are dropped from the fund records.
+- Top-level `data_as_of`: latest price date across funds.
+- Top-level `weights` `{size: 0.4, cost: 0.2, performance: 0.4}`. They are a copy of the numbers in `method.score`, because method.py has them inline and I didn't change it. A test checks they reproduce every eligible fund's score from its percentiles.
+
+Contract (`docs/contract.md`):
+- New sections: Score and rank (formula order, plus tie-break: score desc, net assets desc, ticker asc), Price files (#6), Holdings files (reserved, #9), History snapshots (reserved, #8/#7), Method panel (#12 takes rules from SPEC §5 wording, not JSON).
+
+Site:
+- `new URL()` wrapped in try/catch; an unparsable issuer URL shows the plain ticker.
+- The Theme dropdown lists only the chosen group's themes; a selected theme outside the new group is cleared.
+
+Verification:
+- `python3 -m pytest -q tests` → 20 passed, 4 subtests passed (new: `test_price_files_data_as_of_and_weights`, literal dates 2023-01-02 to 2026-01-02, 785 days).
+- `node --test "tests/*.test.cjs"` → 9 passed, 0 failed (new: bad issuer URL, theme narrowing).
+- Stub CLI run on the seed-ticker fixture: 360 funds, 360 price files; `data_as_of` 2026-01-02; MJ prices 2023-01-02 to 2026-01-02, 785 days.
+
+Questions for Andy:
+4. Price files of funds that leave the universe are not deleted, so `site/data/prices/` only grows. Prune them each run?
+5. History snapshots are named by the run's UTC date, not `data_as_of`, so a Saturday rerun makes a Saturday file. OK?

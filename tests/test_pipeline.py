@@ -220,6 +220,27 @@ class PipelineTests(unittest.TestCase):
                     run(settings, output, path / "empty-cache", DIRECTORY)
             self.assertEqual(previous, output.read_bytes())
 
+    def test_price_files_data_as_of_and_weights(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp)
+            result = run({"data_source": "stub"}, path / "screen.json", path / "cache", DIRECTORY)
+            # Stub prices run 2022-01-03 to Fri 2026-01-02; last 3 calendar years = 785 weekdays from 2023-01-02.
+            self.assertEqual(result["data_as_of"], "2026-01-02")
+            prices = json.loads((path / "prices/AAA.json").read_text())
+            self.assertEqual(set(prices), {"ticker", "dates", "adjusted_close"})
+            self.assertEqual(prices["ticker"], "AAA")
+            self.assertEqual((prices["dates"][0], prices["dates"][-1], len(prices["dates"])), ("2023-01-02", "2026-01-02", 785))
+            self.assertEqual(len(prices["adjusted_close"]), 785)
+            self.assertEqual(prices["adjusted_close"][-1], Stub().history("AAA")["prices"][-1]["adjusted_close"])
+            self.assertEqual(sorted(p.name for p in (path / "prices").iterdir()), ["AAA.json", "BBB.json"])
+            # Emitted weights reproduce method.py's scores from the emitted percentiles (live-weights contract).
+            w = result["weights"]
+            self.assertEqual(w, {"size": 0.4, "cost": 0.2, "performance": 0.4})
+            for f in result["funds"]:
+                if f["status"] == "Eligible":
+                    q = f["percentiles"]
+                    self.assertEqual(f["score"], 100 * (w["size"] * q["size"] + w["cost"] * q["cost"] + w["performance"] * q["performance"]))
+
     def test_last_good_data_at_ninety_percent(self):
         directory = "Symbol|Security Name|ETF|Test Issue\n" + "".join(
             f"F{i}|Example Semiconductor ETF|Y|N\n" for i in range(10)

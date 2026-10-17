@@ -29,9 +29,11 @@ const COLUMNS = [
 
 function tickerCell(fund) {
   // Issuer page from config/issuer_links.json (via the pipeline); plain ticker when missing.
-  if (!fund.issuer_url || new URL(fund.issuer_url).protocol !== 'https:') return fund.ticker;
+  let url;
+  try { url = new URL(fund.issuer_url); } catch { return fund.ticker; }
+  if (url.protocol !== 'https:') return fund.ticker;
   const link = document.createElement('a');
-  link.href = new URL(fund.issuer_url).href;
+  link.href = url.href;
   link.textContent = fund.ticker;
   return link;
 }
@@ -135,6 +137,7 @@ function render() {
 }
 
 function options(select, values) {
+  select.replaceChildren();
   for (const value of ['', ...new Set(values)]) {
     const option = document.createElement('option');
     option.value = value;
@@ -145,9 +148,15 @@ function options(select, values) {
 
 function renderControls() {
   const themes = [...view.data.themes, ...view.data.no_eligible_themes];
+  const themeOptions = () => {
+    const names = themes.filter(t => !view.group || t.group === view.group).map(t => t.theme);
+    if (!names.includes(view.theme)) view.theme = '';
+    options($('#theme'), names);
+    $('#theme').value = view.theme;
+  };
   options($('#group'), themes.map(t => t.group));
-  options($('#theme'), themes.map(t => t.theme));
-  const bind = (id, key, prop) => $(id).addEventListener('input', () => { view[key] = $(id)[prop]; render(); });
+  themeOptions();
+  const bind = (id, key, prop) => $(id).addEventListener('input', () => { view[key] = $(id)[prop]; if (key === 'group') themeOptions(); render(); });
   bind('#mode', 'mode', 'value');
   bind('#group', 'group', 'value');
   bind('#theme', 'theme', 'value');

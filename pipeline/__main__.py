@@ -14,6 +14,8 @@ from .sources.http import Session
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ["Technology", "Physical world", "Social", "Broad thematic"]
+# Copy of the default weights hard-coded in method.score (SPEC 5.5); a test checks they reproduce its scores.
+WEIGHTS = {"size": 0.4, "cost": 0.2, "performance": 0.4}
 
 
 def write_json(path, data):
@@ -23,6 +25,13 @@ def write_json(path, data):
         file.write(text)
         temporary = Path(file.name)
     temporary.replace(path)
+
+
+def three_years_before(day):
+    try:
+        return day.replace(year=day.year - 3)
+    except ValueError:  # Feb 29
+        return day.replace(year=day.year - 3, day=28)
 
 
 def run(settings, output, cache_dir, directory_text=None):
@@ -84,10 +93,18 @@ def run(settings, output, cache_dir, directory_text=None):
     summaries.sort(key=lambda t: (GROUPS.index(t["group"]), -t["largest_net_assets"], t["theme"]))
     no_eligible.sort(key=lambda t: (GROUPS.index(t["group"]), t["theme"]))
     order = {t["theme"]: i for i, t in enumerate(summaries + no_eligible)}
+    # Price files for the charts: last 3 calendar years of adjusted closes, every fund with price data.
+    last_dates = [f["prices"][-1]["date"] for f in funds if f["prices"]]
     for fund in funds:
-        del fund["prices"]
+        prices = [p for p in fund.pop("prices") if p["adjusted_close"] is not None]
+        if prices:
+            start = three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat()
+            prices = [p for p in prices if p["date"] >= start]
+            write_json(output.parent / "prices" / f"{fund['ticker']}.json", {"ticker": fund["ticker"],
+                       "dates": [p["date"] for p in prices], "adjusted_close": [p["adjusted_close"] for p in prices]})
     result = {"data_source": source_name, "synthetic": source_name == "stub",
-              "generated_at": datetime.now(timezone.utc).isoformat(), "themes": summaries,
+              "generated_at": datetime.now(timezone.utc).isoformat(), "data_as_of": max(last_dates, default=None),
+              "weights": WEIGHTS, "themes": summaries,
               "no_eligible_themes": no_eligible,
               "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
               "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]]}

@@ -1,6 +1,6 @@
-# Site data contract: `site/data/screen.json`
+# Site data contract: `site/data/`
 
-Written by `python -m pipeline` (one file, all themes). Read by `site/app.js`.
+Written by `python -m pipeline`. Main file: `site/data/screen.json` (all themes). Read by `site/app.js`. Other files: price files (below), plus reserved holdings and history files that later tickets write.
 Numbers are JSON numbers; `null` means "no value". Dates are ISO `YYYY-MM-DD`; timestamps are ISO 8601 UTC.
 Fractions are fractions (0.0035 = 0.35%), money is USD.
 
@@ -11,6 +11,8 @@ Fractions are fractions (0.0035 = 0.35%), money is USD.
 | `data_source` | string | Adapter used (`yahoo`, `stub`). |
 | `synthetic` | bool | `true` for stub data. The site must label it as not market data. |
 | `generated_at` | timestamp | When the pipeline wrote the file. |
+| `data_as_of` | date or `null` | Latest price date across all funds (for the SPEC 6.6 stale banner). `null` only if no fund has price data. |
+| `weights` | `{size, cost, performance}` | Default score weights, `{"size": 0.4, "cost": 0.2, "performance": 0.4}` (SPEC 5.5). They are a copy of the numbers hard-coded in `pipeline/method.py`; a test checks they reproduce its scores. |
 | `themes` | array of Theme | Themes with at least one eligible fund, in display order (SPEC 5.6, see below). |
 | `no_eligible_themes` | array of NoEligibleTheme | Every other theme in `config/themes.yaml`, listed separately (SPEC 5.6), ordered by group then theme name. `themes` + `no_eligible_themes` = the whole taxonomy. |
 | `funds` | array of Fund | Every classified fund (both theme lists), sorted by theme order (`themes` first, then `no_eligible_themes`), then rank (unranked last), then ticker. |
@@ -70,7 +72,53 @@ Present only when `status == "Eligible"`: `percentiles` `{size, cost, performanc
 
 Optional: `warnings` (array of string), non-fatal data-source problems.
 
-Reserved for the holdings ticket: `top_holdings`, array of up to 3 `{name: string, weight: number}` (weight is a fraction of the fund), largest first. Absent = holdings not fetched yet; the site shows `—`.
+Reserved, written by #9: `top_holdings`, array of up to 3 `{name: string, weight: number}` (weight is a fraction of the fund), largest first; derivation under "Holdings files". Absent = no holdings file; the site shows `—`.
+
+## Score and rank (for live weights, #5)
+
+How `pipeline/method.py` computes them, so the browser can reproduce them exactly with the default weights:
+
+- `score = 100 * (w.size * percentiles.size + w.cost * percentiles.cost + w.performance * percentiles.performance)`, computed in that order (floating point; ties depend on it).
+- Rank inside a theme, eligible funds only, sorted by: `score` descending, then `net_assets` descending, then `ticker` ascending (string order). Rank 1 = first.
+- Gates, windows and percentiles are fixed by the pipeline; only the weights change in the browser.
+
+## Price files (for charts, #6)
+
+Path: `site/data/prices/<TICKER>.json`, one per fund that has at least one adjusted close.
+
+`{"ticker": string, "dates": [date, ...], "adjusted_close": [number, ...]}`
+
+- Same length, oldest first. Only days with an adjusted close (days where it is missing are left out).
+- Coverage: the last 3 calendar years up to the fund's own last adjusted close (Feb 29 falls back to Feb 28). Younger funds have shorter files.
+- Written atomically (temp file then rename), only when the run publishes (after the 90% check). Funds with stale data get their files rewritten from the last good data. Files of funds that drop out of the universe are not deleted.
+- Theme charts rebase to the theme's `window.start` using these files.
+
+## Holdings files (reserved, written by #9)
+
+Path: `site/data/holdings/<TICKER>.json`, one per fund with a working issuer holdings source (SPEC 4.1). No file = "full holdings unavailable".
+
+```json
+{"ticker": "NATO", "as_of": "2026-10-16", "fetched_at": "2026-10-17T22:40:00+00:00", "stale": false,
+ "source": "https://issuer.example/nato/holdings.csv",
+ "holdings": [{"name": "Airbus SE", "ticker": "AIR", "isin": "NL0000235190", "asset_type": "Equity", "weight": 0.081}]}
+```
+
+- `as_of`: the issuer file's own date. `source`: the URL it came from (`config/holdings_sources.yaml`). `stale`: last good file reused after a failed fetch.
+- Each holding: `name` (string), `ticker` (string or `null`), optional `isin`, `cusip`, `sedol` (only when the issuer gives them), `asset_type` (string as published), `weight` (fraction of net assets, as published, not rescaled).
+- Every published row is kept, including cash and derivatives. The overlap code drops non-equity rows (SPEC 4.1).
+- `Fund.top_holdings` in `screen.json` = the 3 largest equity companies by weight, after summing rows of the same company with the SPEC 6.5 matching (identifier, then normalized name, then `config/holding_aliases.yaml`). Each entry: `{name, weight}`. Absent when the fund has no holdings file.
+
+## History snapshots (reserved, written by #8 / #7)
+
+Path: `site/data/history/<YYYY-MM-DD>.json`, one per published run, named by the run's UTC date (`generated_at[:10]`). A rerun on the same day overwrites it. `site/data/history/index.json` lists the available dates, oldest first: `["2026-10-17", ...]` (a static site can't list a folder).
+
+Snapshot shape (compact, no indentation): `{"date": "2026-10-17", "funds": {"MJ": ["Cannabis", 2, 60.0, 104143576], ...}}`
+
+- One entry per fund in `screen.json`: `[theme, rank, score, net_assets]` (SPEC 6.4). `rank` and `score` are `null` unless eligible. Score rounded to 2 decimals, net assets to whole dollars.
+
+## Method panel (#12)
+
+The Method panel takes gate thresholds, window rules and weights from the SPEC 5 wording, not from this JSON. This file carries results, not rules (the one exception is `weights`, for the sliders).
 
 ## How the site reads it (`site/app.js`)
 
@@ -78,7 +126,7 @@ Reserved for the holdings ticket: `top_holdings`, array of up to 3 `{name: strin
 - `*` marker = `assets_source != "Yahoo totalAssets"`; the cell's tooltip names the source.
 - Window column = the theme's `window` dates, shown only for funds with a `cumulative_return` (measured funds).
 - "Hide under $50M" hides `net_assets < 50e6`; funds with `net_assets: null` stay visible (size unknown).
-- Ticker links use `issuer_url` only (resolved by the pipeline from `config/issuer_links.json`; https only).
+- Ticker links use `issuer_url` only (resolved by the pipeline from `config/issuer_links.json`; https only; an unparsable URL shows the plain ticker).
 - Top 3 = `status == "Eligible"` and `rank <= 3`; All eligible = `status == "Eligible"`; All screened = every fund. Themes in `no_eligible_themes` always list all their candidates (from `funds`), under the same columns.
 
 ## Example fund
@@ -90,6 +138,8 @@ From the live Yahoo run on 2026-10-17 (abridged top level):
   "data_source": "yahoo",
   "synthetic": false,
   "generated_at": "2026-10-17T22:48:31.365556+00:00",
+  "data_as_of": "2026-10-16",
+  "weights": {"size": 0.4, "cost": 0.2, "performance": 0.4},
   "themes": [
     {
       "theme": "Cannabis",
