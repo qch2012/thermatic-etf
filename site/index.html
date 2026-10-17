@@ -12,16 +12,27 @@
   <main>
     <h1>Thematic ETF screen</h1>
     <p id="status" role="status">Loading screen…</p>
-    <p>Scores are comparable within a theme only, not across themes. Dollar volume is shown, not scored.</p>
-    <label><input id="all" type="checkbox"> Show all screened funds (default: top 3 eligible)</label>
+    <p>Scores (0–100) rank funds within one theme only. They are not comparable across themes: a 70 in one theme and a 70 in another mean different things. Dollar volume is shown, not scored.</p>
+    <form class="controls" onsubmit="return false">
+      <label>Show <select id="mode">
+        <option value="top3">Top 3 per theme</option>
+        <option value="eligible">All eligible</option>
+        <option value="all">All screened (with gate status)</option>
+      </select></label>
+      <label>Group <select id="group"></select></label>
+      <label>Theme <select id="theme"></select></label>
+      <label>Search <input id="search" type="search" placeholder="Ticker or name"></label>
+      <label><input id="new-only" type="checkbox"> 🆕 only</label>
+      <label><input id="hide-small" type="checkbox"> Hide under $50M</label>
+    </form>
     <div class="table-scroll" tabindex="0" role="region" aria-label="Fund table, scroll horizontally for more columns">
       <table>
-        <caption>Funds by group and theme</caption>
-        <thead><tr><th scope="col">Rank</th><th scope="col">Ticker</th><th scope="col">Name</th><th scope="col">Launched</th><th scope="col">Net assets</th><th scope="col">Fee</th><th scope="col">Return</th><th scope="col">Ratio</th><th scope="col">Avg daily $ volume</th><th scope="col">Score</th><th scope="col">Status / flags</th></tr></thead>
+        <caption>Funds by group and theme. Select a column heading to sort within each theme.</caption>
+        <thead><tr id="head"></tr></thead>
         <tbody id="funds"></tbody>
       </table>
     </div>
-    <p>* Net assets use a fallback source. † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old.</p>
+    <p>* Net assets use a fallback source (hover for which). † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old. Stale: this run's fetch failed and the last good data is shown.</p>
   </main>
 </body>
 </html>

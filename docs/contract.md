@@ -70,6 +70,17 @@ Present only when `status == "Eligible"`: `percentiles` `{size, cost, performanc
 
 Optional: `warnings` (array of string), non-fatal data-source problems.
 
+Reserved for the holdings ticket: `top_holdings`, array of up to 3 `{name: string, weight: number}` (weight is a fraction of the fund), largest first. Absent = holdings not fetched yet; the site shows `—`.
+
+## How the site reads it (`site/app.js`)
+
+- 🆕 (flag and "🆕 only" filter) = `new && age != null`. A "No price data" fund has `new: true` but no `age`, so it gets no 🆕.
+- `*` marker = `assets_source != "Yahoo totalAssets"`; the cell's tooltip names the source.
+- Window column = the theme's `window` dates, shown only for funds with a `cumulative_return` (measured funds).
+- "Hide under $50M" hides `net_assets < 50e6`; funds with `net_assets: null` stay visible (size unknown).
+- Ticker links use `issuer_url` only (resolved by the pipeline from `config/issuer_links.json`; https only).
+- Top 3 = `status == "Eligible"` and `rank <= 3`; All eligible = `status == "Eligible"`; All screened = every fund. Themes in `no_eligible_themes` always list all their candidates (from `funds`), under the same columns.
+
 ## Example fund
 
 From the live Yahoo run on 2026-10-17 (abridged top level):
