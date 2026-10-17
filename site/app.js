@@ -9,13 +9,45 @@ const percent = value => value == null ? '—' : `${(value * 100).toFixed(2)}%`;
 const isNew = fund => fund.new && fund.age != null;
 const windowOf = fund => fund.cumulative_return == null ? null : view.windows[fund.theme];
 
-const view = { data: null, windows: {}, mode: 'top3', group: '', theme: '', search: '', newOnly: false, hideSmall: false, sort: null };
+// weights are slider values (any scale, normalized below); live maps ticker → {rank, score} for the current weights.
+const view = { data: null, windows: {}, mode: 'top3', group: '', theme: '', search: '', newOnly: false, hideSmall: false, sort: null,
+  weights: null, topN: 3, live: new Map() };
+const WEIGHTS = ['size', 'cost', 'performance'];
+const DEFAULT_TOP_N = 3;
+
+const rankOf = fund => view.live.get(fund.ticker)?.rank ?? fund.rank;
+const scoreOf = fund => view.live.get(fund.ticker)?.score ?? fund.score;
+
+// SPEC 6.2 / contract "Score and rank". Same formula, operand order and tie-break as pipeline/method.py, so the
+// default weights give the pipeline's scores and ranks exactly. All-zero sliders mean no usable split: use the defaults.
+function normalizedWeights() {
+  const total = WEIGHTS.reduce((sum, key) => sum + view.weights[key], 0);
+  const raw = total > 0 ? view.weights : defaultSliders();
+  const sum = WEIGHTS.reduce((n, key) => n + raw[key], 0);
+  return Object.fromEntries(WEIGHTS.map(key => [key, raw[key] / sum]));
+}
+
+function rescore() {
+  const w = normalizedWeights();
+  const byTheme = new Map();
+  for (const f of view.data.funds) {
+    if (f.status !== 'Eligible') continue;
+    const p = f.percentiles;
+    const list = byTheme.get(f.theme) ?? byTheme.set(f.theme, []).get(f.theme);
+    list.push({ fund: f, score: 100 * (w.size * p.size + w.cost * p.cost + w.performance * p.performance) });
+  }
+  view.live = new Map();
+  for (const list of byTheme.values()) {
+    list.sort((a, b) => b.score - a.score || b.fund.net_assets - a.fund.net_assets || (a.fund.ticker < b.fund.ticker ? -1 : a.fund.ticker > b.fund.ticker ? 1 : 0));
+    list.forEach(({ fund, score }, i) => view.live.set(fund.ticker, { rank: i + 1, score }));
+  }
+}
 
 const COLUMNS = [
-  { label: 'Rank', value: f => f.rank, cell: f => f.rank ?? '—' },
+  { label: 'Rank', value: rankOf, cell: f => rankOf(f) ?? '—' },
   { label: 'Ticker', value: f => f.ticker, cell: tickerCell },
   { label: 'Name', value: f => f.name, cell: f => f.name },
-  { label: 'Launched', value: f => f.first_trade_date, cell: f => f.first_trade_date },
+  { label: 'Launched', value: f => f.first_trade_date, cell: f => f.first_trade_date ?? '—' },
   { label: 'Net assets', value: f => f.net_assets, cell: f => `${money(f.net_assets)}${f.assets_source !== 'Yahoo totalAssets' ? '*' : ''} · ${f.assets_as_of}`, title: f => `Source: ${f.assets_source}` },
   { label: 'Fee', value: f => f.expense_ratio, cell: f => percent(f.expense_ratio) },
   { label: 'Window', value: f => windowOf(f)?.start, cell: f => windowOf(f) ? `${windowOf(f).start} to ${windowOf(f).end}` : '—' },
@@ -23,7 +55,7 @@ const COLUMNS = [
   { label: 'Ratio', value: f => f.ratio, cell: f => number(f.ratio) },
   { label: 'Avg daily $ volume', value: f => f.dollar_volume, cell: f => money(f.dollar_volume) },
   { label: 'Top 3 holdings', value: null, cell: f => f.top_holdings?.map(h => `${h.name} ${percent(h.weight)}`).join(', ') || '—' },
-  { label: 'Score', value: f => f.score, cell: f => number(f.score, 1) },
+  { label: 'Score', value: scoreOf, cell: f => number(scoreOf(f), 1) },
   { label: 'Status / flags', value: f => f.status, cell: flags },
 ];
 
@@ -47,15 +79,14 @@ function visible(fund, mode) {
   const search = view.search.trim().toLowerCase();
   return (!view.group || fund.group === view.group) && (!view.theme || fund.theme === view.theme)
     && (!search || fund.ticker.toLowerCase().includes(search) || fund.name.toLowerCase().includes(search))
-    && (!view.newOnly || isNew(fund)) && !(view.hideSmall && fund.net_assets != null && fund.net_assets < 50e6)
-    && (mode === 'all' || (fund.status === 'Eligible' && (mode === 'eligible' || fund.rank <= 3)));
+    && (!view.newOnly || isNew(fund)) && !(view.hideSmall && !(fund.net_assets >= 50e6))
+    && (mode === 'all' || (fund.status === 'Eligible' && (mode === 'eligible' || rankOf(fund) <= view.topN)));
 }
 
 function sorted(funds) {
-  if (!view.sort) return funds;
-  const { value } = COLUMNS[view.sort.column];
-  const sign = view.sort.descending ? -1 : 1;
-  // Missing values go last in both directions; ties keep pipeline order (rank).
+  // Missing values go last in both directions; ties keep pipeline order. Without a chosen sort: live rank.
+  const { value } = COLUMNS[view.sort ? view.sort.column : 0];
+  const sign = view.sort?.descending ? -1 : 1;
   return [...funds].sort((a, b) => {
     const x = value(a), y = value(b);
     if (x == null || y == null) return (x == null) - (y == null);
@@ -123,16 +154,24 @@ function render() {
     headingRow(body, `${theme.group} — ${theme.theme}: ${window}; ${theme.eligible} eligible of ${theme.candidates}`, 'theme');
     members.forEach(f => fundRow(body, f));
   }
-  // SPEC 5.6: listed separately with every candidate and its failed gate, whatever the Top 3 / All toggle says.
+  // SPEC 5.6: listed separately with every candidate and its failed gate. Top view lists theme names only (Andy, 2026-10-17).
   const fundFilter = view.search.trim() || view.newOnly || view.hideSmall;
-  let heading = false;
+  const listed = [];
   for (const theme of view.data.no_eligible_themes) {
     if ((view.group && theme.group !== view.group) || (view.theme && theme.theme !== view.theme)) continue;
     const members = sorted(funds.filter(f => f.theme === theme.theme && visible(f, 'all')));
     if (!members.length && (theme.candidates.length || fundFilter)) continue;
-    if (!heading) headingRow(body, 'Themes with no eligible fund', 'group'), heading = true;
-    headingRow(body, `${theme.group} — ${theme.theme}${theme.candidates.length ? ': status shows why each candidate failed' : ': no candidates'}`, 'theme');
-    members.forEach(f => fundRow(body, f));
+    listed.push({ theme, members });
+  }
+  if (!listed.length) return;
+  const namesOnly = view.mode === 'top3';
+  headingRow(body, namesOnly ? `Themes with no eligible fund (${listed.length})` : 'Themes with no eligible fund', 'group');
+  for (const { theme, members } of listed) {
+    if (namesOnly) headingRow(body, `${theme.group} — ${theme.theme}`, 'theme');
+    else {
+      headingRow(body, `${theme.group} — ${theme.theme}${theme.candidates.length ? ': status shows why each candidate failed' : ': no candidates'}`, 'theme');
+      members.forEach(f => fundRow(body, f));
+    }
   }
 }
 
@@ -165,6 +204,36 @@ function renderControls() {
   bind('#hide-small', 'hideSmall', 'checked');
 }
 
+// Live weights (SPEC 6.2). Sliders hold raw values; the outputs show the normalized split.
+const defaultSliders = () => Object.fromEntries(WEIGHTS.map(key => [key, Math.round(view.data.weights[key] * 1000) / 10]));
+const isDefaultSplit = () => { const w = normalizedWeights(); return WEIGHTS.every(key => Math.abs(w[key] - view.data.weights[key]) < 1e-9); };
+
+function syncWeights() {
+  const w = normalizedWeights();
+  for (const key of WEIGHTS) {
+    $(`#w-${key}`).value = view.weights[key];
+    $(`#w-${key}-out`).textContent = `${Number((w[key] * 100).toFixed(1))}%`;
+  }
+  $('#top-n').value = view.topN;
+  $('#top-n-out').textContent = view.topN;
+  $('#mode').children[0].textContent = `Top ${view.topN} per theme`;
+  $('#weights-state').textContent = isDefaultSplit() ? 'Default weights: ranks match the daily run.' : 'Custom weights: ranks and scores differ from the daily run.';
+}
+
+function renderWeights() {
+  view.weights = defaultSliders();
+  for (const key of WEIGHTS) $(`#w-${key}`).addEventListener('input', () => { view.weights[key] = Number($(`#w-${key}`).value); update(); });
+  $('#top-n').addEventListener('input', () => { view.topN = Number($('#top-n').value); update(); });
+  $('#weights-reset').addEventListener('click', () => { view.weights = defaultSliders(); view.topN = DEFAULT_TOP_N; update(); });
+  update();
+}
+
+function update() {
+  rescore();
+  syncWeights();
+  render();
+}
+
 async function load() {
   try {
     const response = await fetch('data/screen.json');
@@ -175,7 +244,7 @@ async function load() {
     $('#status').textContent = `${data.synthetic ? 'SYNTHETIC DEMO — not market data. ' : ''}Generated ${data.generated_at}. ${data.themes.length + data.no_eligible_themes.length} themes, ${data.funds.length} funds; ${data.failed_fetches.length} failed fetches.`;
     renderControls();
     renderHead();
-    render();
+    renderWeights();
   } catch (error) {
     $('#status').textContent = `Cannot load screen: ${error.message}. Run the pipeline first and serve site/ over HTTP.`;
   }

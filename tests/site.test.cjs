@@ -24,7 +24,8 @@ class Element {
 const text = el => el.children.length ? el.children.map(text).join('') : String(el.textContent);
 
 async function page(json) {
-  const elements = {};
+  const elements = { '#mode': Object.assign(new Element('select'), {
+    children: ['Top 3 per theme', 'All eligible', 'All screened (with gate status)'].map(t => Object.assign(new Element('option'), { textContent: t })) }) };
   const document = { querySelector: id => (elements[id] ??= new Element(id)), createElement: tag => new Element(tag) };
   const fetch = async () => (json ? { ok: true, json: async () => json } : { ok: false, status: 404 });
   vm.runInNewContext(fs.readFileSync('site/app.js', 'utf8'), { document, fetch, URL, Intl });
@@ -50,6 +51,7 @@ function base(over) {
 
 const FIXTURE = {
   data_source: 'stub', synthetic: true, generated_at: '2026-10-17T22:00:00+00:00', failed_fetches: [],
+  weights: { size: 0.4, cost: 0.2, performance: 0.4 },
   themes: [
     { theme: 'Semiconductors', group: 'Technology', candidates: 5, eligible: 4, window: { start: '2023-10-16', end: '2026-10-16', observations: 754 } },
     { theme: 'Cannabis', group: 'Social', candidates: 1, eligible: 1, window: null },
@@ -59,15 +61,16 @@ const FIXTURE = {
     { theme: 'Aging & longevity', group: 'Social', candidates: [] },
   ],
   funds: [
-    base({ ticker: 'S1', name: 'Big Chip ETF', rank: 1, score: 91.234, net_assets: 1234567890, issuer_url: 'https://issuer.example/s1' }),
-    base({ ticker: 'S2', name: '<b>New Chip</b>', rank: 2, net_assets: 40e6, assets_source: 'issuer website', assets_as_of: '2026-08-31',
+    base({ ticker: 'S1', name: 'Big Chip ETF', rank: 1, score: 91.234, percentiles: { size: 1, cost: 1, performance: 0.78085 }, net_assets: 1234567890, issuer_url: 'https://issuer.example/s1' }),
+    base({ ticker: 'S2', name: '<b>New Chip</b>', rank: 2, score: 50, percentiles: { size: 0.25, cost: 1, performance: 0.5 }, net_assets: 40e6, assets_source: 'issuer website', assets_as_of: '2026-08-31',
       age: 0.3, new: true, performance_unmeasured: true, cumulative_return: null, ratio: null }),
-    base({ ticker: 'S3', name: 'Stale Chip ETF', rank: 3, net_assets: 300e6, stale: true, assets_stale: true }),
-    base({ ticker: 'S4', name: 'Fourth Chip ETF', rank: 4, net_assets: 200e6, expense_ratio: null }),
+    base({ ticker: 'S3', name: 'Stale Chip ETF', rank: 3, score: 44, percentiles: { size: 0.75, cost: 0.5, performance: 0.1 }, net_assets: 300e6, stale: true, assets_stale: true }),
+    base({ ticker: 'S4', name: 'Fourth Chip ETF', rank: 4, score: 34, percentiles: { size: 0.5, cost: 0.5, performance: 0.1 }, net_assets: 200e6, expense_ratio: null }),
     // No price data: method.py gives new: true without an age (contract caveat).
     base({ ticker: 'S5', name: 'Dead Chip ETF', rank: null, score: null, status: 'No price data', new: true, age: undefined,
+      first_trade_date: null, fetched_at: null,
       net_assets: null, cumulative_return: null, ratio: null, dollar_volume: undefined, performance_unmeasured: undefined }),
-    base({ ticker: 'C1', name: 'Pot ETF', theme: 'Cannabis', group: 'Social', rank: 1, score: 100, cumulative_return: null, ratio: null, performance_unmeasured: true }),
+    base({ ticker: 'C1', name: 'Pot ETF', theme: 'Cannabis', group: 'Social', rank: 1, score: 80, percentiles: { size: 1, cost: 1, performance: 0.5 }, cumulative_return: null, ratio: null, performance_unmeasured: true }),
     base({ ticker: 'H1', name: 'Hydrogen ETF', theme: 'Hydrogen', group: 'Physical world', status: 'Under $100M (established minimum)',
       rank: null, score: null, net_assets: 60e6, issuer_url: 'https://issuer.example/h1' }),
   ],
@@ -88,6 +91,11 @@ test('every number on the main screen matches a real pipeline run', async () => 
   p.set('#mode', 'value', 'all');
   const rows = p.fundRows();
   assert.equal(rows.length, data.funds.length);
+  // Default weights: live ranks are the pipeline's ranks, in the pipeline's order (ties included).
+  for (const t of data.themes) {
+    const expected = data.funds.filter(f => f.theme === t.theme && f.rank != null).sort((a, b) => a.rank - b.rank).map(f => f.ticker);
+    assert.deepEqual(p.tickers().filter(k => expected.includes(k)), expected, t.theme);
+  }
   const windows = Object.fromEntries(data.themes.map(t => [t.theme, t.window]));
   const byTicker = new Map(rows.map(r => [text(r.children[1]), r.children]));
   for (const f of data.funds) {
@@ -98,7 +106,7 @@ test('every number on the main screen matches a real pipeline run', async () => 
       : assert.ok(Math.abs(shown - value) <= tolerance, `${f.ticker}: ${shown} vs ${value}`);
     assert.equal(at('Rank'), f.rank == null ? '—' : String(f.rank));
     assert.equal(at('Name'), f.name);
-    assert.equal(at('Launched'), f.first_trade_date);
+    assert.equal(at('Launched'), f.first_trade_date ?? '—');
     const [assets, asOf] = at('Net assets').split(' · ');
     close(parseMoney(assets.replace('*', '')), f.net_assets, f.net_assets * 0.005);
     assert.equal(assets.endsWith('*'), f.assets_source !== 'Yahoo totalAssets');
@@ -116,7 +124,9 @@ test('every number on the main screen matches a real pipeline run', async () => 
 
 test('columns, links and flags line up for every row, including themes with no eligible fund', async () => {
   const p = await page(FIXTURE);
-  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1', 'H1']);
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1']);
+  p.set('#mode', 'value', 'eligible');
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'S4', 'C1', 'H1']);
   for (const row of p.fundRows()) assert.equal(row.children.length, HEADERS.length);
   const cells = Object.fromEntries(p.fundRows().map(r => [text(r.children[1]), r.children.map(text)]));
   assert.deepEqual(cells.S1.slice(0, 9), ['1', 'S1', 'Big Chip ETF', '2020-01-02', '$1.23B · 2026-10-17', '0.50%', '2023-10-16 to 2026-10-16', '20.00%', '0.50']);
@@ -136,6 +146,22 @@ test('columns, links and flags line up for every row, including themes with no e
   assert.ok(headings.some(h => h.startsWith('Social — Aging & longevity') && /no candidates/.test(h)));
 });
 
+test('Top 3 view lists themes with no eligible fund by name only, with a count', async () => {
+  const p = await page(FIXTURE);
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1']);  // no H1 candidate row
+  const headings = () => p.headings().filter(h => /Hydrogen|Aging|no eligible/.test(h));
+  assert.deepEqual(headings(), ['Themes with no eligible fund (2)', 'Physical world — Hydrogen', 'Social — Aging & longevity']);
+  p.set('#group', 'value', 'Social');
+  assert.deepEqual(headings(), ['Themes with no eligible fund (1)', 'Social — Aging & longevity']);
+  p.set('#group', 'value', '');
+  p.set('#search', 'value', 'hydrogen');  // a fund filter keeps only themes with a matching candidate
+  assert.deepEqual(headings(), ['Themes with no eligible fund (1)', 'Physical world — Hydrogen']);
+  p.set('#search', 'value', '');
+  p.set('#mode', 'value', 'all');  // the other views keep the full candidate rows
+  assert.ok(p.tickers().includes('H1'));
+  assert.ok(p.headings().includes('Themes with no eligible fund'));
+});
+
 test('Top 3 / All eligible / All screened toggle', async () => {
   const p = await page(FIXTURE);
   p.set('#mode', 'value', 'eligible');
@@ -143,6 +169,7 @@ test('Top 3 / All eligible / All screened toggle', async () => {
   p.set('#mode', 'value', 'all');
   assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'S4', 'S5', 'C1', 'H1']);
   const s5 = p.fundRows().find(r => text(r.children[1]) === 'S5').children.map(text);
+  assert.equal(s5[3], '—');  // first_trade_date: null shows a dash, not "null"
   assert.equal(s5[12], 'No price data');  // no 🆕: no price data means no known age
 });
 
@@ -154,7 +181,7 @@ test('filters by group, theme, text, 🆕 only and hide under $50M', async () =>
   assert.ok(!p.headings().includes('Themes with no eligible fund'));  // empty section has no heading
   p.set('#new-only', 'checked', false);
   p.set('#hide-small', 'checked', true);
-  assert.deepEqual(p.tickers(), ['S1', 'S3', 'S4', 'S5', 'C1', 'H1']);  // unknown size is not "under $50M"
+  assert.deepEqual(p.tickers(), ['S1', 'S3', 'S4', 'C1', 'H1']);  // unknown size is hidden too (Andy, 2026-10-17)
   p.set('#hide-small', 'checked', false);
   p.set('#group', 'value', 'Social');
   assert.deepEqual(p.tickers(), ['C1']);
@@ -214,4 +241,87 @@ test('page states scores are not comparable across themes, and labels synthetic 
 test('reports missing generated data', async () => {
   const p = await page(null);
   assert.match(p.elements['#status'].textContent, /Cannot load screen: HTTP 404/);
+});
+
+const SLIDERS = { size: '#w-size', cost: '#w-cost', performance: '#w-performance' };
+const weights = (p, size, cost, performance) => { p.set(SLIDERS.size, 'value', size); p.set(SLIDERS.cost, 'value', cost); p.set(SLIDERS.performance, 'value', performance); };
+const column = (p, label) => p.fundRows().map(r => text(r.children[HEADERS.indexOf(label)]));
+
+test('live weights start at the pipeline defaults and show normalized percentages', async () => {
+  const p = await page(FIXTURE);
+  assert.deepEqual(Object.values(SLIDERS).map(id => Number(p.elements[id].value)), [40, 20, 40]);
+  assert.deepEqual(Object.keys(SLIDERS).map(k => p.elements[`#w-${k}-out`].textContent), ['40%', '20%', '40%']);
+  assert.equal(Number(p.elements['#top-n'].value), 3);
+  p.set('#mode', 'value', 'eligible');
+  assert.deepEqual(column(p, 'Score').slice(0, 4), ['91.2', '50.0', '44.0', '34.0']);
+  // Weights are normalized: 50/25/50 is the same split as 40/20/40, so nothing moves.
+  weights(p, '50', '25', '50');
+  assert.deepEqual(Object.keys(SLIDERS).map(k => p.elements[`#w-${k}-out`].textContent), ['40%', '20%', '40%']);
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'S4', 'C1', 'H1']);
+  assert.deepEqual(column(p, 'Score').slice(0, 4), ['91.2', '50.0', '44.0', '34.0']);
+});
+
+test('moving a slider reorders funds, ranks and scores live; Reset restores the defaults', async () => {
+  const p = await page(FIXTURE);
+  p.set('#mode', 'value', 'eligible');
+  weights(p, '100', '0', '0');  // size only: S1 100, S3 75, S4 50, S2 25
+  assert.deepEqual(p.tickers(), ['S1', 'S3', 'S4', 'S2', 'C1', 'H1']);
+  assert.deepEqual(column(p, 'Rank').slice(0, 5), ['1', '2', '3', '4', '1']);
+  assert.deepEqual(column(p, 'Score').slice(0, 5), ['100.0', '75.0', '50.0', '25.0', '100.0']);
+  assert.deepEqual(Object.keys(SLIDERS).map(k => p.elements[`#w-${k}-out`].textContent), ['100%', '0%', '0%']);
+  assert.match(p.elements['#weights-state'].textContent, /custom/i);
+  p.set('#mode', 'value', 'top3');  // Top 3 follows the live rank, not the pipeline rank
+  assert.deepEqual(p.tickers(), ['S1', 'S3', 'S4', 'C1']);
+  p.elements['#weights-reset'].listeners.click();
+  assert.deepEqual(Object.values(SLIDERS).map(id => Number(p.elements[id].value)), [40, 20, 40]);
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1']);
+  assert.deepEqual(column(p, 'Rank'), ['1', '2', '3', '1']);
+  assert.doesNotMatch(p.elements['#weights-state'].textContent, /custom/i);
+});
+
+test('sorting by Rank follows the live rank', async () => {
+  const p = await page(FIXTURE);
+  p.set('#mode', 'value', 'eligible');
+  weights(p, '100', '0', '0');
+  p.elements['#head'].children[0].children[0].listeners.click();  // Rank ascending
+  assert.deepEqual(p.tickers().slice(0, 4), ['S1', 'S3', 'S4', 'S2']);
+  p.elements['#head'].children[0].children[0].listeners.click();  // Rank descending
+  assert.deepEqual(p.tickers().slice(0, 4), ['S2', 'S4', 'S3', 'S1']);
+});
+
+test('equal scores rank by net assets, then by ticker', async () => {
+  const tie = (ticker, net_assets, rank) => base({ ticker, name: ticker, rank, net_assets, percentiles: { size: 0.5, cost: 0.5, performance: 0.5 } });
+  const data = { ...FIXTURE, no_eligible_themes: [], themes: [FIXTURE.themes[0]],
+    funds: [tie('CCC', 400e6, 1), tie('AAA', 300e6, 2), tie('BBB', 300e6, 3), tie('DDD', 100e6, 4)] };
+  const p = await page(data);
+  p.set('#mode', 'value', 'eligible');
+  assert.deepEqual(p.tickers(), ['CCC', 'AAA', 'BBB', 'DDD']);
+  assert.deepEqual(column(p, 'Rank'), ['1', '2', '3', '4']);
+  weights(p, '10', '90', '0');  // still all tied
+  assert.deepEqual(p.tickers(), ['CCC', 'AAA', 'BBB', 'DDD']);
+});
+
+test('top-N slider sets how many funds Top view shows; Reset returns to 3', async () => {
+  const p = await page(FIXTURE);
+  p.set('#top-n', 'value', '2');
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'C1']);
+  assert.equal(p.elements['#mode'].children[0].textContent, 'Top 2 per theme');
+  p.set('#top-n', 'value', '4');
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'S4', 'C1']);
+  p.elements['#weights-reset'].listeners.click();
+  assert.equal(Number(p.elements['#top-n'].value), 3);
+  assert.equal(p.elements['#mode'].children[0].textContent, 'Top 3 per theme');
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1']);
+});
+
+test('all weights at zero fall back to the defaults', async () => {
+  const p = await page(FIXTURE);
+  weights(p, '0', '0', '0');
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1']);
+  assert.deepEqual(Object.keys(SLIDERS).map(k => p.elements[`#w-${k}-out`].textContent), ['40%', '20%', '40%']);
+});
+
+test('page says gates and windows stay as computed next to the sliders', () => {
+  const html = fs.readFileSync('site/index.html', 'utf8');
+  assert.match(html, /<section id="weights"[\s\S]*id="w-size"[\s\S]*gates and performance windows stay as the pipeline computed them[\s\S]*<\/section>/i);
 });

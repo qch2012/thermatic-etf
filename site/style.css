@@ -13,3 +13,7 @@ th.theme { font-weight: 600; background: #eef2f5; white-space: normal; }
 thead button { font: inherit; font-weight: bold; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; }
 th[aria-sort=ascending] button::after { content: " ▲"; }
 th[aria-sort=descending] button::after { content: " ▼"; }
+#weights h2 { font-size: 1.1rem; margin: 1rem 0 .25rem; }
+.sliders { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; }
+.sliders label { display: flex; gap: .5rem; align-items: center; }
+.sliders output { min-width: 3.5em; font-variant-numeric: tabular-nums; }

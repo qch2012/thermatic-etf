@@ -125,9 +125,9 @@ The Method panel takes gate thresholds, window rules and weights from the SPEC 5
 - 🆕 (flag and "🆕 only" filter) = `new && age != null`. A "No price data" fund has `new: true` but no `age`, so it gets no 🆕.
 - `*` marker = `assets_source != "Yahoo totalAssets"`; the cell's tooltip names the source.
 - Window column = the theme's `window` dates, shown only for funds with a `cumulative_return` (measured funds).
-- "Hide under $50M" hides `net_assets < 50e6`; funds with `net_assets: null` stay visible (size unknown).
+- "Hide under $50M" hides `net_assets < 50e6` and funds with `net_assets: null` (size unknown; Andy, 2026-10-17).
 - Ticker links use `issuer_url` only (resolved by the pipeline from `config/issuer_links.json`; https only; an unparsable URL shows the plain ticker).
-- Top 3 = `status == "Eligible"` and `rank <= 3`; All eligible = `status == "Eligible"`; All screened = every fund. Themes in `no_eligible_themes` always list all their candidates (from `funds`), under the same columns.
+- Top 3 = `status == "Eligible"` and live rank <= N (N = 3 by default, set by the top-N slider); All eligible = `status == "Eligible"`; All screened = every fund. Rank and score shown are recomputed in the browser from `percentiles` and the slider weights (equal to `rank`/`score` at the default weights). Themes in `no_eligible_themes`: Top 3 lists theme names only, with a count; All eligible and All screened list all their candidates (from `funds`), under the same columns.
 
 ## Example fund
 

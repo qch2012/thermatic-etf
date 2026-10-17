@@ -13,6 +13,19 @@
     <h1>Thematic ETF screen</h1>
     <p id="status" role="status">Loading screen…</p>
     <p>Scores (0–100) rank funds within one theme only. They are not comparable across themes: a 70 in one theme and a 70 in another mean different things. Dollar volume is shown, not scored.</p>
+    <!-- Live weights (#5) -->
+    <section id="weights" aria-labelledby="weights-heading">
+      <h2 id="weights-heading">Live weights</h2>
+      <div class="sliders">
+        <label for="w-size">Size <input id="w-size" type="range" min="0" max="100" step="1"> <output id="w-size-out" for="w-size"></output></label>
+        <label for="w-cost">Cost <input id="w-cost" type="range" min="0" max="100" step="1"> <output id="w-cost-out" for="w-cost"></output></label>
+        <label for="w-performance">Performance <input id="w-performance" type="range" min="0" max="100" step="1"> <output id="w-performance-out" for="w-performance"></output></label>
+        <label for="top-n">Top N per theme <input id="top-n" type="range" min="1" max="10" step="1"> <output id="top-n-out" for="top-n"></output></label>
+        <button id="weights-reset" type="button">Reset to default</button>
+      </div>
+      <p id="weights-state" role="status"></p>
+      <p>Weights are normalized to 100%. Gates and performance windows stay as the pipeline computed them; only the score weights and the ranks they produce change here.</p>
+    </section>
     <form class="controls" onsubmit="return false">
       <label>Show <select id="mode">
         <option value="top3">Top 3 per theme</option>
