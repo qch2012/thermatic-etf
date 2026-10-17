@@ -100,8 +100,12 @@ function headingRow(body, text, className, chart) {
   cell.colSpan = COLUMNS.length;
   cell.scope = 'colgroup';
   cell.className = className;
-  if (chart) cell.append(chartButton(text, chart));
-  else cell.textContent = text;
+  // The inner span stays in view when a wide table is scrolled sideways (CSS .stick).
+  const inner = document.createElement('span');
+  inner.className = 'stick';
+  if (chart) inner.append(chartButton(text, chart));
+  else inner.textContent = text;
+  cell.append(inner);
   row.append(cell);
   body.append(row);
 }

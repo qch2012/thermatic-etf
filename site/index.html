@@ -10,7 +10,10 @@
 </head>
 <body>
   <main>
-    <h1>Thematic ETF screen</h1>
+    <header class="top">
+      <h1>Thematic ETF screen</h1>
+      <nav aria-label="Page sections"><a href="#method">Method</a></nav>
+    </header>
     <p id="status" role="status">Loading screen…</p>
     <p>Scores (0–100) rank funds within one theme only. They are not comparable across themes: a 70 in one theme and a 70 in another mean different things. Dollar volume is shown, not scored.</p>
     <!-- Live weights (#5) -->
@@ -56,6 +59,147 @@
       <div id="chart-body"></div>
       <p id="chart-summary" role="status"></p>
     </section>
+
+    <!-- Method panel (#12): wording follows SPEC section 5; every rule has its reason beside it -->
+    <section id="method" aria-labelledby="method-heading">
+      <h2 id="method-heading">Method</h2>
+      <p>How a fund gets on this page, how it is measured, and how it is scored. Each rule is followed by the reason it exists.</p>
+
+      <h3>Which funds are screened</h3>
+      <ul class="rules">
+        <li>
+          <p class="rule">Start with every ETF in the Nasdaq directory, leaving out test issues.</p>
+          <p class="why">Why: the directory lists every ETF that trades in the US, so no fund is missed just because nobody thought of it.</p>
+        </li>
+        <li>
+          <p class="rule">Drop funds whose names show they are leveraged or inverse, option-income, buffer, bond, spot crypto or futures funds, and a short list of named tickers.</p>
+          <p class="why">Why: these funds do not simply hold a basket of companies in a theme. Their results come from leverage, options or other assets, so comparing them with thematic stock funds would mislead.</p>
+        </li>
+        <li>
+          <p class="rule">Sort each remaining fund into a theme by its name. The rules run in order and the first match wins. A per-ticker override beats the rules.</p>
+          <p class="why">Why: the name is the one description every fund has. Taking the first match means a name with two theme words lands in one theme, in a predictable way. Overrides fix the few funds whose names do not say what they hold.</p>
+        </li>
+        <li>
+          <p class="rule">Each theme sits in one of four groups: Technology, Physical world, Social or Broad thematic.</p>
+          <p class="why">Why: it follows Morningstar's grouping, which keeps a long list of themes browsable in four chunks.</p>
+        </li>
+      </ul>
+
+      <h3>Gates: a fund must pass all four, in this order</h3>
+      <p>A fund that fails stays in the data. Its status shows the first gate it failed.</p>
+      <ul class="rules">
+        <li>
+          <p class="rule">Price data: the fund must have a price history. Status if not: "No price data".</p>
+          <p class="why">Why: without prices we cannot work out its age, how much it trades or how it performed.</p>
+        </li>
+        <li>
+          <p class="rule">Net assets: a net-asset figure must exist from some source. Status if not: "No net-asset data". A figure from a fallback source is marked *.</p>
+          <p class="why">Why: size is 40% of the score. A guessed number would put an invented value into the ranking, so a missing one is shown as missing.</p>
+        </li>
+        <li>
+          <p class="rule">Size: net assets of at least $100M for a fund aged 3 years or more, and at least $25M for a younger fund. Status if not: "Under $100M (established minimum)" or "Under $25M (emerging minimum)".</p>
+          <p class="why">Why: very small funds are more likely to close and are harder to trade. Younger funds get a lower bar because every fund starts small.</p>
+        </li>
+        <li>
+          <p class="rule">Liquidity: the average of close times volume over the last 63 trading days must be at least $0.5M a day. Status if not: "Under $0.5M avg daily $ volume".</p>
+          <p class="why">Why: a fund that barely trades is hard to buy or sell at a fair price. 63 trading days is about three months, long enough to smooth out one quiet week.</p>
+        </li>
+        <li>
+          <p class="rule">Age is the days between the first trade date and the last price date, divided by 365.25.</p>
+          <p class="why">Why: 365.25 averages in leap years, so a fund's age in years does not drift.</p>
+        </li>
+      </ul>
+
+      <h3>The performance window</h3>
+      <p>Each theme has one window, shared by all of its funds.</p>
+      <ul class="rules">
+        <li>
+          <p class="rule">Measured funds are the eligible funds aged 0.5 years or more. Younger funds are flagged 🆕 and do not affect the window.</p>
+          <p class="why">Why: a few weeks of prices say little about performance, and one brand-new fund should not shorten the window for everyone else.</p>
+        </li>
+        <li>
+          <p class="rule">The window ends on the latest trading date that all measured funds share. It starts at the later of two dates: the latest launch date among measured funds, or the end minus 3 years. The start is then moved forward to the first shared trading date on or after it.</p>
+          <p class="why">Why: every fund is judged over exactly the same dates, so none can look better by being measured over a kinder stretch. The 3-year cap keeps old market episodes from dominating.</p>
+        </li>
+        <li>
+          <p class="rule">Only dates that every measured fund traded on are used, and no prices from before the start are used.</p>
+          <p class="why">Why: returns and volatility are then computed on identical days for every fund, so they can be compared directly.</p>
+        </li>
+        <li>
+          <p class="rule">The window length L is the calendar days from start to end, divided by 365.25. If L is under 0.5 years, or the theme has no measured funds, performance is unmeasured for the whole theme.</p>
+          <p class="why">Why: under six months of data is mostly noise. Showing "unmeasured" is more honest than ranking on it.</p>
+        </li>
+      </ul>
+
+      <h3>The numbers shown</h3>
+      <ul class="rules">
+        <li>
+          <p class="rule">Return is the cumulative total return: end price divided by start price, minus 1, using adjusted close.</p>
+          <p class="why">Why: adjusted close includes distributions, so a fund that pays out income is not marked down for it.</p>
+        </li>
+        <li>
+          <p class="rule">Annualized return is (end price divided by start price) raised to 1/L, minus 1. This applies to every measured window, including those under a year.</p>
+          <p class="why">Why: it puts windows of different lengths on a per-year scale, so they can be compared.</p>
+        </li>
+        <li>
+          <p class="rule">Volatility is the sample standard deviation (n minus 1) of daily log returns on the shared dates, times the square root of 252.</p>
+          <p class="why">Why: it measures how bumpy the ride was. 252 is the usual number of trading days in a year, so the figure is per year.</p>
+        </li>
+        <li>
+          <p class="rule">Ratio is annualized return divided by annualized volatility. Higher is better. It is not the Sharpe ratio: no risk-free rate is subtracted.</p>
+          <p class="why">Why: it rewards return per unit of bumpiness. Leaving out a risk-free rate means it depends only on the funds' own prices, so no outside number is needed.</p>
+        </li>
+      </ul>
+
+      <h3>The score: 0 to 100, within one theme only</h3>
+      <ul class="rules">
+        <li>
+          <p class="rule">Each part of the score is a percentile among the eligible funds in the same theme: rank divided by the number of funds, with tied funds sharing the average rank. The best fund gets 1.0. A sole fund gets 1.0.</p>
+          <p class="why">Why: percentiles put size, fees and return-per-risk on one scale, and one extreme fund cannot swamp the rest.</p>
+        </li>
+        <li>
+          <p class="rule">Size counts 40% (net assets, higher is better). Cost counts 20% (expense ratio, lower is better). Performance counts 40% (the ratio, with the percentile taken among measured funds only).</p>
+          <p class="why">Why: size shows a fund is likely to survive and be easy to trade, and performance is the point of picking a fund, so both count most. Cost counts less but never stops: it is paid every year. The sliders above let you try other weights.</p>
+        </li>
+        <li>
+          <p class="rule">A missing expense ratio, or unmeasured performance, gets a neutral 0.5. Unmeasured performance is flagged †.</p>
+          <p class="why">Why: a fund is neither rewarded nor punished for something we cannot see.</p>
+        </li>
+        <li>
+          <p class="rule">Score = 100 × (0.4 × size + 0.2 × cost + 0.4 × performance). Funds are ranked by score. Ties go to the larger fund.</p>
+          <p class="why">Why: when scores are equal, the fund with more assets is the safer pick.</p>
+        </li>
+        <li>
+          <p class="rule">Scores are not comparable across themes.</p>
+          <p class="why">Why: a score only says how a fund ranks among its own theme's eligible funds. A 70 in one theme and a 70 in another mean different things.</p>
+        </li>
+        <li>
+          <p class="rule">Average daily dollar volume is shown but not scored.</p>
+          <p class="why">Why: it rises with size, so scoring it would count size twice.</p>
+        </li>
+      </ul>
+
+      <h3>What the page shows</h3>
+      <ul class="rules">
+        <li>
+          <p class="rule">Top 3 per theme, with no minimum score.</p>
+          <p class="why">Why: a short list is easier to act on. The gates already filter out weak funds, so a score floor would only hide the best fund in a weak theme.</p>
+        </li>
+        <li>
+          <p class="rule">Themes are grouped, and ordered by the net assets of their largest fund.</p>
+          <p class="why">Why: the themes with the most money in them come first.</p>
+        </li>
+        <li>
+          <p class="rule">Themes with no eligible fund are listed separately, with their candidates and the reason each failed.</p>
+          <p class="why">Why: a theme that is missing from the ranking should read as "nothing passed the gates", not "we forgot it".</p>
+        </li>
+        <li>
+          <p class="rule">The sliders change the weights and the top N. Gates, windows and percentiles stay as the daily run computed them.</p>
+          <p class="why">Why: how much to value size, cost and performance is a matter of taste. Gates and windows are facts about the data, and changing them would need the full price history in your browser.</p>
+        </li>
+      </ul>
+    </section>
+    <!-- Overlap (#9) mounts here, before the Method panel -->
   </main>
 </body>
 </html>

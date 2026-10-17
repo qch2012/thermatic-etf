@@ -31,3 +31,23 @@ svg.chart .base { stroke: #7d8a96; stroke-dasharray: 4 3; }
 svg.chart .window { fill: #00599b; fill-opacity: .1; }
 .legend { display: flex; flex-wrap: wrap; gap: .25rem 1rem; list-style: none; margin: .25rem 0; padding: 0; }
 .legend i { display: inline-block; width: 1.5rem; height: 3px; margin-right: .4rem; vertical-align: middle; }
+header.top { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; align-items: baseline; }
+h1 { margin: .5rem 0; font-size: 1.6rem; }
+.stick { position: sticky; left: .6rem; display: inline-block; max-width: calc(100vw - 3.5rem); }
+thead th:nth-child(2), tbody td:nth-child(2) { position: sticky; left: 0; background: #fafafa; box-shadow: 1px 0 0 #ccc; }
+#method { margin-top: 2rem; max-width: 52rem; }
+#method h2 { font-size: 1.3rem; }
+#method h3 { font-size: 1.05rem; margin: 1.5rem 0 .25rem; }
+.rules { list-style: none; margin: .5rem 0; padding: 0; }
+.rules li { padding: .5rem 0; border-top: 1px solid #ccc; }
+.rules p { margin: 0; }
+.rules .why { margin-top: .25rem; padding-left: .75rem; border-left: 3px solid #b9c7d3; color: #3a4a57; }
+@media (max-width: 40rem) {
+  body { margin: .5rem; }
+  th, td { padding: .4rem; }
+  .sliders label { flex-wrap: wrap; }
+  #chart-panel { max-height: 55vh; }
+  svg.chart { max-height: 30vh; }
+  svg.chart text { font-size: 20px; }
+  .controls label, .controls select, .controls input[type=search] { max-width: 100%; }
+}

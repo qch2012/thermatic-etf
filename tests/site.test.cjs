@@ -343,7 +343,7 @@ const PRICES = Object.fromEntries([
 ]);
 const settle = () => new Promise(resolve => setTimeout(resolve, 5));
 const nameButton = (p, ticker) => p.fundRows().find(r => text(r.children[1]) === ticker).children[2].children[0];
-const themeButton = (p, name) => p.rows().find(r => r.children[0].tagName === 'th' && text(r.children[0]).includes(`— ${name}`)).children[0].children[0];
+const themeButton = (p, name) => p.rows().find(r => r.children[0].tagName === 'th' && text(r.children[0]).includes(`— ${name}`)).children[0].children[0].children[0];
 
 test('prices are loaded lazily, once per ticker, when a fund is clicked', async () => {
   const p = await page(FIXTURE, PRICES);
@@ -384,7 +384,7 @@ test('fund chart text is escaped, Close hides the panel, a missing file is repor
 
 test('theme chart rebases measured peers to 100 at the window start and shades the window', async () => {
   const p = await page(FIXTURE, PRICES);
-  assert.ok(!p.rows().some(r => text(r.children[0]).includes('Cannabis') && r.children[0].children.length));  // no window: no chart
+  assert.ok(!p.rows().some(r => text(r.children[0]).includes('Cannabis') && r.children[0].children[0]?.children[0]?.tagName === 'button'));  // no window: no chart
   themeButton(p, 'Semiconductors').listeners.click();
   await settle();
   assert.deepEqual(p.fetched.slice(1).sort(), ['data/prices/S1.json', 'data/prices/S3.json', 'data/prices/S4.json']);  // measured only (not S2)
@@ -418,4 +418,50 @@ test('closing a chart returns focus to its trigger even after the table re-rende
   p.set('#search', 'value', 's4');
   p.elements['#chart-close'].listeners.click();
   assert.ok(p.elements['.table-scroll'].focused);
+
+});
+const html = fs.readFileSync('site/index.html', 'utf8');
+const method = html.match(/<section id="method"[\s\S]*?<\/section>/)?.[0] ?? '';
+const strip = h => h.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ');
+
+test('Method panel: linked from the top, and every rule has its why right after it', () => {
+  assert.match(html, /<nav[^>]*>[\s\S]*<a href="#method">/);
+  const items = [...method.matchAll(/<li>\s*<p class="rule">([\s\S]*?)<\/p>\s*<p class="why">([\s\S]*?)<\/p>\s*<\/li>/g)];
+  assert.ok(items.length >= 18, `only ${items.length} rule/why pairs`);
+  assert.equal(items.length, (method.match(/<p class="rule">/g) ?? []).length);  // no rule without a why
+  assert.equal(items.length, (method.match(/<p class="why">/g) ?? []).length);
+  for (const [, rule, why] of items) {
+    assert.ok(strip(rule).trim().length > 20, strip(rule));
+    assert.match(strip(why), /^\s*Why: \S/, strip(rule));
+    assert.ok(strip(why).length > 40, `thin reason for: ${strip(rule)}`);
+  }
+});
+
+test('Method panel states the SPEC section 5 numbers and gate status texts', () => {
+  const spec = fs.readFileSync('SPEC.md', 'utf8').split('## 5. Screening method')[1].split('## 6.')[0].replace(/\\/g, '');
+  const words = strip(method);
+  // Literals from SPEC 5.2 to 5.6, typed here rather than parsed, so a wording change in the panel is caught.
+  for (const needle of ['$100M', '$25M', '$0.5M', '63 trading days', '3 years', '0.5 years', '365.25', '252', '40%', '20%',
+    'No price data', 'No net-asset data', 'Under $100M (established minimum)', 'Under $25M (emerging minimum)', 'Under $0.5M avg daily $ volume', 'Top 3']) {
+    assert.ok(spec.includes(needle), `SPEC section 5 has no "${needle}" (fix the test)`);
+    assert.ok(words.includes(needle), `Method panel is missing "${needle}"`);
+  }
+  assert.match(words, /sliders/i);
+});
+
+test('page is noindex and loads nothing from outside: no CDN, external font or tracker', () => {
+  assert.match(html, /<meta name="robots" content="[^"]*noindex/);
+  for (const file of ['site/index.html', 'site/style.css', 'site/app.js']) {
+    assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /(https?:)?\/\/[a-z0-9-]+\.[a-z]/i, file);  // any absolute or protocol-relative URL
+  }
+  assert.match(html, /<meta name="viewport" content="width=device-width/);
+});
+
+test('every form control has a text label', () => {
+  const controls = [...html.matchAll(/<(?:input|select)\b[^>]*\bid="([^"]+)"/g)].map(m => m[1]);
+  assert.ok(controls.length >= 10);
+  for (const id of controls) {
+    const labelled = html.includes(`for="${id}"`) || [...html.matchAll(/<label\b(?![^>]*\bfor=)[^>]*>[\s\S]*?<\/label>/g)].some(m => m[0].includes(`id="${id}"`));
+    assert.ok(labelled, `#${id} has no <label>`);
+  }
 });
