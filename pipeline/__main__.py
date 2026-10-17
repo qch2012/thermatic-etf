@@ -125,8 +125,9 @@ def run(settings, output, cache_dir, directory_text=None):
     # Publish: price files, then drop files of tickers not in this run, then the main file.
     for ticker, prices in price_files.items():
         write_json(output.parent / "prices" / f"{ticker}.json", prices)
+    tickers = {f["ticker"] for f in funds}
     for old in (output.parent / "prices").glob("*.json"):
-        if old.stem not in {f["ticker"] for f in funds}:
+        if old.stem not in tickers:
             old.unlink()
     write_json(output, result)
     return result

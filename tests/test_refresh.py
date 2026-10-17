@@ -63,6 +63,15 @@ class ChecksTests(unittest.TestCase):
         result["failed_fetches"] = []  # lost them for real (e.g. gates), not because of fetch errors
         self.assertEqual(check(result, previous)[0], [])
 
+    def test_failed_fund_that_was_never_eligible_does_not_block(self):
+        previous = self.good()
+        for f in previous["funds"]:
+            f["status"] = "Eligible" if f["ticker"] == "F0" else "Under $25M (emerging minimum)"
+        result = copy.deepcopy(previous)
+        result["themes"] = []  # F0, the only eligible fund, dropped at a gate
+        result["failed_fetches"] = [{"ticker": "F1", "error": "x"}]  # unrelated fund that was never eligible
+        self.assertEqual(check(result, previous)[0], [])
+
     def test_big_net_asset_moves_are_noted_not_blocking(self):
         previous = self.good()
         result = copy.deepcopy(previous)

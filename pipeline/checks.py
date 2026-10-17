@@ -53,8 +53,10 @@ def check(result, previous):
     notes = []
     if previous:
         now = {t["theme"] for t in result["themes"]}
+        was_eligible = {f["ticker"] for f in previous["funds"] if f["status"] == "Eligible"}
         for theme in previous["themes"]:
-            lost = sorted(f["ticker"] for f in result["funds"] if f["theme"] == theme["theme"] and f["ticker"] in failed)
+            lost = sorted(f["ticker"] for f in result["funds"]
+                          if f["theme"] == theme["theme"] and f["ticker"] in failed and f["ticker"] in was_eligible)
             if theme["theme"] not in now and lost:
                 errors.append(f"Theme {theme['theme']} lost all its eligible funds and has failed fetches: {', '.join(lost)}")
         old = {f["ticker"]: f["net_assets"] for f in previous["funds"]}
