@@ -1,7 +1,7 @@
 Re-screen the thematic ETF universe. Follow SPEC.md section 9.
 
 1. Pull `main`. Create branch `rescreen/<today's date>`.
-2. Run the re-screen report and read it fully.
+2. Run `python3 -m pipeline`, then `python3 -m pipeline.report`, and read the report (`reports/rescreen-<date>.md`) fully.
 3. For each item, decide: add/adjust a theme rule, add an override, add to `exclude_tickers`, add an issuer link, refresh a net-asset override, or no change. Ask Andy about anything ambiguous instead of guessing.
 4. Edit only files in `config/`. Do not touch scoring code or SPEC.md section 5.
 5. Run the tests and the full pipeline locally.

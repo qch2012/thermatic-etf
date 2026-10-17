@@ -22,6 +22,8 @@ SMALL, LARGE = 1, 15  # SPEC 9.1: 0-1 eligible funds; more than ~15 eligible fun
 OVERRIDE_DAYS, HOLDINGS_DAYS = 45, 7
 # Name cues only. Yahoo category is not used: fetching it for ~5,000 unclassified ETFs is out of scope here.
 MISS_CUES = r"innovat|\bnext\b|future|disrupt|technolog|\btech\b|digital|smart|revolution|frontier|transform|thematic|megatrend|new economy"
+# Fund-company names that contain a cue word (Innovator, Frontier Asset, Day Hagan Smart Sector); removed before the cue search.
+ISSUER_NAMES = r"innovator|frontier asset|day hagan smart sector"
 FALSE_POSITIVE_CUES = r"blue ?chip|large[- ]cap|mid[- ]cap|small[- ]cap|total market|s&p 500|broad market|equal weight|dividend|aristocrat"
 NON_EQUITY = r"cash|currenc|future|swap|option|forward|derivative|money market"
 # Legal suffixes dropped by SPEC 6.5 name matching (the real matcher lives in the holdings code).
@@ -35,7 +37,9 @@ def classify_all(funds, taxonomy):
     result = {}
     for f in funds:
         theme = classify(f["ticker"], f["name"], taxonomy)
-        # With an override for this ticker, classify returns it unless an exclusion rule fires first.
+        # "Excluded" = an exclusion rule fired. classify checks exclusions first, then overrides, then theme rules.
+        # So with no theme rules and a dummy override for this ticker, it returns the dummy unless an exclusion fired
+        # (None). This reuses classify's own exclusion test instead of copying it.
         probe = {**taxonomy, "themes": [], "overrides": {f["ticker"]: True}}
         if theme:
             result[f["ticker"]] = ("classified", theme)
@@ -114,8 +118,8 @@ def holdings_section(screen, holdings, today):
     return out
 
 
-def build_report(funds, taxonomy, screen, baseline, overrides, holdings, today):
-    outcome = classify_all(funds, taxonomy)
+def build_report(funds, taxonomy, screen, baseline, overrides, holdings, today, outcome=None):
+    outcome = outcome or classify_all(funds, taxonomy)
     names = {f["ticker"]: f["name"] for f in funds}
     themes = taxonomy["themes"]
     base = baseline["tickers"]
@@ -135,7 +139,7 @@ def build_report(funds, taxonomy, screen, baseline, overrides, holdings, today):
 
     out += ["## Possible misses (unclassified, name suggests a theme)", ""]
     out += lines([fund_line(t, names[t]) for t in sorted(names)
-                  if outcome[t][0] == "unclassified" and re.search(MISS_CUES, names[t], re.I)]) + [""]
+                  if outcome[t][0] == "unclassified" and re.search(MISS_CUES, re.sub(ISSUER_NAMES, " ", names[t], flags=re.I), re.I)]) + [""]
 
     out += ["## Possible false positives (classified, name looks non-thematic)", ""]
     out += lines([fund_line(t, names[t], outcome[t][1]) for t in sorted(names)
@@ -158,7 +162,13 @@ def build_report(funds, taxonomy, screen, baseline, overrides, holdings, today):
     out += lines([f"- {t} ({n})" for t, n in counts if n > LARGE]) + [""]
 
     out += ["## Missing issuer links", ""]
-    out += [", ".join(screen["missing_issuer_links"]) or "None.", ""]
+    missing = set(screen["missing_issuer_links"])
+    top = sorted(f["ticker"] for f in screen["funds"] if f["ticker"] in missing and f["status"] == "Eligible" and f["rank"] <= 3)
+    eligible = sorted(f["ticker"] for f in screen["funds"] if f["ticker"] in missing and f["status"] == "Eligible" and f["ticker"] not in top)
+    rest = sorted(missing - set(top) - set(eligible))
+    out += [f"Top 3 funds ({len(top)}): " + (", ".join(top) or "none"), "",
+            f"Other eligible funds ({len(eligible)}): " + (", ".join(eligible) or "none"), "",
+            f"<details><summary>Other funds ({len(rest)})</summary>", "", ", ".join(rest), "", "</details>", ""]
 
     out += [f"## Net-asset overrides older than {OVERRIDE_DAYS} days", ""]
     old = [(t, (today - date.fromisoformat(str(o["as_of"]))).days) for t, o in sorted(overrides.items())]
@@ -171,8 +181,7 @@ def build_report(funds, taxonomy, screen, baseline, overrides, holdings, today):
     return "\n".join(out)
 
 
-def write_universe(path, funds, taxonomy):
-    outcome = classify_all(funds, taxonomy)
+def write_universe(path, funds, outcome):
     with open(path, "w", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["ticker", "name", "outcome", "theme"])
@@ -193,9 +202,10 @@ def main():
     overrides = yaml.safe_load((ROOT / "config/aum_overrides.yaml").read_text())["funds"]
     files = {p.stem: json.loads(p.read_text()) for p in args.holdings_dir.glob("*.json")}
     baseline = load_baseline(args.reports_dir, ROOT / "seed", args.date)
-    text = build_report(funds, taxonomy, screen, baseline, overrides, files or None, args.date)
+    outcome = classify_all(funds, taxonomy)
+    text = build_report(funds, taxonomy, screen, baseline, overrides, files or None, args.date, outcome)
     (args.reports_dir / f"rescreen-{args.date}.md").write_text(text)
-    write_universe(args.reports_dir / f"rescreen-{args.date}.universe.csv", funds, taxonomy)
+    write_universe(args.reports_dir / f"rescreen-{args.date}.universe.csv", funds, outcome)
     print(f"Wrote {args.reports_dir / f'rescreen-{args.date}.md'}")
 
 

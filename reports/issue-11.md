@@ -21,11 +21,13 @@ Branch: `feat/11-rescreen-report` (on 5320b89). Not merged, not pushed.
 
 ## Deferred
 
-- Yahoo category for possible misses: needs profile fetches for ~5,000 unclassified ETFs; misses use name cues only.
 - Alias candidates untested on real holdings files (none exist yet); my similarity heuristic is not the #9 matcher.
 - `.claude/commands/rescreen.md` not edited; step 2 should say to run the pipeline, then `python3 -m pipeline.report`.
 
 ## Questions for Andy
+
+0. Possible misses use name cues only, not the Yahoo category as SPEC 9.1 says (it would need profile fetches for ~5,000 unclassified ETFs, and Yahoo calls live in `pipeline/sources/`). OK, or add a Yahoo category pass?
+0b. The Genomics regex matches "Generative" and "Generation", so ARKW, CHAT, DRGN, WISE and NRAM hit Genomics as a second theme. Tighten the rule? (`themes.yaml` not changed.)
 
 1. Possible false positives are only name cues (large cap, equal weight, dividend...). Is the list in `FALSE_POSITIVE_CUES` right?
 2. Should /rescreen run the pipeline first (about 4 min) to produce `screen.json`, or should the report call it?

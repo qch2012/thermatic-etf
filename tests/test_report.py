@@ -69,6 +69,14 @@ class CandidateTests(unittest.TestCase):
         self.assertNotIn("BULL", misses)
         self.assertNotIn("PLN", misses)
 
+    def test_issuer_names_are_not_cues(self):
+        text = report([("INV", "Innovator Equity Fund"), ("DH", "Day Hagan Smart Sector Fund"), ("FR", "Frontier Asset Fund"),
+                       ("REAL", "Acme Future Fund")])
+        misses = section(text, "Possible misses")
+        self.assertIn("REAL", misses)
+        for t in ("INV", "DH", "FR"):
+            self.assertNotIn(t, misses)
+
     def test_possible_false_positive(self):
         text = report([("LGC", "Large Cap Chip Core ETF"), ("OK", "Semiconductor ETF")])
         fp = section(text, "Possible false positives")
@@ -100,11 +108,22 @@ class HousekeepingTests(unittest.TestCase):
     def test_missing_links_and_old_overrides(self):
         ov = {"DISK": {"as_of": "2026-08-31"}, "NEW": {"as_of": "2026-10-10"}}
         text = report([], scr=screen(missing=["AAA", "BBB"]), overrides=ov)
+        self.assertIn("Other funds (2)", section(text, "Missing issuer links"))
         self.assertIn("AAA, BBB", section(text, "Missing issuer links"))
         old = section(text, "Net-asset overrides older than 45 days")
         self.assertIn("DISK", old)
         self.assertIn("47 days", old)
         self.assertNotIn("NEW", old)
+
+
+class MissingLinksTests(unittest.TestCase):
+    def test_top3_and_eligible_first(self):
+        funds = [{"ticker": "TOP", "status": "Eligible", "rank": 1}, {"ticker": "ELG", "status": "Eligible", "rank": 5},
+                 {"ticker": "OUT", "status": "Under $25M", "rank": None}]
+        links = section(report([], scr=screen(funds=funds, missing=["TOP", "ELG", "OUT"])), "Missing issuer links")
+        self.assertIn("Top 3 funds (1): TOP", links)
+        self.assertIn("Other eligible funds (1): ELG", links)
+        self.assertIn("Other funds (1)", links)
 
 
 class HoldingsTests(unittest.TestCase):
