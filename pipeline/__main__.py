@@ -69,20 +69,26 @@ def run(settings, output, cache_dir, directory_text=None):
         funds.append(fund)
     if len(failures) / len(funds) > 0.1:
         raise RuntimeError("Fewer than 90% of candidates fetched successfully; not publishing")
-    summaries = []
+    summaries, no_eligible = [], []
     for theme, group in themes.items():
         members = [f for f in funds if f["theme"] == theme]
         window = score(members)
         eligible = [f["net_assets"] for f in members if f["status"] == "Eligible"]
-        summaries.append({"theme": theme, "group": group, "window": window, "candidates": len(members),
-                          "eligible": len(eligible), "largest_net_assets": max(eligible, default=None)})
-    # SPEC 5.6: groups in fixed order; themes by largest eligible fund, themes without one last.
-    summaries.sort(key=lambda t: (GROUPS.index(t["group"]), t["largest_net_assets"] is None, -(t["largest_net_assets"] or 0), t["theme"]))
-    order = {t["theme"]: i for i, t in enumerate(summaries)}
+        if eligible:
+            summaries.append({"theme": theme, "group": group, "window": window, "candidates": len(members),
+                              "eligible": len(eligible), "largest_net_assets": max(eligible)})
+        else:
+            no_eligible.append({"theme": theme, "group": group, "candidates": [
+                {key: f[key] for key in ("ticker", "name", "status")} for f in sorted(members, key=lambda f: f["ticker"])]})
+    # SPEC 5.6: themes by largest eligible fund; themes without one listed separately. Group order is our choice.
+    summaries.sort(key=lambda t: (GROUPS.index(t["group"]), -t["largest_net_assets"], t["theme"]))
+    no_eligible.sort(key=lambda t: (GROUPS.index(t["group"]), t["theme"]))
+    order = {t["theme"]: i for i, t in enumerate(summaries + no_eligible)}
     for fund in funds:
         del fund["prices"]
     result = {"data_source": source_name, "synthetic": source_name == "stub",
               "generated_at": datetime.now(timezone.utc).isoformat(), "themes": summaries,
+              "no_eligible_themes": no_eligible,
               "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
               "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]]}
     write_json(output, result)

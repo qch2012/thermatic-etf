@@ -11,12 +11,13 @@ Fractions are fractions (0.0035 = 0.35%), money is USD.
 | `data_source` | string | Adapter used (`yahoo`, `stub`). |
 | `synthetic` | bool | `true` for stub data. The site must label it as not market data. |
 | `generated_at` | timestamp | When the pipeline wrote the file. |
-| `themes` | array of Theme | Every theme in `config/themes.yaml`, in display order (SPEC 5.6, see below). |
-| `funds` | array of Fund | Every classified fund, sorted by theme order, then rank (unranked last), then ticker. |
+| `themes` | array of Theme | Themes with at least one eligible fund, in display order (SPEC 5.6, see below). |
+| `no_eligible_themes` | array of NoEligibleTheme | Every other theme in `config/themes.yaml`, listed separately (SPEC 5.6), ordered by group then theme name. `themes` + `no_eligible_themes` = the whole taxonomy. |
+| `funds` | array of Fund | Every classified fund (both theme lists), sorted by theme order (`themes` first, then `no_eligible_themes`), then rank (unranked last), then ticker. |
 | `failed_fetches` | array of `{ticker: string, error: string}` | Funds whose fetch failed this run (they use last good data, `stale: true`). |
 | `missing_issuer_links` | array of string | Tickers with no entry in `config/issuer_links.json`. |
 
-Theme order: groups in the fixed order Technology, Physical world, Social, Broad thematic; inside a group, themes by `largest_net_assets` (descending); themes with no eligible fund come last in their group, alphabetically.
+Theme order: groups in the fixed order Technology, Physical world, Social, Broad thematic (a pipeline choice; SPEC 5.6 does not order groups); inside a group, themes by `largest_net_assets` (descending), then name.
 
 ## Theme
 
@@ -26,10 +27,19 @@ Theme order: groups in the fixed order Technology, Physical world, Social, Broad
 | `group` | string | One of the four groups. |
 | `window` | Window or `null` | Shared performance window (SPEC 5.3). `null` = performance unmeasured for the whole theme. |
 | `candidates` | int | Classified funds in the theme (all gate statuses). |
-| `eligible` | int | Funds with `status == "Eligible"`. `0` = list the theme separately with its candidates. |
-| `largest_net_assets` | number or `null` | Net assets of the largest eligible fund; `null` when `eligible == 0`. |
+| `eligible` | int | Funds with `status == "Eligible"`. Always ≥ 1. |
+| `largest_net_assets` | number | Net assets of the largest eligible fund (our reading of SPEC 5.6 "largest fund"). |
 
 Window: `{start: date, end: date, years: number (exact calendar days / 365.25), observations: int (aligned trading days)}`.
+
+## NoEligibleTheme
+
+| Field | Type | Meaning |
+|---|---|---|
+| `theme`, `group` | string | As in Theme. |
+| `candidates` | array of `{ticker: string, name: string, status: string}` | Every classified fund in the theme, by ticker, with its failed gate as `status`. Empty when nothing in the directory matched the theme. Full fund records are also in `funds`. |
+
+Example (live run 2026-10-17): `{"theme": "Hydrogen", "group": "Physical world", "candidates": [{"ticker": "HYDR", "name": "Global X Hydrogen ETF", "status": "Under $100M (established minimum)"}]}`
 
 ## Fund
 
@@ -49,7 +59,7 @@ Always present:
 | `stale` | bool | `true` = this run's fetch failed and last good data was reused. |
 | `issuer_url` | string or `null` | Issuer fund page from `config/issuer_links.json`. Never Yahoo. `null` = show plain ticker. |
 | `status` | string | `Eligible` or the first failed gate's text (SPEC 5.2). |
-| `new` | bool | Age under 0.5 years (🆕). |
+| `new` | bool | Age under 0.5 years (🆕). Caveat: a fund with no price data has no `age` and gets `new: true` (method.py treats missing age as 0). Read `new` together with `status`. |
 | `rank` | int or `null` | Rank within theme (1 = best). `null` unless eligible. |
 | `score` | number or `null` | 0–100, within theme only. `null` unless eligible. |
 | `cumulative_return`, `annualized_return`, `volatility`, `ratio` | number or `null` | SPEC 5.4, over the theme's window. `null` unless the fund is measured. |

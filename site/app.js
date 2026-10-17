@@ -7,15 +7,33 @@ function render(data) {
   body.replaceChildren();
   const funds = data.funds.filter(f => document.querySelector('#all').checked || (f.rank != null && f.rank <= 3));
   for (const theme of data.themes) {
-    const heading = document.createElement('tr');
-    const cell = document.createElement('th');
-    cell.colSpan = 11;
-    cell.scope = 'colgroup';
-    cell.textContent = `${theme.group} — ${theme.theme}: ${theme.eligible ? '' : 'no eligible fund; '}${theme.window ? `shared performance window ${theme.window.start} to ${theme.window.end} (${theme.window.observations} aligned observations)` : 'performance unmeasured'}`;
-    heading.append(cell);
-    body.append(heading);
+    headingRow(body, `${theme.group} — ${theme.theme}: ${theme.window ? `shared performance window ${theme.window.start} to ${theme.window.end} (${theme.window.observations} aligned observations)` : 'performance unmeasured'}`);
     renderFunds(body, funds.filter(f => f.theme === theme.theme));
   }
+  // SPEC 5.6: listed separately, candidates and failure reasons always shown.
+  headingRow(body, 'Themes with no eligible fund');
+  for (const theme of data.no_eligible_themes) {
+    headingRow(body, `${theme.group} — ${theme.theme}${theme.candidates.length ? '' : ': no candidates'}`);
+    for (const candidate of theme.candidates) {
+      const row = document.createElement('tr');
+      for (const value of [candidate.ticker, candidate.name, candidate.status]) {
+        const cell = document.createElement('td');
+        cell.textContent = value;
+        row.append(cell);
+      }
+      body.append(row);
+    }
+  }
+}
+
+function headingRow(body, text) {
+  const row = document.createElement('tr');
+  const cell = document.createElement('th');
+  cell.colSpan = 11;
+  cell.scope = 'colgroup';
+  cell.textContent = text;
+  row.append(cell);
+  body.append(row);
 }
 
 function renderFunds(body, funds) {
@@ -49,7 +67,7 @@ async function load() {
     const response = await fetch('data/screen.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
-    document.querySelector('#status').textContent = `${data.synthetic ? 'SYNTHETIC DEMO — not market data. ' : ''}Generated ${data.generated_at}. ${data.themes.length} themes, ${data.funds.length} funds; ${data.failed_fetches.length} failed fetches.`;
+    document.querySelector('#status').textContent = `${data.synthetic ? 'SYNTHETIC DEMO — not market data. ' : ''}Generated ${data.generated_at}. ${data.themes.length + data.no_eligible_themes.length} themes, ${data.funds.length} funds; ${data.failed_fetches.length} failed fetches.`;
     document.querySelector('#all').addEventListener('change', () => render(data));
     render(data);
   } catch (error) {

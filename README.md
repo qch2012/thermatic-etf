@@ -38,7 +38,7 @@ Per-source last-good data is cached in `.cache/`. Fetch failures reuse cached da
 
 ```sh
 .venv/bin/python -m unittest discover -s tests -v
-node --test tests/site.test.cjs
+node --test "tests/*.test.cjs"
 ```
 
 Node 18+ is needed only for the dependency-free static-page tests. Tests use synthetic data and do not require network access. The seed regression preserves and explicitly records two existing config conflicts; see `reports/issue-2.md` for questions and live-run results.

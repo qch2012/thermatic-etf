@@ -185,15 +185,24 @@ class PipelineTests(unittest.TestCase):
             path = Path(tmp)
             output = path / "screen.json"
             settings = {"data_source": "stub"}
-            result = run(settings, output, path / "cache", DIRECTORY + "MJJ|Amplify Alternative Harvest ETF|Y|N\nMJ|Some Name|Y|N\n")
+            original = Stub.profile
+
+            def profile(source, ticker):  # HHH fails the size gate
+                return {**original(source, ticker), "net_assets": 1e6} if ticker == "HHH" else original(source, ticker)
+
+            directory = DIRECTORY + "MJJ|Amplify Alternative Harvest ETF|Y|N\nMJ|Some Name|Y|N\nHHH|Hydrogen ETF|Y|N\n"
+            with patch.object(Stub, "profile", profile):
+                result = run(settings, output, path / "cache", directory)
             taxonomy = yaml.safe_load((ROOT / "config/themes.yaml").read_text())["themes"]
-            self.assertEqual(len(result["themes"]), len(taxonomy))
-            self.assertEqual({t["theme"]: t["candidates"] for t in result["themes"] if t["candidates"]},
-                             {"Semiconductors": 2, "Cannabis": 1})
-            groups = [t["group"] for t in result["themes"]]
+            # SPEC 5.6: themes with an eligible fund, and the rest listed separately.
+            self.assertEqual([t["theme"] for t in result["themes"]], ["Semiconductors", "Cannabis"])
+            self.assertEqual([t["candidates"] for t in result["themes"]], [2, 1])
+            self.assertEqual(len(result["no_eligible_themes"]), len(taxonomy) - 2)
+            hydrogen = next(t for t in result["no_eligible_themes"] if t["theme"] == "Hydrogen")
+            self.assertEqual(hydrogen, {"theme": "Hydrogen", "group": "Physical world", "candidates": [
+                {"ticker": "HHH", "name": "Hydrogen ETF", "status": "Under $100M (established minimum)"}]})
+            groups = [t["group"] for t in result["no_eligible_themes"]]
             self.assertEqual(list(dict.fromkeys(groups)), ["Technology", "Physical world", "Social", "Broad thematic"])
-            tech = [t["theme"] for t in result["themes"] if t["group"] == "Technology"]
-            self.assertEqual(tech[0], "Semiconductors")  # only Technology theme with an eligible fund
             semis = [f for f in result["funds"] if f["theme"] == "Semiconductors"]
             self.assertEqual([f["rank"] for f in semis], [1, 2])
             self.assertEqual(next(f for f in result["funds"] if f["ticker"] == "MJ")["group"], "Social")
@@ -218,7 +227,7 @@ class PipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)
             settings = {"data_source": "stub"}
-            run(settings, path / "screen.json", path / "cache", directory)
+            first = next(f for f in run(settings, path / "screen.json", path / "cache", directory)["funds"] if f["ticker"] == "F0")
             original = Stub.profile
 
             def profile(source, ticker):
@@ -229,7 +238,9 @@ class PipelineTests(unittest.TestCase):
             with patch.object(Stub, "profile", profile):
                 result = run(settings, path / "screen.json", path / "cache", directory)
             self.assertEqual(len(result["funds"]), 10)
-            self.assertTrue(next(f for f in result["funds"] if f["ticker"] == "F0")["stale"])
+            stale = next(f for f in result["funds"] if f["ticker"] == "F0")
+            self.assertTrue(stale["stale"])
+            self.assertEqual(stale["fetched_at"], first["fetched_at"])  # last good data, not refetched
             self.assertEqual(len(result["failed_fetches"]), 1)
 
     def test_adapter_selection(self):
