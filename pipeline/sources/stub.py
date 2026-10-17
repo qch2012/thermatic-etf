@@ -1,11 +1,16 @@
 from datetime import date, timedelta
 import math
+import os
+import zlib
 
 
 class Stub:
     """Deterministic synthetic data; never presented as real market data."""
 
     def history(self, ticker):
+        # STUB_FAIL_RATE (e.g. 0.2) makes that share of tickers fail, to test the refresh checks.
+        if zlib.crc32(ticker.encode()) % 100 < float(os.environ.get("STUB_FAIL_RATE", 0)) * 100:
+            raise RuntimeError(f"{ticker}: simulated adapter failure")
         prices = []
         seed = sum(map(ord, ticker))
         for i in range(1462):

@@ -16,7 +16,7 @@ Fractions are fractions (0.0035 = 0.35%), money is USD.
 | `themes` | array of Theme | Themes with at least one eligible fund, in display order (SPEC 5.6, see below). |
 | `no_eligible_themes` | array of NoEligibleTheme | Every other theme in `config/themes.yaml`, listed separately (SPEC 5.6), ordered by group then theme name. `themes` + `no_eligible_themes` = the whole taxonomy. |
 | `funds` | array of Fund | Every classified fund (both theme lists), sorted by theme order (`themes` first, then `no_eligible_themes`), then rank (unranked last), then ticker. |
-| `failed_fetches` | array of `{ticker: string, error: string}` | Funds whose fetch failed this run (they use last good data, `stale: true`). |
+| `failed_fetches` | array of `{ticker: string, error: string}` | Funds whose fetch failed this run. They use last good data (`stale: true`), or, with none, are published with `status: "No price data"` (see "Fund with no data"). |
 | `missing_issuer_links` | array of string | Tickers with no entry in `config/issuer_links.json`. |
 
 Theme order: groups in the fixed order Technology, Physical world, Social, Broad thematic (a pipeline choice; SPEC 5.6 does not order groups); inside a group, themes by `largest_net_assets` (descending), then name.
@@ -51,17 +51,17 @@ Always present:
 |---|---|---|
 | `ticker`, `name` | string | From the Nasdaq directory. |
 | `theme`, `group` | string | Classification. |
-| `first_trade_date` | date | Launch date from the data source. |
+| `first_trade_date` | date or `null` | Launch date from the data source. `null` only for a fund with no data. |
 | `net_assets` | number or `null` | USD. |
 | `assets_source` | string | `Yahoo totalAssets` (no marker), anything else gets the `*` fallback marker. |
 | `assets_as_of` | date | Fetch date, or the override's as-of date. |
 | `assets_stale` | bool | Assets from a failed fetch, or an override older than 45 days. |
 | `expense_ratio` | number or `null` | Fraction. |
-| `fetched_at` | timestamp | When this fund's data was last fetched successfully. |
+| `fetched_at` | timestamp or `null` | When this fund's data was last fetched successfully. `null` only for a fund with no data. |
 | `stale` | bool | `true` = this run's fetch failed and last good data was reused. |
 | `issuer_url` | string or `null` | Issuer fund page from `config/issuer_links.json`. Never Yahoo. `null` = show plain ticker. |
 | `status` | string | `Eligible` or the first failed gate's text (SPEC 5.2). |
-| `new` | bool | Age under 0.5 years (🆕). Caveat: a fund with no price data has no `age` and gets `new: true` (method.py treats missing age as 0). Read `new` together with `status`. |
+| `new` | bool | Age under 0.5 years (🆕). `false` when the age is unknown (a fund with no price data has no `age`). |
 | `rank` | int or `null` | Rank within theme (1 = best). `null` unless eligible. |
 | `score` | number or `null` | 0–100, within theme only. `null` unless eligible. |
 | `cumulative_return`, `annualized_return`, `volatility`, `ratio` | number or `null` | SPEC 5.4, over the theme's window. `null` unless the fund is measured. |
@@ -69,6 +69,8 @@ Always present:
 Present when the fund has price data: `age` (years), `dollar_volume` (mean close × volume, last 63 days).
 
 Present only when `status == "Eligible"`: `percentiles` `{size, cost, performance}` (each 0–1; 0.5 = neutral for a missing fee or unmeasured performance) and `performance_unmeasured` (bool, the † flag). Score = 100 × (0.4 × size + 0.2 × cost + 0.4 × performance); the live-weights slider can recompute from these.
+
+Fund with no data: a fund that failed to fetch and has no last-good data is still published, with `status: "No price data"`, `first_trade_date: null`, `fetched_at: null`, `net_assets: null`, `expense_ratio: null`, `assets_source: "Fetch failed"`, `assets_stale: true`, `assets_as_of` = today, `stale: false`, `new: false`, no `age`, and no price file. It is listed in `failed_fetches`.
 
 Optional: `warnings` (array of string), non-fatal data-source problems.
 
@@ -90,7 +92,7 @@ Path: `site/data/prices/<TICKER>.json`, one per fund that has at least one adjus
 
 - Same length, oldest first. Only days with an adjusted close (days where it is missing are left out).
 - Coverage: the last 3 calendar years up to the fund's own last adjusted close (Feb 29 falls back to Feb 28). Younger funds have shorter files.
-- Written atomically (temp file then rename), only when the run publishes (after the 90% check). Funds with stale data get their files rewritten from the last good data. Files of funds that drop out of the universe are not deleted.
+- Written atomically (temp file then rename), only when the run publishes (after the 90% check). Funds with stale data get their files rewritten from the last good data. Each run deletes the price files of tickers not in its `funds`.
 - Theme charts rebase to the theme's `window.start` using these files.
 
 ## Holdings files (reserved, written by #9)
@@ -122,7 +124,7 @@ The Method panel takes gate thresholds, window rules and weights from the SPEC 5
 
 ## How the site reads it (`site/app.js`)
 
-- 🆕 (flag and "🆕 only" filter) = `new && age != null`. A "No price data" fund has `new: true` but no `age`, so it gets no 🆕.
+- 🆕 (flag and "🆕 only" filter) = `new && age != null`. A "No price data" fund has `new: false` and no `age`, so it gets no 🆕.
 - `*` marker = `assets_source != "Yahoo totalAssets"`; the cell's tooltip names the source.
 - Window column = the theme's `window` dates, shown only for funds with a `cumulative_return` (measured funds).
 - "Hide under $50M" hides `net_assets < 50e6`; funds with `net_assets: null` stay visible (size unknown).

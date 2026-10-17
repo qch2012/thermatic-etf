@@ -3,10 +3,12 @@ from datetime import date, datetime, timezone
 import json
 import logging
 from pathlib import Path
+import sys
 import tempfile
 
 import yaml
 
+from .checks import check
 from .method import classify, score
 from .sources import create
 from .sources.directory import URL, parse
@@ -32,6 +34,10 @@ def three_years_before(day):
         return day.replace(year=day.year - 3)
     except ValueError:  # Feb 29
         return day.replace(year=day.year - 3, day=28)
+
+
+class CheckFailed(RuntimeError):
+    pass
 
 
 def run(settings, output, cache_dir, directory_text=None):
@@ -62,22 +68,23 @@ def run(settings, output, cache_dir, directory_text=None):
         except Exception as error:
             logging.warning("%s: %s", ticker, error)
             failures.append({"ticker": ticker, "error": str(error)})
-            if not cache.exists():
-                raise RuntimeError(f"{ticker}: fetch failed and no last-good data; not publishing") from error
-            data = json.loads(cache.read_text())
-            stale = True
+            if cache.exists():
+                data = json.loads(cache.read_text())
+                stale = True
+            else:  # no last-good data: still published, as "No price data" (gate), listed in failed_fetches
+                data = {"first_trade_date": None, "prices": [], "net_assets": None, "expense_ratio": None,
+                        "assets_source": "Fetch failed", "fetched_at": None}
+                stale = False
         for warning in data.get("warnings", []):
             logging.warning("%s: %s", ticker, warning)
         fund = {**candidate, **data, "stale": stale, "issuer_url": links.get(ticker)}
-        fund["assets_as_of"] = data["fetched_at"][:10]
-        fund["assets_stale"] = stale
+        fund["assets_as_of"] = (data["fetched_at"] or date.today().isoformat())[:10]
+        fund["assets_stale"] = stale or data["fetched_at"] is None
         if fund["net_assets"] is None and ticker in overrides:
             override = overrides[ticker]
             fund.update(net_assets=override["net_assets_musd"] * 1e6, assets_source=override["source"], assets_as_of=override["as_of"])
             fund["assets_stale"] = (date.today() - date.fromisoformat(override["as_of"])).days > 45
         funds.append(fund)
-    if len(failures) / len(funds) > 0.1:
-        raise RuntimeError("Fewer than 90% of candidates fetched successfully; not publishing")
     summaries, no_eligible = [], []
     for theme, group in themes.items():
         members = [f for f in funds if f["theme"] == theme]
@@ -95,19 +102,32 @@ def run(settings, output, cache_dir, directory_text=None):
     order = {t["theme"]: i for i, t in enumerate(summaries + no_eligible)}
     # Price files for the charts: last 3 calendar years of adjusted closes, every fund with price data.
     last_dates = [f["prices"][-1]["date"] for f in funds if f["prices"]]
+    price_files = {}
     for fund in funds:
         prices = [p for p in fund.pop("prices") if p["adjusted_close"] is not None]
         if prices:
             start = three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat()
             prices = [p for p in prices if p["date"] >= start]
-            write_json(output.parent / "prices" / f"{fund['ticker']}.json", {"ticker": fund["ticker"],
-                       "dates": [p["date"] for p in prices], "adjusted_close": [p["adjusted_close"] for p in prices]})
+            price_files[fund["ticker"]] = {"ticker": fund["ticker"], "dates": [p["date"] for p in prices],
+                                           "adjusted_close": [p["adjusted_close"] for p in prices]}
     result = {"data_source": source_name, "synthetic": source_name == "stub",
               "generated_at": datetime.now(timezone.utc).isoformat(), "data_as_of": max(last_dates, default=None),
               "weights": WEIGHTS, "themes": summaries,
               "no_eligible_themes": no_eligible,
               "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
               "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]]}
+    previous = json.loads(output.read_text()) if output.exists() else None
+    errors, notes = check(result, previous)
+    for note in notes:
+        logging.warning(note)
+    if errors:
+        raise CheckFailed("; ".join(errors))
+    # Publish: price files, then drop files of tickers not in this run, then the main file.
+    for ticker, prices in price_files.items():
+        write_json(output.parent / "prices" / f"{ticker}.json", prices)
+    for old in (output.parent / "prices").glob("*.json"):
+        if old.stem not in {f["ticker"] for f in funds}:
+            old.unlink()
     write_json(output, result)
     return result
 
@@ -118,7 +138,10 @@ def main():
     parser.add_argument("--output", type=Path, default=ROOT / "site/data/screen.json")
     parser.add_argument("--directory", type=Path, help="Saved Nasdaq directory for offline testing")
     args = parser.parse_args()
-    result = run(yaml.safe_load(args.settings.read_text()), args.output, ROOT / ".cache", args.directory.read_text() if args.directory else None)
+    try:
+        result = run(yaml.safe_load(args.settings.read_text()), args.output, ROOT / ".cache", args.directory.read_text() if args.directory else None)
+    except CheckFailed as error:
+        sys.exit(f"Not publishing: {error}")
     print(f"Wrote {args.output}: {len(result['funds'])} funds ({result['data_source']})")
 
 

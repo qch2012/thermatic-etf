@@ -1,4 +1,4 @@
 .venv/
 __pycache__/
 .cache/
-site/data/
+# site/data/ is committed: the daily refresh job publishes it by committing the generated JSON.

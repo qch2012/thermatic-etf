@@ -214,9 +214,9 @@ class PipelineTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, "90%"):
                     run(settings, output, path / "cache", DIRECTORY)
             self.assertEqual(previous, output.read_bytes())
-            # No prior cache must not silently drop a failed fund either.
+            # Without a cache every fund fails: the 90% check still blocks publishing.
             with patch.object(Stub, "profile", side_effect=RuntimeError("offline")):
-                with self.assertRaisesRegex(RuntimeError, "no last-good"):
+                with self.assertRaisesRegex(RuntimeError, "90%"):
                     run(settings, output, path / "empty-cache", DIRECTORY)
             self.assertEqual(previous, output.read_bytes())
 
