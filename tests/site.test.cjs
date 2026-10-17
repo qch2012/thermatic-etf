@@ -17,17 +17,25 @@ class Element {
   append(...children) { this.children.push(...children); }
   replaceChildren(...children) { this.children = children; }
   addEventListener(name, fn) { this.listeners[name] = fn; }
+  innerHTML = '';
+  hidden = true;
+  focus() { this.focused = true; }
   setAttribute(name, value) { this.attributes[name] = String(value); }
 }
 
 // Like the DOM getter: an element with children reads as their joined text.
 const text = el => el.children.length ? el.children.map(text).join('') : String(el.textContent);
 
-async function page(json) {
+async function page(json, files = {}) {
   const elements = { '#mode': Object.assign(new Element('select'), {
     children: ['Top 3 per theme', 'All eligible', 'All screened (with gate status)'].map(t => Object.assign(new Element('option'), { textContent: t })) }) };
   const document = { querySelector: id => (elements[id] ??= new Element(id)), createElement: tag => new Element(tag) };
-  const fetch = async () => (json ? { ok: true, json: async () => json } : { ok: false, status: 404 });
+  const fetched = [];
+  const fetch = async url => {
+    fetched.push(url);
+    const body = url === 'data/screen.json' ? json : files[url];
+    return body ? { ok: true, json: async () => body } : { ok: false, status: 404 };
+  };
   vm.runInNewContext(fs.readFileSync('site/app.js', 'utf8'), { document, fetch, URL, Intl });
   await new Promise(resolve => setImmediate(resolve));
   const set = (id, prop, value) => { elements[id][prop] = value; elements[id].listeners.input(); };
@@ -36,7 +44,7 @@ async function page(json) {
   const fundRows = () => rows().filter(r => r.children[0].tagName === 'td');
   const tickers = () => fundRows().map(r => text(r.children[1]));
   const headings = () => rows().filter(r => r.children[0].tagName === 'th').map(r => text(r.children[0]));
-  return { elements, set, headers, rows, fundRows, tickers, headings };
+  return { elements, fetched, set, headers, rows, fundRows, tickers, headings };
 }
 
 const HEADERS = ['Rank', 'Ticker', 'Name', 'Launched', 'Net assets', 'Fee', 'Window', 'Return', 'Ratio',
@@ -324,4 +332,70 @@ test('all weights at zero fall back to the defaults', async () => {
 test('page says gates and windows stay as computed next to the sliders', () => {
   const html = fs.readFileSync('site/index.html', 'utf8');
   assert.match(html, /<section id="weights"[\s\S]*id="w-size"[\s\S]*gates and performance windows stay as the pipeline computed them[\s\S]*<\/section>/i);
+});
+
+const prices = (ticker, dates, adjusted_close) => [`data/prices/${ticker}.json`, { ticker, dates, adjusted_close }];
+const PRICES = Object.fromEntries([
+  prices('S1', ['2023-10-13', '2023-10-16', '2024-10-16', '2026-10-16'], [40, 50, 55, 65.6]),
+  prices('S2', ['2026-06-01', '2026-10-16'], [10, 12]),
+  prices('S3', ['2023-10-13', '2023-10-16', '2026-10-16'], [30, 25, 20]),
+  // S4 is measured but has no price file: the chart must say so and still draw the others.
+]);
+const settle = () => new Promise(resolve => setTimeout(resolve, 5));
+const nameButton = (p, ticker) => p.fundRows().find(r => text(r.children[1]) === ticker).children[2].children[0];
+const themeButton = (p, name) => p.rows().find(r => r.children[0].tagName === 'th' && text(r.children[0]).includes(`— ${name}`)).children[0].children[0];
+
+test('prices are loaded lazily, once per ticker, when a fund is clicked', async () => {
+  const p = await page(FIXTURE, PRICES);
+  assert.deepEqual(p.fetched, ['data/screen.json']);  // nothing price-related at load
+  assert.match(fs.readFileSync('site/index.html', 'utf8'), /<section id="chart-panel" hidden/);  // closed until a fund is clicked
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  assert.deepEqual(p.fetched, ['data/screen.json', 'data/prices/S1.json']);
+  assert.equal(p.elements['#chart-panel'].hidden, false);
+  assert.match(p.elements['#chart-title'].textContent, /S1.*Big Chip ETF/);
+  assert.match(p.elements['#chart-body'].innerHTML, /<svg[^>]*role="img"/);
+  assert.match(p.elements['#chart-summary'].textContent, /40\.00 on 2023-10-13.*65\.60 on 2026-10-16/);
+  nameButton(p, 'S1').listeners.click();  // same trigger again closes
+  assert.equal(p.elements['#chart-panel'].hidden, true);
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  assert.equal(p.fetched.filter(u => u.includes('S1')).length, 1);  // cached
+  assert.equal(p.elements['#chart-panel'].hidden, false);
+});
+
+test('fund chart text is escaped, Close hides the panel, a missing file is reported', async () => {
+  const p = await page(FIXTURE, PRICES);
+  p.set('#mode', 'value', 'all');
+  nameButton(p, 'S2').listeners.click();
+  await settle();
+  assert.doesNotMatch(p.elements['#chart-body'].innerHTML, /<b>New/);
+  p.elements['#chart-close'].listeners.click();
+  assert.equal(p.elements['#chart-panel'].hidden, true);
+  nameButton(p, 'S4').listeners.click();
+  await settle();
+  assert.match(p.elements['#chart-summary'].textContent, /Cannot load prices for S4/);
+  assert.equal(p.elements['#chart-body'].innerHTML, '');
+  nameButton(p, 'S5').listeners.click();  // no price data: no request at all
+  await settle();
+  assert.ok(!p.fetched.some(u => u.includes('S5')));
+  assert.match(p.elements['#chart-summary'].textContent, /No price data for S5/);
+});
+
+test('theme chart rebases measured peers to 100 at the window start and shades the window', async () => {
+  const p = await page(FIXTURE, PRICES);
+  assert.ok(!p.rows().some(r => text(r.children[0]).includes('Cannabis') && r.children[0].children.length));  // no window: no chart
+  themeButton(p, 'Semiconductors').listeners.click();
+  await settle();
+  assert.deepEqual(p.fetched.slice(1).sort(), ['data/prices/S1.json', 'data/prices/S3.json', 'data/prices/S4.json']);  // measured only (not S2)
+  assert.equal(p.elements['#chart-panel'].hidden, false);
+  assert.match(p.elements['#chart-title'].textContent, /Semiconductors/);
+  const html = p.elements['#chart-body'].innerHTML;
+  assert.match(html, /<rect class="window" data-start="2023-10-16" data-end="2026-10-16"/);
+  assert.match(html, /data-ticker="S1"/);
+  assert.match(html, /data-ticker="S3"/);
+  const summary = p.elements['#chart-summary'].textContent;
+  assert.match(summary, /S1 131\.2/);  // 65.6 / 50 * 100
+  assert.match(summary, /S3 80\.0/);   // 20 / 25 * 100
+  assert.match(summary, /S4: no price file/);
 });

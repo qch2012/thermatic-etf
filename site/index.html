@@ -45,7 +45,17 @@
         <tbody id="funds"></tbody>
       </table>
     </div>
+    <p>Select a fund name for its adjusted-close chart, or a theme heading to compare its measured funds.</p>
     <p>* Net assets use a fallback source (hover for which). † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old. Stale: this run's fetch failed and the last good data is shown.</p>
+    <!-- Price charts (#6): sticks to the bottom of the window while the table is in view -->
+    <section id="chart-panel" hidden aria-labelledby="chart-title">
+      <div class="chart-head">
+        <h2 id="chart-title"></h2>
+        <button id="chart-close" type="button">Close chart</button>
+      </div>
+      <div id="chart-body"></div>
+      <p id="chart-summary" role="status"></p>
+    </section>
   </main>
 </body>
 </html>

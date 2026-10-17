@@ -17,3 +17,17 @@ th[aria-sort=descending] button::after { content: " ▼"; }
 .sliders { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; }
 .sliders label { display: flex; gap: .5rem; align-items: center; }
 .sliders output { min-width: 3.5em; font-variant-numeric: tabular-nums; }
+button.chart-link { font: inherit; background: none; border: 0; padding: 0; color: #00599b; text-align: left; text-decoration: underline; cursor: pointer; }
+th.theme button.chart-link { font-weight: 600; }
+#chart-panel { position: sticky; bottom: 0; margin-top: 1rem; padding: .5rem 1rem; background: #fff; border: 1px solid #ccc; box-shadow: 0 -2px 8px rgba(0, 0, 0, .12); max-height: 70vh; overflow-y: auto; }
+#chart-panel[hidden] { display: none; }
+.chart-head { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+.chart-head h2 { font-size: 1rem; margin: .25rem 0; }
+#chart-summary { margin: .25rem 0; }
+svg.chart { display: block; width: 100%; max-width: 60rem; height: auto; max-height: 45vh; }
+svg.chart text { font-size: 11px; fill: #18232c; }
+svg.chart .grid { stroke: #d9dfe4; stroke-width: 1; }
+svg.chart .base { stroke: #7d8a96; stroke-dasharray: 4 3; }
+svg.chart .window { fill: #00599b; fill-opacity: .1; }
+.legend { display: flex; flex-wrap: wrap; gap: .25rem 1rem; list-style: none; margin: .25rem 0; padding: 0; }
+.legend i { display: inline-block; width: 1.5rem; height: 3px; margin-right: .4rem; vertical-align: middle; }

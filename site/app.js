@@ -46,7 +46,7 @@ function rescore() {
 const COLUMNS = [
   { label: 'Rank', value: rankOf, cell: f => rankOf(f) ?? '—' },
   { label: 'Ticker', value: f => f.ticker, cell: tickerCell },
-  { label: 'Name', value: f => f.name, cell: f => f.name },
+  { label: 'Name', value: f => f.name, cell: f => chartButton(f.name, fundChart(f)) },
   { label: 'Launched', value: f => f.first_trade_date, cell: f => f.first_trade_date ?? '—' },
   { label: 'Net assets', value: f => f.net_assets, cell: f => `${money(f.net_assets)}${f.assets_source !== 'Yahoo totalAssets' ? '*' : ''} · ${f.assets_as_of}`, title: f => `Source: ${f.assets_source}` },
   { label: 'Fee', value: f => f.expense_ratio, cell: f => percent(f.expense_ratio) },
@@ -94,13 +94,14 @@ function sorted(funds) {
   });
 }
 
-function headingRow(body, text, className) {
+function headingRow(body, text, className, chart) {
   const row = document.createElement('tr');
   const cell = document.createElement('th');
   cell.colSpan = COLUMNS.length;
   cell.scope = 'colgroup';
   cell.className = className;
-  cell.textContent = text;
+  if (chart) cell.append(chartButton(text, chart));
+  else cell.textContent = text;
   row.append(cell);
   body.append(row);
 }
@@ -151,7 +152,7 @@ function render() {
     if (!members.length) continue;
     if (theme.group !== group) headingRow(body, group = theme.group, 'group');
     const window = theme.window ? `shared performance window ${theme.window.start} to ${theme.window.end} (${theme.window.observations} aligned observations)` : 'performance unmeasured';
-    headingRow(body, `${theme.group} — ${theme.theme}: ${window}; ${theme.eligible} eligible of ${theme.candidates}`, 'theme');
+    headingRow(body, `${theme.group} — ${theme.theme}: ${window}; ${theme.eligible} eligible of ${theme.candidates}`, 'theme', theme.window && themeChart(theme));
     members.forEach(f => fundRow(body, f));
   }
   // SPEC 5.6: listed separately with every candidate and its failed gate. Top view lists theme names only (Andy, 2026-10-17).
@@ -173,6 +174,149 @@ function render() {
       members.forEach(f => fundRow(body, f));
     }
   }
+}
+
+// Price charts (SPEC 6.3). Hand-written inline SVG, no library. A chart is {key, title, build}: build() returns
+// {svg, legend, summary} after loading price files lazily (data/prices/<TICKER>.json, one fetch per ticker).
+const SERIES_COLORS = ['#00599b', '#c2570c', '#6a3d9a'];  // top 3 peers by live rank; validated categorical set
+const OTHER_COLOR = '#7d8a96';
+const prices = new Map();
+let openChart = null;
+
+function loadPrices(ticker) {
+  if (!prices.has(ticker)) {
+    const request = fetch(`data/prices/${encodeURIComponent(ticker)}.json`).then(response => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    });
+    request.catch(() => prices.delete(ticker));  // a failed load can be retried
+    prices.set(ticker, request);
+  }
+  return prices.get(ticker);
+}
+
+const esc = value => String(value).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+function fundChart(fund) {
+  return { key: `fund:${fund.ticker}`, title: `${fund.ticker} ${fund.name}: adjusted close`, build: async () => {
+    if (fund.age == null) return { summary: `No price data for ${fund.ticker}.` };  // no price file exists
+    let file;
+    try { file = await loadPrices(fund.ticker); } catch { return { summary: `Cannot load prices for ${fund.ticker}.` }; }
+    const { dates, adjusted_close: close } = file, last = dates.length - 1;
+    const summary = `${fund.ticker} adjusted close: ${close[0].toFixed(2)} on ${dates[0]} to ${close[last].toFixed(2)} on ${dates[last]} (${percent(close[last] / close[0] - 1)}). Adjusted close includes distributions.`;
+    return { svg: chartSvg([{ ticker: fund.ticker, dates, values: close, color: SERIES_COLORS[0] }], null, null, summary), summary };
+  } };
+}
+
+function themeChart(theme) {
+  const { start, end } = theme.window;
+  return { key: `theme:${theme.theme}`, title: `${theme.theme}: measured funds rebased to 100 on ${start}`, build: async () => {
+    const peers = view.data.funds.filter(f => f.theme === theme.theme && f.cumulative_return != null)
+      .sort((a, b) => rankOf(a) - rankOf(b));
+    const loaded = await Promise.allSettled(peers.map(f => loadPrices(f.ticker)));
+    const series = [], notes = [];
+    peers.forEach((fund, i) => {
+      if (loaded[i].status !== 'fulfilled') return notes.push(`${fund.ticker}: no price file`);
+      const { dates, adjusted_close: close } = loaded[i].value;
+      const base = close[dates.indexOf(start)];
+      if (!(base > 0)) return notes.push(`${fund.ticker}: no price on ${start}`);
+      series.push({ ticker: fund.ticker, dates, values: close.map(v => v / base * 100), color: SERIES_COLORS[series.length] ?? OTHER_COLOR });
+    });
+    const atEnd = series.map(s => `${s.ticker} ${s.values[s.dates.indexOf(end)]?.toFixed(1) ?? '—'}`);
+    const summary = `Rebased to 100 on ${start}. On ${end}: ${atEnd.join(', ') || 'no funds drawn'}.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
+    const named = series.filter(s => s.color !== OTHER_COLOR);
+    const others = series.length - named.length;
+    const legend = named.map(s => `<li><i style="background:${s.color}"></i>${esc(s.ticker)}</li>`).join('')
+      + (others ? `<li><i style="background:${OTHER_COLOR}"></i>${others} other measured fund${others > 1 ? 's' : ''}</li>` : '');
+    return { svg: series.length ? chartSvg(series, { start, end }, 100, summary) : '', legend, summary };
+  } };
+}
+
+// Round tick values: step is 1, 2 or 5 times a power of ten, at most `count` steps across the range.
+function niceTicks(lo, hi, count = 4) {
+  const raw = (hi - lo) / count, power = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 5, 10].map(m => m * power).find(candidate => candidate >= raw);
+  const ticks = [];
+  for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) ticks.push(v);
+  return ticks;
+}
+
+const DAY = 864e5;
+
+function chartSvg(series, shade, baseline, label) {
+  const W = 720, H = 300, left = 48, right = 56, top = 12, bottom = 26;
+  const days = series.flatMap(s => s.dates.map(d => Date.parse(d) / DAY));
+  const all = series.flatMap(s => s.values).concat(baseline ?? []);
+  const x0 = days.reduce((a, b) => Math.min(a, b)), x1 = days.reduce((a, b) => Math.max(a, b));
+  let lo = all.reduce((a, b) => Math.min(a, b)), hi = all.reduce((a, b) => Math.max(a, b));
+  const pad = (hi - lo || hi || 1) * 0.05;
+  lo -= pad; hi += pad;
+  const x = d => left + (d - x0) / ((x1 - x0) || 1) * (W - left - right);
+  const y = v => top + (hi - v) / (hi - lo) * (H - top - bottom);
+  const out = [`<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">`];
+  if (shade) {
+    const a = x(Date.parse(shade.start) / DAY), b = x(Date.parse(shade.end) / DAY);
+    out.push(`<rect class="window" data-start="${shade.start}" data-end="${shade.end}" x="${a}" y="${top}" width="${b - a}" height="${H - top - bottom}"/>`);
+  }
+  for (const v of niceTicks(lo, hi)) {
+    out.push(`<line class="grid" x1="${left}" x2="${W - right}" y1="${y(v)}" y2="${y(v)}"/><text x="${left - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`);
+  }
+  // x ticks: January of each year over long spans, otherwise a few month starts
+  const months = [];
+  for (const d = new Date(x0 * DAY); ; ) {
+    d.setUTCMonth(d.getUTCMonth() + 1, 1);
+    if (d.getTime() / DAY > x1) break;
+    months.push(new Date(d));
+  }
+  const long = x1 - x0 > 400, every = Math.ceil(months.length / 5);
+  months.filter((d, i) => long ? d.getUTCMonth() === 0 : i % every === 0).forEach(d => {
+    const text = long ? d.getUTCFullYear() : d.toISOString().slice(0, 7);
+    out.push(`<text x="${x(d.getTime() / DAY)}" y="${H - 8}" text-anchor="middle">${text}</text>`);
+  });
+  if (baseline != null) out.push(`<line class="base" x1="${left}" x2="${W - right}" y1="${y(baseline)}" y2="${y(baseline)}"/>`);
+  for (const s of series) {
+    const points = s.values.map((v, i) => `${x(Date.parse(s.dates[i]) / DAY).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+    out.push(`<polyline data-ticker="${esc(s.ticker)}" points="${points}" fill="none" stroke="${s.color}" stroke-width="${s.color === OTHER_COLOR ? 1 : 2}"/>`);
+  }
+  // direct labels on the colored lines, nudged apart so they don't overlap
+  let lastY = -Infinity;
+  series.filter(s => s.color !== OTHER_COLOR).map(s => ({ s, y: y(s.values.at(-1)) }))
+    .sort((a, b) => a.y - b.y).forEach(item => {
+      lastY = Math.max(item.y, lastY + 13);
+      out.push(`<text x="${x(Date.parse(item.s.dates.at(-1)) / DAY) + 5}" y="${lastY + 4}" fill="${item.s.color}">${esc(item.s.ticker)}</text>`);
+    });
+  out.push('</svg>');
+  return out.join('');
+}
+
+function chartButton(label, chart) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'chart-link';
+  button.textContent = label;
+  button.title = 'Show price chart';
+  button.addEventListener('click', () => showChart(chart, button));
+  return button;
+}
+
+function closeChart() {
+  $('#chart-panel').hidden = true;
+  openChart?.opener.focus?.();
+  openChart = null;
+}
+
+async function showChart(chart, opener) {
+  if (openChart?.key === chart.key) return closeChart();  // same trigger again closes
+  openChart = { key: chart.key, opener };
+  $('#chart-panel').hidden = false;
+  $('#chart-title').textContent = chart.title;
+  $('#chart-body').innerHTML = '';
+  $('#chart-summary').textContent = 'Loading prices…';
+  $('#chart-close').focus?.();
+  const result = await chart.build();
+  if (openChart?.key !== chart.key) return;  // closed, or another chart was opened meanwhile
+  $('#chart-body').innerHTML = `${result.svg ?? ''}${result.legend ? `<ul class="legend">${result.legend}</ul>` : ''}`;
+  $('#chart-summary').textContent = result.summary;
 }
 
 function options(select, values) {
@@ -202,6 +346,7 @@ function renderControls() {
   bind('#search', 'search', 'value');
   bind('#new-only', 'newOnly', 'checked');
   bind('#hide-small', 'hideSmall', 'checked');
+  $('#chart-close').addEventListener('click', closeChart);
 }
 
 // Live weights (SPEC 6.2). Sliders hold raw values; the outputs show the normalized split.
