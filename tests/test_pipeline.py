@@ -39,13 +39,48 @@ class MethodTests(unittest.TestCase):
         # Existing config/seed conflicts are documented in reports/issue-2.md.
         self.assertEqual(mismatches, {"WDEF": None, "ARKW": "Genomics & gene editing"})
         for ticker, name, expected in [
-            ("LAZR", "Photonics ETF", "Photonics & optics"),
-            ("MJ", "Generic ETF", "Cannabis"),
-            ("X", "Blue Chip ETF", None),
+            ("LAZR", "Tema Photonics & Optical ETF", "Photonics & optics"),
+            ("MJ", "Amplify Alternative Harvest ETF", "Cannabis"),
+            ("FBCG", "Fidelity Blue Chip Growth ETF", None),
+            ("TSXU", "Direxion Daily Semiconductors Top 5 Bull 2X ETF", None),
             ("X", "2x Semiconductor ETF", None),
             ("X", "Memory Semiconductor ETF", "Memory & storage"),
         ]:
             self.assertEqual(classify(ticker, name, config), expected)
+
+    def test_classifier_reproduces_seed_on_live_directory(self):
+        # Live Nasdaq rows for the seed tickers, saved 2026-10-17. ANEW, CTEX, DAT and VERS are delisted.
+        config = yaml.safe_load((ROOT / "config/themes.yaml").read_text())
+        names = {f["ticker"]: f["name"] for f in parse((ROOT / "tests/fixtures/nasdaqtraded_2026-10-17_seed_tickers.txt").read_text())}
+        with (ROOT / "seed/universe_2026-10-06.csv").open() as file:
+            seed = {row["ticker"]: row["theme"] for row in csv.DictReader(file)}
+        self.assertEqual(set(seed) - set(names), {"ANEW", "CTEX", "DAT", "VERS"})
+        self.assertEqual({t: classify(t, n, config) for t, n in names.items()}, {t: seed[t] for t in names})
+
+    def test_hand_computed_window(self):
+        # A trades every weekday of 2024 and has prices from 2023 that must be ignored.
+        # B starts 2024-01-02 and skips 2024-06-03, so that date is not in the aligned series.
+        days = [date.fromordinal(d) for d in range(date(2023, 6, 1).toordinal(), date(2025, 1, 1).toordinal())]
+        days = [d.isoformat() for d in days if d.weekday() < 5]
+        def make(ticker, first, skip=()):
+            prices = [dict(date=d, close=10, adjusted_close=50.0, volume=100000) for d in days if d >= first and d not in skip]
+            for p in prices:
+                if "2024-01-02" <= p["date"]:
+                    p["adjusted_close"] = 100.0 if p["date"] < "2024-12-31" else 200.0
+            return {"ticker": ticker, "first_trade_date": first, "prices": prices, "net_assets": 200e6, "expense_ratio": 0.005}
+        a, b = make("A", "2023-06-01"), make("B", "2024-01-02", {"2024-06-03"})
+        window = score([a, b])
+        self.assertEqual((window["start"], window["end"]), ("2024-01-02", "2024-12-31"))
+        self.assertEqual(window["observations"], 260)  # 261 weekdays from 2024-01-02 to 2024-12-31, minus the skipped day
+        self.assertEqual(window["years"], 364 / 365.25)
+        self.assertEqual(a["cumulative_return"], 1.0)  # 200/100 - 1, not 200/50 - 1 from pre-start prices
+        self.assertAlmostEqual(a["annualized_return"], 2 ** (365.25 / 364) - 1)
+        # 258 zero log returns and one ln(2); sample std divides by n - 1 = 258.
+        returns = [0.0] * 258 + [math.log(2)]
+        mean = math.log(2) / 259
+        self.assertAlmostEqual(a["volatility"], math.sqrt(sum((r - mean) ** 2 for r in returns) / 258) * math.sqrt(252))
+        for f in (a, b):  # all ties: every percentile is 1.5 / 2
+            self.assertAlmostEqual(f["score"], 75)
 
     def test_gates_order_boundaries(self):
         f = fund()
@@ -149,10 +184,20 @@ class PipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)
             output = path / "screen.json"
-            settings = {"theme": "Semiconductors", "data_source": "stub"}
-            result = run(settings, output, path / "cache", DIRECTORY)
-            self.assertEqual(len(result["funds"]), 2)
-            self.assertEqual(result["funds"][0]["rank"], 1)
+            settings = {"data_source": "stub"}
+            result = run(settings, output, path / "cache", DIRECTORY + "MJJ|Amplify Alternative Harvest ETF|Y|N\nMJ|Some Name|Y|N\n")
+            taxonomy = yaml.safe_load((ROOT / "config/themes.yaml").read_text())["themes"]
+            self.assertEqual(len(result["themes"]), len(taxonomy))
+            self.assertEqual({t["theme"]: t["candidates"] for t in result["themes"] if t["candidates"]},
+                             {"Semiconductors": 2, "Cannabis": 1})
+            groups = [t["group"] for t in result["themes"]]
+            self.assertEqual(list(dict.fromkeys(groups)), ["Technology", "Physical world", "Social", "Broad thematic"])
+            tech = [t["theme"] for t in result["themes"] if t["group"] == "Technology"]
+            self.assertEqual(tech[0], "Semiconductors")  # only Technology theme with an eligible fund
+            semis = [f for f in result["funds"] if f["theme"] == "Semiconductors"]
+            self.assertEqual([f["rank"] for f in semis], [1, 2])
+            self.assertEqual(next(f for f in result["funds"] if f["ticker"] == "MJ")["group"], "Social")
+            self.assertNotIn("MJJ", [f["ticker"] for f in result["funds"]])  # name without "cannabis" rule match
             self.assertTrue(json.loads(output.read_text())["synthetic"])
             self.assertNotIn("prices", result["funds"][0])
             previous = output.read_bytes()
@@ -172,7 +217,7 @@ class PipelineTests(unittest.TestCase):
         )
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)
-            settings = {"theme": "Semiconductors", "data_source": "stub"}
+            settings = {"data_source": "stub"}
             run(settings, path / "screen.json", path / "cache", directory)
             original = Stub.profile
 
@@ -253,7 +298,7 @@ class PipelineTests(unittest.TestCase):
             path = Path(tmp)
             with self.assertLogs(level="WARNING") as logs:
                 result = run(
-                    {"theme": "Photonics & optics", "data_source": "yahoo"},
+                    {"data_source": "yahoo"},
                     path / "screen.json", path / "cache",
                     "Symbol|Security Name|ETF|Test Issue\nLAZR|Photonics ETF|Y|N\n",
                 )

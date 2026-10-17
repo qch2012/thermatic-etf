@@ -6,6 +6,19 @@ function render(data) {
   const body = document.querySelector('#funds');
   body.replaceChildren();
   const funds = data.funds.filter(f => document.querySelector('#all').checked || (f.rank != null && f.rank <= 3));
+  for (const theme of data.themes) {
+    const heading = document.createElement('tr');
+    const cell = document.createElement('th');
+    cell.colSpan = 11;
+    cell.scope = 'colgroup';
+    cell.textContent = `${theme.group} — ${theme.theme}: ${theme.eligible ? '' : 'no eligible fund; '}${theme.window ? `shared performance window ${theme.window.start} to ${theme.window.end} (${theme.window.observations} aligned observations)` : 'performance unmeasured'}`;
+    heading.append(cell);
+    body.append(heading);
+    renderFunds(body, funds.filter(f => f.theme === theme.theme));
+  }
+}
+
+function renderFunds(body, funds) {
   for (const fund of funds) {
     const row = document.createElement('tr');
     const flags = [fund.status, fund.new ? '🆕' : '', fund.performance_unmeasured ? '†' : '', fund.stale ? 'stale market data' : '', fund.assets_stale ? 'stale assets' : ''].filter(Boolean).join(' · ');
@@ -36,9 +49,7 @@ async function load() {
     const response = await fetch('data/screen.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
-    document.querySelector('#theme').textContent = `${data.group} — ${data.theme}`;
-    document.querySelector('#status').textContent = `${data.synthetic ? 'SYNTHETIC DEMO — not market data. ' : ''}Generated ${data.generated_at}. ${data.funds.length} funds; ${data.failed_fetches.length} failed fetches.`;
-    document.querySelector('#window').textContent = data.window ? `Shared performance window: ${data.window.start} to ${data.window.end} (${data.window.observations} aligned observations).` : 'Performance unmeasured for this theme.';
+    document.querySelector('#status').textContent = `${data.synthetic ? 'SYNTHETIC DEMO — not market data. ' : ''}Generated ${data.generated_at}. ${data.themes.length} themes, ${data.funds.length} funds; ${data.failed_fetches.length} failed fetches.`;
     document.querySelector('#all').addEventListener('change', () => render(data));
     render(data);
   } catch (error) {

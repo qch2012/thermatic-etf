@@ -4,24 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>Thematic ETF tracer</title>
+  <title>Thematic ETF screen</title>
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <main>
-    <h1>Thematic ETF tracer</h1>
+    <h1>Thematic ETF screen</h1>
     <p id="status" role="status">Loading screen…</p>
-    <p>Scores are comparable within this theme only. Dollar volume is shown, not scored.</p>
+    <p>Scores are comparable within a theme only, not across themes. Dollar volume is shown, not scored.</p>
     <label><input id="all" type="checkbox"> Show all screened funds (default: top 3 eligible)</label>
     <div class="table-scroll" tabindex="0" role="region" aria-label="Fund table, scroll horizontally for more columns">
       <table>
-        <caption id="theme">Funds</caption>
+        <caption>Funds by group and theme</caption>
         <thead><tr><th scope="col">Rank</th><th scope="col">Ticker</th><th scope="col">Name</th><th scope="col">Launched</th><th scope="col">Net assets</th><th scope="col">Fee</th><th scope="col">Return</th><th scope="col">Ratio</th><th scope="col">Avg daily $ volume</th><th scope="col">Score</th><th scope="col">Status / flags</th></tr></thead>
         <tbody id="funds"></tbody>
       </table>
     </div>
-    <p id="window"></p>
     <p>* Net assets use a fallback source. † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old.</p>
   </main>
 </body>

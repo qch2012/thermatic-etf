@@ -1,6 +1,6 @@
 # Thematic ETF Screener
 
-One-theme tracer for issue #2. Read `SPEC.md` for the full project; this is not the complete screener or a private deployment.
+All-theme screen (issues #2–#3). Read `SPEC.md` for the full project; this is not the complete screener or a private deployment.
 
 ## Run locally
 
@@ -22,7 +22,7 @@ Open http://localhost:8000. The bare table defaults to the top three eligible fu
 
 ## Switch sources
 
-Change `data_source: yahoo` to `data_source: stub` in `config/settings.yaml`, then run the same command. The stub generates deterministic synthetic prices/profiles; the Nasdaq directory is still fetched live and the site prominently labels synthetic output. No pipeline or site code changes are required. Change `theme` to another exact theme name to run that theme instead.
+Change `data_source: yahoo` to `data_source: stub` in `config/settings.yaml`, then run the same command. The stub generates deterministic synthetic prices/profiles; the Nasdaq directory is still fetched live and the site prominently labels synthetic output. No pipeline or site code changes are required.
 
 For fully offline tests, pass a saved Nasdaq-format directory:
 
@@ -32,7 +32,7 @@ For fully offline tests, pass a saved Nasdaq-format directory:
 
 `--settings` and `--output` accept alternative paths. Adapters live exclusively in `pipeline/sources/` and implement `history(ticker)` and `profile(ticker)`; the contract is in `pipeline/sources/__init__.py`. Yahoo reuses a cookie session, throttles every request to ~3.3/s, and retries 429/5xx and network errors with exponential backoff.
 
-Per-source last-good data is cached in `.cache/`. Fetch failures reuse cached data and are marked stale. An uncached failure, fewer than 90% successful fetches, an empty theme/directory, or invalid JSON numbers aborts without overwriting the previous output. Net assets fall back to Yahoo quote `netAssets`, then configured issuer overrides, with source/date markers. If only the optional Yahoo quote fallback fails, successful history/profile fields remain usable and issuer overrides are still applied; the error is logged and retained in the fund's JSON `warnings`. Missing adjusted closes do not remove valid close/volume days from liquidity or age calculations; performance uses only dates with adjusted prices. Generated output and caches are ignored for this local tracer; daily JSON commits belong to the later refresh job.
+Per-source last-good data is cached in `.cache/`. Fetch failures reuse cached data and are marked stale. An uncached failure, fewer than 90% successful fetches, no classified funds, or invalid JSON numbers aborts without overwriting the previous output. Net assets fall back to Yahoo quote `netAssets`, then configured issuer overrides, with source/date markers. If only the optional Yahoo quote fallback fails, successful history/profile fields remain usable and issuer overrides are still applied; the error is logged and retained in the fund's JSON `warnings`. Missing adjusted closes do not remove valid close/volume days from liquidity or age calculations; performance uses only dates with adjusted prices. Every theme in `config/themes.yaml` is screened into one `site/data/screen.json`; its shape is in `docs/contract.md`. Generated output and caches are ignored for now; daily JSON commits belong to the later refresh job.
 
 ## Tests
 

@@ -13,6 +13,7 @@ from .sources.directory import URL, parse
 from .sources.http import Session
 
 ROOT = Path(__file__).resolve().parents[1]
+GROUPS = ["Technology", "Physical world", "Social", "Broad thematic"]
 
 
 def write_json(path, data):
@@ -27,15 +28,16 @@ def write_json(path, data):
 def run(settings, output, cache_dir, directory_text=None):
     taxonomy = yaml.safe_load((ROOT / "config/themes.yaml").read_text())
     themes = {rule["theme"]: rule["group"] for rule in taxonomy["themes"]}
-    theme = settings["theme"]
-    if theme not in themes:
-        raise ValueError(f"Unknown theme: {theme}")
     source_name = settings["data_source"]
     source = create(source_name)
     directory = parse(directory_text if directory_text is not None else Session().get(URL))
-    candidates = [f for f in directory if classify(f["ticker"], f["name"], taxonomy) == theme]
+    candidates = []
+    for f in directory:
+        theme = classify(f["ticker"], f["name"], taxonomy)
+        if theme:
+            candidates.append({**f, "theme": theme, "group": themes[theme]})
     if not candidates:
-        raise ValueError(f"No classified funds for {theme}; not publishing")
+        raise ValueError("No classified funds; not publishing")
     links = json.loads((ROOT / "config/issuer_links.json").read_text())
     overrides = yaml.safe_load((ROOT / "config/aum_overrides.yaml").read_text())["funds"]
     funds, failures = [], []
@@ -67,19 +69,28 @@ def run(settings, output, cache_dir, directory_text=None):
         funds.append(fund)
     if len(failures) / len(funds) > 0.1:
         raise RuntimeError("Fewer than 90% of candidates fetched successfully; not publishing")
-    window = score(funds)
+    summaries = []
+    for theme, group in themes.items():
+        members = [f for f in funds if f["theme"] == theme]
+        window = score(members)
+        eligible = [f["net_assets"] for f in members if f["status"] == "Eligible"]
+        summaries.append({"theme": theme, "group": group, "window": window, "candidates": len(members),
+                          "eligible": len(eligible), "largest_net_assets": max(eligible, default=None)})
+    # SPEC 5.6: groups in fixed order; themes by largest eligible fund, themes without one last.
+    summaries.sort(key=lambda t: (GROUPS.index(t["group"]), t["largest_net_assets"] is None, -(t["largest_net_assets"] or 0), t["theme"]))
+    order = {t["theme"]: i for i, t in enumerate(summaries)}
     for fund in funds:
         del fund["prices"]
-    result = {"theme": theme, "group": themes[theme], "data_source": source_name,
-              "synthetic": source_name == "stub", "generated_at": datetime.now(timezone.utc).isoformat(),
-              "window": window, "funds": sorted(funds, key=lambda f: (f["rank"] is None, f["rank"] or 0, f["ticker"])),
+    result = {"data_source": source_name, "synthetic": source_name == "stub",
+              "generated_at": datetime.now(timezone.utc).isoformat(), "themes": summaries,
+              "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
               "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]]}
     write_json(output, result)
     return result
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Refresh one thematic ETF table")
+    parser = argparse.ArgumentParser(description="Refresh the thematic ETF screen")
     parser.add_argument("--settings", type=Path, default=ROOT / "config/settings.yaml")
     parser.add_argument("--output", type=Path, default=ROOT / "site/data/screen.json")
     parser.add_argument("--directory", type=Path, help="Saved Nasdaq directory for offline testing")
