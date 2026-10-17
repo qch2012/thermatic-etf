@@ -37,7 +37,7 @@ class MethodTests(unittest.TestCase):
                 if actual != row["theme"]:
                     mismatches[row["ticker"]] = actual
         # Existing config/seed conflicts are documented in reports/issue-2.md.
-        self.assertEqual(mismatches, {"WDEF": None, "ARKW": "Genomics & gene editing"})
+        self.assertEqual(mismatches, {"ARKW": "Genomics & gene editing"})
         for ticker, name, expected in [
             ("LAZR", "Tema Photonics & Optical ETF", "Photonics & optics"),
             ("MJ", "Amplify Alternative Harvest ETF", "Cannabis"),
