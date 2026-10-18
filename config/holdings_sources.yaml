@@ -55,6 +55,12 @@ ARKW: {parser: ark, url: "https://assets.ark-funds.com/fund-documents/funds-etf-
 ARKQ: {parser: ark, url: "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv"}
 ARKX: {parser: ark, url: "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv"}
 ARKF: {parser: ark, url: "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv"}
+# Roundhill: one file for all its funds, assets/data/FilepointRoundhill.40RU.RU_Holdings_<MMDDYYYY>.csv, read by the fund page's own script; `account` picks the fund. {mdy} as for Tema.
+DRAM: {parser: roundhill, args: {account: DRAM}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+LYTE: {parser: roundhill, args: {account: LYTE}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+HUMN: {parser: roundhill, args: {account: HUMN}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+METV: {parser: roundhill, args: {account: METV}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+NCLD: {parser: roundhill, args: {account: NCLD}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
 # Tema: temaetfs.com/hubfs/Website/Holdings/<TICKER>-holdings-<MMDDYYYY>.csv (the fund page's Holdings download). {mdy} is filled in by the fetch: the latest day with a file.
 DISK: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv"}
 VOLT: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/VOLT-holdings-{mdy}.csv"}

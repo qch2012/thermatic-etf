@@ -1,7 +1,8 @@
 import csv
-from datetime import date, timedelta
+from datetime import date
 import io
 
+from .dates import previous_business_day
 from .ids import identifiers
 
 
@@ -10,8 +11,7 @@ def parse_themes(text):
     rows and a SEDOL (7) for foreign rows; cash rows put `CASH<ccy>` there, which is not an identifier."""
     rows = list(csv.DictReader(io.StringIO(text)))
     # `date` is the next trade date (a Monday file is dated Monday), so the holdings are as of the trading day before.
-    published = date.fromisoformat(rows[0]["date"])
-    as_of = published - timedelta(days={0: 3, 6: 2}.get(published.weekday(), 1))
+    as_of = previous_business_day(date.fromisoformat(rows[0]["date"]))
     holdings = []
     for row in rows:
         ident = row["cusip"]

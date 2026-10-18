@@ -18,6 +18,7 @@ from pipeline.sources.issuers.globalx import parse_globalx
 from pipeline.sources.issuers.ids import identifiers
 from pipeline.sources.issuers.invesco import parse_invesco
 from pipeline.sources.issuers.ishares import parse_ishares
+from pipeline.sources.issuers.roundhill import parse_roundhill
 from pipeline.sources.issuers.select import parse_select
 from pipeline.sources.issuers.tema import parse_tema
 from pipeline.sources.issuers.themes import parse_themes
@@ -150,6 +151,21 @@ class ParserTests(unittest.TestCase):
         self.assertEqual((swap["asset_type"], "cusip" in swap), ("Swap", False))  # swap code is not an identifier
         self.assertEqual(rows["CASH & CASH EQUIVALENTS"]["asset_type"], "Cash")
         self.assertAlmostEqual(sum(r["weight"] for r in parsed["holdings"]), 1.0, places=3)
+
+    def test_roundhill_shared_file_picks_one_fund(self):
+        # Real Roundhill file for 2026-10-16 (rows of DRAM and METV kept). Dated with the next trade date, 10/19, so as_of is Friday.
+        text = (FIXTURES / "roundhill_DRAM_METV_2026-10-16.csv").read_text(encoding="utf-8-sig")
+        parsed = parse_roundhill(text, "DRAM")
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = {r["name"]: r for r in parsed["holdings"]}
+        self.assertEqual(len(parsed["holdings"]), 25)
+        self.assertEqual(next(r for r in parsed["holdings"] if r["ticker"] == "000660 KS"), {"name": "SK hynix Inc", "ticker": "000660 KS", "asset_type": "Equity", "weight": 0.1484, "sedol": "6450267"})
+        self.assertEqual(rows["SK HYNIX INC-SWAP-GOLD-L"]["asset_type"], "Swap")  # the swap's code is "6450267 TRS ..."; no identifier
+        self.assertEqual(rows["United States Treasury Bill 12/03/2026"]["asset_type"], "Treasury")
+        self.assertEqual(rows["First American Government Obligations Fund 12/01/2031"]["asset_type"], "Money Market")
+        self.assertEqual((rows["CHINESE YUAN"]["asset_type"], rows["Cash & Other"]["asset_type"], rows["Cash & Other"]["weight"]), ("Cash", "Cash", -0.4867))
+        self.assertTrue(all(not {"cusip", "sedol"} & set(r) for r in rows.values() if r["asset_type"] != "Equity"))
+        self.assertEqual(len(parse_roundhill(text, "METV")["holdings"]), 32)
 
     def test_invesco_json(self):
         # Real PPA data from dng-api.invesco.com (cusip 46137V100). `effectiveDate` is the next day; `effectiveBusinessDate` is the data date.
