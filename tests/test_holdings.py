@@ -19,6 +19,7 @@ from pipeline.sources.issuers.ids import identifiers
 from pipeline.sources.issuers.invesco import parse_invesco
 from pipeline.sources.issuers.ishares import parse_ishares
 from pipeline.sources.issuers.select import parse_select
+from pipeline.sources.issuers.tema import parse_tema
 from pipeline.sources.issuers.themes import parse_themes
 
 FIXTURES = ROOT / "tests/fixtures"
@@ -136,6 +137,19 @@ class ParserTests(unittest.TestCase):
         # No ticker means money market or warrant: not an Equity row. Placeholder ids (X9USDGSFT, BREADUMMY) are dropped.
         for name in ("GOLDMAN FS TRSY OBLIG INST 468", "BRERA HOLDINGS PLC WTS"):
             self.assertEqual((by_name[name]["asset_type"], "cusip" in by_name[name], "sedol" in by_name[name]), ("Other", False, False))
+
+    def test_tema_csv(self):
+        # Real DISK file (temaetfs.com/hubfs/Website/Holdings/DISK-holdings-10162026.csv). percent_of_nav is already a fraction.
+        parsed = parse_tema((FIXTURES / "tema_DISK_2026-10-16.csv").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = {r["name"]: r for r in parsed["holdings"]}
+        self.assertEqual(rows["SANDISK CORP"], {"name": "SANDISK CORP", "ticker": "SNDK", "asset_type": "Equity", "weight": 0.188, "cusip": "80004C200", "location": "United States"})
+        self.assertEqual(rows["KIOXIA HOLDINGS CORP"]["location"], "Japan")  # foreign stock: no CUSIP, still a stock
+        self.assertNotIn("cusip", rows["KIOXIA HOLDINGS CORP"])
+        swap = rows["CHANGXIN MEMORY TECHNOLOGIES-SWAP-MREX-L"]
+        self.assertEqual((swap["asset_type"], "cusip" in swap), ("Swap", False))  # swap code is not an identifier
+        self.assertEqual(rows["CASH & CASH EQUIVALENTS"]["asset_type"], "Cash")
+        self.assertAlmostEqual(sum(r["weight"] for r in parsed["holdings"]), 1.0, places=3)
 
     def test_invesco_json(self):
         # Real PPA data from dng-api.invesco.com (cusip 46137V100). `effectiveDate` is the next day; `effectiveBusinessDate` is the data date.
