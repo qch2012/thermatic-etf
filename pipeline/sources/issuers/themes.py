@@ -2,6 +2,8 @@ import csv
 from datetime import date, timedelta
 import io
 
+from .ids import identifiers
+
 
 def parse_themes(text):
     """Themes ETFs `Holdings-<TICKER>.csv` (NATO, BOTT). `weightings` is a percent. `cusip` holds a CUSIP (9 characters) for US
@@ -16,8 +18,8 @@ def parse_themes(text):
         cash = ident.startswith("CASH") or ident == row["stock_ticker"]
         asset_type = "Cash" if cash else "Money Market" if row["money_market_flag"] == "1" else "Equity"
         holding = {"name": row["security_name"], "ticker": row["stock_ticker"], "asset_type": asset_type, "weight": round(float(row["weightings"]) / 100, 10)}
-        if asset_type == "Equity" and len(ident) in (7, 9):
-            holding["cusip" if len(ident) == 9 else "sedol"] = ident
+        if asset_type == "Equity":
+            holding.update(identifiers(ident))
         if row["country_full"]:
             holding["location"] = row["country_full"]
         holdings.append(holding)

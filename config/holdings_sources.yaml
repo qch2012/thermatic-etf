@@ -19,3 +19,14 @@ XT: {parser: ishares, url: "https://www.ishares.com/us/products/272532/ishares-f
 NATO: {parser: themes, url: "https://themesetfs.com/storage/holdings/Holdings-NATO.csv"}
 # Select Funds (Tuttle Capital): the JSON behind select-funds.com/fund-info (its Google-Sheets CSVs are stale).
 EUAD: {parser: select, url: "https://jdkfnvgkfwotjlyovbrk.supabase.co/functions/v1/fund-public-api?ticker=EUAD&view=all"}
+# Global X: <ticker>_full-holdings_<YYYYMMDD>.csv on assets.globalxetfs.com (the fund page's Holdings tab "Download Full CSV"). {date} is filled in by the fetch: the latest day with a file.
+BOTZ: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/botz_full-holdings_{date}.csv"}
+CLOU: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/clou_full-holdings_{date}.csv"}
+DTCR: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/dtcr_full-holdings_{date}.csv"}
+FINX: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/finx_full-holdings_{date}.csv"}
+SNSR: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/snsr_full-holdings_{date}.csv"}
+DRIV: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/driv_full-holdings_{date}.csv"}
+PAVE: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/pave_full-holdings_{date}.csv"}
+COPX: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/copx_full-holdings_{date}.csv"}
+URA: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/ura_full-holdings_{date}.csv"}
+LIT: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/lit_full-holdings_{date}.csv"}

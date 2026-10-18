@@ -1,15 +1,22 @@
+from datetime import date
 import json
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+import urllib.error
 
 import yaml
 
 from pipeline.__main__ import ROOT, run, write_json
 from pipeline.sources.stub import Stub
 from pipeline.holdings import match_companies, normalize, refresh, top_holdings
-from pipeline.sources.issuers import PARSERS
+from pipeline.sources.issuers import PARSERS, fetch
+from pipeline.sources.issuers.ark import parse_ark
+from pipeline.sources.issuers.firsttrust import parse_firsttrust
+from pipeline.sources.issuers.globalx import parse_globalx
+from pipeline.sources.issuers.ids import identifiers
+from pipeline.sources.issuers.invesco import parse_invesco
 from pipeline.sources.issuers.ishares import parse_ishares
 from pipeline.sources.issuers.select import parse_select
 from pipeline.sources.issuers.themes import parse_themes
@@ -68,6 +75,80 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(len(parsed["holdings"]), 22)
         self.assertEqual(parsed["holdings"][1], {"name": "SAFRAN SA-UNSPON ADR", "ticker": "SAFRY", "asset_type": "Equity", "weight": 0.19359, "cusip": "786584102"})
         self.assertAlmostEqual(sum(h["weight"] for h in parsed["holdings"]), 1.0, places=3)
+
+    def test_identifiers_reject_placeholders(self):
+        self.assertEqual(identifiers("N0280G100"), {"cusip": "N0280G100"})  # CINS (foreign) uses the CUSIP check digit
+        self.assertEqual(identifiers("4012250"), {"sedol": "4012250"})
+        for placeholder in ("CASHEUR", "X9USDGSFT", "BREADUMMY", "-", "", None, "Cash&Other", "BNYMLEND"):
+            self.assertEqual(identifiers(placeholder), {}, placeholder)
+
+    def test_globalx_csv(self):
+        # Real BOTZ file (assets.globalxetfs.com/funds/holdings/botz_full-holdings_20261016.csv). No asset type or country column.
+        parsed = parse_globalx((FIXTURES / "globalx_BOTZ_2026-10-16.csv").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = parsed["holdings"]
+        self.assertEqual(len(rows), 85)
+        self.assertEqual(rows[0], {"name": "INTUITIVE SURGICAL INC", "ticker": "ISRG", "asset_type": "Equity", "weight": 0.0949, "sedol": "2871301"})
+        self.assertEqual(rows[1]["ticker"], "6954 JP")
+        cash = [r for r in rows if r["asset_type"] != "Equity"]
+        self.assertEqual({r["name"] for r in cash}, {"CASH", "BRITISH STERLING POUND", "JAPANESE YEN", "OTHER PAYABLE & RECEIVABLES", "NASDAQ 100 E-MINI DEC26"})
+        self.assertTrue(all("sedol" not in r and (r["ticker"] is None) == (r["asset_type"] == "Cash") for r in cash))
+        self.assertEqual(next(r for r in cash if r["name"] == "JAPANESE YEN")["weight"], 0.0)
+        future = next(r for r in rows if r["name"] == "NASDAQ 100 E-MINI DEC26")
+        self.assertEqual((future["asset_type"], "sedol" in future), ("Other", False))
+
+    def test_dated_url_walks_back_to_the_latest_file(self):
+        text = (FIXTURES / "globalx_BOTZ_2026-10-16.csv").read_text(encoding="utf-8-sig")
+        asked = []
+
+        def get(url):  # Saturday and Friday-only: the 17th has no file
+            asked.append(url)
+            if "20261016" not in url:
+                raise urllib.error.HTTPError(url, 404, "Not Found", {}, None)
+            return text
+
+        source = {"parser": "globalx", "url": "https://x/botz_{date}.csv"}
+        self.assertEqual(fetch(source, get, today=date(2026, 10, 17))["as_of"], "2026-10-16")
+        self.assertEqual(asked, ["https://x/botz_20261017.csv", "https://x/botz_20261016.csv"])
+        with self.assertRaises(ValueError):
+            fetch(source, lambda url: (_ for _ in ()).throw(urllib.error.HTTPError(url, 404, "", {}, None)), today=date(2026, 10, 17))
+
+    def test_firsttrust_page(self):
+        # Real GRID holdings page (ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=GRID); the table is in the HTML.
+        parsed = parse_firsttrust((FIXTURES / "firsttrust_GRID_2026-10-16.html").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = parsed["holdings"]
+        self.assertEqual(rows[0], {"name": "Quanta Services, Inc.", "ticker": "PWR", "asset_type": "Equity", "weight": 0.0869, "cusip": "74762E102"})
+        self.assertAlmostEqual(sum(r["weight"] for r in rows), 1.0, places=2)
+        cash = [r for r in rows if r["asset_type"] != "Equity"]
+        self.assertTrue(cash and all(r["asset_type"] == "Cash" and "cusip" not in r for r in cash))
+        self.assertTrue(all(r["ticker"] and not r["ticker"].startswith("$") for r in rows if r["asset_type"] == "Equity"))
+
+    def test_ark_csv(self):
+        # Real ARKW file. ARK's own date was 2026-10-06 when downloaded on 2026-10-17, so as_of is the file's date, not today.
+        parsed = parse_ark((FIXTURES / "ark_ARKW_2026-10-06.csv").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-06")
+        rows = parsed["holdings"]
+        self.assertEqual(len(rows), 43)
+        self.assertEqual(rows[0], {"name": "TESLA INC", "ticker": "TSLA", "asset_type": "Equity", "weight": 0.0751, "cusip": "88160R101"})
+        by_name = {r["name"]: r for r in rows}
+        self.assertEqual(by_name["3IQ ETHER STAKING ETF"]["sedol"], "BQ84B35")
+        # No ticker means money market or warrant: not an Equity row. Placeholder ids (X9USDGSFT, BREADUMMY) are dropped.
+        for name in ("GOLDMAN FS TRSY OBLIG INST 468", "BRERA HOLDINGS PLC WTS"):
+            self.assertEqual((by_name[name]["asset_type"], "cusip" in by_name[name], "sedol" in by_name[name]), ("Other", False, False))
+
+    def test_invesco_json(self):
+        # Real PPA data from dng-api.invesco.com (cusip 46137V100). `effectiveDate` is the next day; `effectiveBusinessDate` is the data date.
+        parsed = parse_invesco((FIXTURES / "invesco_PPA_2026-10-16.json").read_text())
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = parsed["holdings"]
+        self.assertEqual(rows[0], {"name": "RTX Corp", "ticker": "RTX", "asset_type": "Equity", "weight": 0.09311995, "cusip": "75513E101"})
+        types = {r["name"]: r["asset_type"] for r in rows}
+        self.assertEqual(types["Invesco Government & Agency Portfolio"], "Money Market Fund, Taxable")  # HTML entity decoded, not Equity
+        self.assertEqual(types["CME E Mini Industrial Select Sector Futures"], "Index Future")
+        self.assertEqual(types["CASH & EQUIVALENTS"], "Currency")
+        self.assertTrue(all(("cusip" not in r) for r in rows if r["asset_type"] != "Equity"))
+        self.assertEqual(next(r for r in rows if r["name"] == "USD Pending Dividends")["weight"], 0.0)  # null weight
 
     def test_real_nato_and_euad_share_airbus_and_bae(self):
         files = [{"holdings": parse_themes((FIXTURES / "themes_NATO_2026-10-17.csv").read_text())["holdings"]},
