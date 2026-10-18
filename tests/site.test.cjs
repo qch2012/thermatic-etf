@@ -568,3 +568,52 @@ test('index.html mounts the moves panel and explains the history rules', () => {
   assert.match(doc, /id="moves-body"/);
   assert.match(strip(doc), /nearest snapshot on or before/);
 });
+
+// Review fixes: theme changes, gaps in the rank line, one bad snapshot, table before history.
+const raw = (date, funds) => [`data/history/${date}.json`, { date, funds }];
+const cellOf = (p, ticker, label) => p.fundRows().find(r => text(r.children[1]) === ticker).children[HEADERS.indexOf(label)];
+
+test('a fund that changed theme has no rank change across the change, and its rank line starts after it', async () => {
+  const p = await page(FIXTURE, { ...PRICES, ...history(
+    raw('2026-09-10', { S1: ['Cannabis', 1, 50, 1e8] }),
+    raw('2026-10-09', { S1: ['Semiconductors', 3, 50, 1e8] })) });
+  p.set('#mode', 'value', 'eligible');
+  assert.equal(text(cellOf(p, 'S1', 'Rank vs 1 month')), '—');
+  assert.match(cellOf(p, 'S1', 'Rank vs 1 month').title, /in another theme then/);
+  assert.equal(text(cellOf(p, 'S1', 'Rank vs 1 week')), '▲2');
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  const html = p.elements['#chart-body'].innerHTML.split('chart-sub')[1];  // the rank part, after the price chart
+  assert.match(p.elements['#chart-summary'].textContent, /3 on 2026-10-09 to 1 on 2026-10-17/);
+  assert.doesNotMatch(p.elements['#chart-summary'].textContent, /2026-09-10/);
+  assert.equal((html.match(/<polyline data-ticker="S1"/g) ?? []).length, 1);
+});
+
+test('the rank line breaks across unranked days instead of connecting over them', async () => {
+  const s = (date, rank) => raw(date, { S1: ['Semiconductors', rank, 50, 1e8] });
+  const p = await page(FIXTURE, { ...PRICES, ...history(s('2026-09-10', 5), s('2026-09-24', 4), s('2026-10-02', null), s('2026-10-09', 3)) });
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  assert.equal((p.elements['#chart-body'].innerHTML.split('chart-sub')[1].match(/<polyline data-ticker="S1"/g) ?? []).length, 2);
+});
+
+test('one missing snapshot does not disable the rest of the history', async () => {
+  const files = { ...PRICES, ...history(snap('2026-09-10', { S1: 5, S2: 1, S3: 2, S4: 3, C1: 1 }), snap('2026-09-24', { S1: 4 })) };
+  files['data/history/index.json'] = ['2026-09-10', '2026-09-24', '2026-10-09'];  // 2026-10-09 is listed but 404s
+  const p = await page(FIXTURE, files);
+  p.set('#mode', 'value', 'eligible');
+  assert.equal(text(cellOf(p, 'S1', 'Rank vs 1 month')), '▲4');
+  assert.equal(text(cellOf(p, 'S1', 'Rank vs 1 week')), '—');  // its snapshot is the broken one
+  assert.match(p.elements['#moves-body'].innerHTML, /Since 2026-09-10/);
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  assert.match(p.elements['#chart-summary'].textContent, /5 on 2026-09-10 to 1 on 2026-10-17/);
+});
+
+test('the table renders before history has loaded', async () => {
+  let release;
+  const gate = new Promise(resolve => { release = resolve; });
+  const p = await page(FIXTURE, { 'data/history/index.json': gate.then(() => []) });
+  assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1']);
+  release();
+});
