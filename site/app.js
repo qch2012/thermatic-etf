@@ -145,6 +145,7 @@ function renderHead() {
 function render() {
   const body = $('#funds');
   body.replaceChildren();
+  chartButtons.clear();
   const funds = view.data.funds;
   let group = null;
   for (const theme of view.data.themes) {
@@ -182,6 +183,7 @@ const SERIES_COLORS = ['#00599b', '#c2570c', '#6a3d9a'];  // top 3 peers by live
 const OTHER_COLOR = '#7d8a96';
 const prices = new Map();
 let openChart = null;
+const chartButtons = new Map();  // chart key → its button in the current table render
 
 function loadPrices(ticker) {
   if (!prices.has(ticker)) {
@@ -295,19 +297,21 @@ function chartButton(label, chart) {
   button.className = 'chart-link';
   button.textContent = label;
   button.title = 'Show price chart';
-  button.addEventListener('click', () => showChart(chart, button));
+  chartButtons.set(chart.key, button);
+  button.addEventListener('click', () => showChart(chart));
   return button;
 }
 
 function closeChart() {
   $('#chart-panel').hidden = true;
-  openChart?.opener.focus?.();
+  // render() replaces the buttons, so look the trigger up by key; fall back to the table if it is no longer shown.
+  (chartButtons.get(openChart?.key) ?? $('.table-scroll')).focus?.();
   openChart = null;
 }
 
-async function showChart(chart, opener) {
+async function showChart(chart) {
   if (openChart?.key === chart.key) return closeChart();  // same trigger again closes
-  openChart = { key: chart.key, opener };
+  openChart = { key: chart.key };
   $('#chart-panel').hidden = false;
   $('#chart-title').textContent = chart.title;
   $('#chart-body').innerHTML = '';

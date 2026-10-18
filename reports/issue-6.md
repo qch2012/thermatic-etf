@@ -26,3 +26,7 @@ Branch: `feat/6-price-charts` (stacked on `feat/5-live-weights`). Not merged, no
 ## Questions for Andy
 
 - None.
+
+## Review fixes
+
+- Closing a chart returned focus to a detached button when the table had re-rendered (slider moved, filter changed). Now the trigger is looked up by chart key in the current render, falling back to the table region when it is no longer shown. Test added (red first).

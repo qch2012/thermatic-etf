@@ -399,3 +399,23 @@ test('theme chart rebases measured peers to 100 at the window start and shades t
   assert.match(summary, /S3 80\.0/);   // 20 / 25 * 100
   assert.match(summary, /S4: no price file/);
 });
+
+test('closing a chart returns focus to its trigger even after the table re-rendered', async () => {
+  const p = await page(FIXTURE, PRICES);
+  const old = nameButton(p, 'S1');
+  old.listeners.click();
+  await settle();
+  weights(p, '100', '0', '0');  // re-render: the table now holds a new S1 button
+  const fresh = nameButton(p, 'S1');
+  assert.notEqual(fresh, old);
+  p.elements['#chart-close'].listeners.click();
+  assert.equal(p.elements['#chart-panel'].hidden, true);
+  assert.ok(fresh.focused, 'focus goes to the S1 button now in the table');
+  assert.ok(!old.focused, 'not to the detached one');
+  // Trigger no longer in the table (filtered out): focus falls back to the table region.
+  fresh.listeners.click();
+  await settle();
+  p.set('#search', 'value', 's4');
+  p.elements['#chart-close'].listeners.click();
+  assert.ok(p.elements['.table-scroll'].focused);
+});
