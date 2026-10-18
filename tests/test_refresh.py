@@ -113,6 +113,23 @@ class RefreshRunTests(unittest.TestCase):
         names = sorted(p.name for p in (self.path / "prices").iterdir())
         self.assertEqual(names, sorted(f"F{i}.json" for i in range(10)))
 
+    def test_price_files_start_no_later_than_the_theme_window(self):
+        original = Stub.history
+
+        def history(source, ticker):  # F0 is a stale peer: its prices end a year and a half early
+            data = original(source, ticker)
+            if ticker == "F0":
+                data["prices"] = [p for p in data["prices"] if p["date"] <= "2024-06-03"]
+            return data
+
+        with patch.object(Stub, "history", history):
+            result = run({"data_source": "stub"}, self.path / "screen.json", self.path / "cache", directory(4))
+        window = result["themes"][0]["window"]
+        self.assertEqual(window["end"], "2024-06-03")
+        for f in result["funds"]:
+            dates = json.loads((self.path / "prices" / f"{f['ticker']}.json").read_text())["dates"]
+            self.assertIn(window["start"], dates, f["ticker"])
+
     def test_funds_with_unknown_age_are_not_new(self):
         f = {"ticker": "X", "prices": [], "net_assets": None, "first_trade_date": None}
         score([f])

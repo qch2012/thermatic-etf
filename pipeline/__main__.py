@@ -103,10 +103,13 @@ def run(settings, output, cache_dir, directory_text=None):
     # Price files for the charts: last 3 calendar years of adjusted closes, every fund with price data.
     last_dates = [f["prices"][-1]["date"] for f in funds if f["prices"]]
     price_files = {}
+    window_starts = {t["theme"]: t["window"]["start"] for t in summaries if t["window"]}
     for fund in funds:
         prices = [p for p in fund.pop("prices") if p["adjusted_close"] is not None]
         if prices:
-            start = three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat()
+            # A stale peer pulls the theme's common end back; keep every file back to the theme window start.
+            start = min(three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat(),
+                        window_starts.get(fund["theme"], "9999"))
             prices = [p for p in prices if p["date"] >= start]
             price_files[fund["ticker"]] = {"ticker": fund["ticker"], "dates": [p["date"] for p in prices],
                                            "adjusted_close": [p["adjusted_close"] for p in prices]}

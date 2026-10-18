@@ -91,7 +91,7 @@ Path: `site/data/prices/<TICKER>.json`, one per fund that has at least one adjus
 `{"ticker": string, "dates": [date, ...], "adjusted_close": [number, ...]}`
 
 - Same length, oldest first. Only days with an adjusted close (days where it is missing are left out).
-- Coverage: the last 3 calendar years up to the fund's own last adjusted close (Feb 29 falls back to Feb 28). Younger funds have shorter files.
+- Coverage: the last 3 calendar years up to the fund's own last adjusted close (Feb 29 falls back to Feb 28), or back to the theme's `window.start` if that is earlier (a stale peer pulls the window end back). Younger funds have shorter files.
 - Written atomically (temp file then rename), only when the run publishes (after the 90% check). Funds with stale data get their files rewritten from the last good data. Each run deletes the price files of tickers not in its `funds`.
 - Theme charts rebase to the theme's `window.start` using these files.
 
