@@ -20,9 +20,9 @@ GROUPS = ["Technology", "Physical world", "Social", "Broad thematic"]
 WEIGHTS = {"size": 0.4, "cost": 0.2, "performance": 0.4}
 
 
-def write_json(path, data):
+def write_json(path, data, compact=False):
     path.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(data, allow_nan=False, indent=2) + "\n"
+    text = json.dumps(data, allow_nan=False, separators=(",", ":")) if compact else json.dumps(data, allow_nan=False, indent=2) + "\n"
     with tempfile.NamedTemporaryFile(mode="w", dir=path.parent, delete=False) as file:
         file.write(text)
         temporary = Path(file.name)
@@ -34,6 +34,15 @@ def three_years_before(day):
         return day.replace(year=day.year - 3)
     except ValueError:  # Feb 29
         return day.replace(year=day.year - 3, day=28)
+
+
+def write_history(directory, result):
+    """SPEC 6.4 / contract "History snapshots": one compact file per UTC run date, plus index.json of the dates."""
+    day = result["generated_at"][:10]
+    funds = {f["ticker"]: [f["theme"], f["rank"], None if f["score"] is None else round(f["score"], 2),
+                           None if f["net_assets"] is None else round(f["net_assets"])] for f in result["funds"]}
+    write_json(directory / f"{day}.json", {"date": day, "funds": funds}, compact=True)
+    write_json(directory / "index.json", sorted(p.stem for p in directory.glob("????-??-??.json")), compact=True)
 
 
 class CheckFailed(RuntimeError):
@@ -132,6 +141,7 @@ def run(settings, output, cache_dir, directory_text=None):
     for old in (output.parent / "prices").glob("*.json"):
         if old.stem not in tickers:
             old.unlink()
+    write_history(output.parent / "history", result)
     write_json(output, result)
     return result
 

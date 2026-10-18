@@ -11,7 +11,7 @@ const windowOf = fund => fund.cumulative_return == null ? null : view.windows[fu
 
 // weights are slider values (any scale, normalized below); live maps ticker → {rank, score} for the current weights.
 const view = { data: null, windows: {}, mode: 'top3', group: '', theme: '', search: '', newOnly: false, hideSmall: false, sort: null,
-  weights: null, topN: 3, live: new Map() };
+  weights: null, topN: 3, live: new Map(), history: {} };
 const WEIGHTS = ['size', 'cost', 'performance'];
 const DEFAULT_TOP_N = 3;
 
@@ -56,6 +56,9 @@ const COLUMNS = [
   { label: 'Avg daily $ volume', value: f => f.dollar_volume, cell: f => money(f.dollar_volume) },
   { label: 'Top 3 holdings', value: null, cell: f => f.top_holdings?.map(h => `${h.name} ${percent(h.weight)}`).join(', ') || '—' },
   { label: 'Score', value: scoreOf, cell: f => number(scoreOf(f), 1) },
+  ...[['Rank vs 1 week', 'week', 7], ['Rank vs 1 month', 'month', 30]].map(([label, key, days]) => ({
+    label, value: f => rankChange(f, view.history[key]), cell: f => changeText(rankChange(f, view.history[key])),
+    title: f => rankChangeTitle(f, view.history[key], days) })),
   { label: 'Status / flags', value: f => f.status, cell: flags },
 ];
 
@@ -204,7 +207,15 @@ function loadPrices(ticker) {
 const esc = value => String(value).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
 function fundChart(fund) {
-  return { key: `fund:${fund.ticker}`, title: `${fund.ticker} ${fund.name}: adjusted close`, build: async () => {
+  const priceChart = fundPriceChart(fund);
+  return { key: priceChart.key, title: `${fund.ticker} ${fund.name}: adjusted close and rank over time`, build: async () => {
+    const price = await priceChart.build(), rank = await rankChart(fund);
+    return { svg: (price.svg ?? '') + (rank.svg ?? ''), summary: [price.summary, rank.summary].join(' ') };
+  } };
+}
+
+function fundPriceChart(fund) {
+  return { key: `fund:${fund.ticker}`, build: async () => {
     if (fund.age == null) return { summary: `No price data for ${fund.ticker}.` };  // no price file exists
     let file;
     try { file = await loadPrices(fund.ticker); } catch { return { summary: `Cannot load prices for ${fund.ticker}.` }; }
@@ -249,7 +260,7 @@ function niceTicks(lo, hi, count = 4) {
 
 const DAY = 864e5;
 
-function chartSvg(series, shade, baseline, label) {
+function chartSvg(series, shade, baseline, label, rank = false) {
   const W = 720, H = 300, left = 48, right = 56, top = 12, bottom = 26;
   const days = series.flatMap(s => s.dates.map(d => Date.parse(d) / DAY));
   const all = series.flatMap(s => s.values).concat(baseline ?? []);
@@ -258,13 +269,13 @@ function chartSvg(series, shade, baseline, label) {
   const pad = (hi - lo || hi || 1) * 0.05;
   lo -= pad; hi += pad;
   const x = d => left + (d - x0) / ((x1 - x0) || 1) * (W - left - right);
-  const y = v => top + (hi - v) / (hi - lo) * (H - top - bottom);
-  const out = [`<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">`];
+  const y = v => top + (rank ? v - lo : hi - v) / (hi - lo) * (H - top - bottom);  // rank 1 (best) at the top
+  const out = [`<svg class="chart${rank ? ' rank' : ''}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">`];
   if (shade) {
     const a = x(Date.parse(shade.start) / DAY), b = x(Date.parse(shade.end) / DAY);
     out.push(`<rect class="window" data-start="${shade.start}" data-end="${shade.end}" x="${a}" y="${top}" width="${b - a}" height="${H - top - bottom}"/>`);
   }
-  for (const v of niceTicks(lo, hi)) {
+  for (const v of niceTicks(lo, hi).filter(v => !rank || Number.isInteger(v))) {
     out.push(`<line class="grid" x1="${left}" x2="${W - right}" y1="${y(v)}" y2="${y(v)}"/><text x="${left - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`);
   }
   // x ticks: January of each year over long spans, otherwise a few month starts
@@ -387,6 +398,85 @@ function update() {
   render();
 }
 
+// Ranking history (SPEC 6.4, contract "History snapshots"). Snapshots hold pipeline (default-weight) ranks, so rank
+// change and the rank line ignore the live sliders. "1 week" / "1 month" = nearest snapshot on or before today-7 / today-30,
+// where today is the run date of screen.json.
+const snapshots = new Map();
+
+function loadSnapshot(date) {
+  if (!snapshots.has(date)) {
+    const request = fetch(`data/history/${date}.json`).then(response => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    });
+    request.catch(() => snapshots.delete(date));
+    snapshots.set(date, request);
+  }
+  return snapshots.get(date).then(snapshot => snapshot.funds);
+}
+
+const daysBefore = (day, n) => new Date(Date.parse(day) - n * DAY).toISOString().slice(0, 10);
+const snapshotOnOrBefore = (dates, day, n) => dates.filter(d => d <= daysBefore(day, n)).at(-1) ?? null;
+
+async function loadHistory(today) {
+  const history = { today, dates: [], week: null, month: null, base: null };
+  view.history = history;
+  try {
+    const response = await fetch('data/history/index.json');
+    if (!response.ok) return;
+    history.dates = (await response.json()).filter(d => d < today);  // today's own snapshot is screen.json
+    const pick = async date => date && { date, funds: await loadSnapshot(date) };
+    history.week = await pick(snapshotOnOrBefore(history.dates, today, 7));
+    history.month = await pick(snapshotOnOrBefore(history.dates, today, 30));
+    history.base = history.month ?? await pick(history.dates[0]);  // too little history: oldest snapshot
+  } catch { Object.assign(history, { dates: [], week: null, month: null, base: null }); }
+}
+
+function rankChange(fund, snapshot) {
+  const was = snapshot?.funds[fund.ticker]?.[1];
+  return was == null || fund.rank == null ? null : was - fund.rank;
+}
+const changeText = change => change == null ? '—' : change > 0 ? `▲${change}` : change < 0 ? `▼${-change}` : '=';
+
+function rankChangeTitle(fund, snapshot, days) {
+  if (!snapshot) return `No snapshot on or before ${days} days ago yet.`;
+  const was = snapshot.funds[fund.ticker]?.[1];
+  return `${was == null ? 'Unranked' : `Rank ${was}`} on ${snapshot.date} (nearest snapshot on or before ${days} days ago). Compares daily-run weights, not the live sliders. ▲ = moved up.`;
+}
+
+// Funds in a theme's top 3 now but not in the snapshot's (entered), and the reverse (left). Top 3 is fixed (SPEC 6.4).
+function top3Moves(funds, snapshot) {
+  const now = {}, was = {};
+  for (const f of funds) if (f.rank != null && f.rank <= 3) (now[f.theme] ??= new Set()).add(f.ticker);
+  for (const [ticker, [theme, rank]] of Object.entries(snapshot.funds)) if (rank != null && rank <= 3) (was[theme] ??= new Set()).add(ticker);
+  const order = [...view.data.themes, ...view.data.no_eligible_themes].map(t => t.theme);
+  return [...new Set([...Object.keys(now), ...Object.keys(was)])].sort((a, b) => order.indexOf(a) - order.indexOf(b)).map(theme => ({
+    theme, entered: [...now[theme] ?? []].filter(t => !was[theme]?.has(t)).sort(), left: [...was[theme] ?? []].filter(t => !now[theme]?.has(t)).sort() }))
+    .filter(move => move.entered.length || move.left.length);
+}
+
+function renderMoves() {
+  const { base, month, today } = view.history;
+  if (!base) { $('#moves-body').innerHTML = '<p>No ranking history yet. It builds up with each daily run.</p>'; return; }
+  const days = Math.round((Date.parse(today) - Date.parse(base.date)) / DAY);
+  const moves = top3Moves(view.data.funds, base);
+  $('#moves-body').innerHTML = `<p>Since ${base.date}${base === month ? '' : `; only ${days} days of history so far`}.</p>`
+    + (moves.length ? `<ul>${moves.map(m => `<li><strong>${esc(m.theme)}</strong>: ${[
+      m.entered.length ? `entered the top 3: ${m.entered.map(esc).join(', ')}` : '', m.left.length ? `left the top 3: ${m.left.map(esc).join(', ')}` : ''].filter(Boolean).join('; ')}</li>`).join('')}</ul>`
+      : '<p>No fund entered or left a top 3.</p>');
+}
+
+// Rank-over-time line for one fund: every snapshot before today, plus today's run. Reuses chartSvg (rank axis, 1 at the top).
+async function rankChart(fund) {
+  const { dates, today } = view.history;
+  const early = dates.length ? await Promise.all(dates.map(loadSnapshot)).catch(() => []) : [];
+  const points = early.map((funds, i) => [dates[i], funds[fund.ticker]?.[1]]).concat([[today, fund.rank]]).filter(([, rank]) => rank != null);
+  if (points.length < 2) return { summary: `Not enough ranking history for ${fund.ticker} yet (needs two daily runs with a rank).` };
+  const summary = `${fund.ticker} rank in its theme, 1 = best, daily-run weights: ${points[0][1]} on ${points[0][0]} to ${points.at(-1)[1]} on ${points.at(-1)[0]}.`;
+  const series = [{ ticker: fund.ticker, dates: points.map(p => p[0]), values: points.map(p => p[1]), color: SERIES_COLORS[0] }];
+  return { svg: `<h3 class="chart-sub">Rank in theme over time (1 = best, daily-run weights)</h3>${chartSvg(series, null, null, summary, true)}`, summary };
+}
+
 async function load() {
   try {
     const response = await fetch('data/screen.json');
@@ -395,8 +485,10 @@ async function load() {
     view.data = data;
     view.windows = Object.fromEntries(data.themes.map(t => [t.theme, t.window]));
     $('#status').textContent = `${data.synthetic ? 'SYNTHETIC DEMO — not market data. ' : ''}Generated ${data.generated_at}. ${data.themes.length + data.no_eligible_themes.length} themes, ${data.funds.length} funds; ${data.failed_fetches.length} failed fetches.`;
+    await loadHistory(data.generated_at.slice(0, 10));
     renderControls();
     renderHead();
+    renderMoves();
     renderWeights();
   } catch (error) {
     $('#status').textContent = `Cannot load screen: ${error.message}. Run the pipeline first and serve site/ over HTTP.`;

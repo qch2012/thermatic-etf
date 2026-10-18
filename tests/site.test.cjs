@@ -30,9 +30,9 @@ async function page(json, files = {}) {
   const elements = { '#mode': Object.assign(new Element('select'), {
     children: ['Top 3 per theme', 'All eligible', 'All screened (with gate status)'].map(t => Object.assign(new Element('option'), { textContent: t })) }) };
   const document = { querySelector: id => (elements[id] ??= new Element(id)), createElement: tag => new Element(tag) };
-  const fetched = [];
+  const fetched = [], historyFetched = [];  // history files are counted apart so price-loading tests stay exact
   const fetch = async url => {
-    fetched.push(url);
+    (url.includes('/history/') ? historyFetched : fetched).push(url);
     const body = url === 'data/screen.json' ? json : files[url];
     return body ? { ok: true, json: async () => body } : { ok: false, status: 404 };
   };
@@ -44,11 +44,11 @@ async function page(json, files = {}) {
   const fundRows = () => rows().filter(r => r.children[0].tagName === 'td');
   const tickers = () => fundRows().map(r => text(r.children[1]));
   const headings = () => rows().filter(r => r.children[0].tagName === 'th').map(r => text(r.children[0]));
-  return { elements, fetched, set, headers, rows, fundRows, tickers, headings };
+  return { elements, fetched, historyFetched, set, headers, rows, fundRows, tickers, headings };
 }
 
 const HEADERS = ['Rank', 'Ticker', 'Name', 'Launched', 'Net assets', 'Fee', 'Window', 'Return', 'Ratio',
-  'Avg daily $ volume', 'Top 3 holdings', 'Score', 'Status / flags'];
+  'Avg daily $ volume', 'Top 3 holdings', 'Score', 'Rank vs 1 week', 'Rank vs 1 month', 'Status / flags'];
 
 function base(over) {
   return { group: 'Technology', theme: 'Semiconductors', first_trade_date: '2020-01-02', net_assets: 500e6,
@@ -142,11 +142,11 @@ test('columns, links and flags line up for every row, including themes with no e
   assert.equal(cells.S2[2], '<b>New Chip</b>');  // text, not HTML
   assert.equal(cells.S2[4], '$40M* · 2026-08-31');
   assert.equal(cells.S2[6], '—');  // unmeasured: no window
-  assert.match(cells.S2[12], /🆕/);
-  assert.match(cells.S2[12], /†/);
-  assert.match(cells.S3[12], /stale/);
+  assert.match(cells.S2[HEADERS.indexOf('Status / flags')], /🆕/);
+  assert.match(cells.S2[HEADERS.indexOf('Status / flags')], /†/);
+  assert.match(cells.S3[HEADERS.indexOf('Status / flags')], /stale/);
   assert.equal(cells.H1[0], '—');
-  assert.match(cells.H1[12], /Under \$100M/);
+  assert.match(cells.H1[HEADERS.indexOf('Status / flags')], /Under \$100M/);
   const h1 = p.fundRows().find(r => text(r.children[1]) === 'H1');
   assert.equal(h1.children[1].children[0].href, 'https://issuer.example/h1');
   const headings = p.headings();
@@ -178,7 +178,7 @@ test('Top 3 / All eligible / All screened toggle', async () => {
   assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'S4', 'S5', 'C1', 'H1']);
   const s5 = p.fundRows().find(r => text(r.children[1]) === 'S5').children.map(text);
   assert.equal(s5[3], '—');  // first_trade_date: null shows a dash, not "null"
-  assert.equal(s5[12], 'No price data');  // no 🆕: no price data means no known age
+  assert.equal(s5[HEADERS.indexOf('Status / flags')], 'No price data');  // no 🆕: no price data means no known age
 });
 
 test('filters by group, theme, text, 🆕 only and hide under $50M', async () => {
@@ -472,4 +472,99 @@ test('Method panel: the Gates list holds exactly the four gates; age is explaine
   assert.equal((gates.match(/<li>/g) ?? []).length, 4);
   assert.doesNotMatch(strip(gates), /365\.25/);
   assert.match(strip(method), /Age is the days between the first trade date/);
+});
+
+// Ranking history (SPEC 6.4). Today = the run date, 2026-10-17. Snapshots hold pipeline (default-weight) ranks.
+const snap = (date, ranks) => [`data/history/${date}.json`, { date, funds: Object.fromEntries(Object.entries(ranks).map(([t, r]) =>
+  [t, [t === 'C1' ? 'Cannabis' : 'Semiconductors', r, r == null ? null : 50, 1e8]])) }];
+const history = (...snaps) => ({ 'data/history/index.json': snaps.map(s => s[1].date), ...Object.fromEntries(snaps) });
+const HISTORY = history(
+  snap('2026-09-10', { S1: 5, S2: 1, S3: 2, S4: 3, C1: 1 }),
+  snap('2026-10-09', { S1: 3, S2: 2, S3: 1, S4: 4, C1: 1 }));
+
+test('rank change vs 1 week and 1 month uses the nearest snapshot on or before today-7 / today-30', async () => {
+  const p = await page(FIXTURE, HISTORY);
+  p.set('#mode', 'value', 'eligible');
+  const week = ticker => text(p.fundRows().find(r => text(r.children[1]) === ticker).children[HEADERS.indexOf('Rank vs 1 week')]);
+  const month = ticker => text(p.fundRows().find(r => text(r.children[1]) === ticker).children[HEADERS.indexOf('Rank vs 1 month')]);
+  assert.deepEqual(['S1', 'S2', 'S3', 'S4', 'C1'].map(week), ['▲2', '=', '▼2', '=', '=']);  // 2026-10-09
+  assert.deepEqual(['S1', 'S2', 'S3', 'S4', 'C1'].map(month), ['▲4', '▼1', '▼1', '▼1', '=']);  // 2026-09-10
+  const cell = p.fundRows()[0].children[HEADERS.indexOf('Rank vs 1 week')];
+  assert.match(cell.title ?? '', /2026-10-09.*daily-run weights/);
+  // Only the two snapshots the table needs were fetched, plus the index.
+  assert.deepEqual(p.historyFetched.sort(), ['data/history/2026-09-10.json', 'data/history/2026-10-09.json', 'data/history/index.json']);
+});
+
+test('rank change uses pipeline ranks, not live-weight ranks', async () => {
+  const p = await page(FIXTURE, HISTORY);
+  p.set('#mode', 'value', 'eligible');
+  weights(p, '0', '100', '0');  // live ranks change; the change columns must not
+  const col = label => p.fundRows().map(r => [text(r.children[1]), text(r.children[HEADERS.indexOf(label)])]);
+  assert.deepEqual(col('Rank vs 1 week').filter(([t]) => t === 'S1' || t === 'S3'), [['S1', '▲2'], ['S3', '▼2']]);
+});
+
+test('no history, no matching snapshot or no rank gives an em dash and the page still works', async () => {
+  const none = await page(FIXTURE);
+  none.set('#mode', 'value', 'eligible');
+  assert.ok(none.fundRows().every(r => text(r.children[HEADERS.indexOf('Rank vs 1 week')]) === '—'));
+  // Only a 5-day-old snapshot: too recent for 1 week and 1 month.
+  const recent = await page(FIXTURE, history(snap('2026-10-12', { S1: 2 })));
+  recent.set('#mode', 'value', 'eligible');
+  assert.ok(recent.fundRows().every(r => text(r.children[HEADERS.indexOf('Rank vs 1 week')]) === '—'));
+  // A fund not ranked then (rank null) has no change.
+  const unranked = await page(FIXTURE, history(snap('2026-10-09', { S1: null, S2: 2 })));
+  unranked.set('#mode', 'value', 'eligible');
+  const week = ticker => text(unranked.fundRows().find(r => text(r.children[1]) === ticker).children[HEADERS.indexOf('Rank vs 1 week')]);
+  assert.deepEqual([week('S1'), week('S2')], ['—', '=']);
+});
+
+test('top 3 entries and exits in the last 30 days, per theme', async () => {
+  const p = await page(FIXTURE, HISTORY);
+  await settle();
+  const html = p.elements['#moves-body'].innerHTML;
+  assert.match(html, /Since 2026-09-10/);
+  assert.match(html, /Semiconductors[\s\S]*entered[\s\S]*S1[\s\S]*left[\s\S]*S4/);
+  assert.doesNotMatch(html, /Cannabis/);  // no move there
+});
+
+test('top 3 moves fall back to the oldest snapshot and say how far back it goes', async () => {
+  const p = await page(FIXTURE, history(snap('2026-10-12', { S1: 4, S2: 2, S3: 1, S4: 3, C1: 1 })));
+  await settle();
+  const html = p.elements['#moves-body'].innerHTML;
+  assert.match(html, /Since 2026-10-12/);
+  assert.match(html, /entered[\s\S]*S1/);
+  assert.match(p.elements['#moves-body'].innerHTML, /only 5 days of history/);
+  const empty = await page(FIXTURE);
+  await settle();
+  assert.match(empty.elements['#moves-body'].innerHTML, /No ranking history yet/);
+});
+
+test('rank over time: the fund chart adds a rank line from every snapshot plus today', async () => {
+  const p = await page(FIXTURE, { ...PRICES, ...HISTORY });
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  const html = p.elements['#chart-body'].innerHTML;
+  assert.match(html, /<svg class="chart rank"[^>]*aria-label="S1 rank[^"]*5 on 2026-09-10[^"]*1 on 2026-10-17/);
+  assert.match(html, /<polyline data-ticker="S1"/);
+  assert.match(html, /daily-run weights/);
+  // A fund with no price data still gets its rank line.
+  const q = await page(FIXTURE, { ...PRICES, ...HISTORY });
+  q.set('#mode', 'value', 'eligible');
+  nameButton(q, 'S4').listeners.click();
+  await settle();
+  assert.match(q.elements['#chart-body'].innerHTML, /<svg class="chart rank"/);
+});
+
+test('rank over time with fewer than 2 points shows a sentence, not a line', async () => {
+  const p = await page(FIXTURE, PRICES);
+  nameButton(p, 'S1').listeners.click();
+  await settle();
+  assert.doesNotMatch(p.elements['#chart-body'].innerHTML, /class="chart rank"/);
+  assert.match(p.elements['#chart-summary'].textContent, /Not enough ranking history/);
+});
+
+test('index.html mounts the moves panel and explains the history rules', () => {
+  const doc = fs.readFileSync('site/index.html', 'utf8');
+  assert.match(doc, /id="moves-body"/);
+  assert.match(strip(doc), /nearest snapshot on or before/);
 });
