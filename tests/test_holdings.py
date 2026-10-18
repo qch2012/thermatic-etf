@@ -22,8 +22,10 @@ from pipeline.sources.issuers.ishares import parse_ishares
 from pipeline.sources.issuers.roundhill import parse_roundhill
 from pipeline.sources.issuers.select import parse_select
 from pipeline.sources.issuers.sprott import parse_sprott
+from pipeline.sources.issuers.ssga import parse_ssga
 from pipeline.sources.issuers.tema import parse_tema
 from pipeline.sources.issuers.themes import parse_themes
+from pipeline.sources.issuers.vaneck import parse_vaneck
 
 FIXTURES = ROOT / "tests/fixtures"
 DIRECTORY = "Symbol|Security Name|ETF|Test Issue\nAAA|Example Semiconductor ETF|Y|N\nBBB|Other Chip ETF|Y|N\n"
@@ -191,6 +193,29 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(rows[0], {"name": "Minsur SA", "ticker": "MINSURI1", "asset_type": "Equity", "weight": 0.0537, "sedol": "2595797"})
         self.assertEqual(rows[-1] if rows[-1]["asset_type"] == "Cash" else next(r for r in rows if r["asset_type"] == "Cash"),
                          {"name": "Cash Equivalent", "ticker": None, "asset_type": "Cash", "weight": 0.0051})
+
+    def test_ssga_xlsx(self):
+        # Real XHE file (ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xhe.xlsx).
+        parsed = parse_ssga((FIXTURES / "ssga_XHE_2026-10-15.xlsx").read_bytes())
+        self.assertEqual(parsed["as_of"], "2026-10-15")
+        rows = {r["name"]: r for r in parsed["holdings"]}
+        self.assertEqual(len(parsed["holdings"]), 75)
+        self.assertEqual(rows["ALPHATEC HOLDINGS INC"], {"name": "ALPHATEC HOLDINGS INC", "ticker": "ATEC", "asset_type": "Equity", "weight": 0.01920431,
+                                                         "cusip": "02081G201", "sedol": "BD60BG7"})
+        # Money market fund, cash and CVRs carry State Street's own codes; none is an identifier or an Equity row.
+        for name in ("SSI US GOV MONEY MARKET CLASS", "US DOLLAR", "CONTRA PARAGON 28 INC", "TPG INC"):
+            self.assertEqual((rows[name]["asset_type"], "cusip" in rows[name]), ("Other", False), name)
+        self.assertEqual(rows["TPG INC"]["weight"], 1.77e-6)  # "1.77E-4" percent
+
+    def test_vaneck_xlsx(self):
+        # Real SMH file (vaneck.com/us/en/etf/equity/smh/holdings/download/xlsx/). Identifier column is FIGI: not emitted.
+        parsed = parse_vaneck((FIXTURES / "vaneck_SMH_2026-10-15.xlsx").read_bytes())
+        self.assertEqual(parsed["as_of"], "2026-10-15")
+        rows = parsed["holdings"]
+        self.assertEqual(len(rows), 27)
+        self.assertEqual(rows[0], {"name": "Nvidia Corp", "ticker": "NVDA", "asset_type": "Equity", "weight": 0.2006})
+        self.assertEqual([(r["name"], r["asset_type"], r["ticker"]) for r in rows[-2:]], [("USD CASH", "Cash", None), ("Other/Cash", "Cash", None)])
+        self.assertEqual(rows[-1]["weight"], -0.0001)
 
     def test_invesco_json(self):
         # Real PPA data from dng-api.invesco.com (cusip 46137V100). `effectiveDate` is the next day; `effectiveBusinessDate` is the data date.

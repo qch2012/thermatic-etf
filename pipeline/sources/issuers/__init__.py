@@ -13,18 +13,23 @@ from .ishares import parse_ishares
 from .roundhill import parse_roundhill
 from .select import parse_select
 from .sprott import parse_sprott
+from .ssga import parse_ssga
 from .tema import parse_tema
 from .themes import parse_themes
+from .vaneck import parse_vaneck
 
 PARSERS = {"ishares": parse_ishares, "themes": parse_themes, "select": parse_select, "globalx": parse_globalx, "firsttrust": parse_firsttrust,
            "ark": parse_ark, "invesco": parse_invesco, "tema": parse_tema,
-           "roundhill": parse_roundhill, "defiance": parse_defiance, "sprott": parse_sprott}
+           "roundhill": parse_roundhill, "defiance": parse_defiance, "sprott": parse_sprott,
+           "vaneck": parse_vaneck, "ssga": parse_ssga}
+BINARY = {"vaneck", "ssga"}  # .xlsx files: parsers take bytes
 
 
 def fetch(source, get, today=None):
     """Download one fund's issuer file (`source` from config/holdings_sources.yaml) and parse it.
     A `{date}` (YYYYMMDD, Global X) or `{mdy}` (MMDDYYYY, Tema) in the url, since those issuers name their files by day, is tried for today and the 6 days before; the first file that exists wins."""
     parse = lambda text: PARSERS[source["parser"]](text, **source.get("args", {}))  # args: e.g. Roundhill's account (fund) inside a shared file
+    get = (lambda url, get=get: get(url, raw=True)) if source["parser"] in BINARY else get
     if "{date}" not in source["url"] and "{mdy}" not in source["url"]:
         return parse(get(source["url"]))
     today, error = today or date.today(), None

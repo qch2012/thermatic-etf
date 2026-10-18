@@ -70,6 +70,11 @@ AIPO: {parser: defiance, url: "https://www.defianceetfs.com/aipo-full-holdings/"
 COPJ: {parser: sprott, url: "https://sprottetfs.com/copj-sprott-junior-copper-miners-etf"}
 SETM: {parser: sprott, url: "https://sprottetfs.com/setm-sprott-critical-materials-etf/"}
 REXC: {parser: sprott, url: "https://sprottetfs.com/rexc-rare-earths-ex-china-etf"}
+# VanEck: the fund page's holdings "xlsx" download. ESPO, NLR and REMX are not listed: their download URL returns the HTML page, not a file.
+SMH: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/smh/holdings/download/xlsx/"}
+IBOT: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/ibot/holdings/download/xlsx/"}
+DAPP: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/dapp/holdings/download/xlsx/"}
+MOO: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/moo/holdings/download/xlsx/"}
 # Tema: temaetfs.com/hubfs/Website/Holdings/<TICKER>-holdings-<MMDDYYYY>.csv (the fund page's Holdings download). {mdy} is filled in by the fetch: the latest day with a file.
 DISK: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv"}
 VOLT: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/VOLT-holdings-{mdy}.csv"}
