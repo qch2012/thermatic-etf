@@ -66,6 +66,10 @@ QTUM: {parser: defiance, url: "https://www.defianceetfs.com/qtum-full-holdings/"
 UFOX: {parser: defiance, url: "https://www.defianceetfs.com/ufox-full-holdings/"}
 JEDI: {parser: defiance, url: "https://www.defianceetfs.com/jedi-full-holdings/"}
 AIPO: {parser: defiance, url: "https://www.defianceetfs.com/aipo-full-holdings/"}
+# Sprott: the fund page embeds its holdings CSV as a data: link.
+COPJ: {parser: sprott, url: "https://sprottetfs.com/copj-sprott-junior-copper-miners-etf"}
+SETM: {parser: sprott, url: "https://sprottetfs.com/setm-sprott-critical-materials-etf/"}
+REXC: {parser: sprott, url: "https://sprottetfs.com/rexc-rare-earths-ex-china-etf"}
 # Tema: temaetfs.com/hubfs/Website/Holdings/<TICKER>-holdings-<MMDDYYYY>.csv (the fund page's Holdings download). {mdy} is filled in by the fetch: the latest day with a file.
 DISK: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv"}
 VOLT: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/VOLT-holdings-{mdy}.csv"}
