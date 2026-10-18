@@ -3,7 +3,7 @@ from datetime import date
 import io
 
 from .dates import previous_business_day
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_themes(text):
@@ -16,8 +16,8 @@ def parse_themes(text):
     for row in rows:
         ident = row["cusip"]
         cash = ident.startswith("CASH") or ident == row["stock_ticker"]
-        asset_type = "Cash" if cash else "Money Market" if row["money_market_flag"] == "1" else "Equity"
-        holding = {"name": row["security_name"], "ticker": row["stock_ticker"], "asset_type": asset_type, "weight": round(float(row["weightings"]) / 100, 10)}
+        asset_type = "Cash" if cash else "Money Market" if row["money_market_flag"] == "1" else "Equity" if identifiers(ident) else "Other"
+        holding = {"name": row["security_name"], "ticker": row["stock_ticker"], "asset_type": asset_type, "weight": pct(row["weightings"])}
         if asset_type == "Equity":
             holding.update(identifiers(ident))
         if row["country_full"]:

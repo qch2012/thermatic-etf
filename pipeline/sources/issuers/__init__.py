@@ -25,11 +25,18 @@ PARSERS = {"ishares": parse_ishares, "themes": parse_themes, "select": parse_sel
 BINARY = {"vaneck", "ssga"}  # .xlsx files: parsers take bytes
 
 
-def fetch(source, get, today=None):
+def fetch(source, get, today=None, memo=None):
     """Download one fund's issuer file (`source` from config/holdings_sources.yaml) and parse it.
     A `{date}` (YYYYMMDD, Global X) or `{mdy}` (MMDDYYYY, Tema) in the url, since those issuers name their files by day, is tried for today and the 6 days before; the first file that exists wins."""
-    parse = lambda text: PARSERS[source["parser"]](text, **source.get("args", {}))  # args: e.g. Roundhill's account (fund) inside a shared file
-    get = (lambda url, get=get: get(url, raw=True)) if source["parser"] in BINARY else get
+    def parse(text):  # args: e.g. Roundhill's account (fund) inside a shared file
+        parsed = PARSERS[source["parser"]](text, **source.get("args", {}))
+        for h in parsed["holdings"]:
+            if h["asset_type"] == "Equity" and h["weight"] < 0:
+                h["asset_type"] = "Other"  # a short or offsetting leg is not a position in the company
+        return parsed
+    raw = source["parser"] in BINARY
+    memo = {} if memo is None else memo  # one download per URL per run (Roundhill's file holds every fund)
+    get = lambda url, get=get: memo[url] if url in memo else memo.setdefault(url, get(url, raw=True) if raw else get(url))
     if "{date}" not in source["url"] and "{mdy}" not in source["url"]:
         return parse(get(source["url"]))
     today, error = today or date.today(), None

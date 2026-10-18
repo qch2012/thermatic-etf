@@ -3,7 +3,7 @@ from datetime import datetime
 import io
 import re
 
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_globalx(text):
@@ -16,7 +16,7 @@ def parse_globalx(text):
             continue  # title lines, header, disclaimer
         ticker, ids = row[1] or None, identifiers(row[3])
         # A ticker without a SEDOL is a future (`NQZ6 Index`), not a stock.
-        holding = {"name": row[2], "ticker": ticker, "asset_type": "Equity" if ids else "Other" if ticker else "Cash", "weight": round(float(row[0]) / 100, 10)}
+        holding = {"name": row[2], "ticker": ticker, "asset_type": "Equity" if ids else "Other" if ticker else "Cash", "weight": pct(row[0])}
         holding.update(ids)
         holdings.append(holding)
     return {"as_of": datetime.strptime(as_of, "%m/%d/%Y").date().isoformat(), "holdings": holdings}

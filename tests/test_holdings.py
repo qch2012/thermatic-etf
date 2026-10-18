@@ -120,6 +120,46 @@ class ParserTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             fetch(source, lambda url: (_ for _ in ()).throw(urllib.error.HTTPError(url, 404, "", {}, None)), today=date(2026, 10, 17))
 
+    def test_select_cash_and_swap_rows_are_not_equity(self):
+        # Real FOTO data: 80.6% cash, and swaps as RECV (positive) / PAYB (negative) legs. The API gives no asset class.
+        rows = parse_select((FIXTURES / "select_FOTO_2026-10-18.json").read_text())["holdings"]
+        by_name = {r["name"]: r for r in rows}
+        self.assertEqual(by_name["CASH AND CASH EQUIVALENTS"]["asset_type"], "Cash")
+        self.assertEqual(by_name["RECV FOTO TRS LITE EQ"]["asset_type"], "Swap")
+        self.assertEqual(by_name["PAYB FOTO TRS LITE EQ"]["asset_type"], "Swap")
+        self.assertEqual(by_name["THE LADDERED T-BILL ETF"]["asset_type"], "Other")
+        self.assertEqual(by_name["LUMENTUM HOLDINGS INC"]["asset_type"], "Equity")
+        self.assertEqual([r["name"] for r in rows if r["asset_type"] == "Equity"][:2], ["LUMENTUM HOLDINGS INC", "IPG PHOTONICS CORP"])
+
+    def test_every_parser_keeps_cash_swaps_and_negative_rows_out_of_equity(self):
+        # Audit over all real fixtures: an Equity row has weight >= 0 and, except where the file itself names the asset class
+        # (iShares, Invesco, VanEck) or carries no ids for foreign stocks (Tema), a valid identifier.
+        files = {"ishares": ["ishares_IDEF_2026-10-15.csv", "ishares_ITA_2026-10-15.csv", "ishares_IFRA_2026-10-15.csv"], "themes": ["themes_NATO_2026-10-17.csv"],
+                 "select": ["select_EUAD_2026-10-17.json", "select_FOTO_2026-10-18.json"], "globalx": ["globalx_BOTZ_2026-10-16.csv"],
+                 "firsttrust": ["firsttrust_GRID_2026-10-16.html"], "ark": ["ark_ARKW_2026-10-06.csv"], "tema": ["tema_DISK_2026-10-16.csv"],
+                 "defiance": ["defiance_QTUM_2026-10-17.html"], "sprott": ["sprott_COPJ_2026-10-16.html"], "invesco": ["invesco_PPA_2026-10-16.json"]}
+        for parser, names in files.items():
+            for name in names:
+                for r in PARSERS[parser]((FIXTURES / name).read_text(encoding="utf-8-sig"))["holdings"]:
+                    if r["asset_type"] == "Equity":
+                        self.assertGreaterEqual(r["weight"], 0, (name, r))
+                        if parser not in ("ishares", "invesco", "tema"):
+                            self.assertTrue({"cusip", "sedol", "isin"} & set(r), (name, r))
+
+    def test_negative_weight_row_is_never_equity(self):
+        source = {"parser": "tema", "url": "https://x/t.csv"}
+        text = "holdings_date,ticker,cusip,proper_name,shares,market_value,percent_of_nav,is_cash,country,sector\n2026-10-16,ABC,,ABC CORP,1,1,-0.01,0,Japan,\n2026-10-16,DEF,,DEF CORP,1,1,1.01,0,Japan,\n"
+        self.assertEqual([h["asset_type"] for h in fetch(source, lambda url: text)["holdings"]], ["Other", "Equity"])
+
+    def test_roundhill_shared_file_is_downloaded_once_per_run(self):
+        text = (FIXTURES / "roundhill_DRAM_METV_2026-10-16.csv").read_text(encoding="utf-8-sig")
+        asked = []
+        get = lambda url: asked.append(url) or text
+        memo = {}
+        for account in ("DRAM", "METV"):
+            fetch({"parser": "roundhill", "args": {"account": account}, "url": "https://x/f_{mdy}.csv"}, get, today=date(2026, 10, 17), memo=memo)
+        self.assertEqual(len(asked), 1)
+
     def test_xlsx_parsers_get_bytes(self):
         data = (FIXTURES / "ssga_XHE_2026-10-15.xlsx").read_bytes()
         self.assertEqual(fetch({"parser": "ssga", "url": "https://x/xhe.xlsx"}, lambda url, raw=False: data if raw else None)["as_of"], "2026-10-15")

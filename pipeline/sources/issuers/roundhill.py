@@ -3,7 +3,7 @@ from datetime import datetime
 import io
 
 from .dates import previous_business_day
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_roundhill(text, account):
@@ -16,7 +16,7 @@ def parse_roundhill(text, account):
         name, ids = row["SecurityName"], identifiers(row["CUSIP"])
         asset_type = ("Swap" if "SWAP" in name.upper() else "Cash" if not ids else "Money Market" if row["MoneyMarketFlag"] == "Y"
                       else "Treasury" if "treasury" in name.lower() else "Equity")
-        holding = {"name": name, "ticker": row["StockTicker"] if ids else None, "asset_type": asset_type, "weight": round(float(row["Weightings"].rstrip("%")) / 100, 10)}
+        holding = {"name": name, "ticker": row["StockTicker"] if ids else None, "asset_type": asset_type, "weight": pct(row["Weightings"])}
         if asset_type == "Equity":
             holding.update(ids)
         holdings.append(holding)

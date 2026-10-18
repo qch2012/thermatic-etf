@@ -3,7 +3,7 @@ from html import unescape
 import re
 
 from .dates import previous_business_day
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_defiance(text):
@@ -19,7 +19,7 @@ def parse_defiance(text):
         ticker, name, code, weight, _ = cells
         ids = identifiers(code)
         holding = {"name": name, "ticker": ticker if ids else None, "asset_type": "Equity" if ids else "Cash" if code.startswith(("CASH", "Cash")) else "Other",
-                   "weight": round(float(weight.rstrip("%").replace(",", "")) / 100, 10)}
+                   "weight": pct(weight)}
         holding.update(ids)
         holdings.append(holding)
     return {"as_of": previous_business_day(datetime.strptime(as_of, "%m/%d/%Y").date()).isoformat(), "holdings": holdings}

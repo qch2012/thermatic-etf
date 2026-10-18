@@ -1,7 +1,7 @@
 from datetime import datetime
 import re
 
-from .ids import identifiers
+from .ids import identifiers, pct
 from .xlsx import xlsx_rows
 
 
@@ -19,7 +19,7 @@ def parse_ssga(data):
         ticker = row["B"] if row["B"] != "-" else None
         ids = {**identifiers(row["C"]), **identifiers(row["D"])}
         equity = ticker and ids and "CVR" not in row["C"]
-        holding = {"name": row["A"], "ticker": ticker, "asset_type": "Equity" if equity else "Other", "weight": round(float(row["E"]) / 100, 10)}
+        holding = {"name": row["A"], "ticker": ticker, "asset_type": "Equity" if equity else "Other", "weight": pct(row["E"])}
         if equity:
             holding.update(ids)
         holdings.append(holding)

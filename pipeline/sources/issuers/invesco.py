@@ -1,7 +1,7 @@
 from html import unescape
 import json
 
-from .ids import identifiers
+from .ids import identifiers, pct
 
 # securityTypeCode values that are stocks. Everything else (currency, money market, futures, synthetic cash) keeps its own name.
 EQUITY_CODES = {"COM", "ADR", "DRNY", "DR", "REIT"}
@@ -15,7 +15,7 @@ def parse_invesco(text):
     for row in data["holdings"]:
         equity = row["securityTypeCode"] in EQUITY_CODES
         holding = {"name": unescape(row["issuerName"]), "ticker": row["ticker"], "asset_type": "Equity" if equity else row["securityTypeName"],
-                   "weight": round((row["percentageOfTotalNetAssets"] or 0) / 100, 10)}
+                   "weight": pct(row["percentageOfTotalNetAssets"])}
         if equity:
             holding.update(identifiers(row["cusip"]))
         holdings.append(holding)

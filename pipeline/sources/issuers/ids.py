@@ -19,3 +19,10 @@ def identifiers(code):
         total = sum(_value(char) * w for char, w in zip(code[:6], (1, 3, 1, 7, 3, 9)))
         return {"sedol": code} if code[6].isdigit() and (10 - total % 10) % 10 == int(code[6]) else {}
     return {}
+
+
+def pct(value):
+    """A published percent (`8.5`, `"8.5%"`, `"1,234.5"`, `None`) as a fraction: 8.5 -> 0.085."""
+    if isinstance(value, str):
+        value = value.strip().rstrip("%").replace(",", "")
+    return round(float(value or 0) / 100, 10)

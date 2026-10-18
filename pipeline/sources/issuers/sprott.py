@@ -4,7 +4,7 @@ import io
 import re
 from urllib.parse import unquote
 
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_sprott(text):
@@ -16,7 +16,7 @@ def parse_sprott(text):
     holdings = []
     for row in csv.DictReader(io.StringIO(unquote(data))):
         ids = identifiers(row["SEDOL"])
-        holding = {"name": row["Security"], "ticker": row["Symbol"] or None, "asset_type": "Equity" if ids else "Cash", "weight": round(float(row["Weight"]) / 100, 10)}
+        holding = {"name": row["Security"], "ticker": row["Symbol"] or None, "asset_type": "Equity" if ids else "Cash", "weight": pct(row["Weight"])}
         holding.update(ids)
         holdings.append(holding)
     return {"as_of": as_of.isoformat(), "holdings": holdings}

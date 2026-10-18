@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 import io
 
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_ark(text):
@@ -13,9 +13,10 @@ def parse_ark(text):
     holdings = []
     for row in rows:
         ticker = row["ticker"] or None
-        holding = {"name": row["company"], "ticker": ticker, "asset_type": "Equity" if ticker else "Other",
-                   "weight": round(float(row["weight (%)"].rstrip("%")) / 100, 10)}
-        if ticker:
-            holding.update(identifiers(row["cusip"]))
+        ids = identifiers(row["cusip"])
+        holding = {"name": row["company"], "ticker": ticker, "asset_type": "Equity" if ticker and ids else "Other",
+                   "weight": pct(row["weight (%)"])}
+        if holding["asset_type"] == "Equity":
+            holding.update(ids)
         holdings.append(holding)
     return {"as_of": datetime.strptime(rows[0]["date"], "%m/%d/%Y").date().isoformat(), "holdings": holdings}

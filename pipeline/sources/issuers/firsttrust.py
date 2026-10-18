@@ -2,7 +2,7 @@ from datetime import datetime
 from html import unescape
 import re
 
-from .ids import identifiers
+from .ids import identifiers, pct
 
 
 def parse_firsttrust(text):
@@ -17,7 +17,7 @@ def parse_firsttrust(text):
             continue  # page chrome and the header row
         name, ticker, cusip, _, _, _, weight = cells
         cash = ticker.startswith("$")
-        holding = {"name": name, "ticker": ticker, "asset_type": "Cash" if cash else "Equity", "weight": round(float(weight.rstrip("%").replace(",", "")) / 100, 10)}
+        holding = {"name": name, "ticker": ticker, "asset_type": "Cash" if cash else "Equity" if identifiers(cusip) else "Other", "weight": pct(weight)}
         if not cash:
             holding.update(identifiers(cusip))
         holdings.append(holding)

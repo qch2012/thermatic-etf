@@ -100,14 +100,14 @@ def top_holdings(file, n=3):
 def refresh(funds, out_dir, sources, aliases, get, write, never_merge=()):
     """Fetch each eligible fund's issuer file, write site/data/holdings/<TICKER>.json and set Fund.top_holdings.
     A failed fetch or parse reuses the last good file (stale); with none, the fund gets no holdings."""
-    files = {}
+    files, memo = {}, {}
     for fund in funds:
         ticker, source = fund["ticker"], sources.get(fund["ticker"])
         if fund["status"] != "Eligible" or not source:
             continue
         path = out_dir / f"{ticker}.json"
         try:
-            parsed = fetch(source, get)
+            parsed = fetch(source, get, memo=memo)
             files[ticker] = {"ticker": ticker, "as_of": parsed["as_of"], "fetched_at": datetime.now(timezone.utc).isoformat(),
                              "stale": False, "source": source["url"], "holdings": parsed["holdings"]}
         except Exception as error:

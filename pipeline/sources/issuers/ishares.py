@@ -2,6 +2,8 @@ import csv
 from datetime import datetime
 import io
 
+from .ids import pct
+
 
 def parse_ishares(text):
     """iShares `latest-holdings.csv`: a few header lines, then a table starting at `Ticker,Name,...`."""
@@ -13,7 +15,7 @@ def parse_ishares(text):
         # Some funds publish "Market Weight" (share of net assets) and "Notional Weight" instead of "Weight (%)";
         # there futures show "-" (no market value), which the other layout prints as 0.00.
         text = (row.get("Weight (%)") or row["Market Weight"]).replace(",", "")
-        return 0.0 if text == "-" else round(float(text) / 100, 10)
+        return 0.0 if text == "-" else pct(text)
 
     holdings = []
     for row in csv.DictReader(io.StringIO("\n".join(lines[start:]))):
