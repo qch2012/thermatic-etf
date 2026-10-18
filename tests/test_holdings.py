@@ -409,7 +409,7 @@ class RefreshTests(unittest.TestCase):
         self.assertTrue(missing and all(isinstance(reason, str) and len(reason) > 20 for reason in missing.values()))
         ticker = next(iter(missing))
         screen = {"funds": [{"ticker": ticker, "status": "Eligible"}, {"ticker": "ITA", "status": "Eligible"}]}
-        report = "\n".join(holdings_section(screen, {"ITA": {"as_of": "2026-10-16"}}, date(2026, 10, 17)))
+        report = "\n".join(holdings_section(screen, {"ITA": {"as_of": "2026-10-16", "holdings": []}}, date(2026, 10, 17)))
         self.assertIn(f"- {ticker}: {missing[ticker]}", report)
         self.assertNotIn("- ITA", report)
 
