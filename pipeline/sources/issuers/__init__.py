@@ -5,18 +5,20 @@ from datetime import date, timedelta
 import urllib.error
 
 from .ark import parse_ark
+from .defiance import parse_defiance
 from .firsttrust import parse_firsttrust
 from .globalx import parse_globalx
 from .invesco import parse_invesco
 from .ishares import parse_ishares
 from .roundhill import parse_roundhill
 from .select import parse_select
+from .sprott import parse_sprott
 from .tema import parse_tema
 from .themes import parse_themes
 
 PARSERS = {"ishares": parse_ishares, "themes": parse_themes, "select": parse_select, "globalx": parse_globalx, "firsttrust": parse_firsttrust,
            "ark": parse_ark, "invesco": parse_invesco, "tema": parse_tema,
-           "roundhill": parse_roundhill}
+           "roundhill": parse_roundhill, "defiance": parse_defiance, "sprott": parse_sprott}
 
 
 def fetch(source, get, today=None):

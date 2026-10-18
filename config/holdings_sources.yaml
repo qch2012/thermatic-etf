@@ -61,6 +61,11 @@ LYTE: {parser: roundhill, args: {account: LYTE}, url: "https://www.roundhillinve
 HUMN: {parser: roundhill, args: {account: HUMN}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
 METV: {parser: roundhill, args: {account: METV}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
 NCLD: {parser: roundhill, args: {account: NCLD}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+# Defiance: the fund's full-holdings page (table in the HTML).
+QTUM: {parser: defiance, url: "https://www.defianceetfs.com/qtum-full-holdings/"}
+UFOX: {parser: defiance, url: "https://www.defianceetfs.com/ufox-full-holdings/"}
+JEDI: {parser: defiance, url: "https://www.defianceetfs.com/jedi-full-holdings/"}
+AIPO: {parser: defiance, url: "https://www.defianceetfs.com/aipo-full-holdings/"}
 # Tema: temaetfs.com/hubfs/Website/Holdings/<TICKER>-holdings-<MMDDYYYY>.csv (the fund page's Holdings download). {mdy} is filled in by the fetch: the latest day with a file.
 DISK: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv"}
 VOLT: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/VOLT-holdings-{mdy}.csv"}

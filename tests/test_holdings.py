@@ -13,6 +13,7 @@ from pipeline.sources.stub import Stub
 from pipeline.holdings import match_companies, normalize, refresh, top_holdings
 from pipeline.sources.issuers import PARSERS, fetch
 from pipeline.sources.issuers.ark import parse_ark
+from pipeline.sources.issuers.defiance import parse_defiance
 from pipeline.sources.issuers.firsttrust import parse_firsttrust
 from pipeline.sources.issuers.globalx import parse_globalx
 from pipeline.sources.issuers.ids import identifiers
@@ -20,6 +21,7 @@ from pipeline.sources.issuers.invesco import parse_invesco
 from pipeline.sources.issuers.ishares import parse_ishares
 from pipeline.sources.issuers.roundhill import parse_roundhill
 from pipeline.sources.issuers.select import parse_select
+from pipeline.sources.issuers.sprott import parse_sprott
 from pipeline.sources.issuers.tema import parse_tema
 from pipeline.sources.issuers.themes import parse_themes
 
@@ -166,6 +168,29 @@ class ParserTests(unittest.TestCase):
         self.assertEqual((rows["CHINESE YUAN"]["asset_type"], rows["Cash & Other"]["asset_type"], rows["Cash & Other"]["weight"]), ("Cash", "Cash", -0.4867))
         self.assertTrue(all(not {"cusip", "sedol"} & set(r) for r in rows.values() if r["asset_type"] != "Equity"))
         self.assertEqual(len(parse_roundhill(text, "METV")["holdings"]), 32)
+
+    def test_defiance_page(self):
+        # Real QTUM page, 2026-10-17. It says "as of 10/19/2026" (Monday, the next trade date), so as_of is Friday 10/16.
+        parsed = parse_defiance((FIXTURES / "defiance_QTUM_2026-10-17.html").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = parsed["holdings"]
+        self.assertEqual(len(rows), 90)
+        self.assertEqual(rows[0], {"name": "Global Unichip Corp", "ticker": "3443 TT", "asset_type": "Equity", "weight": 0.0227, "sedol": "B056381"})
+        self.assertEqual(rows[1]["cusip"], "N14506104")
+        cash = {r["name"]: r for r in rows if r["asset_type"] != "Equity"}
+        self.assertEqual(set(cash), {"Cash & Other", "Euro", "New Taiwan Dollar"})
+        self.assertTrue(all(r["asset_type"] == "Cash" and not {"cusip", "sedol"} & set(r) for r in cash.values()))
+        self.assertEqual(cash["New Taiwan Dollar"]["weight"], -0.0001)
+
+    def test_sprott_page_with_embedded_csv(self):
+        # Real COPJ fund page: the holdings CSV is a data: link named COPJ-holdings-10-16-2026.csv.
+        parsed = parse_sprott((FIXTURES / "sprott_COPJ_2026-10-16.html").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = parsed["holdings"]
+        self.assertEqual(len(rows), 69)
+        self.assertEqual(rows[0], {"name": "Minsur SA", "ticker": "MINSURI1", "asset_type": "Equity", "weight": 0.0537, "sedol": "2595797"})
+        self.assertEqual(rows[-1] if rows[-1]["asset_type"] == "Cash" else next(r for r in rows if r["asset_type"] == "Cash"),
+                         {"name": "Cash Equivalent", "ticker": None, "asset_type": "Cash", "weight": 0.0051})
 
     def test_invesco_json(self):
         # Real PPA data from dng-api.invesco.com (cusip 46137V100). `effectiveDate` is the next day; `effectiveBusinessDate` is the data date.
