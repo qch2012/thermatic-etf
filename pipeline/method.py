@@ -41,7 +41,7 @@ def score(funds):
     for fund in funds:
         fund["status"] = gate(fund)
         fund.update(cumulative_return=None, annualized_return=None, volatility=None, ratio=None, rank=None, score=None)
-        fund["new"] = fund.get("age", 0) < 0.5
+        fund["new"] = "age" in fund and fund["age"] < 0.5  # age is unknown without price data
     eligible = [f for f in funds if f["status"] == "Eligible"]
     measured = [f for f in eligible if f["age"] >= 0.5]
     window = None
