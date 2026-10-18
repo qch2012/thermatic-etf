@@ -26,3 +26,8 @@ Branch: `feat/12-method-panel` (stacked on `feat/6-price-charts`). Not merged, n
 
 1. **Review the reasons.** SPEC section 5 gives the rules and only a few reasons (dollar volume not scored; the Morningstar grouping). Most "Why:" lines are my wording. In particular the reasons for the 40/20/40 weights, the $100M / $25M / $0.5M thresholds, the 63-day liquidity window, Top 3 with no minimum score, and the 3-year cap on the window. Please correct any that do not match your reasoning.
 2. "Drop ... and a short list of named tickers" refers to `exclude_tickers` in `config/themes.yaml`. OK to mention it that way?
+
+## Review fixes
+
+- The Age rule sat as a fifth bullet under "Gates: a fund must pass all four". It now has its own section, "How age is measured", before the gates. A test checks the Gates list holds exactly four items.
+- Rebased onto the #6 review fix (focus returns to the current chart trigger after a re-render).

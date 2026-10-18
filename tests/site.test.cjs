@@ -465,3 +465,11 @@ test('every form control has a text label', () => {
     assert.ok(labelled, `#${id} has no <label>`);
   }
 });
+
+test('Method panel: the Gates list holds exactly the four gates; age is explained outside it', () => {
+  const part = h3 => method.split(/<h3>/).find(chunk => chunk.startsWith(h3)) ?? '';
+  const gates = part('Gates');
+  assert.equal((gates.match(/<li>/g) ?? []).length, 4);
+  assert.doesNotMatch(strip(gates), /365\.25/);
+  assert.match(strip(method), /Age is the days between the first trade date/);
+});
