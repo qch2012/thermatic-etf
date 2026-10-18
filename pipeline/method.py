@@ -3,6 +3,8 @@ import math
 import re
 import statistics
 
+WEIGHTS = {"size": 0.4, "cost": 0.2, "performance": 0.4}  # SPEC 5.5 default weights
+
 
 def classify(ticker, name, config):
     if ticker in config["exclude_tickers"] or re.search(config["exclude_name_regex"], name, re.I):
@@ -75,7 +77,7 @@ def score(funds):
         ticker = fund["ticker"]
         fund["percentiles"] = {"size": sizes[ticker], "cost": costs.get(ticker, 0.5), "performance": performance.get(ticker, 0.5)}
         fund["performance_unmeasured"] = ticker not in performance
-        fund["score"] = 100 * (0.4 * sizes[ticker] + 0.2 * costs.get(ticker, 0.5) + 0.4 * performance.get(ticker, 0.5))
+        fund["score"] = 100 * (WEIGHTS["size"] * sizes[ticker] + WEIGHTS["cost"] * costs.get(ticker, 0.5) + WEIGHTS["performance"] * performance.get(ticker, 0.5))
     for rank, fund in enumerate(sorted(eligible, key=lambda f: (-f["score"], -f["net_assets"], f["ticker"])), 1):
         fund["rank"] = rank
     return window

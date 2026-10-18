@@ -10,15 +10,13 @@ import yaml
 
 from .checks import check
 from .holdings import fill_holdings
-from .method import classify, score
+from .method import WEIGHTS, classify, score
 from .sources import create
 from .sources.directory import URL, parse
 from .sources.http import Session
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ["Technology", "Physical world", "Social", "Broad thematic"]
-# Copy of the default weights hard-coded in method.score (SPEC 5.5); a test checks they reproduce its scores.
-WEIGHTS = {"size": 0.4, "cost": 0.2, "performance": 0.4}
 
 
 def write_json(path, data, compact=False):
