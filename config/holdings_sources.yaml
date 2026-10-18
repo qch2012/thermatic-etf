@@ -40,3 +40,13 @@ AIRR: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHold
 QCLN: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=QCLN"}
 FIW: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FIW"}
 FAN: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FAN"}
+# Invesco: holdings API keyed by the fund's CUSIP (productMetaData.cusip in the fund page).
+SOXQ: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138G615/holdings/fund?idType=cusip&productType=ETF"}
+IGPT: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V639/holdings/fund?idType=cusip&productType=ETF"}
+PNQI: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V530/holdings/fund?idType=cusip&productType=ETF"}
+KNCT: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V688/holdings/fund?idType=cusip&productType=ETF"}
+PPA: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V100/holdings/fund?idType=cusip&productType=ETF"}
+PHO: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V142/holdings/fund?idType=cusip&productType=ETF"}
+CGW: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138E263/holdings/fund?idType=cusip&productType=ETF"}
+TAN: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138G706/holdings/fund?idType=cusip&productType=ETF"}
+PBE: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V787/holdings/fund?idType=cusip&productType=ETF"}
