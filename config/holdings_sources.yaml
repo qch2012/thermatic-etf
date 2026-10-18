@@ -86,3 +86,43 @@ VOLT: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/VOLT-hold
 WELD: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/WELD-holdings-{mdy}.csv"}
 CANC: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/CANC-holdings-{mdy}.csv"}
 ARKG: {parser: ark, url: "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv"}
+# Eligible funds with no issuer_links.json entry. The issuer's file URL follows the same pattern as the funds above; each was fetched and parsed on 2026-10-17 before being added.
+CHPX: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/chpx_full-holdings_{date}.csv"}
+BUG: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/bug_full-holdings_{date}.csv"}
+AIQ: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/aiq_full-holdings_{date}.csv"}
+ORBX: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/orbx_full-holdings_{date}.csv"}
+BKCH: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/bkch_full-holdings_{date}.csv"}
+ZAP: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/zap_full-holdings_{date}.csv"}
+SHLD: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/shld_full-holdings_{date}.csv"}
+GNOM: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/gnom_full-holdings_{date}.csv"}
+FTXL: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FTXL"}
+FAI: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FAI"}
+ROBT: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=ROBT"}
+MISL: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=MISL"}
+ILDR: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=ILDR"}
+CRPT: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=CRPT"}
+XSD: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xsd.xlsx"}
+GII: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-gii.xlsx"}
+XAR: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xar.xlsx"}
+KOMP: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-komp.xlsx"}
+ARKK: {parser: ark, url: "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv"}
+CHAT: {parser: roundhill, args: {account: CHAT}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+MARS: {parser: roundhill, args: {account: MARS}, url: "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv"}
+NASA: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/NASA-holdings-{mdy}.csv"}
+LAZR: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/LAZR-holdings-{mdy}.csv"}
+BOTT: {parser: themes, url: "https://themesetfs.com/storage/holdings/Holdings-BOTT.csv"}
+HBMX: {parser: select, url: "https://jdkfnvgkfwotjlyovbrk.supabase.co/functions/v1/fund-public-api?ticker=HBMX&view=all"}
+FOTO: {parser: select, url: "https://jdkfnvgkfwotjlyovbrk.supabase.co/functions/v1/fund-public-api?ticker=FOTO&view=all"}
+PSI: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V647/holdings/fund?idType=cusip&productType=ETF"}
+CQQQ: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138E800/holdings/fund?idType=cusip&productType=ETF"}
+PBW: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V134/holdings/fund?idType=cusip&productType=ETF"}
+PBD: {parser: invesco, url: "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138G847/holdings/fund?idType=cusip&productType=ETF"}
+COPP: {parser: sprott, url: "https://sprottetfs.com/copp-sprott-copper-miners-etf"}
+URNM: {parser: sprott, url: "https://sprottetfs.com/urnm-sprott-uranium-miners-etf"}
+URNJ: {parser: sprott, url: "https://sprottetfs.com/urnj-sprott-junior-uranium-miners-etf"}
+POWR: {parser: ishares, url: "https://www.ishares.com/us/products/239653/ishares-u-s-power-infrastructure-etf/latest-holdings.csv"}
+IGF: {parser: ishares, url: "https://www.ishares.com/us/products/239746/ishares-global-infrastructure-etf/latest-holdings.csv"}
+BAI: {parser: ishares, url: "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/latest-holdings.csv"}
+IHAK: {parser: ishares, url: "https://www.ishares.com/us/products/307352/ishares-cybersecurity-and-tech-etf/latest-holdings.csv"}
+AIBF: {parser: ishares, url: "https://www.ishares.com/us/products/353593/ishares-future-ai-beneficiaries-etf/latest-holdings.csv"}
+BILT: {parser: ishares, url: "https://www.ishares.com/us/products/345073/ishares-infrastructure-active-etf/latest-holdings.csv"}

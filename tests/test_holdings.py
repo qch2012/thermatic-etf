@@ -407,7 +407,7 @@ class RefreshTests(unittest.TestCase):
         for ticker, source in sources.items():
             self.assertIn(source["parser"], PARSERS, ticker)
             self.assertTrue(source["url"].startswith("https://"), ticker)
-        self.assertTrue(all("ishares.com" in links[t] for t, s in sources.items() if s["parser"] == "ishares"))
+        self.assertTrue(all("ishares.com" in links[t] for t, s in sources.items() if s["parser"] == "ishares" and t in links))
         overrides = yaml.safe_load((ROOT / "config/holding_aliases.yaml").read_text())
         self.assertEqual(set(overrides), {"aliases", "never_merge"})
         for entry in overrides["aliases"] + overrides["never_merge"]:
