@@ -11,6 +11,8 @@ from pipeline.sources.stub import Stub
 from pipeline.holdings import match_companies, normalize, refresh, top_holdings
 from pipeline.sources.issuers import PARSERS
 from pipeline.sources.issuers.ishares import parse_ishares
+from pipeline.sources.issuers.select import parse_select
+from pipeline.sources.issuers.themes import parse_themes
 
 FIXTURES = ROOT / "tests/fixtures"
 DIRECTORY = "Symbol|Security Name|ETF|Test Issue\nAAA|Example Semiconductor ETF|Y|N\nBBB|Other Chip ETF|Y|N\n"
@@ -42,6 +44,38 @@ class ParserTests(unittest.TestCase):
         parsed = parse_ishares((FIXTURES / "ishares_IFRA_2026-10-15.csv").read_text(encoding="utf-8-sig"))
         self.assertEqual(parsed["holdings"][0], {"name": "UNION PACIFIC", "ticker": "UNP", "asset_type": "Equity", "weight": 0.0416, "location": "United States"})
         self.assertEqual(len(parsed["holdings"]), 168)
+
+    def test_themes_csv_splits_cusip_and_sedol_and_skips_placeholders(self):
+        # Real NATO file downloaded 2026-10-17. Its `date` (2026-10-19, a Monday) is the next trade date: holdings are as of Friday.
+        parsed = parse_themes((FIXTURES / "themes_NATO_2026-10-17.csv").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-10-16")
+        rows = {r["name"]: r for r in parsed["holdings"]}
+        self.assertEqual(len(parsed["holdings"]), 98)
+        self.assertEqual(rows["AIRBUS GROUP SE"], {"name": "AIRBUS GROUP SE", "ticker": "AIR FP", "asset_type": "Equity", "weight": 0.0663, "sedol": "4012250", "location": "France"})
+        self.assertEqual(rows["Archer Aviation Inc"]["cusip"], "03945R102")
+        self.assertNotIn("sedol", rows["Archer Aviation Inc"])
+        for name in ("EURO", "Cash & Other", "First American Treasury Obligations Fund 01/01/2040"):
+            self.assertNotEqual(rows[name]["asset_type"], "Equity")
+        for r in parsed["holdings"]:
+            self.assertFalse({"cusip", "sedol", "isin"} & set(r) and r["asset_type"] != "Equity", r)
+            for field in ("cusip", "sedol"):
+                self.assertTrue(field not in r or (r[field].isalnum() and not r[field].startswith("CASH")), r)
+
+    def test_select_json(self):
+        # Real EUAD data from the Select Funds API, 2026-10-17. Weights are percents; the API has no asset class or country.
+        parsed = parse_select((FIXTURES / "select_EUAD_2026-10-17.json").read_text())
+        self.assertEqual(parsed["as_of"], "2026-10-15")
+        self.assertEqual(len(parsed["holdings"]), 22)
+        self.assertEqual(parsed["holdings"][1], {"name": "SAFRAN SA-UNSPON ADR", "ticker": "SAFRY", "asset_type": "Equity", "weight": 0.19359, "cusip": "786584102"})
+        self.assertAlmostEqual(sum(h["weight"] for h in parsed["holdings"]), 1.0, places=3)
+
+    def test_real_nato_and_euad_share_airbus_and_bae(self):
+        files = [{"holdings": parse_themes((FIXTURES / "themes_NATO_2026-10-17.csv").read_text())["holdings"]},
+                 {"holdings": parse_select((FIXTURES / "select_EUAD_2026-10-17.json").read_text())["holdings"]}]
+        match_companies(files, [])
+        nato, euad = ({h["name"]: h["company"] for h in f["holdings"]} for f in files)
+        self.assertEqual(nato["AIRBUS GROUP SE"], euad["AIRBUS GROUP SE"])
+        self.assertEqual(nato["BAE Systems PLC"], euad["BAE SYSTEMS PLC -SPON ADR"])
 
 
 def row(name, weight, **ids):
@@ -208,7 +242,7 @@ class RefreshTests(unittest.TestCase):
         for ticker, source in sources.items():
             self.assertIn(source["parser"], PARSERS, ticker)
             self.assertTrue(source["url"].startswith("https://"), ticker)
-        self.assertTrue(all("ishares.com" in links[t] for t in sources))
+        self.assertTrue(all("ishares.com" in links[t] for t, s in sources.items() if s["parser"] == "ishares"))
         overrides = yaml.safe_load((ROOT / "config/holding_aliases.yaml").read_text())
         self.assertEqual(set(overrides), {"aliases", "never_merge"})
         for entry in overrides["aliases"] + overrides["never_merge"]:

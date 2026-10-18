@@ -1,4 +1,4 @@
-# Issuer holdings files (SPEC 4.1): ticker -> {parser, url}. Parsers are in pipeline/holdings/ (PARSERS).
+# Issuer holdings files (SPEC 4.1): ticker -> {parser, url}. Parsers are in pipeline/sources/issuers/ (PARSERS).
 # Only eligible funds are fetched. A fund not listed here shows "full holdings unavailable".
 # iShares: the fund page's "Download latest fund holdings CSV" link (its JSON-LD contentUrl), checked 2026-10-17.
 ARTY: {parser: ishares, url: "https://www.ishares.com/us/products/297905/ishares-future-ai-tech-etf/latest-holdings.csv"}
@@ -15,3 +15,7 @@ MADE: {parser: ishares, url: "https://www.ishares.com/us/products/337989/ishares
 SOXX: {parser: ishares, url: "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv"}
 VEGI: {parser: ishares, url: "https://www.ishares.com/us/products/239652/ishares-msci-agriculture-producers-etf/latest-holdings.csv"}
 XT: {parser: ishares, url: "https://www.ishares.com/us/products/272532/ishares-future-exponential-technologies-etf/latest-holdings.csv"}
+# Themes ETFs: the holdings CSV the fund page links to, checked 2026-10-17.
+NATO: {parser: themes, url: "https://themesetfs.com/storage/holdings/Holdings-NATO.csv"}
+# Select Funds (Tuttle Capital): the JSON behind select-funds.com/fund-info (its Google-Sheets CSVs are stale).
+EUAD: {parser: select, url: "https://jdkfnvgkfwotjlyovbrk.supabase.co/functions/v1/fund-public-api?ticker=EUAD&view=all"}
