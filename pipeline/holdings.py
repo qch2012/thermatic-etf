@@ -1,7 +1,6 @@
-"""Issuer holdings (SPEC 4.1, 6.5): parse issuer files, match companies across funds, write site/data/holdings/."""
-import csv
+"""Issuer holdings (SPEC 4.1, 6.5): match companies across funds, top-3 holdings, write site/data/holdings/.
+Downloading and parsing issuer files lives in pipeline/sources/issuers/."""
 from datetime import datetime, timezone
-import io
 import json
 import logging
 from pathlib import Path
@@ -9,28 +8,12 @@ import re
 
 import yaml
 
-# Issuer downloads are not Yahoo; they reuse the shared HTTP session for its throttle (≤3.3 req/s),
-# retry with backoff on 429/5xx, and User-Agent.
-from ..sources.http import Session
+from .sources.http import Session
+from .sources.issuers import fetch
 
-ROOT = Path(__file__).resolve().parents[2]
-
-
-def parse_ishares(text):
-    """iShares `latest-holdings.csv`: a few header lines, then a table starting at `Ticker,Name,...`."""
-    lines = text.splitlines()
-    as_of = next(row[1] for row in csv.reader(lines[:5]) if row and row[0] == "Fund Holdings as of")
-    start = next(i for i, line in enumerate(lines) if line.startswith("Ticker,"))
-    def weight(row):
-        # Some funds publish "Market Weight" (share of net assets) and "Notional Weight" instead of "Weight (%)";
-        # there futures show "-" (no market value), which the other layout prints as 0.00.
-        text = (row.get("Weight (%)") or row["Market Weight"]).replace(",", "")
-        return 0.0 if text == "-" else round(float(text) / 100, 10)
-
-    holdings = [{"name": row["Name"], "ticker": row["Ticker"], "asset_type": row["Asset Class"], "weight": weight(row)}
-                for row in csv.DictReader(io.StringIO("\n".join(lines[start:]))) if row["Name"]]
-    return {"as_of": datetime.strptime(as_of, "%b %d, %Y").date().isoformat(), "holdings": holdings}
-
+ROOT = Path(__file__).resolve().parents[1]
+SOURCES = ROOT / "config/holdings_sources.yaml"
+ALIASES = ROOT / "config/holding_aliases.yaml"
 
 # SPEC 6.5: drop ADR/GDR, class, "ordinary shares" and legal suffixes. Only trailing words are dropped,
 # so a name like "Co-Diagnostics" keeps its first word.
@@ -46,6 +29,8 @@ def normalize(name):
             words.pop()
         elif len(words) > 2 and words[-2] in {"class", "cl", "shs"} and len(words[-1]) == 1:
             del words[-2:]
+        elif len(words) > 1 and len(words[-1]) == 1 and words[-1].isalpha():  # share class letter: "SAAB B", "GRUPO MEXICO B"
+            words.pop()
         else:
             break
     return " ".join(words) or name.lower()
@@ -55,9 +40,13 @@ def is_equity(holding):
     return (holding.get("asset_type") or "").lower() == "equity"
 
 
-def match_companies(files, aliases):
-    """Give every equity row a `company` key shared by the same company in every fund (SPEC 6.5):
-    same identifier (ISIN, CUSIP or SEDOL), same normalized name, or listed together in holding_aliases.yaml.
+def match_companies(files, aliases, never_merge=()):
+    """Give every equity row a `company` key shared by the same company in every fund (SPEC 6.5).
+    Rows are one company if they share an identifier (ISIN, CUSIP or SEDOL), are listed together in
+    holding_aliases.yaml, or have the same normalized name AND a compatible location: the same country,
+    or one row has no country while that name appears with only one country this run. So "Siemens AG"
+    (Germany) and "Siemens Ltd" (India) stay apart, while an ADR without a country still joins its local
+    listing. Names in a `never_merge` entry match only their exact spelling.
     Non-equity rows get `company: None` and are left out of top holdings and overlap."""
     parent = {}
 
@@ -71,17 +60,32 @@ def match_companies(files, aliases):
         a, b = find(a), find(b)
         parent[max(a, b)] = min(a, b)  # smallest node is the root, so keys don't depend on file order
 
-    for alias in aliases:
-        for name in alias["names"][1:]:
-            union("name:" + normalize(alias["names"][0]), "name:" + normalize(name))
+    exact = {name.lower() for entry in never_merge for name in entry["names"]}
+    base = lambda name: "raw:" + name.lower() if name.lower() in exact else "name:" + normalize(name)
     equity = [h for f in files for h in f["holdings"] if is_equity(h)]
+    countries = {}
     for h in equity:
+        if h.get("location"):
+            countries.setdefault(base(h["name"]), set()).add(h["location"].lower())
+
+    def node(h):
+        key, seen = base(h["name"]), countries.get(base(h["name"]), set())
+        location = (h.get("location") or "").lower() or (next(iter(seen)) if len(seen) == 1 else "")
+        return f"{key}@{location}" if location else key
+
+    by_base = {}
+    for h in equity:
+        by_base.setdefault(base(h["name"]), set()).add(node(h))
         for field in ("isin", "cusip", "sedol"):
             if h.get(field):
-                union("name:" + normalize(h["name"]), f"{field}:{h[field]}")
+                union(node(h), f"{field}:{h[field]}")
+    for alias in aliases:  # explicit: joins every listing of these names, whatever the country
+        nodes = [n for name in alias["names"] for n in by_base.get(base(name), ())]
+        for n in nodes[1:]:
+            union(nodes[0], n)
     for f in files:
         for h in f["holdings"]:
-            h["company"] = find("name:" + normalize(h["name"])) if is_equity(h) else None
+            h["company"] = find(node(h)) if is_equity(h) else None
 
 
 def top_holdings(file, n=3):
@@ -93,13 +97,9 @@ def top_holdings(file, n=3):
     return sorted(companies.values(), key=lambda c: (-c["weight"], c["name"]))[:n]
 
 
-PARSERS = {"ishares": parse_ishares}
-
-
-def refresh(funds, out_dir, sources, aliases, get, write):
+def refresh(funds, out_dir, sources, aliases, get, write, never_merge=()):
     """Fetch each eligible fund's issuer file, write site/data/holdings/<TICKER>.json and set Fund.top_holdings.
-    A failed fetch or parse reuses the last good file (stale); with none, the fund gets no holdings.
-    Never raises for one fund: holdings don't affect scores, so they never block publishing (SPEC 4.1)."""
+    A failed fetch or parse reuses the last good file (stale); with none, the fund gets no holdings."""
     files = {}
     for fund in funds:
         ticker, source = fund["ticker"], sources.get(fund["ticker"])
@@ -107,14 +107,20 @@ def refresh(funds, out_dir, sources, aliases, get, write):
             continue
         path = out_dir / f"{ticker}.json"
         try:
-            parsed = PARSERS[source["parser"]](get(source["url"]))
+            parsed = fetch(source, get)
             files[ticker] = {"ticker": ticker, "as_of": parsed["as_of"], "fetched_at": datetime.now(timezone.utc).isoformat(),
                              "stale": False, "source": source["url"], "holdings": parsed["holdings"]}
         except Exception as error:
             logging.warning("%s holdings: %s", ticker, error)
             if path.exists():
-                files[ticker] = {**json.loads(path.read_text()), "stale": True}
-    match_companies(list(files.values()), aliases)
+                try:
+                    last = json.loads(path.read_text())
+                    if not (last["as_of"] and isinstance(last["holdings"], list)):
+                        raise ValueError("no as_of or holdings")
+                    files[ticker] = {**last, "stale": True}
+                except Exception as error:
+                    logging.warning("%s holdings: last good file unusable: %s", ticker, error)
+    match_companies(list(files.values()), aliases, never_merge)
     for ticker, file in files.items():
         write(out_dir / f"{ticker}.json", file)
     for fund in funds:
@@ -126,6 +132,6 @@ def refresh(funds, out_dir, sources, aliases, get, write):
 
 def fill_holdings(funds, out_dir, write):
     """Pipeline entry point: config from config/holdings_sources.yaml and config/holding_aliases.yaml."""
-    sources = yaml.safe_load((ROOT / "config/holdings_sources.yaml").read_text())
-    aliases = yaml.safe_load((ROOT / "config/holding_aliases.yaml").read_text()) or []
-    refresh(funds, out_dir, sources, aliases, Session().get, write)
+    sources = yaml.safe_load(SOURCES.read_text())
+    overrides = yaml.safe_load(ALIASES.read_text()) or {}
+    refresh(funds, out_dir, sources, overrides.get("aliases") or [], Session().get, write, overrides.get("never_merge") or [])

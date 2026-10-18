@@ -104,7 +104,12 @@ def run(settings, output, cache_dir, directory_text=None):
             write_json(output.parent / "prices" / f"{fund['ticker']}.json", {"ticker": fund["ticker"],
                        "dates": [p["date"] for p in prices], "adjusted_close": [p["adjusted_close"] for p in prices]})
     if source_name != "stub":  # synthetic screens get no real holdings; keeps stub runs offline
-        fill_holdings(funds, output.parent / "holdings", write_json)
+        try:
+            fill_holdings(funds, output.parent / "holdings", write_json)
+        except Exception as error:  # SPEC 4.1: holdings failures never block publishing
+            logging.warning("holdings skipped: %s", error)
+            for fund in funds:
+                fund.pop("top_holdings", None)
     result = {"data_source": source_name, "synthetic": source_name == "stub",
               "generated_at": datetime.now(timezone.utc).isoformat(), "data_as_of": max(last_dates, default=None),
               "weights": WEIGHTS, "themes": summaries,

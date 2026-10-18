@@ -2,13 +2,18 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import yaml
 
-from pipeline.__main__ import ROOT, write_json
-from pipeline.holdings import PARSERS, match_companies, normalize, parse_ishares, refresh, top_holdings
+from pipeline.__main__ import ROOT, run, write_json
+from pipeline.sources.stub import Stub
+from pipeline.holdings import match_companies, normalize, refresh, top_holdings
+from pipeline.sources.issuers import PARSERS
+from pipeline.sources.issuers.ishares import parse_ishares
 
 FIXTURES = ROOT / "tests/fixtures"
+DIRECTORY = "Symbol|Security Name|ETF|Test Issue\nAAA|Example Semiconductor ETF|Y|N\nBBB|Other Chip ETF|Y|N\n"
 
 
 class ParserTests(unittest.TestCase):
@@ -18,24 +23,24 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(parsed["as_of"], "2026-10-15")
         rows = parsed["holdings"]
         self.assertEqual(len(rows), 168)
-        self.assertEqual(rows[0], {"name": "RTX", "ticker": "RTX", "asset_type": "Equity", "weight": 0.0522})
+        self.assertEqual(rows[0], {"name": "RTX", "ticker": "RTX", "asset_type": "Equity", "weight": 0.0522, "location": "United States"})
         airbus = next(r for r in rows if r["name"] == "AIRBUS GROUP")
-        self.assertEqual((airbus["ticker"], airbus["weight"]), ("AIR", 0.0211))
+        self.assertEqual((airbus["ticker"], airbus["weight"], airbus["location"]), ("AIR", 0.0211, "France"))
         # Cash and futures rows are kept as published, with their asset type.
         self.assertEqual(rows[-1], {"name": "S&P500 EMINI DEC 26", "ticker": "ESZ6", "asset_type": "Futures", "weight": 0.0})
-        self.assertIn({"name": "EUR CASH", "ticker": "EUR", "asset_type": "Cash", "weight": 0.0}, rows)
+        self.assertIn({"name": "EUR CASH", "ticker": "EUR", "asset_type": "Cash", "weight": 0.0, "location": "European Union"}, rows)
 
     def test_ishares_file_without_type_column(self):
         parsed = parse_ishares((FIXTURES / "ishares_ITA_2026-10-15.csv").read_text(encoding="utf-8-sig"))
         self.assertEqual(parsed["as_of"], "2026-10-15")
-        self.assertEqual(parsed["holdings"][0], {"name": "GE AEROSPACE", "ticker": "GE", "asset_type": "Equity", "weight": 0.2096})
+        self.assertEqual(parsed["holdings"][0], {"name": "GE AEROSPACE", "ticker": "GE", "asset_type": "Equity", "weight": 0.2096, "location": "United States"})
         self.assertEqual(parsed["holdings"][-1]["asset_type"], "Futures")
         self.assertEqual(len(parsed["holdings"]), 54)
 
     def test_ishares_file_with_market_and_notional_weight(self):
         # IFRA layout: "Market Weight" (share of net assets, what SPEC 4.1 wants) and "Notional Weight", no "Weight (%)".
         parsed = parse_ishares((FIXTURES / "ishares_IFRA_2026-10-15.csv").read_text(encoding="utf-8-sig"))
-        self.assertEqual(parsed["holdings"][0], {"name": "UNION PACIFIC", "ticker": "UNP", "asset_type": "Equity", "weight": 0.0416})
+        self.assertEqual(parsed["holdings"][0], {"name": "UNION PACIFIC", "ticker": "UNP", "asset_type": "Equity", "weight": 0.0416, "location": "United States"})
         self.assertEqual(len(parsed["holdings"]), 168)
 
 
@@ -44,7 +49,7 @@ def row(name, weight, **ids):
 
 
 # Rows as published on 2026-10-17: NATO (Themes CSV) holds local listings, EUAD (Select / Tuttle) holds ADRs.
-NATO = {"ticker": "NATO", "holdings": [row("AIRBUS GROUP SE", 0.0663, sedol="4012250"), row("BAE Systems PLC", 0.0415, sedol="0263494"),
+NATO = {"ticker": "NATO", "holdings": [row("AIRBUS GROUP SE", 0.0663, sedol="4012250", location="France"), row("BAE Systems PLC", 0.0415, sedol="0263494", location="United Kingdom"),
                                        row("LEONARDO-FINMECCANICA SPA", 0.0119), row("Astronics Corp", 0.0009), row("Astronics Corp", 0.0002),
                                        row("Boeing Co/The", 0.0728), row("EURO", 0.0, asset_type="Cash")]}
 EUAD = {"ticker": "EUAD", "holdings": [row("AIRBUS GROUP SE", 0.181428, cusip="N0280G100"), row("BAE SYSTEMS PLC -SPON ADR", 0.107434, cusip="05523R107"),
@@ -72,6 +77,36 @@ class MatchingTests(unittest.TestCase):
         self.assertNotEqual(nato["LEONARDO-FINMECCANICA SPA"], euad["Leonardo SpA"])
         nato, euad = self.keys(NATO, EUAD, aliases=[{"names": ["Leonardo SpA", "Leonardo-Finmeccanica SpA"]}])
         self.assertEqual(nato["LEONARDO-FINMECCANICA SPA"], euad["Leonardo SpA"])
+
+    def test_same_name_in_different_countries_is_not_merged(self):
+        # Siemens AG (Germany) and Siemens Ltd (its separately listed Indian subsidiary) both normalize to "siemens".
+        de = {"ticker": "DE", "holdings": [row("Siemens AG", 0.05, isin="DE0007236101", location="Germany")]}
+        india = {"ticker": "IN", "holdings": [row("Siemens Ltd", 0.04, isin="INE003A01024", location="India")]}
+        bare = {"ticker": "X", "holdings": [row("SIEMENS", 0.01)]}  # no location: ambiguous, so merged with neither
+        k_de, k_in, k_bare = (k[n] for k, n in zip(self.keys(de, india, bare), ("Siemens AG", "Siemens Ltd", "SIEMENS")))
+        self.assertEqual(len({k_de, k_in, k_bare}), 3)
+
+    def test_good_merges_survive_the_location_check(self):
+        pairs = [
+            (row("ALPHABET INC CLASS A", 0.04, isin="US02079K3059", location="United States"),
+             row("ALPHABET INC CLASS C", 0.03, isin="US02079K1079", location="United States")),
+            (row("TAIWAN SEMICONDUCTOR MANUFACTURING ADR", 0.08, location="Taiwan"),
+             row("TAIWAN SEMICONDUCTOR MANUFACTURING", 0.09, location="Taiwan")),
+            (row("Saab AB", 0.0106, sedol="BPXZH27", location="Sweden"), row("SAAB B", 0.01, location="Sweden")),
+            (row("BAE Systems PLC", 0.0415, sedol="0263494", location="United Kingdom"),
+             row("BAE SYSTEMS PLC -SPON ADR", 0.107434, cusip="05523R107")),  # EUAD publishes no country
+        ]
+        for a, b in pairs:
+            ka, kb = self.keys({"ticker": "A", "holdings": [a]}, {"ticker": "B", "holdings": [b]})
+            self.assertEqual(ka[a["name"]], kb[b["name"]], (a["name"], b["name"]))
+
+    def test_never_merge_list(self):
+        a = {"ticker": "A", "holdings": [row("Siemens AG", 0.05)]}
+        b = {"ticker": "B", "holdings": [row("Siemens Ltd", 0.04)]}
+        ka, kb = self.keys(a, b)  # no location data: names alone merge them
+        self.assertEqual(ka["Siemens AG"], kb["Siemens Ltd"])
+        match_companies([a, b], [], [{"names": ["Siemens AG", "Siemens Ltd"]}])
+        self.assertNotEqual(a["holdings"][0]["company"], b["holdings"][0]["company"])
 
     def test_normalized_names(self):
         for a, b in [("PALANTIR TECHNOLOGIES CLASS A", "Palantir Technologies Inc"), ("Avio S.p.A.", "Avio SpA"),
@@ -136,6 +171,37 @@ class RefreshTests(unittest.TestCase):
             self.assertNotIn("top_holdings", funds[0])
             self.assertFalse((out / "ITA.json").exists())
 
+    def test_malformed_last_good_file_is_skipped(self):
+        sources = {"ITA": {"parser": "ishares", "url": "https://issuer.test/ita.csv"},
+                   "IDEF": {"parser": "ishares", "url": "https://issuer.test/idef.csv"}}
+        idef = (FIXTURES / "ishares_IDEF_2026-10-15.csv").read_text(encoding="utf-8-sig")
+
+        def get(url):
+            if "ita" in url:
+                raise OSError("HTTP 503")
+            return idef
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp)
+            for bad in ("not json", '{"ticker": "ITA"}'):  # unparsable, and parsable but no holdings
+                (out / "ITA.json").write_text(bad)
+                funds = [{"ticker": "ITA", "status": "Eligible"}, {"ticker": "IDEF", "status": "Eligible"}]
+                with self.assertLogs(level="WARNING"):
+                    refresh(funds, out, sources, [], get, write_json)
+                self.assertNotIn("top_holdings", funds[0])
+                self.assertEqual(funds[1]["top_holdings"][0], {"name": "RTX", "weight": 0.0522})
+
+    def test_bad_config_never_blocks_publishing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp)
+            (path / "bad.yaml").write_text("ITA: [unclosed\n")
+            with patch("pipeline.holdings.SOURCES", path / "bad.yaml"), patch("pipeline.__main__.create", return_value=Stub()), \
+                    self.assertLogs(level="WARNING") as logs:
+                result = run({"data_source": "yahoo"}, path / "screen.json", path / "cache", DIRECTORY)
+            self.assertTrue((path / "screen.json").exists())
+            self.assertTrue(result["funds"])
+            self.assertFalse(any("top_holdings" in f for f in result["funds"]))
+            self.assertTrue(any("holdings" in line for line in logs.output), logs.output)
+
     def test_config_parsers_exist(self):
         sources = yaml.safe_load((ROOT / "config/holdings_sources.yaml").read_text())
         links = json.loads((ROOT / "config/issuer_links.json").read_text())
@@ -143,8 +209,10 @@ class RefreshTests(unittest.TestCase):
             self.assertIn(source["parser"], PARSERS, ticker)
             self.assertTrue(source["url"].startswith("https://"), ticker)
         self.assertTrue(all("ishares.com" in links[t] for t in sources))
-        for alias in yaml.safe_load((ROOT / "config/holding_aliases.yaml").read_text()):
-            self.assertTrue(alias["reason"] and len(alias["names"]) >= 2, alias)
+        overrides = yaml.safe_load((ROOT / "config/holding_aliases.yaml").read_text())
+        self.assertEqual(set(overrides), {"aliases", "never_merge"})
+        for entry in overrides["aliases"] + overrides["never_merge"]:
+            self.assertTrue(entry["reason"] and len(entry["names"]) >= 2, entry)
 
 
 if __name__ == "__main__":
