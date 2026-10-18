@@ -1,0 +1,4 @@
+# Company names that are one company but don't match by identifier or normalized name (SPEC 6.5).
+# Each entry: names as any issuer publishes them (matching normalizes them) and a one-line reason.
+- names: ["Leonardo SpA", "Leonardo-Finmeccanica SpA"]
+  reason: Finmeccanica renamed itself Leonardo-Finmeccanica in 2016 and Leonardo in 2017; NATO's file still uses the old name.

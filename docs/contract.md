@@ -72,7 +72,7 @@ Present only when `status == "Eligible"`: `percentiles` `{size, cost, performanc
 
 Optional: `warnings` (array of string), non-fatal data-source problems.
 
-Reserved, written by #9: `top_holdings`, array of up to 3 `{name: string, weight: number}` (weight is a fraction of the fund), largest first; derivation under "Holdings files". Absent = no holdings file; the site shows `—`.
+Written by #9: `top_holdings`, array of up to 3 `{name: string, weight: number}` (weight is a fraction of the fund), largest first; derivation under "Holdings files". Absent = no holdings file; the site shows "full holdings unavailable" (never Yahoo's top 10, SPEC 4.1).
 
 ## Score and rank (for live weights, #5)
 
@@ -106,6 +106,8 @@ Path: `site/data/holdings/<TICKER>.json`, one per fund with a working issuer hol
 - `as_of`: the issuer file's own date. `source`: the URL it came from (`config/holdings_sources.yaml`). `stale`: last good file reused after a failed fetch.
 - Each holding: `name` (string), `ticker` (string or `null`), optional `isin`, `cusip`, `sedol` (only when the issuer gives them), `asset_type` (string as published), `weight` (fraction of net assets, as published, not rescaled).
 - Every published row is kept, including cash and derivatives. The overlap code drops non-equity rows (SPEC 4.1).
+- `company` (added by #9): string or `null`. The pipeline's company key (SPEC 6.5 matching across all holdings files of the run). Rows with the same key are one company in every fund. `null` = non-equity row (`asset_type` is not `Equity`), left out of overlap and `top_holdings`. `site/overlap.js` sums by this key and does no matching of its own.
+- Written for eligible funds with a source only. Parsers: `pipeline/holdings/` (`PARSERS`).
 - `Fund.top_holdings` in `screen.json` = the 3 largest equity companies by weight, after summing rows of the same company with the SPEC 6.5 matching (identifier, then normalized name, then `config/holding_aliases.yaml`). Each entry: `{name, weight}`. Absent when the fund has no holdings file.
 
 ## History snapshots (reserved, written by #8 / #7)

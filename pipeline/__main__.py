@@ -7,6 +7,7 @@ import tempfile
 
 import yaml
 
+from .holdings import fill_holdings
 from .method import classify, score
 from .sources import create
 from .sources.directory import URL, parse
@@ -102,6 +103,8 @@ def run(settings, output, cache_dir, directory_text=None):
             prices = [p for p in prices if p["date"] >= start]
             write_json(output.parent / "prices" / f"{fund['ticker']}.json", {"ticker": fund["ticker"],
                        "dates": [p["date"] for p in prices], "adjusted_close": [p["adjusted_close"] for p in prices]})
+    if source_name != "stub":  # synthetic screens get no real holdings; keeps stub runs offline
+        fill_holdings(funds, output.parent / "holdings", write_json)
     result = {"data_source": source_name, "synthetic": source_name == "stub",
               "generated_at": datetime.now(timezone.utc).isoformat(), "data_as_of": max(last_dates, default=None),
               "weights": WEIGHTS, "themes": summaries,

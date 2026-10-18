@@ -114,6 +114,15 @@ test('every number on the main screen matches a real pipeline run', async () => 
   }
 });
 
+test('top 3 holdings column: issuer names and weights, else "full holdings unavailable" (no Yahoo fill-in)', async () => {
+  const data = structuredClone(FIXTURE);
+  data.funds[0].top_holdings = [{ name: 'RTX', weight: 0.0522 }, { name: 'AIRBUS GROUP', weight: 0.0211 }];
+  const p = await page(data);
+  const cells = Object.fromEntries(p.fundRows().map(r => [text(r.children[1]), r.children.map(text)]));
+  assert.equal(cells.S1[10], 'RTX 5.22%, AIRBUS GROUP 2.11%');
+  assert.equal(cells.S2[10], 'full holdings unavailable');
+});
+
 test('columns, links and flags line up for every row, including themes with no eligible fund', async () => {
   const p = await page(FIXTURE);
   assert.deepEqual(p.tickers(), ['S1', 'S2', 'S3', 'C1', 'H1']);

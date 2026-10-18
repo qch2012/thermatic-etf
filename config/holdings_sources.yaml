@@ -1,0 +1,17 @@
+# Issuer holdings files (SPEC 4.1): ticker -> {parser, url}. Parsers are in pipeline/holdings/ (PARSERS).
+# Only eligible funds are fetched. A fund not listed here shows "full holdings unavailable".
+# iShares: the fund page's "Download latest fund holdings CSV" link (its JSON-LD contentUrl), checked 2026-10-17.
+ARTY: {parser: ishares, url: "https://www.ishares.com/us/products/297905/ishares-future-ai-tech-etf/latest-holdings.csv"}
+ICLN: {parser: ishares, url: "https://www.ishares.com/us/products/239738/ishares-global-clean-energy-etf/latest-holdings.csv"}
+ICOP: {parser: ishares, url: "https://www.ishares.com/us/products/332280/ishares-copper-and-metals-mining-etf/latest-holdings.csv"}
+IDEF: {parser: ishares, url: "https://www.ishares.com/us/products/343529/ishares-defense-industrials-and-tech-active-etf/latest-holdings.csv"}
+IDGT: {parser: ishares, url: "https://www.ishares.com/us/products/239770/ishares-u-s-digital-infrastructure-and-real-estate-etf/latest-holdings.csv"}
+IDNA: {parser: ishares, url: "https://www.ishares.com/us/products/308878/ishares-genomics-immunology-and-healthcare-etf/latest-holdings.csv"}
+IDRV: {parser: ishares, url: "https://www.ishares.com/us/products/307332/ishares-self-driving-ev-and-tech-etf/latest-holdings.csv"}
+IFRA: {parser: ishares, url: "https://www.ishares.com/us/products/294315/ishares-u-s-infrastructure-etf/latest-holdings.csv"}
+IHI: {parser: ishares, url: "https://www.ishares.com/us/products/239516/ishares-u-s-medical-devices-etf/latest-holdings.csv"}
+ITA: {parser: ishares, url: "https://www.ishares.com/us/products/239502/ishares-u-s-aerospace-defense-etf/latest-holdings.csv"}
+MADE: {parser: ishares, url: "https://www.ishares.com/us/products/337989/ishares-u-s-manufacturing-etf/latest-holdings.csv"}
+SOXX: {parser: ishares, url: "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv"}
+VEGI: {parser: ishares, url: "https://www.ishares.com/us/products/239652/ishares-msci-agriculture-producers-etf/latest-holdings.csv"}
+XT: {parser: ishares, url: "https://www.ishares.com/us/products/272532/ishares-future-exponential-technologies-etf/latest-holdings.csv"}

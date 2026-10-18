@@ -13,3 +13,4 @@ th.theme { font-weight: 600; background: #eef2f5; white-space: normal; }
 thead button { font: inherit; font-weight: bold; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; }
 th[aria-sort=ascending] button::after { content: " ▲"; }
 th[aria-sort=descending] button::after { content: " ▼"; }
+.high { background: #ffe8a3; font-weight: 600; }

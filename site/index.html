@@ -33,6 +33,19 @@
       </table>
     </div>
     <p>* Net assets use a fallback source (hover for which). † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old. Stale: this run's fetch failed and the last good data is shown.</p>
+    <section id="overlap" aria-labelledby="overlap-title">
+      <h2 id="overlap-title">Holdings overlap</h2>
+      <p>Overlap of two funds = the sum, over companies both hold, of the smaller of the two weights. It uses each issuer's full holdings file, because a top-10 list makes overlap look too low. Different listings of one company (for example a London share and its US ADR) count as the same company, because they are the same business. Cash and derivatives are left out. Funds without an issuer file show "full holdings unavailable".</p>
+      <label>Theme <select id="overlap-theme"></select></label>
+      <div id="overlap-matrix" class="table-scroll" tabindex="0" role="region" aria-label="Overlap matrix"></div>
+      <h3>Compare two funds</h3>
+      <form class="controls" onsubmit="return false">
+        <label>Fund A <select id="overlap-a"></select></label>
+        <label>Fund B <select id="overlap-b"></select></label>
+      </form>
+      <div id="overlap-pair" role="status"></div>
+    </section>
+    <script src="overlap.js" defer></script>
   </main>
 </body>
 </html>
