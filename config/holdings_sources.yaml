@@ -75,6 +75,11 @@ SMH: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/smh/holdings
 IBOT: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/ibot/holdings/download/xlsx/"}
 DAPP: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/dapp/holdings/download/xlsx/"}
 MOO: {parser: vaneck, url: "https://www.vaneck.com/us/en/etf/equity/moo/holdings/download/xlsx/"}
+# State Street: ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-<ticker>.xlsx (the fund page's holdings download).
+FITE: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-fite.xlsx"}
+ROKT: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-rokt.xlsx"}
+CNRG: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-cnrg.xlsx"}
+XHE: {parser: ssga, url: "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xhe.xlsx"}
 # Tema: temaetfs.com/hubfs/Website/Holdings/<TICKER>-holdings-<MMDDYYYY>.csv (the fund page's Holdings download). {mdy} is filled in by the fetch: the latest day with a file.
 DISK: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv"}
 VOLT: {parser: tema, url: "https://temaetfs.com/hubfs/Website/Holdings/VOLT-holdings-{mdy}.csv"}

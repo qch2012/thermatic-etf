@@ -119,6 +119,10 @@ class ParserTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             fetch(source, lambda url: (_ for _ in ()).throw(urllib.error.HTTPError(url, 404, "", {}, None)), today=date(2026, 10, 17))
 
+    def test_xlsx_parsers_get_bytes(self):
+        data = (FIXTURES / "ssga_XHE_2026-10-15.xlsx").read_bytes()
+        self.assertEqual(fetch({"parser": "ssga", "url": "https://x/xhe.xlsx"}, lambda url, raw=False: data if raw else None)["as_of"], "2026-10-15")
+
     def test_firsttrust_page(self):
         # Real GRID holdings page (ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=GRID); the table is in the HTML.
         parsed = parse_firsttrust((FIXTURES / "firsttrust_GRID_2026-10-16.html").read_text(encoding="utf-8-sig"))
