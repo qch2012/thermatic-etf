@@ -1,0 +1,12 @@
+# Company matching overrides (SPEC 6.5). Names are as any issuer publishes them; matching normalizes them.
+# Every entry needs a one-line reason.
+
+# aliases: names that are one company but don't match by identifier or normalized name.
+aliases:
+  - names: ["Leonardo SpA", "Leonardo-Finmeccanica SpA"]
+    reason: Finmeccanica renamed itself Leonardo-Finmeccanica in 2016 and Leonardo in 2017; NATO's file still uses the old name.
+
+# never_merge: names that normalize alike but are different companies. Each listed name then matches only its
+# exact spelling (identifiers and aliases still apply). Different countries already keep names apart, so this is
+# for rows without a country, e.g. never_merge: [{names: ["Siemens AG", "Siemens Ltd"], reason: "..."}].
+never_merge: []

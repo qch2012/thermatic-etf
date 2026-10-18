@@ -9,6 +9,7 @@ import tempfile
 import yaml
 
 from .checks import check
+from .holdings import fill_holdings
 from .method import classify, score
 from .sources import create
 from .sources.directory import URL, parse
@@ -122,6 +123,15 @@ def run(settings, output, cache_dir, directory_text=None):
             prices = [p for p in prices if p["date"] >= start]
             price_files[fund["ticker"]] = {"ticker": fund["ticker"], "dates": [p["date"] for p in prices],
                                            "adjusted_close": [p["adjusted_close"] for p in prices]}
+    holdings_files = []  # written only after checks pass, like price files
+    if source_name != "stub":  # synthetic screens get no real holdings; keeps stub runs offline
+        try:
+            fill_holdings(funds, output.parent / "holdings", lambda path, data: holdings_files.append((path, data)))
+        except Exception as error:  # SPEC 4.1: holdings failures never block publishing
+            logging.warning("holdings skipped: %s", error)
+            holdings_files.clear()
+            for fund in funds:
+                fund.pop("top_holdings", None)
     result = {"data_source": source_name, "synthetic": source_name == "stub",
               "generated_at": datetime.now(timezone.utc).isoformat(), "data_as_of": max(last_dates, default=None),
               "weights": WEIGHTS, "themes": summaries,
@@ -137,6 +147,8 @@ def run(settings, output, cache_dir, directory_text=None):
     # Publish: price files, then drop files of tickers not in this run, then the main file.
     for ticker, prices in price_files.items():
         write_json(output.parent / "prices" / f"{ticker}.json", prices)
+    for path, data in holdings_files:
+        write_json(path, data)
     tickers = {f["ticker"] for f in funds}
     for old in (output.parent / "prices").glob("*.json"):
         if old.stem not in tickers:

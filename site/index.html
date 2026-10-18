@@ -68,6 +68,21 @@
       <p id="chart-summary" role="status"></p>
     </section>
 
+    <!-- Overlap (#9) -->
+    <section id="overlap" aria-labelledby="overlap-title">
+      <h2 id="overlap-title">Holdings overlap</h2>
+      <p>Overlap of two funds = the sum, over companies both hold, of the smaller of the two weights. It uses each issuer's full holdings file, because a top-10 list makes overlap look too low. Different listings of one company (for example a London share and its US ADR) count as the same company, because they are the same business. Cash and derivatives are left out. Funds without an issuer file show "full holdings unavailable".</p>
+      <label>Theme <select id="overlap-theme"></select></label>
+      <div id="overlap-matrix" class="table-scroll" tabindex="0" role="region" aria-label="Overlap matrix"></div>
+      <h3>Compare two funds</h3>
+      <form class="controls" onsubmit="return false">
+        <label>Fund A <select id="overlap-a"></select></label>
+        <label>Fund B <select id="overlap-b"></select></label>
+      </form>
+      <div id="overlap-pair" role="status"></div>
+    </section>
+    <script src="overlap.js" defer></script>
+
     <!-- Method panel (#12): wording follows SPEC section 5; every rule has its reason beside it -->
     <section id="method" aria-labelledby="method-heading">
       <h2 id="method-heading">Method</h2>
@@ -212,7 +227,6 @@
         </li>
       </ul>
     </section>
-    <!-- Overlap (#9) mounts here, before the Method panel -->
   </main>
 </body>
 </html>

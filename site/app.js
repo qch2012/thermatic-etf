@@ -54,7 +54,7 @@ const COLUMNS = [
   { label: 'Return', value: f => f.cumulative_return, cell: f => percent(f.cumulative_return) },
   { label: 'Ratio', value: f => f.ratio, cell: f => number(f.ratio) },
   { label: 'Avg daily $ volume', value: f => f.dollar_volume, cell: f => money(f.dollar_volume) },
-  { label: 'Top 3 holdings', value: null, cell: f => f.top_holdings?.map(h => `${h.name} ${percent(h.weight)}`).join(', ') || '—' },
+  { label: 'Top 3 holdings', value: null, cell: f => f.top_holdings?.map(h => `${h.name} ${percent(h.weight)}`).join(', ') || 'full holdings unavailable' },
   { label: 'Score', value: scoreOf, cell: f => number(scoreOf(f), 1) },
   ...[['Rank vs 1 week', 'week', 7], ['Rank vs 1 month', 'month', 30]].map(([label, key, days]) => ({
     label, value: f => rankChange(f, view.history[key]), cell: f => changeText(rankChange(f, view.history[key])),

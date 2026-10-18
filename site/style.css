@@ -53,3 +53,4 @@ thead th:nth-child(2), tbody td:nth-child(2) { position: sticky; left: 0; backgr
 }
 #moves ul { margin: .25rem 0; padding-left: 1.25rem; }
 h3.chart-sub { font-size: .9rem; margin: .75rem 0 .25rem; }
+.high { background: #ffe8a3; font-weight: 600; }
