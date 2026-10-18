@@ -30,3 +30,13 @@ PAVE: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/pave
 COPX: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/copx_full-holdings_{date}.csv"}
 URA: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/ura_full-holdings_{date}.csv"}
 LIT: {parser: globalx, url: "https://assets.globalxetfs.com/funds/holdings/lit_full-holdings_{date}.csv"}
+# First Trust: the fund page's Holdings tab (the table is in the HTML).
+CIBR: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=CIBR"}
+FDN: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FDN"}
+SKYY: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=SKYY"}
+NXTG: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=NXTG"}
+GRID: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=GRID"}
+AIRR: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=AIRR"}
+QCLN: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=QCLN"}
+FIW: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FIW"}
+FAN: {parser: firsttrust, url: "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FAN"}
