@@ -9,6 +9,7 @@ import urllib.error
 import yaml
 
 from pipeline.__main__ import ROOT, run, write_json
+from pipeline.report import holdings_section
 from pipeline.sources.stub import Stub
 from pipeline.holdings import match_companies, normalize, refresh, top_holdings
 from pipeline.sources.issuers import PARSERS, fetch
@@ -400,6 +401,17 @@ class RefreshTests(unittest.TestCase):
             self.assertTrue(result["funds"])
             self.assertFalse(any("top_holdings" in f for f in result["funds"]))
             self.assertTrue(any("holdings" in line for line in logs.output), logs.output)
+
+    def test_missing_sources_carry_a_reason_and_reach_the_report(self):
+        sources = yaml.safe_load((ROOT / "config/holdings_sources.yaml").read_text())
+        missing = yaml.safe_load((ROOT / "config/holdings_missing.yaml").read_text())
+        self.assertFalse(set(sources) & set(missing))  # a fund with a source is not "missing"
+        self.assertTrue(missing and all(isinstance(reason, str) and len(reason) > 20 for reason in missing.values()))
+        ticker = next(iter(missing))
+        screen = {"funds": [{"ticker": ticker, "status": "Eligible"}, {"ticker": "ITA", "status": "Eligible"}]}
+        report = "\n".join(holdings_section(screen, {"ITA": {"as_of": "2026-10-16"}}, date(2026, 10, 17)))
+        self.assertIn(f"- {ticker}: {missing[ticker]}", report)
+        self.assertNotIn("- ITA", report)
 
     def test_config_parsers_exist(self):
         sources = yaml.safe_load((ROOT / "config/holdings_sources.yaml").read_text())

@@ -105,7 +105,8 @@ def holdings_section(screen, holdings, today):
         return ["holdings not yet available (no files in the holdings folder; the holdings ticket has not written any)."]
     eligible = sorted(f["ticker"] for f in screen["funds"] if f["status"] == "Eligible")
     out = ["### Eligible funds without a holdings file", ""]
-    out += lines([f"- {t}" for t in eligible if t not in holdings])
+    reasons = yaml.safe_load((ROOT / "config/holdings_missing.yaml").read_text()) or {}  # ticker -> why there is no source
+    out += lines([f"- {t}" + (f": {reasons[t]}" if t in reasons else "") for t in eligible if t not in holdings])
     out += ["", f"### Stale holdings files (marked stale, or as_of older than {HOLDINGS_DAYS} days)", ""]
     stale = []
     for ticker, file in sorted(holdings.items()):
