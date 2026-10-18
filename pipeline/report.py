@@ -205,6 +205,7 @@ def main():
     baseline = load_baseline(args.reports_dir, ROOT / "seed", args.date)
     outcome = classify_all(funds, taxonomy)
     text = build_report(funds, taxonomy, screen, baseline, overrides, files or None, args.date, outcome)
+    args.reports_dir.mkdir(parents=True, exist_ok=True)
     (args.reports_dir / f"rescreen-{args.date}.md").write_text(text)
     write_universe(args.reports_dir / f"rescreen-{args.date}.universe.csv", funds, outcome)
     print(f"Wrote {args.reports_dir / f'rescreen-{args.date}.md'}")
