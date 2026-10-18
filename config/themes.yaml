@@ -113,7 +113,7 @@ themes:
   match: infrastructure
 - group: Social
   theme: Genomics & gene editing
-  match: genom|\bgene|crispr
+  match: genom|\bgenes?\b|genetic|crispr
 - group: Social
   theme: GLP-1, obesity & heart health
   match: glp|obesity|weight loss|heart
