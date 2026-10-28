@@ -5,12 +5,12 @@ Builder: Claude Code, working in this repo.
 
 ## 1. Goal
 
-A private website that shows the thematic ETF screen (currently on the Notion page "Thermatic ETF"). It must:
+A website that shows the thematic ETF screen (currently on the Notion page "Thermatic ETF"). It must:
 
 1. Refresh market data and scores automatically every US trading day.
 2. Let an AI agent (Claude Code) re-screen on request: find new ETF launches, fix theme rules and update config.
 3. Be interactive: sort/filter, live score weights, price charts, ranking history, and holdings overlap.
-4. Be private to user.
+4. Be free to host. The site is public (GitHub Pages; user approved, 2026-10-28).
 
 The website replaces the Notion page. The Notion page will only link to it.
 
@@ -23,9 +23,9 @@ Yahoo Finance  ────┤
 Issuer holdings ───┼──> pipeline/ (Python) ──> site/data/*.json ──> git commit
 config/*.yaml  ────┘                                                   │
                                                                        v
-                                       Cloudflare Pages (auto-deploy on push)
+                                       GitHub Pages (deploy after push / refresh)
                                                                        │
-                                       Cloudflare Access (email login) v
+                                                                       v
                                                                       User 
 
 Re-screen (on request): Claude Code edits config/ ──> runs pipeline ──> branch ──> User approves ──> merge
@@ -146,7 +146,7 @@ Score = 100 × (0.4 × size + 0.2 × cost + 0.4 × perf). Rank by score within t
 
 ## 6. Website features
 
-All views read static JSON. No server code beyond Cloudflare Access.
+All views read static JSON. No server code.
 
 1. **Main screen.** Table grouped by group → theme. Columns: rank, ticker (issuer link), name, launched, net assets (with source marker and as-of date), expense ratio, window (dates), cumulative return, ratio, avg daily \$ volume, top 3 holdings, score, flags (🆕, †, stale). Sortable columns. Filter by group, theme, text search, 🆕 only, hide funds under \$50M. Toggle **Top 3 / All eligible / All screened** (the last one replaces the Notion appendix and shows the gate status of every fund).
 2. **Live weights.** Sliders for size/cost/performance weights (normalized to 100%) and top-N. Recompute scores and ranks in the browser from the per-fund percentiles in the JSON. "Reset to default" button. Gates and windows stay as computed by the pipeline; say so next to the sliders.
@@ -161,7 +161,7 @@ All views read static JSON. No server code beyond Cloudflare Access.
 ## 7. Daily refresh job (GitHub Actions)
 
 - Schedule: weekdays 22:30 UTC (after the US close in both EST and EDT), plus manual `workflow_dispatch`.
-- Steps: fetch directory → classify → fetch data → gate → score → fetch issuer holdings for eligible funds → **checks** → write `site/data/` → commit and push (the push triggers the Cloudflare Pages deploy).
+- Steps: fetch directory → classify → fetch data → gate → score → fetch issuer holdings for eligible funds → **checks** → write `site/data/` → commit and push (then `pages.yml` deploys `site/` to GitHub Pages).
 - **Checks before publishing.** If any fails, don't overwrite the latest data. Open a GitHub issue with the reason, and let the site show the stale banner.
   - ≥ 90% of classified funds fetched successfully.
   - No theme loses all its eligible funds only because of fetch errors.
@@ -170,11 +170,10 @@ All views read static JSON. No server code beyond Cloudflare Access.
 - Commit only generated JSON. Don't commit raw API responses. Keep history snapshots small (compact JSON, one file per day).
 - Run time target: under 15 minutes.
 
-## 8. Privacy and hosting
+## 8. Hosting
 
-- Private GitHub repo.
-- Cloudflare Pages connected to the repo; output directory `site/`.
-- Cloudflare Zero Trust **Access** application covering the production domain **and** the `*.pages.dev` preview URLs. Policy: allow email `qch2012@gmail.com`; login by one-time PIN. Check Cloudflare's current docs for the exact setup and write the steps in README.
+- Public GitHub repo (free Pages needs one). The site is public; `noindex` stays.
+- GitHub Pages, source **GitHub Actions**, deploying `site/` via `.github/workflows/pages.yml`.
 - No secrets needed for Yahoo. The workflow needs `contents: write` and `issues: write` permissions only.
 
 ## 9. Re-screen (Claude Code, on request)
@@ -219,10 +218,10 @@ Site
 - [ ] Overlap uses issuer holdings: unit test where fund A holds a local listing and fund B the ADR of the same company → counted as shared. NATO vs EUAD overlap includes Airbus and BAE Systems.
 - [ ] Every eligible fund either has parsed issuer holdings or appears in the re-screen report as missing a holdings source.
 - [ ] Usable at 1440 px and 390 px.
-- [ ] Opening the site in a private window requires the Cloudflare Access login, on both the production and `pages.dev` URLs.
+- [ ] The GitHub Pages URL loads the site after a push to `main` and after a refresh.
 
 Process
-- [ ] README covers setup (GitHub, Cloudflare Pages, Access), how to run locally, and how to re-screen.
+- [ ] README covers setup (GitHub Pages), how to run locally, and how to re-screen.
 - [ ] Don't commit or merge anything to `main` beyond the initial scaffold without user's review.
 
 ## 12. Out of scope (v1)

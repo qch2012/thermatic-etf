@@ -1,0 +1,33 @@
+# Deploys site/ to GitHub Pages. Pushes made by the refresh job use GITHUB_TOKEN and don't trigger
+# `push`, so this also runs after each successful refresh.
+name: pages
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: [refresh]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # workflow_run checks out the refresh run's start commit; main has the new data
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
