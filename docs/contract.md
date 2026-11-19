@@ -18,6 +18,7 @@ Fractions are fractions (0.0035 = 0.35%), money is USD.
 | `funds` | array of Fund | Every classified fund (both theme lists), sorted by theme order (`themes` first, then `no_eligible_themes`), then rank (unranked last), then ticker. |
 | `failed_fetches` | array of `{ticker: string, error: string}` | Funds whose fetch failed this run. They use last good data (`stale: true`), or, with none, are published with `status: "No price data"` (see "Fund with no data"). |
 | `missing_issuer_links` | array of string | Tickers with no entry in `config/issuer_links.json`. |
+| `benchmark` | string or `null` | Ticker from `config/settings.yaml` `benchmark` (QQQ) whose price file `prices/<TICKER>.json` was written this run, for the momentum chart (SPEC 6.8). `null` if unset or its fetch failed. Never classified, gated or scored. Optional: older files lack it. |
 | `reference` | array of `{ticker, label, trend}` | Defensive sector funds from `config/settings.yaml` `reference`, for the momentum board only (SPEC 6.8). `trend` as on Fund. Never classified, gated or scored; a fund whose fetch fails is left out. Optional: older files lack it. |
 
 Theme order: groups in the fixed order Technology, Physical world, Social, Broad thematic (a pipeline choice; SPEC 5.6 does not order groups); inside a group, themes by `largest_net_assets` (descending), then name.
@@ -203,3 +204,13 @@ From the live Yahoo run on 2026-10-17 (abridged top level):
   ]
 }
 ```
+
+## stocks.json (SPEC 6.9)
+
+`site/data/stocks.json`, written with screen.json when this run has holdings files. Display only.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `generated_at` | string | Same as screen.json. |
+| `holdings_as_of` | `[date, date]` | Oldest and newest `as_of` among the holdings files used. |
+| `stocks` | array | Stocks held at ≥ 1% by eligible, non-Broad-thematic funds in 2+ themes, most themes first. Each: `name`, `ticker` (US symbol when matched, else the fund's), `country` (or `null`), `direct` (bool), `listing` (why direct or not), `themes` (sorted names), `avg_weight`, `funds` (`{ticker, theme, weight}`, largest weight first). |

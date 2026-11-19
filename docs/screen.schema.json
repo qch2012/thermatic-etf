@@ -24,6 +24,7 @@
     "failed_fetches": {"type": "array", "items": {"type": "object", "required": ["ticker", "error"],
       "properties": {"ticker": {"type": "string"}, "error": {"type": "string"}}}},
     "missing_issuer_links": {"type": "array", "items": {"type": "string"}},
+    "benchmark": {"type": ["string", "null"]},
     "reference": {"type": "array", "items": {"type": "object", "required": ["ticker", "label", "trend"],
       "properties": {"ticker": {"type": "string"}, "label": {"type": "string"},
         "trend": {"type": "object", "required": ["1m", "3m", "6m", "1y"],

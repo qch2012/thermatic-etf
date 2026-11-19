@@ -231,7 +231,8 @@ class PipelineTests(unittest.TestCase):
     def test_price_files_data_as_of_and_weights(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)
-            result = run({"data_source": "stub", "reference": {"XLU": "Utilities"}}, path / "screen.json", path / "cache", DIRECTORY)
+            result = run({"data_source": "stub", "reference": {"XLU": "Utilities"}, "benchmark": "QQQ"}, path / "screen.json", path / "cache", DIRECTORY)
+            self.assertEqual(result["benchmark"], "QQQ")
             self.assertEqual([(r["ticker"], r["label"], set(r["trend"])) for r in result["reference"]],
                              [("XLU", "Utilities", {"1m", "3m", "6m", "1y"})])
             # Stub prices run 2022-01-03 to Fri 2026-01-02; last 3 calendar years = 785 weekdays from 2023-01-02.
@@ -242,7 +243,7 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual((prices["dates"][0], prices["dates"][-1], len(prices["dates"])), ("2023-01-02", "2026-01-02", 785))
             self.assertEqual(len(prices["adjusted_close"]), 785)
             self.assertEqual(prices["adjusted_close"][-1], Stub().history("AAA")["prices"][-1]["adjusted_close"])
-            self.assertEqual(sorted(p.name for p in (path / "prices").iterdir()), ["AAA.json", "BBB.json"])
+            self.assertEqual(sorted(p.name for p in (path / "prices").iterdir()), ["AAA.json", "BBB.json", "QQQ.json"])
             # Emitted weights reproduce method.py's scores from the emitted percentiles (live-weights contract).
             w = result["weights"]
             self.assertEqual(w, {"size": 0.4, "cost": 0.2, "performance": 0.4})

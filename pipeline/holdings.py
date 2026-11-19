@@ -22,6 +22,16 @@ SUFFIXES = {"adr", "ads", "gdr", "sp", "spon", "sponsored", "unsp", "unspon", "u
             "oyj", "kgaa", "npv", "the"}
 
 
+# Issuers spell some countries differently; without this, one company splits by spelling (Samsung, 2026-11-19).
+COUNTRY_ALIASES = {"korea": "south korea", "korea (south)": "south korea", "korea, republic of": "south korea",
+                   "republic of korea": "south korea", "russian federation": "russia"}
+
+
+def country(location):
+    location = (location or "").lower()
+    return COUNTRY_ALIASES.get(location, location)
+
+
 def normalize(name):
     words = re.sub(r"[^a-z0-9]+", " ", name.lower().replace(".", "")).split()
     while words:
@@ -66,11 +76,11 @@ def match_companies(files, aliases, never_merge=()):
     countries = {}
     for h in equity:
         if h.get("location"):
-            countries.setdefault(base(h["name"]), set()).add(h["location"].lower())
+            countries.setdefault(base(h["name"]), set()).add(country(h["location"]))
 
     def node(h):
         key, seen = base(h["name"]), countries.get(base(h["name"]), set())
-        location = (h.get("location") or "").lower() or (next(iter(seen)) if len(seen) == 1 else "")
+        location = country(h.get("location")) or (next(iter(seen)) if len(seen) == 1 else "")
         return f"{key}@{location}" if location else key
 
     by_base = {}

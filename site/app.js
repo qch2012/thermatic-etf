@@ -300,7 +300,7 @@ function chartSvg(series, shade, baseline, label, rank = false) {
   if (baseline != null) out.push(`<line class="base" x1="${left}" x2="${W - right}" y1="${y(baseline)}" y2="${y(baseline)}"/>`);
   for (const s of series) {
     const points = s.values.map((v, i) => `${x(Date.parse(s.dates[i]) / DAY).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
-    out.push(`<polyline data-ticker="${esc(s.ticker)}" points="${points}" fill="none" stroke="${s.color}" stroke-width="${s.color === OTHER_COLOR ? 1 : 2}"/>`);
+    out.push(`<polyline data-ticker="${esc(s.ticker)}" points="${points}" fill="none" stroke="${s.color}" stroke-width="${s.color === OTHER_COLOR ? 1 : 2}"${s.dash ? ' stroke-dasharray="6 4"' : ''}/>`);
     if (rank) s.values.forEach((v, i) => out.push(`<circle cx="${x(Date.parse(s.dates[i]) / DAY).toFixed(1)}" cy="${y(v).toFixed(1)}" r="2.5" fill="${s.color}"/>`));
   }
   // direct labels on the colored lines, nudged apart so they don't overlap

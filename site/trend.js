@@ -35,7 +35,17 @@ function bucket(trend) {
   return short ? (long ? 'Rising' : 'Recovering') : (long ? 'Fading' : 'Falling');
 }
 
-if (typeof module !== 'undefined') module.exports = { trendShade, themeTrend, bucket, TREND_PERIODS };
+// One year of a price file ending `end`, rebased to 100 at the last close on or before end − 365 days. null if younger.
+function rebaseYear(dates, closes, end) {
+  const start = new Date(Date.parse(end) - 365 * 864e5).toISOString().slice(0, 10);
+  let i = -1;
+  while (i + 1 < dates.length && dates[i + 1] <= start) i++;
+  if (i < 0 || !(closes[i] > 0)) return null;
+  const last = dates.findLastIndex(d => d <= end);
+  return { dates: dates.slice(i, last + 1), values: closes.slice(i, last + 1).map(v => v / closes[i] * 100) };
+}
+
+if (typeof module !== 'undefined') module.exports = { trendShade, themeTrend, bucket, rebaseYear, TREND_PERIODS };
 
 if (typeof document !== 'undefined' && document.getElementById('trend')) {
   const el = (tag, text, className) => {
@@ -54,12 +64,64 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     }
   };
 
-  // Breakdown for one theme: the eligible-fund median on top, then every fund in the theme.
-  // Funds arrive eligible first by rank, then the rest (docs/contract.md). Top 3 by score are highlighted.
+  // Last-year chart of a theme's top 3 eligible funds plus the benchmark (dashed), each labelled at its end; no other lines.
+  // Drawing, price loading and live ranks are the Funds tab's (app.js loadPrices / chartSvg / rankOf, shared globals),
+  // so the top 3 follow the score-weight sliders.
+  const BENCHMARK_COLOR = '#18232c';
+  let benchmark = null;  // screen.json `benchmark` (QQQ): price file only
+  const renderChart = async (box, funds, benchmark) => {
+    const token = box.dataset.token = String(Math.random());  // a later click wins over a slow load
+    box.replaceChildren(el('p', 'Loading chart…', 'note'));
+    funds = funds.slice(0, 3);
+    const tickers = funds.map(f => f.ticker).concat(benchmark ? [benchmark] : []);
+    const files = (await Promise.allSettled(tickers.map(loadPrices))).map(r => r.status === 'fulfilled' ? r.value : null);
+    if (box.dataset.token !== token) return;
+    const end = files.filter(Boolean).map(f => f.dates.at(-1)).sort().at(-1);
+    const series = [], notes = [];
+    tickers.forEach((ticker, i) => {
+      const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end);
+      if (!line) return notes.push(`${ticker}: ${files[i] ? 'younger than a year, not drawn' : 'no price file'}`);
+      const isBenchmark = i === funds.length;
+      series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : SERIES_COLORS[i], dash: isBenchmark });
+    });
+    if (!series.length) return box.replaceChildren(el('p', `No chart: ${notes.join('; ')}.`, 'note'));
+    const summary = `Top 3 by score and ${benchmark ?? 'no benchmark'}, last year to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
+    // Legend carries each line's end value, since the lines have no labels of their own.
+    const legend = series.map(s => `<li><i style="${s.dash ? `border-top:2px dashed ${s.color};height:0` : `background:${s.color}`}"></i>`
+      + `${esc(s.ticker)} <b>${s.values.at(-1).toFixed(0)}</b>${s.dash ? ' (benchmark)' : ''}</li>`).join('');
+    box.innerHTML = `<ul class="legend">${legend}</ul>${chartSvg(series, null, 100, summary)}`;
+    box.append(el('p', summary, 'note'));
+  };
+
+  // Snapshot of one fund under the chart. Formatting and the issuer link are the Funds tab's (app.js money / percent /
+  // tickerCell, shared globals), so numbers read the same on both tabs.
+  const renderSnapshot = (box, fund) => {
+    const card = el('article', null, 'snapshot');
+    const head = el('header');
+    head.append(el('h3', fund.name), el('p', `${fund.theme} · rank ${rankOf(fund)} of eligible · score ${number(scoreOf(fund), 1)}`, 'snapshot-sub'));
+    const link = tickerCell(fund);
+    head.prepend(typeof link === 'string' ? el('span', link, 'snapshot-ticker') : Object.assign(link, { className: 'snapshot-ticker', title: 'Issuer fund page' }));
+    const stats = el('dl', null, 'snapshot-stats');
+    const stat = (label, value, note) => {
+      const item = el('div');
+      item.append(el('dt', label), el('dd', value));
+      if (note) item.append(el('p', note, 'snapshot-note'));
+      stats.append(item);
+    };
+    stat('Launched', fund.first_trade_date ?? '—', fund.age != null ? `${fund.age.toFixed(1)} years old` : null);
+    stat('Net assets', money(fund.net_assets), `${fund.assets_source} · ${fund.assets_as_of}`);
+    stat('Expense ratio', percent(fund.expense_ratio), fund.expense_ratio != null ? `$${Math.round(fund.expense_ratio * 10000)} a year per $10,000 held` : null);
+    stat('Avg daily $ volume', money(fund.dollar_volume), 'Close × volume, last 63 trading days');
+    card.append(head, stats);
+    box.replaceChildren(card);
+  };
+
+  // Breakdown for one theme: the eligible-fund median, then its eligible funds by rank (top 3 highlighted), then the chart.
   const renderDetail = (theme, all, eligibleCount, trend) => {
+    all = all.filter(f => f.status === 'Eligible').sort((a, b) => rankOf(a) - rankOf(b));
     const detail = document.getElementById('trend-detail');
     const table = el('table', null, 'heatmap');
-    table.append(el('caption', `${theme}: ${all.length} funds, ${eligibleCount} eligible. Highlighted: top 3 by score. Rank "—" = not eligible (hover for why).`));
+    table.append(el('caption', `${theme}: ${eligibleCount} eligible fund${eligibleCount === 1 ? '' : 's'}. Highlighted: top 3 by score.`));
     const head = el('tr');
     ['Rank', 'Fund', ...TREND_PERIODS.map(p => p[1])].forEach(t => head.append(el('th', t)));
     table.createTHead().append(head);
@@ -69,13 +131,26 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     returnCells(median, trend);
     body.append(median);
     for (const fund of all) {
-      const row = el('tr', null, fund.rank != null && fund.rank <= 3 ? 'top' : fund.rank == null ? 'ineligible' : '');
-      row.append(Object.assign(el('td', fund.rank ?? '—'), { title: fund.status }));
-      row.append(Object.assign(el('td', fund.ticker), { title: fund.name }));
+      const row = el('tr', null, rankOf(fund) <= 3 ? 'top' : '');
+      row.append(el('td', rankOf(fund)));
+      const pick = Object.assign(el('button', fund.ticker, 'chart-link'), { type: 'button', title: `${fund.name}: show snapshot` });
+      pick.setAttribute('aria-pressed', 'false');
+      pick.addEventListener('click', () => {
+        table.querySelectorAll('button[aria-pressed=true]').forEach(b => b.setAttribute('aria-pressed', 'false'));
+        pick.setAttribute('aria-pressed', 'true');
+        renderSnapshot(snapshot, fund);
+      });
+      const cell = el('td');
+      cell.append(pick);
+      row.append(cell);
       returnCells(row, fund.trend);
       body.append(row);
     }
-    detail.replaceChildren(table);
+    const chart = el('div', null, 'trend-chart');
+    const snapshot = el('div', null, 'snapshot-box');
+    snapshot.append(el('p', 'Click a fund name above for its snapshot.', 'note'));
+    detail.replaceChildren(table, chart, snapshot);
+    renderChart(chart, all, benchmark);
   };
 
   // Defensive sector funds (config/settings.yaml `reference`): compared against the themes, never scored.
@@ -155,6 +230,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
   };
 
   fetch('data/screen.json').then(r => r.json()).then(data => {
+    benchmark = data.benchmark ?? null;
     render(data.funds, data.themes.map(t => t.theme), data.reference ?? []);
   }).catch(error => {
     document.getElementById('trend-body').textContent = `Cannot load trend: ${error.message}`;

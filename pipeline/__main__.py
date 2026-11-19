@@ -12,6 +12,7 @@ from .checks import check
 from .holdings import fill_holdings
 from .method import WEIGHTS, classify, score
 from .sources import create
+from .stocks import build as build_stocks, listings
 from .sources.directory import URL, parse
 from .sources.http import Session
 
@@ -68,7 +69,8 @@ def run(settings, output, cache_dir, directory_text=None):
     themes = {rule["theme"]: rule["group"] for rule in taxonomy["themes"]}
     source_name = settings["data_source"]
     source = create(source_name)
-    directory = parse(directory_text if directory_text is not None else Session().get(URL))
+    directory_text = directory_text if directory_text is not None else Session().get(URL)
+    directory = parse(directory_text)
     candidates = []
     for f in directory:
         theme = classify(f["ticker"], f["name"], taxonomy)
@@ -144,6 +146,17 @@ def run(settings, output, cache_dir, directory_text=None):
             reference.append({"ticker": ticker, "label": label, "trend": trend(prices)})
         except Exception as error:
             logging.warning("reference %s: %s", ticker, error)
+    benchmark = settings.get("benchmark")  # SPEC 6.8: price file only, for the momentum chart; never blocks publishing
+    if benchmark:
+        try:
+            prices = [p for p in source.history(benchmark)["prices"] if p["adjusted_close"] is not None]
+            start = three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat()
+            prices = [p for p in prices if p["date"] >= start]
+            price_files[benchmark] = {"ticker": benchmark, "dates": [p["date"] for p in prices],
+                                      "adjusted_close": [p["adjusted_close"] for p in prices]}
+        except Exception as error:
+            logging.warning("benchmark %s: %s", benchmark, error)
+            benchmark = None
     holdings_files = []  # written only after checks pass, like price files
     if source_name != "stub":  # synthetic screens get no real holdings; keeps stub runs offline
         try:
@@ -159,22 +172,31 @@ def run(settings, output, cache_dir, directory_text=None):
               "no_eligible_themes": no_eligible,
               "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
               "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]],
-              "reference": reference}
+              "reference": reference, "benchmark": benchmark}
     previous = json.loads(output.read_text()) if output.exists() else None
     errors, notes = check(result, previous)
     for note in notes:
         logging.warning(note)
     if errors:
         raise CheckFailed("; ".join(errors))
+    # SPEC 6.9: stocks held across themes, from this run's holdings. Display only; no holdings, no new file.
+    stocks = None
+    if holdings_files:
+        files = {data["ticker"]: data for _, data in holdings_files}
+        dates = sorted(data["as_of"] for data in files.values())
+        stocks = {"generated_at": result["generated_at"], "holdings_as_of": [dates[0], dates[-1]],
+                  "stocks": build_stocks(result["funds"], files, listings(directory_text))}
     # Publish: price files, then drop files of tickers not in this run, then the main file.
     for ticker, prices in price_files.items():
         write_json(output.parent / "prices" / f"{ticker}.json", prices)
     for path, data in holdings_files:
         write_json(path, data)
-    tickers = {f["ticker"] for f in funds}
+    tickers = {f["ticker"] for f in funds} | set(price_files)  # keeps the benchmark's file too
     for old in (output.parent / "prices").glob("*.json"):
         if old.stem not in tickers:
             old.unlink()
+    if stocks:
+        write_json(output.parent / "stocks.json", stocks)
     write_history(output.parent / "history", result)
     write_json(output, result)
     return result

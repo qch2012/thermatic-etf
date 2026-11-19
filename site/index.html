@@ -16,6 +16,7 @@
       <a class="brand" href="#top">Thematic ETF screen</a>
       <nav aria-label="Page sections">
         <a href="#trend">Momentum</a>
+        <a href="#stocks">Stocks</a>
         <a href="#screen">Funds</a>
         <a href="#moves">Changes</a>
         <a href="#overlap">Overlap</a>
@@ -82,6 +83,35 @@
     </div>
       <p class="note">Select a fund name for its adjusted-close chart, or a theme heading to compare its measured funds. * Net assets use a fallback source (hover for which). † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old. Stale: this run's fetch failed and the last good data is shown.</p>
     </section>
+
+    <!-- Stocks held across themes (SPEC 6.9) -->
+    <section id="stocks" class="panel" aria-labelledby="stocks-title">
+      <div class="section-head">
+        <h2 id="stocks-title">Stocks</h2>
+        <p class="lede">Companies that funds in the most themes hold. Click one for the funds that hold it.</p>
+      </div>
+      <details class="how"><summary>How this works</summary><p>A stock counts in a theme when an eligible fund in that theme holds it at 1% or more. Why 1%: smaller positions are a fund's long tail, not a sign the company belongs to the theme. Listed stocks are held in 2 or more themes, ranked by number of themes, then number of funds, then average weight. Why themes first: the AI theme alone has dozens of funds, so counting funds would mostly measure that one theme. Broad multi-theme funds are left out because they hold everything and would push up every large company. Share classes and listings of one company count once. "Direct" means the company is based in the US or Canada, or has a US exchange listing (including ADRs, so TSMC shows as TSM); Canadian companies are assumed to trade on the TSX. "Via ETF" means no such listing was found, only foreign or over-the-counter trading, so the simplest way to hold it is through a fund: the side panel lists the funds by weight. This list measures how widely a company is held, not how good it is, and it leans toward large technology companies. For reading only: it does not change scores or ranks.</p></details>
+      <form class="controls" onsubmit="return false">
+        <label>Themes <select id="stocks-bucket">
+          <option value="">All themes</option>
+          <option value="Rising,Recovering">Rising + Recovering</option>
+          <option value="Rising">Rising</option>
+          <option value="Recovering">Recovering</option>
+          <option value="Fading">Fading</option>
+          <option value="Falling">Falling</option>
+        </select></label>
+        <label><input id="stocks-via-etf" type="checkbox"> Via ETF only</label>
+      </form>
+      <p id="stocks-asof" class="note"></p>
+      <div class="trend-layout">
+        <div>
+          <div id="stocks-body" class="stocks-scroll"><p>Loading…</p></div>
+          <button id="stocks-more" type="button" hidden>Show all</button>
+        </div>
+        <aside id="stocks-detail" class="trend-side" aria-live="polite" aria-label="Funds holding the stock"><p class="note">Click a stock to see the funds that hold it.</p></aside>
+      </div>
+    </section>
+    <script src="stocks.js" defer></script>
 
     <!-- Ranking history (#8) -->
     <section id="moves" class="panel" aria-labelledby="moves-heading">
