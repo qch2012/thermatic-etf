@@ -1,134 +1,15 @@
 {
   "ticker": "DRIV",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:00.599532+00:00",
+  "fetched_at": "2026-11-19T22:51:35.814625+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/driv_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "ERAMET- RTS",
-      "ticker": "ERADS FP",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "sedol": "BXPYMC3",
-      "company": "name:eramet"
-    },
-    {
-      "name": "MOBILEYE GLOBAL INC-A",
-      "ticker": "MBLY",
-      "asset_type": "Equity",
-      "weight": 0.0078,
-      "sedol": "BLFH8G4",
-      "company": "cusip:60741F104"
-    },
-    {
-      "name": "GANFENG LITHIUM GROUP CO L-H",
-      "ticker": "1772 HK",
-      "asset_type": "Equity",
-      "weight": 0.0076,
-      "sedol": "BZ9NS11",
-      "company": "name:ganfeng lithium group@china"
-    },
-    {
-      "name": "AEVA TECHNOLOGIES INC",
-      "ticker": "AEVA",
-      "asset_type": "Equity",
-      "weight": 0.0074,
-      "sedol": "BSB8D21",
-      "company": "cusip:00835Q202"
-    },
-    {
-      "name": "QUANTUMSCAPE CORP",
-      "ticker": "QS",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "sedol": "BMC73Z8",
-      "company": "cusip:74767V109"
-    },
-    {
-      "name": "PLUG POWER INC",
-      "ticker": "PLUG",
-      "asset_type": "Equity",
-      "weight": 0.0069,
-      "sedol": "2508386",
-      "company": "cusip:72919P202"
-    },
-    {
-      "name": "LUCID GROUP INC",
-      "ticker": "LCID",
-      "asset_type": "Equity",
-      "weight": 0.0069,
-      "sedol": "BVY4KF9",
-      "company": "cusip:549498202"
-    },
-    {
-      "name": "BLACK SESAME INTERNATIONAL H",
-      "ticker": "2533 HK",
-      "asset_type": "Equity",
-      "weight": 0.0066,
-      "sedol": "BR4V8Z8",
-      "company": "name:black sesame international"
-    },
-    {
-      "name": "LITHIUM ARGENTINA AG",
-      "ticker": "LAR CN",
-      "asset_type": "Equity",
-      "weight": 0.0066,
-      "sedol": "BS891B2",
-      "company": "cusip:H5012F103"
-    },
-    {
-      "name": "HYSTER-YALE INC",
-      "ticker": "HY",
-      "asset_type": "Equity",
-      "weight": 0.0065,
-      "sedol": "B7LG306",
-      "company": "cusip:449172105"
-    },
-    {
-      "name": "INDIE SEMICONDUCTOR INC-A",
-      "ticker": "INDI",
-      "asset_type": "Equity",
-      "weight": 0.0062,
-      "sedol": "BP4W0C8",
-      "company": "cusip:45569U101"
-    },
-    {
-      "name": "LITHIUM AMERICAS CORP",
-      "ticker": "LAC CN",
-      "asset_type": "Equity",
-      "weight": 0.0062,
-      "sedol": "BRBS357",
-      "company": "cusip:53681J103"
-    },
-    {
-      "name": "LIONTOWN LTD",
-      "ticker": "LTR AU",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "sedol": "B1J89V5",
-      "company": "name:liontown@australia"
-    },
-    {
-      "name": "ERAMET",
-      "ticker": "ERA FP",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "4017017",
-      "company": "name:eramet"
-    },
-    {
-      "name": "CASH",
+      "name": "EURO",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0053,
-      "company": null
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0029,
+      "weight": -0.0,
       "company": null
     },
     {
@@ -289,7 +170,7 @@
       "asset_type": "Equity",
       "weight": 0.0152,
       "sedol": "BNSP8W5",
-      "company": "name:lg energy solution@korea (south)"
+      "company": "name:lg energy solution@south korea"
     },
     {
       "name": "BLOOM ENERGY CORP- A",
@@ -620,11 +501,130 @@
       "company": "name:pls group@australia"
     },
     {
-      "name": "EURO",
+      "name": "MOBILEYE GLOBAL INC-A",
+      "ticker": "MBLY",
+      "asset_type": "Equity",
+      "weight": 0.0078,
+      "sedol": "BLFH8G4",
+      "company": "cusip:60741F104"
+    },
+    {
+      "name": "GANFENG LITHIUM GROUP CO L-H",
+      "ticker": "1772 HK",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "sedol": "BZ9NS11",
+      "company": "name:ganfeng lithium group@china"
+    },
+    {
+      "name": "AEVA TECHNOLOGIES INC",
+      "ticker": "AEVA",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "BSB8D21",
+      "company": "cusip:00835Q202"
+    },
+    {
+      "name": "QUANTUMSCAPE CORP",
+      "ticker": "QS",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "sedol": "BMC73Z8",
+      "company": "cusip:74767V109"
+    },
+    {
+      "name": "PLUG POWER INC",
+      "ticker": "PLUG",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "2508386",
+      "company": "cusip:72919P202"
+    },
+    {
+      "name": "LUCID GROUP INC",
+      "ticker": "LCID",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "BVY4KF9",
+      "company": "cusip:549498202"
+    },
+    {
+      "name": "BLACK SESAME INTERNATIONAL H",
+      "ticker": "2533 HK",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "sedol": "BR4V8Z8",
+      "company": "name:black sesame international"
+    },
+    {
+      "name": "LITHIUM ARGENTINA AG",
+      "ticker": "LAR CN",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "sedol": "BS891B2",
+      "company": "cusip:H5012F103"
+    },
+    {
+      "name": "HYSTER-YALE INC",
+      "ticker": "HY",
+      "asset_type": "Equity",
+      "weight": 0.0065,
+      "sedol": "B7LG306",
+      "company": "cusip:449172105"
+    },
+    {
+      "name": "INDIE SEMICONDUCTOR INC-A",
+      "ticker": "INDI",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "sedol": "BP4W0C8",
+      "company": "cusip:45569U101"
+    },
+    {
+      "name": "LITHIUM AMERICAS CORP",
+      "ticker": "LAC CN",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "sedol": "BRBS357",
+      "company": "cusip:53681J103"
+    },
+    {
+      "name": "LIONTOWN LTD",
+      "ticker": "LTR AU",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "B1J89V5",
+      "company": "name:liontown@australia"
+    },
+    {
+      "name": "ERAMET",
+      "ticker": "ERA FP",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "4017017",
+      "company": "name:eramet"
+    },
+    {
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0,
+      "weight": 0.0053,
       "company": null
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0029,
+      "company": null
+    },
+    {
+      "name": "ERAMET- RTS",
+      "ticker": "ERADS FP",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "BXPYMC3",
+      "company": "name:eramet"
     }
   ]
 }

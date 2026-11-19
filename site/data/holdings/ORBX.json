@@ -1,161 +1,10 @@
 {
   "ticker": "ORBX",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:20.216074+00:00",
+  "fetched_at": "2026-11-19T22:51:51.053038+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/orbx_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "AXELSPACE HOLDINGS CORP",
-      "ticker": "402A JP",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "sedol": "BVQYZN0",
-      "company": "name:axelspace holdings"
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0009,
-      "company": null
-    },
-    {
-      "name": "SYNSPECTIVE INC",
-      "ticker": "290A JP",
-      "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "BM9WB85",
-      "company": "name:synspective@japan"
-    },
-    {
-      "name": "YORK SPACE SYSTEMS INC",
-      "ticker": "YSS",
-      "asset_type": "Equity",
-      "weight": 0.0073,
-      "sedol": "BV4MN09",
-      "company": "cusip:987084100"
-    },
-    {
-      "name": "SATELLOGIC INC-A",
-      "ticker": "SATL",
-      "asset_type": "Equity",
-      "weight": 0.0072,
-      "sedol": "BT8QHD4",
-      "company": "cusip:80401C100"
-    },
-    {
-      "name": "GILAT SATELLITE NETWORKS LTD",
-      "ticker": "GILT",
-      "asset_type": "Equity",
-      "weight": 0.0071,
-      "sedol": "2598075",
-      "company": "cusip:M51474118"
-    },
-    {
-      "name": "CREOTECH INSTRUMENTS SA",
-      "ticker": "CRI PW",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "sedol": "BLR7GY6",
-      "company": "name:creotech instruments@poland"
-    },
-    {
-      "name": "OVZON AB",
-      "ticker": "OVZON SS",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "sedol": "BD21M27",
-      "company": "name:ovzon"
-    },
-    {
-      "name": "SATREC INITIATIVE CO LTD",
-      "ticker": "099320 KS",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "sedol": "B39WTL1",
-      "company": "name:satrec initiative"
-    },
-    {
-      "name": "SPIRE GLOBAL INC",
-      "ticker": "SPIR",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "BRC45W5",
-      "company": "cusip:848560306"
-    },
-    {
-      "name": "QPS HOLDINGS INC",
-      "ticker": "464A JP",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "BN6NH91",
-      "company": "name:qps holdings@japan"
-    },
-    {
-      "name": "TELESAT CORP",
-      "ticker": "TSAT",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "BLD1BD6",
-      "company": "name:telesat"
-    },
-    {
-      "name": "ISPACE INC/JAPAN",
-      "ticker": "9348 JP",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "BMF7MM5",
-      "company": "name:ispace inc japan"
-    },
-    {
-      "name": "INTELLIAN TECHNOLOGIES INC",
-      "ticker": "189300 KS",
-      "asset_type": "Equity",
-      "weight": 0.0054,
-      "sedol": "BYX4V69",
-      "company": "name:intellian technologies"
-    },
-    {
-      "name": "ADDVALUE TECHNOLOGIES LTD",
-      "ticker": "ADDV SP",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "6260336",
-      "company": "name:addvalue technologies"
-    },
-    {
-      "name": "VIRGIN GALACTIC HOLDINGS INC",
-      "ticker": "SPCE",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "sedol": "BSNTQK1",
-      "company": "cusip:92766K403"
-    },
-    {
-      "name": "INNOSPACE CO LTD",
-      "ticker": "462350 KS",
-      "asset_type": "Equity",
-      "weight": 0.0024,
-      "sedol": "BNNW5V9",
-      "company": "name:innospace"
-    },
-    {
-      "name": "SIDUS SPACE INC-CL A",
-      "ticker": "SIDU",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "sedol": "BR1G3H3",
-      "company": "name:sidus space"
-    },
-    {
-      "name": "APT SATELLITE HOLDINGS LTD",
-      "ticker": "1045 HK",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "sedol": "6039644",
-      "company": "name:apt satellite holdings"
-    },
     {
       "name": "SPACE EXPLORATION TECHN-CL A",
       "ticker": "SPCX",
@@ -299,6 +148,157 @@
       "weight": 0.0103,
       "sedol": "7058228",
       "company": "name:ohb@germany"
+    },
+    {
+      "name": "SYNSPECTIVE INC",
+      "ticker": "290A JP",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "sedol": "BM9WB85",
+      "company": "name:synspective@japan"
+    },
+    {
+      "name": "YORK SPACE SYSTEMS INC",
+      "ticker": "YSS",
+      "asset_type": "Equity",
+      "weight": 0.0073,
+      "sedol": "BV4MN09",
+      "company": "cusip:987084100"
+    },
+    {
+      "name": "SATELLOGIC INC-A",
+      "ticker": "SATL",
+      "asset_type": "Equity",
+      "weight": 0.0072,
+      "sedol": "BT8QHD4",
+      "company": "cusip:80401C100"
+    },
+    {
+      "name": "GILAT SATELLITE NETWORKS LTD",
+      "ticker": "GILT",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "sedol": "2598075",
+      "company": "cusip:M51474118"
+    },
+    {
+      "name": "CREOTECH INSTRUMENTS SA",
+      "ticker": "CRI PW",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "sedol": "BLR7GY6",
+      "company": "name:creotech instruments@poland"
+    },
+    {
+      "name": "OVZON AB",
+      "ticker": "OVZON SS",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "sedol": "BD21M27",
+      "company": "name:ovzon"
+    },
+    {
+      "name": "SATREC INITIATIVE CO LTD",
+      "ticker": "099320 KS",
+      "asset_type": "Equity",
+      "weight": 0.0063,
+      "sedol": "B39WTL1",
+      "company": "name:satrec initiative"
+    },
+    {
+      "name": "SPIRE GLOBAL INC",
+      "ticker": "SPIR",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "sedol": "BRC45W5",
+      "company": "cusip:848560306"
+    },
+    {
+      "name": "QPS HOLDINGS INC",
+      "ticker": "464A JP",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "sedol": "BN6NH91",
+      "company": "name:qps holdings@japan"
+    },
+    {
+      "name": "TELESAT CORP",
+      "ticker": "TSAT",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "BLD1BD6",
+      "company": "name:telesat"
+    },
+    {
+      "name": "ISPACE INC/JAPAN",
+      "ticker": "9348 JP",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "BMF7MM5",
+      "company": "name:ispace inc japan"
+    },
+    {
+      "name": "INTELLIAN TECHNOLOGIES INC",
+      "ticker": "189300 KS",
+      "asset_type": "Equity",
+      "weight": 0.0054,
+      "sedol": "BYX4V69",
+      "company": "name:intellian technologies"
+    },
+    {
+      "name": "ADDVALUE TECHNOLOGIES LTD",
+      "ticker": "ADDV SP",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "6260336",
+      "company": "name:addvalue technologies"
+    },
+    {
+      "name": "VIRGIN GALACTIC HOLDINGS INC",
+      "ticker": "SPCE",
+      "asset_type": "Equity",
+      "weight": 0.004,
+      "sedol": "BSNTQK1",
+      "company": "cusip:92766K403"
+    },
+    {
+      "name": "INNOSPACE CO LTD",
+      "ticker": "462350 KS",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "BNNW5V9",
+      "company": "name:innospace"
+    },
+    {
+      "name": "SIDUS SPACE INC-CL A",
+      "ticker": "SIDU",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "BR1G3H3",
+      "company": "name:sidus space"
+    },
+    {
+      "name": "APT SATELLITE HOLDINGS LTD",
+      "ticker": "1045 HK",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "6039644",
+      "company": "name:apt satellite holdings"
+    },
+    {
+      "name": "AXELSPACE HOLDINGS CORP",
+      "ticker": "402A JP",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "sedol": "BVQYZN0",
+      "company": "name:axelspace holdings"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0009,
+      "company": null
     },
     {
       "name": "EURO",

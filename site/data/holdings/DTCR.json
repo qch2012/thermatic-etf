@@ -1,33 +1,10 @@
 {
   "ticker": "DTCR",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:01.200361+00:00",
+  "fetched_at": "2026-11-19T22:51:36.416251+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/dtcr_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "WHITEFIBER INC",
-      "ticker": "WYFI",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "sedol": "BQTYCT7",
-      "company": "cusip:G96115103"
-    },
-    {
-      "name": "SUNEVISION HOLDINGS",
-      "ticker": "1686 HK",
-      "asset_type": "Equity",
-      "weight": 0.0062,
-      "sedol": "6222217",
-      "company": "name:sunevision holdings"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0016,
-      "company": null
-    },
     {
       "name": "AMERICAN TOWER CORP",
       "ticker": "AMT",
@@ -232,6 +209,29 @@
       "asset_type": "Cash",
       "weight": 0.0,
       "company": null
+    },
+    {
+      "name": "SUNEVISION HOLDINGS",
+      "ticker": "1686 HK",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "sedol": "6222217",
+      "company": "name:sunevision holdings"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0016,
+      "company": null
+    },
+    {
+      "name": "WHITEFIBER INC",
+      "ticker": "WYFI",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "sedol": "BQTYCT7",
+      "company": "cusip:G96115103"
     }
   ]
 }

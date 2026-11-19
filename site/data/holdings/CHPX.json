@@ -1,42 +1,10 @@
 {
   "ticker": "CHPX",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:09:55.366904+00:00",
+  "fetched_at": "2026-11-19T22:51:29.742168+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/chpx_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "D-WAVE QUANTUM INC",
-      "ticker": "QBTS",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BMCCXH5",
-      "company": "cusip:26740W109"
-    },
-    {
-      "name": "RIGETTI COMPUTING INC",
-      "ticker": "RGTI",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BN45WL6",
-      "company": "cusip:76655K103"
-    },
-    {
-      "name": "AMBARELLA INC",
-      "ticker": "AMBA",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "B7KH3G6",
-      "company": "cusip:G037AX101"
-    },
-    {
-      "name": "MITAC HOLDINGS CORP",
-      "ticker": "3706 TT",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BDRZRW9",
-      "company": "name:mitac holdings"
-    },
     {
       "name": "QUANTUM COMPUTING INC",
       "ticker": "QUBT",
@@ -81,94 +49,6 @@
       "asset_type": "Cash",
       "weight": -0.0003,
       "company": null
-    },
-    {
-      "name": "ASTERA LABS INC",
-      "ticker": "ALAB",
-      "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "BMTQ7V2",
-      "company": "cusip:04626A103"
-    },
-    {
-      "name": "QUANTA COMPUTER INC",
-      "ticker": "2382 TT",
-      "asset_type": "Equity",
-      "weight": 0.0058,
-      "sedol": "6141011",
-      "company": "name:quanta computer@taiwan"
-    },
-    {
-      "name": "NEBIUS GROUP NV",
-      "ticker": "NBIS",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "sedol": "B5BSZB3",
-      "company": "cusip:N97284108"
-    },
-    {
-      "name": "ACCTON TECHNOLOGY CORP",
-      "ticker": "2345 TT",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "sedol": "6005214",
-      "company": "cusip:Y0002S109"
-    },
-    {
-      "name": "CREDO TECHNOLOGY GROUP HOLDI",
-      "ticker": "CRDO",
-      "asset_type": "Equity",
-      "weight": 0.0054,
-      "sedol": "BLD13F2",
-      "company": "cusip:G25457105"
-    },
-    {
-      "name": "COREWEAVE INC-CL A",
-      "ticker": "CRWV",
-      "asset_type": "Equity",
-      "weight": 0.0042,
-      "sedol": "BTTRKN7",
-      "company": "cusip:21873S108"
-    },
-    {
-      "name": "WIWYNN CORP",
-      "ticker": "6669 TT",
-      "asset_type": "Equity",
-      "weight": 0.0042,
-      "sedol": "BF4QXG5",
-      "company": "cusip:Y9673D101"
-    },
-    {
-      "name": "SUPER MICRO COMPUTER INC",
-      "ticker": "SMCI",
-      "asset_type": "Equity",
-      "weight": 0.0033,
-      "sedol": "BRC3N73",
-      "company": "cusip:86800U302"
-    },
-    {
-      "name": "ALCHIP TECHNOLOGIES LTD",
-      "ticker": "3661 TT",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "B4TPSL0",
-      "company": "cusip:G02242108"
-    },
-    {
-      "name": "IONQ INC",
-      "ticker": "IONQ",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "sedol": "BP484B3",
-      "company": "cusip:46222L108"
-    },
-    {
-      "name": "RAMBUS INC",
-      "ticker": "RMBS",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "2721967",
-      "company": "cusip:750917106"
     },
     {
       "name": "MICRON TECHNOLOGY INC",
@@ -329,6 +209,126 @@
       "weight": 0.009,
       "sedol": "2630643",
       "company": "cusip:64110D104"
+    },
+    {
+      "name": "ASTERA LABS INC",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "sedol": "BMTQ7V2",
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "QUANTA COMPUTER INC",
+      "ticker": "2382 TT",
+      "asset_type": "Equity",
+      "weight": 0.0058,
+      "sedol": "6141011",
+      "company": "name:quanta computer@taiwan"
+    },
+    {
+      "name": "NEBIUS GROUP NV",
+      "ticker": "NBIS",
+      "asset_type": "Equity",
+      "weight": 0.0057,
+      "sedol": "B5BSZB3",
+      "company": "cusip:N97284108"
+    },
+    {
+      "name": "ACCTON TECHNOLOGY CORP",
+      "ticker": "2345 TT",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "6005214",
+      "company": "cusip:Y0002S109"
+    },
+    {
+      "name": "CREDO TECHNOLOGY GROUP HOLDI",
+      "ticker": "CRDO",
+      "asset_type": "Equity",
+      "weight": 0.0054,
+      "sedol": "BLD13F2",
+      "company": "cusip:G25457105"
+    },
+    {
+      "name": "COREWEAVE INC-CL A",
+      "ticker": "CRWV",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "sedol": "BTTRKN7",
+      "company": "cusip:21873S108"
+    },
+    {
+      "name": "WIWYNN CORP",
+      "ticker": "6669 TT",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "sedol": "BF4QXG5",
+      "company": "cusip:Y9673D101"
+    },
+    {
+      "name": "SUPER MICRO COMPUTER INC",
+      "ticker": "SMCI",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "BRC3N73",
+      "company": "cusip:86800U302"
+    },
+    {
+      "name": "ALCHIP TECHNOLOGIES LTD",
+      "ticker": "3661 TT",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "B4TPSL0",
+      "company": "cusip:G02242108"
+    },
+    {
+      "name": "IONQ INC",
+      "ticker": "IONQ",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BP484B3",
+      "company": "cusip:46222L108"
+    },
+    {
+      "name": "RAMBUS INC",
+      "ticker": "RMBS",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "2721967",
+      "company": "cusip:750917106"
+    },
+    {
+      "name": "D-WAVE QUANTUM INC",
+      "ticker": "QBTS",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BMCCXH5",
+      "company": "cusip:26740W109"
+    },
+    {
+      "name": "RIGETTI COMPUTING INC",
+      "ticker": "RGTI",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BN45WL6",
+      "company": "cusip:76655K103"
+    },
+    {
+      "name": "AMBARELLA INC",
+      "ticker": "AMBA",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "B7KH3G6",
+      "company": "cusip:G037AX101"
+    },
+    {
+      "name": "MITAC HOLDINGS CORP",
+      "ticker": "3706 TT",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BDRZRW9",
+      "company": "name:mitac holdings"
     }
   ]
 }

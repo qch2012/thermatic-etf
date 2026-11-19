@@ -1,7 +1,7 @@
 {
   "ticker": "LIT",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:16.385105+00:00",
+  "fetched_at": "2026-11-19T22:51:48.359631+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/lit_full-holdings_{date}.csv",
   "holdings": [
@@ -41,109 +41,6 @@
       "asset_type": "Cash",
       "weight": -0.0004,
       "company": null
-    },
-    {
-      "name": "STANDARD LITHIUM LTD",
-      "ticker": "SLI CN",
-      "asset_type": "Equity",
-      "weight": 0.0014,
-      "sedol": "BDSFRL7",
-      "company": "cusip:853606101"
-    },
-    {
-      "name": "VULCAN ENERGY RESOURCES LTD",
-      "ticker": "VUL AU",
-      "asset_type": "Equity",
-      "weight": 0.0014,
-      "sedol": "BKYBH63",
-      "company": "name:vulcan energy resources"
-    },
-    {
-      "name": "SIGMA LITHIUM CORP",
-      "ticker": "SGML",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "sedol": "BNM4ZD8",
-      "company": "cusip:826599102"
-    },
-    {
-      "name": "ERAMET",
-      "ticker": "ERA FP",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "sedol": "4017017",
-      "company": "name:eramet"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0009,
-      "company": null
-    },
-    {
-      "name": "IONEER LTD",
-      "ticker": "INR AU",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BGYBHZ4",
-      "company": "cusip:46211L101"
-    },
-    {
-      "name": "AMG CRITICAL MATERIALS N.V.",
-      "ticker": "AMG NA",
-      "asset_type": "Equity",
-      "weight": 0.0044,
-      "sedol": "B1Z95S1",
-      "company": "name:amg critical materials"
-    },
-    {
-      "name": "LIONTOWN LTD",
-      "ticker": "LTR AU",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "B1J89V5",
-      "company": "name:liontown@australia"
-    },
-    {
-      "name": "LITHIUM AMERICAS CORP",
-      "ticker": "LAC CN",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "BRBS357",
-      "company": "cusip:53681J103"
-    },
-    {
-      "name": "CORE LITHIUM LTD",
-      "ticker": "CXO AU",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "B4XFS83",
-      "company": "name:core lithium"
-    },
-    {
-      "name": "LITHIUM ARGENTINA AG",
-      "ticker": "LAR CN",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "BS891B2",
-      "company": "cusip:H5012F103"
-    },
-    {
-      "name": "ELEVRA LITHIUM LTD",
-      "ticker": "ELV AU",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "sedol": "BVBM1M0",
-      "company": "cusip:805700101"
-    },
-    {
-      "name": "PMET RESOURCES INC",
-      "ticker": "PMET CN",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "sedol": "BRJJYV5",
-      "company": "name:pmet resources"
     },
     {
       "name": "RIO TINTO PLC-SPON ADR",
@@ -247,7 +144,7 @@
       "asset_type": "Equity",
       "weight": 0.0349,
       "sedol": "BNSP8W5",
-      "company": "name:lg energy solution@korea (south)"
+      "company": "name:lg energy solution@south korea"
     },
     {
       "name": "GANFENG LITHIUM GROUP CO L-A",
@@ -360,6 +257,109 @@
       "weight": 0.009,
       "sedol": "6578608",
       "company": "name:l"
+    },
+    {
+      "name": "AMG CRITICAL MATERIALS N.V.",
+      "ticker": "AMG NA",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "sedol": "B1Z95S1",
+      "company": "name:amg critical materials"
+    },
+    {
+      "name": "LIONTOWN LTD",
+      "ticker": "LTR AU",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "B1J89V5",
+      "company": "name:liontown@australia"
+    },
+    {
+      "name": "LITHIUM AMERICAS CORP",
+      "ticker": "LAC CN",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "BRBS357",
+      "company": "cusip:53681J103"
+    },
+    {
+      "name": "CORE LITHIUM LTD",
+      "ticker": "CXO AU",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "B4XFS83",
+      "company": "name:core lithium"
+    },
+    {
+      "name": "LITHIUM ARGENTINA AG",
+      "ticker": "LAR CN",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "BS891B2",
+      "company": "cusip:H5012F103"
+    },
+    {
+      "name": "ELEVRA LITHIUM LTD",
+      "ticker": "ELV AU",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "sedol": "BVBM1M0",
+      "company": "cusip:805700101"
+    },
+    {
+      "name": "PMET RESOURCES INC",
+      "ticker": "PMET CN",
+      "asset_type": "Equity",
+      "weight": 0.0017,
+      "sedol": "BRJJYV5",
+      "company": "name:pmet resources"
+    },
+    {
+      "name": "STANDARD LITHIUM LTD",
+      "ticker": "SLI CN",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BDSFRL7",
+      "company": "cusip:853606101"
+    },
+    {
+      "name": "VULCAN ENERGY RESOURCES LTD",
+      "ticker": "VUL AU",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BKYBH63",
+      "company": "name:vulcan energy resources"
+    },
+    {
+      "name": "SIGMA LITHIUM CORP",
+      "ticker": "SGML",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "sedol": "BNM4ZD8",
+      "company": "cusip:826599102"
+    },
+    {
+      "name": "ERAMET",
+      "ticker": "ERA FP",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "sedol": "4017017",
+      "company": "name:eramet"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0009,
+      "company": null
+    },
+    {
+      "name": "IONEER LTD",
+      "ticker": "INR AU",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "BGYBHZ4",
+      "company": "cusip:46211L101"
     }
   ]
 }

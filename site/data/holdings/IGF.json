@@ -1,7 +1,7 @@
 {
   "ticker": "IGF",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-19T11:10:11.496605+00:00",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T22:51:44.549491+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239746/ishares-global-infrastructure-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "TRANSURBAN GROUP STAPLED UNITS",
       "ticker": "TCL",
       "asset_type": "Equity",
-      "weight": 0.0517,
+      "weight": 0.0521,
       "location": "Australia",
       "company": "name:transurban group stapled units@australia"
     },
@@ -25,7 +25,7 @@
       "name": "NEXTERA ENERGY",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.0481,
+      "weight": 0.0488,
       "location": "United States",
       "company": "cusip:65339F101"
     },
@@ -33,7 +33,7 @@
       "name": "IBERDROLA",
       "ticker": "IBE",
       "asset_type": "Equity",
-      "weight": 0.0413,
+      "weight": 0.0414,
       "location": "Spain",
       "company": "cusip:B288C9908"
     },
@@ -41,7 +41,7 @@
       "name": "GRUPO AEROPORTUARIO DEL PACIFICO A",
       "ticker": "PAC",
       "asset_type": "Equity",
-      "weight": 0.0404,
+      "weight": 0.0399,
       "location": "Mexico",
       "company": "name:grupo aeroportuario del pacifico@mexico"
     },
@@ -49,7 +49,7 @@
       "name": "AUCKLAND INTERNATIONAL AIRPORT",
       "ticker": "AIA",
       "asset_type": "Equity",
-      "weight": 0.0359,
+      "weight": 0.0357,
       "location": "New Zealand",
       "company": "name:auckland international airport@new zealand"
     },
@@ -57,7 +57,7 @@
       "name": "ENBRIDGE",
       "ticker": "ENB",
       "asset_type": "Equity",
-      "weight": 0.0343,
+      "weight": 0.0342,
       "location": "Canada",
       "company": "cusip:29250N956"
     },
@@ -65,7 +65,7 @@
       "name": "SOUTHERN",
       "ticker": "SO",
       "asset_type": "Equity",
-      "weight": 0.0294,
+      "weight": 0.03,
       "location": "United States",
       "company": "cusip:842587107"
     },
@@ -73,7 +73,7 @@
       "name": "GETLINK",
       "ticker": "GET",
       "asset_type": "Equity",
-      "weight": 0.0288,
+      "weight": 0.029,
       "location": "France",
       "company": "cusip:B292JQ905"
     },
@@ -81,7 +81,7 @@
       "name": "DUKE ENERGY CORP",
       "ticker": "DUK",
       "asset_type": "Equity",
-      "weight": 0.0277,
+      "weight": 0.028,
       "location": "United States",
       "company": "cusip:26441C204"
     },
@@ -89,7 +89,7 @@
       "name": "WILLIAMS",
       "ticker": "WMB",
       "asset_type": "Equity",
-      "weight": 0.027,
+      "weight": 0.0271,
       "location": "United States",
       "company": "name:williams@united states"
     },
@@ -97,7 +97,7 @@
       "name": "CONSTELLATION ENERGY CORP",
       "ticker": "CEG",
       "asset_type": "Equity",
-      "weight": 0.0241,
+      "weight": 0.0239,
       "location": "United States",
       "company": "cusip:21037T109"
     },
@@ -105,7 +105,7 @@
       "name": "NATIONAL GRID PLC",
       "ticker": "NG.",
       "asset_type": "Equity",
-      "weight": 0.0228,
+      "weight": 0.0227,
       "location": "United Kingdom",
       "company": "cusip:BDR05C901"
     },
@@ -113,7 +113,7 @@
       "name": "TC ENERGY",
       "ticker": "TRP",
       "asset_type": "Equity",
-      "weight": 0.022,
+      "weight": 0.0219,
       "location": "Canada",
       "company": "cusip:87807B909"
     },
@@ -121,7 +121,7 @@
       "name": "ENEL",
       "ticker": "ENEL",
       "asset_type": "Equity",
-      "weight": 0.0219,
+      "weight": 0.0218,
       "location": "Italy",
       "company": "cusip:714456902"
     },
@@ -129,7 +129,7 @@
       "name": "AEROPORTS DE PARIS SA",
       "ticker": "ADP",
       "asset_type": "Equity",
-      "weight": 0.0213,
+      "weight": 0.0214,
       "location": "France",
       "company": "name:aeroports de paris@france"
     },
@@ -137,7 +137,7 @@
       "name": "FLUGHAFEN ZUERICH AG",
       "ticker": "FHZN",
       "asset_type": "Equity",
-      "weight": 0.0211,
+      "weight": 0.021,
       "location": "Switzerland",
       "company": "name:flughafen zuerich@switzerland"
     },
@@ -145,17 +145,9 @@
       "name": "TARGA RESOURCES",
       "ticker": "TRGP",
       "asset_type": "Equity",
-      "weight": 0.0204,
+      "weight": 0.0205,
       "location": "United States",
       "company": "cusip:87612G101"
-    },
-    {
-      "name": "CHENIERE ENERGY",
-      "ticker": "LNG",
-      "asset_type": "Equity",
-      "weight": 0.0204,
-      "location": "United States",
-      "company": "cusip:16411R208"
     },
     {
       "name": "KINDER MORGAN",
@@ -166,10 +158,18 @@
       "company": "cusip:49456B101"
     },
     {
+      "name": "CHENIERE ENERGY",
+      "ticker": "LNG",
+      "asset_type": "Equity",
+      "weight": 0.0202,
+      "location": "United States",
+      "company": "cusip:16411R208"
+    },
+    {
       "name": "GRUPO AEROPORTUARIO ADR REPRESENTI",
       "ticker": "ASR",
       "asset_type": "Equity",
-      "weight": 0.0197,
+      "weight": 0.0193,
       "location": "Mexico",
       "company": "name:grupo aeroportuario adr representi@mexico"
     },
@@ -177,7 +177,7 @@
       "name": "AMERICAN ELECTRIC POWER INC",
       "ticker": "AEP",
       "asset_type": "Equity",
-      "weight": 0.0187,
+      "weight": 0.019,
       "location": "United States",
       "company": "cusip:025537101"
     },
@@ -193,25 +193,25 @@
       "name": "JAPAN AIRPORT TERMINAL",
       "ticker": "9706",
       "asset_type": "Equity",
-      "weight": 0.0168,
+      "weight": 0.0171,
       "location": "Japan",
       "company": "cusip:647217009"
-    },
-    {
-      "name": "GRUPO AEROPORTUARIO DEL CENTRO NOR",
-      "ticker": "OMAB",
-      "asset_type": "Equity",
-      "weight": 0.0162,
-      "location": "Mexico",
-      "company": "name:grupo aeroportuario del centro nor@mexico"
     },
     {
       "name": "DOMINION ENERGY",
       "ticker": "D",
       "asset_type": "Equity",
-      "weight": 0.0162,
+      "weight": 0.0164,
       "location": "United States",
       "company": "cusip:25746U109"
+    },
+    {
+      "name": "GRUPO AEROPORTUARIO DEL CENTRO NOR",
+      "ticker": "OMAB",
+      "asset_type": "Equity",
+      "weight": 0.0158,
+      "location": "Mexico",
+      "company": "name:grupo aeroportuario del centro nor@mexico"
     },
     {
       "name": "ENGIE SA",
@@ -225,31 +225,31 @@
       "name": "SEMPRA",
       "ticker": "SRE",
       "asset_type": "Equity",
-      "weight": 0.0139,
+      "weight": 0.014,
       "location": "United States",
       "company": "cusip:816851109"
-    },
-    {
-      "name": "XCEL ENERGY INC",
-      "ticker": "XEL",
-      "asset_type": "Equity",
-      "weight": 0.0138,
-      "location": "United States",
-      "company": "cusip:98389B100"
     },
     {
       "name": "ENTERGY CORP",
       "ticker": "ETR",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0139,
       "location": "United States",
       "company": "cusip:29364G103"
+    },
+    {
+      "name": "XCEL ENERGY INC",
+      "ticker": "XEL",
+      "asset_type": "Equity",
+      "weight": 0.0139,
+      "location": "United States",
+      "company": "cusip:98389B100"
     },
     {
       "name": "EXELON CORP",
       "ticker": "EXC",
       "asset_type": "Equity",
-      "weight": 0.0129,
+      "weight": 0.0131,
       "location": "United States",
       "company": "cusip:30161N101"
     },
@@ -265,9 +265,17 @@
       "name": "CONSOLIDATED EDISON",
       "ticker": "ED",
       "asset_type": "Equity",
-      "weight": 0.0121,
+      "weight": 0.0122,
       "location": "United States",
       "company": "cusip:209115104"
+    },
+    {
+      "name": "RWE AG",
+      "ticker": "RWE",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "location": "Germany",
+      "company": "cusip:476896907"
     },
     {
       "name": "SATS LTD",
@@ -278,18 +286,10 @@
       "company": "cusip:624358909"
     },
     {
-      "name": "RWE AG",
-      "ticker": "RWE",
-      "asset_type": "Equity",
-      "weight": 0.0119,
-      "location": "Germany",
-      "company": "cusip:476896907"
-    },
-    {
       "name": "SSE PLC",
       "ticker": "SSE",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0114,
       "location": "United Kingdom",
       "company": "cusip:079087003"
     },
@@ -297,7 +297,7 @@
       "name": "CHINA MERCHANTS PORT HOLDINGS LTD",
       "ticker": "144",
       "asset_type": "Equity",
-      "weight": 0.0112,
+      "weight": 0.0113,
       "location": "China",
       "company": "name:china merchants port holdings@china"
     },
@@ -305,7 +305,7 @@
       "name": "VISTRA",
       "ticker": "VST",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0109,
       "location": "United States",
       "company": "cusip:92840M102"
     },
@@ -345,7 +345,7 @@
       "name": "JIANGSU EXPRESSWAY LTD H",
       "ticker": "177",
       "asset_type": "Equity",
-      "weight": 0.0073,
+      "weight": 0.0074,
       "location": "China",
       "company": "name:jiangsu expressway@china"
     },
@@ -361,7 +361,7 @@
       "name": "ZHEJIANG EXPRESSWAY LTD H",
       "ticker": "576",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0057,
       "location": "China",
       "company": "cusip:699076907"
     },
@@ -409,7 +409,7 @@
       "name": "DT MIDSTREAM",
       "ticker": "DTM",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.004,
       "location": "United States",
       "company": "cusip:23345M107"
     },
@@ -433,7 +433,7 @@
       "name": "ANHUI EXPRESSWAY LTD H",
       "ticker": "995",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0034,
       "location": "China",
       "company": "cusip:604518902"
     },
@@ -441,7 +441,7 @@
       "name": "CORPORACION AMERICA AIRPORTS SA",
       "ticker": "CAAP",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0031,
       "location": "Argentina",
       "company": "name:corporacion america airports@argentina"
     },
@@ -449,15 +449,15 @@
       "name": "COMPANHIA DE SANEAMENTO BASICO DO",
       "ticker": "SBS",
       "asset_type": "Equity",
-      "weight": 0.0031,
+      "weight": 0.003,
       "location": "Brazil",
       "company": "name:companhia de saneamento basico do@brazil"
     },
     {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": 0.0026,
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0025,
       "location": "United States",
       "company": null
     },
@@ -481,7 +481,7 @@
       "name": "SOUTH BOW",
       "ticker": "SOBO",
       "asset_type": "Equity",
-      "weight": 0.0023,
+      "weight": 0.0022,
       "location": "Canada",
       "company": "cusip:83671M956"
     },
@@ -606,27 +606,11 @@
       "company": "cusip:691316004"
     },
     {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
-      "weight": 0.0007,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "CAD CASH",
       "ticker": "CAD",
       "asset_type": "Cash",
-      "weight": 0.0006,
+      "weight": 0.0005,
       "location": "Canada",
-      "company": null
-    },
-    {
-      "name": "HKD CASH",
-      "ticker": "HKD",
-      "asset_type": "Cash",
-      "weight": 0.0006,
-      "location": "Hong Kong",
       "company": null
     },
     {
@@ -638,6 +622,14 @@
       "company": "cusip:B4Q2TX906"
     },
     {
+      "name": "HKD CASH",
+      "ticker": "HKD",
+      "asset_type": "Cash",
+      "weight": 0.0005,
+      "location": "Hong Kong",
+      "company": null
+    },
+    {
       "name": "CASH COLLATERAL USD SGAFT",
       "ticker": "SGAFT",
       "asset_type": "Cash Collateral and Margins",
@@ -646,11 +638,11 @@
       "company": null
     },
     {
-      "name": "EUR CASH",
-      "ticker": "EUR",
+      "name": "CHF CASH",
+      "ticker": "CHF",
       "asset_type": "Cash",
       "weight": 0.0002,
-      "location": "European Union",
+      "location": "Switzerland",
       "company": null
     },
     {
@@ -659,14 +651,6 @@
       "asset_type": "Cash",
       "weight": 0.0002,
       "location": "New Zealand",
-      "company": null
-    },
-    {
-      "name": "CHF CASH",
-      "ticker": "CHF",
-      "asset_type": "Cash",
-      "weight": 0.0002,
-      "location": "Switzerland",
       "company": null
     },
     {
@@ -681,16 +665,8 @@
       "name": "SGD CASH",
       "ticker": "SGD",
       "asset_type": "Cash",
-      "weight": 0.0,
+      "weight": 0.0001,
       "location": "Singapore",
-      "company": null
-    },
-    {
-      "name": "AUD CASH",
-      "ticker": "AUD",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "location": "Australia",
       "company": null
     },
     {
@@ -699,14 +675,6 @@
       "asset_type": "Cash",
       "weight": 0.0,
       "location": "Denmark",
-      "company": null
-    },
-    {
-      "name": "GBP CASH",
-      "ticker": "GBP",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "location": "United Kingdom",
       "company": null
     },
     {
@@ -750,6 +718,70 @@
       "company": null
     },
     {
+      "name": "EUR/USD",
+      "ticker": "EUR",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "AUD/USD",
+      "ticker": "AUD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "NZD/USD",
+      "ticker": "NZD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBP",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "HKD/USD",
+      "ticker": "HKD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "CHF/USD",
+      "ticker": "CHF",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "JPY/USD",
+      "ticker": "JPY",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "SGD/USD",
+      "ticker": "SGD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "EMINI ENERGY SELECT SECTOR DEC 26",
       "ticker": "IXPZ6",
       "asset_type": "Futures",
@@ -768,6 +800,38 @@
       "ticker": "IXSZ6",
       "asset_type": "Futures",
       "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "GBP CASH",
+      "ticker": "GBP",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "United Kingdom",
+      "company": null
+    },
+    {
+      "name": "AUD CASH",
+      "ticker": "AUD",
+      "asset_type": "Cash",
+      "weight": -0.0001,
+      "location": "Australia",
+      "company": null
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": -0.0001,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EUR CASH",
+      "ticker": "EUR",
+      "asset_type": "Cash",
+      "weight": -0.0002,
+      "location": "European Union",
       "company": null
     }
   ]

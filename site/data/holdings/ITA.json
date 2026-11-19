@@ -1,7 +1,7 @@
 {
   "ticker": "ITA",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-19T11:10:13.341014+00:00",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T22:51:46.134691+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239502/ishares-u-s-aerospace-defense-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "GE AEROSPACE",
       "ticker": "GE",
       "asset_type": "Equity",
-      "weight": 0.2173,
+      "weight": 0.2192,
       "location": "United States",
       "company": "cusip:369604301"
     },
@@ -17,7 +17,7 @@
       "name": "RTX",
       "ticker": "RTX",
       "asset_type": "Equity",
-      "weight": 0.1712,
+      "weight": 0.1713,
       "location": "United States",
       "company": "cusip:75513E101"
     },
@@ -25,7 +25,7 @@
       "name": "BOEING",
       "ticker": "BA",
       "asset_type": "Equity",
-      "weight": 0.0654,
+      "weight": 0.0652,
       "location": "United States",
       "company": "cusip:097023105"
     },
@@ -33,7 +33,7 @@
       "name": "LOCKHEED MARTIN",
       "ticker": "LMT",
       "asset_type": "Equity",
-      "weight": 0.0529,
+      "weight": 0.052,
       "location": "United States",
       "company": "cusip:539830109"
     },
@@ -41,7 +41,7 @@
       "name": "NORTHROP GRUMMAN CORP",
       "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0504,
+      "weight": 0.0497,
       "location": "United States",
       "company": "cusip:666807102"
     },
@@ -49,7 +49,7 @@
       "name": "TRANSDIGM GROUP",
       "ticker": "TDG",
       "asset_type": "Equity",
-      "weight": 0.0495,
+      "weight": 0.0493,
       "location": "United States",
       "company": "cusip:893641100"
     },
@@ -57,7 +57,7 @@
       "name": "GENERAL DYNAMICS CORP",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.0474,
+      "weight": 0.0467,
       "location": "United States",
       "company": "cusip:369550108"
     },
@@ -65,7 +65,7 @@
       "name": "HOWMET AEROSPACE",
       "ticker": "HWM",
       "asset_type": "Equity",
-      "weight": 0.0435,
+      "weight": 0.0448,
       "location": "United States",
       "company": "cusip:443201108"
     },
@@ -73,7 +73,7 @@
       "name": "HONEYWELL AEROSPACE INC",
       "ticker": "HONA",
       "asset_type": "Equity",
-      "weight": 0.0392,
+      "weight": 0.0387,
       "location": "United States",
       "company": "cusip:43849R105"
     },
@@ -81,7 +81,7 @@
       "name": "L3HARRIS TECHNOLOGIES",
       "ticker": "LHX",
       "asset_type": "Equity",
-      "weight": 0.0374,
+      "weight": 0.0369,
       "location": "United States",
       "company": "cusip:502431109"
     },
@@ -89,25 +89,33 @@
       "name": "ROCKET LAB CORP",
       "ticker": "RKLB",
       "asset_type": "Equity",
-      "weight": 0.0234,
+      "weight": 0.0226,
       "location": "United States",
       "company": "cusip:773121108"
-    },
-    {
-      "name": "AXON ENTERPRISE",
-      "ticker": "AXON",
-      "asset_type": "Equity",
-      "weight": 0.0187,
-      "location": "United States",
-      "company": "cusip:05464C101"
     },
     {
       "name": "ATI",
       "ticker": "ATI",
       "asset_type": "Equity",
-      "weight": 0.0183,
+      "weight": 0.019,
       "location": "United States",
       "company": "cusip:01741R102"
+    },
+    {
+      "name": "AXON ENTERPRISE",
+      "ticker": "AXON",
+      "asset_type": "Equity",
+      "weight": 0.0189,
+      "location": "United States",
+      "company": "cusip:05464C101"
+    },
+    {
+      "name": "WOODWARD",
+      "ticker": "WWD",
+      "asset_type": "Equity",
+      "weight": 0.0146,
+      "location": "United States",
+      "company": "cusip:980745103"
     },
     {
       "name": "HEICO CLASS A",
@@ -118,18 +126,10 @@
       "company": "cusip:422806109"
     },
     {
-      "name": "WOODWARD",
-      "ticker": "WWD",
-      "asset_type": "Equity",
-      "weight": 0.0141,
-      "location": "United States",
-      "company": "cusip:980745103"
-    },
-    {
       "name": "FTAI AVIATION",
       "ticker": "FTAI",
       "asset_type": "Equity",
-      "weight": 0.0136,
+      "weight": 0.0137,
       "location": "United States",
       "company": "cusip:G3730V105"
     },
@@ -137,7 +137,7 @@
       "name": "CURTISS WRIGHT",
       "ticker": "CW",
       "asset_type": "Equity",
-      "weight": 0.0129,
+      "weight": 0.013,
       "location": "United States",
       "company": "cusip:231561101"
     },
@@ -145,7 +145,7 @@
       "name": "TEXTRON INC",
       "ticker": "TXT",
       "asset_type": "Equity",
-      "weight": 0.0108,
+      "weight": 0.011,
       "location": "United States",
       "company": "cusip:883203101"
     },
@@ -153,7 +153,7 @@
       "name": "HEICO",
       "ticker": "HEI",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0107,
       "location": "United States",
       "company": "cusip:422806109"
     },
@@ -161,7 +161,7 @@
       "name": "CARPENTER TECHNOLOGY",
       "ticker": "CRS",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0104,
       "location": "United States",
       "company": "cusip:144285103"
     },
@@ -169,7 +169,7 @@
       "name": "HUNTINGTON INGALLS INDUSTRIES",
       "ticker": "HII",
       "asset_type": "Equity",
-      "weight": 0.009,
+      "weight": 0.0088,
       "location": "United States",
       "company": "cusip:446413106"
     },
@@ -177,7 +177,7 @@
       "name": "BWX TECHNOLOGIES INC",
       "ticker": "BWXT",
       "asset_type": "Equity",
-      "weight": 0.0084,
+      "weight": 0.0083,
       "location": "United States",
       "company": "cusip:05605H100"
     },
@@ -185,7 +185,7 @@
       "name": "MOOG INC CLASS A",
       "ticker": "MOG A",
       "asset_type": "Equity",
-      "weight": 0.0072,
+      "weight": 0.0074,
       "location": "United States",
       "company": "cusip:615394202"
     },
@@ -201,7 +201,7 @@
       "name": "HEXCEL",
       "ticker": "HXL",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0046,
       "location": "United States",
       "company": "cusip:428291108"
     },
@@ -209,7 +209,7 @@
       "name": "KRATOS DEFENSE AND SECURITY SOLUTI",
       "ticker": "KTOS",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0044,
       "location": "United States",
       "company": "name:kratos defense and security soluti@united states"
     },
@@ -217,17 +217,9 @@
       "name": "VSE CORP",
       "ticker": "VSEC",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.004,
       "location": "United States",
       "company": "cusip:918284100"
-    },
-    {
-      "name": "KARMAN HOLDINGS INC",
-      "ticker": "KRMN",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "location": "United States",
-      "company": "cusip:485924104"
     },
     {
       "name": "MERCURY SYSTEMS INC",
@@ -236,6 +228,14 @@
       "weight": 0.0034,
       "location": "United States",
       "company": "cusip:589378108"
+    },
+    {
+      "name": "KARMAN HOLDINGS INC",
+      "ticker": "KRMN",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "location": "United States",
+      "company": "cusip:485924104"
     },
     {
       "name": "AAR",
@@ -254,6 +254,14 @@
       "company": "cusip:008073108"
     },
     {
+      "name": "ARXIS CLASS A",
+      "ticker": "ARXS",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "location": "United States",
+      "company": "cusip:04339D105"
+    },
+    {
       "name": "LEONARDO DRS INC",
       "ticker": "DRS",
       "asset_type": "Equity",
@@ -265,17 +273,9 @@
       "name": "LOAR HOLDINGS",
       "ticker": "LOAR",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0019,
       "location": "United States",
       "company": "cusip:53947R105"
-    },
-    {
-      "name": "ARXIS CLASS A",
-      "ticker": "ARXS",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "location": "United States",
-      "company": "cusip:04339D105"
     },
     {
       "name": "V2X",
@@ -289,17 +289,9 @@
       "name": "BETA TECHNOLOGIES CLASS A",
       "ticker": "BETA",
       "asset_type": "Equity",
-      "weight": 0.0019,
-      "location": "United States",
-      "company": "cusip:086921103"
-    },
-    {
-      "name": "ARCHER AVIATION CLASS A",
-      "ticker": "ACHR",
-      "asset_type": "Equity",
       "weight": 0.0018,
       "location": "United States",
-      "company": "cusip:03945R102"
+      "company": "cusip:086921103"
     },
     {
       "name": "ASTRONICS",
@@ -310,12 +302,12 @@
       "company": "cusip:046433108"
     },
     {
-      "name": "FIREFLY AEROSPACE",
-      "ticker": "FLY",
+      "name": "ARCHER AVIATION CLASS A",
+      "ticker": "ACHR",
       "asset_type": "Equity",
-      "weight": 0.0015,
+      "weight": 0.0016,
       "location": "United States",
-      "company": "cusip:31816X106"
+      "company": "cusip:03945R102"
     },
     {
       "name": "DUCOMMUN",
@@ -326,12 +318,12 @@
       "company": "cusip:264147109"
     },
     {
-      "name": "INTUITIVE MACHINES INC CLASS A",
-      "ticker": "LUNR",
+      "name": "FIREFLY AEROSPACE",
+      "ticker": "FLY",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0015,
       "location": "United States",
-      "company": "cusip:46125A100"
+      "company": "cusip:31816X106"
     },
     {
       "name": "REDWIRE",
@@ -340,6 +332,14 @@
       "weight": 0.0013,
       "location": "United States",
       "company": "cusip:75776W103"
+    },
+    {
+      "name": "INTUITIVE MACHINES INC CLASS A",
+      "ticker": "LUNR",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "United States",
+      "company": "cusip:46125A100"
     },
     {
       "name": "VOYAGER TECHNOLOGIES CLASS A",
@@ -358,12 +358,12 @@
       "company": "cusip:12763L105"
     },
     {
-      "name": "SMITH WESSON BRANDS INC",
-      "ticker": "SWBI",
+      "name": "NATIONAL PRESTO INDUSTRIES INC",
+      "ticker": "NPK",
       "asset_type": "Equity",
       "weight": 0.0006,
       "location": "United States",
-      "company": "name:smith wesson brands@united states"
+      "company": "cusip:637215104"
     },
     {
       "name": "STURM RUGER",
@@ -374,12 +374,12 @@
       "company": "name:sturm ruger@united states"
     },
     {
-      "name": "NATIONAL PRESTO INDUSTRIES INC",
-      "ticker": "NPK",
+      "name": "SMITH WESSON BRANDS INC",
+      "ticker": "SWBI",
       "asset_type": "Equity",
-      "weight": 0.0005,
+      "weight": 0.0006,
       "location": "United States",
-      "company": "cusip:637215104"
+      "company": "name:smith wesson brands@united states"
     },
     {
       "name": "BLK CSH FND TREASURY SL AGENCY",
@@ -401,7 +401,7 @@
       "name": "RED CAT HOLDINGS INC",
       "ticker": "RCAT",
       "asset_type": "Equity",
-      "weight": 0.0003,
+      "weight": 0.0002,
       "location": "United States",
       "company": "cusip:75644T100"
     },
@@ -409,7 +409,7 @@
       "name": "VIRGIN GALACTIC HOLDINGS INC SHS C",
       "ticker": "SPCE",
       "asset_type": "Equity",
-      "weight": 0.0002,
+      "weight": 0.0001,
       "location": "United States",
       "company": "cusip:92766K403"
     },

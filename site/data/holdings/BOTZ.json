@@ -1,69 +1,10 @@
 {
   "ticker": "BOTZ",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:09:50.944945+00:00",
+  "fetched_at": "2026-11-19T22:51:26.970254+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/botz_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "CYBERDYNE INC",
-      "ticker": "7779 JP",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BK0S445",
-      "company": "name:cyberdyne"
-    },
-    {
-      "name": "RICHTECH ROBOTICS INC-CL B",
-      "ticker": "RR",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BNV0DF5",
-      "company": "cusip:765504105"
-    },
-    {
-      "name": "CHINESE YUAN RENMINBI",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0002,
-      "company": null
-    },
-    {
-      "name": "MINIEYE TECHNOLOGY CO LTD-H",
-      "ticker": "2431 HK",
-      "asset_type": "Equity",
-      "weight": 0.0002,
-      "sedol": "BMYRRN2",
-      "company": "name:minieye technology"
-    },
-    {
-      "name": "BRITISH STERLING POUND",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "HONG KONG DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "JAPANESE YEN",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0005,
-      "company": null
-    },
     {
       "name": "UNUSUAL MACHINES INC /US",
       "ticker": "UMAC",
@@ -175,6 +116,65 @@
       "weight": 0.0005,
       "sedol": "BJBYDW6",
       "company": "cusip:26853E102"
+    },
+    {
+      "name": "CYBERDYNE INC",
+      "ticker": "7779 JP",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BK0S445",
+      "company": "name:cyberdyne"
+    },
+    {
+      "name": "RICHTECH ROBOTICS INC-CL B",
+      "ticker": "RR",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BNV0DF5",
+      "company": "cusip:765504105"
+    },
+    {
+      "name": "CHINESE YUAN RENMINBI",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
+      "name": "MINIEYE TECHNOLOGY CO LTD-H",
+      "ticker": "2431 HK",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "sedol": "BMYRRN2",
+      "company": "name:minieye technology"
+    },
+    {
+      "name": "BRITISH STERLING POUND",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "JAPANESE YEN",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0005,
+      "company": null
     },
     {
       "name": "INTUITIVE SURGICAL INC",

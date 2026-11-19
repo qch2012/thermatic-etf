@@ -1,7 +1,7 @@
 {
   "ticker": "DISK",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:00.055078+00:00",
+  "fetched_at": "2026-11-19T22:51:35.233790+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv",
   "holdings": [
@@ -52,7 +52,7 @@
       "asset_type": "Equity",
       "weight": 0.058,
       "location": "South Korea",
-      "company": "name:samsung electronics@south korea"
+      "company": "cusip:Y74718100"
     },
     {
       "name": "SK SQUARE CO LTD",

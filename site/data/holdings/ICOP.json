@@ -1,7 +1,7 @@
 {
   "ticker": "ICOP",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-19T11:10:09.698334+00:00",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T22:51:42.334282+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/332280/ishares-copper-and-metals-mining-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "GRUPO MEXICO B",
       "ticker": "GMEXICOB",
       "asset_type": "Equity",
-      "weight": 0.0915,
+      "weight": 0.0905,
       "location": "Mexico",
       "company": "name:grupo mexico@mexico"
     },
@@ -17,7 +17,7 @@
       "name": "ANGLO AMERICAN PLC",
       "ticker": "AAL",
       "asset_type": "Equity",
-      "weight": 0.0892,
+      "weight": 0.0878,
       "location": "United Kingdom",
       "company": "name:anglo american@united kingdom"
     },
@@ -25,7 +25,7 @@
       "name": "BHP GROUP LTD",
       "ticker": "BHP",
       "asset_type": "Equity",
-      "weight": 0.0825,
+      "weight": 0.0875,
       "location": "Australia",
       "company": "name:bhp group@australia"
     },
@@ -33,7 +33,7 @@
       "name": "FREEPORT MCMORAN INC",
       "ticker": "FCX",
       "asset_type": "Equity",
-      "weight": 0.0795,
+      "weight": 0.0788,
       "location": "United States",
       "company": "name:freeport mcmoran@united states"
     },
@@ -41,7 +41,7 @@
       "name": "TECK RESOURCES SUBORDINATE VOTING",
       "ticker": "TECK.B",
       "asset_type": "Equity",
-      "weight": 0.0603,
+      "weight": 0.0601,
       "location": "Canada",
       "company": "name:teck resources subordinate voting@canada"
     },
@@ -57,7 +57,7 @@
       "name": "SOUTHERN COPPER CORP",
       "ticker": "SCCO",
       "asset_type": "Equity",
-      "weight": 0.0466,
+      "weight": 0.0467,
       "location": "Peru",
       "company": "name:southern copper@peru"
     },
@@ -65,7 +65,7 @@
       "name": "ANTOFAGASTA PLC",
       "ticker": "ANTO",
       "asset_type": "Equity",
-      "weight": 0.045,
+      "weight": 0.044,
       "location": "United Kingdom",
       "company": "name:antofagasta@united kingdom"
     },
@@ -73,7 +73,7 @@
       "name": "LUNDIN MINING",
       "ticker": "LUN",
       "asset_type": "Equity",
-      "weight": 0.0429,
+      "weight": 0.041,
       "location": "Canada",
       "company": "name:lundin mining@canada"
     },
@@ -81,7 +81,7 @@
       "name": "FIRST QUANTUM MINERALS",
       "ticker": "FM",
       "asset_type": "Equity",
-      "weight": 0.0401,
+      "weight": 0.0391,
       "location": "Canada",
       "company": "name:first quantum minerals@canada"
     },
@@ -89,31 +89,31 @@
       "name": "BARRICK MINING",
       "ticker": "ABX",
       "asset_type": "Equity",
-      "weight": 0.0329,
+      "weight": 0.033,
       "location": "Canada",
       "company": "name:barrick mining@canada"
-    },
-    {
-      "name": "GLENCORE PLC",
-      "ticker": "GLEN",
-      "asset_type": "Equity",
-      "weight": 0.032,
-      "location": "United Kingdom",
-      "company": "name:glencore@united kingdom"
     },
     {
       "name": "RIO TINTO ADR REPTG ONE",
       "ticker": "RIO",
       "asset_type": "Equity",
-      "weight": 0.032,
+      "weight": 0.0325,
       "location": "United Kingdom",
       "company": "name:rio tinto adr reptg one@united kingdom"
+    },
+    {
+      "name": "GLENCORE PLC",
+      "ticker": "GLEN",
+      "asset_type": "Equity",
+      "weight": 0.0319,
+      "location": "United Kingdom",
+      "company": "name:glencore@united kingdom"
     },
     {
       "name": "KGHM POLSKA MIEDZ SA",
       "ticker": "KGH",
       "asset_type": "Equity",
-      "weight": 0.0303,
+      "weight": 0.0301,
       "location": "Poland",
       "company": "name:kghm polska miedz@poland"
     },
@@ -121,7 +121,7 @@
       "name": "HUDBAY MINERALS",
       "ticker": "HBM",
       "asset_type": "Equity",
-      "weight": 0.0287,
+      "weight": 0.028,
       "location": "Canada",
       "company": "name:hudbay minerals@canada"
     },
@@ -129,7 +129,7 @@
       "name": "VALE ADR REPRESENTING ONE",
       "ticker": "VALE",
       "asset_type": "Equity",
-      "weight": 0.0221,
+      "weight": 0.0227,
       "location": "Brazil",
       "company": "name:vale adr representing one@brazil"
     },
@@ -137,7 +137,7 @@
       "name": "SANDFIRE RESOURCES",
       "ticker": "SFR",
       "asset_type": "Equity",
-      "weight": 0.0183,
+      "weight": 0.0193,
       "location": "Australia",
       "company": "name:sandfire resources@australia"
     },
@@ -145,7 +145,7 @@
       "name": "CHINA GOLD INTERNATIONAL RESOURCES",
       "ticker": "CGG",
       "asset_type": "Equity",
-      "weight": 0.0155,
+      "weight": 0.0154,
       "location": "China",
       "company": "name:china gold international resources@china"
     },
@@ -153,7 +153,7 @@
       "name": "CAPSTONE COPPER CORP",
       "ticker": "CS",
       "asset_type": "Equity",
-      "weight": 0.0146,
+      "weight": 0.0144,
       "location": "Canada",
       "company": "name:capstone copper@canada"
     },
@@ -161,7 +161,7 @@
       "name": "MMG LTD",
       "ticker": "1208",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.012,
       "location": "China",
       "company": "name:mmg@china"
     },
@@ -177,7 +177,7 @@
       "name": "AURA MINERALS INC",
       "ticker": "AUGO",
       "asset_type": "Equity",
-      "weight": 0.0097,
+      "weight": 0.0099,
       "location": "Brazil",
       "company": "name:aura minerals@brazil"
     },
@@ -185,7 +185,7 @@
       "name": "EVOLUTION MINING",
       "ticker": "EVN",
       "asset_type": "Equity",
-      "weight": 0.0093,
+      "weight": 0.0094,
       "location": "Australia",
       "company": "name:evolution mining@australia"
     },
@@ -193,31 +193,31 @@
       "name": "ERO COPPER",
       "ticker": "ERO",
       "asset_type": "Equity",
-      "weight": 0.0092,
+      "weight": 0.0087,
       "location": "Canada",
       "company": "name:ero copper@canada"
-    },
-    {
-      "name": "TREKOR METALS",
-      "ticker": "TKO",
-      "asset_type": "Equity",
-      "weight": 0.0074,
-      "location": "Canada",
-      "company": "name:trekor metals@canada"
     },
     {
       "name": "SOUTH32",
       "ticker": "S32",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.0075,
       "location": "Australia",
       "company": "name:south32@australia"
+    },
+    {
+      "name": "TREKOR METALS",
+      "ticker": "TKO",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "location": "Canada",
+      "company": "name:trekor metals@canada"
     },
     {
       "name": "CHINA NONFERROUS MINING CORPORATIO",
       "ticker": "1258",
       "asset_type": "Equity",
-      "weight": 0.006,
+      "weight": 0.0062,
       "location": "China",
       "company": "name:china nonferrous mining corporatio@china"
     },
@@ -230,26 +230,26 @@
       "company": "name:ngex minerals@canada"
     },
     {
-      "name": "ATALAYA MINING COPPER SA",
-      "ticker": "ATYM",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "location": "United Kingdom",
-      "company": "name:atalaya mining copper@united kingdom"
-    },
-    {
       "name": "TWO POINT ZERO GROUP",
       "ticker": "2POINTZERO",
       "asset_type": "Equity",
-      "weight": 0.0048,
+      "weight": 0.0051,
       "location": "United Arab Emirates",
       "company": "name:two point zero group@united arab emirates"
+    },
+    {
+      "name": "ATALAYA MINING COPPER SA",
+      "ticker": "ATYM",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "location": "United Kingdom",
+      "company": "name:atalaya mining copper@united kingdom"
     },
     {
       "name": "INDUST PENOLES",
       "ticker": "PE&OLES*",
       "asset_type": "Equity",
-      "weight": 0.0042,
+      "weight": 0.004,
       "location": "Mexico",
       "company": "name:indust penoles@mexico"
     },
@@ -257,7 +257,7 @@
       "name": "NITTETSU MINING LTD",
       "ticker": "1515",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0037,
       "location": "Japan",
       "company": "name:nittetsu mining@japan"
     },
@@ -273,7 +273,7 @@
       "name": "AMERIGO RESOURCES LTD",
       "ticker": "ARG",
       "asset_type": "Equity",
-      "weight": 0.0026,
+      "weight": 0.0024,
       "location": "Canada",
       "company": "name:amerigo resources@canada"
     },
@@ -281,7 +281,7 @@
       "name": "AL MASANE AL KOBRA MINING",
       "ticker": "1322",
       "asset_type": "Equity",
-      "weight": 0.0023,
+      "weight": 0.0024,
       "location": "Saudi Arabia",
       "company": "name:al masane al kobra mining@saudi arabia"
     },
@@ -297,9 +297,17 @@
       "name": "FIREFLY METALS LTD",
       "ticker": "FFM",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.0023,
       "location": "Australia",
       "company": "name:firefly metals@australia"
+    },
+    {
+      "name": "OSISKO METALS INC",
+      "ticker": "OM",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "location": "Canada",
+      "company": "name:osisko metals@canada"
     },
     {
       "name": "SOLARIS RESOURCES",
@@ -310,12 +318,12 @@
       "company": "name:solaris resources@canada"
     },
     {
-      "name": "OSISKO METALS INC",
-      "ticker": "OM",
+      "name": "JIANGXI COPPER LTD A",
+      "ticker": "600362",
       "asset_type": "Equity",
-      "weight": 0.0019,
-      "location": "Canada",
-      "company": "name:osisko metals@canada"
+      "weight": 0.002,
+      "location": "China",
+      "company": "name:jiangxi copper@china"
     },
     {
       "name": "FARADAY COPPER CORP",
@@ -324,14 +332,6 @@
       "weight": 0.0019,
       "location": "Canada",
       "company": "name:faraday copper@canada"
-    },
-    {
-      "name": "JIANGXI COPPER LTD A",
-      "ticker": "600362",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "location": "China",
-      "company": "name:jiangxi copper@china"
     },
     {
       "name": "WESTERN MINING LTD A",
@@ -345,7 +345,7 @@
       "name": "AMMAN MINERAL INTERNASIONAL",
       "ticker": "AMMN",
       "asset_type": "Equity",
-      "weight": 0.0017,
+      "weight": 0.0018,
       "location": "Indonesia",
       "company": "name:amman mineral internasional@indonesia"
     },
@@ -366,6 +366,14 @@
       "company": "name:imperial metals@canada"
     },
     {
+      "name": "LUMINA METALS CORP",
+      "ticker": "LMCU",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "Canada",
+      "company": "name:lumina metals@canada"
+    },
+    {
       "name": "MARIMACA COPPER",
       "ticker": "MARI",
       "asset_type": "Equity",
@@ -374,12 +382,12 @@
       "company": "name:marimaca copper@canada"
     },
     {
-      "name": "LUMINA METALS CORP",
-      "ticker": "LMCU",
+      "name": "NORTHERN DYNASTY MINERALS",
+      "ticker": "NDM",
       "asset_type": "Equity",
       "weight": 0.0011,
       "location": "Canada",
-      "company": "name:lumina metals@canada"
+      "company": "name:northern dynasty minerals@canada"
     },
     {
       "name": "CHINA MOLYBDENUM A",
@@ -390,28 +398,12 @@
       "company": "name:china molybdenum@china"
     },
     {
-      "name": "NORTHERN DYNASTY MINERALS",
-      "ticker": "NDM",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "location": "Canada",
-      "company": "name:northern dynasty minerals@canada"
-    },
-    {
       "name": "AERIS RESOURCES LTD",
       "ticker": "AIS",
       "asset_type": "Equity",
-      "weight": 0.001,
+      "weight": 0.0011,
       "location": "Australia",
       "company": "name:aeris resources@australia"
-    },
-    {
-      "name": "ATEX RESOURCES",
-      "ticker": "ATX",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "location": "Canada",
-      "company": "name:atex resources@canada"
     },
     {
       "name": "BAIYIN NONFERROUS GROUP LTD A",
@@ -422,14 +414,6 @@
       "company": "name:baiyin nonferrous group@china"
     },
     {
-      "name": "CENTRAL ASIA METALS PLC",
-      "ticker": "CAML",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "location": "United Kingdom",
-      "company": "name:central asia metals@united kingdom"
-    },
-    {
       "name": "ATLAS CONSOLIDATED MINING AND DEVE",
       "ticker": "AT",
       "asset_type": "Equity",
@@ -438,20 +422,36 @@
       "company": "name:atlas consolidated mining and deve@philippines"
     },
     {
-      "name": "WESTERN COPPER AND GOLD CORP",
-      "ticker": "WRN",
+      "name": "ATEX RESOURCES",
+      "ticker": "ATX",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.001,
       "location": "Canada",
-      "company": "name:western copper and gold@canada"
+      "company": "name:atex resources@canada"
     },
     {
       "name": "YUNNAN COPPER LTD A",
       "ticker": "000878",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.001,
       "location": "China",
       "company": "name:yunnan copper@china"
+    },
+    {
+      "name": "CENTRAL ASIA METALS PLC",
+      "ticker": "CAML",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "location": "United Kingdom",
+      "company": "name:central asia metals@united kingdom"
+    },
+    {
+      "name": "WESTERN COPPER AND GOLD CORP",
+      "ticker": "WRN",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "location": "Canada",
+      "company": "name:western copper and gold@canada"
     },
     {
       "name": "JCHX MINING MANAGEMENT LTD A",
@@ -465,7 +465,7 @@
       "name": "AIC MINES LTD",
       "ticker": "A1M",
       "asset_type": "Equity",
-      "weight": 0.0008,
+      "weight": 0.0009,
       "location": "Australia",
       "company": "name:aic mines@australia"
     },
@@ -473,7 +473,7 @@
       "name": "CHENGTUN MINING GROUP LTD A",
       "ticker": "600711",
       "asset_type": "Equity",
-      "weight": 0.0007,
+      "weight": 0.0008,
       "location": "China",
       "company": "name:chengtun mining group@china"
     },
@@ -505,7 +505,7 @@
       "name": "PENGXIN INTERNATIONAL MINING LTD A",
       "ticker": "600490",
       "asset_type": "Equity",
-      "weight": 0.0003,
+      "weight": 0.0004,
       "location": "China",
       "company": "name:pengxin international mining@china"
     },
@@ -526,25 +526,17 @@
       "company": "name:nexa resources@brazil"
     },
     {
-      "name": "VALIENTE RESOURCES",
-      "ticker": "VALX",
-      "asset_type": "Equity",
-      "weight": 0.0002,
-      "location": "Canada",
-      "company": "name:valiente resources@canada"
-    },
-    {
       "name": "GBP CASH",
       "ticker": "GBP",
       "asset_type": "Cash",
-      "weight": 0.0002,
+      "weight": 0.0003,
       "location": "United Kingdom",
       "company": null
     },
     {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
       "weight": 0.0002,
       "location": "United States",
       "company": null
@@ -566,19 +558,27 @@
       "company": null
     },
     {
+      "name": "VALIENTE RESOURCES",
+      "ticker": "VALX",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "location": "Canada",
+      "company": "name:valiente resources@canada"
+    },
+    {
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0002,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "IDR CASH",
       "ticker": "IDR",
       "asset_type": "Cash",
       "weight": 0.0001,
       "location": "Indonesia",
-      "company": null
-    },
-    {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "United States",
       "company": null
     },
     {
@@ -593,7 +593,7 @@
       "name": "PHP CASH",
       "ticker": "PHP",
       "asset_type": "Cash",
-      "weight": 0.0,
+      "weight": 0.0001,
       "location": "Philippines",
       "company": null
     },

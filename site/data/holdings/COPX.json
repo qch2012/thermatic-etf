@@ -1,7 +1,7 @@
 {
   "ticker": "COPX",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:09:58.028116+00:00",
+  "fetched_at": "2026-11-19T22:51:32.221257+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/copx_full-holdings_{date}.csv",
   "holdings": [
@@ -47,101 +47,6 @@
       "asset_type": "Cash",
       "weight": -0.0019,
       "company": null
-    },
-    {
-      "name": "AL MASANE AL KOBRA MINING CO",
-      "ticker": "AMAK AB",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "BNNVLT6",
-      "company": "name:al masane al kobra mining@saudi arabia"
-    },
-    {
-      "name": "FIREFLY METALS LTD",
-      "ticker": "FFM AU",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "sedol": "BPDXXB2",
-      "company": "name:firefly metals@australia"
-    },
-    {
-      "name": "IVANHOE ELECTRIC INC / US",
-      "ticker": "IE",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "sedol": "BPF0KH6",
-      "company": "name:ivanhoe electric inc us"
-    },
-    {
-      "name": "NITTETSU MINING CO LTD",
-      "ticker": "1515 JP",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "sedol": "6641027",
-      "company": "name:nittetsu mining@japan"
-    },
-    {
-      "name": "AMERIGO RESOURCES LTD",
-      "ticker": "ARG CN",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "2855822",
-      "company": "name:amerigo resources@canada"
-    },
-    {
-      "name": "COLLECTIVE MINING LTD",
-      "ticker": "CNL CN",
-      "asset_type": "Equity",
-      "weight": 0.0039,
-      "sedol": "BN79Z49",
-      "company": "name:collective mining"
-    },
-    {
-      "name": "DEVELOP GLOBAL LTD",
-      "ticker": "DVP AU",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "BNVQGB0",
-      "company": "name:develop global"
-    },
-    {
-      "name": "SOLARIS RESOURCES INC",
-      "ticker": "SLS CN",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "BMQ5701",
-      "company": "name:solaris resources@canada"
-    },
-    {
-      "name": "OSISKO METALS INC",
-      "ticker": "OM CN",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BYW9WY0",
-      "company": "name:osisko metals@canada"
-    },
-    {
-      "name": "NORTHERN DYNASTY MINERALS",
-      "ticker": "NDM CN",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "sedol": "2637848",
-      "company": "name:northern dynasty minerals@canada"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0021,
-      "company": null
-    },
-    {
-      "name": "FARADAY COPPER CORP",
-      "ticker": "FDY CN",
-      "asset_type": "Equity",
-      "weight": 0.0018,
-      "sedol": "BLNNJN8",
-      "company": "name:faraday copper@canada"
     },
     {
       "name": "BHP GROUP LTD",
@@ -374,6 +279,101 @@
       "weight": 0.0087,
       "sedol": "BYZTVM8",
       "company": "name:atalaya mining copper@united kingdom"
+    },
+    {
+      "name": "AL MASANE AL KOBRA MINING CO",
+      "ticker": "AMAK AB",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "BNNVLT6",
+      "company": "name:al masane al kobra mining@saudi arabia"
+    },
+    {
+      "name": "FIREFLY METALS LTD",
+      "ticker": "FFM AU",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "sedol": "BPDXXB2",
+      "company": "name:firefly metals@australia"
+    },
+    {
+      "name": "IVANHOE ELECTRIC INC / US",
+      "ticker": "IE",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "sedol": "BPF0KH6",
+      "company": "name:ivanhoe electric inc us"
+    },
+    {
+      "name": "NITTETSU MINING CO LTD",
+      "ticker": "1515 JP",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "6641027",
+      "company": "name:nittetsu mining@japan"
+    },
+    {
+      "name": "AMERIGO RESOURCES LTD",
+      "ticker": "ARG CN",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "2855822",
+      "company": "name:amerigo resources@canada"
+    },
+    {
+      "name": "COLLECTIVE MINING LTD",
+      "ticker": "CNL CN",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "sedol": "BN79Z49",
+      "company": "name:collective mining"
+    },
+    {
+      "name": "DEVELOP GLOBAL LTD",
+      "ticker": "DVP AU",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "BNVQGB0",
+      "company": "name:develop global"
+    },
+    {
+      "name": "SOLARIS RESOURCES INC",
+      "ticker": "SLS CN",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "BMQ5701",
+      "company": "name:solaris resources@canada"
+    },
+    {
+      "name": "OSISKO METALS INC",
+      "ticker": "OM CN",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BYW9WY0",
+      "company": "name:osisko metals@canada"
+    },
+    {
+      "name": "NORTHERN DYNASTY MINERALS",
+      "ticker": "NDM CN",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "sedol": "2637848",
+      "company": "name:northern dynasty minerals@canada"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0021,
+      "company": null
+    },
+    {
+      "name": "FARADAY COPPER CORP",
+      "ticker": "FDY CN",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "sedol": "BLNNJN8",
+      "company": "name:faraday copper@canada"
     }
   ]
 }

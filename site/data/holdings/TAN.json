@@ -1,7 +1,7 @@
 {
   "ticker": "TAN",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-19T11:10:28.836378+00:00",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T22:51:58.542810+00:00",
   "stale": false,
   "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138G706/holdings/fund?idType=cusip&productType=ETF",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Nextpower Inc",
       "ticker": "NXT",
       "asset_type": "Equity",
-      "weight": 0.11637311,
+      "weight": 0.11754705,
       "cusip": "65290E101",
       "company": "cusip:65290E101"
     },
@@ -17,7 +17,7 @@
       "name": "First Solar Inc",
       "ticker": "FSLR",
       "asset_type": "Equity",
-      "weight": 0.08994678,
+      "weight": 0.08975226,
       "cusip": "336433107",
       "company": "cusip:336433107"
     },
@@ -25,7 +25,7 @@
       "name": "Enlight Renewable Energy Ltd",
       "ticker": "ENLT",
       "asset_type": "Equity",
-      "weight": 0.08720621,
+      "weight": 0.08691453,
       "cusip": "M4056D110",
       "company": "cusip:M4056D110"
     },
@@ -33,7 +33,7 @@
       "name": "HA Sustainable Infrastructure Capital Inc",
       "ticker": "HASI",
       "asset_type": "Equity",
-      "weight": 0.05826777,
+      "weight": 0.05955902,
       "cusip": "41068X100",
       "company": "cusip:41068X100"
     },
@@ -41,7 +41,7 @@
       "name": "Enphase Energy Inc",
       "ticker": "ENPH",
       "asset_type": "Equity",
-      "weight": 0.05740714,
+      "weight": 0.05703129,
       "cusip": "29355A107",
       "company": "cusip:29355A107"
     },
@@ -49,7 +49,7 @@
       "name": "Doral Group Renewable Energy Resources Ltd",
       "ticker": "DORL",
       "asset_type": "Equity",
-      "weight": 0.05138514,
+      "weight": 0.04954005,
       "cusip": "M2841E104",
       "company": "cusip:M2841E104"
     },
@@ -57,7 +57,7 @@
       "name": "Clearway Energy Inc",
       "ticker": "CWEN",
       "asset_type": "Equity",
-      "weight": 0.0462605,
+      "weight": 0.04781449,
       "cusip": "18539C204",
       "company": "cusip:18539C204"
     },
@@ -65,7 +65,7 @@
       "name": "Sunrun Inc",
       "ticker": "RUN",
       "asset_type": "Equity",
-      "weight": 0.04298387,
+      "weight": 0.04097946,
       "cusip": "86771W105",
       "company": "cusip:86771W105"
     },
@@ -73,7 +73,7 @@
       "name": "GCL Technology Holdings Ltd",
       "ticker": "3800",
       "asset_type": "Equity",
-      "weight": 0.04029726,
+      "weight": 0.04034556,
       "cusip": "G3774X108",
       "company": "cusip:G3774X108"
     },
@@ -81,15 +81,23 @@
       "name": "Solaria Energia y Medio Ambiente SA",
       "ticker": "SLR",
       "asset_type": "Equity",
-      "weight": 0.03444559,
+      "weight": 0.03447173,
       "cusip": "E8935P110",
       "company": "cusip:E8935P110"
+    },
+    {
+      "name": "Shoals Technologies Group Inc",
+      "ticker": "SHLS",
+      "asset_type": "Equity",
+      "weight": 0.0301685,
+      "cusip": "82489W107",
+      "company": "cusip:82489W107"
     },
     {
       "name": "Xinyi Solar Holdings Ltd",
       "ticker": "968",
       "asset_type": "Equity",
-      "weight": 0.03024229,
+      "weight": 0.0298824,
       "cusip": "G9829N102",
       "company": "cusip:G9829N102"
     },
@@ -97,63 +105,47 @@
       "name": "SolarEdge Technologies Inc",
       "ticker": "SEDG",
       "asset_type": "Equity",
-      "weight": 0.02960469,
+      "weight": 0.02895165,
       "cusip": "83417M104",
       "company": "cusip:83417M104"
-    },
-    {
-      "name": "Shoals Technologies Group Inc",
-      "ticker": "SHLS",
-      "asset_type": "Equity",
-      "weight": 0.02934045,
-      "cusip": "82489W107",
-      "company": "cusip:82489W107"
     },
     {
       "name": "OY Nofar Energy Ltd",
       "ticker": "NOFR",
       "asset_type": "Equity",
-      "weight": 0.02465499,
+      "weight": 0.02346273,
       "cusip": "M7622L102",
       "company": "cusip:M7622L102"
-    },
-    {
-      "name": "Energix-Renewable Energies Ltd",
-      "ticker": "ENRG",
-      "asset_type": "Equity",
-      "weight": 0.02164278,
-      "cusip": "M4047G115",
-      "company": "cusip:M4047G115"
     },
     {
       "name": "United Renewable Energy Co Ltd/Taiwan",
       "ticker": "3576",
       "asset_type": "Equity",
-      "weight": 0.02139559,
+      "weight": 0.02178792,
       "cusip": "Y6247H139",
       "company": "cusip:Y6247H139"
+    },
+    {
+      "name": "Energix-Renewable Energies Ltd",
+      "ticker": "ENRG",
+      "asset_type": "Equity",
+      "weight": 0.02122819,
+      "cusip": "M4047G115",
+      "company": "cusip:M4047G115"
     },
     {
       "name": "SMA Solar Technology AG",
       "ticker": "S92",
       "asset_type": "Equity",
-      "weight": 0.02131392,
+      "weight": 0.02084022,
       "cusip": "D7008K108",
       "company": "cusip:D7008K108"
-    },
-    {
-      "name": "Grenergy Renovables SA",
-      "ticker": "GRE",
-      "asset_type": "Equity",
-      "weight": 0.01854346,
-      "cusip": "E5R20V102",
-      "company": "cusip:E5R20V102"
     },
     {
       "name": "Array Technologies Inc",
       "ticker": "ARRY",
       "asset_type": "Equity",
-      "weight": 0.01824889,
+      "weight": 0.01867118,
       "cusip": "04271T100",
       "company": "cusip:04271T100"
     },
@@ -161,63 +153,71 @@
       "name": "Scatec ASA",
       "ticker": "SCATC",
       "asset_type": "Equity",
-      "weight": 0.01788551,
+      "weight": 0.01765111,
       "cusip": "R7562P100",
       "company": "cusip:R7562P100"
+    },
+    {
+      "name": "Grenergy Renovables SA",
+      "ticker": "GRE",
+      "asset_type": "Equity",
+      "weight": 0.01746515,
+      "cusip": "E5R20V102",
+      "company": "cusip:E5R20V102"
     },
     {
       "name": "Daqo New Energy Corp",
       "ticker": "DQ",
       "asset_type": "Equity",
-      "weight": 0.0168573,
+      "weight": 0.01702452,
       "cusip": "23703Q203",
       "company": "cusip:23703Q203"
-    },
-    {
-      "name": "ReNew Energy Global PLC",
-      "ticker": "RNW",
-      "asset_type": "Equity",
-      "weight": 0.01511822,
-      "cusip": "G7500M104",
-      "company": "cusip:G7500M104"
     },
     {
       "name": "TSEC Corp",
       "ticker": "6443",
       "asset_type": "Equity",
-      "weight": 0.0143007,
+      "weight": 0.01594588,
       "cusip": "Y89777109",
       "company": "cusip:Y89777109"
+    },
+    {
+      "name": "ReNew Energy Global PLC",
+      "ticker": "RNW",
+      "asset_type": "Equity",
+      "weight": 0.01530635,
+      "cusip": "G7500M104",
+      "company": "cusip:G7500M104"
     },
     {
       "name": "Canadian Solar Inc",
       "ticker": "CSIQ",
       "asset_type": "Equity",
-      "weight": 0.01111559,
+      "weight": 0.01143212,
       "cusip": "136635109",
       "company": "cusip:136635109"
-    },
-    {
-      "name": "West Holdings Corp",
-      "ticker": "1407",
-      "asset_type": "Equity",
-      "weight": 0.01022368,
-      "cusip": "J9509G101",
-      "company": "cusip:J9509G101"
     },
     {
       "name": "Gigastorage Corp",
       "ticker": "2406",
       "asset_type": "Equity",
-      "weight": 0.01009844,
+      "weight": 0.01046497,
       "cusip": "Y2712P102",
       "company": "cusip:Y2712P102"
+    },
+    {
+      "name": "West Holdings Corp",
+      "ticker": "1407",
+      "asset_type": "Equity",
+      "weight": 0.01031651,
+      "cusip": "J9509G101",
+      "company": "cusip:J9509G101"
     },
     {
       "name": "Flat Glass Group Co Ltd",
       "ticker": "6865",
       "asset_type": "Equity",
-      "weight": 0.00958563,
+      "weight": 0.00954317,
       "cusip": "Y2575W103",
       "company": "cusip:Y2575W103"
     },
@@ -225,7 +225,7 @@
       "name": "Jinko Holdings Ltd",
       "ticker": "JKS",
       "asset_type": "Equity",
-      "weight": 0.00911908,
+      "weight": 0.0092193,
       "cusip": "47759T100",
       "company": "cusip:47759T100"
     },
@@ -233,7 +233,7 @@
       "name": "HD Hyundai Energy Solutions Co Ltd",
       "ticker": "322000",
       "asset_type": "Equity",
-      "weight": 0.00902849,
+      "weight": 0.00919219,
       "cusip": "Y3R1F3103",
       "company": "cusip:Y3R1F3103"
     },
@@ -241,7 +241,7 @@
       "name": "Motech Industries Inc",
       "ticker": "6244",
       "asset_type": "Equity",
-      "weight": 0.00861758,
+      "weight": 0.00861461,
       "cusip": "Y61397108",
       "company": "cusip:Y61397108"
     },
@@ -249,7 +249,7 @@
       "name": "Xinyi Energy Holdings Ltd",
       "ticker": "3868",
       "asset_type": "Equity",
-      "weight": 0.00810604,
+      "weight": 0.00809568,
       "cusip": "G9833A104",
       "company": "cusip:G9833A104"
     },
@@ -257,7 +257,7 @@
       "name": "T1 Energy Inc",
       "ticker": "TE",
       "asset_type": "Equity",
-      "weight": 0.00733958,
+      "weight": 0.00775498,
       "cusip": "35834F104",
       "company": "cusip:35834F104"
     },
@@ -265,7 +265,7 @@
       "name": "BCPG PCL",
       "ticker": "BCPG-R",
       "asset_type": "Equity",
-      "weight": 0.00521974,
+      "weight": 0.00524911,
       "cusip": "Y0760S119",
       "company": "cusip:Y0760S119"
     },
@@ -273,7 +273,7 @@
       "name": "CW Enerji Muhendislik Ticaret VE Sanayi AS",
       "ticker": "CWENE",
       "asset_type": "Equity",
-      "weight": 0.00436847,
+      "weight": 0.00433057,
       "cusip": "M2681T112",
       "company": "cusip:M2681T112"
     },
@@ -281,7 +281,7 @@
       "name": "Tess Holdings Co Ltd",
       "ticker": "5074",
       "asset_type": "Equity",
-      "weight": 0.00244122,
+      "weight": 0.00241987,
       "cusip": "J83207100",
       "company": "cusip:J83207100"
     },
@@ -289,14 +289,14 @@
       "name": "Invesco Government & Agency Portfolio",
       "ticker": "AGPXX",
       "asset_type": "Money Market Fund, Taxable",
-      "weight": 0.00098866,
+      "weight": 0.00099963,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "JPY",
       "asset_type": "Currency",
-      "weight": 7.279e-05,
+      "weight": 7.358e-05,
       "company": null
     },
     {
@@ -310,7 +310,7 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "KRW",
       "asset_type": "Currency",
-      "weight": 5.6e-07,
+      "weight": 5.7e-07,
       "company": null
     },
     {
@@ -331,28 +331,28 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "USD",
       "asset_type": "Currency",
-      "weight": -3.42e-06,
+      "weight": -3.46e-06,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "HKD",
       "asset_type": "Currency",
-      "weight": -5.48e-06,
+      "weight": -5.54e-06,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "ILS",
       "asset_type": "Currency",
-      "weight": -7.25e-06,
+      "weight": -7.28e-06,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "EUR",
       "asset_type": "Currency",
-      "weight": -3.24e-05,
+      "weight": -3.265e-05,
       "company": null
     },
     {

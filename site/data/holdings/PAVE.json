@@ -1,15 +1,15 @@
 {
   "ticker": "PAVE",
   "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:20.757320+00:00",
+  "fetched_at": "2026-11-19T22:51:51.638648+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/pave_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "OTHER PAYABLE & RECEIVABLES",
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0009,
+      "weight": -0.0001,
       "company": null
     },
     {
@@ -291,13 +291,6 @@
       "weight": 0.0083,
       "sedol": "2756174",
       "company": "name:rpm international"
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0001,
-      "company": null
     },
     {
       "name": "TRIMBLE INC",
@@ -802,6 +795,13 @@
       "weight": 0.0017,
       "sedol": "BT6CC17",
       "company": "cusip:52476L109"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0009,
+      "company": null
     }
   ]
 }
