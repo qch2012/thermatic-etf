@@ -44,23 +44,27 @@ function rescore() {
 }
 
 const COLUMNS = [
-  { label: 'Rank', value: rankOf, cell: f => rankOf(f) ?? '—' },
-  { label: 'Ticker', value: f => f.ticker, cell: tickerCell },
-  { label: 'Name', value: f => f.name, cell: f => chartButton(f.name, fundChart(f)) },
-  { label: 'Launched', value: f => f.first_trade_date, cell: f => f.first_trade_date ?? '—' },
-  { label: 'Net assets', value: f => f.net_assets, cell: f => `${money(f.net_assets)}${f.assets_source !== 'Yahoo totalAssets' ? '*' : ''} · ${f.assets_as_of}`, title: f => `Source: ${f.assets_source}` },
-  { label: 'Fee', value: f => f.expense_ratio, cell: f => percent(f.expense_ratio) },
-  { label: 'Window', value: f => windowOf(f)?.start, cell: f => windowOf(f) ? `${windowOf(f).start} to ${windowOf(f).end}` : '—' },
-  { label: 'Return', value: f => f.cumulative_return, cell: f => percent(f.cumulative_return) },
-  { label: 'Ratio', value: f => f.ratio, cell: f => number(f.ratio) },
-  { label: 'Avg daily $ volume', value: f => f.dollar_volume, cell: f => money(f.dollar_volume) },
-  { label: 'Top 3 holdings', value: null, cell: f => f.top_holdings?.map(h => `${h.name} ${percent(h.weight)}`).join(', ') || '—' },
-  { label: 'Score', value: scoreOf, cell: f => number(scoreOf(f), 1) },
+  { label: 'Rank', value: rankOf, cell: f => rankOf(f) ?? '—', cls: 'num' },
+  { label: 'Ticker', value: f => f.ticker, cell: tickerCell, cls: 'ticker' },
+  { label: 'Name', value: f => f.name, cell: f => chartButton(f.name, fundChart(f)), cls: 'name' },
+  { label: 'Launched', value: f => f.first_trade_date, cell: f => f.first_trade_date ?? '—', cls: 'nowrap' },
+  { label: 'Net assets', value: f => f.net_assets, cell: f => `${money(f.net_assets)}${f.assets_source !== 'Yahoo totalAssets' ? '*' : ''} · ${f.assets_as_of}`, title: f => `Source: ${f.assets_source}`, cls: 'nowrap' },
+  { label: 'Fee', value: f => f.expense_ratio, cell: f => percent(f.expense_ratio), cls: 'num' },
+  { label: 'Window', value: f => windowOf(f)?.start, cell: f => windowOf(f) ? `${windowOf(f).start} to ${windowOf(f).end}` : '—', cls: 'nowrap muted' },
+  { label: 'Return', value: f => f.cumulative_return, cell: f => percent(f.cumulative_return), cls: 'num' },
+  { label: 'Ratio', value: f => f.ratio, cell: f => number(f.ratio), cls: 'num' },
+  { label: 'Avg daily $ volume', value: f => f.dollar_volume, cell: f => money(f.dollar_volume), cls: 'num' },
+  { label: 'Top 3 holdings', value: null, cell: holdingsText, title: holdingsText, cls: 'holdings' },
+  { label: 'Score', value: scoreOf, cell: f => number(scoreOf(f), 1), cls: 'num score' },
   ...[['Rank vs 1 week', 'week', 7], ['Rank vs 1 month', 'month', 30]].map(([label, key, days]) => ({
     label, value: f => rankChange(f, view.history[key]), cell: f => changeText(rankChange(f, view.history[key])),
-    title: f => rankChangeTitle(f, view.history[key], days) })),
-  { label: 'Status / flags', value: f => f.status, cell: flags },
+    title: f => rankChangeTitle(f, view.history[key], days), cls: 'num' })),
+  { label: 'Status / flags', value: f => f.status, cell: flags, cls: 'flags' },
 ];
+
+function holdingsText(fund) {
+  return fund.top_holdings?.map(h => `${h.name} ${percent(h.weight)}`).join(', ') || '—';
+}
 
 function tickerCell(fund) {
   // Issuer page from config/issuer_links.json (via the pipeline); plain ticker when missing.
@@ -97,7 +101,7 @@ function sorted(funds) {
   });
 }
 
-function headingRow(body, text, className, chart) {
+function headingRow(body, text, className, chart, meta) {
   const row = document.createElement('tr');
   const cell = document.createElement('th');
   cell.colSpan = COLUMNS.length;
@@ -107,7 +111,8 @@ function headingRow(body, text, className, chart) {
   const inner = document.createElement('span');
   inner.className = 'stick';
   if (chart) inner.append(chartButton(text, chart));
-  else inner.textContent = text;
+  else inner.append(Object.assign(document.createElement('span'), { textContent: text }));
+  if (meta) inner.append(Object.assign(document.createElement('span'), { className: 'meta', textContent: meta }));
   cell.append(inner);
   row.append(cell);
   body.append(row);
@@ -121,6 +126,7 @@ function fundRow(body, fund) {
     if (typeof content === 'object') cell.append(content);
     else cell.textContent = content;
     if (column.title) cell.title = column.title(fund);
+    if (column.cls) cell.className = column.cls;
     row.append(cell);
   }
   body.append(row);
@@ -132,6 +138,7 @@ function renderHead() {
   COLUMNS.forEach((column, i) => {
     const th = document.createElement('th');
     th.scope = 'col';
+    if (column.cls) th.className = column.cls;
     if (!column.value) th.textContent = column.label;
     else {
       const button = document.createElement('button');
@@ -160,7 +167,7 @@ function render() {
     if (!members.length) continue;
     if (theme.group !== group) headingRow(body, group = theme.group, 'group');
     const window = theme.window ? `shared performance window ${theme.window.start} to ${theme.window.end} (${theme.window.observations} aligned observations)` : 'performance unmeasured';
-    headingRow(body, `${theme.group} — ${theme.theme}: ${window}; ${theme.eligible} eligible of ${theme.candidates}`, 'theme', theme.window && themeChart(theme));
+    headingRow(body, `${theme.group} — ${theme.theme}`, 'theme', theme.window && themeChart(theme), `: ${window}; ${theme.eligible} eligible of ${theme.candidates}`);
     members.forEach(f => fundRow(body, f));
   }
   // SPEC 5.6: listed separately with every candidate and its failed gate. Top view lists theme names only (Andy, 2026-10-17).

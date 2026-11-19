@@ -8,30 +8,46 @@
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
   <script src="status.js" defer></script>
+  <script src="tabs.js" defer></script>
 </head>
 <body>
-  <main>
-    <header class="top">
-      <h1>Thematic ETF screen</h1>
-      <nav aria-label="Page sections"><a href="#method">Method</a></nav>
-    </header>
-    <div id="data-status"></div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top">Thematic ETF screen</a>
+      <nav aria-label="Page sections">
+        <a href="#trend">Momentum</a>
+        <a href="#screen">Funds</a>
+        <a href="#moves">Changes</a>
+        <a href="#overlap">Overlap</a>
+        <a href="#method">Method</a>
+      </nav>
+    </div>
+  </header>
+  <main id="top">
+    <div id="data-status" class="status-line"></div>
     <p id="status" role="status">Loading screen…</p>
-    <p>Scores (0–100) rank funds within one theme only. They are not comparable across themes: a 70 in one theme and a 70 in another mean different things. Dollar volume is shown, not scored.</p>
-    <!-- Live weights (#5) -->
-    <section id="weights" aria-labelledby="weights-heading">
-      <h2 id="weights-heading">Live weights</h2>
-      <div class="sliders">
-        <label for="w-size">Size <input id="w-size" type="range" min="0" max="100" step="1"> <output id="w-size-out" for="w-size"></output></label>
-        <label for="w-cost">Cost <input id="w-cost" type="range" min="0" max="100" step="1"> <output id="w-cost-out" for="w-cost"></output></label>
-        <label for="w-performance">Performance <input id="w-performance" type="range" min="0" max="100" step="1"> <output id="w-performance-out" for="w-performance"></output></label>
-        <label for="top-n">Top N per theme <input id="top-n" type="range" min="1" max="10" step="1"> <output id="top-n-out" for="top-n"></output></label>
-        <button id="weights-reset" type="button">Reset to default</button>
+
+    <!-- Momentum board (SPEC 6.8) -->
+    <section id="trend" class="panel" aria-labelledby="trend-title">
+      <div class="section-head">
+        <h2 id="trend-title">Momentum</h2>
+        <p class="lede">Themes sorted by last month against the last 3 months. Click a tile for its funds.</p>
       </div>
-      <p id="weights-state" role="status"></p>
-      <p>Weights are normalized to 100%. Gates and performance windows stay as the pipeline computed them; only the score weights and the ranks they produce change here.</p>
+      <details class="how"><summary>How this works</summary><p>Each theme sorted by last month against the last 3 months. Why two periods: the 3-month move shows the trend, the 1-month move shows whether it is still going. Theme return = median of its eligible funds, so one outlier fund can't move the whole theme. Tile colour and number = last month's return (green up, red down, darker = bigger, full at 10%). Click a theme for all its funds over 1M / 3M / 6M / 1Y, with the top 3 by score highlighted. The defensive sectors row (utilities, staples, health care, real estate) is there to compare against: themes falling while these rise suggests investors are favouring safer sectors. For reading only: does not change scores or ranks.</p></details>
+      <div class="trend-layout">
+        <div id="trend-body"><p>Loading…</p></div>
+        <aside id="trend-detail" class="trend-side" aria-live="polite" aria-label="Fund details"><p class="note">Click a theme to see its funds here.</p></aside>
+      </div>
     </section>
-    <form class="controls" onsubmit="return false">
+    <script src="trend.js" defer></script>
+
+    <!-- Fund table (SPEC 6.1) and live weights (#5) -->
+    <section id="screen" class="panel" aria-labelledby="funds-title">
+      <div class="section-head">
+        <h2 id="funds-title">Funds</h2>
+        <p class="lede">Scores (0–100) rank funds within one theme only. They are not comparable across themes: a 70 in one theme and a 70 in another mean different things. Dollar volume is shown, not scored.</p>
+      </div>
+      <form class="controls" onsubmit="return false">
       <label>Show <select id="mode">
         <option value="top3">Top 3 per theme</option>
         <option value="eligible">All eligible</option>
@@ -43,21 +59,40 @@
       <label><input id="new-only" type="checkbox"> 🆕 only</label>
       <label><input id="hide-small" type="checkbox"> Hide under $50M</label>
     </form>
-    <div class="table-scroll" tabindex="0" role="region" aria-label="Fund table, scroll horizontally for more columns">
+      <details class="weights-panel">
+        <summary id="weights-heading">Scoring weights</summary>
+        <section id="weights" aria-labelledby="weights-heading">
+          <div class="sliders">
+        <label for="w-size">Size <input id="w-size" type="range" min="0" max="100" step="1"> <output id="w-size-out" for="w-size"></output></label>
+        <label for="w-cost">Cost <input id="w-cost" type="range" min="0" max="100" step="1"> <output id="w-cost-out" for="w-cost"></output></label>
+        <label for="w-performance">Performance <input id="w-performance" type="range" min="0" max="100" step="1"> <output id="w-performance-out" for="w-performance"></output></label>
+        <label for="top-n">Top N per theme <input id="top-n" type="range" min="1" max="10" step="1"> <output id="top-n-out" for="top-n"></output></label>
+        <button id="weights-reset" type="button">Reset to default</button>
+      </div>
+          <p id="weights-state" role="status"></p>
+          <p class="note">Weights are normalized to 100%. Gates and performance windows stay as the pipeline computed them; only the score weights and the ranks they produce change here.</p>
+        </section>
+      </details>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Fund table, scroll horizontally for more columns">
       <table>
         <caption>Funds by group and theme. Select a column heading to sort within each theme.</caption>
         <thead><tr id="head"></tr></thead>
         <tbody id="funds"></tbody>
       </table>
     </div>
-    <p>Select a fund name for its adjusted-close chart, or a theme heading to compare its measured funds.</p>
-    <p>* Net assets use a fallback source (hover for which). † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old. Stale: this run's fetch failed and the last good data is shown.</p>
-    <!-- Ranking history (#8) -->
-    <section id="moves" aria-labelledby="moves-heading">
-      <h2 id="moves-heading">Top 3 changes in the last 30 days</h2>
-      <div id="moves-body"><p>Loading ranking history…</p></div>
-      <p>Each daily run saves a snapshot of every fund's rank. "Rank vs 1 week" and "Rank vs 1 month" compare today's rank with the nearest snapshot on or before 7 or 30 days ago (▲ = moved up, = no change, — = no snapshot, or no rank then). If no snapshot is that old, this list uses the oldest one and says how far back it goes. Why: a run can be skipped or fall on a weekend, so the nearest earlier snapshot is the fairest comparison. Why daily-run weights: the live sliders exist only in your browser and history was saved with the default weights, so comparing the two would measure your sliders, not the funds.</p>
+      <p class="note">Select a fund name for its adjusted-close chart, or a theme heading to compare its measured funds. * Net assets use a fallback source (hover for which). † Performance is unmeasured and receives neutral credit. 🆕 Fund is under six months old. Stale: this run's fetch failed and the last good data is shown.</p>
     </section>
+
+    <!-- Ranking history (#8) -->
+    <section id="moves" class="panel" aria-labelledby="moves-heading">
+      <div class="section-head">
+        <h2 id="moves-heading">Top 3 changes in the last 30 days</h2>
+        <p class="lede">Funds that entered or left a theme's top 3.</p>
+      </div>
+      <details class="how"><summary>How this works</summary><p>Each daily run saves a snapshot of every fund's rank. "Rank vs 1 week" and "Rank vs 1 month" compare today's rank with the nearest snapshot on or before 7 or 30 days ago (▲ = moved up, = no change, — = no snapshot, or no rank then). If no snapshot is that old, this list uses the oldest one and says how far back it goes. Why: a run can be skipped or fall on a weekend, so the nearest earlier snapshot is the fairest comparison. Why daily-run weights: the live sliders exist only in your browser and history was saved with the default weights, so comparing the two would measure your sliders, not the funds.</p></details>
+      <div id="moves-body"><p>Loading ranking history…</p></div>
+    </section>
+
     <!-- Price charts (#6): sticks to the bottom of the window while the table is in view -->
     <section id="chart-panel" hidden aria-labelledby="chart-title">
       <div class="chart-head">
@@ -68,19 +103,13 @@
       <p id="chart-summary" role="status"></p>
     </section>
 
-    <!-- Trend heatmap (SPEC 6.8) -->
-    <section id="trend" aria-labelledby="trend-title">
-      <h2 id="trend-title">Trend</h2>
-      <p>Price return of each eligible fund over the last 1, 3, 6 and 12 months, counted from the last close on or before that date. Green = up, red = down, darker = bigger move. A fund that is green across the row has been rising on every horizon. "—" means the fund is younger than the period. Why the colour scales differ (10% for 1M up to 50% for 1Y): longer periods have bigger moves, so one scale would make every short period look pale. Trend is for reading only and does not change scores or ranks.</p>
-      <label>Theme <select id="trend-theme"></select></label>
-      <div id="trend-body" class="table-scroll" tabindex="0" role="region" aria-label="Trend heatmap"><p>Loading…</p></div>
-    </section>
-    <script src="trend.js" defer></script>
-
     <!-- Overlap (#9) -->
-    <section id="overlap" aria-labelledby="overlap-title">
-      <h2 id="overlap-title">Holdings overlap</h2>
-      <p>Overlap of two funds = the sum, over companies both hold, of the smaller of the two weights. It uses each issuer's full holdings file, because a top-10 list makes overlap look too low. Different listings of one company (for example a London share and its US ADR) count as the same company, because they are the same business. Cash and derivatives are left out. Funds without an issuer file show "full holdings unavailable".</p>
+    <section id="overlap" class="panel" aria-labelledby="overlap-title">
+      <div class="section-head">
+        <h2 id="overlap-title">Holdings overlap</h2>
+        <p class="lede">How much of two funds is the same companies. Highlighted: 30% or more.</p>
+      </div>
+      <details class="how"><summary>How this works</summary><p>Overlap of two funds = the sum, over companies both hold, of the smaller of the two weights. It uses each issuer's full holdings file, because a top-10 list makes overlap look too low. Different listings of one company (for example a London share and its US ADR) count as the same company, because they are the same business. Cash and derivatives are left out. Funds without an issuer file show "full holdings unavailable".</p></details>
       <label>Theme <select id="overlap-theme"></select></label>
       <div id="overlap-matrix" class="table-scroll" tabindex="0" role="region" aria-label="Overlap matrix"></div>
       <h3>Compare two funds</h3>
@@ -93,7 +122,7 @@
     <script src="overlap.js" defer></script>
 
     <!-- Method panel (#12): wording follows SPEC section 5; every rule has its reason beside it -->
-    <section id="method" aria-labelledby="method-heading">
+    <section id="method" class="panel method" aria-labelledby="method-heading">
       <h2 id="method-heading">Method</h2>
       <p>How a fund gets on this page, how it is measured, and how it is scored. Each rule is followed by the reason it exists.</p>
 
