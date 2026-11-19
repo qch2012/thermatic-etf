@@ -1,2 +1,11 @@
 # Every theme in themes.yaml is screened; screening rules remain in themes.yaml / SPEC §5.
 data_source: yahoo
+# Momentum chart benchmark (SPEC 6.8): its price file is published for comparison; never classified, gated or scored.
+benchmark: QQQ
+# Momentum board reference (SPEC 6.8): defensive sector funds shown next to the themes to compare momentum.
+# Never classified, gated or scored. Ticker: label.
+reference:
+  XLU: Utilities
+  XLP: Consumer staples
+  XLV: Health care
+  XLRE: Real estate

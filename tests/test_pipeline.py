@@ -12,7 +12,7 @@ import urllib.error
 
 import yaml
 
-from pipeline.__main__ import ROOT, run
+from pipeline.__main__ import ROOT, run, trend
 from pipeline.method import classify, gate, percentiles, score
 from pipeline.sources import create
 from pipeline.sources.directory import parse
@@ -173,6 +173,14 @@ class MethodTests(unittest.TestCase):
 
 
 class PipelineTests(unittest.TestCase):
+    def test_trend_returns(self):
+        prices = [{"date": d, "adjusted_close": c} for d, c in
+                  [("2025-01-01", 50), ("2025-12-01", 80), ("2026-03-01", 90), ("2026-03-02", 99), ("2026-04-01", 100)]]
+        # 1m: last close on or before 2026-03-02 is 99; 3m (2026-01-01): 80; 6m (2025-10-01) and 1y: 50.
+        self.assertEqual({k: round(v, 4) for k, v in trend(prices).items()}, {"1m": 0.0101, "3m": 0.25, "6m": 1.0, "1y": 1.0})
+        self.assertEqual(trend(prices[-2:])["3m"], None)  # too young
+
+
     def test_directory(self):
         self.assertEqual([f["ticker"] for f in parse(DIRECTORY)], ["AAA", "BBB", "CCC"])
         with self.assertRaises(ValueError):
@@ -223,7 +231,10 @@ class PipelineTests(unittest.TestCase):
     def test_price_files_data_as_of_and_weights(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)
-            result = run({"data_source": "stub"}, path / "screen.json", path / "cache", DIRECTORY)
+            result = run({"data_source": "stub", "reference": {"XLU": "Utilities"}, "benchmark": "QQQ"}, path / "screen.json", path / "cache", DIRECTORY)
+            self.assertEqual(result["benchmark"], "QQQ")
+            self.assertEqual([(r["ticker"], r["label"], set(r["trend"])) for r in result["reference"]],
+                             [("XLU", "Utilities", {"1m", "3m", "6m", "1y"})])
             # Stub prices run 2022-01-03 to Fri 2026-01-02; last 3 calendar years = 785 weekdays from 2023-01-02.
             self.assertEqual(result["data_as_of"], "2026-01-02")
             prices = json.loads((path / "prices/AAA.json").read_text())
@@ -232,7 +243,7 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual((prices["dates"][0], prices["dates"][-1], len(prices["dates"])), ("2023-01-02", "2026-01-02", 785))
             self.assertEqual(len(prices["adjusted_close"]), 785)
             self.assertEqual(prices["adjusted_close"][-1], Stub().history("AAA")["prices"][-1]["adjusted_close"])
-            self.assertEqual(sorted(p.name for p in (path / "prices").iterdir()), ["AAA.json", "BBB.json"])
+            self.assertEqual(sorted(p.name for p in (path / "prices").iterdir()), ["AAA.json", "BBB.json", "QQQ.json"])
             # Emitted weights reproduce method.py's scores from the emitted percentiles (live-weights contract).
             w = result["weights"]
             self.assertEqual(w, {"size": 0.4, "cost": 0.2, "performance": 0.4})

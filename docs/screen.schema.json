@@ -23,7 +23,13 @@
     "funds": {"type": "array", "items": {"$ref": "#/$defs/fund"}},
     "failed_fetches": {"type": "array", "items": {"type": "object", "required": ["ticker", "error"],
       "properties": {"ticker": {"type": "string"}, "error": {"type": "string"}}}},
-    "missing_issuer_links": {"type": "array", "items": {"type": "string"}}
+    "missing_issuer_links": {"type": "array", "items": {"type": "string"}},
+    "benchmark": {"type": ["string", "null"]},
+    "reference": {"type": "array", "items": {"type": "object", "required": ["ticker", "label", "trend"],
+      "properties": {"ticker": {"type": "string"}, "label": {"type": "string"},
+        "trend": {"type": "object", "required": ["1m", "3m", "6m", "1y"],
+          "properties": {"1m": {"$ref": "#/$defs/number_or_null"}, "3m": {"$ref": "#/$defs/number_or_null"},
+            "6m": {"$ref": "#/$defs/number_or_null"}, "1y": {"$ref": "#/$defs/number_or_null"}}}}}}
   },
   "$defs": {
     "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
@@ -54,6 +60,9 @@
         "ratio": {"$ref": "#/$defs/number_or_null"},
         "age": {"type": "number"},
         "dollar_volume": {"type": "number"},
+        "trend": {"type": "object", "required": ["1m", "3m", "6m", "1y"],
+          "properties": {"1m": {"$ref": "#/$defs/number_or_null"}, "3m": {"$ref": "#/$defs/number_or_null"},
+            "6m": {"$ref": "#/$defs/number_or_null"}, "1y": {"$ref": "#/$defs/number_or_null"}}},
         "percentiles": {"type": "object", "required": ["size", "cost", "performance"],
           "properties": {"size": {"type": "number"}, "cost": {"type": "number"}, "performance": {"type": "number"}}},
         "performance_unmeasured": {"type": "boolean"},

@@ -36,7 +36,7 @@ async function showStatus() {
     const response = await fetch('data/screen.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const { line, banner } = describe(await response.json(), new Date());
-    if (banner) mount(root, 'p', banner, 'alert').setAttribute('style', 'padding:.5rem .75rem;border:2px solid #8a5a00;background:#fff3cd;color:#3d2800;font-weight:bold');
+    if (banner) mount(root, 'p', banner, 'alert').className = 'banner';
     mount(root, 'p', line);
   } catch (error) {
     mount(root, 'p', `Stale data: cannot read the latest data (${error.message}).`, 'alert');
