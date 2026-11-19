@@ -231,7 +231,9 @@ class PipelineTests(unittest.TestCase):
     def test_price_files_data_as_of_and_weights(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)
-            result = run({"data_source": "stub"}, path / "screen.json", path / "cache", DIRECTORY)
+            result = run({"data_source": "stub", "reference": {"XLU": "Utilities"}}, path / "screen.json", path / "cache", DIRECTORY)
+            self.assertEqual([(r["ticker"], r["label"], set(r["trend"])) for r in result["reference"]],
+                             [("XLU", "Utilities", {"1m", "3m", "6m", "1y"})])
             # Stub prices run 2022-01-03 to Fri 2026-01-02; last 3 calendar years = 785 weekdays from 2023-01-02.
             self.assertEqual(result["data_as_of"], "2026-01-02")
             prices = json.loads((path / "prices/AAA.json").read_text())

@@ -157,7 +157,7 @@ All views read static JSON. No server code.
    - Load per-fund holdings files lazily (`site/data/holdings/<TICKER>.json`).
 6. **Status bar.** Data as-of date, last successful run, fund count, failed fetches, and a stale banner if data is older than 2 trading days. Link to a "Method" panel that renders section 5 in plain English.
 7. Responsive down to 390 px wide. Keyboard-accessible controls. No external CDNs, fonts or trackers. Add `noindex`.
-8. **Trend heatmap.** Eligible funds of one theme (theme picker), columns 1M / 3M / 6M / 1Y price return (last close vs the last close on or before 30 / 91 / 182 / 365 days earlier). Green for gains, red for losses, darker for bigger moves; empty when the fund is younger than the period. Display only: never scored.
+8. **Momentum board.** Each theme's return per period = median of its eligible funds' 1M / 3M / 6M / 1Y price return (last close vs the last close on or before 30 / 91 / 182 / 365 days earlier). Themes sit in four buckets by 1M vs 3M sign (zero counts as up): Rising (both up), Recovering (1M up, 3M down), Fading (1M down, 3M up), Falling (both down); themes with no 1M or 3M are listed as too new. Within a bucket, sorted by 1M, tiles coloured by 1M. Clicking a theme shows every fund in it (eligible first, by rank; top 3 by score highlighted; ineligible funds show no rank) with its four returns, green for gains, red for losses, darker for bigger moves, empty when the fund is younger than the period. A "Defensive sectors" row shows the reference funds in `config/settings.yaml` (XLU, XLP, XLV, XLRE) with their own 1M return and bucket, for comparison; they are never classified, gated or scored. Display only: never scored.
 
 ## 7. Daily refresh job (GitHub Actions)
 

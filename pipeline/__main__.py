@@ -137,6 +137,13 @@ def run(settings, output, cache_dir, directory_text=None):
             prices = [p for p in prices if p["date"] >= start]
             price_files[fund["ticker"]] = {"ticker": fund["ticker"], "dates": [p["date"] for p in prices],
                                            "adjusted_close": [p["adjusted_close"] for p in prices]}
+    reference = []  # SPEC 6.8: display only; a failed reference fund never blocks publishing
+    for ticker, label in settings.get("reference", {}).items():
+        try:
+            prices = [p for p in source.history(ticker)["prices"] if p["adjusted_close"] is not None]
+            reference.append({"ticker": ticker, "label": label, "trend": trend(prices)})
+        except Exception as error:
+            logging.warning("reference %s: %s", ticker, error)
     holdings_files = []  # written only after checks pass, like price files
     if source_name != "stub":  # synthetic screens get no real holdings; keeps stub runs offline
         try:
@@ -151,7 +158,8 @@ def run(settings, output, cache_dir, directory_text=None):
               "weights": WEIGHTS, "themes": summaries,
               "no_eligible_themes": no_eligible,
               "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
-              "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]]}
+              "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]],
+              "reference": reference}
     previous = json.loads(output.read_text()) if output.exists() else None
     errors, notes = check(result, previous)
     for note in notes:

@@ -18,6 +18,7 @@ Fractions are fractions (0.0035 = 0.35%), money is USD.
 | `funds` | array of Fund | Every classified fund (both theme lists), sorted by theme order (`themes` first, then `no_eligible_themes`), then rank (unranked last), then ticker. |
 | `failed_fetches` | array of `{ticker: string, error: string}` | Funds whose fetch failed this run. They use last good data (`stale: true`), or, with none, are published with `status: "No price data"` (see "Fund with no data"). |
 | `missing_issuer_links` | array of string | Tickers with no entry in `config/issuer_links.json`. |
+| `reference` | array of `{ticker, label, trend}` | Defensive sector funds from `config/settings.yaml` `reference`, for the momentum board only (SPEC 6.8). `trend` as on Fund. Never classified, gated or scored; a fund whose fetch fails is left out. Optional: older files lack it. |
 
 Theme order: groups in the fixed order Technology, Physical world, Social, Broad thematic (a pipeline choice; SPEC 5.6 does not order groups); inside a group, themes by `largest_net_assets` (descending), then name.
 
