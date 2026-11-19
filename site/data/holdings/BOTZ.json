@@ -1,0 +1,698 @@
+{
+  "ticker": "BOTZ",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:09:50.944945+00:00",
+  "stale": false,
+  "source": "https://assets.globalxetfs.com/funds/holdings/botz_full-holdings_{date}.csv",
+  "holdings": [
+    {
+      "name": "CYBERDYNE INC",
+      "ticker": "7779 JP",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BK0S445",
+      "company": "name:cyberdyne"
+    },
+    {
+      "name": "RICHTECH ROBOTICS INC-CL B",
+      "ticker": "RR",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BNV0DF5",
+      "company": "cusip:765504105"
+    },
+    {
+      "name": "CHINESE YUAN RENMINBI",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
+      "name": "MINIEYE TECHNOLOGY CO LTD-H",
+      "ticker": "2431 HK",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "sedol": "BMYRRN2",
+      "company": "name:minieye technology"
+    },
+    {
+      "name": "BRITISH STERLING POUND",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "JAPANESE YEN",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0005,
+      "company": null
+    },
+    {
+      "name": "UNUSUAL MACHINES INC /US",
+      "ticker": "UMAC",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BQXNTY4",
+      "company": "cusip:91532F102"
+    },
+    {
+      "name": "YUIL ROBOTICS CO LTD",
+      "ticker": "388720 KS",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BPJGTG2",
+      "company": "name:yuil robotics"
+    },
+    {
+      "name": "TINAVI MEDICAL TECHNOLOGIE-A",
+      "ticker": "688277 C1",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BNHPMQ8",
+      "company": "name:tinavi medical technologie"
+    },
+    {
+      "name": "YIJIAHE TECHNOLOGY CO LTD-A",
+      "ticker": "603666 C1",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BFYX634",
+      "company": "name:yijiahe technology"
+    },
+    {
+      "name": "GUANGDONG HUAYAN ROBOTICS -H",
+      "ticker": "1021 HK",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BTG0Q53",
+      "company": "name:guangdong huayan robotics"
+    },
+    {
+      "name": "ROBOSTAR CO LTD",
+      "ticker": "090360 KS",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "B5LTV29",
+      "company": "name:robostar"
+    },
+    {
+      "name": "ZHEJIANG GALAXIS TECHNOLO-H",
+      "ticker": "2729 HK",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "BVQYSG4",
+      "company": "name:zhejiang galaxis technolo"
+    },
+    {
+      "name": "NOVANTA INC",
+      "ticker": "NOVT",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "BD8S5H8",
+      "company": "cusip:67000B104"
+    },
+    {
+      "name": "THK CO LTD",
+      "ticker": "6481 JP",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "sedol": "6869131",
+      "company": "name:thk"
+    },
+    {
+      "name": "NEUROMEKA CO LTD",
+      "ticker": "348340 KS",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BMYY830",
+      "company": "name:neuromeka"
+    },
+    {
+      "name": "KODIAK AI INC",
+      "ticker": "KDK",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BVBFG46",
+      "company": "cusip:500081104"
+    },
+    {
+      "name": "SERVE ROBOTICS INC",
+      "ticker": "SERV",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BPBJW48",
+      "company": "cusip:81758H106"
+    },
+    {
+      "name": "ANGEL ROBOTICS CO LTD",
+      "ticker": "455900 KS",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BRC2TP0",
+      "company": "name:angel robotics"
+    },
+    {
+      "name": "EHANG HOLDINGS LTD-SPS ADR",
+      "ticker": "EH",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "sedol": "BJBYDW6",
+      "company": "cusip:26853E102"
+    },
+    {
+      "name": "INTUITIVE SURGICAL INC",
+      "ticker": "ISRG",
+      "asset_type": "Equity",
+      "weight": 0.1049,
+      "sedol": "2871301",
+      "company": "cusip:46120E602"
+    },
+    {
+      "name": "KEYENCE CORP",
+      "ticker": "6861 JP",
+      "asset_type": "Equity",
+      "weight": 0.0874,
+      "sedol": "6490995",
+      "company": "cusip:J32491102"
+    },
+    {
+      "name": "FANUC CORP",
+      "ticker": "6954 JP",
+      "asset_type": "Equity",
+      "weight": 0.0839,
+      "sedol": "6356934",
+      "company": "cusip:J13440102"
+    },
+    {
+      "name": "ABB LTD-REG",
+      "ticker": "ABBN SW",
+      "asset_type": "Equity",
+      "weight": 0.0784,
+      "sedol": "7108899",
+      "company": "cusip:H0010V101"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0623,
+      "sedol": "2379504",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "SMC CORP",
+      "ticker": "6273 JP",
+      "asset_type": "Equity",
+      "weight": 0.0459,
+      "sedol": "6763965",
+      "company": "name:smc"
+    },
+    {
+      "name": "DAIFUKU CO LTD",
+      "ticker": "6383 JP",
+      "asset_type": "Equity",
+      "weight": 0.0312,
+      "sedol": "6250025",
+      "company": "cusip:J08988107"
+    },
+    {
+      "name": "SHENZHEN INOVANCE TECHNOLO-A",
+      "ticker": "300124 C2",
+      "asset_type": "Equity",
+      "weight": 0.0306,
+      "sedol": "BD5CMN8",
+      "company": "name:shenzhen inovance technolo"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0249,
+      "sedol": "B616C79",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "COGNEX CORP",
+      "ticker": "CGNX",
+      "asset_type": "Equity",
+      "weight": 0.0246,
+      "sedol": "2208288",
+      "company": "cusip:192422103"
+    },
+    {
+      "name": "DEERE & CO",
+      "ticker": "DE",
+      "asset_type": "Equity",
+      "weight": 0.0214,
+      "sedol": "2261203",
+      "company": "cusip:244199105"
+    },
+    {
+      "name": "XIAOMI CORP-CLASS B",
+      "ticker": "1810 HK",
+      "asset_type": "Equity",
+      "weight": 0.0209,
+      "sedol": "BG0ZMJ9",
+      "company": "cusip:G9830T106"
+    },
+    {
+      "name": "AURORA INNOVATION INC",
+      "ticker": "AUR",
+      "asset_type": "Equity",
+      "weight": 0.0199,
+      "sedol": "BMF0P92",
+      "company": "cusip:051774107"
+    },
+    {
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0194,
+      "sedol": "BYVY8G0",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "HORIZON ROBOTICS INC",
+      "ticker": "9660 HK",
+      "asset_type": "Equity",
+      "weight": 0.0183,
+      "sedol": "BS5YNY7",
+      "company": "cusip:G4602S105"
+    },
+    {
+      "name": "OMRON CORP",
+      "ticker": "6645 JP",
+      "asset_type": "Equity",
+      "weight": 0.0179,
+      "sedol": "6659428",
+      "company": "cusip:J61374120"
+    },
+    {
+      "name": "RAINBOW ROBOTICS",
+      "ticker": "277810 KS",
+      "asset_type": "Equity",
+      "weight": 0.0178,
+      "sedol": "BM9Q3J2",
+      "company": "cusip:Y7S740108"
+    },
+    {
+      "name": "YASKAWA ELECTRIC CORP",
+      "ticker": "6506 JP",
+      "asset_type": "Equity",
+      "weight": 0.0174,
+      "sedol": "6986041",
+      "company": "cusip:J9690T102"
+    },
+    {
+      "name": "AUTOSTORE HOLDINGS LTD",
+      "ticker": "AUTO NO",
+      "asset_type": "Equity",
+      "weight": 0.016,
+      "sedol": "BN49G27",
+      "company": "cusip:G0670A109"
+    },
+    {
+      "name": "SYMBOTIC INC",
+      "ticker": "SYM",
+      "asset_type": "Equity",
+      "weight": 0.013,
+      "sedol": "BPG82M8",
+      "company": "cusip:87151X101"
+    },
+    {
+      "name": "ROCKWELL AUTOMATION INC",
+      "ticker": "ROK",
+      "asset_type": "Equity",
+      "weight": 0.0114,
+      "sedol": "2754060",
+      "company": "cusip:773903109"
+    },
+    {
+      "name": "UBTECH ROBOTICS CORP LTD-H",
+      "ticker": "9880 HK",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "sedol": "BR4VSK3",
+      "company": "cusip:Y901ER107"
+    },
+    {
+      "name": "LEADER HARMONIOUS DRIVE SY-A",
+      "ticker": "688017 C1",
+      "asset_type": "Equity",
+      "weight": 0.011,
+      "sedol": "BMGJQ17",
+      "company": "name:leader harmonious drive sy"
+    },
+    {
+      "name": "TECAN GROUP AG-REG",
+      "ticker": "TECN SW",
+      "asset_type": "Equity",
+      "weight": 0.0107,
+      "sedol": "7110902",
+      "company": "name:tecan group ag reg"
+    },
+    {
+      "name": "HIWIN TECHNOLOGIES CORP",
+      "ticker": "2049 TT",
+      "asset_type": "Equity",
+      "weight": 0.009,
+      "sedol": "B1YMYT5",
+      "company": "cusip:Y3226A102"
+    },
+    {
+      "name": "ROBOTECHNIK INTELLIGENT TE-A",
+      "ticker": "300757 C2",
+      "asset_type": "Equity",
+      "weight": 0.0089,
+      "sedol": "BNHPGJ9",
+      "company": "name:robotechnik intelligent te"
+    },
+    {
+      "name": "FUJI CORP/AICHI",
+      "ticker": "6134 JP",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "sedol": "6356592",
+      "company": "name:fuji corp aichi"
+    },
+    {
+      "name": "BEIJING ROBOROCK TECHNOLOG-A",
+      "ticker": "688169 C1",
+      "asset_type": "Equity",
+      "weight": 0.0084,
+      "sedol": "BNR4NT5",
+      "company": "name:beijing roborock technolog"
+    },
+    {
+      "name": "ROBOTIS CO LTD",
+      "ticker": "108490 KS",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "sedol": "BGR7CR6",
+      "company": "name:robotis"
+    },
+    {
+      "name": "HARMONIC DRIVE SYSTEMS INC",
+      "ticker": "6324 JP",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "6108179",
+      "company": "cusip:J1886F103"
+    },
+    {
+      "name": "DOOSAN ROBOTICS INC",
+      "ticker": "454910 KS",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "BN4P528",
+      "company": "name:doosan robotics"
+    },
+    {
+      "name": "EXAIL TECHNOLOGIES",
+      "ticker": "EXA FP",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "sedol": "B06BGH5",
+      "company": "cusip:F4606F100"
+    },
+    {
+      "name": "SHANGHAI MICROPORT MEDBOT-H",
+      "ticker": "2252 HK",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "BMX6SZ9",
+      "company": "name:shanghai microport medbot"
+    },
+    {
+      "name": "ECOVACS ROBOTICS CO LTD-A",
+      "ticker": "603486 C1",
+      "asset_type": "Equity",
+      "weight": 0.0064,
+      "sedol": "BDFWW61",
+      "company": "name:ecovacs robotics"
+    },
+    {
+      "name": "OUSTER INC",
+      "ticker": "OUST",
+      "asset_type": "Equity",
+      "weight": 0.0063,
+      "sedol": "BMHVMY7",
+      "company": "cusip:68989M202"
+    },
+    {
+      "name": "AVIC CHENGDU UAS CO LTD-A",
+      "ticker": "688297 C1",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "BNTXRV0",
+      "company": "name:avic chengdu uas"
+    },
+    {
+      "name": "ATS CORP",
+      "ticker": "ATS CN",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "sedol": "BP8JT73",
+      "company": "cusip:00217Y104"
+    },
+    {
+      "name": "HESAI GROUP",
+      "ticker": "HSAI",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "BMWS7Y8",
+      "company": "cusip:428050108"
+    },
+    {
+      "name": "BAIDU INC - SPON ADR",
+      "ticker": "BIDU",
+      "asset_type": "Equity",
+      "weight": 0.0049,
+      "sedol": "B0FXT17",
+      "company": "cusip:056752108"
+    },
+    {
+      "name": "ESTUN AUTOMATION CO LTD-A",
+      "ticker": "002747 C2",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "sedol": "BFCCQJ9",
+      "company": "name:estun automation"
+    },
+    {
+      "name": "OMNICELL INC",
+      "ticker": "OMCL",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "sedol": "2789523",
+      "company": "cusip:68213N109"
+    },
+    {
+      "name": "SIASUN ROBOT & AUTOMATION-A",
+      "ticker": "300024 C2",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "sedol": "BD5CNQ8",
+      "company": "name:siasun robot automation"
+    },
+    {
+      "name": "PROCEPT BIOROBOTICS CORP",
+      "ticker": "PRCT",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "BMYRFV6",
+      "company": "cusip:74276L105"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0042,
+      "company": null
+    },
+    {
+      "name": "ALLIENT INC",
+      "ticker": "ALNT",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "sedol": "2414717",
+      "company": "cusip:019330109"
+    },
+    {
+      "name": "PONY AI INC",
+      "ticker": "PONY",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "sedol": "BRWKBD6",
+      "company": "cusip:732908108"
+    },
+    {
+      "name": "SPG CO LTD",
+      "ticker": "058610 KS",
+      "asset_type": "Equity",
+      "weight": 0.0038,
+      "sedol": "6541945",
+      "company": "name:spg"
+    },
+    {
+      "name": "OPT MACHINE VISION TECH CO-A",
+      "ticker": "688686 C1",
+      "asset_type": "Equity",
+      "weight": 0.0038,
+      "sedol": "BNHPPC5",
+      "company": "name:opt machine vision tech"
+    },
+    {
+      "name": "NASDAQ 100 E-MINI DEC26",
+      "ticker": "NQZ6 Index",
+      "asset_type": "Other",
+      "weight": 0.0037,
+      "company": null
+    },
+    {
+      "name": "WERIDE INC-ADR",
+      "ticker": "WRD",
+      "asset_type": "Equity",
+      "weight": 0.0035,
+      "sedol": "BMYDW80",
+      "company": "cusip:950915108"
+    },
+    {
+      "name": "SHENZHEN EDGE MEDICAL CO -H",
+      "ticker": "2675 HK",
+      "asset_type": "Equity",
+      "weight": 0.0031,
+      "sedol": "BVK63N8",
+      "company": "name:shenzhen edge medical"
+    },
+    {
+      "name": "MIRLE AUTOMATION CORP",
+      "ticker": "2464 TT",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "sedol": "6140999",
+      "company": "cusip:Y6076J107"
+    },
+    {
+      "name": "ROBOSENSE TECHNOLOGY CO LTD",
+      "ticker": "2498 HK",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "sedol": "BNG5JM4",
+      "company": "name:robosense technology@china"
+    },
+    {
+      "name": "NINGBO ZHONGDA LEADER INTE-A",
+      "ticker": "002896 C2",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "BPDWS58",
+      "company": "name:ningbo zhongda leader inte"
+    },
+    {
+      "name": "MOOG INC-CLASS A",
+      "ticker": "MOG/A",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "2601218",
+      "company": "cusip:615394202"
+    },
+    {
+      "name": "BEIJING GEEKPLUS TECHNOLOG-H",
+      "ticker": "2590 HK",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "BV6L638",
+      "company": "name:beijing geekplus technolog"
+    },
+    {
+      "name": "SHENZHEN DOBOT CORP LTD-H",
+      "ticker": "2432 HK",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BTDQ4G1",
+      "company": "name:shenzhen dobot"
+    },
+    {
+      "name": "AEVEX CORP-CL A",
+      "ticker": "AVEX",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BVPKF40",
+      "company": "cusip:00835T107"
+    },
+    {
+      "name": "TERRA DRONE CORP",
+      "ticker": "278A JP",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "sedol": "BM9VKF2",
+      "company": "name:terra drone"
+    },
+    {
+      "name": "CIDI INC-H",
+      "ticker": "3881 HK",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "sedol": "BNBVJL6",
+      "company": "name:cidi"
+    },
+    {
+      "name": "XPENG INC - ADR",
+      "ticker": "XPEV",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "sedol": "BMXR2T4",
+      "company": "cusip:98422D105"
+    },
+    {
+      "name": "HIRATA CORP",
+      "ticker": "6258 JP",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "B1GZ9S6",
+      "company": "name:hirata"
+    },
+    {
+      "name": "KINCO AUTOMATION SHANGHAI-A",
+      "ticker": "688160 C1",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "BPDWRF1",
+      "company": "name:kinco automation shanghai"
+    },
+    {
+      "name": "TECHMAN ROBOT INC",
+      "ticker": "4585 TT",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "BP2DZD9",
+      "company": "name:techman robot"
+    },
+    {
+      "name": "EFORT INTELLIGENT ROBOT CO-A",
+      "ticker": "688165 C1",
+      "asset_type": "Equity",
+      "weight": 0.0017,
+      "sedol": "BPDWRG2",
+      "company": "name:efort intelligent robot"
+    }
+  ]
+}

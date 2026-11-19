@@ -1,0 +1,261 @@
+{
+  "ticker": "METV",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:16.393184+00:00",
+  "stale": false,
+  "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
+  "holdings": [
+    {
+      "name": "NAVER Corp",
+      "ticker": "035420 KS",
+      "asset_type": "Equity",
+      "weight": 0.028,
+      "sedol": "6560393",
+      "company": "cusip:Y62579100"
+    },
+    {
+      "name": "NC Corp",
+      "ticker": "036570 KS",
+      "asset_type": "Equity",
+      "weight": 0.0209,
+      "sedol": "6264189",
+      "company": "name:nc"
+    },
+    {
+      "name": "XD Inc",
+      "ticker": "2400 HK",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "sedol": "BKF2W48",
+      "company": "name:xd"
+    },
+    {
+      "name": "Netmarble Corp",
+      "ticker": "251270 KS",
+      "asset_type": "Equity",
+      "weight": 0.0216,
+      "sedol": "BF2S426",
+      "company": "name:netmarble"
+    },
+    {
+      "name": "Krafton Inc",
+      "ticker": "259960 KS",
+      "asset_type": "Equity",
+      "weight": 0.0473,
+      "sedol": "BMBP900",
+      "company": "name:krafton"
+    },
+    {
+      "name": "Pearl Abyss Corp",
+      "ticker": "263750 KS",
+      "asset_type": "Equity",
+      "weight": 0.0135,
+      "sedol": "BYX56S9",
+      "company": "name:pearl abyss"
+    },
+    {
+      "name": "Genius Electronic Optical Co Ltd",
+      "ticker": "3406 TT",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "B059SR4",
+      "company": "name:genius electronic optical"
+    },
+    {
+      "name": "Nexon Co Ltd",
+      "ticker": "3659 JP",
+      "asset_type": "Equity",
+      "weight": 0.0453,
+      "sedol": "B63QM77",
+      "company": "name:nexon"
+    },
+    {
+      "name": "Sony Group Corp",
+      "ticker": "6758 JP",
+      "asset_type": "Equity",
+      "weight": 0.0361,
+      "sedol": "6821506",
+      "company": "cusip:835699307"
+    },
+    {
+      "name": "Tencent Holdings Ltd",
+      "ticker": "700 HK",
+      "asset_type": "Equity",
+      "weight": 0.0362,
+      "sedol": "BMMV2K8",
+      "company": "cusip:G87572163"
+    },
+    {
+      "name": "Nintendo Co Ltd",
+      "ticker": "7974 JT",
+      "asset_type": "Equity",
+      "weight": 0.0446,
+      "sedol": "6639550",
+      "company": "name:nintendo"
+    },
+    {
+      "name": "Square Enix Holdings Co Ltd",
+      "ticker": "9684 JP",
+      "asset_type": "Equity",
+      "weight": 0.0192,
+      "sedol": "6309262",
+      "company": "name:square enix holdings"
+    },
+    {
+      "name": "Apple Inc",
+      "ticker": "AAPL",
+      "asset_type": "Equity",
+      "weight": 0.0635,
+      "cusip": "037833100",
+      "company": "cusip:037833100"
+    },
+    {
+      "name": "Autodesk Inc",
+      "ticker": "ADSK",
+      "asset_type": "Equity",
+      "weight": 0.0394,
+      "cusip": "052769106",
+      "company": "cusip:052769106"
+    },
+    {
+      "name": "Advanced Micro Devices Inc",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0255,
+      "cusip": "007903107",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "AppLovin Corp",
+      "ticker": "APP",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "cusip": "03831W108",
+      "company": "cusip:03831W108"
+    },
+    {
+      "name": "Coinbase Global Inc",
+      "ticker": "COIN",
+      "asset_type": "Equity",
+      "weight": 0.0276,
+      "cusip": "19260Q107",
+      "company": "cusip:19260Q107"
+    },
+    {
+      "name": "Circle Internet Group Inc",
+      "ticker": "CRCL",
+      "asset_type": "Equity",
+      "weight": 0.03,
+      "cusip": "172573107",
+      "company": "cusip:172573107"
+    },
+    {
+      "name": "EssilorLuxottica SA",
+      "ticker": "EL FP",
+      "asset_type": "Equity",
+      "weight": 0.01,
+      "sedol": "7212477",
+      "company": "name:essilorluxottica"
+    },
+    {
+      "name": "First American Government Obligations Fund 12/01/2031",
+      "ticker": "FGXXX",
+      "asset_type": "Money Market",
+      "weight": 0.0027,
+      "company": null
+    },
+    {
+      "name": "SOUTH KOREA WON",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Meta Platforms Inc",
+      "ticker": "META",
+      "asset_type": "Equity",
+      "weight": 0.0547,
+      "cusip": "30303M102",
+      "company": "cusip:30303M102"
+    },
+    {
+      "name": "Microsoft Corp",
+      "ticker": "MSFT",
+      "asset_type": "Equity",
+      "weight": 0.0522,
+      "cusip": "594918104",
+      "company": "cusip:594918104"
+    },
+    {
+      "name": "NETEASE INC",
+      "ticker": "NTES",
+      "asset_type": "Equity",
+      "weight": 0.0462,
+      "cusip": "64110W102",
+      "company": "cusip:64110W102"
+    },
+    {
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0362,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "ROBLOX Corp",
+      "ticker": "RBLX",
+      "asset_type": "Equity",
+      "weight": 0.0814,
+      "cusip": "771049103",
+      "company": "cusip:771049103"
+    },
+    {
+      "name": "Sea Ltd",
+      "ticker": "SE",
+      "asset_type": "Equity",
+      "weight": 0.0275,
+      "cusip": "81141R100",
+      "company": "cusip:81141R100"
+    },
+    {
+      "name": "Snap Inc",
+      "ticker": "SNAP",
+      "asset_type": "Equity",
+      "weight": 0.032,
+      "cusip": "83304A106",
+      "company": "cusip:83304A106"
+    },
+    {
+      "name": "Take-Two Interactive Software Inc",
+      "ticker": "TTWO",
+      "asset_type": "Equity",
+      "weight": 0.0756,
+      "cusip": "874054109",
+      "company": "cusip:874054109"
+    },
+    {
+      "name": "NEW TAIWAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Unity Software Inc",
+      "ticker": "U",
+      "asset_type": "Equity",
+      "weight": 0.0484,
+      "cusip": "91332U101",
+      "company": "cusip:91332U101"
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
+    }
+  ]
+}

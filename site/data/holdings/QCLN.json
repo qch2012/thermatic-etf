@@ -1,0 +1,480 @@
+{
+  "ticker": "QCLN",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:23.779738+00:00",
+  "stale": false,
+  "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=QCLN",
+  "holdings": [
+    {
+      "name": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.099,
+      "cusip": "88160R101",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "Monolithic Power Systems, Inc.",
+      "ticker": "MPWR",
+      "asset_type": "Equity",
+      "weight": 0.0982,
+      "cusip": "609839105",
+      "company": "cusip:609839105"
+    },
+    {
+      "name": "ON Semiconductor Corporation",
+      "ticker": "ON",
+      "asset_type": "Equity",
+      "weight": 0.0862,
+      "cusip": "682189105",
+      "company": "cusip:682189105"
+    },
+    {
+      "name": "Bloom Energy Corporation (Class A)",
+      "ticker": "BE",
+      "asset_type": "Equity",
+      "weight": 0.0787,
+      "cusip": "093712107",
+      "company": "cusip:093712107"
+    },
+    {
+      "name": "Rivian Automotive, Inc. (Class A)",
+      "ticker": "RIVN",
+      "asset_type": "Equity",
+      "weight": 0.0631,
+      "cusip": "76954A103",
+      "company": "cusip:76954A103"
+    },
+    {
+      "name": "Nextpower Inc. (Class A)",
+      "ticker": "NXT",
+      "asset_type": "Equity",
+      "weight": 0.0454,
+      "cusip": "65290E101",
+      "company": "cusip:65290E101"
+    },
+    {
+      "name": "Acuity Inc.",
+      "ticker": "AYI",
+      "asset_type": "Equity",
+      "weight": 0.0391,
+      "cusip": "00508Y102",
+      "company": "cusip:00508Y102"
+    },
+    {
+      "name": "Brookfield Renewable Partners LP",
+      "ticker": "BEP",
+      "asset_type": "Equity",
+      "weight": 0.0367,
+      "cusip": "G16258108",
+      "company": "cusip:G16258108"
+    },
+    {
+      "name": "Enlight Renewable Energy Ltd.",
+      "ticker": "ENLT",
+      "asset_type": "Equity",
+      "weight": 0.0363,
+      "cusip": "M4056D110",
+      "company": "cusip:M4056D110"
+    },
+    {
+      "name": "First Solar, Inc.",
+      "ticker": "FSLR",
+      "asset_type": "Equity",
+      "weight": 0.0355,
+      "cusip": "336433107",
+      "company": "cusip:336433107"
+    },
+    {
+      "name": "Advanced Energy Industries, Inc.",
+      "ticker": "AEIS",
+      "asset_type": "Equity",
+      "weight": 0.0345,
+      "cusip": "007973100",
+      "company": "cusip:007973100"
+    },
+    {
+      "name": "Albemarle Corporation",
+      "ticker": "ALB",
+      "asset_type": "Equity",
+      "weight": 0.0302,
+      "cusip": "012653101",
+      "company": "cusip:012653101"
+    },
+    {
+      "name": "MP Materials Corp.",
+      "ticker": "MP",
+      "asset_type": "Equity",
+      "weight": 0.0256,
+      "cusip": "553368101",
+      "company": "cusip:553368101"
+    },
+    {
+      "name": "Ormat Technologies, Inc.",
+      "ticker": "ORA",
+      "asset_type": "Equity",
+      "weight": 0.0225,
+      "cusip": "686688102",
+      "company": "cusip:686688102"
+    },
+    {
+      "name": "Allegro Microsystems, Inc.",
+      "ticker": "ALGM",
+      "asset_type": "Equity",
+      "weight": 0.0213,
+      "cusip": "01749D105",
+      "company": "cusip:01749D105"
+    },
+    {
+      "name": "Vicor Corporation",
+      "ticker": "VICR",
+      "asset_type": "Equity",
+      "weight": 0.02,
+      "cusip": "925815102",
+      "company": "cusip:925815102"
+    },
+    {
+      "name": "HA Sustainable Infrastructure Capital, Inc.",
+      "ticker": "HASI",
+      "asset_type": "Equity",
+      "weight": 0.0197,
+      "cusip": "41068X100",
+      "company": "cusip:41068X100"
+    },
+    {
+      "name": "EnerSys",
+      "ticker": "ENS",
+      "asset_type": "Equity",
+      "weight": 0.0196,
+      "cusip": "29275Y102",
+      "company": "cusip:29275Y102"
+    },
+    {
+      "name": "Itron, Inc.",
+      "ticker": "ITRI",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "cusip": "465741106",
+      "company": "cusip:465741106"
+    },
+    {
+      "name": "Clearway Energy, Inc. (Class C)",
+      "ticker": "CWEN",
+      "asset_type": "Equity",
+      "weight": 0.0155,
+      "cusip": "18539C204",
+      "company": "cusip:18539C204"
+    },
+    {
+      "name": "Universal Display Corporation",
+      "ticker": "OLED",
+      "asset_type": "Equity",
+      "weight": 0.0152,
+      "cusip": "91347P105",
+      "company": "cusip:91347P105"
+    },
+    {
+      "name": "SOLV Energy, Inc. (Class A)",
+      "ticker": "MWH",
+      "asset_type": "Equity",
+      "weight": 0.0135,
+      "cusip": "78475V103",
+      "company": "cusip:78475V103"
+    },
+    {
+      "name": "Enphase Energy, Inc.",
+      "ticker": "ENPH",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "cusip": "29355A107",
+      "company": "cusip:29355A107"
+    },
+    {
+      "name": "Power Integrations, Inc.",
+      "ticker": "POWI",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "cusip": "739276103",
+      "company": "cusip:739276103"
+    },
+    {
+      "name": "Sociedad Quimica y Minera de Chile S.A. (ADR)",
+      "ticker": "SQM",
+      "asset_type": "Equity",
+      "weight": 0.0093,
+      "cusip": "833635105",
+      "company": "cusip:833635105"
+    },
+    {
+      "name": "Navitas Semiconductor Corp. (Class A)",
+      "ticker": "NVTS",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "cusip": "63942X106",
+      "company": "cusip:63942X106"
+    },
+    {
+      "name": "Sunrun Inc.",
+      "ticker": "RUN",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "cusip": "86771W105",
+      "company": "cusip:86771W105"
+    },
+    {
+      "name": "Renew Energy Global Plc (Class A)",
+      "ticker": "RNW",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "cusip": "G7500M104",
+      "company": "cusip:G7500M104"
+    },
+    {
+      "name": "Plug Power Inc.",
+      "ticker": "PLUG",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "cusip": "72919P202",
+      "company": "cusip:72919P202"
+    },
+    {
+      "name": "SolarEdge Technologies, Inc.",
+      "ticker": "SEDG",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "cusip": "83417M104",
+      "company": "cusip:83417M104"
+    },
+    {
+      "name": "Shoals Technologies Group, Inc. (Class A)",
+      "ticker": "SHLS",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "cusip": "82489W107",
+      "company": "cusip:82489W107"
+    },
+    {
+      "name": "Wolfspeed, Inc.",
+      "ticker": "WOLF",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "cusip": "97785W106",
+      "company": "cusip:97785W106"
+    },
+    {
+      "name": "Lucid Group, Inc. (Class A)",
+      "ticker": "LCID",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "cusip": "549498202",
+      "company": "cusip:549498202"
+    },
+    {
+      "name": "Willdan Group, Inc.",
+      "ticker": "WLDN",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "cusip": "96924N100",
+      "company": "cusip:96924N100"
+    },
+    {
+      "name": "American Superconductor Corporation",
+      "ticker": "AMSC",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "cusip": "030111207",
+      "company": "cusip:030111207"
+    },
+    {
+      "name": "Amprius Technologies, Inc.",
+      "ticker": "AMPX",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "cusip": "03214Q108",
+      "company": "cusip:03214Q108"
+    },
+    {
+      "name": "Ameresco, Inc. (Class A)",
+      "ticker": "AMRC",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "cusip": "02361E108",
+      "company": "cusip:02361E108"
+    },
+    {
+      "name": "XPLR Infrastructure LP",
+      "ticker": "XIFR",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "cusip": "65341B106",
+      "company": "cusip:65341B106"
+    },
+    {
+      "name": "Array Technologies, Inc.",
+      "ticker": "ARRY",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "cusip": "04271T100",
+      "company": "cusip:04271T100"
+    },
+    {
+      "name": "Energy Vault Holdings, Inc.",
+      "ticker": "NRGV",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "cusip": "29280W109",
+      "company": "cusip:29280W109"
+    },
+    {
+      "name": "FuelCell Energy, Inc.",
+      "ticker": "FCEL",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "cusip": "35952H700",
+      "company": "cusip:35952H700"
+    },
+    {
+      "name": "Fluence Energy, Inc. (Class A)",
+      "ticker": "FLNC",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "cusip": "34379V103",
+      "company": "cusip:34379V103"
+    },
+    {
+      "name": "Eos Energy Enterprises, Inc.",
+      "ticker": "EOSE",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "cusip": "29415C101",
+      "company": "cusip:29415C101"
+    },
+    {
+      "name": "LSI Industries Inc.",
+      "ticker": "LYTS",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "cusip": "50216C108",
+      "company": "cusip:50216C108"
+    },
+    {
+      "name": "Sigma Lithium Corporation",
+      "ticker": "SGML",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "cusip": "826599102",
+      "company": "cusip:826599102"
+    },
+    {
+      "name": "Gevo, Inc.",
+      "ticker": "GEVO",
+      "asset_type": "Equity",
+      "weight": 0.0017,
+      "cusip": "374396406",
+      "company": "cusip:374396406"
+    },
+    {
+      "name": "Aspen Aerogels, Inc.",
+      "ticker": "ASPN",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "cusip": "04523Y105",
+      "company": "cusip:04523Y105"
+    },
+    {
+      "name": "T1 Energy Inc.",
+      "ticker": "TE",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "cusip": "35834F104",
+      "company": "cusip:35834F104"
+    },
+    {
+      "name": "Ballard Power Systems Inc.",
+      "ticker": "BLDP",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "cusip": "058586108",
+      "company": "cusip:058586108"
+    },
+    {
+      "name": "Clean Energy Fuels Corp.",
+      "ticker": "CLNE",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "cusip": "184499101",
+      "company": "cusip:184499101"
+    },
+    {
+      "name": "Enovix Corporation",
+      "ticker": "ENVX",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "cusip": "293594107",
+      "company": "cusip:293594107"
+    },
+    {
+      "name": "US Dollar",
+      "ticker": "$USD",
+      "asset_type": "Cash",
+      "weight": 0.0011,
+      "company": null
+    },
+    {
+      "name": "EVgo Inc.",
+      "ticker": "EVGO",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "cusip": "30052F100",
+      "company": "cusip:30052F100"
+    },
+    {
+      "name": "Electrovaya Inc.",
+      "ticker": "ELVA",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "cusip": "28617B606",
+      "company": "cusip:28617B606"
+    },
+    {
+      "name": "Montauk Renewables, Inc.",
+      "ticker": "MNTK",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "cusip": "61218C103",
+      "company": "cusip:61218C103"
+    },
+    {
+      "name": "Polestar Automotive Holding UK Plc (Class A) (ADR)",
+      "ticker": "PSNY",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "cusip": "731105409",
+      "company": "cusip:731105409"
+    },
+    {
+      "name": "NeoVolta, Inc.",
+      "ticker": "NEOV",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "cusip": "640655106",
+      "company": "cusip:640655106"
+    },
+    {
+      "name": "Elevra Lithium Limited (ADR)",
+      "ticker": "ELVR",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "cusip": "805700101",
+      "company": "cusip:805700101"
+    },
+    {
+      "name": "Enovix Corp",
+      "ticker": "ENVXW",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "cusip": "293594149",
+      "company": "cusip:293594107"
+    }
+  ]
+}

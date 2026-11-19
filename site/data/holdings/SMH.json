@@ -1,0 +1,198 @@
+{
+  "ticker": "SMH",
+  "as_of": "2026-11-17",
+  "fetched_at": "2026-11-19T11:10:27.215150+00:00",
+  "stale": false,
+  "source": "https://www.vaneck.com/us/en/etf/equity/smh/holdings/download/xlsx/",
+  "holdings": [
+    {
+      "name": "Nvidia Corp",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.1742,
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Co L",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0963,
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "Broadcom Inc",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0669,
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "Texas Instruments Inc",
+      "ticker": "TXN",
+      "asset_type": "Equity",
+      "weight": 0.0637,
+      "company": "cusip:882508104"
+    },
+    {
+      "name": "Advanced Micro Devices Inc",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0605,
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "Analog Devices Inc",
+      "ticker": "ADI",
+      "asset_type": "Equity",
+      "weight": 0.0518,
+      "company": "cusip:032654105"
+    },
+    {
+      "name": "Asml Holding Nv",
+      "ticker": "ASML",
+      "asset_type": "Equity",
+      "weight": 0.0451,
+      "company": "cusip:N07059202"
+    },
+    {
+      "name": "Qualcomm Inc",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0446,
+      "company": "cusip:747525103"
+    },
+    {
+      "name": "Kla Corp",
+      "ticker": "KLAC",
+      "asset_type": "Equity",
+      "weight": 0.0445,
+      "company": "cusip:482480100"
+    },
+    {
+      "name": "Micron Technology Inc",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0434,
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "Applied Materials Inc",
+      "ticker": "AMAT",
+      "asset_type": "Equity",
+      "weight": 0.042,
+      "company": "cusip:038222105"
+    },
+    {
+      "name": "Sk Hynix Inc",
+      "ticker": "SKHY",
+      "asset_type": "Equity",
+      "weight": 0.0387,
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "Lam Research Corp",
+      "ticker": "LRCX",
+      "asset_type": "Equity",
+      "weight": 0.0376,
+      "company": "cusip:512807306"
+    },
+    {
+      "name": "Marvell Technology Inc",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0333,
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "Intel Corp",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0293,
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "Cadence Design Systems Inc",
+      "ticker": "CDNS",
+      "asset_type": "Equity",
+      "weight": 0.0236,
+      "company": "cusip:127387108"
+    },
+    {
+      "name": "Synopsys Inc",
+      "ticker": "SNPS",
+      "asset_type": "Equity",
+      "weight": 0.0236,
+      "company": "cusip:871607107"
+    },
+    {
+      "name": "Monolithic Power Systems Inc",
+      "ticker": "MPWR",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "company": "cusip:609839105"
+    },
+    {
+      "name": "Nxp Semiconductors Nv",
+      "ticker": "NXPI",
+      "asset_type": "Equity",
+      "weight": 0.0143,
+      "company": "cusip:N6596X109"
+    },
+    {
+      "name": "Stmicroelectronics Nv",
+      "ticker": "STM",
+      "asset_type": "Equity",
+      "weight": 0.01,
+      "company": "cusip:861012102"
+    },
+    {
+      "name": "Teradyne Inc",
+      "ticker": "TER",
+      "asset_type": "Equity",
+      "weight": 0.0097,
+      "company": "cusip:880770102"
+    },
+    {
+      "name": "Arm Holdings Plc",
+      "ticker": "ARM",
+      "asset_type": "Equity",
+      "weight": 0.0094,
+      "company": "cusip:042068205"
+    },
+    {
+      "name": "Astera Labs Inc",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "Microchip Technology Inc",
+      "ticker": "MCHP",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "company": "cusip:595017104"
+    },
+    {
+      "name": "On Semiconductor Corp",
+      "ticker": "ON",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "company": "cusip:682189105"
+    },
+    {
+      "name": "USD CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
+    },
+    {
+      "name": "Other/Cash",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0001,
+      "company": null
+    }
+  ]
+}

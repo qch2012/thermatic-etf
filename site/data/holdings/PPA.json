@@ -1,0 +1,586 @@
+{
+  "ticker": "PPA",
+  "as_of": "2026-11-17",
+  "fetched_at": "2026-11-19T11:10:22.904515+00:00",
+  "stale": false,
+  "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V100/holdings/fund?idType=cusip&productType=ETF",
+  "holdings": [
+    {
+      "name": "RTX Corp",
+      "ticker": "RTX",
+      "asset_type": "Equity",
+      "weight": 0.09615225,
+      "cusip": "75513E101",
+      "company": "cusip:75513E101"
+    },
+    {
+      "name": "General Electric Co",
+      "ticker": "GE",
+      "asset_type": "Equity",
+      "weight": 0.09483418,
+      "cusip": "369604301",
+      "company": "cusip:369604301"
+    },
+    {
+      "name": "Lockheed Martin Corp",
+      "ticker": "LMT",
+      "asset_type": "Equity",
+      "weight": 0.09271766,
+      "cusip": "539830109",
+      "company": "cusip:539830109"
+    },
+    {
+      "name": "Boeing Co/The",
+      "ticker": "BA",
+      "asset_type": "Equity",
+      "weight": 0.07688851,
+      "cusip": "097023105",
+      "company": "cusip:097023105"
+    },
+    {
+      "name": "General Dynamics Corp",
+      "ticker": "GD",
+      "asset_type": "Equity",
+      "weight": 0.05569099,
+      "cusip": "369550108",
+      "company": "cusip:369550108"
+    },
+    {
+      "name": "Northrop Grumman Corp",
+      "ticker": "NOC",
+      "asset_type": "Equity",
+      "weight": 0.0539001,
+      "cusip": "666807102",
+      "company": "cusip:666807102"
+    },
+    {
+      "name": "L3Harris Technologies Inc",
+      "ticker": "LHX",
+      "asset_type": "Equity",
+      "weight": 0.0415023,
+      "cusip": "502431109",
+      "company": "cusip:502431109"
+    },
+    {
+      "name": "Honeywell Aerospace Inc",
+      "ticker": "HONA",
+      "asset_type": "Equity",
+      "weight": 0.03967269,
+      "cusip": "43849R105",
+      "company": "cusip:43849R105"
+    },
+    {
+      "name": "Howmet Aerospace Inc",
+      "ticker": "HWM",
+      "asset_type": "Equity",
+      "weight": 0.03940679,
+      "cusip": "443201108",
+      "company": "cusip:443201108"
+    },
+    {
+      "name": "TransDigm Group Inc",
+      "ticker": "TDG",
+      "asset_type": "Equity",
+      "weight": 0.03693604,
+      "cusip": "893641100",
+      "company": "cusip:893641100"
+    },
+    {
+      "name": "Parker-Hannifin Corp",
+      "ticker": "PH",
+      "asset_type": "Equity",
+      "weight": 0.03550308,
+      "cusip": "701094104",
+      "company": "cusip:701094104"
+    },
+    {
+      "name": "Elbit Systems Ltd",
+      "ticker": "ESLT",
+      "asset_type": "Equity",
+      "weight": 0.02825871,
+      "cusip": "M3760D101",
+      "company": "cusip:M3760D101"
+    },
+    {
+      "name": "Amphenol Corp",
+      "ticker": "APH",
+      "asset_type": "Equity",
+      "weight": 0.02133008,
+      "cusip": "032095101",
+      "company": "cusip:032095101"
+    },
+    {
+      "name": "Eaton Corp PLC",
+      "ticker": "ETN",
+      "asset_type": "Equity",
+      "weight": 0.01609961,
+      "cusip": "G29183103",
+      "company": "cusip:G29183103"
+    },
+    {
+      "name": "Axon Enterprise Inc",
+      "ticker": "AXON",
+      "asset_type": "Equity",
+      "weight": 0.01475973,
+      "cusip": "05464C101",
+      "company": "cusip:05464C101"
+    },
+    {
+      "name": "Palantir Technologies Inc",
+      "ticker": "PLTR",
+      "asset_type": "Equity",
+      "weight": 0.01398023,
+      "cusip": "69608A108",
+      "company": "cusip:69608A108"
+    },
+    {
+      "name": "ATI Inc",
+      "ticker": "ATI",
+      "asset_type": "Equity",
+      "weight": 0.0137332,
+      "cusip": "01741R102",
+      "company": "cusip:01741R102"
+    },
+    {
+      "name": "HEICO Corp",
+      "ticker": "HEI",
+      "asset_type": "Equity",
+      "weight": 0.01362898,
+      "cusip": "422806109",
+      "company": "cusip:422806109"
+    },
+    {
+      "name": "Curtiss-Wright Corp",
+      "ticker": "CW",
+      "asset_type": "Equity",
+      "weight": 0.01009111,
+      "cusip": "231561101",
+      "company": "cusip:231561101"
+    },
+    {
+      "name": "Huntington Ingalls Industries Inc",
+      "ticker": "HII",
+      "asset_type": "Equity",
+      "weight": 0.00990044,
+      "cusip": "446413106",
+      "company": "cusip:446413106"
+    },
+    {
+      "name": "Leidos Holdings Inc",
+      "ticker": "LDOS",
+      "asset_type": "Equity",
+      "weight": 0.0098892,
+      "cusip": "525327102",
+      "company": "cusip:525327102"
+    },
+    {
+      "name": "Woodward Inc",
+      "ticker": "WWD",
+      "asset_type": "Equity",
+      "weight": 0.00975793,
+      "cusip": "980745103",
+      "company": "cusip:980745103"
+    },
+    {
+      "name": "CACI International Inc",
+      "ticker": "CACI",
+      "asset_type": "Equity",
+      "weight": 0.00945568,
+      "cusip": "127190304",
+      "company": "cusip:127190304"
+    },
+    {
+      "name": "Textron Inc",
+      "ticker": "TXT",
+      "asset_type": "Equity",
+      "weight": 0.00920908,
+      "cusip": "883203101",
+      "company": "cusip:883203101"
+    },
+    {
+      "name": "Space Exploration Technologies Corp",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.00884632,
+      "cusip": "84615Q103",
+      "company": "cusip:84615Q103"
+    },
+    {
+      "name": "Rocket Lab Corp",
+      "ticker": "RKLB",
+      "asset_type": "Equity",
+      "weight": 0.00813975,
+      "cusip": "773121108",
+      "company": "cusip:773121108"
+    },
+    {
+      "name": "Carpenter Technology Corp",
+      "ticker": "CRS",
+      "asset_type": "Equity",
+      "weight": 0.00763804,
+      "cusip": "144285103",
+      "company": "cusip:144285103"
+    },
+    {
+      "name": "CAE Inc",
+      "ticker": "CAE",
+      "asset_type": "Equity",
+      "weight": 0.00735655,
+      "cusip": "124765108",
+      "company": "cusip:124765108"
+    },
+    {
+      "name": "StandardAero Inc",
+      "ticker": "SARO",
+      "asset_type": "Equity",
+      "weight": 0.00732993,
+      "cusip": "85423L103",
+      "company": "cusip:85423L103"
+    },
+    {
+      "name": "Teledyne Technologies Inc",
+      "ticker": "TDY",
+      "asset_type": "Equity",
+      "weight": 0.00710723,
+      "cusip": "879360105",
+      "company": "cusip:879360105"
+    },
+    {
+      "name": "Booz Allen Hamilton Holding Corp",
+      "ticker": "BAH",
+      "asset_type": "Equity",
+      "weight": 0.00682078,
+      "cusip": "099502106",
+      "company": "cusip:099502106"
+    },
+    {
+      "name": "Leonardo DRS Inc",
+      "ticker": "DRS",
+      "asset_type": "Equity",
+      "weight": 0.0067338,
+      "cusip": "52661A108",
+      "company": "cusip:52661A108"
+    },
+    {
+      "name": "Viasat Inc",
+      "ticker": "VSAT",
+      "asset_type": "Equity",
+      "weight": 0.00663176,
+      "cusip": "92552V100",
+      "company": "cusip:92552V100"
+    },
+    {
+      "name": "Moog Inc",
+      "ticker": "MOG/A",
+      "asset_type": "Equity",
+      "weight": 0.00636819,
+      "cusip": "615394202",
+      "company": "cusip:615394202"
+    },
+    {
+      "name": "BWX Technologies Inc",
+      "ticker": "BWXT",
+      "asset_type": "Equity",
+      "weight": 0.00614687,
+      "cusip": "05605H100",
+      "company": "cusip:05605H100"
+    },
+    {
+      "name": "Keysight Technologies Inc",
+      "ticker": "KEYS",
+      "asset_type": "Equity",
+      "weight": 0.00581602,
+      "cusip": "49338L103",
+      "company": "cusip:49338L103"
+    },
+    {
+      "name": "Hexcel Corp",
+      "ticker": "HXL",
+      "asset_type": "Equity",
+      "weight": 0.0048528,
+      "cusip": "428291108",
+      "company": "cusip:428291108"
+    },
+    {
+      "name": "Kratos Defense & Security Solutions Inc",
+      "ticker": "KTOS",
+      "asset_type": "Equity",
+      "weight": 0.00446986,
+      "cusip": "50077B207",
+      "company": "cusip:50077B207"
+    },
+    {
+      "name": "AeroVironment Inc",
+      "ticker": "AVAV",
+      "asset_type": "Equity",
+      "weight": 0.00426705,
+      "cusip": "008073108",
+      "company": "cusip:008073108"
+    },
+    {
+      "name": "Karman Holdings Inc",
+      "ticker": "KRMN",
+      "asset_type": "Equity",
+      "weight": 0.00411216,
+      "cusip": "485924104",
+      "company": "cusip:485924104"
+    },
+    {
+      "name": "Loar Holdings Inc",
+      "ticker": "LOAR",
+      "asset_type": "Equity",
+      "weight": 0.00408117,
+      "cusip": "53947R105",
+      "company": "cusip:53947R105"
+    },
+    {
+      "name": "Mercury Systems Inc",
+      "ticker": "MRCY",
+      "asset_type": "Equity",
+      "weight": 0.00405046,
+      "cusip": "589378108",
+      "company": "cusip:589378108"
+    },
+    {
+      "name": "Science Applications International Corp",
+      "ticker": "SAIC",
+      "asset_type": "Equity",
+      "weight": 0.00398968,
+      "cusip": "808625107",
+      "company": "cusip:808625107"
+    },
+    {
+      "name": "MDA Space Ltd",
+      "ticker": "MDA",
+      "asset_type": "Equity",
+      "weight": 0.00375266,
+      "cusip": "55293N109",
+      "company": "cusip:55293N109"
+    },
+    {
+      "name": "AAR Corp",
+      "ticker": "AIR",
+      "asset_type": "Equity",
+      "weight": 0.00343063,
+      "cusip": "000361105",
+      "company": "cusip:000361105"
+    },
+    {
+      "name": "KBR Inc",
+      "ticker": "KBR",
+      "asset_type": "Equity",
+      "weight": 0.0024399,
+      "cusip": "48242W106",
+      "company": "cusip:48242W106"
+    },
+    {
+      "name": "Amentum Holdings Inc",
+      "ticker": "AMTM",
+      "asset_type": "Equity",
+      "weight": 0.00233881,
+      "cusip": "023939101",
+      "company": "cusip:023939101"
+    },
+    {
+      "name": "Planet Labs PBC",
+      "ticker": "PL",
+      "asset_type": "Equity",
+      "weight": 0.00229727,
+      "cusip": "72703X106",
+      "company": "cusip:72703X106"
+    },
+    {
+      "name": "Oshkosh Corp",
+      "ticker": "OSK",
+      "asset_type": "Equity",
+      "weight": 0.00222227,
+      "cusip": "688239201",
+      "company": "cusip:688239201"
+    },
+    {
+      "name": "TTM Technologies Inc",
+      "ticker": "TTMI",
+      "asset_type": "Equity",
+      "weight": 0.00216578,
+      "cusip": "87305R109",
+      "company": "cusip:87305R109"
+    },
+    {
+      "name": "Firefly Aerospace Inc",
+      "ticker": "FLY",
+      "asset_type": "Equity",
+      "weight": 0.00204083,
+      "cusip": "31816X106",
+      "company": "cusip:31816X106"
+    },
+    {
+      "name": "V2X Inc",
+      "ticker": "VVX",
+      "asset_type": "Equity",
+      "weight": 0.00196423,
+      "cusip": "92242T101",
+      "company": "cusip:92242T101"
+    },
+    {
+      "name": "OSI Systems Inc",
+      "ticker": "OSIS",
+      "asset_type": "Equity",
+      "weight": 0.00183365,
+      "cusip": "671044105",
+      "company": "cusip:671044105"
+    },
+    {
+      "name": "Invesco Government & Agency Portfolio",
+      "ticker": "AGPXX",
+      "asset_type": "Money Market Fund, Taxable",
+      "weight": 0.00172975,
+      "company": null
+    },
+    {
+      "name": "Ducommun Inc",
+      "ticker": "DCO",
+      "asset_type": "Equity",
+      "weight": 0.00165459,
+      "cusip": "264147109",
+      "company": "cusip:264147109"
+    },
+    {
+      "name": "Parsons Corp",
+      "ticker": "PSN",
+      "asset_type": "Equity",
+      "weight": 0.00155324,
+      "cusip": "70202L102",
+      "company": "cusip:70202L102"
+    },
+    {
+      "name": "Iridium Communications Inc",
+      "ticker": "IRDM",
+      "asset_type": "Equity",
+      "weight": 0.0015514,
+      "cusip": "46269C102",
+      "company": "cusip:46269C102"
+    },
+    {
+      "name": "Hawkeye 360 Inc",
+      "ticker": "HAWK",
+      "asset_type": "Equity",
+      "weight": 0.00152822,
+      "cusip": "420201105",
+      "company": "cusip:420201105"
+    },
+    {
+      "name": "Redwire Corp",
+      "ticker": "RDW",
+      "asset_type": "Equity",
+      "weight": 0.0013883,
+      "cusip": "75776W103",
+      "company": "cusip:75776W103"
+    },
+    {
+      "name": "Lyntris Inc",
+      "ticker": "LYNX",
+      "asset_type": "Equity",
+      "weight": 0.00123913,
+      "cusip": "55173P109",
+      "company": "cusip:55173P109"
+    },
+    {
+      "name": "nLight Inc",
+      "ticker": "LASR",
+      "asset_type": "Equity",
+      "weight": 0.00123392,
+      "cusip": "65487K100",
+      "company": "cusip:65487K100"
+    },
+    {
+      "name": "CME E Mini Industrial Select Sector Futures",
+      "ticker": "IXIZ6",
+      "asset_type": "Index Future",
+      "weight": 0.00117666,
+      "company": null
+    },
+    {
+      "name": "Ondas Inc",
+      "ticker": "ONDS",
+      "asset_type": "Equity",
+      "weight": 0.00117188,
+      "cusip": "68236H204",
+      "company": "cusip:68236H204"
+    },
+    {
+      "name": "Cadre Holdings Inc",
+      "ticker": "CDRE",
+      "asset_type": "Equity",
+      "weight": 0.00103328,
+      "cusip": "12763L105",
+      "company": "cusip:12763L105"
+    },
+    {
+      "name": "Applied Aerospace & Defense Inc",
+      "ticker": "AADX",
+      "asset_type": "Equity",
+      "weight": 0.0009984,
+      "cusip": "03815J107",
+      "company": "cusip:03815J107"
+    },
+    {
+      "name": "Voyager Technologies Inc",
+      "ticker": "VOYG",
+      "asset_type": "Equity",
+      "weight": 0.00085083,
+      "cusip": "92892B103",
+      "company": "cusip:92892B103"
+    },
+    {
+      "name": "BlackSky Technology Inc",
+      "ticker": "BKSY",
+      "asset_type": "Equity",
+      "weight": 0.00074433,
+      "cusip": "09263B207",
+      "company": "cusip:09263B207"
+    },
+    {
+      "name": "Aevex Corp",
+      "ticker": "AVEX",
+      "asset_type": "Equity",
+      "weight": 0.00066405,
+      "cusip": "00835T107",
+      "company": "cusip:00835T107"
+    },
+    {
+      "name": "CASH COLLATERAL",
+      "ticker": null,
+      "asset_type": "Currency Collateral",
+      "weight": 6.179e-05,
+      "company": null
+    },
+    {
+      "name": "CASH & EQUIVALENTS",
+      "ticker": "USD",
+      "asset_type": "Currency",
+      "weight": 5.387e-05,
+      "company": null
+    },
+    {
+      "name": "SECURITIES LENDING - BNYM",
+      "ticker": null,
+      "asset_type": "Uninvestible Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CONTRA FUTURE XAI EMINI INDUSTR DEC26IXIZ6",
+      "ticker": null,
+      "asset_type": "Synthetic Cash",
+      "weight": -0.00117666,
+      "company": null
+    },
+    {
+      "name": "USD Pending Dividends",
+      "ticker": "USDPDV",
+      "asset_type": "Currency",
+      "weight": 0.0,
+      "company": null
+    }
+  ]
+}

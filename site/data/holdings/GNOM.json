@@ -1,0 +1,445 @@
+{
+  "ticker": "GNOM",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:08.592476+00:00",
+  "stale": false,
+  "source": "https://assets.globalxetfs.com/funds/holdings/gnom_full-holdings_{date}.csv",
+  "holdings": [
+    {
+      "name": "MARAVAI LIFESCIENCES HLDGS-A",
+      "ticker": "MRVI",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "BMCWKZ2",
+      "company": "cusip:56600D107"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0073,
+      "company": null
+    },
+    {
+      "name": "AGILENT TECHNOLOGIES INC",
+      "ticker": "A",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "2520153",
+      "company": "cusip:00846U101"
+    },
+    {
+      "name": "PACIFIC BIOSCIENCES OF CALIF",
+      "ticker": "PACB",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "sedol": "B4N8MH9",
+      "company": "cusip:69404D108"
+    },
+    {
+      "name": "MYRIAD GENETICS INC",
+      "ticker": "MYGN",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "sedol": "2614153",
+      "company": "name:myriad genetics"
+    },
+    {
+      "name": "WAVE LIFE SCIENCES INC",
+      "ticker": "WVE",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "C08GM13",
+      "company": "cusip:94352A104"
+    },
+    {
+      "name": "FULGENT GENETICS INC",
+      "ticker": "FLGT",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "BYQBFQ5",
+      "company": "name:fulgent genetics"
+    },
+    {
+      "name": "REGENXBIO INC",
+      "ticker": "RGNX",
+      "asset_type": "Equity",
+      "weight": 0.004,
+      "sedol": "BZ0G875",
+      "company": "name:regenxbio"
+    },
+    {
+      "name": "QUEST DIAGNOSTICS INC",
+      "ticker": "DGX",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "sedol": "2702791",
+      "company": "cusip:74834L100"
+    },
+    {
+      "name": "MESA LABORATORIES INC",
+      "ticker": "MLAB",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "sedol": "2553814",
+      "company": "name:mesa laboratories"
+    },
+    {
+      "name": "BRUKER CORP",
+      "ticker": "BRKR",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "2616137",
+      "company": "cusip:116794108"
+    },
+    {
+      "name": "PRIME MEDICINE INC",
+      "ticker": "PRME",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BPBJFM7",
+      "company": "cusip:74168J101"
+    },
+    {
+      "name": "BENITEC BIOPHARMA INC",
+      "ticker": "BNTC",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "BS2K7D5",
+      "company": "name:benitec biopharma"
+    },
+    {
+      "name": "STANDARD BIOTOOLS INC",
+      "ticker": "LAB",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "B3D32T9",
+      "company": "name:standard biotools"
+    },
+    {
+      "name": "ROCKET PHARMACEUTICALS INC",
+      "ticker": "RCKT",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "sedol": "BDFKQ07",
+      "company": "name:rocket pharmaceuticals"
+    },
+    {
+      "name": "SCRIBE THERAPEUTICS INC",
+      "ticker": "SCTX",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "C04JJW6",
+      "company": "cusip:811033109"
+    },
+    {
+      "name": "EDITAS MEDICINE INC",
+      "ticker": "EDIT",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "BZ8FPH3",
+      "company": "name:editas medicine"
+    },
+    {
+      "name": "BIOMARIN PHARMACEUTICAL INC",
+      "ticker": "BMRN",
+      "asset_type": "Equity",
+      "weight": 0.0517,
+      "sedol": "2437071",
+      "company": "cusip:09061G101"
+    },
+    {
+      "name": "PRAXIS PRECISION MEDICINES I",
+      "ticker": "PRAX",
+      "asset_type": "Equity",
+      "weight": 0.0504,
+      "sedol": "BQ721R4",
+      "company": "name:praxis precision medicines"
+    },
+    {
+      "name": "VERTEX PHARMACEUTICALS INC",
+      "ticker": "VRTX",
+      "asset_type": "Equity",
+      "weight": 0.0477,
+      "sedol": "2931034",
+      "company": "cusip:92532F100"
+    },
+    {
+      "name": "BIO-TECHNE CORP",
+      "ticker": "TECH",
+      "asset_type": "Equity",
+      "weight": 0.0471,
+      "sedol": "BSHZ3Q0",
+      "company": "cusip:09073M104"
+    },
+    {
+      "name": "QIAGEN N.V.",
+      "ticker": "QGEN",
+      "asset_type": "Equity",
+      "weight": 0.0464,
+      "sedol": "BVPJWL3",
+      "company": "cusip:N72482156"
+    },
+    {
+      "name": "BIONTECH SE-ADR",
+      "ticker": "BNTX",
+      "asset_type": "Equity",
+      "weight": 0.0446,
+      "sedol": "BK6H543",
+      "company": "cusip:09075V102"
+    },
+    {
+      "name": "MODERNA INC",
+      "ticker": "MRNA",
+      "asset_type": "Equity",
+      "weight": 0.0433,
+      "sedol": "BGSXTS3",
+      "company": "cusip:60770K107"
+    },
+    {
+      "name": "GUARDANT HEALTH INC",
+      "ticker": "GH",
+      "asset_type": "Equity",
+      "weight": 0.0375,
+      "sedol": "BFXC911",
+      "company": "cusip:40131M109"
+    },
+    {
+      "name": "ILLUMINA INC",
+      "ticker": "ILMN",
+      "asset_type": "Equity",
+      "weight": 0.0343,
+      "sedol": "2613990",
+      "company": "cusip:452327109"
+    },
+    {
+      "name": "ARROWHEAD PHARMACEUTICALS IN",
+      "ticker": "ARWR",
+      "asset_type": "Equity",
+      "weight": 0.0337,
+      "sedol": "BYQBFJ8",
+      "company": "cusip:04280A100"
+    },
+    {
+      "name": "CRISPR THERAPEUTICS AG",
+      "ticker": "CRSP",
+      "asset_type": "Equity",
+      "weight": 0.0326,
+      "sedol": "BDHF4K6",
+      "company": "cusip:H17182108"
+    },
+    {
+      "name": "GENSCRIPT BIOTECH CORP",
+      "ticker": "1548 HK",
+      "asset_type": "Equity",
+      "weight": 0.0326,
+      "sedol": "BD9Q2J2",
+      "company": "name:genscript biotech"
+    },
+    {
+      "name": "10X GENOMICS INC-CLASS A",
+      "ticker": "TXG",
+      "asset_type": "Equity",
+      "weight": 0.0322,
+      "sedol": "BKS3RS7",
+      "company": "cusip:88025U109"
+    },
+    {
+      "name": "NATERA INC",
+      "ticker": "NTRA",
+      "asset_type": "Equity",
+      "weight": 0.0321,
+      "sedol": "BYQRG48",
+      "company": "cusip:632307104"
+    },
+    {
+      "name": "CAREDX INC",
+      "ticker": "CDNA",
+      "asset_type": "Equity",
+      "weight": 0.0317,
+      "sedol": "BP3YM74",
+      "company": "cusip:14167L103"
+    },
+    {
+      "name": "TWIST BIOSCIENCE CORP",
+      "ticker": "TWST",
+      "asset_type": "Equity",
+      "weight": 0.0316,
+      "sedol": "BGKG6G7",
+      "company": "cusip:90184D100"
+    },
+    {
+      "name": "LEGEND BIOTECH CORP-ADR",
+      "ticker": "LEGN",
+      "asset_type": "Equity",
+      "weight": 0.0273,
+      "sedol": "BMX9K07",
+      "company": "cusip:52490G102"
+    },
+    {
+      "name": "ELI LILLY & CO",
+      "ticker": "LLY",
+      "asset_type": "Equity",
+      "weight": 0.0253,
+      "sedol": "2516152",
+      "company": "cusip:532457108"
+    },
+    {
+      "name": "GILEAD SCIENCES INC",
+      "ticker": "GILD",
+      "asset_type": "Equity",
+      "weight": 0.025,
+      "sedol": "2369174",
+      "company": "cusip:375558103"
+    },
+    {
+      "name": "ASTRAZENECA PLC",
+      "ticker": "AZN LN",
+      "asset_type": "Equity",
+      "weight": 0.0249,
+      "sedol": "0989529",
+      "company": "cusip:G0593M107"
+    },
+    {
+      "name": "CARIS LIFE SCIENCES INC",
+      "ticker": "CAI",
+      "asset_type": "Equity",
+      "weight": 0.0223,
+      "sedol": "BT18HP9",
+      "company": "name:caris life sciences@united states"
+    },
+    {
+      "name": "BILLIONTOONE INC CL A",
+      "ticker": "BLLN",
+      "asset_type": "Equity",
+      "weight": 0.0199,
+      "sedol": "BMDJC90",
+      "company": "name:billiontoone"
+    },
+    {
+      "name": "VERACYTE INC",
+      "ticker": "VCYT",
+      "asset_type": "Equity",
+      "weight": 0.0182,
+      "sedol": "BFTWZY0",
+      "company": "cusip:92337F107"
+    },
+    {
+      "name": "BEAM THERAPEUTICS INC",
+      "ticker": "BEAM",
+      "asset_type": "Equity",
+      "weight": 0.0181,
+      "sedol": "BK6L288",
+      "company": "cusip:07373V105"
+    },
+    {
+      "name": "DANAHER CORP",
+      "ticker": "DHR",
+      "asset_type": "Equity",
+      "weight": 0.0149,
+      "sedol": "2250870",
+      "company": "cusip:235851102"
+    },
+    {
+      "name": "ULTRAGENYX PHARMACEUTICAL IN",
+      "ticker": "RARE",
+      "asset_type": "Equity",
+      "weight": 0.0145,
+      "sedol": "BJ62Z18",
+      "company": "cusip:90400D108"
+    },
+    {
+      "name": "GENEDX HOLDINGS CORP",
+      "ticker": "WGS",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "sedol": "BR841G5",
+      "company": "cusip:81663L200"
+    },
+    {
+      "name": "SAREPTA THERAPEUTICS INC",
+      "ticker": "SRPT",
+      "asset_type": "Equity",
+      "weight": 0.0132,
+      "sedol": "B8DPDT7",
+      "company": "cusip:803607100"
+    },
+    {
+      "name": "STOKE THERAPEUTICS INC",
+      "ticker": "STOK",
+      "asset_type": "Equity",
+      "weight": 0.0131,
+      "sedol": "BJQ05Z6",
+      "company": "name:stoke therapeutics"
+    },
+    {
+      "name": "BRISTOL-MYERS SQUIBB CO",
+      "ticker": "BMY",
+      "asset_type": "Equity",
+      "weight": 0.0124,
+      "sedol": "2126335",
+      "company": "cusip:110122108"
+    },
+    {
+      "name": "UNIQURE NV",
+      "ticker": "QURE",
+      "asset_type": "Equity",
+      "weight": 0.0119,
+      "sedol": "BJFSR88",
+      "company": "cusip:N90064101"
+    },
+    {
+      "name": "INTELLIA THERAPEUTICS INC",
+      "ticker": "NTLA",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "sedol": "BYZM6C2",
+      "company": "cusip:45826J105"
+    },
+    {
+      "name": "VIR BIOTECHNOLOGY INC",
+      "ticker": "VIR",
+      "asset_type": "Equity",
+      "weight": 0.0111,
+      "sedol": "BK4PZ38",
+      "company": "cusip:92764N102"
+    },
+    {
+      "name": "PERSONALIS INC",
+      "ticker": "PSNL",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "sedol": "BJQ0608",
+      "company": "name:personalis@united states"
+    },
+    {
+      "name": "CARIBOU BIOSCIENCES INC",
+      "ticker": "CRBU",
+      "asset_type": "Equity",
+      "weight": 0.0,
+      "sedol": "BNYJR68",
+      "company": "name:caribou biosciences"
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0033,
+      "company": null
+    },
+    {
+      "name": "BRITISH STERLING POUND",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0037,
+      "company": null
+    }
+  ]
+}

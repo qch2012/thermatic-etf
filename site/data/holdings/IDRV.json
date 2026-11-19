@@ -1,0 +1,592 @@
+{
+  "ticker": "IDRV",
+  "as_of": "2026-11-17",
+  "fetched_at": "2026-11-19T11:10:10.901165+00:00",
+  "stale": false,
+  "source": "https://www.ishares.com/us/products/307332/ishares-self-driving-ev-and-tech-etf/latest-holdings.csv",
+  "holdings": [
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0563,
+      "location": "United States",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "SAMSUNG SDI LTD",
+      "ticker": "006400",
+      "asset_type": "Equity",
+      "weight": 0.0522,
+      "location": "Korea (South)",
+      "company": "cusip:Y74866107"
+    },
+    {
+      "name": "LG ENERGY SOLUTION LTD",
+      "ticker": "373220",
+      "asset_type": "Equity",
+      "weight": 0.0492,
+      "location": "Korea (South)",
+      "company": "name:lg energy solution@korea (south)"
+    },
+    {
+      "name": "LI AUTO CLASS A",
+      "ticker": "2015",
+      "asset_type": "Equity",
+      "weight": 0.0465,
+      "location": "China",
+      "company": "cusip:50202M102"
+    },
+    {
+      "name": "AUTOLIV",
+      "ticker": "ALV",
+      "asset_type": "Equity",
+      "weight": 0.0423,
+      "location": "United States",
+      "company": "name:autoliv@united states"
+    },
+    {
+      "name": "RIVIAN AUTOMOTIVE CLASS A",
+      "ticker": "RIVN",
+      "asset_type": "Equity",
+      "weight": 0.0421,
+      "location": "United States",
+      "company": "cusip:76954A103"
+    },
+    {
+      "name": "VOLKSWAGEN NON-VOTING PREF AG",
+      "ticker": "VOW3",
+      "asset_type": "Equity",
+      "weight": 0.0416,
+      "location": "Germany",
+      "company": "name:volkswagen non voting pref@germany"
+    },
+    {
+      "name": "BYD H",
+      "ticker": "1211",
+      "asset_type": "Equity",
+      "weight": 0.0413,
+      "location": "China",
+      "company": "cusip:05606L100"
+    },
+    {
+      "name": "LG CHEM LTD",
+      "ticker": "051910",
+      "asset_type": "Equity",
+      "weight": 0.041,
+      "location": "Korea (South)",
+      "company": "name:lg chem@korea (south)"
+    },
+    {
+      "name": "CONTINENTAL AG",
+      "ticker": "CON",
+      "asset_type": "Equity",
+      "weight": 0.0401,
+      "location": "Germany",
+      "company": "name:continental@germany"
+    },
+    {
+      "name": "RENAULT SA",
+      "ticker": "RNO",
+      "asset_type": "Equity",
+      "weight": 0.04,
+      "location": "France",
+      "company": "name:renault@france"
+    },
+    {
+      "name": "ABB LTD",
+      "ticker": "ABBN",
+      "asset_type": "Equity",
+      "weight": 0.0376,
+      "location": "Switzerland",
+      "company": "cusip:H0010V101"
+    },
+    {
+      "name": "XPENG CLASS A INC",
+      "ticker": "9868",
+      "asset_type": "Equity",
+      "weight": 0.034,
+      "location": "China",
+      "company": "cusip:98422D105"
+    },
+    {
+      "name": "ALBEMARLE CORP",
+      "ticker": "ALB",
+      "asset_type": "Equity",
+      "weight": 0.0326,
+      "location": "United States",
+      "company": "cusip:012653101"
+    },
+    {
+      "name": "CONTEMPORARY AMPEREX TECHNOLOGY CL",
+      "ticker": "3750",
+      "asset_type": "Equity",
+      "weight": 0.0298,
+      "location": "China",
+      "company": "name:contemporary amperex technology cl@china"
+    },
+    {
+      "name": "NIO CLASS A",
+      "ticker": "9866",
+      "asset_type": "Equity",
+      "weight": 0.0292,
+      "location": "China",
+      "company": "cusip:62914V106"
+    },
+    {
+      "name": "PORSCHE AUTOMOBIL HOLDING PREF",
+      "ticker": "PAH3",
+      "asset_type": "Equity",
+      "weight": 0.0279,
+      "location": "Germany",
+      "company": "name:porsche automobil holding pref@germany"
+    },
+    {
+      "name": "HYUNDAI MOBIS LTD",
+      "ticker": "012330",
+      "asset_type": "Equity",
+      "weight": 0.0277,
+      "location": "Korea (South)",
+      "company": "name:hyundai mobis@korea (south)"
+    },
+    {
+      "name": "LEAR",
+      "ticker": "LEA",
+      "asset_type": "Equity",
+      "weight": 0.0253,
+      "location": "United States",
+      "company": "cusip:521865204"
+    },
+    {
+      "name": "PLS GROUP LTD",
+      "ticker": "PLS",
+      "asset_type": "Equity",
+      "weight": 0.0246,
+      "location": "Australia",
+      "company": "name:pls group@australia"
+    },
+    {
+      "name": "AURORA INNOVATION CLASS A",
+      "ticker": "AUR",
+      "asset_type": "Equity",
+      "weight": 0.0245,
+      "location": "United States",
+      "company": "cusip:051774107"
+    },
+    {
+      "name": "GENTEX",
+      "ticker": "GNTX",
+      "asset_type": "Equity",
+      "weight": 0.019,
+      "location": "United States",
+      "company": "cusip:371901109"
+    },
+    {
+      "name": "ZHEJIANG LEAPMOTOR TECHNOLOGY LTD",
+      "ticker": "9863",
+      "asset_type": "Equity",
+      "weight": 0.0179,
+      "location": "China",
+      "company": "name:zhejiang leapmotor technology@china"
+    },
+    {
+      "name": "GS YUASA",
+      "ticker": "6674",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "location": "Japan",
+      "company": "cusip:J1770L109"
+    },
+    {
+      "name": "NFI GROUP",
+      "ticker": "NFI",
+      "asset_type": "Equity",
+      "weight": 0.0141,
+      "location": "Canada",
+      "company": "name:nfi group@canada"
+    },
+    {
+      "name": "BLUE BIRD",
+      "ticker": "BLBD",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "location": "United States",
+      "company": "cusip:095306106"
+    },
+    {
+      "name": "QUANTUMSCAPE CLASS A",
+      "ticker": "QS",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "location": "United States",
+      "company": "cusip:74767V109"
+    },
+    {
+      "name": "VISTEON",
+      "ticker": "VC",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "location": "United States",
+      "company": "cusip:92839U206"
+    },
+    {
+      "name": "GANFENG LITHIUM LTD H",
+      "ticker": "1772",
+      "asset_type": "Equity",
+      "weight": 0.0094,
+      "location": "China",
+      "company": "name:ganfeng lithium@china"
+    },
+    {
+      "name": "OUSTER",
+      "ticker": "OUST",
+      "asset_type": "Equity",
+      "weight": 0.0087,
+      "location": "United States",
+      "company": "cusip:68989M202"
+    },
+    {
+      "name": "AUMOVIO N",
+      "ticker": "AMV0",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "location": "Germany",
+      "company": "name:aumovio@germany"
+    },
+    {
+      "name": "HESAI GROUP CLASS B",
+      "ticker": "2525",
+      "asset_type": "Equity",
+      "weight": 0.0078,
+      "location": "China",
+      "company": "cusip:428050108"
+    },
+    {
+      "name": "FORVIA",
+      "ticker": "FRVIA",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "location": "France",
+      "company": "name:forvia@france"
+    },
+    {
+      "name": "WERIDE INC",
+      "ticker": "800",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "location": "China",
+      "company": "cusip:950915108"
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0064,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "LIONTOWN LTD",
+      "ticker": "LTR",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "location": "Australia",
+      "company": "name:liontown@australia"
+    },
+    {
+      "name": "AMPRIUS TECHNOLOGIES INC",
+      "ticker": "AMPX",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "location": "United States",
+      "company": "cusip:03214Q108"
+    },
+    {
+      "name": "CALB CLASS H LTD H",
+      "ticker": "3931",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "location": "China",
+      "company": "name:calb@china"
+    },
+    {
+      "name": "ADIENT PLC",
+      "ticker": "ADNT",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "location": "United States",
+      "company": "name:adient@united states"
+    },
+    {
+      "name": "ADVANCED ENERGY SOLUTION HOLDING L",
+      "ticker": "6781",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "location": "Taiwan",
+      "company": "name:advanced energy solution holding@taiwan"
+    },
+    {
+      "name": "TS TECH LTD",
+      "ticker": "7313",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "location": "Japan",
+      "company": "name:ts tech@japan"
+    },
+    {
+      "name": "ROBOSENSE TECHNOLOGY LTD",
+      "ticker": "2498",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "location": "China",
+      "company": "name:robosense technology@china"
+    },
+    {
+      "name": "ELEVRA LITHIUM LTD",
+      "ticker": "ELV",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "location": "Australia",
+      "company": "cusip:805700101"
+    },
+    {
+      "name": "LUCID GROUP",
+      "ticker": "LCID",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "location": "United States",
+      "company": "cusip:549498202"
+    },
+    {
+      "name": "REPT BATTERO ENERGY H",
+      "ticker": "666",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "location": "China",
+      "company": "name:rept battero energy@china"
+    },
+    {
+      "name": "SERES GROUP CLASS H",
+      "ticker": "9927",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "location": "China",
+      "company": "name:seres group@china"
+    },
+    {
+      "name": "SOLID POWER CLASS A",
+      "ticker": "SLDP",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "location": "United States",
+      "company": "cusip:83422N105"
+    },
+    {
+      "name": "TIANNENG POWER INTERNATIONAL",
+      "ticker": "819",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "location": "China",
+      "company": "name:tianneng power international@china"
+    },
+    {
+      "name": "POLESTAR AUTOMOTIVE HOLDING AMERIC",
+      "ticker": "PSNY",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "location": "Sweden",
+      "company": "name:polestar automotive holding americ@sweden"
+    },
+    {
+      "name": "COOPER STANDARD HOLDINGS",
+      "ticker": "CPS",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "location": "United States",
+      "company": "name:cooper standard holdings@united states"
+    },
+    {
+      "name": "EVGO INC CLASS A",
+      "ticker": "EVGO",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "location": "United States",
+      "company": "cusip:30052F100"
+    },
+    {
+      "name": "STRATTEC SECURITY CORP",
+      "ticker": "STRT",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "United States",
+      "company": "name:strattec security@united states"
+    },
+    {
+      "name": "SERVE ROBOTICS",
+      "ticker": "SERV",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "location": "United States",
+      "company": "cusip:81758H106"
+    },
+    {
+      "name": "AMERICAN BATTERY TECHNOLOGY COMPAN",
+      "ticker": "ABAT",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "location": "United States",
+      "company": "name:american battery technology compan@united states"
+    },
+    {
+      "name": "HKD CASH",
+      "ticker": "HKD",
+      "asset_type": "Cash",
+      "weight": 0.0006,
+      "location": "Hong Kong",
+      "company": null
+    },
+    {
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0005,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "JPY CASH",
+      "ticker": "JPY",
+      "asset_type": "Cash",
+      "weight": 0.0004,
+      "location": "Japan",
+      "company": null
+    },
+    {
+      "name": "CASH COLLATERAL EUR HBCFT",
+      "ticker": "HBCFT",
+      "asset_type": "Cash Collateral and Margins",
+      "weight": 0.0004,
+      "location": "European Union",
+      "company": null
+    },
+    {
+      "name": "EUR CASH",
+      "ticker": "EUR",
+      "asset_type": "Cash",
+      "weight": 0.0003,
+      "location": "European Union",
+      "company": null
+    },
+    {
+      "name": "CASH COLLATERAL USD HBCFT",
+      "ticker": "HBCFT",
+      "asset_type": "Cash Collateral and Margins",
+      "weight": 0.0002,
+      "location": "United Kingdom",
+      "company": null
+    },
+    {
+      "name": "KRW CASH",
+      "ticker": "KRW",
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "location": "Korea (South)",
+      "company": null
+    },
+    {
+      "name": "TWD CASH",
+      "ticker": "TWD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Taiwan",
+      "company": null
+    },
+    {
+      "name": "GBP CASH",
+      "ticker": "GBP",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "United Kingdom",
+      "company": null
+    },
+    {
+      "name": "AUD CASH",
+      "ticker": "AUD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Australia",
+      "company": null
+    },
+    {
+      "name": "CHF CASH",
+      "ticker": "CHF",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Switzerland",
+      "company": null
+    },
+    {
+      "name": "CAD CASH",
+      "ticker": "CAD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Canada",
+      "company": null
+    },
+    {
+      "name": "CLP CASH",
+      "ticker": "CLP",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Chile",
+      "company": null
+    },
+    {
+      "name": "ILS CASH",
+      "ticker": "ILS",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Israel",
+      "company": null
+    },
+    {
+      "name": "SEK CASH",
+      "ticker": "SEK",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Sweden",
+      "company": null
+    },
+    {
+      "name": "MXN CASH",
+      "ticker": "MXN",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Mexico",
+      "company": null
+    },
+    {
+      "name": "HKD/USD",
+      "ticker": "HKD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "S&P500 EMINI DEC 26",
+      "ticker": "ESZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "EURO STOXX 50 DEC 26",
+      "ticker": "VGZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
+      "location": "European Union",
+      "company": null
+    }
+  ]
+}

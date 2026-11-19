@@ -1,0 +1,157 @@
+{
+  "ticker": "DISK",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:00.055078+00:00",
+  "stale": false,
+  "source": "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv",
+  "holdings": [
+    {
+      "name": "SK HYNIX INC",
+      "ticker": "000660 KS",
+      "asset_type": "Equity",
+      "weight": 0.1828,
+      "location": "South Korea",
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "SANDISK CORP",
+      "ticker": "SNDK",
+      "asset_type": "Equity",
+      "weight": 0.1494,
+      "cusip": "80004C200",
+      "location": "United States",
+      "company": "cusip:80004C200"
+    },
+    {
+      "name": "KIOXIA HOLDINGS CORP",
+      "ticker": "285A JP",
+      "asset_type": "Equity",
+      "weight": 0.1235,
+      "location": "Japan",
+      "company": "cusip:J3343A107"
+    },
+    {
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0912,
+      "cusip": "595112103",
+      "location": "United States",
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "CHANGXIN MEMORY TECHNOLOGIES-SWAP-MREX-L",
+      "ticker": "BTMTQT8-TRS-07/27/29-L-MREX",
+      "asset_type": "Swap",
+      "weight": 0.0612,
+      "company": null
+    },
+    {
+      "name": "SAMSUNG ELECTRONICS CO LTD",
+      "ticker": "005930 KS",
+      "asset_type": "Equity",
+      "weight": 0.058,
+      "location": "South Korea",
+      "company": "name:samsung electronics@south korea"
+    },
+    {
+      "name": "SK SQUARE CO LTD",
+      "ticker": "402340 KS",
+      "asset_type": "Equity",
+      "weight": 0.053,
+      "location": "South Korea",
+      "company": "name:sk square@south korea"
+    },
+    {
+      "name": "NANYA TECHNOLOGY CORP",
+      "ticker": "2408 TT",
+      "asset_type": "Equity",
+      "weight": 0.0424,
+      "location": "Taiwan",
+      "company": "cusip:Y62066108"
+    },
+    {
+      "name": "AEHR TEST SYSTEMS",
+      "ticker": "AEHR",
+      "asset_type": "Equity",
+      "weight": 0.0414,
+      "cusip": "00760J108",
+      "location": "United States",
+      "company": "cusip:00760J108"
+    },
+    {
+      "name": "WESTERN DIGITAL CORP",
+      "ticker": "WDC",
+      "asset_type": "Equity",
+      "weight": 0.0405,
+      "cusip": "958102105",
+      "location": "United States",
+      "company": "cusip:958102105"
+    },
+    {
+      "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+      "ticker": "STX",
+      "asset_type": "Equity",
+      "weight": 0.0405,
+      "cusip": "G7997R103",
+      "location": "Ireland",
+      "company": "cusip:G7997R103"
+    },
+    {
+      "name": "WINBOND ELECTRONICS CORP",
+      "ticker": "2344 TT",
+      "asset_type": "Equity",
+      "weight": 0.0344,
+      "location": "Taiwan",
+      "company": "cusip:Y95873108"
+    },
+    {
+      "name": "SHENZHEN TECHWINSEMI TECHNOLOGY CO LTD",
+      "ticker": "001309 C2",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "location": "China",
+      "company": "name:shenzhen techwinsemi technology@china"
+    },
+    {
+      "name": "BIWIN STORAGE TECHNOLOGY CO LTD",
+      "ticker": "688525 C1",
+      "asset_type": "Equity",
+      "weight": 0.0166,
+      "location": "China",
+      "company": "name:biwin storage technology@china"
+    },
+    {
+      "name": "CASH & CASH EQUIVALENTS",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.015,
+      "company": null
+    },
+    {
+      "name": "INNODISK CORP",
+      "ticker": "5289 TT",
+      "asset_type": "Equity",
+      "weight": 0.013,
+      "location": "Taiwan",
+      "company": "name:innodisk@taiwan"
+    },
+    {
+      "name": "MACRONIX INTERNATIONAL CO LTD",
+      "ticker": "2337 TT",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "location": "Taiwan",
+      "company": "cusip:Y5369A104"
+    },
+    {
+      "name": "SK HYNIX INC",
+      "ticker": "SKHY",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "cusip": "78392B206",
+      "location": "South Korea",
+      "company": "cusip:78392B206"
+    }
+  ]
+}

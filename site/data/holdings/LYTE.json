@@ -1,0 +1,157 @@
+{
+  "ticker": "LYTE",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:16.387888+00:00",
+  "stale": false,
+  "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
+  "holdings": [
+    {
+      "name": "CIENA CORPORATION-SWAP-NMRA-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0862,
+      "company": null
+    },
+    {
+      "name": "LandMark Optoelectronics Corp",
+      "ticker": "3081 TT",
+      "asset_type": "Equity",
+      "weight": 0.0249,
+      "sedol": "BL951P4",
+      "company": "name:landmark optoelectronics@taiwan"
+    },
+    {
+      "name": "FOCI Fiber Optic Communications Inc",
+      "ticker": "3363 TT",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "sedol": "B02SCD8",
+      "company": "name:foci fiber optic communications"
+    },
+    {
+      "name": "United States Treasury Bill 12/03/2026",
+      "ticker": "912797VA2",
+      "asset_type": "Treasury",
+      "weight": 0.693,
+      "company": null
+    },
+    {
+      "name": "Applied Optoelectronics Inc",
+      "ticker": "AAOI",
+      "asset_type": "Equity",
+      "weight": 0.0204,
+      "cusip": "03823U102",
+      "company": "cusip:03823U102"
+    },
+    {
+      "name": "AXT Inc",
+      "ticker": "AXTI",
+      "asset_type": "Equity",
+      "weight": 0.0114,
+      "cusip": "00246W103",
+      "company": "cusip:00246W103"
+    },
+    {
+      "name": "ACCELINK TECHNOLOGIES CO,LTD.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0213,
+      "company": null
+    },
+    {
+      "name": "EOPTOLINK TECHNOLOGY INC., LTD.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0678,
+      "company": null
+    },
+    {
+      "name": "ZHONGJI INNOLIGHT CO., LTD.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.1402,
+      "company": null
+    },
+    {
+      "name": "SUZHOU TFC OPTICAL COMMUNICATION CO., LTD.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.039,
+      "company": null
+    },
+    {
+      "name": "T AND S COMMUNICAT-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0077,
+      "company": null
+    },
+    {
+      "name": "YUANJIE SEMICONDUCTOR TECHNOLOGY CO., LTD.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0234,
+      "company": null
+    },
+    {
+      "name": "Ciena Corp",
+      "ticker": "CIEN",
+      "asset_type": "Equity",
+      "weight": 0.1054,
+      "cusip": "171779309",
+      "company": "cusip:171779309"
+    },
+    {
+      "name": "CHINESE YUAN",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Coherent Corp",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.2273,
+      "cusip": "19247G107",
+      "company": "cusip:19247G107"
+    },
+    {
+      "name": "First American Government Obligations Fund 12/01/2031",
+      "ticker": "FGXXX",
+      "asset_type": "Money Market",
+      "weight": 0.0162,
+      "company": null
+    },
+    {
+      "name": "Fabrinet",
+      "ticker": "FN",
+      "asset_type": "Equity",
+      "weight": 0.0619,
+      "cusip": "G3323L100",
+      "company": "cusip:G3323L100"
+    },
+    {
+      "name": "Lumentum Holdings Inc",
+      "ticker": "LITE",
+      "asset_type": "Equity",
+      "weight": 0.1967,
+      "cusip": "55024U109",
+      "company": "cusip:55024U109"
+    },
+    {
+      "name": "NEW TAIWAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.748,
+      "company": null
+    }
+  ]
+}

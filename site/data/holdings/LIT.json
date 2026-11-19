@@ -1,0 +1,365 @@
+{
+  "ticker": "LIT",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:16.385105+00:00",
+  "stale": false,
+  "source": "https://assets.globalxetfs.com/funds/holdings/lit_full-holdings_{date}.csv",
+  "holdings": [
+    {
+      "name": "ERAMET- RTS",
+      "ticker": "ERADS FP",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "sedol": "BXPYMC3",
+      "company": "name:eramet"
+    },
+    {
+      "name": "CHINESE YUAN RENMINBI",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "ESG MINERALS LTD",
+      "ticker": "2324825D AU",
+      "asset_type": "Equity",
+      "weight": 0.0,
+      "sedol": "BPGN3K8",
+      "company": "name:esg minerals"
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0004,
+      "company": null
+    },
+    {
+      "name": "STANDARD LITHIUM LTD",
+      "ticker": "SLI CN",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BDSFRL7",
+      "company": "cusip:853606101"
+    },
+    {
+      "name": "VULCAN ENERGY RESOURCES LTD",
+      "ticker": "VUL AU",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BKYBH63",
+      "company": "name:vulcan energy resources"
+    },
+    {
+      "name": "SIGMA LITHIUM CORP",
+      "ticker": "SGML",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "sedol": "BNM4ZD8",
+      "company": "cusip:826599102"
+    },
+    {
+      "name": "ERAMET",
+      "ticker": "ERA FP",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "sedol": "4017017",
+      "company": "name:eramet"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0009,
+      "company": null
+    },
+    {
+      "name": "IONEER LTD",
+      "ticker": "INR AU",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "BGYBHZ4",
+      "company": "cusip:46211L101"
+    },
+    {
+      "name": "AMG CRITICAL MATERIALS N.V.",
+      "ticker": "AMG NA",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "sedol": "B1Z95S1",
+      "company": "name:amg critical materials"
+    },
+    {
+      "name": "LIONTOWN LTD",
+      "ticker": "LTR AU",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "B1J89V5",
+      "company": "name:liontown@australia"
+    },
+    {
+      "name": "LITHIUM AMERICAS CORP",
+      "ticker": "LAC CN",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "BRBS357",
+      "company": "cusip:53681J103"
+    },
+    {
+      "name": "CORE LITHIUM LTD",
+      "ticker": "CXO AU",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "B4XFS83",
+      "company": "name:core lithium"
+    },
+    {
+      "name": "LITHIUM ARGENTINA AG",
+      "ticker": "LAR CN",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "BS891B2",
+      "company": "cusip:H5012F103"
+    },
+    {
+      "name": "ELEVRA LITHIUM LTD",
+      "ticker": "ELV AU",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "sedol": "BVBM1M0",
+      "company": "cusip:805700101"
+    },
+    {
+      "name": "PMET RESOURCES INC",
+      "ticker": "PMET CN",
+      "asset_type": "Equity",
+      "weight": 0.0017,
+      "sedol": "BRJJYV5",
+      "company": "name:pmet resources"
+    },
+    {
+      "name": "RIO TINTO PLC-SPON ADR",
+      "ticker": "RIO",
+      "asset_type": "Equity",
+      "weight": 0.1938,
+      "sedol": "2740434",
+      "company": "name:rio tinto"
+    },
+    {
+      "name": "ALBEMARLE CORP",
+      "ticker": "ALB",
+      "asset_type": "Equity",
+      "weight": 0.0537,
+      "sedol": "2046853",
+      "company": "cusip:012653101"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0499,
+      "sedol": "B616C79",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "EVE ENERGY CO LTD-A",
+      "ticker": "300014 C2",
+      "asset_type": "Equity",
+      "weight": 0.0453,
+      "sedol": "BD5C7G6",
+      "company": "name:eve energy"
+    },
+    {
+      "name": "NAURA TECHNOLOGY GROUP CO-A",
+      "ticker": "002371 C2",
+      "asset_type": "Equity",
+      "weight": 0.0447,
+      "sedol": "BD5LYF1",
+      "company": "name:naura technology group"
+    },
+    {
+      "name": "CONTEMPORARY AMPEREX TECHN-A",
+      "ticker": "300750 C2",
+      "asset_type": "Equity",
+      "weight": 0.0402,
+      "sedol": "BHQPSY7",
+      "company": "name:contemporary amperex techn"
+    },
+    {
+      "name": "BYD CO LTD-H",
+      "ticker": "1211 HK",
+      "asset_type": "Equity",
+      "weight": 0.04,
+      "sedol": "6536651",
+      "company": "cusip:05606L100"
+    },
+    {
+      "name": "SAMSUNG SDI CO LTD",
+      "ticker": "006400 KS",
+      "asset_type": "Equity",
+      "weight": 0.0378,
+      "sedol": "6771645",
+      "company": "cusip:Y74866107"
+    },
+    {
+      "name": "QUIMICA Y MINERA CHIL-SP ADR",
+      "ticker": "SQM",
+      "asset_type": "Equity",
+      "weight": 0.037,
+      "sedol": "2771122",
+      "company": "cusip:833635105"
+    },
+    {
+      "name": "ZHEJIANG HUAYOU COBALT CO -A",
+      "ticker": "603799 C1",
+      "asset_type": "Equity",
+      "weight": 0.0362,
+      "sedol": "BFF5BV2",
+      "company": "name:zhejiang huayou cobalt"
+    },
+    {
+      "name": "TDK CORP",
+      "ticker": "6762 JP",
+      "asset_type": "Equity",
+      "weight": 0.0352,
+      "sedol": "6869302",
+      "company": "name:tdk"
+    },
+    {
+      "name": "PANASONIC HOLDINGS CORPORATION",
+      "ticker": "6752 JP",
+      "asset_type": "Equity",
+      "weight": 0.0351,
+      "sedol": "6572707",
+      "company": "cusip:J6354Y104"
+    },
+    {
+      "name": "LG ENERGY SOLUTION",
+      "ticker": "373220 KS",
+      "asset_type": "Equity",
+      "weight": 0.0349,
+      "sedol": "BNSP8W5",
+      "company": "name:lg energy solution@korea (south)"
+    },
+    {
+      "name": "GANFENG LITHIUM GROUP CO L-A",
+      "ticker": "002460 C2",
+      "asset_type": "Equity",
+      "weight": 0.0285,
+      "sedol": "BD5CB19",
+      "company": "name:ganfeng lithium group@china"
+    },
+    {
+      "name": "PLS GROUP LTD",
+      "ticker": "PLS AU",
+      "asset_type": "Equity",
+      "weight": 0.0273,
+      "sedol": "B2368L5",
+      "company": "name:pls group@australia"
+    },
+    {
+      "name": "TIANQI LITHIUM CORP-A",
+      "ticker": "002466 C2",
+      "asset_type": "Equity",
+      "weight": 0.0259,
+      "sedol": "BD5CKH8",
+      "company": "name:tianqi lithium"
+    },
+    {
+      "name": "ENERSYS",
+      "ticker": "ENS",
+      "asset_type": "Equity",
+      "weight": 0.0257,
+      "sedol": "B020GQ5",
+      "company": "cusip:29275Y102"
+    },
+    {
+      "name": "GUANGZHOU TINCI MATERIALS -A",
+      "ticker": "002709 C2",
+      "asset_type": "Equity",
+      "weight": 0.0256,
+      "sedol": "BD5LR63",
+      "company": "name:guangzhou tinci materials"
+    },
+    {
+      "name": "MINERAL RESOURCES LTD",
+      "ticker": "MIN AU",
+      "asset_type": "Equity",
+      "weight": 0.025,
+      "sedol": "B17ZL56",
+      "company": "name:mineral resources@australia"
+    },
+    {
+      "name": "WUXI LEAD INTELLIGENT EQUI-A",
+      "ticker": "300450 C2",
+      "asset_type": "Equity",
+      "weight": 0.0249,
+      "sedol": "BD6QWJ5",
+      "company": "name:wuxi lead intelligent equi"
+    },
+    {
+      "name": "ECOPRO BM CO LTD",
+      "ticker": "247540 KS",
+      "asset_type": "Equity",
+      "weight": 0.0198,
+      "sedol": "BJ321P7",
+      "company": "name:ecopro bm"
+    },
+    {
+      "name": "YUNNAN ENERGY NEW MATERIAL-A",
+      "ticker": "002812 C2",
+      "asset_type": "Equity",
+      "weight": 0.0184,
+      "sedol": "BFCCR30",
+      "company": "name:yunnan energy new material"
+    },
+    {
+      "name": "SUNWODA ELECTRONIC CO LTD-A",
+      "ticker": "300207 C2",
+      "asset_type": "Equity",
+      "weight": 0.0176,
+      "sedol": "BD5CCV6",
+      "company": "name:sunwoda electronic"
+    },
+    {
+      "name": "SINOMINE RESOURCE GROUP CO-A",
+      "ticker": "002738 C2",
+      "asset_type": "Equity",
+      "weight": 0.0161,
+      "sedol": "BNR4M32",
+      "company": "name:sinomine resource group"
+    },
+    {
+      "name": "SHANGHAI PUTAILAI NEW ENERGY",
+      "ticker": "603659 C1",
+      "asset_type": "Equity",
+      "weight": 0.0145,
+      "sedol": "BF2DZJ5",
+      "company": "name:shanghai putailai new energy"
+    },
+    {
+      "name": "IGO LTD",
+      "ticker": "IGO AU",
+      "asset_type": "Equity",
+      "weight": 0.0115,
+      "sedol": "6439567",
+      "company": "name:igo@australia"
+    },
+    {
+      "name": "L&F CO LTD",
+      "ticker": "066970 KS",
+      "asset_type": "Equity",
+      "weight": 0.009,
+      "sedol": "6578608",
+      "company": "name:l"
+    }
+  ]
+}

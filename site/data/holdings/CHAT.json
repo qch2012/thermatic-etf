@@ -1,0 +1,331 @@
+{
+  "ticker": "CHAT",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:09:54.725005+00:00",
+  "stale": false,
+  "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
+  "holdings": [
+    {
+      "name": "SK hynix Inc",
+      "ticker": "000660 KS",
+      "asset_type": "Equity",
+      "weight": 0.0291,
+      "sedol": "6450267",
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "Samsung Electronics Co Ltd",
+      "ticker": "005930 KS",
+      "asset_type": "Equity",
+      "weight": 0.0243,
+      "sedol": "6771720",
+      "company": "cusip:Y74718100"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "ticker": "2330 TT",
+      "asset_type": "Equity",
+      "weight": 0.0281,
+      "sedol": "6889106",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "MediaTek Inc",
+      "ticker": "2454 TT",
+      "asset_type": "Equity",
+      "weight": 0.0107,
+      "sedol": "6372480",
+      "company": "cusip:Y5945U103"
+    },
+    {
+      "name": "Advantest Corp",
+      "ticker": "6857 JP",
+      "asset_type": "Equity",
+      "weight": 0.0171,
+      "sedol": "6870490",
+      "company": "name:advantest@japan"
+    },
+    {
+      "name": "Astera Labs Inc",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.0279,
+      "cusip": "04626A103",
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "Advanced Micro Devices Inc",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0447,
+      "cusip": "007903107",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN",
+      "asset_type": "Equity",
+      "weight": 0.058,
+      "cusip": "023135106",
+      "company": "cusip:023135106"
+    },
+    {
+      "name": "Arista Networks Inc",
+      "ticker": "ANET",
+      "asset_type": "Equity",
+      "weight": 0.0262,
+      "cusip": "040413205",
+      "company": "cusip:040413205"
+    },
+    {
+      "name": "ARM Holdings PLC",
+      "ticker": "ARM",
+      "asset_type": "Equity",
+      "weight": 0.0321,
+      "cusip": "042068205",
+      "company": "cusip:042068205"
+    },
+    {
+      "name": "ASML Holding NV",
+      "ticker": "ASML",
+      "asset_type": "Equity",
+      "weight": 0.0313,
+      "cusip": "N07059210",
+      "company": "cusip:N07059202"
+    },
+    {
+      "name": "Broadcom Inc",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0346,
+      "cusip": "11135F101",
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "BE Semiconductor Industries NV",
+      "ticker": "BESI NA",
+      "asset_type": "Equity",
+      "weight": 0.0208,
+      "sedol": "BG0SCK9",
+      "company": "cusip:N13107144"
+    },
+    {
+      "name": "Cerebras Systems Inc",
+      "ticker": "CBRS",
+      "asset_type": "Equity",
+      "weight": 0.0142,
+      "cusip": "15675D103",
+      "company": "cusip:15675D103"
+    },
+    {
+      "name": "Celestica Inc",
+      "ticker": "CLS",
+      "asset_type": "Equity",
+      "weight": 0.0148,
+      "cusip": "15101Q207",
+      "company": "cusip:15101Q207"
+    },
+    {
+      "name": "CHINESE YUAN",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
+    },
+    {
+      "name": "Coherent Corp",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.0329,
+      "cusip": "19247G107",
+      "company": "cusip:19247G107"
+    },
+    {
+      "name": "Crowdstrike Holdings Inc",
+      "ticker": "CRWD",
+      "asset_type": "Equity",
+      "weight": 0.0368,
+      "cusip": "22788C105",
+      "company": "cusip:22788C105"
+    },
+    {
+      "name": "Datadog Inc",
+      "ticker": "DDOG",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "cusip": "23804L103",
+      "company": "cusip:23804L103"
+    },
+    {
+      "name": "Dell Technologies Inc",
+      "ticker": "DELL",
+      "asset_type": "Equity",
+      "weight": 0.0142,
+      "cusip": "24703L202",
+      "company": "cusip:24703L202"
+    },
+    {
+      "name": "EURO",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0043,
+      "company": null
+    },
+    {
+      "name": "First American Government Obligations Fund 12/01/2031",
+      "ticker": "FGXXX",
+      "asset_type": "Money Market",
+      "weight": 0.015,
+      "company": null
+    },
+    {
+      "name": "Alphabet Inc",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0655,
+      "cusip": "02079K305",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "Intel Corp",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0161,
+      "cusip": "458140100",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "SOUTH KOREA WON",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0033,
+      "company": null
+    },
+    {
+      "name": "Lumentum Holdings Inc",
+      "ticker": "LITE",
+      "asset_type": "Equity",
+      "weight": 0.0219,
+      "cusip": "55024U109",
+      "company": "cusip:55024U109"
+    },
+    {
+      "name": "Meta Platforms Inc",
+      "ticker": "META",
+      "asset_type": "Equity",
+      "weight": 0.0476,
+      "cusip": "30303M102",
+      "company": "cusip:30303M102"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0111,
+      "cusip": "573874104",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "Microsoft Corp",
+      "ticker": "MSFT",
+      "asset_type": "Equity",
+      "weight": 0.0591,
+      "cusip": "594918104",
+      "company": "cusip:594918104"
+    },
+    {
+      "name": "Micron Technology Inc",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0361,
+      "cusip": "595112103",
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "Nebius Group NV",
+      "ticker": "NBIS",
+      "asset_type": "Equity",
+      "weight": 0.0239,
+      "cusip": "N97284108",
+      "company": "cusip:N97284108"
+    },
+    {
+      "name": "Cloudflare Inc",
+      "ticker": "NET",
+      "asset_type": "Equity",
+      "weight": 0.0384,
+      "cusip": "18915M107",
+      "company": "cusip:18915M107"
+    },
+    {
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0639,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "Palo Alto Networks Inc",
+      "ticker": "PANW",
+      "asset_type": "Equity",
+      "weight": 0.0197,
+      "cusip": "697435105",
+      "company": "cusip:697435105"
+    },
+    {
+      "name": "Shopify Inc",
+      "ticker": "SHOP",
+      "asset_type": "Equity",
+      "weight": 0.0097,
+      "cusip": "82509L107",
+      "company": "cusip:82509L107"
+    },
+    {
+      "name": "Super Micro Computer Inc",
+      "ticker": "SMCI",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "cusip": "86800U302",
+      "company": "cusip:86800U302"
+    },
+    {
+      "name": "Snowflake Inc",
+      "ticker": "SNOW",
+      "asset_type": "Equity",
+      "weight": 0.0233,
+      "cusip": "833445109",
+      "company": "cusip:833445109"
+    },
+    {
+      "name": "Space Exploration Technologies Corp",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.0253,
+      "cusip": "84615Q103",
+      "company": "cusip:84615Q103"
+    },
+    {
+      "name": "Atlassian Corp",
+      "ticker": "TEAM",
+      "asset_type": "Equity",
+      "weight": 0.0111,
+      "cusip": "049468101",
+      "company": "cusip:049468101"
+    },
+    {
+      "name": "NEW TAIWAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0027,
+      "company": null
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0013,
+      "company": null
+    }
+  ]
+}

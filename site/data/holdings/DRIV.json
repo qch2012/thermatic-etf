@@ -1,0 +1,630 @@
+{
+  "ticker": "DRIV",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:00.599532+00:00",
+  "stale": false,
+  "source": "https://assets.globalxetfs.com/funds/holdings/driv_full-holdings_{date}.csv",
+  "holdings": [
+    {
+      "name": "ERAMET- RTS",
+      "ticker": "ERADS FP",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "BXPYMC3",
+      "company": "name:eramet"
+    },
+    {
+      "name": "MOBILEYE GLOBAL INC-A",
+      "ticker": "MBLY",
+      "asset_type": "Equity",
+      "weight": 0.0078,
+      "sedol": "BLFH8G4",
+      "company": "cusip:60741F104"
+    },
+    {
+      "name": "GANFENG LITHIUM GROUP CO L-H",
+      "ticker": "1772 HK",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "sedol": "BZ9NS11",
+      "company": "name:ganfeng lithium group@china"
+    },
+    {
+      "name": "AEVA TECHNOLOGIES INC",
+      "ticker": "AEVA",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "BSB8D21",
+      "company": "cusip:00835Q202"
+    },
+    {
+      "name": "QUANTUMSCAPE CORP",
+      "ticker": "QS",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "sedol": "BMC73Z8",
+      "company": "cusip:74767V109"
+    },
+    {
+      "name": "PLUG POWER INC",
+      "ticker": "PLUG",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "2508386",
+      "company": "cusip:72919P202"
+    },
+    {
+      "name": "LUCID GROUP INC",
+      "ticker": "LCID",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "BVY4KF9",
+      "company": "cusip:549498202"
+    },
+    {
+      "name": "BLACK SESAME INTERNATIONAL H",
+      "ticker": "2533 HK",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "sedol": "BR4V8Z8",
+      "company": "name:black sesame international"
+    },
+    {
+      "name": "LITHIUM ARGENTINA AG",
+      "ticker": "LAR CN",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "sedol": "BS891B2",
+      "company": "cusip:H5012F103"
+    },
+    {
+      "name": "HYSTER-YALE INC",
+      "ticker": "HY",
+      "asset_type": "Equity",
+      "weight": 0.0065,
+      "sedol": "B7LG306",
+      "company": "cusip:449172105"
+    },
+    {
+      "name": "INDIE SEMICONDUCTOR INC-A",
+      "ticker": "INDI",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "sedol": "BP4W0C8",
+      "company": "cusip:45569U101"
+    },
+    {
+      "name": "LITHIUM AMERICAS CORP",
+      "ticker": "LAC CN",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "sedol": "BRBS357",
+      "company": "cusip:53681J103"
+    },
+    {
+      "name": "LIONTOWN LTD",
+      "ticker": "LTR AU",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "B1J89V5",
+      "company": "name:liontown@australia"
+    },
+    {
+      "name": "ERAMET",
+      "ticker": "ERA FP",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "4017017",
+      "company": "name:eramet"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0053,
+      "company": null
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0029,
+      "company": null
+    },
+    {
+      "name": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "asset_type": "Equity",
+      "weight": 0.0496,
+      "sedol": "2588173",
+      "company": "cusip:594918104"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0376,
+      "sedol": "B616C79",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "TOYOTA MOTOR CORP",
+      "ticker": "7203 JP",
+      "asset_type": "Equity",
+      "weight": 0.0355,
+      "sedol": "6900643",
+      "company": "cusip:892331307"
+    },
+    {
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0294,
+      "sedol": "BYVY8G0",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "QUALCOMM INC",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0293,
+      "sedol": "2714923",
+      "company": "cusip:747525103"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0275,
+      "sedol": "2379504",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "GENERAL MOTORS CO",
+      "ticker": "GM",
+      "asset_type": "Equity",
+      "weight": 0.0219,
+      "sedol": "B665KZ5",
+      "company": "cusip:37045V100"
+    },
+    {
+      "name": "SKYWORKS SOLUTIONS INC",
+      "ticker": "SWKS",
+      "asset_type": "Equity",
+      "weight": 0.0211,
+      "sedol": "2961053",
+      "company": "cusip:83088M102"
+    },
+    {
+      "name": "INTEL CORP",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0205,
+      "sedol": "2463247",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "WABTEC CORP",
+      "ticker": "WAB",
+      "asset_type": "Equity",
+      "weight": 0.0204,
+      "sedol": "2955733",
+      "company": "name:wabtec"
+    },
+    {
+      "name": "NXP SEMICONDUCTORS NV",
+      "ticker": "NXPI",
+      "asset_type": "Equity",
+      "weight": 0.0189,
+      "sedol": "B505PN7",
+      "company": "cusip:N6596X109"
+    },
+    {
+      "name": "RIO TINTO PLC",
+      "ticker": "RIO LN",
+      "asset_type": "Equity",
+      "weight": 0.0178,
+      "sedol": "0718875",
+      "company": "name:rio tinto"
+    },
+    {
+      "name": "ITT INC",
+      "ticker": "ITT",
+      "asset_type": "Equity",
+      "weight": 0.0168,
+      "sedol": "BZBY209",
+      "company": "name:itt@united states"
+    },
+    {
+      "name": "INFINEON TECHNOLOGIES AG",
+      "ticker": "IFX GR",
+      "asset_type": "Equity",
+      "weight": 0.0168,
+      "sedol": "5889505",
+      "company": "cusip:D35415104"
+    },
+    {
+      "name": "SAMSUNG SDI CO LTD",
+      "ticker": "006400 KS",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "sedol": "6771645",
+      "company": "cusip:Y74866107"
+    },
+    {
+      "name": "NEXTEER AUTOMOTIVE GROUP LTD",
+      "ticker": "1316 HK",
+      "asset_type": "Equity",
+      "weight": 0.016,
+      "sedol": "BBPD5F0",
+      "company": "name:nexteer automotive group"
+    },
+    {
+      "name": "DENSO CORP",
+      "ticker": "6902 JP",
+      "asset_type": "Equity",
+      "weight": 0.0157,
+      "sedol": "6640381",
+      "company": "cusip:J12075107"
+    },
+    {
+      "name": "FORD MOTOR CO",
+      "ticker": "F",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "sedol": "2615468",
+      "company": "cusip:345370860"
+    },
+    {
+      "name": "ATI INC",
+      "ticker": "ATI",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "sedol": "2526117",
+      "company": "cusip:01741R102"
+    },
+    {
+      "name": "LG ENERGY SOLUTION",
+      "ticker": "373220 KS",
+      "asset_type": "Equity",
+      "weight": 0.0152,
+      "sedol": "BNSP8W5",
+      "company": "name:lg energy solution@korea (south)"
+    },
+    {
+      "name": "BLOOM ENERGY CORP- A",
+      "ticker": "BE",
+      "asset_type": "Equity",
+      "weight": 0.0145,
+      "sedol": "BDD1BB8",
+      "company": "cusip:093712107"
+    },
+    {
+      "name": "RENAULT SA",
+      "ticker": "RNO FP",
+      "asset_type": "Equity",
+      "weight": 0.0142,
+      "sedol": "4712798",
+      "company": "name:renault@france"
+    },
+    {
+      "name": "COHERENT CORP",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.0139,
+      "sedol": "BNG8Z81",
+      "company": "cusip:19247G107"
+    },
+    {
+      "name": "LI AUTO INC-CLASS A",
+      "ticker": "2015 HK",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "sedol": "BMW5M00",
+      "company": "cusip:50202M102"
+    },
+    {
+      "name": "TOKAI CARBON CO LTD",
+      "ticker": "5301 JP",
+      "asset_type": "Equity",
+      "weight": 0.0135,
+      "sedol": "6894003",
+      "company": "name:tokai carbon"
+    },
+    {
+      "name": "BYD CO LTD-H",
+      "ticker": "1211 HK",
+      "asset_type": "Equity",
+      "weight": 0.0132,
+      "sedol": "6536651",
+      "company": "cusip:05606L100"
+    },
+    {
+      "name": "VOLKSWAGEN AG",
+      "ticker": "VOW3 GR",
+      "asset_type": "Equity",
+      "weight": 0.0131,
+      "sedol": "5497168",
+      "company": "name:volkswagen"
+    },
+    {
+      "name": "ON SEMICONDUCTOR",
+      "ticker": "ON",
+      "asset_type": "Equity",
+      "weight": 0.0127,
+      "sedol": "2583576",
+      "company": "cusip:682189105"
+    },
+    {
+      "name": "NISSAN MOTOR CO LTD",
+      "ticker": "7201 JP",
+      "asset_type": "Equity",
+      "weight": 0.0124,
+      "sedol": "6642860",
+      "company": "name:nissan motor"
+    },
+    {
+      "name": "SKC CO LTD",
+      "ticker": "011790 KS",
+      "asset_type": "Equity",
+      "weight": 0.0122,
+      "sedol": "6018085",
+      "company": "name:skc"
+    },
+    {
+      "name": "STMICROELECTRONICS NV",
+      "ticker": "STMPA FP",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "sedol": "5962332",
+      "company": "cusip:861012102"
+    },
+    {
+      "name": "CABOT CORP",
+      "ticker": "CBT",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "sedol": "2162500",
+      "company": "cusip:127055101"
+    },
+    {
+      "name": "FORVIA",
+      "ticker": "FRVIA FP",
+      "asset_type": "Equity",
+      "weight": 0.0117,
+      "sedol": "4400446",
+      "company": "name:forvia@france"
+    },
+    {
+      "name": "BLACKBERRY LTD",
+      "ticker": "BB",
+      "asset_type": "Equity",
+      "weight": 0.0117,
+      "sedol": "BCBHZ42",
+      "company": "cusip:09228F103"
+    },
+    {
+      "name": "GENTHERM INC",
+      "ticker": "THRM",
+      "asset_type": "Equity",
+      "weight": 0.0116,
+      "sedol": "B8JFD24",
+      "company": "cusip:37253A103"
+    },
+    {
+      "name": "DAUCH CORPORATION",
+      "ticker": "DCH",
+      "asset_type": "Equity",
+      "weight": 0.0115,
+      "sedol": "2382416",
+      "company": "cusip:024061103"
+    },
+    {
+      "name": "HL MANDO CORPORATION",
+      "ticker": "204320 KS",
+      "asset_type": "Equity",
+      "weight": 0.0114,
+      "sedol": "BQJZQJ8",
+      "company": "name:hl mando"
+    },
+    {
+      "name": "GEELY AUTOMOBILE HOLDINGS LT",
+      "ticker": "175 HK",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "sedol": "6531827",
+      "company": "name:geely automobile holdings lt"
+    },
+    {
+      "name": "AMBARELLA INC",
+      "ticker": "AMBA",
+      "asset_type": "Equity",
+      "weight": 0.0112,
+      "sedol": "B7KH3G6",
+      "company": "cusip:G037AX101"
+    },
+    {
+      "name": "VISTEON CORP",
+      "ticker": "VC",
+      "asset_type": "Equity",
+      "weight": 0.0108,
+      "sedol": "B4N0JJ6",
+      "company": "cusip:92839U206"
+    },
+    {
+      "name": "XPENG INC - ADR",
+      "ticker": "XPEV",
+      "asset_type": "Equity",
+      "weight": 0.0106,
+      "sedol": "BMXR2T4",
+      "company": "cusip:98422D105"
+    },
+    {
+      "name": "ALBEMARLE CORP",
+      "ticker": "ALB",
+      "asset_type": "Equity",
+      "weight": 0.0106,
+      "sedol": "2046853",
+      "company": "cusip:012653101"
+    },
+    {
+      "name": "BAIDU INC - SPON ADR",
+      "ticker": "BIDU",
+      "asset_type": "Equity",
+      "weight": 0.0105,
+      "sedol": "B0FXT17",
+      "company": "cusip:056752108"
+    },
+    {
+      "name": "WNC CORP",
+      "ticker": "6285 TT",
+      "asset_type": "Equity",
+      "weight": 0.0105,
+      "sedol": "6682598",
+      "company": "name:wnc"
+    },
+    {
+      "name": "SITIME CORP",
+      "ticker": "SITM",
+      "asset_type": "Equity",
+      "weight": 0.0104,
+      "sedol": "BKS48R6",
+      "company": "cusip:82982T106"
+    },
+    {
+      "name": "QUIMICA Y MINERA CHIL-SP ADR",
+      "ticker": "SQM",
+      "asset_type": "Equity",
+      "weight": 0.0101,
+      "sedol": "2771122",
+      "company": "cusip:833635105"
+    },
+    {
+      "name": "GS YUASA CORP",
+      "ticker": "6674 JP",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "sedol": "6744250",
+      "company": "cusip:J1770L109"
+    },
+    {
+      "name": "SOCIONEXT INC",
+      "ticker": "6526 JP",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "sedol": "BMTVX75",
+      "company": "name:socionext"
+    },
+    {
+      "name": "ENERSYS",
+      "ticker": "ENS",
+      "asset_type": "Equity",
+      "weight": 0.0098,
+      "sedol": "B020GQ5",
+      "company": "cusip:29275Y102"
+    },
+    {
+      "name": "NEBIUS GROUP NV",
+      "ticker": "NBIS",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "sedol": "B5BSZB3",
+      "company": "cusip:N97284108"
+    },
+    {
+      "name": "ADVANCED ENERGY SOLUTION HOL",
+      "ticker": "6781 TT",
+      "asset_type": "Equity",
+      "weight": 0.0093,
+      "sedol": "BMXC4S2",
+      "company": "name:advanced energy solution hol"
+    },
+    {
+      "name": "IGO LTD",
+      "ticker": "IGO AU",
+      "asset_type": "Equity",
+      "weight": 0.0093,
+      "sedol": "6439567",
+      "company": "name:igo@australia"
+    },
+    {
+      "name": "TIANQI LITHIUM CORP-H",
+      "ticker": "9696 HK",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "sedol": "BMZ3RS4",
+      "company": "name:tianqi lithium"
+    },
+    {
+      "name": "STELLANTIS NV",
+      "ticker": "STLAM IM",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "sedol": "BMD8KX7",
+      "company": "cusip:N82405106"
+    },
+    {
+      "name": "SERES GROUP CO LTD-H",
+      "ticker": "9927 HK",
+      "asset_type": "Equity",
+      "weight": 0.009,
+      "sedol": "BRDWN24",
+      "company": "name:seres group@china"
+    },
+    {
+      "name": "ROBOSENSE TECHNOLOGY CO LTD",
+      "ticker": "2498 HK",
+      "asset_type": "Equity",
+      "weight": 0.0089,
+      "sedol": "BNG5JM4",
+      "company": "name:robosense technology@china"
+    },
+    {
+      "name": "REPT BATTERO ENERGY CO LTD-H",
+      "ticker": "666 HK",
+      "asset_type": "Equity",
+      "weight": 0.0085,
+      "sedol": "BNDWG50",
+      "company": "name:rept battero energy@china"
+    },
+    {
+      "name": "AMPRIUS TECHNOLOGIES INC",
+      "ticker": "AMPX",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "sedol": "BPSKN52",
+      "company": "cusip:03214Q108"
+    },
+    {
+      "name": "ALLEGRO MICROSYSTEMS INC",
+      "ticker": "ALGM",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "sedol": "BN4LSB6",
+      "company": "cusip:01749D105"
+    },
+    {
+      "name": "NIO INC - ADR",
+      "ticker": "NIO",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "sedol": "BFZX9H8",
+      "company": "cusip:62914V106"
+    },
+    {
+      "name": "PLS GROUP LTD",
+      "ticker": "PLS AU",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "sedol": "B2368L5",
+      "company": "name:pls group@australia"
+    },
+    {
+      "name": "EURO",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0,
+      "company": null
+    }
+  ]
+}

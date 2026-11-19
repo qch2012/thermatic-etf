@@ -1,0 +1,264 @@
+{
+  "ticker": "ARKX",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-19T11:09:48.567279+00:00",
+  "stale": false,
+  "source": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+  "holdings": [
+    {
+      "name": "SPACE EXPLORATION TECHN-CL A",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.1197,
+      "cusip": "84615Q103",
+      "company": "cusip:84615Q103"
+    },
+    {
+      "name": "L3HARRIS TECHNOLOGIES INC",
+      "ticker": "LHX",
+      "asset_type": "Equity",
+      "weight": 0.0776,
+      "cusip": "502431109",
+      "company": "cusip:502431109"
+    },
+    {
+      "name": "DEERE & CO",
+      "ticker": "DE",
+      "asset_type": "Equity",
+      "weight": 0.0624,
+      "cusip": "244199105",
+      "company": "cusip:244199105"
+    },
+    {
+      "name": "ROCKET LAB CORP",
+      "ticker": "RKLB",
+      "asset_type": "Equity",
+      "weight": 0.0586,
+      "cusip": "773121108",
+      "company": "cusip:773121108"
+    },
+    {
+      "name": "AMAZON.COM INC",
+      "ticker": "AMZN",
+      "asset_type": "Equity",
+      "weight": 0.0553,
+      "cusip": "023135106",
+      "company": "cusip:023135106"
+    },
+    {
+      "name": "AEROVIRONMENT INC",
+      "ticker": "AVAV",
+      "asset_type": "Equity",
+      "weight": 0.0532,
+      "cusip": "008073108",
+      "company": "cusip:008073108"
+    },
+    {
+      "name": "KRATOS DEFENSE & SECURITY",
+      "ticker": "KTOS",
+      "asset_type": "Equity",
+      "weight": 0.0512,
+      "cusip": "50077B207",
+      "company": "cusip:50077B207"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0426,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0418,
+      "cusip": "88160R101",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "ALPHABET INC-CL C",
+      "ticker": "GOOG",
+      "asset_type": "Equity",
+      "weight": 0.038,
+      "cusip": "02079K107",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "PALANTIR TECHNOLOGIES INC-A",
+      "ticker": "PLTR",
+      "asset_type": "Equity",
+      "weight": 0.037,
+      "cusip": "69608A108",
+      "company": "cusip:69608A108"
+    },
+    {
+      "name": "TRIMBLE INC",
+      "ticker": "TRMB",
+      "asset_type": "Equity",
+      "weight": 0.0355,
+      "cusip": "896239100",
+      "company": "cusip:896239100"
+    },
+    {
+      "name": "ARCHER AVIATION INC-A",
+      "ticker": "ACHR",
+      "asset_type": "Equity",
+      "weight": 0.031,
+      "cusip": "03945R102",
+      "company": "cusip:03945R102"
+    },
+    {
+      "name": "KOMATSU LTD",
+      "ticker": "6301",
+      "asset_type": "Equity",
+      "weight": 0.0305,
+      "sedol": "6496584",
+      "company": "name:komatsu"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0299,
+      "cusip": "007903107",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "INTUITIVE MACHINES INC",
+      "ticker": "LUNR",
+      "asset_type": "Equity",
+      "weight": 0.0267,
+      "cusip": "46125A100",
+      "company": "cusip:46125A100"
+    },
+    {
+      "name": "JOBY AVIATION INC",
+      "ticker": "JOBY",
+      "asset_type": "Equity",
+      "weight": 0.0219,
+      "cusip": "G65163100",
+      "company": "cusip:G65163100"
+    },
+    {
+      "name": "TERADYNE INC",
+      "ticker": "TER",
+      "asset_type": "Equity",
+      "weight": 0.0215,
+      "cusip": "880770102",
+      "company": "cusip:880770102"
+    },
+    {
+      "name": "DOORDASH INC - A",
+      "ticker": "DASH",
+      "asset_type": "Equity",
+      "weight": 0.0188,
+      "cusip": "25809K105",
+      "company": "cusip:25809K105"
+    },
+    {
+      "name": "THALES SA",
+      "ticker": "HO",
+      "asset_type": "Equity",
+      "weight": 0.0181,
+      "sedol": "4162791",
+      "company": "cusip:883219206"
+    },
+    {
+      "name": "BWX TECHNOLOGIES INC",
+      "ticker": "BWXT",
+      "asset_type": "Equity",
+      "weight": 0.0145,
+      "cusip": "05605H100",
+      "company": "cusip:05605H100"
+    },
+    {
+      "name": "GARMIN LTD",
+      "ticker": "GRMN UN",
+      "asset_type": "Equity",
+      "weight": 0.0134,
+      "sedol": "B3Z5T14",
+      "company": "cusip:H2906T109"
+    },
+    {
+      "name": "ELBIT SYSTEMS LTD",
+      "ticker": "ESLT",
+      "asset_type": "Equity",
+      "weight": 0.0129,
+      "cusip": "M3760D101",
+      "company": "cusip:M3760D101"
+    },
+    {
+      "name": "TELEDYNE TECHNOLOGIES INC",
+      "ticker": "TDY",
+      "asset_type": "Equity",
+      "weight": 0.0129,
+      "cusip": "879360105",
+      "company": "cusip:879360105"
+    },
+    {
+      "name": "SYNOPSYS INC",
+      "ticker": "SNPS",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "cusip": "871607107",
+      "company": "cusip:871607107"
+    },
+    {
+      "name": "LOCKHEED MARTIN CORP",
+      "ticker": "LMT",
+      "asset_type": "Equity",
+      "weight": 0.0114,
+      "cusip": "539830109",
+      "company": "cusip:539830109"
+    },
+    {
+      "name": "JD LOGISTICS INC",
+      "ticker": "2618",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "sedol": "BNMBPD9",
+      "company": "name:jd logistics"
+    },
+    {
+      "name": "X-ENERGY INC",
+      "ticker": "XE",
+      "asset_type": "Equity",
+      "weight": 0.0112,
+      "cusip": "98386P102",
+      "company": "cusip:98386P102"
+    },
+    {
+      "name": "AIRBUS SE",
+      "ticker": "AIR",
+      "asset_type": "Equity",
+      "weight": 0.0101,
+      "sedol": "4012250",
+      "company": "cusip:N0280G100"
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.01,
+      "cusip": "874039100",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "HEICO CORP",
+      "ticker": "HEI",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "cusip": "422806109",
+      "company": "cusip:422806109"
+    },
+    {
+      "name": "GOLDMAN FS TRSY OBLIG INST 468",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 0.0007,
+      "company": null
+    }
+  ]
+}

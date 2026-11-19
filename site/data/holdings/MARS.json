@@ -1,0 +1,247 @@
+{
+  "ticker": "MARS",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:16.390546+00:00",
+  "stale": false,
+  "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
+  "holdings": [
+    {
+      "name": "Satrec Initiative Co Ltd",
+      "ticker": "099320 KS",
+      "asset_type": "Equity",
+      "weight": 0.0121,
+      "sedol": "B39WTL1",
+      "company": "name:satrec initiative"
+    },
+    {
+      "name": "Astroscale Holdings Inc",
+      "ticker": "186A JP",
+      "asset_type": "Equity",
+      "weight": 0.0143,
+      "sedol": "BSMRM19",
+      "company": "name:astroscale holdings@japan"
+    },
+    {
+      "name": "Synspective Inc",
+      "ticker": "290A JP",
+      "asset_type": "Equity",
+      "weight": 0.0143,
+      "sedol": "BM9WB85",
+      "company": "name:synspective@japan"
+    },
+    {
+      "name": "QPS Holdings Inc",
+      "ticker": "464A JP",
+      "asset_type": "Equity",
+      "weight": 0.009,
+      "sedol": "BN6NH91",
+      "company": "name:qps holdings@japan"
+    },
+    {
+      "name": "SKY Perfect JSAT Corp",
+      "ticker": "9412 JP",
+      "asset_type": "Equity",
+      "weight": 0.0287,
+      "sedol": "B1TK234",
+      "company": "name:sky perfect jsat@japan"
+    },
+    {
+      "name": "AST SpaceMobile Inc",
+      "ticker": "ASTS",
+      "asset_type": "Equity",
+      "weight": 0.036,
+      "cusip": "00217D100",
+      "company": "cusip:00217D100"
+    },
+    {
+      "name": "Avio SpA",
+      "ticker": "AVIO IM",
+      "asset_type": "Equity",
+      "weight": 0.0298,
+      "sedol": "BYWZZF0",
+      "company": "cusip:T0R27R125"
+    },
+    {
+      "name": "BlackSky Technology Inc",
+      "ticker": "BKSY",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "cusip": "09263B207",
+      "company": "cusip:09263B207"
+    },
+    {
+      "name": "Eutelsat Communications SACA",
+      "ticker": "ETL FP",
+      "asset_type": "Equity",
+      "weight": 0.0267,
+      "sedol": "B0M7KJ7",
+      "company": "name:eutelsat communications"
+    },
+    {
+      "name": "First American Government Obligations Fund 12/01/2031",
+      "ticker": "FGXXX",
+      "asset_type": "Money Market",
+      "weight": 0.0056,
+      "company": null
+    },
+    {
+      "name": "Firefly Aerospace Inc",
+      "ticker": "FLY",
+      "asset_type": "Equity",
+      "weight": 0.0327,
+      "cusip": "31816X106",
+      "company": "cusip:31816X106"
+    },
+    {
+      "name": "Gilat Satellite Networks Ltd",
+      "ticker": "GILT",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "cusip": "M51474118",
+      "company": "cusip:M51474118"
+    },
+    {
+      "name": "Globalstar Inc",
+      "ticker": "GSAT",
+      "asset_type": "Equity",
+      "weight": 0.0629,
+      "cusip": "378973507",
+      "company": "cusip:378973507"
+    },
+    {
+      "name": "Iridium Communications Inc",
+      "ticker": "IRDM",
+      "asset_type": "Equity",
+      "weight": 0.0379,
+      "cusip": "46269C102",
+      "company": "cusip:46269C102"
+    },
+    {
+      "name": "Intuitive Machines Inc",
+      "ticker": "LUNR",
+      "asset_type": "Equity",
+      "weight": 0.0225,
+      "cusip": "46125A100",
+      "company": "cusip:46125A100"
+    },
+    {
+      "name": "MDA Space Ltd",
+      "ticker": "MDA",
+      "asset_type": "Equity",
+      "weight": 0.0364,
+      "cusip": "55293N109",
+      "company": "cusip:55293N109"
+    },
+    {
+      "name": "OHB SE",
+      "ticker": "OHB GR",
+      "asset_type": "Equity",
+      "weight": 0.0352,
+      "sedol": "7058228",
+      "company": "name:ohb@germany"
+    },
+    {
+      "name": "Planet Labs PBC",
+      "ticker": "PL",
+      "asset_type": "Equity",
+      "weight": 0.0316,
+      "cusip": "72703X106",
+      "company": "cusip:72703X106"
+    },
+    {
+      "name": "Redwire Corp",
+      "ticker": "RDW",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "cusip": "75776W103",
+      "company": "cusip:75776W103"
+    },
+    {
+      "name": "Rocket Lab Corp",
+      "ticker": "RKLB",
+      "asset_type": "Equity",
+      "weight": 0.0908,
+      "cusip": "773121108",
+      "company": "cusip:773121108"
+    },
+    {
+      "name": "Satellogic Inc",
+      "ticker": "SATL",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "cusip": "80401C100",
+      "company": "cusip:80401C100"
+    },
+    {
+      "name": "SES SA",
+      "ticker": "SESG FP",
+      "asset_type": "Equity",
+      "weight": 0.024,
+      "sedol": "B00ZQQ2",
+      "company": "name:ses"
+    },
+    {
+      "name": "Space Exploration Technologies Corp",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.275,
+      "cusip": "84615Q103",
+      "company": "cusip:84615Q103"
+    },
+    {
+      "name": "Spire Global Inc",
+      "ticker": "SPIR",
+      "asset_type": "Equity",
+      "weight": 0.0084,
+      "cusip": "848560306",
+      "company": "cusip:848560306"
+    },
+    {
+      "name": "Seraphim Space Investment Trust PLC",
+      "ticker": "SSIT LN",
+      "asset_type": "Equity",
+      "weight": 0.0144,
+      "sedol": "BKPG013",
+      "company": "name:seraphim space investment trust"
+    },
+    {
+      "name": "Telesat Corp",
+      "ticker": "TSAT CN",
+      "asset_type": "Equity",
+      "weight": 0.0257,
+      "sedol": "BP39LV6",
+      "company": "name:telesat"
+    },
+    {
+      "name": "Voyager Technologies Inc",
+      "ticker": "VOYG",
+      "asset_type": "Equity",
+      "weight": 0.0168,
+      "cusip": "92892B103",
+      "company": "cusip:92892B103"
+    },
+    {
+      "name": "Viasat Inc",
+      "ticker": "VSAT",
+      "asset_type": "Equity",
+      "weight": 0.0518,
+      "cusip": "92552V100",
+      "company": "cusip:92552V100"
+    },
+    {
+      "name": "York Space Systems Inc",
+      "ticker": "YSS",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "cusip": "987084100",
+      "company": "cusip:987084100"
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
+    }
+  ]
+}

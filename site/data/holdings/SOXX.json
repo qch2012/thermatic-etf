@@ -1,0 +1,272 @@
+{
+  "ticker": "SOXX",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:28.194656+00:00",
+  "stale": false,
+  "source": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
+  "holdings": [
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.1075,
+      "location": "United States",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "BROADCOM INC",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0913,
+      "location": "United States",
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "MICRON TECHNOLOGY",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0702,
+      "location": "United States",
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0653,
+      "location": "United States",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "INTEL CORPORATION",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0583,
+      "location": "United States",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "TEXAS INSTRUMENT",
+      "ticker": "TXN",
+      "asset_type": "Equity",
+      "weight": 0.0535,
+      "location": "United States",
+      "company": "name:texas instrument@united states"
+    },
+    {
+      "name": "ANALOG DEVICES",
+      "ticker": "ADI",
+      "asset_type": "Equity",
+      "weight": 0.0503,
+      "location": "United States",
+      "company": "cusip:032654105"
+    },
+    {
+      "name": "QUALCOMM",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0447,
+      "location": "United States",
+      "company": "cusip:747525103"
+    },
+    {
+      "name": "NXP SEMICONDUCTORS NV",
+      "ticker": "NXPI",
+      "asset_type": "Equity",
+      "weight": 0.0419,
+      "location": "United States",
+      "company": "cusip:N6596X109"
+    },
+    {
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "ticker": "MPWR",
+      "asset_type": "Equity",
+      "weight": 0.041,
+      "location": "United States",
+      "company": "cusip:609839105"
+    },
+    {
+      "name": "KLA",
+      "ticker": "KLAC",
+      "asset_type": "Equity",
+      "weight": 0.0394,
+      "location": "United States",
+      "company": "cusip:482480100"
+    },
+    {
+      "name": "APPLIED MATERIAL INC",
+      "ticker": "AMAT",
+      "asset_type": "Equity",
+      "weight": 0.0367,
+      "location": "United States",
+      "company": "name:applied material@united states"
+    },
+    {
+      "name": "LAM RESEARCH",
+      "ticker": "LRCX",
+      "asset_type": "Equity",
+      "weight": 0.0335,
+      "location": "United States",
+      "company": "cusip:512807306"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0328,
+      "location": "United States",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0319,
+      "location": "Taiwan",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "SK HYNIX AMERICAN DEPOSITARY SHARE",
+      "ticker": "SKHY",
+      "asset_type": "Equity",
+      "weight": 0.0272,
+      "location": "Korea (South)",
+      "company": "name:sk hynix american depositary@korea (south)"
+    },
+    {
+      "name": "TERADYNE",
+      "ticker": "TER",
+      "asset_type": "Equity",
+      "weight": 0.0241,
+      "location": "United States",
+      "company": "cusip:880770102"
+    },
+    {
+      "name": "MICROCHIP TECHNOLOGY INC",
+      "ticker": "MCHP",
+      "asset_type": "Equity",
+      "weight": 0.021,
+      "location": "United States",
+      "company": "cusip:595017104"
+    },
+    {
+      "name": "ASTERA LABS",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.0203,
+      "location": "United States",
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "ON SEMICONDUCTOR CORP",
+      "ticker": "ON",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "location": "United States",
+      "company": "cusip:682189105"
+    },
+    {
+      "name": "ASML HOLDING ADR REPRESENTING",
+      "ticker": "ASML",
+      "asset_type": "Equity",
+      "weight": 0.015,
+      "location": "Netherlands",
+      "company": "name:asml holding adr representing@netherlands"
+    },
+    {
+      "name": "ENTEGRIS INC",
+      "ticker": "ENTG",
+      "asset_type": "Equity",
+      "weight": 0.0144,
+      "location": "United States",
+      "company": "cusip:29362U104"
+    },
+    {
+      "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+      "ticker": "CRDO",
+      "asset_type": "Equity",
+      "weight": 0.0137,
+      "location": "United States",
+      "company": "cusip:G25457105"
+    },
+    {
+      "name": "MACOM TECHNOLOGY SOLUTIONS",
+      "ticker": "MTSI",
+      "asset_type": "Equity",
+      "weight": 0.0104,
+      "location": "United States",
+      "company": "cusip:55405Y100"
+    },
+    {
+      "name": "TOWER SEMICONDUCTOR",
+      "ticker": "TSEM",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "location": "Israel",
+      "company": "cusip:M87915274"
+    },
+    {
+      "name": "ASE TECHNOLOGY HOLDING ADR REPRESE",
+      "ticker": "ASX",
+      "asset_type": "Equity",
+      "weight": 0.0087,
+      "location": "Taiwan",
+      "company": "name:ase technology holding adr represe@taiwan"
+    },
+    {
+      "name": "CEREBRAS SYSTEMS INC CLASS A",
+      "ticker": "CBRS",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "location": "United States",
+      "company": "cusip:15675D103"
+    },
+    {
+      "name": "UNITED MICRO ELECTRONICS ADR REP",
+      "ticker": "UMC",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "location": "Taiwan",
+      "company": "name:united micro electronics adr rep@taiwan"
+    },
+    {
+      "name": "STMICROELECTRONICS ADR",
+      "ticker": "STM",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "location": "France",
+      "company": "name:stmicroelectronics@france"
+    },
+    {
+      "name": "ARM HOLDINGS AMERICAN DEPOSITARY S",
+      "ticker": "ARM",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "location": "United Kingdom",
+      "company": "name:arm holdings american depositary@united kingdom"
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0004,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "CASH COLLATERAL USD WFFUT",
+      "ticker": "WFFUT",
+      "asset_type": "Cash Collateral and Margins",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EMINI TECHNOLOGY SELECT SECTOR DEC",
+      "ticker": "IXTZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
+      "company": null
+    }
+  ]
+}

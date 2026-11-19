@@ -1,0 +1,186 @@
+{
+  "ticker": "NCLD",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:18.546304+00:00",
+  "stale": false,
+  "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
+  "holdings": [
+    {
+      "name": "COREWEAVE, INC.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0834,
+      "company": null
+    },
+    {
+      "name": "CoreWeave, Inc. SWAP NM",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.1091,
+      "company": null
+    },
+    {
+      "name": "United States Treasury Bill 12/03/2026",
+      "ticker": "912797VA2",
+      "asset_type": "Treasury",
+      "weight": 0.6802,
+      "company": null
+    },
+    {
+      "name": "Applied Digital Corp",
+      "ticker": "APLD",
+      "asset_type": "Equity",
+      "weight": 0.0365,
+      "cusip": "038169207",
+      "company": "cusip:038169207"
+    },
+    {
+      "name": "Boost Run Inc",
+      "ticker": "BRUN",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "cusip": "09940T100",
+      "company": "cusip:09940T100"
+    },
+    {
+      "name": "Cipher Digital Inc",
+      "ticker": "CIFR",
+      "asset_type": "Equity",
+      "weight": 0.0231,
+      "cusip": "17253J106",
+      "company": "cusip:17253J106"
+    },
+    {
+      "name": "Cleanspark Inc",
+      "ticker": "CLSK",
+      "asset_type": "Equity",
+      "weight": 0.0141,
+      "cusip": "18452B209",
+      "company": "cusip:18452B209"
+    },
+    {
+      "name": "Core Scientific Inc",
+      "ticker": "CORZ",
+      "asset_type": "Equity",
+      "weight": 0.0421,
+      "cusip": "21874A106",
+      "company": "cusip:21874A106"
+    },
+    {
+      "name": "CoreWeave Inc",
+      "ticker": "CRWV",
+      "asset_type": "Equity",
+      "weight": 0.0754,
+      "cusip": "21873S108",
+      "company": "cusip:21873S108"
+    },
+    {
+      "name": "First American Government Obligations Fund 12/01/2031",
+      "ticker": "FGXXX",
+      "asset_type": "Money Market",
+      "weight": 0.0806,
+      "company": null
+    },
+    {
+      "name": "Galaxy Digital Inc",
+      "ticker": "GLXY",
+      "asset_type": "Equity",
+      "weight": 0.0481,
+      "cusip": "36317J209",
+      "company": "cusip:36317J209"
+    },
+    {
+      "name": "HUT 8 CORP",
+      "ticker": "HUT",
+      "asset_type": "Equity",
+      "weight": 0.0655,
+      "cusip": "44812J104",
+      "company": "cusip:44812J104"
+    },
+    {
+      "name": "IREN Ltd",
+      "ticker": "IREN",
+      "asset_type": "Equity",
+      "weight": 0.0548,
+      "cusip": "Q4982L109",
+      "company": "cusip:Q4982L109"
+    },
+    {
+      "name": "Keel Infrastructure Corp",
+      "ticker": "KEEL",
+      "asset_type": "Equity",
+      "weight": 0.0089,
+      "cusip": "486917107",
+      "company": "cusip:486917107"
+    },
+    {
+      "name": "NEBIUS GROUP N.V.-SWAP-GOLD-L",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.0877,
+      "company": null
+    },
+    {
+      "name": "Nebius Group N.V. SWAP NM",
+      "ticker": null,
+      "asset_type": "Swap",
+      "weight": 0.119,
+      "company": null
+    },
+    {
+      "name": "Nebius Group NV",
+      "ticker": "NBIS",
+      "asset_type": "Equity",
+      "weight": 0.0811,
+      "cusip": "N97284108",
+      "company": "cusip:N97284108"
+    },
+    {
+      "name": "Riot Platforms Inc",
+      "ticker": "RIOT",
+      "asset_type": "Equity",
+      "weight": 0.0585,
+      "cusip": "767292105",
+      "company": "cusip:767292105"
+    },
+    {
+      "name": "RUM Group Inc",
+      "ticker": "RUM",
+      "asset_type": "Equity",
+      "weight": 0.0162,
+      "cusip": "78137L105",
+      "company": "cusip:78137L105"
+    },
+    {
+      "name": "SharonAI Holdings Inc",
+      "ticker": "SHAZ",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "cusip": "778920306",
+      "company": "cusip:778920306"
+    },
+    {
+      "name": "Terawulf Inc",
+      "ticker": "WULF",
+      "asset_type": "Equity",
+      "weight": 0.0533,
+      "cusip": "88080T104",
+      "company": "cusip:88080T104"
+    },
+    {
+      "name": "Whitefiber Inc",
+      "ticker": "WYFI",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "cusip": "G96115103",
+      "company": "cusip:G96115103"
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.7503,
+      "company": null
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "ticker": "PNQI",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-19T11:10:22.095429+00:00",
+  "stale": false,
+  "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V530/holdings/fund?idType=cusip&productType=ETF",
+  "holdings": [
+    {
+      "name": "Apple Inc",
+      "ticker": "AAPL",
+      "asset_type": "Equity",
+      "weight": 0.09577524,
+      "cusip": "037833100",
+      "company": "cusip:037833100"
+    },
+    {
+      "name": "Meta Platforms Inc",
+      "ticker": "META",
+      "asset_type": "Equity",
+      "weight": 0.09273191,
+      "cusip": "30303M102",
+      "company": "cusip:30303M102"
+    },
+    {
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN",
+      "asset_type": "Equity",
+      "weight": 0.08874138,
+      "cusip": "023135106",
+      "company": "cusip:023135106"
+    },
+    {
+      "name": "Microsoft Corp",
+      "ticker": "MSFT",
+      "asset_type": "Equity",
+      "weight": 0.08626647,
+      "cusip": "594918104",
+      "company": "cusip:594918104"
+    },
+    {
+      "name": "Alphabet Inc",
+      "ticker": "GOOG",
+      "asset_type": "Equity",
+      "weight": 0.07167466,
+      "cusip": "02079K107",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "Walt Disney Co/The",
+      "ticker": "DIS",
+      "asset_type": "Equity",
+      "weight": 0.0489795,
+      "cusip": "254687106",
+      "company": "cusip:254687106"
+    },
+    {
+      "name": "Shopify Inc",
+      "ticker": "SHOP",
+      "asset_type": "Equity",
+      "weight": 0.04073069,
+      "cusip": "82509L107",
+      "company": "cusip:82509L107"
+    },
+    {
+      "name": "Uber Technologies Inc",
+      "ticker": "UBER",
+      "asset_type": "Equity",
+      "weight": 0.0391309,
+      "cusip": "90353T100",
+      "company": "cusip:90353T100"
+    },
+    {
+      "name": "Spotify Technology SA",
+      "ticker": "SPOT",
+      "asset_type": "Equity",
+      "weight": 0.03491358,
+      "cusip": "L8681T102",
+      "company": "cusip:L8681T102"
+    },
+    {
+      "name": "Booking Holdings Inc",
+      "ticker": "BKNG",
+      "asset_type": "Equity",
+      "weight": 0.03223017,
+      "cusip": "09857L108",
+      "company": "cusip:09857L108"
+    },
+    {
+      "name": "Salesforce Inc",
+      "ticker": "CRM",
+      "asset_type": "Equity",
+      "weight": 0.03182807,
+      "cusip": "79466L302",
+      "company": "cusip:79466L302"
+    },
+    {
+      "name": "Netflix Inc",
+      "ticker": "NFLX",
+      "asset_type": "Equity",
+      "weight": 0.03177609,
+      "cusip": "64110L106",
+      "company": "cusip:64110L106"
+    },
+    {
+      "name": "Adobe Inc",
+      "ticker": "ADBE",
+      "asset_type": "Equity",
+      "weight": 0.02516137,
+      "cusip": "00724F101",
+      "company": "cusip:00724F101"
+    },
+    {
+      "name": "Intuit Inc",
+      "ticker": "INTU",
+      "asset_type": "Equity",
+      "weight": 0.02398475,
+      "cusip": "461202103",
+      "company": "cusip:461202103"
+    },
+    {
+      "name": "Airbnb Inc",
+      "ticker": "ABNB",
+      "asset_type": "Equity",
+      "weight": 0.02115677,
+      "cusip": "009066101",
+      "company": "cusip:009066101"
+    },
+    {
+      "name": "MercadoLibre Inc",
+      "ticker": "MELI",
+      "asset_type": "Equity",
+      "weight": 0.02018719,
+      "cusip": "58733R102",
+      "company": "cusip:58733R102"
+    },
+    {
+      "name": "DoorDash Inc",
+      "ticker": "DASH",
+      "asset_type": "Equity",
+      "weight": 0.01909669,
+      "cusip": "25809K105",
+      "company": "cusip:25809K105"
+    },
+    {
+      "name": "eBay Inc",
+      "ticker": "EBAY",
+      "asset_type": "Equity",
+      "weight": 0.01512505,
+      "cusip": "278642103",
+      "company": "cusip:278642103"
+    },
+    {
+      "name": "PayPal Holdings Inc",
+      "ticker": "PYPL",
+      "asset_type": "Equity",
+      "weight": 0.01386143,
+      "cusip": "70450Y103",
+      "company": "cusip:70450Y103"
+    },
+    {
+      "name": "Alibaba Group Holding Ltd",
+      "ticker": "BABA",
+      "asset_type": "Equity",
+      "weight": 0.012221,
+      "cusip": "01609W102",
+      "company": "cusip:01609W102"
+    },
+    {
+      "name": "Okta Inc",
+      "ticker": "OKTA",
+      "asset_type": "Equity",
+      "weight": 0.00909977,
+      "cusip": "679295105",
+      "company": "cusip:679295105"
+    },
+    {
+      "name": "ROBLOX Corp",
+      "ticker": "RBLX",
+      "asset_type": "Equity",
+      "weight": 0.00887274,
+      "cusip": "771049103",
+      "company": "cusip:771049103"
+    },
+    {
+      "name": "Sea Ltd",
+      "ticker": "SE",
+      "asset_type": "Equity",
+      "weight": 0.00842966,
+      "cusip": "81141R100",
+      "company": "cusip:81141R100"
+    },
+    {
+      "name": "Twilio Inc",
+      "ticker": "TWLO",
+      "asset_type": "Equity",
+      "weight": 0.0083788,
+      "cusip": "90138F102",
+      "company": "cusip:90138F102"
+    },
+    {
+      "name": "Expedia Group Inc",
+      "ticker": "EXPE",
+      "asset_type": "Equity",
+      "weight": 0.00784916,
+      "cusip": "30212P303",
+      "company": "cusip:30212P303"
+    },
+    {
+      "name": "VeriSign Inc",
+      "ticker": "VRSN",
+      "asset_type": "Equity",
+      "weight": 0.00773856,
+      "cusip": "92343E102",
+      "company": "cusip:92343E102"
+    },
+    {
+      "name": "Coinbase Global Inc",
+      "ticker": "COIN",
+      "asset_type": "Equity",
+      "weight": 0.00685639,
+      "cusip": "19260Q107",
+      "company": "cusip:19260Q107"
+    },
+    {
+      "name": "Zoom Communications Inc",
+      "ticker": "ZM",
+      "asset_type": "Equity",
+      "weight": 0.00679018,
+      "cusip": "98980L101",
+      "company": "cusip:98980L101"
+    },
+    {
+      "name": "Coupang Inc",
+      "ticker": "CPNG",
+      "asset_type": "Equity",
+      "weight": 0.00655359,
+      "cusip": "22266T109",
+      "company": "cusip:22266T109"
+    },
+    {
+      "name": "Unity Software Inc",
+      "ticker": "U",
+      "asset_type": "Equity",
+      "weight": 0.00599839,
+      "cusip": "91332U101",
+      "company": "cusip:91332U101"
+    },
+    {
+      "name": "Docusign Inc",
+      "ticker": "DOCU",
+      "asset_type": "Equity",
+      "weight": 0.00406735,
+      "cusip": "256163106",
+      "company": "cusip:256163106"
+    },
+    {
+      "name": "Reddit Inc",
+      "ticker": "RDDT",
+      "asset_type": "Equity",
+      "weight": 0.00382813,
+      "cusip": "75734B100",
+      "company": "cusip:75734B100"
+    },
+    {
+      "name": "Akamai Technologies Inc",
+      "ticker": "AKAM",
+      "asset_type": "Equity",
+      "weight": 0.00367246,
+      "cusip": "00971T101",
+      "company": "cusip:00971T101"
+    },
+    {
+      "name": "GoDaddy Inc",
+      "ticker": "GDDY",
+      "asset_type": "Equity",
+      "weight": 0.00363713,
+      "cusip": "380237107",
+      "company": "cusip:380237107"
+    },
+    {
+      "name": "Wayfair Inc",
+      "ticker": "W",
+      "asset_type": "Equity",
+      "weight": 0.00355729,
+      "cusip": "94419L101",
+      "company": "cusip:94419L101"
+    },
+    {
+      "name": "Grab Holdings Ltd",
+      "ticker": "GRAB",
+      "asset_type": "Equity",
+      "weight": 0.00349101,
+      "cusip": "G4124C109",
+      "company": "cusip:G4124C109"
+    },
+    {
+      "name": "CoStar Group Inc",
+      "ticker": "CSGP",
+      "asset_type": "Equity",
+      "weight": 0.00336261,
+      "cusip": "22160N109",
+      "company": "cusip:22160N109"
+    },
+    {
+      "name": "JD.com Inc",
+      "ticker": "JD",
+      "asset_type": "Equity",
+      "weight": 0.00329945,
+      "cusip": "47215P106",
+      "company": "cusip:47215P106"
+    },
+    {
+      "name": "Trip.com Group Ltd",
+      "ticker": "TCOM",
+      "asset_type": "Equity",
+      "weight": 0.00328394,
+      "cusip": "89677Q107",
+      "company": "cusip:89677Q107"
+    },
+    {
+      "name": "HubSpot Inc",
+      "ticker": "HUBS",
+      "asset_type": "Equity",
+      "weight": 0.00285105,
+      "cusip": "443573100",
+      "company": "cusip:443573100"
+    },
+    {
+      "name": "NetEase Inc",
+      "ticker": "NTES",
+      "asset_type": "Equity",
+      "weight": 0.00260928,
+      "cusip": "64110W102",
+      "company": "cusip:64110W102"
+    },
+    {
+      "name": "Paylocity Holding Corp",
+      "ticker": "PCTY",
+      "asset_type": "Equity",
+      "weight": 0.0025855,
+      "cusip": "70438V106",
+      "company": "cusip:70438V106"
+    },
+    {
+      "name": "DraftKings Inc",
+      "ticker": "DKNG",
+      "asset_type": "Equity",
+      "weight": 0.00245752,
+      "cusip": "26142V105",
+      "company": "cusip:26142V105"
+    },
+    {
+      "name": "Elastic NV",
+      "ticker": "ESTC",
+      "asset_type": "Equity",
+      "weight": 0.00243018,
+      "cusip": "N14506104",
+      "company": "cusip:N14506104"
+    },
+    {
+      "name": "Pinterest Inc",
+      "ticker": "PINS",
+      "asset_type": "Equity",
+      "weight": 0.00241993,
+      "cusip": "72352L106",
+      "company": "cusip:72352L106"
+    },
+    {
+      "name": "Etsy Inc",
+      "ticker": "ETSY",
+      "asset_type": "Equity",
+      "weight": 0.00216649,
+      "cusip": "29786A106",
+      "company": "cusip:29786A106"
+    },
+    {
+      "name": "Snap Inc",
+      "ticker": "SNAP",
+      "asset_type": "Equity",
+      "weight": 0.00215133,
+      "cusip": "83304A106",
+      "company": "cusip:83304A106"
+    },
+    {
+      "name": "Gitlab Inc",
+      "ticker": "GTLB",
+      "asset_type": "Equity",
+      "weight": 0.00208224,
+      "cusip": "37637K108",
+      "company": "cusip:37637K108"
+    },
+    {
+      "name": "Baidu Inc",
+      "ticker": "BIDU",
+      "asset_type": "Equity",
+      "weight": 0.00186832,
+      "cusip": "056752108",
+      "company": "cusip:056752108"
+    },
+    {
+      "name": "Lyft Inc",
+      "ticker": "LYFT",
+      "asset_type": "Equity",
+      "weight": 0.00184856,
+      "cusip": "55087P104",
+      "company": "cusip:55087P104"
+    },
+    {
+      "name": "Global-e Online Ltd",
+      "ticker": "GLBE",
+      "asset_type": "Equity",
+      "weight": 0.00178116,
+      "cusip": "M5216V106",
+      "company": "cusip:M5216V106"
+    },
+    {
+      "name": "Box Inc",
+      "ticker": "BOX",
+      "asset_type": "Equity",
+      "weight": 0.00164723,
+      "cusip": "10316T104",
+      "company": "cusip:10316T104"
+    },
+    {
+      "name": "Open Text Corp",
+      "ticker": "OTEX",
+      "asset_type": "Equity",
+      "weight": 0.00155061,
+      "cusip": "683715106",
+      "company": "cusip:683715106"
+    },
+    {
+      "name": "Vipshop Holdings Ltd",
+      "ticker": "VIPS",
+      "asset_type": "Equity",
+      "weight": 0.0014541,
+      "cusip": "92763W103",
+      "company": "cusip:92763W103"
+    },
+    {
+      "name": "Zillow Group Inc",
+      "ticker": "Z",
+      "asset_type": "Equity",
+      "weight": 0.00139494,
+      "cusip": "98954M200",
+      "company": "cusip:98954M200"
+    },
+    {
+      "name": "Dropbox Inc",
+      "ticker": "DBX",
+      "asset_type": "Equity",
+      "weight": 0.00136359,
+      "cusip": "26210C104",
+      "company": "cusip:26210C104"
+    },
+    {
+      "name": "Chewy Inc",
+      "ticker": "CHWY",
+      "asset_type": "Equity",
+      "weight": 0.00134219,
+      "cusip": "16679L109",
+      "company": "cusip:16679L109"
+    },
+    {
+      "name": "MakeMyTrip Ltd",
+      "ticker": "MMYT",
+      "asset_type": "Equity",
+      "weight": 0.00121028,
+      "cusip": "V5633W109",
+      "company": "cusip:V5633W109"
+    },
+    {
+      "name": "Alarm.com Holdings Inc",
+      "ticker": "ALRM",
+      "asset_type": "Equity",
+      "weight": 0.00089788,
+      "cusip": "011642105",
+      "company": "cusip:011642105"
+    },
+    {
+      "name": "Lemonade Inc",
+      "ticker": "LMND",
+      "asset_type": "Equity",
+      "weight": 0.00088596,
+      "cusip": "52567D107",
+      "company": "cusip:52567D107"
+    },
+    {
+      "name": "Fastly Inc",
+      "ticker": "FSLY",
+      "asset_type": "Equity",
+      "weight": 0.00082244,
+      "cusip": "31188V100",
+      "company": "cusip:31188V100"
+    },
+    {
+      "name": "SPS Commerce Inc",
+      "ticker": "SPSC",
+      "asset_type": "Equity",
+      "weight": 0.00079203,
+      "cusip": "78463M107",
+      "company": "cusip:78463M107"
+    },
+    {
+      "name": "Invesco Government & Agency Portfolio",
+      "ticker": "AGPXX",
+      "asset_type": "Money Market Fund, Taxable",
+      "weight": 0.00077554,
+      "company": null
+    },
+    {
+      "name": "Wix.com Ltd",
+      "ticker": "WIX",
+      "asset_type": "Equity",
+      "weight": 0.00072904,
+      "cusip": "M98068105",
+      "company": "cusip:M98068105"
+    },
+    {
+      "name": "Dlocal Ltd/Uruguay",
+      "ticker": "DLO",
+      "asset_type": "Equity",
+      "weight": 0.00062638,
+      "cusip": "G29018101",
+      "company": "cusip:G29018101"
+    },
+    {
+      "name": "Teladoc Health Inc",
+      "ticker": "TDOC",
+      "asset_type": "Equity",
+      "weight": 0.00042637,
+      "cusip": "87918A105",
+      "company": "cusip:87918A105"
+    },
+    {
+      "name": "Autohome Inc",
+      "ticker": "ATHM",
+      "asset_type": "Equity",
+      "weight": 0.00039691,
+      "cusip": "05278C107",
+      "company": "cusip:05278C107"
+    },
+    {
+      "name": "Bilibili Inc",
+      "ticker": "BILI",
+      "asset_type": "Equity",
+      "weight": 0.0003925,
+      "cusip": "090040106",
+      "company": "cusip:090040106"
+    },
+    {
+      "name": "Yelp Inc",
+      "ticker": "YELP",
+      "asset_type": "Equity",
+      "weight": 0.0003219,
+      "cusip": "985817105",
+      "company": "cusip:985817105"
+    },
+    {
+      "name": "Criteo SA",
+      "ticker": "CRTO",
+      "asset_type": "Equity",
+      "weight": 0.00029305,
+      "cusip": "L20675101",
+      "company": "cusip:L20675101"
+    },
+    {
+      "name": "TripAdvisor Inc",
+      "ticker": "TRIP",
+      "asset_type": "Equity",
+      "weight": 0.00024594,
+      "cusip": "896945201",
+      "company": "cusip:896945201"
+    },
+    {
+      "name": "Bumble Inc",
+      "ticker": "BMBL",
+      "asset_type": "Equity",
+      "weight": 0.00022876,
+      "cusip": "12047B105",
+      "company": "cusip:12047B105"
+    },
+    {
+      "name": "Consensus Cloud Solutions Inc",
+      "ticker": "CCSI",
+      "asset_type": "Equity",
+      "weight": 0.00021832,
+      "cusip": "20848V105",
+      "company": "cusip:20848V105"
+    },
+    {
+      "name": "Cars.com Inc",
+      "ticker": "CARS",
+      "asset_type": "Equity",
+      "weight": 0.00021308,
+      "cusip": "14575E105",
+      "company": "cusip:14575E105"
+    },
+    {
+      "name": "Stitch Fix Inc",
+      "ticker": "SFIX",
+      "asset_type": "Equity",
+      "weight": 0.00010195,
+      "cusip": "860897107",
+      "company": "cusip:860897107"
+    },
+    {
+      "name": "Lands' End Inc",
+      "ticker": "LE",
+      "asset_type": "Equity",
+      "weight": 8.742e-05,
+      "cusip": "51509F105",
+      "company": "cusip:51509F105"
+    },
+    {
+      "name": "eGain Corp",
+      "ticker": "EGAN",
+      "asset_type": "Equity",
+      "weight": 4.845e-05,
+      "cusip": "28225C806",
+      "company": "cusip:28225C806"
+    },
+    {
+      "name": "SECURITIES LENDING - BNYM",
+      "ticker": null,
+      "asset_type": "Uninvestible Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CASH & EQUIVALENTS",
+      "ticker": "USD",
+      "asset_type": "Currency",
+      "weight": -5.795e-05,
+      "company": null
+    },
+    {
+      "name": "USD Pending Dividends",
+      "ticker": "USDPDV",
+      "asset_type": "Currency",
+      "weight": 0.0,
+      "company": null
+    }
+  ]
+}
