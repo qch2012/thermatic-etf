@@ -68,6 +68,15 @@
       <p id="chart-summary" role="status"></p>
     </section>
 
+    <!-- Trend heatmap (SPEC 6.8) -->
+    <section id="trend" aria-labelledby="trend-title">
+      <h2 id="trend-title">Trend</h2>
+      <p>Price return of each eligible fund over the last 1, 3, 6 and 12 months, counted from the last close on or before that date. Green = up, red = down, darker = bigger move. A fund that is green across the row has been rising on every horizon. "—" means the fund is younger than the period. Why the colour scales differ (10% for 1M up to 50% for 1Y): longer periods have bigger moves, so one scale would make every short period look pale. Trend is for reading only and does not change scores or ranks.</p>
+      <label>Theme <select id="trend-theme"></select></label>
+      <div id="trend-body" class="table-scroll" tabindex="0" role="region" aria-label="Trend heatmap"><p>Loading…</p></div>
+    </section>
+    <script src="trend.js" defer></script>
+
     <!-- Overlap (#9) -->
     <section id="overlap" aria-labelledby="overlap-title">
       <h2 id="overlap-title">Holdings overlap</h2>

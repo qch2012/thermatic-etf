@@ -1,5 +1,5 @@
 import argparse
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 import json
 import logging
 from pathlib import Path
@@ -26,6 +26,21 @@ def write_json(path, data, compact=False):
         file.write(text)
         temporary = Path(file.name)
     temporary.replace(path)
+
+
+# Trend heatmap (SPEC 6.8): display only, never scored.
+TREND_DAYS = {"1m": 30, "3m": 91, "6m": 182, "1y": 365}
+
+
+def trend(prices):
+    """Return over each period: last close / last close on or before (last date - days) - 1. None if too young."""
+    last = date.fromisoformat(prices[-1]["date"])
+    result = {}
+    for key, days in TREND_DAYS.items():
+        target = (last - timedelta(days=days)).isoformat()
+        base = [p for p in prices if p["date"] <= target]
+        result[key] = prices[-1]["adjusted_close"] / base[-1]["adjusted_close"] - 1 if base else None
+    return result
 
 
 def three_years_before(day):
@@ -115,6 +130,7 @@ def run(settings, output, cache_dir, directory_text=None):
     for fund in funds:
         prices = [p for p in fund.pop("prices") if p["adjusted_close"] is not None]
         if prices:
+            fund["trend"] = trend(prices)
             # A stale peer pulls the theme's common end back; keep every file back to the theme window start.
             start = min(three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat(),
                         window_starts.get(fund["theme"], "9999"))

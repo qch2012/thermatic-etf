@@ -157,6 +157,7 @@ All views read static JSON. No server code.
    - Load per-fund holdings files lazily (`site/data/holdings/<TICKER>.json`).
 6. **Status bar.** Data as-of date, last successful run, fund count, failed fetches, and a stale banner if data is older than 2 trading days. Link to a "Method" panel that renders section 5 in plain English.
 7. Responsive down to 390 px wide. Keyboard-accessible controls. No external CDNs, fonts or trackers. Add `noindex`.
+8. **Trend heatmap.** Eligible funds of one theme (theme picker), columns 1M / 3M / 6M / 1Y price return (last close vs the last close on or before 30 / 91 / 182 / 365 days earlier). Green for gains, red for losses, darker for bigger moves; empty when the fund is younger than the period. Display only: never scored.
 
 ## 7. Daily refresh job (GitHub Actions)
 

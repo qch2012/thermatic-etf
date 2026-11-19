@@ -12,7 +12,7 @@ import urllib.error
 
 import yaml
 
-from pipeline.__main__ import ROOT, run
+from pipeline.__main__ import ROOT, run, trend
 from pipeline.method import classify, gate, percentiles, score
 from pipeline.sources import create
 from pipeline.sources.directory import parse
@@ -173,6 +173,14 @@ class MethodTests(unittest.TestCase):
 
 
 class PipelineTests(unittest.TestCase):
+    def test_trend_returns(self):
+        prices = [{"date": d, "adjusted_close": c} for d, c in
+                  [("2025-01-01", 50), ("2025-12-01", 80), ("2026-03-01", 90), ("2026-03-02", 99), ("2026-04-01", 100)]]
+        # 1m: last close on or before 2026-03-02 is 99; 3m (2026-01-01): 80; 6m (2025-10-01) and 1y: 50.
+        self.assertEqual({k: round(v, 4) for k, v in trend(prices).items()}, {"1m": 0.0101, "3m": 0.25, "6m": 1.0, "1y": 1.0})
+        self.assertEqual(trend(prices[-2:])["3m"], None)  # too young
+
+
     def test_directory(self):
         self.assertEqual([f["ticker"] for f in parse(DIRECTORY)], ["AAA", "BBB", "CCC"])
         with self.assertRaises(ValueError):

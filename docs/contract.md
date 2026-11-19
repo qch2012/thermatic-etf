@@ -66,7 +66,7 @@ Always present:
 | `score` | number or `null` | 0–100, within theme only. `null` unless eligible. |
 | `cumulative_return`, `annualized_return`, `volatility`, `ratio` | number or `null` | SPEC 5.4, over the theme's window. `null` unless the fund is measured. |
 
-Present when the fund has price data: `age` (years), `dollar_volume` (mean close × volume, last 63 days).
+Present when the fund has price data: `age` (years), `dollar_volume` (mean close × volume, last 63 days), `trend` `{1m, 3m, 6m, 1y}` (price return over the last 30, 91, 182, 365 days, measured from the last close on or before that day; `null` when the fund is younger than the period; display only, never scored).
 
 Present only when `status == "Eligible"`: `percentiles` `{size, cost, performance}` (each 0–1; 0.5 = neutral for a missing fee or unmeasured performance) and `performance_unmeasured` (bool, the † flag). Score = 100 × (0.4 × size + 0.2 × cost + 0.4 × performance); the live-weights slider can recompute from these.
 
