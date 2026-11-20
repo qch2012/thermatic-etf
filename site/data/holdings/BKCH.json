@@ -1,7 +1,7 @@
 {
   "ticker": "BKCH",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T22:51:26.081131+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-20T03:45:18.779747+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/bkch_full-holdings_{date}.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "CANADIAN DOLLAR",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0003,
+      "weight": 0.0004,
       "company": null
     },
     {
@@ -23,21 +23,14 @@
       "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0006,
-      "company": null
-    },
-    {
-      "name": "INDONESIA RUPIAH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0038,
+      "weight": -0.0039,
       "company": null
     },
     {
       "name": "COINBASE GLOBAL INC -CLASS A",
       "ticker": "COIN",
       "asset_type": "Equity",
-      "weight": 0.1095,
+      "weight": 0.1118,
       "sedol": "BMC9P69",
       "company": "cusip:19260Q107"
     },
@@ -45,7 +38,7 @@
       "name": "BITMINE IMMERSION TECHNOLOGI",
       "ticker": "BMNR",
       "asset_type": "Equity",
-      "weight": 0.109,
+      "weight": 0.1101,
       "sedol": "BNYD8N4",
       "company": "cusip:09175A206"
     },
@@ -53,7 +46,7 @@
       "name": "CIRCLE INTERNET GROUP INC",
       "ticker": "CRCL",
       "asset_type": "Equity",
-      "weight": 0.1045,
+      "weight": 0.1054,
       "sedol": "BL6K237",
       "company": "cusip:172573107"
     },
@@ -61,7 +54,7 @@
       "name": "RIOT PLATFORMS INC",
       "ticker": "RIOT",
       "asset_type": "Equity",
-      "weight": 0.0741,
+      "weight": 0.0746,
       "sedol": "BD9F675",
       "company": "cusip:767292105"
     },
@@ -69,7 +62,7 @@
       "name": "IREN LIMITED",
       "ticker": "IREN",
       "asset_type": "Equity",
-      "weight": 0.0662,
+      "weight": 0.0649,
       "sedol": "BMQ80V2",
       "company": "cusip:Q4982L109"
     },
@@ -77,7 +70,7 @@
       "name": "CORE SCIENTIFIC INC",
       "ticker": "CORZ",
       "asset_type": "Equity",
-      "weight": 0.0552,
+      "weight": 0.0544,
       "sedol": "BN70TG2",
       "company": "cusip:21874A106"
     },
@@ -90,26 +83,26 @@
       "company": "cusip:88080T104"
     },
     {
-      "name": "MARA HOLDINGS INC",
-      "ticker": "MARA",
-      "asset_type": "Equity",
-      "weight": 0.0504,
-      "sedol": "BLR7B52",
-      "company": "cusip:565788106"
-    },
-    {
       "name": "HUT 8 CORP",
       "ticker": "HUT CN",
       "asset_type": "Equity",
-      "weight": 0.0501,
+      "weight": 0.0508,
       "sedol": "BQQ8805",
       "company": "cusip:44812J104"
+    },
+    {
+      "name": "MARA HOLDINGS INC",
+      "ticker": "MARA",
+      "asset_type": "Equity",
+      "weight": 0.0497,
+      "sedol": "BLR7B52",
+      "company": "cusip:565788106"
     },
     {
       "name": "CIPHER DIGITAL INC",
       "ticker": "CIFR",
       "asset_type": "Equity",
-      "weight": 0.0469,
+      "weight": 0.0479,
       "sedol": "BMZ8604",
       "company": "cusip:17253J106"
     },
@@ -117,7 +110,7 @@
       "name": "GALAXY DIGITAL INC-A",
       "ticker": "GLXY",
       "asset_type": "Equity",
-      "weight": 0.0433,
+      "weight": 0.0415,
       "sedol": "BV97X10",
       "company": "cusip:36317J209"
     },
@@ -125,7 +118,7 @@
       "name": "CLEANSPARK INC",
       "ticker": "CLSK",
       "asset_type": "Equity",
-      "weight": 0.0421,
+      "weight": 0.0411,
       "sedol": "BJDRX78",
       "company": "cusip:18452B209"
     },
@@ -133,7 +126,7 @@
       "name": "KEEL INFRASTRUCTURE CORP",
       "ticker": "KEEL CN",
       "asset_type": "Equity",
-      "weight": 0.0377,
+      "weight": 0.0379,
       "sedol": "BS2DWC8",
       "company": "cusip:486917107"
     },
@@ -141,7 +134,7 @@
       "name": "ETORO GROUP LTD-A",
       "ticker": "ETOR",
       "asset_type": "Equity",
-      "weight": 0.0338,
+      "weight": 0.0335,
       "sedol": "BS491D8",
       "company": "cusip:G32089107"
     },
@@ -149,7 +142,7 @@
       "name": "BULLISH",
       "ticker": "BLSH",
       "asset_type": "Equity",
-      "weight": 0.0303,
+      "weight": 0.0308,
       "sedol": "BV6KVT6",
       "company": "cusip:G16910120"
     },
@@ -157,7 +150,7 @@
       "name": "BITDEER TECHNOLOGIES GROUP-A",
       "ticker": "BTDR",
       "asset_type": "Equity",
-      "weight": 0.0219,
+      "weight": 0.0199,
       "sedol": "BNTCCT0",
       "company": "cusip:G11448100"
     },
@@ -173,7 +166,7 @@
       "name": "BGIN BLOCKCHAIN LTD CL A",
       "ticker": "BGIN",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0119,
       "sedol": "BMHSG80",
       "company": "name:bgin blockchain"
     },
@@ -181,73 +174,73 @@
       "name": "BITGO HOLDINGS INC-CL A",
       "ticker": "BTGO",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0075,
       "sedol": "BTY39L1",
       "company": "cusip:091947101"
-    },
-    {
-      "name": "INDOKRIPTO KOIN SEMESTA TBK",
-      "ticker": "COIN IJ",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "sedol": "BV6GGR7",
-      "company": "name:indokripto koin semesta tbk"
     },
     {
       "name": "CANGO INC/KY-CLASS A",
       "ticker": "CANG",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0053,
       "sedol": "BXWTPD3",
       "company": "name:cango inc ky"
+    },
+    {
+      "name": "INDOKRIPTO KOIN SEMESTA TBK",
+      "ticker": "COIN IJ",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "sedol": "BV6GGR7",
+      "company": "name:indokripto koin semesta tbk"
     },
     {
       "name": "PHOENIX GROUP PLC",
       "ticker": "PHX UH",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0041,
       "sedol": "BQ759B3",
       "company": "name:phoenix group"
-    },
-    {
-      "name": "CANAAN INC",
-      "ticker": "CAN",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "BL4PZ46",
-      "company": "name:canaan"
-    },
-    {
-      "name": "AMERICAN BITCOIN CORP-A",
-      "ticker": "ABTC",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BTCL713",
-      "company": "name:american bitcoin"
     },
     {
       "name": "OSL GROUP LTD",
       "ticker": "863 HK",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0034,
       "sedol": "BKPSJS9",
       "company": "name:osl group"
+    },
+    {
+      "name": "AMERICAN BITCOIN CORP-A",
+      "ticker": "ABTC",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "BTCL713",
+      "company": "name:american bitcoin"
+    },
+    {
+      "name": "CANAAN INC",
+      "ticker": "CAN",
+      "asset_type": "Equity",
+      "weight": 0.0032,
+      "sedol": "BL4PZ46",
+      "company": "name:canaan"
     },
     {
       "name": "GEMINI SPACE STATION INC-A",
       "ticker": "GEMI",
       "asset_type": "Equity",
-      "weight": 0.003,
+      "weight": 0.0029,
       "sedol": "BT6CC06",
       "company": "name:gemini space station"
     },
     {
-      "name": "AMBER INTERNATIONAL HOLDING",
-      "ticker": "AMBR",
+      "name": "BITCOIN GROUP SE",
+      "ticker": "ADE GR",
       "asset_type": "Equity",
       "weight": 0.0029,
-      "sedol": "BQ0KQT2",
-      "company": "name:amber international holding"
+      "sedol": "BBCR986",
+      "company": "name:bitcoin group"
     },
     {
       "name": "BAKKT INC",
@@ -258,12 +251,12 @@
       "company": "cusip:05759B305"
     },
     {
-      "name": "BITCOIN GROUP SE",
-      "ticker": "ADE GR",
+      "name": "AMBER INTERNATIONAL HOLDING",
+      "ticker": "AMBR",
       "asset_type": "Equity",
-      "weight": 0.0027,
-      "sedol": "BBCR986",
-      "company": "name:bitcoin group"
+      "weight": 0.0028,
+      "sedol": "BQ0KQT2",
+      "company": "name:amber international holding"
     },
     {
       "name": "BTCS INC",
@@ -277,7 +270,7 @@
       "name": "EXODUS MOVEMENT INC - A",
       "ticker": "EXOD",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0023,
       "sedol": "BNZJKK2",
       "company": "name:exodus movement"
     },
@@ -285,7 +278,7 @@
       "name": "SOLUNA HOLDINGS INC",
       "ticker": "SLNH",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.0022,
       "sedol": "BRBR235",
       "company": "name:soluna holdings"
     },
@@ -293,7 +286,7 @@
       "name": "BITFUFU INC-A",
       "ticker": "FUFU",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.0011,
       "sedol": "BRC73W0",
       "company": "name:bitfufu"
     },
@@ -301,7 +294,7 @@
       "name": "NEPTUNE DIGITAL ASSETS CORP",
       "ticker": "NDA CN",
       "asset_type": "Equity",
-      "weight": 0.0006,
+      "weight": 0.0004,
       "sedol": "BJLKG81",
       "company": "name:neptune digital assets"
     }

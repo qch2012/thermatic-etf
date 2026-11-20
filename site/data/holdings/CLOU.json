@@ -1,15 +1,22 @@
 {
   "ticker": "CLOU",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T22:51:30.746384+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-20T03:45:24.228926+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/clou_full-holdings_{date}.csv",
   "holdings": [
     {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0003,
+      "company": null
+    },
+    {
       "name": "CLOUDFLARE INC - CLASS A",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.05,
+      "weight": 0.052,
       "sedol": "BJXC5M2",
       "company": "cusip:18915M107"
     },
@@ -17,7 +24,7 @@
       "name": "AKAMAI TECHNOLOGIES INC",
       "ticker": "AKAM",
       "asset_type": "Equity",
-      "weight": 0.0479,
+      "weight": 0.0493,
       "sedol": "2507457",
       "company": "cusip:00971T101"
     },
@@ -25,23 +32,23 @@
       "name": "DIGITALOCEAN HOLDINGS INC",
       "ticker": "DOCN",
       "asset_type": "Equity",
-      "weight": 0.0463,
+      "weight": 0.0456,
       "sedol": "BNC23Q1",
       "company": "cusip:25402D102"
     },
     {
-      "name": "ZOOM COMMUNICATIONS INC",
-      "ticker": "ZM",
+      "name": "ZSCALER INC",
+      "ticker": "ZS",
       "asset_type": "Equity",
-      "weight": 0.0424,
-      "sedol": "BGSP7M9",
-      "company": "cusip:98980L101"
+      "weight": 0.0422,
+      "sedol": "BZ00V34",
+      "company": "cusip:98980G102"
     },
     {
       "name": "SNOWFLAKE INC",
       "ticker": "SNOW",
       "asset_type": "Equity",
-      "weight": 0.0421,
+      "weight": 0.0417,
       "sedol": "BN134B7",
       "company": "cusip:833445109"
     },
@@ -49,113 +56,113 @@
       "name": "DIGITAL REALTY TRUST INC",
       "ticker": "DLR",
       "asset_type": "Equity",
-      "weight": 0.0415,
+      "weight": 0.0417,
       "sedol": "B03GQS4",
       "company": "cusip:253868103"
-    },
-    {
-      "name": "PROCORE TECHNOLOGIES INC",
-      "ticker": "PCOR",
-      "asset_type": "Equity",
-      "weight": 0.0409,
-      "sedol": "BLH11J8",
-      "company": "name:procore technologies"
-    },
-    {
-      "name": "HUBSPOT INC",
-      "ticker": "HUBS",
-      "asset_type": "Equity",
-      "weight": 0.0407,
-      "sedol": "BR4T3B3",
-      "company": "cusip:443573100"
     },
     {
       "name": "BOX INC - CLASS A",
       "ticker": "BOX",
       "asset_type": "Equity",
-      "weight": 0.0403,
+      "weight": 0.0414,
       "sedol": "BVB3BV2",
       "company": "cusip:10316T104"
+    },
+    {
+      "name": "PROCORE TECHNOLOGIES INC",
+      "ticker": "PCOR",
+      "asset_type": "Equity",
+      "weight": 0.0406,
+      "sedol": "BLH11J8",
+      "company": "name:procore technologies"
     },
     {
       "name": "QUALYS INC",
       "ticker": "QLYS",
       "asset_type": "Equity",
-      "weight": 0.0401,
+      "weight": 0.0404,
       "sedol": "B7XJTN8",
       "company": "cusip:74758T303"
-    },
-    {
-      "name": "TWILIO INC - A",
-      "ticker": "TWLO",
-      "asset_type": "Equity",
-      "weight": 0.0396,
-      "sedol": "BD6P5Q0",
-      "company": "cusip:90138F102"
     },
     {
       "name": "PAYCOM SOFTWARE INC",
       "ticker": "PAYC",
       "asset_type": "Equity",
-      "weight": 0.0396,
+      "weight": 0.0402,
       "sedol": "BL95MY0",
       "company": "cusip:70432V102"
-    },
-    {
-      "name": "ZSCALER INC",
-      "ticker": "ZS",
-      "asset_type": "Equity",
-      "weight": 0.0394,
-      "sedol": "BZ00V34",
-      "company": "cusip:98980G102"
-    },
-    {
-      "name": "SHOPIFY INC - CLASS A",
-      "ticker": "SHOP",
-      "asset_type": "Equity",
-      "weight": 0.0394,
-      "sedol": "BXDZ9Z0",
-      "company": "cusip:82509L107"
     },
     {
       "name": "DATADOG INC - CLASS A",
       "ticker": "DDOG",
       "asset_type": "Equity",
-      "weight": 0.0389,
+      "weight": 0.0399,
       "sedol": "BKT9Y49",
       "company": "cusip:23804L103"
     },
     {
-      "name": "WORKDAY INC-CLASS A",
-      "ticker": "WDAY",
+      "name": "ZOOM COMMUNICATIONS INC",
+      "ticker": "ZM",
       "asset_type": "Equity",
-      "weight": 0.036,
-      "sedol": "B8K6ZD1",
-      "company": "cusip:98138H101"
+      "weight": 0.0395,
+      "sedol": "BGSP7M9",
+      "company": "cusip:98980L101"
+    },
+    {
+      "name": "HUBSPOT INC",
+      "ticker": "HUBS",
+      "asset_type": "Equity",
+      "weight": 0.0392,
+      "sedol": "BR4T3B3",
+      "company": "cusip:443573100"
+    },
+    {
+      "name": "SHOPIFY INC - CLASS A",
+      "ticker": "SHOP",
+      "asset_type": "Equity",
+      "weight": 0.0384,
+      "sedol": "BXDZ9Z0",
+      "company": "cusip:82509L107"
+    },
+    {
+      "name": "TWILIO INC - A",
+      "ticker": "TWLO",
+      "asset_type": "Equity",
+      "weight": 0.0372,
+      "sedol": "BD6P5Q0",
+      "company": "cusip:90138F102"
     },
     {
       "name": "SERVICENOW INC",
       "ticker": "NOW",
       "asset_type": "Equity",
-      "weight": 0.036,
+      "weight": 0.0363,
       "sedol": "B80NXX8",
       "company": "cusip:81762P102"
     },
     {
-      "name": "SALESFORCE INC",
-      "ticker": "CRM",
+      "name": "WORKDAY INC-CLASS A",
+      "ticker": "WDAY",
       "asset_type": "Equity",
-      "weight": 0.0348,
-      "sedol": "2310525",
-      "company": "cusip:79466L302"
+      "weight": 0.0362,
+      "sedol": "B8K6ZD1",
+      "company": "cusip:98138H101"
     },
     {
       "name": "DROPBOX INC-CLASS A",
       "ticker": "DBX",
       "asset_type": "Equity",
-      "weight": 0.0344,
+      "weight": 0.0346,
       "sedol": "BG0T321",
       "company": "cusip:26210C104"
+    },
+    {
+      "name": "SALESFORCE INC",
+      "ticker": "CRM",
+      "asset_type": "Equity",
+      "weight": 0.0345,
+      "sedol": "2310525",
+      "company": "cusip:79466L302"
     },
     {
       "name": "WORKIVA INC",
@@ -169,7 +176,7 @@
       "name": "FRESHWORKS INC-CL A",
       "ticker": "FRSH",
       "asset_type": "Equity",
-      "weight": 0.0212,
+      "weight": 0.0209,
       "sedol": "BPF0BB7",
       "company": "name:freshworks"
     },
@@ -177,23 +184,15 @@
       "name": "AMAZON.COM INC",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0209,
+      "weight": 0.0207,
       "sedol": "2000019",
       "company": "cusip:023135106"
-    },
-    {
-      "name": "FASTLY INC - CLASS A",
-      "ticker": "FSLY",
-      "asset_type": "Equity",
-      "weight": 0.0199,
-      "sedol": "BJN4MY9",
-      "company": "cusip:31188V100"
     },
     {
       "name": "SPS COMMERCE INC",
       "ticker": "SPSC",
       "asset_type": "Equity",
-      "weight": 0.0196,
+      "weight": 0.0197,
       "sedol": "B57VWJ3",
       "company": "cusip:78463M107"
     },
@@ -201,31 +200,39 @@
       "name": "MICROSOFT CORP",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0192,
+      "weight": 0.0195,
       "sedol": "2588173",
       "company": "cusip:594918104"
     },
     {
-      "name": "ALPHABET INC-CL A",
-      "ticker": "GOOGL",
+      "name": "FASTLY INC - CLASS A",
+      "ticker": "FSLY",
       "asset_type": "Equity",
-      "weight": 0.0186,
-      "sedol": "BYVY8G0",
-      "company": "cusip:02079K107"
+      "weight": 0.0193,
+      "sedol": "BJN4MY9",
+      "company": "cusip:31188V100"
     },
     {
       "name": "SINCH AB",
       "ticker": "SINCH SS",
       "asset_type": "Equity",
-      "weight": 0.0185,
+      "weight": 0.019,
       "sedol": "BKP8Q11",
       "company": "name:sinch"
+    },
+    {
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0185,
+      "sedol": "BYVY8G0",
+      "company": "cusip:02079K107"
     },
     {
       "name": "WIX.COM LTD",
       "ticker": "WIX",
       "asset_type": "Equity",
-      "weight": 0.0147,
+      "weight": 0.0142,
       "sedol": "BFZCHN7",
       "company": "cusip:M98068105"
     },
@@ -233,7 +240,7 @@
       "name": "FIVE9 INC",
       "ticker": "FIVN",
       "asset_type": "Equity",
-      "weight": 0.0127,
+      "weight": 0.0124,
       "sedol": "BKY7X18",
       "company": "cusip:338307101"
     },
@@ -241,15 +248,22 @@
       "name": "C3.AI INC-A",
       "ticker": "AI",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0113,
       "sedol": "BMGNBJ2",
       "company": "cusip:12468P104"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0008,
+      "company": null
     },
     {
       "name": "PUBMATIC INC-CLASS A",
       "ticker": "PUBM",
       "asset_type": "Equity",
-      "weight": 0.0054,
+      "weight": 0.0053,
       "sedol": "BNHP503",
       "company": "name:pubmatic"
     },
@@ -273,7 +287,7 @@
       "name": "ORACLE CORP",
       "ticker": "ORCL",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0039,
       "sedol": "2661568",
       "company": "cusip:68389X105"
     },
@@ -281,7 +295,7 @@
       "name": "ORACLE CORP JAPAN",
       "ticker": "4716 JP",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "sedol": "6141680",
       "company": "name:oracle corp japan"
     },
@@ -294,14 +308,6 @@
       "company": "name:intl business machines"
     },
     {
-      "name": "KINGSOFT CLOUD HOLDINGS-ADR",
-      "ticker": "KC",
-      "asset_type": "Equity",
-      "weight": 0.0024,
-      "sedol": "BM8R675",
-      "company": "cusip:49639K101"
-    },
-    {
       "name": "ALIBABA GROUP HOLDING-SP ADR",
       "ticker": "BABA",
       "asset_type": "Equity",
@@ -310,18 +316,12 @@
       "company": "cusip:01609W102"
     },
     {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0008,
-      "company": null
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0003,
-      "company": null
+      "name": "KINGSOFT CLOUD HOLDINGS-ADR",
+      "ticker": "KC",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BM8R675",
+      "company": "cusip:49639K101"
     }
   ]
 }

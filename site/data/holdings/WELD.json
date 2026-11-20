@@ -1,24 +1,15 @@
 {
   "ticker": "WELD",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T22:52:01.936681+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-20T03:45:55.302795+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/WELD-holdings-{mdy}.csv",
   "holdings": [
     {
-      "name": "GATES INDUSTRIAL CORP LTD",
-      "ticker": "GTES",
-      "asset_type": "Equity",
-      "weight": 0.0745,
-      "cusip": "G39104107",
-      "location": "Bermuda",
-      "company": "cusip:G39104107"
-    },
-    {
       "name": "PARKER-HANNIFIN CORP",
       "ticker": "PH",
       "asset_type": "Equity",
-      "weight": 0.0729,
+      "weight": 0.0733,
       "cusip": "701094104",
       "location": "United States",
       "company": "cusip:701094104"
@@ -27,16 +18,25 @@
       "name": "TIMKEN CO/THE",
       "ticker": "TKR",
       "asset_type": "Equity",
-      "weight": 0.0725,
+      "weight": 0.0728,
       "cusip": "887389104",
       "location": "United States",
       "company": "cusip:887389104"
     },
     {
+      "name": "GATES INDUSTRIAL CORP LTD",
+      "ticker": "GTES",
+      "asset_type": "Equity",
+      "weight": 0.0727,
+      "cusip": "G39104107",
+      "location": "Bermuda",
+      "company": "cusip:G39104107"
+    },
+    {
       "name": "APPLIED INDUSTRIAL TECHNOLOGIES INC",
       "ticker": "AIT",
       "asset_type": "Equity",
-      "weight": 0.0668,
+      "weight": 0.0677,
       "cusip": "03820C105",
       "location": "United States",
       "company": "cusip:03820C105"
@@ -45,7 +45,7 @@
       "name": "COGNEX CORP",
       "ticker": "CGNX",
       "asset_type": "Equity",
-      "weight": 0.0661,
+      "weight": 0.0655,
       "cusip": "192422103",
       "location": "United States",
       "company": "cusip:192422103"
@@ -54,7 +54,7 @@
       "name": "TEREX CORP",
       "ticker": "TEX",
       "asset_type": "Equity",
-      "weight": 0.0625,
+      "weight": 0.0628,
       "cusip": "880779103",
       "location": "United States",
       "company": "cusip:880779103"
@@ -63,7 +63,7 @@
       "name": "INGERSOLL RAND INC",
       "ticker": "IR",
       "asset_type": "Equity",
-      "weight": 0.0618,
+      "weight": 0.0614,
       "cusip": "45687V106",
       "location": "United States",
       "company": "cusip:45687V106"
@@ -72,7 +72,7 @@
       "name": "AMETEK INC",
       "ticker": "AME",
       "asset_type": "Equity",
-      "weight": 0.0546,
+      "weight": 0.0547,
       "cusip": "031100100",
       "location": "United States",
       "company": "cusip:031100100"
@@ -81,52 +81,52 @@
       "name": "ATI INC",
       "ticker": "ATI",
       "asset_type": "Equity",
-      "weight": 0.0542,
+      "weight": 0.0533,
       "cusip": "01741R102",
       "location": "United States",
       "company": "cusip:01741R102"
     },
     {
-      "name": "EATON CORP PLC",
-      "ticker": "ETN",
-      "asset_type": "Equity",
-      "weight": 0.0466,
-      "cusip": "G29183103",
-      "location": "Ireland",
-      "company": "cusip:G29183103"
-    },
-    {
       "name": "POWELL INDUSTRIES INC",
       "ticker": "POWL",
       "asset_type": "Equity",
-      "weight": 0.0464,
+      "weight": 0.0485,
       "cusip": "739128106",
       "location": "United States",
       "company": "cusip:739128106"
     },
     {
-      "name": "NOVANTA INC",
-      "ticker": "NOVT",
-      "asset_type": "Equity",
-      "weight": 0.0464,
-      "cusip": "67000B104",
-      "location": "Canada",
-      "company": "cusip:67000B104"
-    },
-    {
       "name": "LINDE PLC",
       "ticker": "LIN",
       "asset_type": "Equity",
-      "weight": 0.0458,
+      "weight": 0.0465,
       "cusip": "G54950103",
       "location": "Ireland",
       "company": "cusip:G54950103"
     },
     {
+      "name": "EATON CORP PLC",
+      "ticker": "ETN",
+      "asset_type": "Equity",
+      "weight": 0.0464,
+      "cusip": "G29183103",
+      "location": "Ireland",
+      "company": "cusip:G29183103"
+    },
+    {
+      "name": "NOVANTA INC",
+      "ticker": "NOVT",
+      "asset_type": "Equity",
+      "weight": 0.0461,
+      "cusip": "67000B104",
+      "location": "Canada",
+      "company": "cusip:67000B104"
+    },
+    {
       "name": "CATERPILLAR INC",
       "ticker": "CAT",
       "asset_type": "Equity",
-      "weight": 0.04,
+      "weight": 0.0392,
       "cusip": "149123101",
       "location": "United States",
       "company": "cusip:149123101"
@@ -135,7 +135,7 @@
       "name": "ROCKWELL AUTOMATION INC",
       "ticker": "ROK",
       "asset_type": "Equity",
-      "weight": 0.0395,
+      "weight": 0.039,
       "cusip": "773903109",
       "location": "United States",
       "company": "cusip:773903109"
@@ -144,7 +144,7 @@
       "name": "ABB LTD",
       "ticker": "ABBN SW",
       "asset_type": "Equity",
-      "weight": 0.0348,
+      "weight": 0.0356,
       "location": "Switzerland",
       "company": "cusip:H0010V101"
     },
@@ -152,7 +152,7 @@
       "name": "SPX TECHNOLOGIES INC",
       "ticker": "SPXC",
       "asset_type": "Equity",
-      "weight": 0.0303,
+      "weight": 0.0307,
       "cusip": "78473E103",
       "location": "United States",
       "company": "cusip:78473E103"
@@ -161,7 +161,7 @@
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ticker": "TSM",
       "asset_type": "Equity",
-      "weight": 0.0273,
+      "weight": 0.027,
       "cusip": "874039100",
       "location": "Taiwan",
       "company": "cusip:874039100"
@@ -170,7 +170,7 @@
       "name": "API GROUP CORP",
       "ticker": "APG",
       "asset_type": "Equity",
-      "weight": 0.0239,
+      "weight": 0.024,
       "cusip": "00187Y100",
       "location": "United States",
       "company": "cusip:00187Y100"
@@ -179,7 +179,7 @@
       "name": "UNITED RENTALS INC",
       "ticker": "URI",
       "asset_type": "Equity",
-      "weight": 0.0205,
+      "weight": 0.0204,
       "cusip": "911363109",
       "location": "United States",
       "company": "cusip:911363109"

@@ -1,7 +1,7 @@
 {
   "ticker": "NASA",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T22:51:49.657747+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-20T03:45:42.308715+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/NASA-holdings-{mdy}.csv",
   "holdings": [
@@ -9,14 +9,14 @@
       "name": "SPACEX SPV EXPOSURE",
       "ticker": "SPACEX SPV",
       "asset_type": "Equity",
-      "weight": 0.1781,
+      "weight": 0.1784,
       "company": "name:spacex spv exposure"
     },
     {
       "name": "ROCKET LAB CORP",
       "ticker": "RKLB",
       "asset_type": "Equity",
-      "weight": 0.0991,
+      "weight": 0.0989,
       "cusip": "773121108",
       "location": "United States",
       "company": "cusip:773121108"
@@ -25,7 +25,7 @@
       "name": "SPACE EXPLORATION TECHNOLOGIES CORP",
       "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.0899,
+      "weight": 0.0901,
       "cusip": "84615Q103",
       "location": "United States",
       "company": "cusip:84615Q103"
@@ -34,7 +34,7 @@
       "name": "UNIVERSAL MICROWAVE TECHNOLOGY INC",
       "ticker": "3491 TT",
       "asset_type": "Equity",
-      "weight": 0.0578,
+      "weight": 0.0541,
       "location": "Taiwan",
       "company": "name:universal microwave technology@taiwan"
     },
@@ -42,7 +42,7 @@
       "name": "VIASAT INC",
       "ticker": "VSAT",
       "asset_type": "Equity",
-      "weight": 0.0511,
+      "weight": 0.0496,
       "cusip": "92552V100",
       "location": "United States",
       "company": "cusip:92552V100"
@@ -51,7 +51,7 @@
       "name": "FILTRONIC PLC",
       "ticker": "FTC LN",
       "asset_type": "Equity",
-      "weight": 0.0471,
+      "weight": 0.0484,
       "location": "United Kingdom",
       "company": "name:filtronic@united kingdom"
     },
@@ -59,7 +59,7 @@
       "name": "FIREFLY AEROSPACE INC",
       "ticker": "FLY",
       "asset_type": "Equity",
-      "weight": 0.0411,
+      "weight": 0.0407,
       "cusip": "31816X106",
       "location": "United States",
       "company": "cusip:31816X106"
@@ -68,7 +68,7 @@
       "name": "MDA SPACE LTD",
       "ticker": "MDA",
       "asset_type": "Equity",
-      "weight": 0.0331,
+      "weight": 0.033,
       "cusip": "55293N109",
       "location": "Canada",
       "company": "cusip:55293N109"
@@ -77,7 +77,7 @@
       "name": "ECHOSTAR CORP",
       "ticker": "ECHO",
       "asset_type": "Equity",
-      "weight": 0.0322,
+      "weight": 0.0319,
       "cusip": "278768106",
       "location": "United States",
       "company": "cusip:278768106"
@@ -86,7 +86,7 @@
       "name": "5N PLUS INC",
       "ticker": "VNP CN",
       "asset_type": "Equity",
-      "weight": 0.03,
+      "weight": 0.0306,
       "location": "Canada",
       "company": "name:5n plus@canada"
     },
@@ -94,7 +94,7 @@
       "name": "INTUITIVE MACHINES INC",
       "ticker": "LUNR",
       "asset_type": "Equity",
-      "weight": 0.0298,
+      "weight": 0.0299,
       "cusip": "46125A100",
       "location": "United States",
       "company": "cusip:46125A100"
@@ -103,7 +103,7 @@
       "name": "VOYAGER TECHNOLOGIES INC",
       "ticker": "VOYG",
       "asset_type": "Equity",
-      "weight": 0.0286,
+      "weight": 0.0277,
       "cusip": "92892B103",
       "location": "United States",
       "company": "cusip:92892B103"
@@ -112,7 +112,7 @@
       "name": "BLACKSKY TECHNOLOGY INC",
       "ticker": "BKSY",
       "asset_type": "Equity",
-      "weight": 0.0265,
+      "weight": 0.025,
       "cusip": "09263B207",
       "location": "United States",
       "company": "cusip:09263B207"
@@ -121,7 +121,7 @@
       "name": "AST SPACEMOBILE INC",
       "ticker": "ASTS",
       "asset_type": "Equity",
-      "weight": 0.0234,
+      "weight": 0.0244,
       "cusip": "00217D100",
       "location": "United States",
       "company": "cusip:00217D100"
@@ -130,51 +130,42 @@
       "name": "ASTROSCALE HOLDINGS INC",
       "ticker": "186A JP",
       "asset_type": "Equity",
-      "weight": 0.0196,
+      "weight": 0.0211,
       "location": "Japan",
       "company": "name:astroscale holdings@japan"
-    },
-    {
-      "name": "WIN SEMICONDUCTORS CORP",
-      "ticker": "3105 TT",
-      "asset_type": "Equity",
-      "weight": 0.0185,
-      "location": "Taiwan",
-      "company": "name:win semiconductors@taiwan"
     },
     {
       "name": "OHB SE",
       "ticker": "OHB GR",
       "asset_type": "Equity",
-      "weight": 0.0174,
+      "weight": 0.0199,
       "location": "Germany",
       "company": "name:ohb@germany"
     },
     {
-      "name": "LUMENTUM HOLDINGS INC",
-      "ticker": "LITE",
+      "name": "WIN SEMICONDUCTORS CORP",
+      "ticker": "3105 TT",
       "asset_type": "Equity",
-      "weight": 0.0166,
-      "cusip": "55024U109",
-      "location": "United States",
-      "company": "cusip:55024U109"
+      "weight": 0.0173,
+      "location": "Taiwan",
+      "company": "name:win semiconductors@taiwan"
     },
     {
       "name": "AIXTRON SE",
       "ticker": "AIXA GR",
       "asset_type": "Equity",
-      "weight": 0.016,
+      "weight": 0.0169,
       "location": "Germany",
       "company": "name:aixtron@germany"
     },
     {
-      "name": "SATELLOGIC INC",
-      "ticker": "SATL",
+      "name": "LUMENTUM HOLDINGS INC",
+      "ticker": "LITE",
       "asset_type": "Equity",
-      "weight": 0.013,
-      "cusip": "80401C100",
+      "weight": 0.0167,
+      "cusip": "55024U109",
       "location": "United States",
-      "company": "cusip:80401C100"
+      "company": "cusip:55024U109"
     },
     {
       "name": "PLANET LABS PBC",
@@ -186,10 +177,19 @@
       "company": "cusip:72703X106"
     },
     {
+      "name": "SATELLOGIC INC",
+      "ticker": "SATL",
+      "asset_type": "Equity",
+      "weight": 0.0128,
+      "cusip": "80401C100",
+      "location": "United States",
+      "company": "cusip:80401C100"
+    },
+    {
       "name": "SYNSPECTIVE INC",
       "ticker": "290A JP",
       "asset_type": "Equity",
-      "weight": 0.0126,
+      "weight": 0.0123,
       "location": "Japan",
       "company": "name:synspective@japan"
     },
@@ -197,32 +197,32 @@
       "name": "VISHAY PRECISION GROUP INC",
       "ticker": "VPG",
       "asset_type": "Equity",
-      "weight": 0.0118,
+      "weight": 0.0122,
       "cusip": "92835K103",
       "location": "United States",
       "company": "cusip:92835K103"
     },
     {
-      "name": "MDA SPACE LTD",
-      "ticker": "MDA CN",
-      "asset_type": "Equity",
-      "weight": 0.0116,
-      "location": "Canada",
-      "company": "cusip:55293N109"
-    },
-    {
       "name": "SPHERE CORP",
       "ticker": "347700 KS",
       "asset_type": "Equity",
-      "weight": 0.0107,
+      "weight": 0.0121,
       "location": "South Korea",
       "company": "name:sphere@south korea"
+    },
+    {
+      "name": "MDA SPACE LTD",
+      "ticker": "MDA CN",
+      "asset_type": "Equity",
+      "weight": 0.0115,
+      "location": "Canada",
+      "company": "cusip:55293N109"
     },
     {
       "name": "STMICROELECTRONICS NV",
       "ticker": "STM",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0108,
       "cusip": "861012102",
       "location": "Netherlands",
       "company": "cusip:861012102"
@@ -231,7 +231,7 @@
       "name": "LIGHTPATH TECHNOLOGIES INC",
       "ticker": "LPTH",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.0088,
       "cusip": "532257805",
       "location": "United States",
       "company": "cusip:532257805"
@@ -240,7 +240,7 @@
       "name": "QPS HOLDINGS INC",
       "ticker": "464A JP",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.0083,
       "location": "Japan",
       "company": "name:qps holdings@japan"
     },
@@ -257,7 +257,7 @@
       "name": "ANTERIX INC",
       "ticker": "ATEX",
       "asset_type": "Equity",
-      "weight": 0.0076,
+      "weight": 0.0075,
       "cusip": "03676C100",
       "location": "United States",
       "company": "cusip:03676C100"
@@ -266,7 +266,7 @@
       "name": "CPS TECHNOLOGIES CORP",
       "ticker": "CPSH",
       "asset_type": "Equity",
-      "weight": 0.0063,
+      "weight": 0.0064,
       "cusip": "12619F104",
       "location": "United States",
       "company": "cusip:12619F104"
@@ -275,7 +275,7 @@
       "name": "CREOTECH INSTRUMENTS SA",
       "ticker": "CRI PW",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.0064,
       "location": "Poland",
       "company": "name:creotech instruments@poland"
     },
@@ -292,7 +292,7 @@
       "name": "HAWKEYE 360 INC",
       "ticker": "HAWK",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0048,
       "cusip": "420201105",
       "location": "United States",
       "company": "cusip:420201105"
@@ -307,20 +307,20 @@
       "company": "cusip:87169M105"
     },
     {
-      "name": "YORK SPACE SYSTEMS INC",
-      "ticker": "YSS",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "cusip": "987084100",
-      "location": "United States",
-      "company": "cusip:987084100"
-    },
-    {
       "name": "CASH & CASH EQUIVALENTS",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0015,
+      "weight": 0.0013,
       "company": null
+    },
+    {
+      "name": "YORK SPACE SYSTEMS INC",
+      "ticker": "YSS",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "cusip": "987084100",
+      "location": "United States",
+      "company": "cusip:987084100"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "DRAM",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T22:51:35.236970+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-20T03:45:28.050427+00:00",
   "stale": false,
   "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "SK hynix Inc",
       "ticker": "000660 KS",
       "asset_type": "Equity",
-      "weight": 0.1531,
+      "weight": 0.1576,
       "sedol": "6450267",
       "company": "cusip:78392B206"
     },
@@ -17,7 +17,7 @@
       "name": "Samsung Electronics Co Ltd",
       "ticker": "005930 KS",
       "asset_type": "Equity",
-      "weight": 0.1974,
+      "weight": 0.1988,
       "sedol": "6771720",
       "company": "cusip:Y74718100"
     },
@@ -25,7 +25,7 @@
       "name": "Winbond Electronics Corp",
       "ticker": "2344 TT",
       "asset_type": "Equity",
-      "weight": 0.0102,
+      "weight": 0.0092,
       "sedol": "6966515",
       "company": "cusip:Y95873108"
     },
@@ -33,7 +33,7 @@
       "name": "Nanya Technology Corp",
       "ticker": "2408 TT",
       "asset_type": "Equity",
-      "weight": 0.0229,
+      "weight": 0.0206,
       "sedol": "6283601",
       "company": "cusip:Y62066108"
     },
@@ -41,29 +41,29 @@
       "name": "Kioxia Holdings Corp",
       "ticker": "285A JP",
       "asset_type": "Equity",
-      "weight": 0.0218,
+      "weight": 0.0222,
       "sedol": "BMGYJ02",
       "company": "cusip:J3343A107"
     },
     {
-      "name": "MICRON TECHNOLOGY INC SWAP NM",
+      "name": "MICRON TECHNOLOGY, INC.-SWAP-NMRA-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.113,
+      "weight": 0.1106,
       "company": null
     },
     {
       "name": "MICRON TECHNOLOGY, INC.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.1099,
+      "weight": 0.1076,
       "company": null
     },
     {
       "name": "GigaDevice Semiconductor Inc",
       "ticker": "603986 C1",
       "asset_type": "Equity",
-      "weight": 0.009,
+      "weight": 0.0089,
       "sedol": "BHWLWF8",
       "company": "cusip:Y270MV109"
     },
@@ -71,14 +71,14 @@
       "name": "SK HYNIX INC-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0657,
+      "weight": 0.0681,
       "company": null
     },
     {
       "name": "SAMSUNG ELECTRONICS -SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0826,
+      "weight": 0.0837,
       "company": null
     },
     {
@@ -127,7 +127,7 @@
       "name": "CXMT CORPORATION-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0526,
+      "weight": 0.0532,
       "company": null
     },
     {
@@ -141,7 +141,7 @@
       "name": "First American Government Obligations Fund 12/01/2031",
       "ticker": "FGXXX",
       "asset_type": "Money Market",
-      "weight": 0.1888,
+      "weight": 0.0849,
       "company": null
     },
     {
@@ -155,7 +155,7 @@
       "name": "Micron Technology Inc",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0455,
+      "weight": 0.0434,
       "cusip": "595112103",
       "company": "cusip:595112103"
     },
@@ -163,7 +163,7 @@
       "name": "SK hynix Inc",
       "ticker": "SKHY",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0073,
       "cusip": "78392B206",
       "company": "cusip:78392B206"
     },
@@ -171,7 +171,7 @@
       "name": "Sandisk Corp",
       "ticker": "SNDK",
       "asset_type": "Equity",
-      "weight": 0.0325,
+      "weight": 0.0314,
       "cusip": "80004C200",
       "company": "cusip:80004C200"
     },
@@ -179,7 +179,7 @@
       "name": "Seagate Technology Holdings PLC",
       "ticker": "STX",
       "asset_type": "Equity",
-      "weight": 0.0409,
+      "weight": 0.0411,
       "cusip": "G7997R103",
       "company": "cusip:G7997R103"
     },
@@ -194,7 +194,7 @@
       "name": "Western Digital Corp",
       "ticker": "WDC",
       "asset_type": "Equity",
-      "weight": 0.0353,
+      "weight": 0.0362,
       "cusip": "958102105",
       "company": "cusip:958102105"
     },
@@ -202,7 +202,7 @@
       "name": "Cash & Other",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.6487,
+      "weight": -0.5449,
       "company": null
     }
   ]
