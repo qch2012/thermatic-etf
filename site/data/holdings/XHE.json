@@ -1,7 +1,7 @@
 {
   "ticker": "XHE",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:55.710688+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:29:08.279063+00:00",
   "stale": false,
   "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xhe.xlsx",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ENOVIS CORP",
       "ticker": "ENOV",
       "asset_type": "Equity",
-      "weight": 0.02245375,
+      "weight": 0.02216526,
       "cusip": "194014502",
       "sedol": "BJLTMX5",
       "company": "cusip:194014502"
@@ -18,7 +18,7 @@
       "name": "IDEXX LABORATORIES INC",
       "ticker": "IDXX",
       "asset_type": "Equity",
-      "weight": 0.02137923,
+      "weight": 0.02152869,
       "cusip": "45168D104",
       "sedol": "2459202",
       "company": "cusip:45168D104"
@@ -27,7 +27,7 @@
       "name": "GLAUKOS CORP",
       "ticker": "GKOS",
       "asset_type": "Equity",
-      "weight": 0.02044063,
+      "weight": 0.0212983,
       "cusip": "377322102",
       "sedol": "BYMWL19",
       "company": "cusip:377322102"
@@ -36,70 +36,79 @@
       "name": "GE HEALTHCARE TECHNOLOGY",
       "ticker": "GEHC",
       "asset_type": "Equity",
-      "weight": 0.02024067,
+      "weight": 0.02020731,
       "cusip": "36266G107",
       "sedol": "BL6JPG8",
       "company": "cusip:36266G107"
     },
     {
-      "name": "TELEFLEX INC",
-      "ticker": "TFX",
-      "asset_type": "Equity",
-      "weight": 0.01926778,
-      "cusip": "879369106",
-      "sedol": "2881407",
-      "company": "cusip:879369106"
-    },
-    {
-      "name": "EDWARDS LIFESCIENCES CORP",
-      "ticker": "EW",
-      "asset_type": "Equity",
-      "weight": 0.01925296,
-      "cusip": "28176E108",
-      "sedol": "2567116",
-      "company": "cusip:28176E108"
-    },
-    {
       "name": "PROCEPT BIOROBOTICS CORP",
       "ticker": "PRCT",
       "asset_type": "Equity",
-      "weight": 0.01914281,
+      "weight": 0.01996585,
       "cusip": "74276L105",
       "sedol": "BMYRFV6",
       "company": "cusip:74276L105"
     },
     {
-      "name": "STERIS PLC",
-      "ticker": "STE",
+      "name": "EDWARDS LIFESCIENCES CORP",
+      "ticker": "EW",
       "asset_type": "Equity",
-      "weight": 0.01902739,
-      "cusip": "G8473T100",
-      "sedol": "BFY8C75",
-      "company": "cusip:G8473T100"
+      "weight": 0.01938476,
+      "cusip": "28176E108",
+      "sedol": "2567116",
+      "company": "cusip:28176E108"
+    },
+    {
+      "name": "TELEFLEX INC",
+      "ticker": "TFX",
+      "asset_type": "Equity",
+      "weight": 0.0193619,
+      "cusip": "879369106",
+      "sedol": "2881407",
+      "company": "cusip:879369106"
     },
     {
       "name": "AXOGEN INC",
       "ticker": "AXGN",
       "asset_type": "Equity",
-      "weight": 0.01899604,
+      "weight": 0.01916966,
       "cusip": "05463X106",
       "sedol": "B7254K9",
       "company": "cusip:05463X106"
     },
     {
+      "name": "STERIS PLC",
+      "ticker": "STE",
+      "asset_type": "Equity",
+      "weight": 0.01904569,
+      "cusip": "G8473T100",
+      "sedol": "BFY8C75",
+      "company": "cusip:G8473T100"
+    },
+    {
       "name": "BECTON DICKINSON AND CO",
       "ticker": "BDX",
       "asset_type": "Equity",
-      "weight": 0.01894839,
+      "weight": 0.01902314,
       "cusip": "075887109",
       "sedol": "2087807",
       "company": "cusip:075887109"
     },
     {
+      "name": "HAEMONETICS CORP/MASS",
+      "ticker": "HAE",
+      "asset_type": "Equity",
+      "weight": 0.01876474,
+      "cusip": "405024100",
+      "sedol": "2401195",
+      "company": "cusip:405024100"
+    },
+    {
       "name": "LIVANOVA PLC",
       "ticker": "LIVN",
       "asset_type": "Equity",
-      "weight": 0.01888576,
+      "weight": 0.01875885,
       "cusip": "G5509L101",
       "sedol": "BYMT0J1",
       "company": "cusip:G5509L101"
@@ -108,25 +117,16 @@
       "name": "INTUITIVE SURGICAL INC",
       "ticker": "ISRG",
       "asset_type": "Equity",
-      "weight": 0.01878921,
+      "weight": 0.01854194,
       "cusip": "46120E602",
       "sedol": "2871301",
       "company": "cusip:46120E602"
     },
     {
-      "name": "HAEMONETICS CORP/MASS",
-      "ticker": "HAE",
-      "asset_type": "Equity",
-      "weight": 0.01877875,
-      "cusip": "405024100",
-      "sedol": "2401195",
-      "company": "cusip:405024100"
-    },
-    {
       "name": "STRYKER CORP",
       "ticker": "SYK",
       "asset_type": "Equity",
-      "weight": 0.01821539,
+      "weight": 0.0182824,
       "cusip": "863667101",
       "sedol": "2853688",
       "company": "cusip:863667101"
@@ -135,34 +135,43 @@
       "name": "MEDLINE INC CL A",
       "ticker": "MDLN",
       "asset_type": "Equity",
-      "weight": 0.01813348,
+      "weight": 0.01787102,
       "cusip": "58507V107",
       "sedol": "BNBV4B1",
       "company": "cusip:58507V107"
     },
     {
-      "name": "TRANSMEDICS GROUP INC",
-      "ticker": "TMDX",
+      "name": "MEDTRONIC PLC",
+      "ticker": "MDT",
       "asset_type": "Equity",
-      "weight": 0.01759766,
-      "cusip": "89377M109",
-      "sedol": "BK6TM04",
-      "company": "cusip:89377M109"
+      "weight": 0.01760676,
+      "cusip": "G5960L103",
+      "sedol": "BTN1Y11",
+      "company": "cusip:G5960L103"
     },
     {
       "name": "ICU MEDICAL INC",
       "ticker": "ICUI",
       "asset_type": "Equity",
-      "weight": 0.01747899,
+      "weight": 0.01755408,
       "cusip": "44930G107",
       "sedol": "2451918",
       "company": "cusip:44930G107"
     },
     {
+      "name": "TRANSMEDICS GROUP INC",
+      "ticker": "TMDX",
+      "asset_type": "Equity",
+      "weight": 0.01749998,
+      "cusip": "89377M109",
+      "sedol": "BK6TM04",
+      "company": "cusip:89377M109"
+    },
+    {
       "name": "RESMED INC",
       "ticker": "RMD",
       "asset_type": "Equity",
-      "weight": 0.01739187,
+      "weight": 0.01731726,
       "cusip": "761152107",
       "sedol": "2732903",
       "company": "cusip:761152107"
@@ -171,59 +180,43 @@
       "name": "UFP TECHNOLOGIES INC",
       "ticker": "UFPT",
       "asset_type": "Equity",
-      "weight": 0.01729815,
+      "weight": 0.01725244,
       "cusip": "902673102",
       "sedol": "2908652",
       "company": "cusip:902673102"
     },
     {
-      "name": "MEDTRONIC PLC",
-      "ticker": "MDT",
-      "asset_type": "Equity",
-      "weight": 0.01728266,
-      "cusip": "G5960L103",
-      "sedol": "BTN1Y11",
-      "company": "cusip:G5960L103"
-    },
-    {
       "name": "ZIMMER BIOMET HOLDINGS INC",
       "ticker": "ZBH",
       "asset_type": "Equity",
-      "weight": 0.01721907,
+      "weight": 0.01724755,
       "cusip": "98956P102",
       "sedol": "2783815",
       "company": "cusip:98956P102"
     },
     {
-      "name": "BAXTER INTERNATIONAL INC",
-      "ticker": "BAX",
-      "asset_type": "Equity",
-      "weight": 0.01691155,
-      "cusip": "071813109",
-      "sedol": "2085102",
-      "company": "cusip:071813109"
-    },
-    {
       "name": "ALIGN TECHNOLOGY INC",
       "ticker": "ALGN",
       "asset_type": "Equity",
-      "weight": 0.0169054,
+      "weight": 0.01679074,
       "cusip": "016255101",
       "sedol": "2679204",
       "company": "cusip:016255101"
     },
     {
-      "name": "SSI US GOV MONEY MARKET CLASS",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.01670738,
-      "company": null
+      "name": "BAXTER INTERNATIONAL INC",
+      "ticker": "BAX",
+      "asset_type": "Equity",
+      "weight": 0.01674059,
+      "cusip": "071813109",
+      "sedol": "2085102",
+      "company": "cusip:071813109"
     },
     {
       "name": "STAAR SURGICAL CO",
       "ticker": "STAA",
       "asset_type": "Equity",
-      "weight": 0.01648693,
+      "weight": 0.01660291,
       "cusip": "852312305",
       "sedol": "2836292",
       "company": "cusip:852312305"
@@ -232,43 +225,16 @@
       "name": "ATRICURE INC",
       "ticker": "ATRC",
       "asset_type": "Equity",
-      "weight": 0.01648692,
+      "weight": 0.01640848,
       "cusip": "04963C209",
       "sedol": "B0C8KV2",
       "company": "cusip:04963C209"
     },
     {
-      "name": "OMNICELL INC",
-      "ticker": "OMCL",
-      "asset_type": "Equity",
-      "weight": 0.01624553,
-      "cusip": "68213N109",
-      "sedol": "2789523",
-      "company": "cusip:68213N109"
-    },
-    {
-      "name": "CONMED CORP",
-      "ticker": "CNMD",
-      "asset_type": "Equity",
-      "weight": 0.01613034,
-      "cusip": "207410101",
-      "sedol": "2216010",
-      "company": "cusip:207410101"
-    },
-    {
-      "name": "INSULET CORP",
-      "ticker": "PODD",
-      "asset_type": "Equity",
-      "weight": 0.01600312,
-      "cusip": "45784P101",
-      "sedol": "B1XGNW4",
-      "company": "cusip:45784P101"
-    },
-    {
       "name": "LANTHEUS HOLDINGS INC",
       "ticker": "LNTH",
       "asset_type": "Equity",
-      "weight": 0.01597068,
+      "weight": 0.01630361,
       "cusip": "516544103",
       "sedol": "BP8S8J5",
       "company": "cusip:516544103"
@@ -277,61 +243,88 @@
       "name": "PENUMBRA INC",
       "ticker": "PEN",
       "asset_type": "Equity",
-      "weight": 0.01581852,
+      "weight": 0.01610641,
       "cusip": "70975L107",
       "sedol": "BZ0V201",
       "company": "cusip:70975L107"
     },
     {
+      "name": "INSULET CORP",
+      "ticker": "PODD",
+      "asset_type": "Equity",
+      "weight": 0.01599997,
+      "cusip": "45784P101",
+      "sedol": "B1XGNW4",
+      "company": "cusip:45784P101"
+    },
+    {
+      "name": "CONMED CORP",
+      "ticker": "CNMD",
+      "asset_type": "Equity",
+      "weight": 0.01589288,
+      "cusip": "207410101",
+      "sedol": "2216010",
+      "company": "cusip:207410101"
+    },
+    {
       "name": "ABBOTT LABORATORIES",
       "ticker": "ABT",
       "asset_type": "Equity",
-      "weight": 0.01565473,
+      "weight": 0.01587342,
       "cusip": "002824100",
       "sedol": "2002305",
       "company": "cusip:002824100"
     },
     {
-      "name": "MERIT MEDICAL SYSTEMS INC",
-      "ticker": "MMSI",
+      "name": "OMNICELL INC",
+      "ticker": "OMCL",
       "asset_type": "Equity",
-      "weight": 0.01553928,
-      "cusip": "589889104",
-      "sedol": "2580555",
-      "company": "cusip:589889104"
+      "weight": 0.01586132,
+      "cusip": "68213N109",
+      "sedol": "2789523",
+      "company": "cusip:68213N109"
     },
     {
       "name": "IRADIMED CORP",
       "ticker": "IRMD",
       "asset_type": "Equity",
-      "weight": 0.01553133,
+      "weight": 0.01563833,
       "cusip": "46266A109",
       "sedol": "BP4GNJ8",
       "company": "cusip:46266A109"
     },
     {
-      "name": "DEXCOM INC",
-      "ticker": "DXCM",
+      "name": "MERIT MEDICAL SYSTEMS INC",
+      "ticker": "MMSI",
       "asset_type": "Equity",
-      "weight": 0.01551183,
-      "cusip": "252131107",
-      "sedol": "B0796X4",
-      "company": "cusip:252131107"
+      "weight": 0.01556853,
+      "cusip": "589889104",
+      "sedol": "2580555",
+      "company": "cusip:589889104"
     },
     {
       "name": "BOSTON SCIENTIFIC CORP",
       "ticker": "BSX",
       "asset_type": "Equity",
-      "weight": 0.01530439,
+      "weight": 0.01537642,
       "cusip": "101137107",
       "sedol": "2113434",
       "company": "cusip:101137107"
     },
     {
+      "name": "DEXCOM INC",
+      "ticker": "DXCM",
+      "asset_type": "Equity",
+      "weight": 0.0153733,
+      "cusip": "252131107",
+      "sedol": "B0796X4",
+      "company": "cusip:252131107"
+    },
+    {
       "name": "SOLVENTUM CORP",
       "ticker": "SOLV",
       "asset_type": "Equity",
-      "weight": 0.01514574,
+      "weight": 0.01532642,
       "cusip": "83444M101",
       "sedol": "BMTQB43",
       "company": "cusip:83444M101"
@@ -340,7 +333,7 @@
       "name": "COOPER COS INC/THE",
       "ticker": "COO",
       "asset_type": "Equity",
-      "weight": 0.01508922,
+      "weight": 0.0152836,
       "cusip": "216648501",
       "sedol": "BQPDXR3",
       "company": "cusip:216648501"
@@ -349,7 +342,7 @@
       "name": "LEMAITRE VASCULAR INC",
       "ticker": "LMAT",
       "asset_type": "Equity",
-      "weight": 0.01494606,
+      "weight": 0.015149,
       "cusip": "525558201",
       "sedol": "B1G6TJ0",
       "company": "cusip:525558201"
@@ -358,34 +351,34 @@
       "name": "GLOBUS MEDICAL INC   A",
       "ticker": "GMED",
       "asset_type": "Equity",
-      "weight": 0.01492306,
+      "weight": 0.01480337,
       "cusip": "379577208",
       "sedol": "B7D65M0",
       "company": "cusip:379577208"
     },
     {
-      "name": "NEOGEN CORP",
-      "ticker": "NEOG",
-      "asset_type": "Equity",
-      "weight": 0.01465626,
-      "cusip": "640491106",
-      "sedol": "2630085",
-      "company": "cusip:640491106"
-    },
-    {
       "name": "SI BONE INC",
       "ticker": "SIBN",
       "asset_type": "Equity",
-      "weight": 0.01436981,
+      "weight": 0.01478651,
       "cusip": "825704109",
       "sedol": "BZ0WN34",
       "company": "cusip:825704109"
     },
     {
+      "name": "NEOGEN CORP",
+      "ticker": "NEOG",
+      "asset_type": "Equity",
+      "weight": 0.01463753,
+      "cusip": "640491106",
+      "sedol": "2630085",
+      "company": "cusip:640491106"
+    },
+    {
       "name": "ENVISTA HOLDINGS CORP",
       "ticker": "NVST",
       "asset_type": "Equity",
-      "weight": 0.0141739,
+      "weight": 0.01416366,
       "cusip": "29415F104",
       "sedol": "BK63SF3",
       "company": "cusip:29415F104"
@@ -394,7 +387,7 @@
       "name": "TANDEM DIABETES CARE INC",
       "ticker": "TNDM",
       "asset_type": "Equity",
-      "weight": 0.01406767,
+      "weight": 0.01413717,
       "cusip": "875372203",
       "sedol": "BF3W461",
       "company": "cusip:875372203"
@@ -403,7 +396,7 @@
       "name": "INSPIRE MEDICAL SYSTEMS INC",
       "ticker": "INSP",
       "asset_type": "Equity",
-      "weight": 0.01378238,
+      "weight": 0.01361445,
       "cusip": "457730109",
       "sedol": "BDT5KT5",
       "company": "cusip:457730109"
@@ -412,7 +405,7 @@
       "name": "INTEGRA LIFESCIENCES HOLDING",
       "ticker": "IART",
       "asset_type": "Equity",
-      "weight": 0.01344838,
+      "weight": 0.01340914,
       "cusip": "457985208",
       "sedol": "2248693",
       "company": "cusip:457985208"
@@ -421,34 +414,16 @@
       "name": "PULSE BIOSCIENCES INC",
       "ticker": "PLSE",
       "asset_type": "Equity",
-      "weight": 0.0130788,
+      "weight": 0.01292542,
       "cusip": "74587B101",
       "sedol": "BD02SG8",
       "company": "cusip:74587B101"
     },
     {
-      "name": "BETA BIONICS INC",
-      "ticker": "BBNX",
-      "asset_type": "Equity",
-      "weight": 0.01297047,
-      "cusip": "08659B102",
-      "sedol": "BSPRWL6",
-      "company": "cusip:08659B102"
-    },
-    {
-      "name": "BUTTERFLY NETWORK INC",
-      "ticker": "BFLY",
-      "asset_type": "Equity",
-      "weight": 0.01285058,
-      "cusip": "124155102",
-      "sedol": "BMHYQY4",
-      "company": "cusip:124155102"
-    },
-    {
       "name": "DENTSPLY SIRONA INC",
       "ticker": "XRAY",
       "asset_type": "Equity",
-      "weight": 0.01253149,
+      "weight": 0.01273584,
       "cusip": "24906P109",
       "sedol": "BYNPPC6",
       "company": "cusip:24906P109"
@@ -457,25 +432,52 @@
       "name": "IRHYTHM HOLDINGS INC",
       "ticker": "IRTC",
       "asset_type": "Equity",
-      "weight": 0.01251053,
+      "weight": 0.01267457,
       "cusip": "450056106",
       "sedol": "BYT4ST5",
       "company": "cusip:450056106"
     },
     {
+      "name": "BUTTERFLY NETWORK INC",
+      "ticker": "BFLY",
+      "asset_type": "Equity",
+      "weight": 0.01261049,
+      "cusip": "124155102",
+      "sedol": "BMHYQY4",
+      "company": "cusip:124155102"
+    },
+    {
       "name": "ALPHATEC HOLDINGS INC",
       "ticker": "ATEC",
       "asset_type": "Equity",
-      "weight": 0.01238926,
+      "weight": 0.01234938,
       "cusip": "02081G201",
       "sedol": "BD60BG7",
       "company": "cusip:02081G201"
     },
     {
+      "name": "BETA BIONICS INC",
+      "ticker": "BBNX",
+      "asset_type": "Equity",
+      "weight": 0.01229621,
+      "cusip": "08659B102",
+      "sedol": "BSPRWL6",
+      "company": "cusip:08659B102"
+    },
+    {
+      "name": "ARTIVION INC",
+      "ticker": "AORT",
+      "asset_type": "Equity",
+      "weight": 0.01181526,
+      "cusip": "228903100",
+      "sedol": "2239017",
+      "company": "cusip:228903100"
+    },
+    {
       "name": "KESTRA MEDICAL TECHNOLOGIES",
       "ticker": "KMTS",
       "asset_type": "Equity",
-      "weight": 0.01205864,
+      "weight": 0.01157674,
       "cusip": "G52441105",
       "sedol": "BSJQPL0",
       "company": "cusip:G52441105"
@@ -484,43 +486,34 @@
       "name": "QUIDELORTHO CORP",
       "ticker": "QDEL",
       "asset_type": "Equity",
-      "weight": 0.01193776,
+      "weight": 0.01134828,
       "cusip": "219798105",
       "sedol": "BM9VY27",
       "company": "cusip:219798105"
     },
     {
-      "name": "ARTIVION INC",
-      "ticker": "AORT",
-      "asset_type": "Equity",
-      "weight": 0.01159105,
-      "cusip": "228903100",
-      "sedol": "2239017",
-      "company": "cusip:228903100"
-    },
-    {
-      "name": "DELCATH SYSTEMS INC",
-      "ticker": "DCTH",
-      "asset_type": "Equity",
-      "weight": 0.0109795,
-      "cusip": "24661P807",
-      "sedol": "BK228T8",
-      "company": "cusip:24661P807"
-    },
-    {
       "name": "NOVOCURE LTD",
       "ticker": "NVCR",
       "asset_type": "Equity",
-      "weight": 0.01082427,
+      "weight": 0.01099859,
       "cusip": "G6674U108",
       "sedol": "BYSS4X4",
       "company": "cusip:G6674U108"
     },
     {
+      "name": "DELCATH SYSTEMS INC",
+      "ticker": "DCTH",
+      "asset_type": "Equity",
+      "weight": 0.01093662,
+      "cusip": "24661P807",
+      "sedol": "BK228T8",
+      "company": "cusip:24661P807"
+    },
+    {
       "name": "TACTILE SYSTEMS TECHNOLOGY I",
       "ticker": "TCMD",
       "asset_type": "Equity",
-      "weight": 0.01037799,
+      "weight": 0.01041233,
       "cusip": "87357P100",
       "sedol": "BZB1XF2",
       "company": "cusip:87357P100"
@@ -529,7 +522,7 @@
       "name": "STRIVE INC A",
       "ticker": "ASST",
       "asset_type": "Equity",
-      "weight": 0.01013152,
+      "weight": 0.01000768,
       "cusip": "862945300",
       "sedol": "BMWGYW9",
       "company": "cusip:862945300"
@@ -538,7 +531,7 @@
       "name": "CERIBELL INC",
       "ticker": "CBLL",
       "asset_type": "Equity",
-      "weight": 0.00965015,
+      "weight": 0.00988827,
       "cusip": "15678C102",
       "sedol": "BQFN254",
       "company": "cusip:15678C102"
@@ -547,7 +540,7 @@
       "name": "MINIMED GROUP INC",
       "ticker": "MMED",
       "asset_type": "Equity",
-      "weight": 0.00960013,
+      "weight": 0.0093706,
       "cusip": "60365F109",
       "sedol": "BVPN7F4",
       "company": "cusip:60365F109"
@@ -556,7 +549,7 @@
       "name": "ANTERIS TECHNOLOGIES GLOBAL",
       "ticker": "AVR",
       "asset_type": "Equity",
-      "weight": 0.00869476,
+      "weight": 0.00866355,
       "cusip": "03675P102",
       "sedol": "BTLT1F0",
       "company": "cusip:03675P102"
@@ -565,7 +558,7 @@
       "name": "BIOVENTUS INC   A",
       "ticker": "BVS",
       "asset_type": "Equity",
-      "weight": 0.00858433,
+      "weight": 0.00820275,
       "cusip": "09075A108",
       "sedol": "BD6P6L2",
       "company": "cusip:09075A108"
@@ -574,7 +567,7 @@
       "name": "CERUS CORP",
       "ticker": "CERS",
       "asset_type": "Equity",
-      "weight": 0.00772205,
+      "weight": 0.00771331,
       "cusip": "157085101",
       "sedol": "2222471",
       "company": "cusip:157085101"
@@ -583,25 +576,16 @@
       "name": "ORTHOPEDIATRICS CORP",
       "ticker": "KIDS",
       "asset_type": "Equity",
-      "weight": 0.00658788,
+      "weight": 0.00690145,
       "cusip": "68752L100",
       "sedol": "BYWL5L4",
       "company": "cusip:68752L100"
     },
     {
-      "name": "SENSEONICS HOLDINGS INC",
-      "ticker": "SENS",
-      "asset_type": "Equity",
-      "weight": 0.00597288,
-      "cusip": "81727U303",
-      "sedol": "BTMJPJ1",
-      "company": "cusip:81727U303"
-    },
-    {
       "name": "VAREX IMAGING CORP",
       "ticker": "VREX",
       "asset_type": "Equity",
-      "weight": 0.00591674,
+      "weight": 0.00603126,
       "cusip": "92214X106",
       "sedol": "BDQYWV1",
       "company": "cusip:92214X106"
@@ -610,16 +594,25 @@
       "name": "CLEARPOINT NEURO INC",
       "ticker": "CLPT",
       "asset_type": "Equity",
-      "weight": 0.00579832,
+      "weight": 0.00560694,
       "cusip": "18507C103",
       "sedol": "BKT1TK6",
       "company": "cusip:18507C103"
     },
     {
+      "name": "SENSEONICS HOLDINGS INC",
+      "ticker": "SENS",
+      "asset_type": "Equity",
+      "weight": 0.00556943,
+      "cusip": "81727U303",
+      "sedol": "BTMJPJ1",
+      "company": "cusip:81727U303"
+    },
+    {
       "name": "ANGIODYNAMICS INC",
       "ticker": "ANGO",
       "asset_type": "Equity",
-      "weight": 0.00515952,
+      "weight": 0.00500187,
       "cusip": "03475V101",
       "sedol": "B00CR04",
       "company": "cusip:03475V101"
@@ -628,7 +621,7 @@
       "name": "ORTHOFIX MEDICAL INC",
       "ticker": "OFIX",
       "asset_type": "Equity",
-      "weight": 0.00365766,
+      "weight": 0.00357802,
       "cusip": "68752M108",
       "sedol": "BGGJFT6",
       "company": "cusip:68752M108"
@@ -637,30 +630,37 @@
       "name": "NEUROPACE INC",
       "ticker": "NPCE",
       "asset_type": "Equity",
-      "weight": 0.00216107,
+      "weight": 0.00218258,
       "cusip": "641288105",
       "sedol": "BNBW7R1",
       "company": "cusip:641288105"
     },
     {
+      "name": "SSI US GOV MONEY MARKET CLASS",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 0.00076808,
+      "company": null
+    },
+    {
       "name": "CONTRA PARAGON 28 INC",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 7.392e-05,
+      "weight": 7.22e-05,
       "company": null
     },
     {
       "name": "CONTRA HOLOGIC INCORPO",
       "ticker": "2602335D",
       "asset_type": "Other",
-      "weight": 1.92e-06,
+      "weight": 1.88e-06,
       "company": null
     },
     {
       "name": "US DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": -0.01592103,
+      "weight": -4.16e-06,
       "company": null
     }
   ]

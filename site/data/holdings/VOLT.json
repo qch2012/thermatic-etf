@@ -1,24 +1,15 @@
 {
   "ticker": "VOLT",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:54.284403+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-21T03:29:06.794127+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/VOLT-holdings-{mdy}.csv",
   "holdings": [
     {
-      "name": "BEL FUSE INC",
-      "ticker": "BELFB",
-      "asset_type": "Equity",
-      "weight": 0.0665,
-      "cusip": "077347300",
-      "location": "United States",
-      "company": "cusip:077347300"
-    },
-    {
       "name": "AMPHENOL CORP",
       "ticker": "APH",
       "asset_type": "Equity",
-      "weight": 0.0657,
+      "weight": 0.0635,
       "cusip": "032095101",
       "location": "United States",
       "company": "cusip:032095101"
@@ -27,79 +18,88 @@
       "name": "NEXTERA ENERGY INC",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.0596,
+      "weight": 0.0622,
       "cusip": "65339F101",
       "location": "United States",
       "company": "cusip:65339F101"
     },
     {
-      "name": "QUANTA SERVICES INC",
-      "ticker": "PWR",
+      "name": "BEL FUSE INC",
+      "ticker": "BELFB",
       "asset_type": "Equity",
-      "weight": 0.058,
-      "cusip": "74762E102",
+      "weight": 0.0621,
+      "cusip": "077347300",
       "location": "United States",
-      "company": "cusip:74762E102"
-    },
-    {
-      "name": "EATON CORP PLC",
-      "ticker": "ETN",
-      "asset_type": "Equity",
-      "weight": 0.0565,
-      "cusip": "G29183103",
-      "location": "Ireland",
-      "company": "cusip:G29183103"
+      "company": "cusip:077347300"
     },
     {
       "name": "AMERICAN ELECTRIC POWER CO INC",
       "ticker": "AEP",
       "asset_type": "Equity",
-      "weight": 0.056,
+      "weight": 0.0588,
       "cusip": "025537101",
       "location": "United States",
       "company": "cusip:025537101"
     },
     {
-      "name": "OGE ENERGY CORP",
-      "ticker": "OGE",
+      "name": "QUANTA SERVICES INC",
+      "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.0548,
-      "cusip": "670837103",
+      "weight": 0.0578,
+      "cusip": "74762E102",
       "location": "United States",
-      "company": "cusip:670837103"
+      "company": "cusip:74762E102"
     },
     {
       "name": "ENERGY TRANSFER LP",
       "ticker": "ET",
       "asset_type": "Equity",
-      "weight": 0.0545,
+      "weight": 0.0556,
       "cusip": "29273V100",
       "location": "United States",
       "company": "cusip:29273V100"
     },
     {
-      "name": "POWELL INDUSTRIES INC",
-      "ticker": "POWL",
-      "asset_type": "Equity",
-      "weight": 0.0536,
-      "cusip": "739128106",
-      "location": "United States",
-      "company": "cusip:739128106"
-    },
-    {
       "name": "IDACORP INC",
       "ticker": "IDA",
       "asset_type": "Equity",
-      "weight": 0.052,
+      "weight": 0.0542,
       "cusip": "451107106",
       "location": "United States",
       "company": "cusip:451107106"
     },
     {
+      "name": "POWELL INDUSTRIES INC",
+      "ticker": "POWL",
+      "asset_type": "Equity",
+      "weight": 0.0524,
+      "cusip": "739128106",
+      "location": "United States",
+      "company": "cusip:739128106"
+    },
+    {
+      "name": "OGE ENERGY CORP",
+      "ticker": "OGE",
+      "asset_type": "Equity",
+      "weight": 0.0511,
+      "cusip": "670837103",
+      "location": "United States",
+      "company": "cusip:670837103"
+    },
+    {
+      "name": "EATON CORP PLC",
+      "ticker": "ETN",
+      "asset_type": "Equity",
+      "weight": 0.0478,
+      "cusip": "G29183103",
+      "location": "Ireland",
+      "company": "cusip:G29183103"
+    },
+    {
       "name": "HUBBELL INC",
       "ticker": "HUBB",
       "asset_type": "Equity",
-      "weight": 0.0451,
+      "weight": 0.0456,
       "cusip": "443510607",
       "location": "United States",
       "company": "cusip:443510607"
@@ -108,34 +108,34 @@
       "name": "ENTERGY CORP",
       "ticker": "ETR",
       "asset_type": "Equity",
-      "weight": 0.0422,
+      "weight": 0.0434,
       "cusip": "29364G103",
       "location": "United States",
       "company": "cusip:29364G103"
     },
     {
-      "name": "GE VERNOVA INC",
-      "ticker": "GEV",
-      "asset_type": "Equity",
-      "weight": 0.038,
-      "cusip": "36828A101",
-      "location": "United States",
-      "company": "cusip:36828A101"
-    },
-    {
       "name": "NISOURCE INC",
       "ticker": "NI",
       "asset_type": "Equity",
-      "weight": 0.0375,
+      "weight": 0.039,
       "cusip": "65473P105",
       "location": "United States",
       "company": "cusip:65473P105"
     },
     {
+      "name": "GE VERNOVA INC",
+      "ticker": "GEV",
+      "asset_type": "Equity",
+      "weight": 0.0368,
+      "cusip": "36828A101",
+      "location": "United States",
+      "company": "cusip:36828A101"
+    },
+    {
       "name": "NVENT ELECTRIC PLC",
       "ticker": "NVT",
       "asset_type": "Equity",
-      "weight": 0.0351,
+      "weight": 0.0346,
       "cusip": "G6700G107",
       "location": "Ireland",
       "company": "cusip:G6700G107"
@@ -144,32 +144,32 @@
       "name": "ADVANCED ENERGY INDUSTRIES INC",
       "ticker": "AEIS",
       "asset_type": "Equity",
-      "weight": 0.0328,
+      "weight": 0.0308,
       "cusip": "007973100",
       "location": "United States",
       "company": "cusip:007973100"
     },
     {
+      "name": "ANTHROPIC SPV EXPOSURE",
+      "ticker": "ANTHROPIC SPV",
+      "asset_type": "Equity",
+      "weight": 0.0263,
+      "company": "name:anthropic spv exposure"
+    },
+    {
       "name": "BLOOM ENERGY CORP",
       "ticker": "BE",
       "asset_type": "Equity",
-      "weight": 0.0295,
+      "weight": 0.0262,
       "cusip": "093712107",
       "location": "United States",
       "company": "cusip:093712107"
     },
     {
-      "name": "ANTHROPIC SPV EXPOSURE",
-      "ticker": "ANTHROPIC SPV",
-      "asset_type": "Equity",
-      "weight": 0.0274,
-      "company": "name:anthropic spv exposure"
-    },
-    {
       "name": "ABB LTD",
       "ticker": "ABBN SW",
       "asset_type": "Equity",
-      "weight": 0.0263,
+      "weight": 0.0251,
       "location": "Switzerland",
       "company": "cusip:H0010V101"
     },
@@ -177,7 +177,7 @@
       "name": "XCEL ENERGY INC",
       "ticker": "XEL",
       "asset_type": "Equity",
-      "weight": 0.0239,
+      "weight": 0.025,
       "cusip": "98389B100",
       "location": "United States",
       "company": "cusip:98389B100"
@@ -186,7 +186,7 @@
       "name": "WILLIAMS COS INC/THE",
       "ticker": "WMB",
       "asset_type": "Equity",
-      "weight": 0.0238,
+      "weight": 0.0242,
       "cusip": "969457100",
       "location": "United States",
       "company": "cusip:969457100"
@@ -195,7 +195,7 @@
       "name": "JOHNSON CONTROLS INTERNATIONAL PLC",
       "ticker": "JCI",
       "asset_type": "Equity",
-      "weight": 0.0206,
+      "weight": 0.0207,
       "cusip": "G51502105",
       "location": "Ireland",
       "company": "cusip:G51502105"
@@ -204,16 +204,23 @@
       "name": "CATERPILLAR INC",
       "ticker": "CAT",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0157,
       "cusip": "149123101",
       "location": "United States",
       "company": "cusip:149123101"
     },
     {
+      "name": "CASH & CASH EQUIVALENTS",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0148,
+      "company": null
+    },
+    {
       "name": "KODIAK GAS SERVICES INC",
       "ticker": "KGS",
       "asset_type": "Equity",
-      "weight": 0.0125,
+      "weight": 0.0122,
       "cusip": "50012A108",
       "location": "United States",
       "company": "cusip:50012A108"
@@ -222,17 +229,18 @@
       "name": "EXPAND ENERGY CORP",
       "ticker": "EXE",
       "asset_type": "Equity",
-      "weight": 0.009,
+      "weight": 0.0093,
       "cusip": "165167735",
       "location": "United States",
       "company": "cusip:165167735"
     },
     {
-      "name": "CASH & CASH EQUIVALENTS",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0036,
-      "company": null
+      "name": "SOUTHERN CO/THE",
+      "ticker": "SO",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "cusip": "842587107",
+      "company": "cusip:842587107"
     }
   ]
 }

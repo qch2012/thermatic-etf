@@ -1,23 +1,143 @@
 {
   "ticker": "GNOM",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:33.462849+00:00",
+  "fetched_at": "2026-11-21T03:28:40.173308+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/gnom_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "CARIBOU BIOSCIENCES INC",
-      "ticker": "CRBU",
+      "name": "MARAVAI LIFESCIENCES HLDGS-A",
+      "ticker": "MRVI",
       "asset_type": "Equity",
-      "weight": 0.0,
-      "sedol": "BNYJR68",
-      "company": "name:caribou biosciences"
+      "weight": 0.0073,
+      "sedol": "BMCWKZ2",
+      "company": "cusip:56600D107"
     },
     {
-      "name": "OTHER PAYABLE & RECEIVABLES",
+      "name": "AGILENT TECHNOLOGIES INC",
+      "ticker": "A",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "2520153",
+      "company": "cusip:00846U101"
+    },
+    {
+      "name": "PACIFIC BIOSCIENCES OF CALIF",
+      "ticker": "PACB",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "sedol": "B4N8MH9",
+      "company": "cusip:69404D108"
+    },
+    {
+      "name": "MYRIAD GENETICS INC",
+      "ticker": "MYGN",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "2614153",
+      "company": "name:myriad genetics"
+    },
+    {
+      "name": "WAVE LIFE SCIENCES INC",
+      "ticker": "WVE",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "C08GM13",
+      "company": "cusip:94352A104"
+    },
+    {
+      "name": "FULGENT GENETICS INC",
+      "ticker": "FLGT",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "BYQBFQ5",
+      "company": "name:fulgent genetics"
+    },
+    {
+      "name": "REGENXBIO INC",
+      "ticker": "RGNX",
+      "asset_type": "Equity",
+      "weight": 0.004,
+      "sedol": "BZ0G875",
+      "company": "name:regenxbio"
+    },
+    {
+      "name": "QUEST DIAGNOSTICS INC",
+      "ticker": "DGX",
+      "asset_type": "Equity",
+      "weight": 0.0038,
+      "sedol": "2702791",
+      "company": "cusip:74834L100"
+    },
+    {
+      "name": "MESA LABORATORIES INC",
+      "ticker": "MLAB",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "2553814",
+      "company": "name:mesa laboratories"
+    },
+    {
+      "name": "BRUKER CORP",
+      "ticker": "BRKR",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "2616137",
+      "company": "cusip:116794108"
+    },
+    {
+      "name": "STANDARD BIOTOOLS INC",
+      "ticker": "LAB",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "B3D32T9",
+      "company": "name:standard biotools"
+    },
+    {
+      "name": "PRIME MEDICINE INC",
+      "ticker": "PRME",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BPBJFM7",
+      "company": "cusip:74168J101"
+    },
+    {
+      "name": "BENITEC BIOPHARMA INC",
+      "ticker": "BNTC",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "BS2K7D5",
+      "company": "name:benitec biopharma"
+    },
+    {
+      "name": "ROCKET PHARMACEUTICALS INC",
+      "ticker": "RCKT",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "sedol": "BDFKQ07",
+      "company": "name:rocket pharmaceuticals"
+    },
+    {
+      "name": "SCRIBE THERAPEUTICS INC",
+      "ticker": "SCTX",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "sedol": "C04JJW6",
+      "company": "cusip:811033109"
+    },
+    {
+      "name": "EDITAS MEDICINE INC",
+      "ticker": "EDIT",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "BZ8FPH3",
+      "company": "name:editas medicine"
+    },
+    {
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0002,
+      "weight": 0.0006,
       "company": null
     },
     {
@@ -293,139 +413,19 @@
       "company": "name:personalis@united states"
     },
     {
-      "name": "CASH",
+      "name": "CARIBOU BIOSCIENCES INC",
+      "ticker": "CRBU",
+      "asset_type": "Equity",
+      "weight": 0.0,
+      "sedol": "BNYJR68",
+      "company": "name:caribou biosciences"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0006,
+      "weight": -0.0002,
       "company": null
-    },
-    {
-      "name": "MARAVAI LIFESCIENCES HLDGS-A",
-      "ticker": "MRVI",
-      "asset_type": "Equity",
-      "weight": 0.0073,
-      "sedol": "BMCWKZ2",
-      "company": "cusip:56600D107"
-    },
-    {
-      "name": "AGILENT TECHNOLOGIES INC",
-      "ticker": "A",
-      "asset_type": "Equity",
-      "weight": 0.0051,
-      "sedol": "2520153",
-      "company": "cusip:00846U101"
-    },
-    {
-      "name": "PACIFIC BIOSCIENCES OF CALIF",
-      "ticker": "PACB",
-      "asset_type": "Equity",
-      "weight": 0.0046,
-      "sedol": "B4N8MH9",
-      "company": "cusip:69404D108"
-    },
-    {
-      "name": "MYRIAD GENETICS INC",
-      "ticker": "MYGN",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "sedol": "2614153",
-      "company": "name:myriad genetics"
-    },
-    {
-      "name": "WAVE LIFE SCIENCES INC",
-      "ticker": "WVE",
-      "asset_type": "Equity",
-      "weight": 0.0041,
-      "sedol": "C08GM13",
-      "company": "cusip:94352A104"
-    },
-    {
-      "name": "FULGENT GENETICS INC",
-      "ticker": "FLGT",
-      "asset_type": "Equity",
-      "weight": 0.0041,
-      "sedol": "BYQBFQ5",
-      "company": "name:fulgent genetics"
-    },
-    {
-      "name": "REGENXBIO INC",
-      "ticker": "RGNX",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "sedol": "BZ0G875",
-      "company": "name:regenxbio"
-    },
-    {
-      "name": "QUEST DIAGNOSTICS INC",
-      "ticker": "DGX",
-      "asset_type": "Equity",
-      "weight": 0.0038,
-      "sedol": "2702791",
-      "company": "cusip:74834L100"
-    },
-    {
-      "name": "MESA LABORATORIES INC",
-      "ticker": "MLAB",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "2553814",
-      "company": "name:mesa laboratories"
-    },
-    {
-      "name": "BRUKER CORP",
-      "ticker": "BRKR",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "2616137",
-      "company": "cusip:116794108"
-    },
-    {
-      "name": "STANDARD BIOTOOLS INC",
-      "ticker": "LAB",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "B3D32T9",
-      "company": "name:standard biotools"
-    },
-    {
-      "name": "PRIME MEDICINE INC",
-      "ticker": "PRME",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BPBJFM7",
-      "company": "cusip:74168J101"
-    },
-    {
-      "name": "BENITEC BIOPHARMA INC",
-      "ticker": "BNTC",
-      "asset_type": "Equity",
-      "weight": 0.0033,
-      "sedol": "BS2K7D5",
-      "company": "name:benitec biopharma"
-    },
-    {
-      "name": "ROCKET PHARMACEUTICALS INC",
-      "ticker": "RCKT",
-      "asset_type": "Equity",
-      "weight": 0.0029,
-      "sedol": "BDFKQ07",
-      "company": "name:rocket pharmaceuticals"
-    },
-    {
-      "name": "SCRIBE THERAPEUTICS INC",
-      "ticker": "SCTX",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "sedol": "C04JJW6",
-      "company": "cusip:811033109"
-    },
-    {
-      "name": "EDITAS MEDICINE INC",
-      "ticker": "EDIT",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "BZ8FPH3",
-      "company": "name:editas medicine"
     }
   ]
 }

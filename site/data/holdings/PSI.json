@@ -1,7 +1,7 @@
 {
   "ticker": "PSI",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:46.390254+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:28:56.734704+00:00",
   "stale": false,
   "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V647/holdings/fund?idType=cusip&productType=ETF",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Texas Instruments Inc",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0702129,
+      "weight": 0.0705693,
       "cusip": "882508104",
       "company": "cusip:882508104"
     },
@@ -17,7 +17,7 @@
       "name": "Advanced Micro Devices Inc",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.06903314,
+      "weight": 0.06552112,
       "cusip": "007903107",
       "company": "cusip:007903107"
     },
@@ -25,7 +25,7 @@
       "name": "Analog Devices Inc",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.06381253,
+      "weight": 0.06485548,
       "cusip": "032654105",
       "company": "cusip:032654105"
     },
@@ -33,7 +33,7 @@
       "name": "KLA Corp",
       "ticker": "KLAC",
       "asset_type": "Equity",
-      "weight": 0.04942963,
+      "weight": 0.0496509,
       "cusip": "482480100",
       "company": "cusip:482480100"
     },
@@ -41,7 +41,7 @@
       "name": "Micron Technology Inc",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.04715692,
+      "weight": 0.0474841,
       "cusip": "595112103",
       "company": "cusip:595112103"
     },
@@ -49,7 +49,7 @@
       "name": "Applied Materials Inc",
       "ticker": "AMAT",
       "asset_type": "Equity",
-      "weight": 0.04585659,
+      "weight": 0.04544794,
       "cusip": "038222105",
       "company": "cusip:038222105"
     },
@@ -57,7 +57,7 @@
       "name": "Lam Research Corp",
       "ticker": "LRCX",
       "asset_type": "Equity",
-      "weight": 0.04198697,
+      "weight": 0.04155633,
       "cusip": "512807306",
       "company": "cusip:512807306"
     },
@@ -65,7 +65,7 @@
       "name": "Intel Corp",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.03901883,
+      "weight": 0.04090446,
       "cusip": "458140100",
       "company": "cusip:458140100"
     },
@@ -73,7 +73,7 @@
       "name": "Entegris Inc",
       "ticker": "ENTG",
       "asset_type": "Equity",
-      "weight": 0.03526304,
+      "weight": 0.03484789,
       "cusip": "29362U104",
       "company": "cusip:29362U104"
     },
@@ -81,7 +81,7 @@
       "name": "Lattice Semiconductor Corp",
       "ticker": "LSCC",
       "asset_type": "Equity",
-      "weight": 0.03273693,
+      "weight": 0.03346409,
       "cusip": "518415104",
       "company": "cusip:518415104"
     },
@@ -89,47 +89,47 @@
       "name": "ON Semiconductor Corp",
       "ticker": "ON",
       "asset_type": "Equity",
-      "weight": 0.03158667,
+      "weight": 0.03175942,
       "cusip": "682189105",
       "company": "cusip:682189105"
-    },
-    {
-      "name": "Diodes Inc",
-      "ticker": "DIOD",
-      "asset_type": "Equity",
-      "weight": 0.03091967,
-      "cusip": "254543101",
-      "company": "cusip:254543101"
     },
     {
       "name": "Wolfspeed Inc",
       "ticker": "WOLF",
       "asset_type": "Equity",
-      "weight": 0.03068212,
+      "weight": 0.03114315,
       "cusip": "97785W106",
       "company": "cusip:97785W106"
     },
     {
-      "name": "Cohu Inc",
-      "ticker": "COHU",
+      "name": "Diodes Inc",
+      "ticker": "DIOD",
       "asset_type": "Equity",
-      "weight": 0.02839647,
-      "cusip": "192576106",
-      "company": "cusip:192576106"
+      "weight": 0.03052151,
+      "cusip": "254543101",
+      "company": "cusip:254543101"
     },
     {
       "name": "MACOM Technology Solutions Holdings Inc",
       "ticker": "MTSI",
       "asset_type": "Equity",
-      "weight": 0.02828198,
+      "weight": 0.02875456,
       "cusip": "55405Y100",
       "company": "cusip:55405Y100"
+    },
+    {
+      "name": "Cohu Inc",
+      "ticker": "COHU",
+      "asset_type": "Equity",
+      "weight": 0.02823862,
+      "cusip": "192576106",
+      "company": "cusip:192576106"
     },
     {
       "name": "Semtech Corp",
       "ticker": "SMTC",
       "asset_type": "Equity",
-      "weight": 0.02785061,
+      "weight": 0.02797592,
       "cusip": "816850101",
       "company": "cusip:816850101"
     },
@@ -137,47 +137,47 @@
       "name": "Microchip Technology Inc",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.02764947,
+      "weight": 0.02786757,
       "cusip": "595017104",
       "company": "cusip:595017104"
-    },
-    {
-      "name": "Kulicke & Soffa Industries Inc",
-      "ticker": "KLIC",
-      "asset_type": "Equity",
-      "weight": 0.02698996,
-      "cusip": "501242101",
-      "company": "cusip:501242101"
     },
     {
       "name": "Power Integrations Inc",
       "ticker": "POWI",
       "asset_type": "Equity",
-      "weight": 0.02689772,
+      "weight": 0.02714681,
       "cusip": "739276103",
       "company": "cusip:739276103"
-    },
-    {
-      "name": "MKS Inc",
-      "ticker": "MKSI",
-      "asset_type": "Equity",
-      "weight": 0.0265175,
-      "cusip": "55306N104",
-      "company": "cusip:55306N104"
     },
     {
       "name": "FormFactor Inc",
       "ticker": "FORM",
       "asset_type": "Equity",
-      "weight": 0.02618669,
+      "weight": 0.02662606,
       "cusip": "346375108",
       "company": "cusip:346375108"
+    },
+    {
+      "name": "MKS Inc",
+      "ticker": "MKSI",
+      "asset_type": "Equity",
+      "weight": 0.0265539,
+      "cusip": "55306N104",
+      "company": "cusip:55306N104"
+    },
+    {
+      "name": "Kulicke & Soffa Industries Inc",
+      "ticker": "KLIC",
+      "asset_type": "Equity",
+      "weight": 0.02551917,
+      "cusip": "501242101",
+      "company": "cusip:501242101"
     },
     {
       "name": "Amkor Technology Inc",
       "ticker": "AMKR",
       "asset_type": "Equity",
-      "weight": 0.02468109,
+      "weight": 0.02455182,
       "cusip": "031652100",
       "company": "cusip:031652100"
     },
@@ -185,7 +185,7 @@
       "name": "SiTime Corp",
       "ticker": "SITM",
       "asset_type": "Equity",
-      "weight": 0.02403894,
+      "weight": 0.02391826,
       "cusip": "82982T106",
       "company": "cusip:82982T106"
     },
@@ -193,7 +193,7 @@
       "name": "Onto Innovation Inc",
       "ticker": "ONTO",
       "asset_type": "Equity",
-      "weight": 0.02347427,
+      "weight": 0.02353358,
       "cusip": "683344105",
       "company": "cusip:683344105"
     },
@@ -201,7 +201,7 @@
       "name": "Teradyne Inc",
       "ticker": "TER",
       "asset_type": "Equity",
-      "weight": 0.02186323,
+      "weight": 0.02174408,
       "cusip": "880770102",
       "company": "cusip:880770102"
     },
@@ -209,7 +209,7 @@
       "name": "Tower Semiconductor Ltd",
       "ticker": "TSEM",
       "asset_type": "Equity",
-      "weight": 0.0212276,
+      "weight": 0.02104356,
       "cusip": "M87915274",
       "company": "cusip:M87915274"
     },
@@ -217,31 +217,31 @@
       "name": "Ultra Clean Holdings Inc",
       "ticker": "UCTT",
       "asset_type": "Equity",
-      "weight": 0.02051641,
+      "weight": 0.02030951,
       "cusip": "90385V107",
       "company": "cusip:90385V107"
-    },
-    {
-      "name": "Ichor Holdings Ltd",
-      "ticker": "ICHR",
-      "asset_type": "Equity",
-      "weight": 0.02025402,
-      "cusip": "G4740B105",
-      "company": "cusip:G4740B105"
     },
     {
       "name": "ACM Research Inc",
       "ticker": "ACMR",
       "asset_type": "Equity",
-      "weight": 0.01874401,
+      "weight": 0.01998224,
       "cusip": "00108J109",
       "company": "cusip:00108J109"
+    },
+    {
+      "name": "Ichor Holdings Ltd",
+      "ticker": "ICHR",
+      "asset_type": "Equity",
+      "weight": 0.01972238,
+      "cusip": "G4740B105",
+      "company": "cusip:G4740B105"
     },
     {
       "name": "AXT Inc",
       "ticker": "AXTI",
       "asset_type": "Equity",
-      "weight": 0.01797943,
+      "weight": 0.01809325,
       "cusip": "00246W103",
       "company": "cusip:00246W103"
     },
@@ -249,20 +249,13 @@
       "name": "Invesco Government & Agency Portfolio",
       "ticker": "AGPXX",
       "asset_type": "Money Market Fund, Taxable",
-      "weight": 0.00075466,
+      "weight": 0.00069301,
       "company": null
     },
     {
       "name": "SECURITIES LENDING - BNYM",
       "ticker": null,
       "asset_type": "Uninvestible Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CASH & EQUIVALENTS",
-      "ticker": "USD",
-      "asset_type": "Currency",
       "weight": 0.0,
       "company": null
     },

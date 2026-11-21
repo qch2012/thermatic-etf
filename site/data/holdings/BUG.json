@@ -1,22 +1,119 @@
 {
   "ticker": "BUG",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:20.288279+00:00",
+  "fetched_at": "2026-11-21T03:28:21.319785+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/bug_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "company": null
+      "name": "RAPID7 INC",
+      "ticker": "RPD",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "BZ22CY6",
+      "company": "cusip:753422104"
     },
     {
-      "name": "KOREAN WON",
+      "name": "ONESPAN INC",
+      "ticker": "OSPN",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "BFNSSD4",
+      "company": "cusip:68287N100"
+    },
+    {
+      "name": "AHNLAB INC",
+      "ticker": "053800 KS",
+      "asset_type": "Equity",
+      "weight": 0.0053,
+      "sedol": "6406271",
+      "company": "name:ahnlab"
+    },
+    {
+      "name": "MITEK SYSTEMS INC",
+      "ticker": "MITK",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "sedol": "2597072",
+      "company": "name:mitek systems"
+    },
+    {
+      "name": "TELOS CORPORATION",
+      "ticker": "TLS",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "BLDDYL1",
+      "company": "cusip:87969B101"
+    },
+    {
+      "name": "HENNGE KK",
+      "ticker": "4475 JP",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "sedol": "BKWBPS3",
+      "company": "name:hennge kk"
+    },
+    {
+      "name": "DIGITAL ARTS INC",
+      "ticker": "2326 JP",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "sedol": "6543587",
+      "company": "name:digital arts@japan"
+    },
+    {
+      "name": "ARQIT QUANTUM INC",
+      "ticker": "ARQQ",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "BP092J4",
+      "company": "cusip:G0567U127"
+    },
+    {
+      "name": "GORILLA TECHNOLOGY GROUP INC",
+      "ticker": "GRRR",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "sedol": "BPBRRM5",
+      "company": "cusip:G4000K175"
+    },
+    {
+      "name": "AMIYA CORP",
+      "ticker": "4258 JP",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "sedol": "BN6SNS7",
+      "company": "name:amiya"
+    },
+    {
+      "name": "FFRI SECURITY INC",
+      "ticker": "3692 JP",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "sedol": "BQJYQS4",
+      "company": "name:ffri security"
+    },
+    {
+      "name": "NCC GROUP PLC",
+      "ticker": "NCC LN",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "B01QGK8",
+      "company": "name:ncc group@united kingdom"
+    },
+    {
+      "name": "CYBER SECURITY CLOUD INC",
+      "ticker": "4493 JP",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "sedol": "BLH7KW2",
+      "company": "name:cyber security cloud"
+    },
+    {
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0,
+      "weight": 0.0007,
       "company": null
     },
     {
@@ -188,114 +285,17 @@
       "company": "cusip:M81873107"
     },
     {
-      "name": "RAPID7 INC",
-      "ticker": "RPD",
-      "asset_type": "Equity",
-      "weight": 0.0069,
-      "sedol": "BZ22CY6",
-      "company": "cusip:753422104"
-    },
-    {
-      "name": "ONESPAN INC",
-      "ticker": "OSPN",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "sedol": "BFNSSD4",
-      "company": "cusip:68287N100"
-    },
-    {
-      "name": "AHNLAB INC",
-      "ticker": "053800 KS",
-      "asset_type": "Equity",
-      "weight": 0.0053,
-      "sedol": "6406271",
-      "company": "name:ahnlab"
-    },
-    {
-      "name": "MITEK SYSTEMS INC",
-      "ticker": "MITK",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "sedol": "2597072",
-      "company": "name:mitek systems"
-    },
-    {
-      "name": "TELOS CORPORATION",
-      "ticker": "TLS",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "BLDDYL1",
-      "company": "cusip:87969B101"
-    },
-    {
-      "name": "HENNGE KK",
-      "ticker": "4475 JP",
-      "asset_type": "Equity",
-      "weight": 0.0037,
-      "sedol": "BKWBPS3",
-      "company": "name:hennge kk"
-    },
-    {
-      "name": "DIGITAL ARTS INC",
-      "ticker": "2326 JP",
-      "asset_type": "Equity",
-      "weight": 0.0029,
-      "sedol": "6543587",
-      "company": "name:digital arts@japan"
-    },
-    {
-      "name": "ARQIT QUANTUM INC",
-      "ticker": "ARQQ",
-      "asset_type": "Equity",
-      "weight": 0.0028,
-      "sedol": "BP092J4",
-      "company": "cusip:G0567U127"
-    },
-    {
-      "name": "GORILLA TECHNOLOGY GROUP INC",
-      "ticker": "GRRR",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "sedol": "BPBRRM5",
-      "company": "cusip:G4000K175"
-    },
-    {
-      "name": "AMIYA CORP",
-      "ticker": "4258 JP",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "sedol": "BN6SNS7",
-      "company": "name:amiya"
-    },
-    {
-      "name": "FFRI SECURITY INC",
-      "ticker": "3692 JP",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "sedol": "BQJYQS4",
-      "company": "name:ffri security"
-    },
-    {
-      "name": "NCC GROUP PLC",
-      "ticker": "NCC LN",
-      "asset_type": "Equity",
-      "weight": 0.0024,
-      "sedol": "B01QGK8",
-      "company": "name:ncc group@united kingdom"
-    },
-    {
-      "name": "CYBER SECURITY CLOUD INC",
-      "ticker": "4493 JP",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "sedol": "BLH7KW2",
-      "company": "name:cyber security cloud"
-    },
-    {
-      "name": "CASH",
+      "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0007,
+      "weight": 0.0001,
+      "company": null
+    },
+    {
+      "name": "KOREAN WON",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0,
       "company": null
     }
   ]

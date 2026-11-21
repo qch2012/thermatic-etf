@@ -1,7 +1,7 @@
 {
   "ticker": "CIBR",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:23.760253+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:28:25.472081+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=CIBR",
   "holdings": [
@@ -9,31 +9,31 @@
       "name": "CrowdStrike Holdings, Inc. (Class A)",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0854,
+      "weight": 0.0875,
       "cusip": "22788C105",
       "company": "cusip:22788C105"
-    },
-    {
-      "name": "Broadcom Inc.",
-      "ticker": "AVGO",
-      "asset_type": "Equity",
-      "weight": 0.0796,
-      "cusip": "11135F101",
-      "company": "cusip:11135F101"
     },
     {
       "name": "Palo Alto Networks, Inc.",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.0741,
+      "weight": 0.0786,
       "cusip": "697435105",
       "company": "cusip:697435105"
+    },
+    {
+      "name": "Broadcom Inc.",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0778,
+      "cusip": "11135F101",
+      "company": "cusip:11135F101"
     },
     {
       "name": "Cisco Systems, Inc.",
       "ticker": "CSCO",
       "asset_type": "Equity",
-      "weight": 0.0732,
+      "weight": 0.0712,
       "cusip": "17275R102",
       "company": "cusip:17275R102"
     },
@@ -41,7 +41,7 @@
       "name": "Fortinet, Inc.",
       "ticker": "FTNT",
       "asset_type": "Equity",
-      "weight": 0.0642,
+      "weight": 0.0639,
       "cusip": "34959E109",
       "company": "cusip:34959E109"
     },
@@ -49,7 +49,7 @@
       "name": "Okta, Inc.",
       "ticker": "OKTA",
       "asset_type": "Equity",
-      "weight": 0.0444,
+      "weight": 0.0468,
       "cusip": "679295105",
       "company": "cusip:679295105"
     },
@@ -57,7 +57,7 @@
       "name": "Cloudflare, Inc. (Class A)",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.0411,
+      "weight": 0.0413,
       "cusip": "18915M107",
       "company": "cusip:18915M107"
     },
@@ -65,55 +65,55 @@
       "name": "Zscaler, Inc.",
       "ticker": "ZS",
       "asset_type": "Equity",
-      "weight": 0.0383,
+      "weight": 0.0397,
       "cusip": "98980G102",
       "company": "cusip:98980G102"
-    },
-    {
-      "name": "F5, Inc.",
-      "ticker": "FFIV",
-      "asset_type": "Equity",
-      "weight": 0.0279,
-      "cusip": "315616102",
-      "company": "cusip:315616102"
     },
     {
       "name": "Rubrik, Inc. (Class A)",
       "ticker": "RBRK",
       "asset_type": "Equity",
-      "weight": 0.0277,
+      "weight": 0.0288,
       "cusip": "781154109",
       "company": "cusip:781154109"
+    },
+    {
+      "name": "F5, Inc.",
+      "ticker": "FFIV",
+      "asset_type": "Equity",
+      "weight": 0.0276,
+      "cusip": "315616102",
+      "company": "cusip:315616102"
     },
     {
       "name": "Accenture plc",
       "ticker": "ACN",
       "asset_type": "Equity",
-      "weight": 0.025,
+      "weight": 0.0239,
       "cusip": "G1151C101",
       "company": "cusip:G1151C101"
-    },
-    {
-      "name": "JFrog Ltd.",
-      "ticker": "FROG",
-      "asset_type": "Equity",
-      "weight": 0.0238,
-      "cusip": "M6191J100",
-      "company": "cusip:M6191J100"
     },
     {
       "name": "Gen Digital Inc.",
       "ticker": "GEN",
       "asset_type": "Equity",
-      "weight": 0.0231,
+      "weight": 0.0228,
       "cusip": "668771108",
       "company": "cusip:668771108"
+    },
+    {
+      "name": "JFrog Ltd.",
+      "ticker": "FROG",
+      "asset_type": "Equity",
+      "weight": 0.0227,
+      "cusip": "M6191J100",
+      "company": "cusip:M6191J100"
     },
     {
       "name": "Check Point Software Technologies Ltd.",
       "ticker": "CHKP",
       "asset_type": "Equity",
-      "weight": 0.0224,
+      "weight": 0.0225,
       "cusip": "M22465104",
       "company": "cusip:M22465104"
     },
@@ -121,7 +121,7 @@
       "name": "Microsoft Corporation",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0209,
+      "weight": 0.0204,
       "cusip": "594918104",
       "company": "cusip:594918104"
     },
@@ -129,7 +129,7 @@
       "name": "Arista Networks, Inc.",
       "ticker": "ANET",
       "asset_type": "Equity",
-      "weight": 0.0206,
+      "weight": 0.0201,
       "cusip": "040413205",
       "company": "cusip:040413205"
     },
@@ -137,7 +137,7 @@
       "name": "Infosys Limited (ADR)",
       "ticker": "INFY",
       "asset_type": "Equity",
-      "weight": 0.0203,
+      "weight": 0.0201,
       "cusip": "456788108",
       "company": "cusip:456788108"
     },
@@ -145,7 +145,7 @@
       "name": "International Business Machines Corporation",
       "ticker": "IBM",
       "asset_type": "Equity",
-      "weight": 0.0203,
+      "weight": 0.0199,
       "cusip": "459200101",
       "company": "cusip:459200101"
     },
@@ -153,17 +153,9 @@
       "name": "NetApp, Inc.",
       "ticker": "NTAP",
       "asset_type": "Equity",
-      "weight": 0.0193,
+      "weight": 0.0191,
       "cusip": "64110D104",
       "company": "cusip:64110D104"
-    },
-    {
-      "name": "Leidos Holdings, Inc.",
-      "ticker": "LDOS",
-      "asset_type": "Equity",
-      "weight": 0.0187,
-      "cusip": "525327102",
-      "company": "cusip:525327102"
     },
     {
       "name": "Akamai Technologies, Inc.",
@@ -174,6 +166,14 @@
       "company": "cusip:00971T101"
     },
     {
+      "name": "Leidos Holdings, Inc.",
+      "ticker": "LDOS",
+      "asset_type": "Equity",
+      "weight": 0.0185,
+      "cusip": "525327102",
+      "company": "cusip:525327102"
+    },
+    {
       "name": "Thales S.A.",
       "ticker": "HO.FP",
       "asset_type": "Equity",
@@ -182,26 +182,26 @@
       "company": "cusip:883219206"
     },
     {
-      "name": "Alphabet Inc. (Class A)",
-      "ticker": "GOOGL",
-      "asset_type": "Equity",
-      "weight": 0.0173,
-      "cusip": "02079K305",
-      "company": "cusip:02079K107"
-    },
-    {
       "name": "Dynatrace, Inc.",
       "ticker": "DT",
       "asset_type": "Equity",
-      "weight": 0.0173,
+      "weight": 0.0172,
       "cusip": "268150109",
       "company": "cusip:268150109"
+    },
+    {
+      "name": "Alphabet Inc. (Class A)",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "cusip": "02079K305",
+      "company": "cusip:02079K107"
     },
     {
       "name": "Booz Allen Hamilton Holding Corporation",
       "ticker": "BAH",
       "asset_type": "Equity",
-      "weight": 0.015,
+      "weight": 0.0147,
       "cusip": "099502106",
       "company": "cusip:099502106"
     },
@@ -209,25 +209,25 @@
       "name": "Datadog, Inc. (Class A)",
       "ticker": "DDOG",
       "asset_type": "Equity",
-      "weight": 0.0147,
+      "weight": 0.0146,
       "cusip": "23804L103",
       "company": "cusip:23804L103"
-    },
-    {
-      "name": "Elastic N.V.",
-      "ticker": "ESTC",
-      "asset_type": "Equity",
-      "weight": 0.0135,
-      "cusip": "N14506104",
-      "company": "cusip:N14506104"
     },
     {
       "name": "SentinelOne, Inc. (Class A)",
       "ticker": "S",
       "asset_type": "Equity",
-      "weight": 0.0133,
+      "weight": 0.0137,
       "cusip": "81730H109",
       "company": "cusip:81730H109"
+    },
+    {
+      "name": "Elastic N.V.",
+      "ticker": "ESTC",
+      "asset_type": "Equity",
+      "weight": 0.0124,
+      "cusip": "N14506104",
+      "company": "cusip:N14506104"
     },
     {
       "name": "Trend Micro Incorporated",
@@ -241,7 +241,7 @@
       "name": "Qualys, Inc.",
       "ticker": "QLYS",
       "asset_type": "Equity",
-      "weight": 0.01,
+      "weight": 0.0097,
       "cusip": "74758T303",
       "company": "cusip:74758T303"
     },
@@ -249,17 +249,9 @@
       "name": "Science Applications International Corporation",
       "ticker": "SAIC",
       "asset_type": "Equity",
-      "weight": 0.0098,
+      "weight": 0.0095,
       "cusip": "808625107",
       "company": "cusip:808625107"
-    },
-    {
-      "name": "BlackBerry Ltd.",
-      "ticker": "BB",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "cusip": "09228F103",
-      "company": "cusip:09228F103"
     },
     {
       "name": "Commvault Systems, Inc.",
@@ -268,6 +260,14 @@
       "weight": 0.0093,
       "cusip": "204166102",
       "company": "cusip:204166102"
+    },
+    {
+      "name": "BlackBerry Ltd.",
+      "ticker": "BB",
+      "asset_type": "Equity",
+      "weight": 0.0091,
+      "cusip": "09228F103",
+      "company": "cusip:09228F103"
     },
     {
       "name": "Varonis Systems, Inc.",
@@ -281,7 +281,7 @@
       "name": "Netskope, Inc. (Class A)",
       "ticker": "NTSK",
       "asset_type": "Equity",
-      "weight": 0.0082,
+      "weight": 0.0086,
       "cusip": "64119N608",
       "company": "cusip:64119N608"
     },
@@ -289,7 +289,7 @@
       "name": "Tenable Holdings, Inc.",
       "ticker": "TENB",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0073,
       "cusip": "88025T102",
       "company": "cusip:88025T102"
     },
@@ -297,17 +297,9 @@
       "name": "Open Text Corporation",
       "ticker": "OTEX.CN",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.0069,
       "cusip": "683715106",
       "company": "cusip:683715106"
-    },
-    {
-      "name": "Fastly, Inc. (Class A)",
-      "ticker": "FSLY",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "cusip": "31188V100",
-      "company": "cusip:31188V100"
     },
     {
       "name": "A10 Networks, Inc.",
@@ -316,6 +308,14 @@
       "weight": 0.0037,
       "cusip": "002121101",
       "company": "cusip:002121101"
+    },
+    {
+      "name": "Fastly, Inc. (Class A)",
+      "ticker": "FSLY",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "cusip": "31188V100",
+      "company": "cusip:31188V100"
     },
     {
       "name": "NetScout Systems, Inc.",
@@ -344,7 +344,7 @@
       "name": "Radware Ltd.",
       "ticker": "RDWR",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0017,
       "cusip": "M81873107",
       "company": "cusip:M81873107"
     },

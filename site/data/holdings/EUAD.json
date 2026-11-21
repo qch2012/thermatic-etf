@@ -1,7 +1,7 @@
 {
   "ticker": "EUAD",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:29.732847+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:28:33.632522+00:00",
   "stale": false,
   "source": "https://jdkfnvgkfwotjlyovbrk.supabase.co/functions/v1/fund-public-api?ticker=EUAD&view=all",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ROLLS-ROYCE HOLDINGS-SP ADR",
       "ticker": "RYCEY",
       "asset_type": "Equity",
-      "weight": 0.227108,
+      "weight": 0.224878,
       "cusip": "775781206",
       "company": "cusip:775781206"
     },
@@ -17,7 +17,7 @@
       "name": "SAFRAN SA-UNSPON ADR",
       "ticker": "SAFRY",
       "asset_type": "Equity",
-      "weight": 0.196493,
+      "weight": 0.194109,
       "cusip": "786584102",
       "company": "cusip:786584102"
     },
@@ -25,7 +25,7 @@
       "name": "AIRBUS GROUP SE",
       "ticker": "EADSY",
       "asset_type": "Equity",
-      "weight": 0.187565,
+      "weight": 0.188883,
       "cusip": "N0280G100",
       "company": "cusip:N0280G100"
     },
@@ -33,7 +33,7 @@
       "name": "BAE SYSTEMS PLC -SPON ADR",
       "ticker": "BAESY",
       "asset_type": "Equity",
-      "weight": 0.10464,
+      "weight": 0.106324,
       "cusip": "05523R107",
       "company": "cusip:05523R107"
     },
@@ -41,7 +41,7 @@
       "name": "RHEINMETALL AG-UNSP ADR",
       "ticker": "RNMBY",
       "asset_type": "Equity",
-      "weight": 0.055317,
+      "weight": 0.053794,
       "cusip": "76206K107",
       "company": "cusip:76206K107"
     },
@@ -49,7 +49,7 @@
       "name": "MTU AERO ENGINES-UNSPON ADR",
       "ticker": "MTUAY",
       "asset_type": "Equity",
-      "weight": 0.049763,
+      "weight": 0.049224,
       "cusip": "62473G102",
       "company": "cusip:62473G102"
     },
@@ -57,7 +57,7 @@
       "name": "Leonardo SpA",
       "ticker": "FINMY",
       "asset_type": "Equity",
-      "weight": 0.037613,
+      "weight": 0.037945,
       "cusip": "52660W101",
       "company": "cusip:52660W101"
     },
@@ -65,7 +65,7 @@
       "name": "THALES SA - UNSP ADR",
       "ticker": "THLLY",
       "asset_type": "Equity",
-      "weight": 0.036157,
+      "weight": 0.036623,
       "cusip": "883219206",
       "company": "cusip:883219206"
     },
@@ -73,7 +73,7 @@
       "name": "Saab AB",
       "ticker": "SAABY",
       "asset_type": "Equity",
-      "weight": 0.032657,
+      "weight": 0.032896,
       "cusip": "W72838175",
       "company": "cusip:W72838175"
     },
@@ -81,7 +81,7 @@
       "name": "Hensoldt AG",
       "ticker": "HAGHY",
       "asset_type": "Equity",
-      "weight": 0.017412,
+      "weight": 0.017457,
       "cusip": "42701C107",
       "company": "cusip:42701C107"
     },
@@ -89,7 +89,7 @@
       "name": "Babcock International Group PL",
       "ticker": "BCKIY",
       "asset_type": "Equity",
-      "weight": 0.015648,
+      "weight": 0.017173,
       "cusip": "056155104",
       "company": "cusip:056155104"
     },
@@ -97,7 +97,7 @@
       "name": "Melrose Industries PLC",
       "ticker": "MLSPF",
       "asset_type": "Equity",
-      "weight": 0.009132,
+      "weight": 0.009538,
       "cusip": "G5973J210",
       "company": "cusip:G5973J210"
     },
@@ -105,7 +105,7 @@
       "name": "QINETIQ GROUP PLC",
       "ticker": "QNTQY",
       "asset_type": "Equity",
-      "weight": 0.008122,
+      "weight": 0.008428,
       "cusip": "G7303P106",
       "company": "cusip:G7303P106"
     },
@@ -113,7 +113,7 @@
       "name": "CHEMRING GROUP PLC-UNSP ADR",
       "ticker": "CMGMY",
       "asset_type": "Equity",
-      "weight": 0.005645,
+      "weight": 0.005834,
       "cusip": "163867104",
       "company": "cusip:163867104"
     },
@@ -121,7 +121,7 @@
       "name": "DASSAULT AVIATION SA",
       "ticker": "AM",
       "asset_type": "Equity",
-      "weight": 0.005405,
+      "weight": 0.005472,
       "cusip": "F24539102",
       "company": "cusip:F24539102"
     },
@@ -129,7 +129,7 @@
       "name": "RENK Group AG",
       "ticker": "RKGRY",
       "asset_type": "Equity",
-      "weight": 0.002792,
+      "weight": 0.002833,
       "cusip": "75974A101",
       "company": "cusip:75974A101"
     },
@@ -137,7 +137,7 @@
       "name": "TKMS AG+ CO KGAA NPV",
       "ticker": "TKMSF",
       "asset_type": "Equity",
-      "weight": 0.002187,
+      "weight": 0.002173,
       "cusip": "D8T5DP107",
       "company": "cusip:D8T5DP107"
     },
@@ -145,7 +145,7 @@
       "name": "LISI",
       "ticker": "LSIIF",
       "asset_type": "Equity",
-      "weight": 0.001824,
+      "weight": 0.001857,
       "cusip": "F5754P105",
       "company": "cusip:F5754P105"
     },
@@ -153,7 +153,7 @@
       "name": "Avio S.p.A.",
       "ticker": "AVVOF",
       "asset_type": "Equity",
-      "weight": 0.001462,
+      "weight": 0.001464,
       "cusip": "T0R27R125",
       "company": "cusip:T0R27R125"
     },
@@ -161,7 +161,7 @@
       "name": "Exail Technologies",
       "ticker": "EXALF",
       "asset_type": "Equity",
-      "weight": 0.001168,
+      "weight": 0.00118,
       "cusip": "F4606F100",
       "company": "cusip:F4606F100"
     },
@@ -169,7 +169,7 @@
       "name": "Montana Aerospace AG",
       "ticker": "MTASF",
       "asset_type": "Equity",
-      "weight": 0.001008,
+      "weight": 0.001018,
       "cusip": "H55555108",
       "company": "cusip:H55555108"
     },
@@ -177,7 +177,7 @@
       "name": "Avon Technologies PLC",
       "ticker": "AVNBF",
       "asset_type": "Equity",
-      "weight": 0.000881,
+      "weight": 0.000897,
       "cusip": "G06860103",
       "company": "cusip:G06860103"
     }

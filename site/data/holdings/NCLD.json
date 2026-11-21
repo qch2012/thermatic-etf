@@ -1,7 +1,7 @@
 {
   "ticker": "NCLD",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:42.349890+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-21T03:28:51.225857+00:00",
   "stale": false,
   "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
   "holdings": [
@@ -9,28 +9,28 @@
       "name": "COREWEAVE, INC.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0779,
+      "weight": 0.0801,
       "company": null
     },
     {
       "name": "CoreWeave, Inc. SWAP NM",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.1017,
+      "weight": 0.1047,
       "company": null
     },
     {
       "name": "United States Treasury Bill 12/03/2026",
       "ticker": "912797VA2",
       "asset_type": "Treasury",
-      "weight": 0.6756,
+      "weight": 0.7904,
       "company": null
     },
     {
       "name": "Applied Digital Corp",
       "ticker": "APLD",
       "asset_type": "Equity",
-      "weight": 0.0376,
+      "weight": 0.036,
       "cusip": "038169207",
       "company": "cusip:038169207"
     },
@@ -46,7 +46,7 @@
       "name": "Cipher Digital Inc",
       "ticker": "CIFR",
       "asset_type": "Equity",
-      "weight": 0.0243,
+      "weight": 0.0237,
       "cusip": "17253J106",
       "company": "cusip:17253J106"
     },
@@ -54,7 +54,7 @@
       "name": "Cleanspark Inc",
       "ticker": "CLSK",
       "asset_type": "Equity",
-      "weight": 0.0141,
+      "weight": 0.0138,
       "cusip": "18452B209",
       "company": "cusip:18452B209"
     },
@@ -62,7 +62,7 @@
       "name": "Core Scientific Inc",
       "ticker": "CORZ",
       "asset_type": "Equity",
-      "weight": 0.0426,
+      "weight": 0.0421,
       "cusip": "21874A106",
       "company": "cusip:21874A106"
     },
@@ -70,7 +70,7 @@
       "name": "CoreWeave Inc",
       "ticker": "CRWV",
       "asset_type": "Equity",
-      "weight": 0.0885,
+      "weight": 0.0898,
       "cusip": "21873S108",
       "company": "cusip:21873S108"
     },
@@ -78,14 +78,14 @@
       "name": "First American Government Obligations Fund 12/01/2031",
       "ticker": "FGXXX",
       "asset_type": "Money Market",
-      "weight": 0.0805,
+      "weight": 0.0956,
       "company": null
     },
     {
       "name": "Galaxy Digital Inc",
       "ticker": "GLXY",
       "asset_type": "Equity",
-      "weight": 0.0474,
+      "weight": 0.0503,
       "cusip": "36317J209",
       "company": "cusip:36317J209"
     },
@@ -93,7 +93,7 @@
       "name": "HUT 8 CORP",
       "ticker": "HUT",
       "asset_type": "Equity",
-      "weight": 0.0681,
+      "weight": 0.0653,
       "cusip": "44812J104",
       "company": "cusip:44812J104"
     },
@@ -101,7 +101,7 @@
       "name": "IREN Ltd",
       "ticker": "IREN",
       "asset_type": "Equity",
-      "weight": 0.0552,
+      "weight": 0.0527,
       "cusip": "Q4982L109",
       "company": "cusip:Q4982L109"
     },
@@ -109,7 +109,7 @@
       "name": "Keel Infrastructure Corp",
       "ticker": "KEEL",
       "asset_type": "Equity",
-      "weight": 0.0092,
+      "weight": 0.0086,
       "cusip": "486917107",
       "company": "cusip:486917107"
     },
@@ -117,21 +117,21 @@
       "name": "NEBIUS GROUP N.V.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0791,
+      "weight": 0.0776,
       "company": null
     },
     {
       "name": "Nebius Group N.V. SWAP NM",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.1071,
+      "weight": 0.1051,
       "company": null
     },
     {
       "name": "Nebius Group NV",
       "ticker": "NBIS",
       "asset_type": "Equity",
-      "weight": 0.0917,
+      "weight": 0.0888,
       "cusip": "N97284108",
       "company": "cusip:N97284108"
     },
@@ -139,7 +139,7 @@
       "name": "Riot Platforms Inc",
       "ticker": "RIOT",
       "asset_type": "Equity",
-      "weight": 0.0606,
+      "weight": 0.0646,
       "cusip": "767292105",
       "company": "cusip:767292105"
     },
@@ -147,7 +147,7 @@
       "name": "RUM Group Inc",
       "ticker": "RUM",
       "asset_type": "Equity",
-      "weight": 0.0163,
+      "weight": 0.0173,
       "cusip": "78137L105",
       "company": "cusip:78137L105"
     },
@@ -155,7 +155,7 @@
       "name": "SharonAI Holdings Inc",
       "ticker": "SHAZ",
       "asset_type": "Equity",
-      "weight": 0.0066,
+      "weight": 0.0063,
       "cusip": "778920306",
       "company": "cusip:778920306"
     },
@@ -163,7 +163,7 @@
       "name": "Terawulf Inc",
       "ticker": "WULF",
       "asset_type": "Equity",
-      "weight": 0.0548,
+      "weight": 0.0543,
       "cusip": "88080T104",
       "company": "cusip:88080T104"
     },
@@ -171,7 +171,7 @@
       "name": "Whitefiber Inc",
       "ticker": "WYFI",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.0028,
       "cusip": "G96115103",
       "company": "cusip:G96115103"
     },
@@ -179,7 +179,7 @@
       "name": "Cash & Other",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.7452,
+      "weight": -0.873,
       "company": null
     }
   ]

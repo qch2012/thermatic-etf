@@ -1,7 +1,7 @@
 {
   "ticker": "XT",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:56.318459+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:29:09.380621+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/272532/ishares-future-exponential-technologies-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ELI LILLY",
       "ticker": "LLY",
       "asset_type": "Equity",
-      "weight": 0.0494,
+      "weight": 0.049,
       "location": "United States",
       "company": "cusip:532457108"
     },
@@ -17,7 +17,7 @@
       "name": "TEXAS INSTRUMENT",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0458,
+      "weight": 0.0455,
       "location": "United States",
       "company": "name:texas instrument@united states"
     },
@@ -25,7 +25,7 @@
       "name": "TESLA INC",
       "ticker": "TSLA",
       "asset_type": "Equity",
-      "weight": 0.0445,
+      "weight": 0.0441,
       "location": "United States",
       "company": "cusip:88160R101"
     },
@@ -33,7 +33,7 @@
       "name": "MICROSOFT",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0418,
+      "weight": 0.0416,
       "location": "United States",
       "company": "cusip:594918104"
     },
@@ -41,7 +41,7 @@
       "name": "PALO ALTO NETWORKS",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.033,
+      "weight": 0.0357,
       "location": "United States",
       "company": "cusip:697435105"
     },
@@ -49,7 +49,7 @@
       "name": "JOHNSON & JOHNSON",
       "ticker": "JNJ",
       "asset_type": "Equity",
-      "weight": 0.0326,
+      "weight": 0.0324,
       "location": "United States",
       "company": "cusip:478160104"
     },
@@ -57,7 +57,7 @@
       "name": "ANALOG DEVICES",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.0317,
+      "weight": 0.0318,
       "location": "United States",
       "company": "cusip:032654105"
     },
@@ -65,31 +65,31 @@
       "name": "AMAZON.COM INC",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0294,
+      "weight": 0.0287,
       "location": "United States",
       "company": "cusip:023135106"
-    },
-    {
-      "name": "NVIDIA",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0269,
-      "location": "United States",
-      "company": "cusip:67066G104"
     },
     {
       "name": "CROWDSTRIKE HOLDINGS CLASS A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0266,
+      "weight": 0.0277,
       "location": "United States",
       "company": "cusip:22788C105"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0264,
+      "location": "United States",
+      "company": "cusip:67066G104"
     },
     {
       "name": "ABBVIE",
       "ticker": "ABBV",
       "asset_type": "Equity",
-      "weight": 0.0259,
+      "weight": 0.0261,
       "location": "United States",
       "company": "cusip:00287Y109"
     },
@@ -97,7 +97,7 @@
       "name": "BROADCOM INC",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.019,
+      "weight": 0.0189,
       "location": "United States",
       "company": "cusip:11135F101"
     },
@@ -105,15 +105,23 @@
       "name": "ALPHABET CLASS A",
       "ticker": "GOOGL",
       "asset_type": "Equity",
-      "weight": 0.0184,
+      "weight": 0.018,
       "location": "United States",
       "company": "cusip:02079K107"
+    },
+    {
+      "name": "ROCHE PS PAR AG",
+      "ticker": "ROP",
+      "asset_type": "Equity",
+      "weight": 0.017,
+      "location": "Switzerland",
+      "company": "name:roche ps par@switzerland"
     },
     {
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
       "ticker": "2330",
       "asset_type": "Equity",
-      "weight": 0.0172,
+      "weight": 0.0169,
       "location": "Taiwan",
       "company": "cusip:874039100"
     },
@@ -121,23 +129,15 @@
       "name": "MERCK & CO INC",
       "ticker": "MRK",
       "asset_type": "Equity",
-      "weight": 0.0171,
+      "weight": 0.0168,
       "location": "United States",
       "company": "cusip:58933Y105"
-    },
-    {
-      "name": "ROCHE PS PAR AG",
-      "ticker": "ROP",
-      "asset_type": "Equity",
-      "weight": 0.0169,
-      "location": "Switzerland",
-      "company": "name:roche ps par@switzerland"
     },
     {
       "name": "IBERDROLA",
       "ticker": "IBE",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0162,
       "location": "Spain",
       "company": "cusip:B288C9908"
     },
@@ -145,7 +145,7 @@
       "name": "INTUITIVE SURGICAL",
       "ticker": "ISRG",
       "asset_type": "Equity",
-      "weight": 0.0159,
+      "weight": 0.0156,
       "location": "United States",
       "company": "cusip:46120E602"
     },
@@ -153,7 +153,7 @@
       "name": "NOVARTIS AG",
       "ticker": "NOVN",
       "asset_type": "Equity",
-      "weight": 0.0149,
+      "weight": 0.0147,
       "location": "Switzerland",
       "company": "cusip:66987V109"
     },
@@ -161,7 +161,7 @@
       "name": "ASTRAZENECA PLC",
       "ticker": "AZN",
       "asset_type": "Equity",
-      "weight": 0.0142,
+      "weight": 0.014,
       "location": "United Kingdom",
       "company": "cusip:G0593M107"
     },
@@ -169,7 +169,7 @@
       "name": "META PLATFORMS CLASS A",
       "ticker": "META",
       "asset_type": "Equity",
-      "weight": 0.014,
+      "weight": 0.0137,
       "location": "United States",
       "company": "cusip:30303M102"
     },
@@ -177,7 +177,7 @@
       "name": "S&P GLOBAL",
       "ticker": "SPGI",
       "asset_type": "Equity",
-      "weight": 0.0135,
+      "weight": 0.0136,
       "location": "United States",
       "company": "name:s p global@united states"
     },
@@ -190,18 +190,10 @@
       "company": "cusip:031162100"
     },
     {
-      "name": "CISCO SYSTEMS INC",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "location": "United States",
-      "company": "cusip:17275R102"
-    },
-    {
       "name": "INFINEON TECHNOLOGIES AG",
       "ticker": "IFX",
       "asset_type": "Equity",
-      "weight": 0.0111,
+      "weight": 0.0113,
       "location": "Germany",
       "company": "cusip:D35415104"
     },
@@ -209,15 +201,23 @@
       "name": "CLOUDFLARE CLASS A",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0113,
       "location": "United States",
       "company": "cusip:18915M107"
+    },
+    {
+      "name": "CISCO SYSTEMS INC",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0111,
+      "location": "United States",
+      "company": "cusip:17275R102"
     },
     {
       "name": "XIAOMI",
       "ticker": "1810",
       "asset_type": "Equity",
-      "weight": 0.0108,
+      "weight": 0.0105,
       "location": "China",
       "company": "cusip:G9830T106"
     },
@@ -233,7 +233,7 @@
       "name": "TE CONNECTIVITY PLC",
       "ticker": "TEL",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0104,
       "location": "United States",
       "company": "cusip:G87052109"
     },
@@ -241,41 +241,41 @@
       "name": "NXP SEMICONDUCTORS NV",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0104,
       "location": "United States",
       "company": "cusip:N6596X109"
-    },
-    {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "location": "United States",
-      "company": "cusip:007903107"
-    },
-    {
-      "name": "EMERSON ELECTRIC",
-      "ticker": "EMR",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "location": "United States",
-      "company": "cusip:291011104"
     },
     {
       "name": "FORTINET",
       "ticker": "FTNT",
       "asset_type": "Equity",
-      "weight": 0.0093,
+      "weight": 0.0094,
       "location": "United States",
       "company": "cusip:34959E109"
+    },
+    {
+      "name": "EMERSON ELECTRIC",
+      "ticker": "EMR",
+      "asset_type": "Equity",
+      "weight": 0.0093,
+      "location": "United States",
+      "company": "cusip:291011104"
     },
     {
       "name": "MURATA MANUFACTURING",
       "ticker": "6981",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.0092,
       "location": "Japan",
       "company": "name:murata manufacturing@japan"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "location": "United States",
+      "company": "cusip:007903107"
     },
     {
       "name": "ENEL",
@@ -289,7 +289,7 @@
       "name": "NORTHROP GRUMMAN CORP",
       "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0084,
+      "weight": 0.0085,
       "location": "United States",
       "company": "cusip:666807102"
     },
@@ -310,20 +310,20 @@
       "company": "name:pfizer@united states"
     },
     {
-      "name": "DANAHER",
-      "ticker": "DHR",
-      "asset_type": "Equity",
-      "weight": 0.0077,
-      "location": "United States",
-      "company": "cusip:235851102"
-    },
-    {
       "name": "BAE SYSTEMS PLC",
       "ticker": "BA.",
       "asset_type": "Equity",
-      "weight": 0.0077,
+      "weight": 0.0079,
       "location": "United Kingdom",
       "company": "cusip:05523R107"
+    },
+    {
+      "name": "DANAHER",
+      "ticker": "DHR",
+      "asset_type": "Equity",
+      "weight": 0.0078,
+      "location": "United States",
+      "company": "cusip:235851102"
     },
     {
       "name": "AIR PRODUCTS AND CHEMICALS",
@@ -337,7 +337,7 @@
       "name": "VERTEX PHARMACEUTICALS",
       "ticker": "VRTX",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0069,
       "location": "United States",
       "company": "cusip:92532F100"
     },
@@ -369,7 +369,7 @@
       "name": "GE VERNOVA",
       "ticker": "GEV",
       "asset_type": "Equity",
-      "weight": 0.0057,
+      "weight": 0.0056,
       "location": "United States",
       "company": "cusip:36828A101"
     },
@@ -377,7 +377,7 @@
       "name": "SANOFI SA",
       "ticker": "SAN",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0054,
       "location": "France",
       "company": "name:sanofi@france"
     },
@@ -388,6 +388,14 @@
       "weight": 0.0053,
       "location": "France",
       "company": "cusip:B0C2CQ902"
+    },
+    {
+      "name": "SK HYNIX",
+      "ticker": "000660",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "location": "Korea (South)",
+      "company": "cusip:78392B206"
     },
     {
       "name": "GLAXOSMITHKLINE",
@@ -406,12 +414,12 @@
       "company": "name:nasdaq@united states"
     },
     {
-      "name": "SK HYNIX",
-      "ticker": "000660",
+      "name": "STMICROELECTRONICS",
+      "ticker": "STMPA",
       "asset_type": "Equity",
-      "weight": 0.0049,
-      "location": "Korea (South)",
-      "company": "cusip:78392B206"
+      "weight": 0.0046,
+      "location": "France",
+      "company": "name:stmicroelectronics@france"
     },
     {
       "name": "REGENERON PHARMACEUTICALS",
@@ -425,49 +433,33 @@
       "name": "RENESAS ELECTRONICS CORP",
       "ticker": "6723",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0046,
       "location": "Japan",
       "company": "cusip:J4881V107"
-    },
-    {
-      "name": "ROCKWELL AUTOMATION INC",
-      "ticker": "ROK",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "location": "United States",
-      "company": "cusip:773903109"
-    },
-    {
-      "name": "STMICROELECTRONICS",
-      "ticker": "STMPA",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "location": "France",
-      "company": "name:stmicroelectronics@france"
-    },
-    {
-      "name": "ON SEMICONDUCTOR CORP",
-      "ticker": "ON",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "location": "United States",
-      "company": "cusip:682189105"
     },
     {
       "name": "RWE AG",
       "ticker": "RWE",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0045,
       "location": "Germany",
       "company": "cusip:476896907"
     },
     {
-      "name": "BLOCK CLASS A",
-      "ticker": "XYZ",
+      "name": "ON SEMICONDUCTOR CORP",
+      "ticker": "ON",
       "asset_type": "Equity",
       "weight": 0.0044,
       "location": "United States",
-      "company": "cusip:852234103"
+      "company": "cusip:682189105"
+    },
+    {
+      "name": "ROCKWELL AUTOMATION INC",
+      "ticker": "ROK",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "location": "United States",
+      "company": "cusip:773903109"
     },
     {
       "name": "RHEINMETALL AG",
@@ -486,12 +478,28 @@
       "company": "cusip:079087003"
     },
     {
+      "name": "BLOCK CLASS A",
+      "ticker": "XYZ",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "location": "United States",
+      "company": "cusip:852234103"
+    },
+    {
       "name": "PALANTIR TECHNOLOGIES CLASS A",
       "ticker": "PLTR",
       "asset_type": "Equity",
       "weight": 0.0041,
       "location": "United States",
       "company": "cusip:69608A108"
+    },
+    {
+      "name": "OKTA CLASS A",
+      "ticker": "OKTA",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "location": "United States",
+      "company": "cusip:679295105"
     },
     {
       "name": "EATON PLC",
@@ -510,18 +518,10 @@
       "company": "cusip:Y74866107"
     },
     {
-      "name": "OKTA CLASS A",
-      "ticker": "OKTA",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "location": "United States",
-      "company": "cusip:679295105"
-    },
-    {
       "name": "MODERNA",
       "ticker": "MRNA",
       "asset_type": "Equity",
-      "weight": 0.0034,
+      "weight": 0.0035,
       "location": "United States",
       "company": "cusip:60770K107"
     },
@@ -529,7 +529,7 @@
       "name": "TAKEDA PHARMACEUTICAL",
       "ticker": "4502",
       "asset_type": "Equity",
-      "weight": 0.0034,
+      "weight": 0.0035,
       "location": "Japan",
       "company": "name:takeda pharmaceutical@japan"
     },
@@ -537,17 +537,9 @@
       "name": "TENCENT HOLDINGS",
       "ticker": "700",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0032,
       "location": "China",
       "company": "cusip:G87572163"
-    },
-    {
-      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
-      "ticker": "SPCX",
-      "asset_type": "Equity",
-      "weight": 0.0031,
-      "location": "United States",
-      "company": "name:space exploration technologies cor@united states"
     },
     {
       "name": "SIEMENS ENERGY N AG",
@@ -561,15 +553,23 @@
       "name": "FANUC CORP",
       "ticker": "6954",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "location": "Japan",
       "company": "cusip:J13440102"
+    },
+    {
+      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "location": "United States",
+      "company": "name:space exploration technologies cor@united states"
     },
     {
       "name": "ADYEN",
       "ticker": "ADYEN",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.0028,
       "location": "Netherlands",
       "company": "cusip:N3501V104"
     },
@@ -582,20 +582,20 @@
       "company": "cusip:K9773J201"
     },
     {
+      "name": "THALES SA",
+      "ticker": "HO",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "location": "France",
+      "company": "cusip:883219206"
+    },
+    {
       "name": "AGILENT TECHNOLOGIES INC",
       "ticker": "A",
       "asset_type": "Equity",
       "weight": 0.0026,
       "location": "United States",
       "company": "cusip:00846U101"
-    },
-    {
-      "name": "THALES SA",
-      "ticker": "HO",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "location": "France",
-      "company": "cusip:883219206"
     },
     {
       "name": "COINBASE GLOBAL CLASS A",
@@ -609,9 +609,17 @@
       "name": "SAAB CLASS B",
       "ticker": "SAAB B",
       "asset_type": "Equity",
-      "weight": 0.0025,
+      "weight": 0.0026,
       "location": "Sweden",
       "company": "cusip:W72838175"
+    },
+    {
+      "name": "ZSCALER",
+      "ticker": "ZS",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "location": "United States",
+      "company": "cusip:98980G102"
     },
     {
       "name": "INTERNATIONAL BUSINESS MACHINES CO",
@@ -630,20 +638,12 @@
       "company": "cusip:941848103"
     },
     {
-      "name": "ALIBABA GROUP HOLDING",
-      "ticker": "9988",
+      "name": "LEONARDO FINMECCANICA SPA",
+      "ticker": "LDO",
       "asset_type": "Equity",
       "weight": 0.0024,
-      "location": "China",
-      "company": "cusip:01609W102"
-    },
-    {
-      "name": "ZSCALER",
-      "ticker": "ZS",
-      "asset_type": "Equity",
-      "weight": 0.0024,
-      "location": "United States",
-      "company": "cusip:98980G102"
+      "location": "Italy",
+      "company": "cusip:52660W101"
     },
     {
       "name": "BROADRIDGE FINANCIAL SOLUTIONS INC",
@@ -654,12 +654,12 @@
       "company": "name:broadridge financial solutions@united states"
     },
     {
-      "name": "LEONARDO FINMECCANICA SPA",
-      "ticker": "LDO",
+      "name": "ALIBABA GROUP HOLDING",
+      "ticker": "9988",
       "asset_type": "Equity",
       "weight": 0.0023,
-      "location": "Italy",
-      "company": "cusip:52660W101"
+      "location": "China",
+      "company": "cusip:01609W102"
     },
     {
       "name": "ARISTA NETWORKS",
@@ -686,20 +686,20 @@
       "company": "cusip:443510607"
     },
     {
-      "name": "ORACLE",
-      "ticker": "ORCL",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "location": "United States",
-      "company": "cusip:68389X105"
-    },
-    {
       "name": "AMPHENOL CORP CLASS A",
       "ticker": "APH",
       "asset_type": "Equity",
       "weight": 0.002,
       "location": "United States",
       "company": "cusip:032095101"
+    },
+    {
+      "name": "ORACLE",
+      "ticker": "ORCL",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "location": "United States",
+      "company": "cusip:68389X105"
     },
     {
       "name": "LG ENERGY SOLUTION LTD",
@@ -710,12 +710,12 @@
       "company": "name:lg energy solution@south korea"
     },
     {
-      "name": "BIOGEN",
-      "ticker": "BIIB",
+      "name": "SINGAPORE TECHNOLOGIES ENGINEERING",
+      "ticker": "S63",
       "asset_type": "Equity",
       "weight": 0.0019,
-      "location": "United States",
-      "company": "cusip:09062X103"
+      "location": "Singapore",
+      "company": "name:singapore technologies engineering@singapore"
     },
     {
       "name": "MONOLITHIC POWER SYSTEMS INC",
@@ -726,12 +726,20 @@
       "company": "cusip:609839105"
     },
     {
-      "name": "SINGAPORE TECHNOLOGIES ENGINEERING",
-      "ticker": "S63",
+      "name": "BIOGEN",
+      "ticker": "BIIB",
       "asset_type": "Equity",
       "weight": 0.0018,
-      "location": "Singapore",
-      "company": "name:singapore technologies engineering@singapore"
+      "location": "United States",
+      "company": "cusip:09062X103"
+    },
+    {
+      "name": "FAIR ISAAC",
+      "ticker": "FICO",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "location": "United States",
+      "company": "name:fair isaac@united states"
     },
     {
       "name": "ALBEMARLE CORP",
@@ -750,36 +758,20 @@
       "company": "cusip:83406F102"
     },
     {
-      "name": "FAIR ISAAC",
-      "ticker": "FICO",
+      "name": "GEN DIGITAL",
+      "ticker": "GEN",
       "asset_type": "Equity",
       "weight": 0.0018,
       "location": "United States",
-      "company": "name:fair isaac@united states"
+      "company": "cusip:668771108"
     },
     {
       "name": "DELTA ELECTRONICS",
       "ticker": "2308",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0017,
       "location": "Taiwan",
       "company": "cusip:Y20263102"
-    },
-    {
-      "name": "GEN DIGITAL",
-      "ticker": "GEN",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "location": "United States",
-      "company": "cusip:668771108"
-    },
-    {
-      "name": "CONTEMPORARY AMPEREX TECHNOLOGY CL",
-      "ticker": "3750",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "location": "China",
-      "company": "name:contemporary amperex technology cl@china"
     },
     {
       "name": "KONGSBERG GRUPPEN",
@@ -788,6 +780,62 @@
       "weight": 0.0017,
       "location": "Norway",
       "company": "name:kongsberg gruppen@norway"
+    },
+    {
+      "name": "CONTEMPORARY AMPEREX TECHNOLOGY CL",
+      "ticker": "3750",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "China",
+      "company": "name:contemporary amperex technology cl@china"
+    },
+    {
+      "name": "FIRST SOLAR",
+      "ticker": "FSLR",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "United States",
+      "company": "cusip:336433107"
+    },
+    {
+      "name": "DAIICHI SANKYO LTD",
+      "ticker": "4568",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "Japan",
+      "company": "name:daiichi sankyo@japan"
+    },
+    {
+      "name": "CHUGAI PHARMACEUTICAL LTD",
+      "ticker": "4519",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "Japan",
+      "company": "name:chugai pharmaceutical@japan"
+    },
+    {
+      "name": "TRADEWEB MARKETS INC CLASS A",
+      "ticker": "TW",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "United States",
+      "company": "name:tradeweb markets@united states"
+    },
+    {
+      "name": "SCHNEIDER ELECTRIC",
+      "ticker": "SU",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "France",
+      "company": "cusip:F86921107"
+    },
+    {
+      "name": "EDP ENERGIAS DE PORTUGAL",
+      "ticker": "EDP",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "Portugal",
+      "company": "cusip:X67925119"
     },
     {
       "name": "ILLUMINA INC",
@@ -801,63 +849,15 @@
       "name": "ACCENTURE PLC CLASS A",
       "ticker": "ACN",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "location": "United States",
       "company": "cusip:G1151C101"
-    },
-    {
-      "name": "DAIICHI SANKYO LTD",
-      "ticker": "4568",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "Japan",
-      "company": "name:daiichi sankyo@japan"
-    },
-    {
-      "name": "FIRST SOLAR",
-      "ticker": "FSLR",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "United States",
-      "company": "cusip:336433107"
-    },
-    {
-      "name": "SCHNEIDER ELECTRIC",
-      "ticker": "SU",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "France",
-      "company": "cusip:F86921107"
-    },
-    {
-      "name": "TRADEWEB MARKETS INC CLASS A",
-      "ticker": "TW",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "United States",
-      "company": "name:tradeweb markets@united states"
-    },
-    {
-      "name": "CHUGAI PHARMACEUTICAL LTD",
-      "ticker": "4519",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "Japan",
-      "company": "name:chugai pharmaceutical@japan"
-    },
-    {
-      "name": "EDP ENERGIAS DE PORTUGAL",
-      "ticker": "EDP",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "Portugal",
-      "company": "cusip:X67925119"
     },
     {
       "name": "LINCOLN ELECTRIC HOLDINGS",
       "ticker": "LECO",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "location": "United States",
       "company": "cusip:533900106"
     },
@@ -886,28 +886,12 @@
       "company": "cusip:833635105"
     },
     {
-      "name": "MARVELL TECHNOLOGY",
-      "ticker": "MRVL",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "location": "United States",
-      "company": "cusip:573874104"
-    },
-    {
       "name": "ADVANTEST",
       "ticker": "6857",
       "asset_type": "Equity",
       "weight": 0.0013,
       "location": "Japan",
       "company": "name:advantest@japan"
-    },
-    {
-      "name": "ROCKET COMPANIES INC CLASS A",
-      "ticker": "RKT",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "location": "United States",
-      "company": "name:rocket companies@united states"
     },
     {
       "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
@@ -918,6 +902,22 @@
       "company": "name:seagate technology holdings@united states"
     },
     {
+      "name": "ROCKET COMPANIES INC CLASS A",
+      "ticker": "RKT",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "location": "United States",
+      "company": "name:rocket companies@united states"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "location": "United States",
+      "company": "cusip:573874104"
+    },
+    {
       "name": "FACTSET RESEARCH SYSTEMS",
       "ticker": "FDS",
       "asset_type": "Equity",
@@ -926,10 +926,18 @@
       "company": "name:factset research systems@united states"
     },
     {
+      "name": "WESTERN DIGITAL CORP",
+      "ticker": "WDC",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "United States",
+      "company": "cusip:958102105"
+    },
+    {
       "name": "NEXTPOWER INC",
       "ticker": "NXT",
       "asset_type": "Equity",
-      "weight": 0.0012,
+      "weight": 0.0011,
       "location": "United States",
       "company": "cusip:65290E101"
     },
@@ -950,12 +958,12 @@
       "company": "cusip:03831W108"
     },
     {
-      "name": "WESTERN DIGITAL CORP",
-      "ticker": "WDC",
+      "name": "CADENCE DESIGN SYSTEMS",
+      "ticker": "CDNS",
       "asset_type": "Equity",
       "weight": 0.0011,
       "location": "United States",
-      "company": "cusip:958102105"
+      "company": "cusip:127387108"
     },
     {
       "name": "SEI INVESTMENTS",
@@ -966,18 +974,10 @@
       "company": "name:sei investments@united states"
     },
     {
-      "name": "CADENCE DESIGN SYSTEMS",
-      "ticker": "CDNS",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "location": "United States",
-      "company": "cusip:127387108"
-    },
-    {
       "name": "LI AUTO CLASS A",
       "ticker": "2015",
       "asset_type": "Equity",
-      "weight": 0.0011,
+      "weight": 0.001,
       "location": "China",
       "company": "cusip:50202M102"
     },
@@ -988,14 +988,6 @@
       "weight": 0.001,
       "location": "Australia",
       "company": "name:pls group@australia"
-    },
-    {
-      "name": "SNOWFLAKE",
-      "ticker": "SNOW",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "location": "United States",
-      "company": "cusip:833445109"
     },
     {
       "name": "SYNOPSYS",
@@ -1012,6 +1004,14 @@
       "weight": 0.001,
       "location": "Japan",
       "company": "cusip:J08988107"
+    },
+    {
+      "name": "SNOWFLAKE",
+      "ticker": "SNOW",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "location": "United States",
+      "company": "cusip:833445109"
     },
     {
       "name": "NIO CLASS A",
@@ -1041,7 +1041,7 @@
       "name": "GUARDANT HEALTH",
       "ticker": "GH",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.001,
       "location": "United States",
       "company": "cusip:40131M109"
     },
@@ -1078,14 +1078,6 @@
       "company": "cusip:714046109"
     },
     {
-      "name": "JAZZ PHARMACEUTICALS PLC",
-      "ticker": "JAZZ",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "United States",
-      "company": "name:jazz pharmaceuticals@united states"
-    },
-    {
       "name": "BYD A",
       "ticker": "002594",
       "asset_type": "Equity",
@@ -1102,6 +1094,14 @@
       "company": "name:sensata technologies holding@united states"
     },
     {
+      "name": "JAZZ PHARMACEUTICALS PLC",
+      "ticker": "JAZZ",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "United States",
+      "company": "name:jazz pharmaceuticals@united states"
+    },
+    {
       "name": "MINERAL RESOURCES",
       "ticker": "MIN",
       "asset_type": "Equity",
@@ -1110,20 +1110,20 @@
       "company": "name:mineral resources@australia"
     },
     {
-      "name": "ELASTIC",
-      "ticker": "ESTC",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "United States",
-      "company": "cusip:N14506104"
-    },
-    {
       "name": "WISE PLC CLASS A",
       "ticker": "WISE",
       "asset_type": "Equity",
       "weight": 0.0008,
       "location": "United Kingdom",
       "company": "name:wise@united kingdom"
+    },
+    {
+      "name": "ELASTIC",
+      "ticker": "ESTC",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "location": "United States",
+      "company": "cusip:N14506104"
     },
     {
       "name": "BRIDGEBIO PHARMA",
@@ -1182,6 +1182,14 @@
       "company": "cusip:759916109"
     },
     {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0005,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "CHINA RESOURCES POWER LTD",
       "ticker": "836",
       "asset_type": "Equity",
@@ -1196,14 +1204,6 @@
       "weight": 0.0005,
       "location": "Germany",
       "company": "cusip:09075V102"
-    },
-    {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": 0.0005,
-      "location": "United States",
-      "company": null
     },
     {
       "name": "BLOOM ENERGY CLASS A",
@@ -1222,20 +1222,20 @@
       "company": "cusip:F56196185"
     },
     {
-      "name": "BROOKFIELD RENEWABLE SUBORDINATE V",
-      "ticker": "BEPC",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "location": "Canada",
-      "company": "name:brookfield renewable subordinate@canada"
-    },
-    {
       "name": "NORTHLAND POWER INC",
       "ticker": "NPI",
       "asset_type": "Equity",
       "weight": 0.0004,
       "location": "Canada",
       "company": "cusip:666511100"
+    },
+    {
+      "name": "BROOKFIELD RENEWABLE SUBORDINATE V",
+      "ticker": "BEPC",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "location": "Canada",
+      "company": "name:brookfield renewable subordinate@canada"
     },
     {
       "name": "WORKDAY CLASS A",
@@ -1254,20 +1254,20 @@
       "company": "name:codan@australia"
     },
     {
-      "name": "IGO",
-      "ticker": "IGO",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "location": "Australia",
-      "company": "name:igo@australia"
-    },
-    {
       "name": "EDP RENEWABLES SA",
       "ticker": "EDPR",
       "asset_type": "Equity",
       "weight": 0.0004,
       "location": "Portugal",
       "company": "cusip:E3847K101"
+    },
+    {
+      "name": "IGO",
+      "ticker": "IGO",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "location": "Australia",
+      "company": "name:igo@australia"
     },
     {
       "name": "MONGODB CLASS A",
@@ -1284,6 +1284,14 @@
       "weight": 0.0003,
       "location": "United States",
       "company": "cusip:29355A107"
+    },
+    {
+      "name": "SARTORIUS PREF AG",
+      "ticker": "SRT3",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "location": "Germany",
+      "company": "name:sartorius pref@germany"
     },
     {
       "name": "NEXI",
@@ -1310,12 +1318,12 @@
       "company": "cusip:056752108"
     },
     {
-      "name": "SARTORIUS PREF AG",
-      "ticker": "SRT3",
+      "name": "CHINA LONGYUAN POWER GROUP H",
+      "ticker": "916",
       "asset_type": "Equity",
       "weight": 0.0002,
-      "location": "Germany",
-      "company": "name:sartorius pref@germany"
+      "location": "China",
+      "company": "cusip:B4Q2TX906"
     },
     {
       "name": "EPAM SYSTEMS",
@@ -1324,14 +1332,6 @@
       "weight": 0.0002,
       "location": "United States",
       "company": "name:epam systems@united states"
-    },
-    {
-      "name": "CHINA LONGYUAN POWER GROUP H",
-      "ticker": "916",
-      "asset_type": "Equity",
-      "weight": 0.0002,
-      "location": "China",
-      "company": "cusip:B4Q2TX906"
     },
     {
       "name": "BIO RAD LABORATORIES CLASS A",
@@ -1350,20 +1350,20 @@
       "company": null
     },
     {
-      "name": "CRISPR THERAPEUTICS AG",
-      "ticker": "CRSP",
-      "asset_type": "Equity",
-      "weight": 0.0002,
-      "location": "United States",
-      "company": "cusip:H17182108"
-    },
-    {
       "name": "MELEXIS NV",
       "ticker": "MELE",
       "asset_type": "Equity",
       "weight": 0.0002,
       "location": "Belgium",
       "company": "name:melexis@belgium"
+    },
+    {
+      "name": "CRISPR THERAPEUTICS AG",
+      "ticker": "CRSP",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "location": "United States",
+      "company": "cusip:H17182108"
     },
     {
       "name": "CGI INC CLASS A",
@@ -1406,14 +1406,6 @@
       "company": "cusip:J1886F103"
     },
     {
-      "name": "CALB CLASS H LTD H",
-      "ticker": "3931",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "location": "China",
-      "company": "name:calb@china"
-    },
-    {
       "name": "TAIYO YUDEN LTD",
       "ticker": "6976",
       "asset_type": "Equity",
@@ -1422,12 +1414,12 @@
       "company": "name:taiyo yuden@japan"
     },
     {
-      "name": "COSTAR GROUP",
-      "ticker": "CSGP",
+      "name": "CALB CLASS H LTD H",
+      "ticker": "3931",
       "asset_type": "Equity",
       "weight": 0.0001,
-      "location": "United States",
-      "company": "cusip:22160N109"
+      "location": "China",
+      "company": "name:calb@china"
     },
     {
       "name": "GANFENG LITHIUM GROUP LTD A",
@@ -1436,6 +1428,14 @@
       "weight": 0.0001,
       "location": "China",
       "company": "name:ganfeng lithium group@china"
+    },
+    {
+      "name": "COSTAR GROUP",
+      "ticker": "CSGP",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "location": "United States",
+      "company": "cusip:22160N109"
     },
     {
       "name": "TIANQI LITHIUM INDUSTRIES A",
@@ -1454,20 +1454,20 @@
       "company": "name:china three gorges renewables grou@china"
     },
     {
-      "name": "GOTION HIGH-TECH LTD A",
-      "ticker": "002074",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "location": "China",
-      "company": "name:gotion high tech@china"
-    },
-    {
       "name": "IDR CASH",
       "ticker": "IDR",
       "asset_type": "Cash",
       "weight": 0.0001,
       "location": "Indonesia",
       "company": null
+    },
+    {
+      "name": "GOTION HIGH-TECH LTD A",
+      "ticker": "002074",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "location": "China",
+      "company": "name:gotion high tech@china"
     },
     {
       "name": "LONGI GREEN ENERGY TECHNOLOGY A",
@@ -1510,6 +1510,14 @@
       "company": "name:tongwei@china"
     },
     {
+      "name": "MEGAPORT",
+      "ticker": "MP1",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "location": "Australia",
+      "company": "name:megaport@australia"
+    },
+    {
       "name": "TAL EDUCATION GROUP ADR REPTG",
       "ticker": "TAL",
       "asset_type": "Equity",
@@ -1518,12 +1526,12 @@
       "company": "name:tal education group adr reptg@china"
     },
     {
-      "name": "MEGAPORT",
-      "ticker": "MP1",
+      "name": "XINJIANG DAQO NEW ENERGY LTD A",
+      "ticker": "688303",
       "asset_type": "Equity",
       "weight": 0.0,
-      "location": "Australia",
-      "company": "name:megaport@australia"
+      "location": "China",
+      "company": "name:xinjiang daqo new energy@china"
     },
     {
       "name": "TWD CASH",
@@ -1532,14 +1540,6 @@
       "weight": 0.0,
       "location": "Taiwan",
       "company": null
-    },
-    {
-      "name": "XINJIANG DAQO NEW ENERGY LTD A",
-      "ticker": "688303",
-      "asset_type": "Equity",
-      "weight": 0.0,
-      "location": "China",
-      "company": "name:xinjiang daqo new energy@china"
     },
     {
       "name": "JINKO SOLAR LTD A",

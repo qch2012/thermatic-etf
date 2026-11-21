@@ -1,15 +1,142 @@
 {
   "ticker": "DRIV",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:28.519639+00:00",
+  "fetched_at": "2026-11-21T03:28:31.485858+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/driv_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "EURO",
+      "name": "NIO INC - ADR",
+      "ticker": "NIO",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "sedol": "BFZX9H8",
+      "company": "cusip:62914V106"
+    },
+    {
+      "name": "AMPRIUS TECHNOLOGIES INC",
+      "ticker": "AMPX",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "sedol": "BPSKN52",
+      "company": "cusip:03214Q108"
+    },
+    {
+      "name": "PLS GROUP LTD",
+      "ticker": "PLS AU",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "sedol": "B2368L5",
+      "company": "name:pls group@australia"
+    },
+    {
+      "name": "MOBILEYE GLOBAL INC-A",
+      "ticker": "MBLY",
+      "asset_type": "Equity",
+      "weight": 0.0077,
+      "sedol": "BLFH8G4",
+      "company": "cusip:60741F104"
+    },
+    {
+      "name": "GANFENG LITHIUM GROUP CO L-H",
+      "ticker": "1772 HK",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "sedol": "BZ9NS11",
+      "company": "name:ganfeng lithium group@china"
+    },
+    {
+      "name": "AEVA TECHNOLOGIES INC",
+      "ticker": "AEVA",
+      "asset_type": "Equity",
+      "weight": 0.0073,
+      "sedol": "BSB8D21",
+      "company": "cusip:00835Q202"
+    },
+    {
+      "name": "QUANTUMSCAPE CORP",
+      "ticker": "QS",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "BMC73Z8",
+      "company": "cusip:74767V109"
+    },
+    {
+      "name": "HYSTER-YALE INC",
+      "ticker": "HY",
+      "asset_type": "Equity",
+      "weight": 0.0068,
+      "sedol": "B7LG306",
+      "company": "cusip:449172105"
+    },
+    {
+      "name": "PLUG POWER INC",
+      "ticker": "PLUG",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "sedol": "2508386",
+      "company": "cusip:72919P202"
+    },
+    {
+      "name": "LUCID GROUP INC",
+      "ticker": "LCID",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "sedol": "BVY4KF9",
+      "company": "cusip:549498202"
+    },
+    {
+      "name": "BLACK SESAME INTERNATIONAL H",
+      "ticker": "2533 HK",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "sedol": "BR4V8Z8",
+      "company": "name:black sesame international"
+    },
+    {
+      "name": "LITHIUM ARGENTINA AG",
+      "ticker": "LAR CN",
+      "asset_type": "Equity",
+      "weight": 0.0064,
+      "sedol": "BS891B2",
+      "company": "cusip:H5012F103"
+    },
+    {
+      "name": "INDIE SEMICONDUCTOR INC-A",
+      "ticker": "INDI",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "sedol": "BP4W0C8",
+      "company": "cusip:45569U101"
+    },
+    {
+      "name": "LITHIUM AMERICAS CORP",
+      "ticker": "LAC CN",
+      "asset_type": "Equity",
+      "weight": 0.0061,
+      "sedol": "BRBS357",
+      "company": "cusip:53681J103"
+    },
+    {
+      "name": "LIONTOWN LTD",
+      "ticker": "LTR AU",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "B1J89V5",
+      "company": "name:liontown@australia"
+    },
+    {
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0055,
+      "weight": 0.0054,
+      "company": null
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0029,
       "company": null
     },
     {
@@ -485,137 +612,10 @@
       "company": "cusip:01749D105"
     },
     {
-      "name": "NIO INC - ADR",
-      "ticker": "NIO",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "sedol": "BFZX9H8",
-      "company": "cusip:62914V106"
-    },
-    {
-      "name": "AMPRIUS TECHNOLOGIES INC",
-      "ticker": "AMPX",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "sedol": "BPSKN52",
-      "company": "cusip:03214Q108"
-    },
-    {
-      "name": "PLS GROUP LTD",
-      "ticker": "PLS AU",
-      "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "B2368L5",
-      "company": "name:pls group@australia"
-    },
-    {
-      "name": "MOBILEYE GLOBAL INC-A",
-      "ticker": "MBLY",
-      "asset_type": "Equity",
-      "weight": 0.0077,
-      "sedol": "BLFH8G4",
-      "company": "cusip:60741F104"
-    },
-    {
-      "name": "GANFENG LITHIUM GROUP CO L-H",
-      "ticker": "1772 HK",
-      "asset_type": "Equity",
-      "weight": 0.0076,
-      "sedol": "BZ9NS11",
-      "company": "name:ganfeng lithium group@china"
-    },
-    {
-      "name": "AEVA TECHNOLOGIES INC",
-      "ticker": "AEVA",
-      "asset_type": "Equity",
-      "weight": 0.0073,
-      "sedol": "BSB8D21",
-      "company": "cusip:00835Q202"
-    },
-    {
-      "name": "QUANTUMSCAPE CORP",
-      "ticker": "QS",
-      "asset_type": "Equity",
-      "weight": 0.0069,
-      "sedol": "BMC73Z8",
-      "company": "cusip:74767V109"
-    },
-    {
-      "name": "HYSTER-YALE INC",
-      "ticker": "HY",
-      "asset_type": "Equity",
-      "weight": 0.0068,
-      "sedol": "B7LG306",
-      "company": "cusip:449172105"
-    },
-    {
-      "name": "PLUG POWER INC",
-      "ticker": "PLUG",
-      "asset_type": "Equity",
-      "weight": 0.0067,
-      "sedol": "2508386",
-      "company": "cusip:72919P202"
-    },
-    {
-      "name": "LUCID GROUP INC",
-      "ticker": "LCID",
-      "asset_type": "Equity",
-      "weight": 0.0067,
-      "sedol": "BVY4KF9",
-      "company": "cusip:549498202"
-    },
-    {
-      "name": "BLACK SESAME INTERNATIONAL H",
-      "ticker": "2533 HK",
-      "asset_type": "Equity",
-      "weight": 0.0067,
-      "sedol": "BR4V8Z8",
-      "company": "name:black sesame international"
-    },
-    {
-      "name": "LITHIUM ARGENTINA AG",
-      "ticker": "LAR CN",
-      "asset_type": "Equity",
-      "weight": 0.0064,
-      "sedol": "BS891B2",
-      "company": "cusip:H5012F103"
-    },
-    {
-      "name": "INDIE SEMICONDUCTOR INC-A",
-      "ticker": "INDI",
-      "asset_type": "Equity",
-      "weight": 0.0062,
-      "sedol": "BP4W0C8",
-      "company": "cusip:45569U101"
-    },
-    {
-      "name": "LITHIUM AMERICAS CORP",
-      "ticker": "LAC CN",
-      "asset_type": "Equity",
-      "weight": 0.0061,
-      "sedol": "BRBS357",
-      "company": "cusip:53681J103"
-    },
-    {
-      "name": "LIONTOWN LTD",
-      "ticker": "LTR AU",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "B1J89V5",
-      "company": "name:liontown@australia"
-    },
-    {
-      "name": "CASH",
+      "name": "EURO",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0054,
-      "company": null
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0029,
+      "weight": -0.0055,
       "company": null
     }
   ]

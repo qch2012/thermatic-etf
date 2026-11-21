@@ -1,340 +1,10 @@
 {
   "ticker": "AIQ",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:15.220634+00:00",
+  "fetched_at": "2026-11-21T03:28:14.265048+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/aiq_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "SWISS FRANC",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "EURO",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "KOREAN WON",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "JAPANESE YEN",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CANADIAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0004,
-      "company": null
-    },
-    {
-      "name": "MICROSOFT CORP",
-      "ticker": "MSFT",
-      "asset_type": "Equity",
-      "weight": 0.042,
-      "sedol": "2588173",
-      "company": "cusip:594918104"
-    },
-    {
-      "name": "PALANTIR TECHNOLOGIES INC-A",
-      "ticker": "PLTR",
-      "asset_type": "Equity",
-      "weight": 0.04,
-      "sedol": "BN78DQ4",
-      "company": "cusip:69608A108"
-    },
-    {
-      "name": "TESLA INC",
-      "ticker": "TSLA",
-      "asset_type": "Equity",
-      "weight": 0.0376,
-      "sedol": "B616C79",
-      "company": "cusip:88160R101"
-    },
-    {
-      "name": "SPACE EXPLORATION TECHN-CL A",
-      "ticker": "SPCX",
-      "asset_type": "Equity",
-      "weight": 0.0376,
-      "sedol": "BXCVG25",
-      "company": "cusip:84615Q103"
-    },
-    {
-      "name": "AMAZON.COM INC",
-      "ticker": "AMZN",
-      "asset_type": "Equity",
-      "weight": 0.0354,
-      "sedol": "2000019",
-      "company": "cusip:023135106"
-    },
-    {
-      "name": "APPLE INC",
-      "ticker": "AAPL",
-      "asset_type": "Equity",
-      "weight": 0.0349,
-      "sedol": "2046251",
-      "company": "cusip:037833100"
-    },
-    {
-      "name": "META PLATFORMS INC",
-      "ticker": "META",
-      "asset_type": "Equity",
-      "weight": 0.0316,
-      "sedol": "B7TL820",
-      "company": "cusip:30303M102"
-    },
-    {
-      "name": "ORACLE CORP",
-      "ticker": "ORCL",
-      "asset_type": "Equity",
-      "weight": 0.0296,
-      "sedol": "2661568",
-      "company": "cusip:68389X105"
-    },
-    {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0291,
-      "sedol": "2007849",
-      "company": "cusip:007903107"
-    },
-    {
-      "name": "BROADCOM INC",
-      "ticker": "AVGO",
-      "asset_type": "Equity",
-      "weight": 0.0284,
-      "sedol": "BDZ78H9",
-      "company": "cusip:11135F101"
-    },
-    {
-      "name": "ALPHABET INC-CL A",
-      "ticker": "GOOGL",
-      "asset_type": "Equity",
-      "weight": 0.0276,
-      "sedol": "BYVY8G0",
-      "company": "cusip:02079K107"
-    },
-    {
-      "name": "NETFLIX INC",
-      "ticker": "NFLX",
-      "asset_type": "Equity",
-      "weight": 0.0273,
-      "sedol": "2857817",
-      "company": "cusip:64110L106"
-    },
-    {
-      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM",
-      "asset_type": "Equity",
-      "weight": 0.0272,
-      "sedol": "2113382",
-      "company": "cusip:874039100"
-    },
-    {
-      "name": "CISCO SYSTEMS INC",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.027,
-      "sedol": "2198163",
-      "company": "cusip:17275R102"
-    },
-    {
-      "name": "SAMSUNG ELECTRONICS CO LTD",
-      "ticker": "005930 KS",
-      "asset_type": "Equity",
-      "weight": 0.0258,
-      "sedol": "6771720",
-      "company": "cusip:Y74718100"
-    },
-    {
-      "name": "TENCENT HOLDINGS LTD",
-      "ticker": "700 HK",
-      "asset_type": "Equity",
-      "weight": 0.0251,
-      "sedol": "BMMV2K8",
-      "company": "cusip:G87572163"
-    },
-    {
-      "name": "SAP SE-SPONSORED ADR",
-      "ticker": "SAP",
-      "asset_type": "Equity",
-      "weight": 0.0233,
-      "sedol": "2775135",
-      "company": "cusip:803054204"
-    },
-    {
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0225,
-      "sedol": "2379504",
-      "company": "cusip:67066G104"
-    },
-    {
-      "name": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "asset_type": "Equity",
-      "weight": 0.0224,
-      "sedol": "2588184",
-      "company": "cusip:595112103"
-    },
-    {
-      "name": "SK HYNIX INC",
-      "ticker": "000660 KS",
-      "asset_type": "Equity",
-      "weight": 0.0218,
-      "sedol": "6450267",
-      "company": "cusip:78392B206"
-    },
-    {
-      "name": "SIEMENS AG-REG",
-      "ticker": "SIE GR",
-      "asset_type": "Equity",
-      "weight": 0.0214,
-      "sedol": "5727973",
-      "company": "name:siemens ag reg"
-    },
-    {
-      "name": "INTL BUSINESS MACHINES CORP",
-      "ticker": "IBM",
-      "asset_type": "Equity",
-      "weight": 0.0196,
-      "sedol": "2005973",
-      "company": "name:intl business machines"
-    },
-    {
-      "name": "ALIBABA GROUP HOLDING-SP ADR",
-      "ticker": "BABA",
-      "asset_type": "Equity",
-      "weight": 0.0186,
-      "sedol": "BP41ZD1",
-      "company": "cusip:01609W102"
-    },
-    {
-      "name": "INTEL CORP",
-      "ticker": "INTC",
-      "asset_type": "Equity",
-      "weight": 0.0179,
-      "sedol": "2463247",
-      "company": "cusip:458140100"
-    },
-    {
-      "name": "QUALCOMM INC",
-      "ticker": "QCOM",
-      "asset_type": "Equity",
-      "weight": 0.0159,
-      "sedol": "2714923",
-      "company": "cusip:747525103"
-    },
-    {
-      "name": "SHOPIFY INC - CLASS A",
-      "ticker": "SHOP",
-      "asset_type": "Equity",
-      "weight": 0.015,
-      "sedol": "BXDZ9Z0",
-      "company": "cusip:82509L107"
-    },
-    {
-      "name": "SALESFORCE INC",
-      "ticker": "CRM",
-      "asset_type": "Equity",
-      "weight": 0.014,
-      "sedol": "2310525",
-      "company": "cusip:79466L302"
-    },
-    {
-      "name": "ACCENTURE PLC-CL A",
-      "ticker": "ACN",
-      "asset_type": "Equity",
-      "weight": 0.0125,
-      "sedol": "B4BNMY3",
-      "company": "cusip:G1151C101"
-    },
-    {
-      "name": "UBER TECHNOLOGIES INC",
-      "ticker": "UBER",
-      "asset_type": "Equity",
-      "weight": 0.0125,
-      "sedol": "BK6N347",
-      "company": "cusip:90353T100"
-    },
-    {
-      "name": "MARVELL TECHNOLOGY INC",
-      "ticker": "MRVL",
-      "asset_type": "Equity",
-      "weight": 0.0113,
-      "sedol": "BNKJSM5",
-      "company": "cusip:573874104"
-    },
-    {
-      "name": "SEAGATE TECHNOLOGY HOLDINGS",
-      "ticker": "STX",
-      "asset_type": "Equity",
-      "weight": 0.0109,
-      "sedol": "BKVD2N4",
-      "company": "cusip:G7997R103"
-    },
-    {
-      "name": "APPLOVIN CORP-CLASS A",
-      "ticker": "APP",
-      "asset_type": "Equity",
-      "weight": 0.0108,
-      "sedol": "BMV3LG4",
-      "company": "cusip:03831W108"
-    },
-    {
-      "name": "HON HAI PRECISION INDUSTRY",
-      "ticker": "2317 TT",
-      "asset_type": "Equity",
-      "weight": 0.0088,
-      "sedol": "6438564",
-      "company": "name:hon hai precision industry"
-    },
-    {
-      "name": "SNOWFLAKE INC",
-      "ticker": "SNOW",
-      "asset_type": "Equity",
-      "weight": 0.0087,
-      "sedol": "BN134B7",
-      "company": "cusip:833445109"
-    },
-    {
-      "name": "SERVICENOW INC",
-      "ticker": "NOW",
-      "asset_type": "Equity",
-      "weight": 0.0085,
-      "sedol": "B80NXX8",
-      "company": "cusip:81762P102"
-    },
-    {
-      "name": "ADOBE INC",
-      "ticker": "ADBE",
-      "asset_type": "Equity",
-      "weight": 0.0082,
-      "sedol": "2008154",
-      "company": "cusip:00724F101"
-    },
     {
       "name": "CADENCE DESIGN SYS INC",
       "ticker": "CDNS",
@@ -757,6 +427,336 @@
       "weight": 0.0006,
       "sedol": "BV9F2V7",
       "company": "name:mininglamp technolog"
+    },
+    {
+      "name": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "asset_type": "Equity",
+      "weight": 0.042,
+      "sedol": "2588173",
+      "company": "cusip:594918104"
+    },
+    {
+      "name": "PALANTIR TECHNOLOGIES INC-A",
+      "ticker": "PLTR",
+      "asset_type": "Equity",
+      "weight": 0.04,
+      "sedol": "BN78DQ4",
+      "company": "cusip:69608A108"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0376,
+      "sedol": "B616C79",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "SPACE EXPLORATION TECHN-CL A",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.0376,
+      "sedol": "BXCVG25",
+      "company": "cusip:84615Q103"
+    },
+    {
+      "name": "AMAZON.COM INC",
+      "ticker": "AMZN",
+      "asset_type": "Equity",
+      "weight": 0.0354,
+      "sedol": "2000019",
+      "company": "cusip:023135106"
+    },
+    {
+      "name": "APPLE INC",
+      "ticker": "AAPL",
+      "asset_type": "Equity",
+      "weight": 0.0349,
+      "sedol": "2046251",
+      "company": "cusip:037833100"
+    },
+    {
+      "name": "META PLATFORMS INC",
+      "ticker": "META",
+      "asset_type": "Equity",
+      "weight": 0.0316,
+      "sedol": "B7TL820",
+      "company": "cusip:30303M102"
+    },
+    {
+      "name": "ORACLE CORP",
+      "ticker": "ORCL",
+      "asset_type": "Equity",
+      "weight": 0.0296,
+      "sedol": "2661568",
+      "company": "cusip:68389X105"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0291,
+      "sedol": "2007849",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "BROADCOM INC",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0284,
+      "sedol": "BDZ78H9",
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0276,
+      "sedol": "BYVY8G0",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "NETFLIX INC",
+      "ticker": "NFLX",
+      "asset_type": "Equity",
+      "weight": 0.0273,
+      "sedol": "2857817",
+      "company": "cusip:64110L106"
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0272,
+      "sedol": "2113382",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "CISCO SYSTEMS INC",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.027,
+      "sedol": "2198163",
+      "company": "cusip:17275R102"
+    },
+    {
+      "name": "SAMSUNG ELECTRONICS CO LTD",
+      "ticker": "005930 KS",
+      "asset_type": "Equity",
+      "weight": 0.0258,
+      "sedol": "6771720",
+      "company": "cusip:Y74718100"
+    },
+    {
+      "name": "TENCENT HOLDINGS LTD",
+      "ticker": "700 HK",
+      "asset_type": "Equity",
+      "weight": 0.0251,
+      "sedol": "BMMV2K8",
+      "company": "cusip:G87572163"
+    },
+    {
+      "name": "SAP SE-SPONSORED ADR",
+      "ticker": "SAP",
+      "asset_type": "Equity",
+      "weight": 0.0233,
+      "sedol": "2775135",
+      "company": "cusip:803054204"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0225,
+      "sedol": "2379504",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0224,
+      "sedol": "2588184",
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "SK HYNIX INC",
+      "ticker": "000660 KS",
+      "asset_type": "Equity",
+      "weight": 0.0218,
+      "sedol": "6450267",
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "SIEMENS AG-REG",
+      "ticker": "SIE GR",
+      "asset_type": "Equity",
+      "weight": 0.0214,
+      "sedol": "5727973",
+      "company": "name:siemens ag reg"
+    },
+    {
+      "name": "INTL BUSINESS MACHINES CORP",
+      "ticker": "IBM",
+      "asset_type": "Equity",
+      "weight": 0.0196,
+      "sedol": "2005973",
+      "company": "name:intl business machines"
+    },
+    {
+      "name": "ALIBABA GROUP HOLDING-SP ADR",
+      "ticker": "BABA",
+      "asset_type": "Equity",
+      "weight": 0.0186,
+      "sedol": "BP41ZD1",
+      "company": "cusip:01609W102"
+    },
+    {
+      "name": "INTEL CORP",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0179,
+      "sedol": "2463247",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "QUALCOMM INC",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0159,
+      "sedol": "2714923",
+      "company": "cusip:747525103"
+    },
+    {
+      "name": "SHOPIFY INC - CLASS A",
+      "ticker": "SHOP",
+      "asset_type": "Equity",
+      "weight": 0.015,
+      "sedol": "BXDZ9Z0",
+      "company": "cusip:82509L107"
+    },
+    {
+      "name": "SALESFORCE INC",
+      "ticker": "CRM",
+      "asset_type": "Equity",
+      "weight": 0.014,
+      "sedol": "2310525",
+      "company": "cusip:79466L302"
+    },
+    {
+      "name": "ACCENTURE PLC-CL A",
+      "ticker": "ACN",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "sedol": "B4BNMY3",
+      "company": "cusip:G1151C101"
+    },
+    {
+      "name": "UBER TECHNOLOGIES INC",
+      "ticker": "UBER",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "sedol": "BK6N347",
+      "company": "cusip:90353T100"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "sedol": "BNKJSM5",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "SEAGATE TECHNOLOGY HOLDINGS",
+      "ticker": "STX",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "sedol": "BKVD2N4",
+      "company": "cusip:G7997R103"
+    },
+    {
+      "name": "APPLOVIN CORP-CLASS A",
+      "ticker": "APP",
+      "asset_type": "Equity",
+      "weight": 0.0108,
+      "sedol": "BMV3LG4",
+      "company": "cusip:03831W108"
+    },
+    {
+      "name": "HON HAI PRECISION INDUSTRY",
+      "ticker": "2317 TT",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "sedol": "6438564",
+      "company": "name:hon hai precision industry"
+    },
+    {
+      "name": "SNOWFLAKE INC",
+      "ticker": "SNOW",
+      "asset_type": "Equity",
+      "weight": 0.0087,
+      "sedol": "BN134B7",
+      "company": "cusip:833445109"
+    },
+    {
+      "name": "SERVICENOW INC",
+      "ticker": "NOW",
+      "asset_type": "Equity",
+      "weight": 0.0085,
+      "sedol": "B80NXX8",
+      "company": "cusip:81762P102"
+    },
+    {
+      "name": "ADOBE INC",
+      "ticker": "ADBE",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "sedol": "2008154",
+      "company": "cusip:00724F101"
+    },
+    {
+      "name": "SWISS FRANC",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "EURO",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "KOREAN WON",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "JAPANESE YEN",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CANADIAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0004,
+      "company": null
     }
   ]
 }

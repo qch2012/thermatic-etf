@@ -1,304 +1,10 @@
 {
   "ticker": "SNSR",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:50.437278+00:00",
+  "fetched_at": "2026-11-21T03:29:02.255156+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/snsr_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "ZEPP HEALTH CORP-ADR",
-      "ticker": "ZEPP",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BQ95T22",
-      "company": "name:zepp health"
-    },
-    {
-      "name": "TAIWAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0004,
-      "company": null
-    },
-    {
-      "name": "STMICROELECTRONICS NV",
-      "ticker": "STMPA FP",
-      "asset_type": "Equity",
-      "weight": 0.0723,
-      "sedol": "5962332",
-      "company": "cusip:861012102"
-    },
-    {
-      "name": "DEXCOM INC",
-      "ticker": "DXCM",
-      "asset_type": "Equity",
-      "weight": 0.0599,
-      "sedol": "B0796X4",
-      "company": "cusip:252131107"
-    },
-    {
-      "name": "GARMIN LTD",
-      "ticker": "GRMN",
-      "asset_type": "Equity",
-      "weight": 0.0598,
-      "sedol": "B3Z5T14",
-      "company": "cusip:H2906T109"
-    },
-    {
-      "name": "LATTICE SEMICONDUCTOR CORP",
-      "ticker": "LSCC",
-      "asset_type": "Equity",
-      "weight": 0.0549,
-      "sedol": "2506658",
-      "company": "cusip:518415104"
-    },
-    {
-      "name": "ADVANTECH CO LTD",
-      "ticker": "2395 TT",
-      "asset_type": "Equity",
-      "weight": 0.0525,
-      "sedol": "6202673",
-      "company": "cusip:Y0017P108"
-    },
-    {
-      "name": "SAMSARA INC-CL A",
-      "ticker": "IOT",
-      "asset_type": "Equity",
-      "weight": 0.0497,
-      "sedol": "BPK3058",
-      "company": "cusip:79589L106"
-    },
-    {
-      "name": "SKYWORKS SOLUTIONS INC",
-      "ticker": "SWKS",
-      "asset_type": "Equity",
-      "weight": 0.0453,
-      "sedol": "2961053",
-      "company": "cusip:83088M102"
-    },
-    {
-      "name": "MEDIATEK INC",
-      "ticker": "2454 TT",
-      "asset_type": "Equity",
-      "weight": 0.0359,
-      "sedol": "6372480",
-      "company": "cusip:Y5945U103"
-    },
-    {
-      "name": "RAMBUS INC",
-      "ticker": "RMBS",
-      "asset_type": "Equity",
-      "weight": 0.0297,
-      "sedol": "2721967",
-      "company": "cusip:750917106"
-    },
-    {
-      "name": "ADT INC",
-      "ticker": "ADT",
-      "asset_type": "Equity",
-      "weight": 0.0273,
-      "sedol": "BFWCP81",
-      "company": "cusip:00090Q103"
-    },
-    {
-      "name": "SILICON LABORATORIES INC",
-      "ticker": "SLAB",
-      "asset_type": "Equity",
-      "weight": 0.0264,
-      "sedol": "2568131",
-      "company": "cusip:826919102"
-    },
-    {
-      "name": "CISCO SYSTEMS INC",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.0209,
-      "sedol": "2198163",
-      "company": "cusip:17275R102"
-    },
-    {
-      "name": "QUALCOMM INC",
-      "ticker": "QCOM",
-      "asset_type": "Equity",
-      "weight": 0.0209,
-      "sedol": "2714923",
-      "company": "cusip:747525103"
-    },
-    {
-      "name": "ANALOG DEVICES INC",
-      "ticker": "ADI",
-      "asset_type": "Equity",
-      "weight": 0.0202,
-      "sedol": "2032067",
-      "company": "cusip:032654105"
-    },
-    {
-      "name": "EMERSON ELECTRIC CO",
-      "ticker": "EMR",
-      "asset_type": "Equity",
-      "weight": 0.0195,
-      "sedol": "2313405",
-      "company": "cusip:291011104"
-    },
-    {
-      "name": "SENSATA TECHNOLOGIES HOLDPLC",
-      "ticker": "ST",
-      "asset_type": "Equity",
-      "weight": 0.0195,
-      "sedol": "BFMBMT8",
-      "company": "cusip:G8060N102"
-    },
-    {
-      "name": "JOHNSON CONTROLS INTERNATION",
-      "ticker": "JCI",
-      "asset_type": "Equity",
-      "weight": 0.0175,
-      "sedol": "BY7QL61",
-      "company": "cusip:G51502105"
-    },
-    {
-      "name": "IMPINJ INC",
-      "ticker": "PI",
-      "asset_type": "Equity",
-      "weight": 0.0174,
-      "sedol": "BYYGJZ9",
-      "company": "cusip:453204109"
-    },
-    {
-      "name": "ABB LTD-REG",
-      "ticker": "ABBN SW",
-      "asset_type": "Equity",
-      "weight": 0.0168,
-      "sedol": "7108899",
-      "company": "cusip:H0010V101"
-    },
-    {
-      "name": "EMEMORY TECHNOLOGY INC",
-      "ticker": "3529 TT",
-      "asset_type": "Equity",
-      "weight": 0.0164,
-      "sedol": "B2PXYH2",
-      "company": "name:ememory technology"
-    },
-    {
-      "name": "SYNAPTICS INC",
-      "ticker": "SYNA",
-      "asset_type": "Equity",
-      "weight": 0.0164,
-      "sedol": "2839268",
-      "company": "cusip:87157D109"
-    },
-    {
-      "name": "BADGER METER INC",
-      "ticker": "BMI",
-      "asset_type": "Equity",
-      "weight": 0.0163,
-      "sedol": "2069128",
-      "company": "cusip:056525108"
-    },
-    {
-      "name": "NXP SEMICONDUCTORS NV",
-      "ticker": "NXPI",
-      "asset_type": "Equity",
-      "weight": 0.0159,
-      "sedol": "B505PN7",
-      "company": "cusip:N6596X109"
-    },
-    {
-      "name": "ITRON INC",
-      "ticker": "ITRI",
-      "asset_type": "Equity",
-      "weight": 0.0159,
-      "sedol": "2471949",
-      "company": "cusip:465741106"
-    },
-    {
-      "name": "SCHNEIDER ELECTRIC SE",
-      "ticker": "SU FP",
-      "asset_type": "Equity",
-      "weight": 0.0156,
-      "sedol": "4834108",
-      "company": "cusip:F86921107"
-    },
-    {
-      "name": "INTL BUSINESS MACHINES CORP",
-      "ticker": "IBM",
-      "asset_type": "Equity",
-      "weight": 0.0154,
-      "sedol": "2005973",
-      "company": "name:intl business machines"
-    },
-    {
-      "name": "BELDEN INC",
-      "ticker": "BDC",
-      "asset_type": "Equity",
-      "weight": 0.014,
-      "sedol": "B01WL78",
-      "company": "cusip:077454106"
-    },
-    {
-      "name": "NORDIC SEMICONDUCTOR ASA",
-      "ticker": "NOD NO",
-      "asset_type": "Equity",
-      "weight": 0.0133,
-      "sedol": "B00ZG06",
-      "company": "name:nordic semiconductor"
-    },
-    {
-      "name": "SHANGHAI SUNMI TECHNOLOGY -H",
-      "ticker": "6810 HK",
-      "asset_type": "Equity",
-      "weight": 0.0124,
-      "sedol": "BNNM6S3",
-      "company": "name:shanghai sunmi technology"
-    },
-    {
-      "name": "ALARM.COM HOLDINGS INC",
-      "ticker": "ALRM",
-      "asset_type": "Equity",
-      "weight": 0.0117,
-      "sedol": "BYN7H26",
-      "company": "cusip:011642105"
-    },
-    {
-      "name": "ROCKWELL AUTOMATION INC",
-      "ticker": "ROK",
-      "asset_type": "Equity",
-      "weight": 0.0108,
-      "sedol": "2754060",
-      "company": "cusip:773903109"
-    },
-    {
-      "name": "LEGRAND SA",
-      "ticker": "LR FP",
-      "asset_type": "Equity",
-      "weight": 0.0097,
-      "sedol": "B11ZRK9",
-      "company": "cusip:F56196185"
-    },
-    {
-      "name": "AMBARELLA INC",
-      "ticker": "AMBA",
-      "asset_type": "Equity",
-      "weight": 0.0092,
-      "sedol": "B7KH3G6",
-      "company": "cusip:G037AX101"
-    },
-    {
-      "name": "HMS NETWORKS AB",
-      "ticker": "HMS SS",
-      "asset_type": "Equity",
-      "weight": 0.0084,
-      "sedol": "BZ30ML6",
-      "company": "name:hms networks"
-    },
     {
       "name": "HONEYWELL INTERNATIONAL INC",
       "ticker": "HON",
@@ -585,6 +291,300 @@
       "weight": 0.0007,
       "sedol": "BMFF8M1",
       "company": "name:owlet"
+    },
+    {
+      "name": "STMICROELECTRONICS NV",
+      "ticker": "STMPA FP",
+      "asset_type": "Equity",
+      "weight": 0.0723,
+      "sedol": "5962332",
+      "company": "cusip:861012102"
+    },
+    {
+      "name": "DEXCOM INC",
+      "ticker": "DXCM",
+      "asset_type": "Equity",
+      "weight": 0.0599,
+      "sedol": "B0796X4",
+      "company": "cusip:252131107"
+    },
+    {
+      "name": "GARMIN LTD",
+      "ticker": "GRMN",
+      "asset_type": "Equity",
+      "weight": 0.0598,
+      "sedol": "B3Z5T14",
+      "company": "cusip:H2906T109"
+    },
+    {
+      "name": "LATTICE SEMICONDUCTOR CORP",
+      "ticker": "LSCC",
+      "asset_type": "Equity",
+      "weight": 0.0549,
+      "sedol": "2506658",
+      "company": "cusip:518415104"
+    },
+    {
+      "name": "ADVANTECH CO LTD",
+      "ticker": "2395 TT",
+      "asset_type": "Equity",
+      "weight": 0.0525,
+      "sedol": "6202673",
+      "company": "cusip:Y0017P108"
+    },
+    {
+      "name": "SAMSARA INC-CL A",
+      "ticker": "IOT",
+      "asset_type": "Equity",
+      "weight": 0.0497,
+      "sedol": "BPK3058",
+      "company": "cusip:79589L106"
+    },
+    {
+      "name": "SKYWORKS SOLUTIONS INC",
+      "ticker": "SWKS",
+      "asset_type": "Equity",
+      "weight": 0.0453,
+      "sedol": "2961053",
+      "company": "cusip:83088M102"
+    },
+    {
+      "name": "MEDIATEK INC",
+      "ticker": "2454 TT",
+      "asset_type": "Equity",
+      "weight": 0.0359,
+      "sedol": "6372480",
+      "company": "cusip:Y5945U103"
+    },
+    {
+      "name": "RAMBUS INC",
+      "ticker": "RMBS",
+      "asset_type": "Equity",
+      "weight": 0.0297,
+      "sedol": "2721967",
+      "company": "cusip:750917106"
+    },
+    {
+      "name": "ADT INC",
+      "ticker": "ADT",
+      "asset_type": "Equity",
+      "weight": 0.0273,
+      "sedol": "BFWCP81",
+      "company": "cusip:00090Q103"
+    },
+    {
+      "name": "SILICON LABORATORIES INC",
+      "ticker": "SLAB",
+      "asset_type": "Equity",
+      "weight": 0.0264,
+      "sedol": "2568131",
+      "company": "cusip:826919102"
+    },
+    {
+      "name": "CISCO SYSTEMS INC",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0209,
+      "sedol": "2198163",
+      "company": "cusip:17275R102"
+    },
+    {
+      "name": "QUALCOMM INC",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0209,
+      "sedol": "2714923",
+      "company": "cusip:747525103"
+    },
+    {
+      "name": "ANALOG DEVICES INC",
+      "ticker": "ADI",
+      "asset_type": "Equity",
+      "weight": 0.0202,
+      "sedol": "2032067",
+      "company": "cusip:032654105"
+    },
+    {
+      "name": "EMERSON ELECTRIC CO",
+      "ticker": "EMR",
+      "asset_type": "Equity",
+      "weight": 0.0195,
+      "sedol": "2313405",
+      "company": "cusip:291011104"
+    },
+    {
+      "name": "SENSATA TECHNOLOGIES HOLDPLC",
+      "ticker": "ST",
+      "asset_type": "Equity",
+      "weight": 0.0195,
+      "sedol": "BFMBMT8",
+      "company": "cusip:G8060N102"
+    },
+    {
+      "name": "JOHNSON CONTROLS INTERNATION",
+      "ticker": "JCI",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "sedol": "BY7QL61",
+      "company": "cusip:G51502105"
+    },
+    {
+      "name": "IMPINJ INC",
+      "ticker": "PI",
+      "asset_type": "Equity",
+      "weight": 0.0174,
+      "sedol": "BYYGJZ9",
+      "company": "cusip:453204109"
+    },
+    {
+      "name": "ABB LTD-REG",
+      "ticker": "ABBN SW",
+      "asset_type": "Equity",
+      "weight": 0.0168,
+      "sedol": "7108899",
+      "company": "cusip:H0010V101"
+    },
+    {
+      "name": "EMEMORY TECHNOLOGY INC",
+      "ticker": "3529 TT",
+      "asset_type": "Equity",
+      "weight": 0.0164,
+      "sedol": "B2PXYH2",
+      "company": "name:ememory technology"
+    },
+    {
+      "name": "SYNAPTICS INC",
+      "ticker": "SYNA",
+      "asset_type": "Equity",
+      "weight": 0.0164,
+      "sedol": "2839268",
+      "company": "cusip:87157D109"
+    },
+    {
+      "name": "BADGER METER INC",
+      "ticker": "BMI",
+      "asset_type": "Equity",
+      "weight": 0.0163,
+      "sedol": "2069128",
+      "company": "cusip:056525108"
+    },
+    {
+      "name": "NXP SEMICONDUCTORS NV",
+      "ticker": "NXPI",
+      "asset_type": "Equity",
+      "weight": 0.0159,
+      "sedol": "B505PN7",
+      "company": "cusip:N6596X109"
+    },
+    {
+      "name": "ITRON INC",
+      "ticker": "ITRI",
+      "asset_type": "Equity",
+      "weight": 0.0159,
+      "sedol": "2471949",
+      "company": "cusip:465741106"
+    },
+    {
+      "name": "SCHNEIDER ELECTRIC SE",
+      "ticker": "SU FP",
+      "asset_type": "Equity",
+      "weight": 0.0156,
+      "sedol": "4834108",
+      "company": "cusip:F86921107"
+    },
+    {
+      "name": "INTL BUSINESS MACHINES CORP",
+      "ticker": "IBM",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "sedol": "2005973",
+      "company": "name:intl business machines"
+    },
+    {
+      "name": "BELDEN INC",
+      "ticker": "BDC",
+      "asset_type": "Equity",
+      "weight": 0.014,
+      "sedol": "B01WL78",
+      "company": "cusip:077454106"
+    },
+    {
+      "name": "NORDIC SEMICONDUCTOR ASA",
+      "ticker": "NOD NO",
+      "asset_type": "Equity",
+      "weight": 0.0133,
+      "sedol": "B00ZG06",
+      "company": "name:nordic semiconductor"
+    },
+    {
+      "name": "SHANGHAI SUNMI TECHNOLOGY -H",
+      "ticker": "6810 HK",
+      "asset_type": "Equity",
+      "weight": 0.0124,
+      "sedol": "BNNM6S3",
+      "company": "name:shanghai sunmi technology"
+    },
+    {
+      "name": "ALARM.COM HOLDINGS INC",
+      "ticker": "ALRM",
+      "asset_type": "Equity",
+      "weight": 0.0117,
+      "sedol": "BYN7H26",
+      "company": "cusip:011642105"
+    },
+    {
+      "name": "ROCKWELL AUTOMATION INC",
+      "ticker": "ROK",
+      "asset_type": "Equity",
+      "weight": 0.0108,
+      "sedol": "2754060",
+      "company": "cusip:773903109"
+    },
+    {
+      "name": "LEGRAND SA",
+      "ticker": "LR FP",
+      "asset_type": "Equity",
+      "weight": 0.0097,
+      "sedol": "B11ZRK9",
+      "company": "cusip:F56196185"
+    },
+    {
+      "name": "AMBARELLA INC",
+      "ticker": "AMBA",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "sedol": "B7KH3G6",
+      "company": "cusip:G037AX101"
+    },
+    {
+      "name": "HMS NETWORKS AB",
+      "ticker": "HMS SS",
+      "asset_type": "Equity",
+      "weight": 0.0084,
+      "sedol": "BZ30ML6",
+      "company": "name:hms networks"
+    },
+    {
+      "name": "ZEPP HEALTH CORP-ADR",
+      "ticker": "ZEPP",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BQ95T22",
+      "company": "name:zepp health"
+    },
+    {
+      "name": "TAIWAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0004,
+      "company": null
     }
   ]
 }

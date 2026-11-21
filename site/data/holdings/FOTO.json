@@ -1,7 +1,7 @@
 {
   "ticker": "FOTO",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:32.325300+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:28:38.336321+00:00",
   "stale": false,
   "source": "https://jdkfnvgkfwotjlyovbrk.supabase.co/functions/v1/fund-public-api?ticker=FOTO&view=all",
   "holdings": [
@@ -9,35 +9,35 @@
       "name": "CASH AND CASH EQUIVALENTS",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.513077,
+      "weight": 0.523616,
       "company": null
     },
     {
       "name": "RECV FOTO TRS FN EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.084971,
+      "weight": 0.084454,
       "company": null
     },
     {
       "name": "RECV FOTO TRS COHR EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.07872,
+      "weight": 0.08113,
       "company": null
     },
     {
       "name": "RECV FOTO TRS LITE EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.073178,
+      "weight": 0.072524,
       "company": null
     },
     {
       "name": "LUMENTUM HOLDINGS INC",
       "ticker": "LITE",
       "asset_type": "Equity",
-      "weight": 0.069477,
+      "weight": 0.068856,
       "cusip": "55024U109",
       "company": "cusip:55024U109"
     },
@@ -45,7 +45,7 @@
       "name": "IPG PHOTONICS CORP",
       "ticker": "IPGP",
       "asset_type": "Equity",
-      "weight": 0.067002,
+      "weight": 0.066455,
       "cusip": "44980X109",
       "company": "cusip:44980X109"
     },
@@ -53,59 +53,59 @@
       "name": "RECV FOTO TRS LASR EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.063673,
+      "weight": 0.063879,
       "company": null
     },
     {
       "name": "RECV FOTO TRS IPGP EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.060306,
+      "weight": 0.059814,
       "company": null
     },
     {
       "name": "RECV FOTO TRS CIEN EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.052706,
+      "weight": 0.052995,
       "company": null
     },
     {
       "name": "RECV FOTO TRS VIAV EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.051816,
+      "weight": 0.052118,
       "company": null
     },
     {
       "name": "CIENA CORP",
       "ticker": "CIEN",
       "asset_type": "Equity",
-      "weight": 0.046513,
+      "weight": 0.046768,
       "cusip": "171779309",
       "company": "cusip:171779309"
-    },
-    {
-      "name": "nLight Inc.",
-      "ticker": "LASR",
-      "asset_type": "Equity",
-      "weight": 0.039022,
-      "cusip": "65487K100",
-      "company": "cusip:65487K100"
     },
     {
       "name": "COHERENT CORP COMMON STOCK",
       "ticker": "COHR",
       "asset_type": "Equity",
-      "weight": 0.038238,
+      "weight": 0.039408,
       "cusip": "19247G107",
       "company": "cusip:19247G107"
+    },
+    {
+      "name": "nLight Inc.",
+      "ticker": "LASR",
+      "asset_type": "Equity",
+      "weight": 0.039148,
+      "cusip": "65487K100",
+      "company": "cusip:65487K100"
     },
     {
       "name": "VIAVI SOLUTIONS INC",
       "ticker": "VIAV",
       "asset_type": "Equity",
-      "weight": 0.036768,
+      "weight": 0.036982,
       "cusip": "925550105",
       "company": "cusip:925550105"
     },
@@ -113,14 +113,14 @@
       "name": "RECV FOTO TRS MKSI EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.034292,
+      "weight": 0.034071,
       "company": null
     },
     {
       "name": "Fabrinet",
       "ticker": "FN",
       "asset_type": "Equity",
-      "weight": 0.031387,
+      "weight": 0.031196,
       "cusip": "G3323L100",
       "company": "cusip:G3323L100"
     },
@@ -128,21 +128,21 @@
       "name": "RECV FOTO TRS NOVT EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.026897,
+      "weight": 0.026748,
       "company": null
     },
     {
       "name": "RECV FOTO TRS PLAB EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.026717,
+      "weight": 0.026541,
       "company": null
     },
     {
       "name": "MKS Instruments Inc",
       "ticker": "MKSI",
       "asset_type": "Equity",
-      "weight": 0.021469,
+      "weight": 0.021331,
       "cusip": "55306N104",
       "company": "cusip:55306N104"
     },
@@ -150,7 +150,7 @@
       "name": "NOVANTA INC",
       "ticker": "NOVT",
       "asset_type": "Equity",
-      "weight": 0.01926,
+      "weight": 0.019154,
       "cusip": "67000B104",
       "company": "cusip:67000B104"
     },
@@ -158,7 +158,7 @@
       "name": "APPLIED OPTOELECTRONICS INC",
       "ticker": "AAOI",
       "asset_type": "Equity",
-      "weight": 0.018414,
+      "weight": 0.01818,
       "cusip": "03823U102",
       "company": "cusip:03823U102"
     },
@@ -166,7 +166,7 @@
       "name": "PHOTRONICS INC",
       "ticker": "PLAB",
       "asset_type": "Equity",
-      "weight": 0.014899,
+      "weight": 0.014801,
       "cusip": "719405102",
       "company": "cusip:719405102"
     },
@@ -174,14 +174,14 @@
       "name": "RECV FOTO TRS AEVA EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.014584,
+      "weight": 0.014287,
       "company": null
     },
     {
       "name": "SIVERS IMA HOLDING AB",
       "ticker": "SIVE",
       "asset_type": "Equity",
-      "weight": 0.014409,
+      "weight": 0.014204,
       "cusip": "B4LSFQ904",
       "company": "cusip:B4LSFQ904"
     },
@@ -189,7 +189,7 @@
       "name": "POET TECHNOLOGIES INC COMMON STOCK",
       "ticker": "POET US",
       "asset_type": "Equity",
-      "weight": 0.013314,
+      "weight": 0.013012,
       "cusip": "73044W302",
       "company": "cusip:73044W302"
     },
@@ -197,14 +197,14 @@
       "name": "RECV FOTO TRS LWLG EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.009088,
+      "weight": 0.009432,
       "company": null
     },
     {
       "name": "AEVA TECHNOLOGIES, INC. COMMON STOCK",
       "ticker": "AEVA",
       "asset_type": "Equity",
-      "weight": 0.006849,
+      "weight": 0.006709,
       "cusip": "00835Q202",
       "company": "cusip:00835Q202"
     },
@@ -212,7 +212,7 @@
       "name": "LIGHTWAVE LOGIC INC",
       "ticker": "LWLG",
       "asset_type": "Equity",
-      "weight": 0.003563,
+      "weight": 0.003698,
       "cusip": "532275104",
       "company": "cusip:532275104"
     },
@@ -220,91 +220,91 @@
       "name": "PAYB FOTO TRS LWLG EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.011768,
+      "weight": -0.01201,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS AEVA EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.013443,
+      "weight": -0.01372,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS SIVEF EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.016156,
+      "weight": -0.016488,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS PLAB EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.025168,
+      "weight": -0.025685,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS MKSI EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.028785,
+      "weight": -0.029376,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS NOVT EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.030075,
+      "weight": -0.030692,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS CIEN EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.045637,
+      "weight": -0.046574,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS VIAV EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.045731,
+      "weight": -0.04667,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS LASR EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.048739,
+      "weight": -0.04974,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS IPGP EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.05686,
+      "weight": -0.058027,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS COHR EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.062787,
+      "weight": -0.064076,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS LITE EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.067685,
+      "weight": -0.069075,
       "company": null
     },
     {
       "name": "PAYB FOTO TRS FN EQ",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": -0.077779,
+      "weight": -0.079376,
       "company": null
     }
   ]

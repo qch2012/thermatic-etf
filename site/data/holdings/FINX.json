@@ -1,343 +1,10 @@
 {
   "ticker": "FINX",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:31.253563+00:00",
+  "fetched_at": "2026-11-21T03:28:36.340948+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/finx_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "YEAHKA LTD",
-      "ticker": "9923 HK",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BL58D39",
-      "company": "name:yeahka"
-    },
-    {
-      "name": "GREEN WORLD FIN TECH SERVICE",
-      "ticker": "6763 TT",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BK7KCS4",
-      "company": "name:green world fin tech service"
-    },
-    {
-      "name": "PAYSAFE LTD",
-      "ticker": "PSFE",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BPCPXY2",
-      "company": "name:paysafe"
-    },
-    {
-      "name": "LIANLIAN DIGITECH CO LTD-H",
-      "ticker": "2598 HK",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BQB5TJ7",
-      "company": "name:lianlian digitech"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0002,
-      "company": null
-    },
-    {
-      "name": "BAKKT INC",
-      "ticker": "BKKT",
-      "asset_type": "Equity",
-      "weight": 0.0002,
-      "sedol": "BMDLW29",
-      "company": "cusip:05759B305"
-    },
-    {
-      "name": "GEMINI SPACE STATION INC-A",
-      "ticker": "GEMI",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "sedol": "BT6CC06",
-      "company": "name:gemini space station"
-    },
-    {
-      "name": "AMERICAN BITCOIN CORP-A",
-      "ticker": "ABTC",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "sedol": "BTCL713",
-      "company": "name:american bitcoin"
-    },
-    {
-      "name": "EXODUS MOVEMENT INC - A",
-      "ticker": "EXOD",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "sedol": "BNZJKK2",
-      "company": "name:exodus movement"
-    },
-    {
-      "name": "BRITISH STERLING POUND",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0001,
-      "company": null
-    },
-    {
-      "name": "PAYPAL HOLDINGS INC",
-      "ticker": "PYPL",
-      "asset_type": "Equity",
-      "weight": 0.08,
-      "sedol": "BYW36M8",
-      "company": "cusip:70450Y103"
-    },
-    {
-      "name": "BLOCK INC",
-      "ticker": "XYZ",
-      "asset_type": "Equity",
-      "weight": 0.0745,
-      "sedol": "BYNZGK1",
-      "company": "cusip:852234103"
-    },
-    {
-      "name": "FISERV INC",
-      "ticker": "FISV",
-      "asset_type": "Equity",
-      "weight": 0.06,
-      "sedol": "2342034",
-      "company": "cusip:337738108"
-    },
-    {
-      "name": "ROBINHOOD MARKETS INC - A",
-      "ticker": "HOOD",
-      "asset_type": "Equity",
-      "weight": 0.0577,
-      "sedol": "BP0TQN6",
-      "company": "cusip:770700102"
-    },
-    {
-      "name": "GLOBAL PAYMENTS INC",
-      "ticker": "GPN",
-      "asset_type": "Equity",
-      "weight": 0.048,
-      "sedol": "2712013",
-      "company": "cusip:37940X102"
-    },
-    {
-      "name": "INTUIT INC",
-      "ticker": "INTU",
-      "asset_type": "Equity",
-      "weight": 0.0449,
-      "sedol": "2459020",
-      "company": "cusip:461202103"
-    },
-    {
-      "name": "ADYEN NV",
-      "ticker": "ADYEN NA",
-      "asset_type": "Equity",
-      "weight": 0.0418,
-      "sedol": "BZ1HM42",
-      "company": "cusip:N3501V104"
-    },
-    {
-      "name": "SS&C TECHNOLOGIES HOLDINGS",
-      "ticker": "SSNC",
-      "asset_type": "Equity",
-      "weight": 0.037,
-      "sedol": "B58YSC6",
-      "company": "name:ss c technologies holdings"
-    },
-    {
-      "name": "COINBASE GLOBAL INC -CLASS A",
-      "ticker": "COIN",
-      "asset_type": "Equity",
-      "weight": 0.0359,
-      "sedol": "BMC9P69",
-      "company": "cusip:19260Q107"
-    },
-    {
-      "name": "SOFI TECHNOLOGIES INC",
-      "ticker": "SOFI",
-      "asset_type": "Equity",
-      "weight": 0.0354,
-      "sedol": "BM8J4C2",
-      "company": "cusip:83406F102"
-    },
-    {
-      "name": "TOAST INC-CLASS A",
-      "ticker": "TOST",
-      "asset_type": "Equity",
-      "weight": 0.0342,
-      "sedol": "BP6D7B7",
-      "company": "cusip:888787108"
-    },
-    {
-      "name": "AFFIRM HOLDINGS INC",
-      "ticker": "AFRM",
-      "asset_type": "Equity",
-      "weight": 0.0342,
-      "sedol": "BMF9NM8",
-      "company": "name:affirm holdings"
-    },
-    {
-      "name": "FIDELITY NATIONAL INFO SERVICES",
-      "ticker": "FIS",
-      "asset_type": "Equity",
-      "weight": 0.026,
-      "sedol": "2769796",
-      "company": "name:fidelity national info services"
-    },
-    {
-      "name": "JACK HENRY & ASSOCIATES INC",
-      "ticker": "JKHY",
-      "asset_type": "Equity",
-      "weight": 0.0252,
-      "sedol": "2469193",
-      "company": "name:jack henry associates"
-    },
-    {
-      "name": "GUIDEWIRE SOFTWARE INC",
-      "ticker": "GWRE",
-      "asset_type": "Equity",
-      "weight": 0.0234,
-      "sedol": "B7JYSG3",
-      "company": "name:guidewire software@united states"
-    },
-    {
-      "name": "CIRCLE INTERNET GROUP INC",
-      "ticker": "CRCL",
-      "asset_type": "Equity",
-      "weight": 0.0231,
-      "sedol": "BL6K237",
-      "company": "cusip:172573107"
-    },
-    {
-      "name": "WISE GROUP PLC-CL A",
-      "ticker": "WISE LN",
-      "asset_type": "Equity",
-      "weight": 0.0226,
-      "sedol": "BQKY081",
-      "company": "name:wise group"
-    },
-    {
-      "name": "XERO LTD",
-      "ticker": "XRO AU",
-      "asset_type": "Equity",
-      "weight": 0.0186,
-      "sedol": "B8P4LP4",
-      "company": "name:xero"
-    },
-    {
-      "name": "HEALTHEQUITY INC",
-      "ticker": "HQY",
-      "asset_type": "Equity",
-      "weight": 0.0171,
-      "sedol": "BP8XZL1",
-      "company": "cusip:42226A107"
-    },
-    {
-      "name": "PAYPAY CORP",
-      "ticker": "PAYP",
-      "asset_type": "Equity",
-      "weight": 0.0167,
-      "sedol": "BVCHTQ4",
-      "company": "cusip:70450C101"
-    },
-    {
-      "name": "RIOT PLATFORMS INC",
-      "ticker": "RIOT",
-      "asset_type": "Equity",
-      "weight": 0.0138,
-      "sedol": "BD9F675",
-      "company": "cusip:767292105"
-    },
-    {
-      "name": "TEMENOS AG - REG",
-      "ticker": "TEMN SW",
-      "asset_type": "Equity",
-      "weight": 0.0135,
-      "sedol": "7147892",
-      "company": "name:temenos ag reg"
-    },
-    {
-      "name": "BILL HOLDINGS INC",
-      "ticker": "BILL",
-      "asset_type": "Equity",
-      "weight": 0.013,
-      "sedol": "BKDS4H5",
-      "company": "cusip:090043100"
-    },
-    {
-      "name": "HUT 8 CORP",
-      "ticker": "HUT CN",
-      "asset_type": "Equity",
-      "weight": 0.0128,
-      "sedol": "BQQ8805",
-      "company": "cusip:44812J104"
-    },
-    {
-      "name": "NEXI SPA",
-      "ticker": "NEXI IM",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "sedol": "BJ1F880",
-      "company": "name:nexi@italy"
-    },
-    {
-      "name": "ACI WORLDWIDE INC",
-      "ticker": "ACIW",
-      "asset_type": "Equity",
-      "weight": 0.0105,
-      "sedol": "2889155",
-      "company": "cusip:004498101"
-    },
-    {
-      "name": "VIRTU FINANCIAL INC-CLASS A",
-      "ticker": "VIRT",
-      "asset_type": "Equity",
-      "weight": 0.0103,
-      "sedol": "BWTVWD4",
-      "company": "name:virtu financial"
-    },
-    {
-      "name": "SEZZLE INC",
-      "ticker": "SEZL",
-      "asset_type": "Equity",
-      "weight": 0.0102,
-      "sedol": "BQC4R22",
-      "company": "name:sezzle"
-    },
-    {
-      "name": "KLARNA GROUP PLC",
-      "ticker": "KLAR",
-      "asset_type": "Equity",
-      "weight": 0.0098,
-      "sedol": "BMHVL51",
-      "company": "cusip:G5279N105"
-    },
-    {
-      "name": "CORE SCIENTIFIC INC",
-      "ticker": "CORZ",
-      "asset_type": "Equity",
-      "weight": 0.0086,
-      "sedol": "BN70TG2",
-      "company": "cusip:21874A106"
-    },
-    {
-      "name": "HUB24 LTD",
-      "ticker": "HUB AU",
-      "asset_type": "Equity",
-      "weight": 0.0082,
-      "sedol": "BD4T5X1",
-      "company": "name:hub24"
-    },
     {
       "name": "KAKAOPAY CORP",
       "ticker": "377300 KS",
@@ -651,12 +318,345 @@
       "company": "name:chaince digital holdings"
     },
     {
+      "name": "PAYPAL HOLDINGS INC",
+      "ticker": "PYPL",
+      "asset_type": "Equity",
+      "weight": 0.08,
+      "sedol": "BYW36M8",
+      "company": "cusip:70450Y103"
+    },
+    {
+      "name": "BLOCK INC",
+      "ticker": "XYZ",
+      "asset_type": "Equity",
+      "weight": 0.0745,
+      "sedol": "BYNZGK1",
+      "company": "cusip:852234103"
+    },
+    {
+      "name": "FISERV INC",
+      "ticker": "FISV",
+      "asset_type": "Equity",
+      "weight": 0.06,
+      "sedol": "2342034",
+      "company": "cusip:337738108"
+    },
+    {
+      "name": "ROBINHOOD MARKETS INC - A",
+      "ticker": "HOOD",
+      "asset_type": "Equity",
+      "weight": 0.0577,
+      "sedol": "BP0TQN6",
+      "company": "cusip:770700102"
+    },
+    {
+      "name": "GLOBAL PAYMENTS INC",
+      "ticker": "GPN",
+      "asset_type": "Equity",
+      "weight": 0.048,
+      "sedol": "2712013",
+      "company": "cusip:37940X102"
+    },
+    {
+      "name": "INTUIT INC",
+      "ticker": "INTU",
+      "asset_type": "Equity",
+      "weight": 0.0449,
+      "sedol": "2459020",
+      "company": "cusip:461202103"
+    },
+    {
+      "name": "ADYEN NV",
+      "ticker": "ADYEN NA",
+      "asset_type": "Equity",
+      "weight": 0.0418,
+      "sedol": "BZ1HM42",
+      "company": "cusip:N3501V104"
+    },
+    {
+      "name": "SS&C TECHNOLOGIES HOLDINGS",
+      "ticker": "SSNC",
+      "asset_type": "Equity",
+      "weight": 0.037,
+      "sedol": "B58YSC6",
+      "company": "name:ss c technologies holdings"
+    },
+    {
+      "name": "COINBASE GLOBAL INC -CLASS A",
+      "ticker": "COIN",
+      "asset_type": "Equity",
+      "weight": 0.0359,
+      "sedol": "BMC9P69",
+      "company": "cusip:19260Q107"
+    },
+    {
+      "name": "SOFI TECHNOLOGIES INC",
+      "ticker": "SOFI",
+      "asset_type": "Equity",
+      "weight": 0.0354,
+      "sedol": "BM8J4C2",
+      "company": "cusip:83406F102"
+    },
+    {
+      "name": "TOAST INC-CLASS A",
+      "ticker": "TOST",
+      "asset_type": "Equity",
+      "weight": 0.0342,
+      "sedol": "BP6D7B7",
+      "company": "cusip:888787108"
+    },
+    {
+      "name": "AFFIRM HOLDINGS INC",
+      "ticker": "AFRM",
+      "asset_type": "Equity",
+      "weight": 0.0342,
+      "sedol": "BMF9NM8",
+      "company": "name:affirm holdings"
+    },
+    {
+      "name": "FIDELITY NATIONAL INFO SERVICES",
+      "ticker": "FIS",
+      "asset_type": "Equity",
+      "weight": 0.026,
+      "sedol": "2769796",
+      "company": "name:fidelity national info services"
+    },
+    {
+      "name": "JACK HENRY & ASSOCIATES INC",
+      "ticker": "JKHY",
+      "asset_type": "Equity",
+      "weight": 0.0252,
+      "sedol": "2469193",
+      "company": "name:jack henry associates"
+    },
+    {
+      "name": "GUIDEWIRE SOFTWARE INC",
+      "ticker": "GWRE",
+      "asset_type": "Equity",
+      "weight": 0.0234,
+      "sedol": "B7JYSG3",
+      "company": "name:guidewire software@united states"
+    },
+    {
+      "name": "CIRCLE INTERNET GROUP INC",
+      "ticker": "CRCL",
+      "asset_type": "Equity",
+      "weight": 0.0231,
+      "sedol": "BL6K237",
+      "company": "cusip:172573107"
+    },
+    {
+      "name": "WISE GROUP PLC-CL A",
+      "ticker": "WISE LN",
+      "asset_type": "Equity",
+      "weight": 0.0226,
+      "sedol": "BQKY081",
+      "company": "name:wise group"
+    },
+    {
+      "name": "XERO LTD",
+      "ticker": "XRO AU",
+      "asset_type": "Equity",
+      "weight": 0.0186,
+      "sedol": "B8P4LP4",
+      "company": "name:xero"
+    },
+    {
+      "name": "HEALTHEQUITY INC",
+      "ticker": "HQY",
+      "asset_type": "Equity",
+      "weight": 0.0171,
+      "sedol": "BP8XZL1",
+      "company": "cusip:42226A107"
+    },
+    {
+      "name": "PAYPAY CORP",
+      "ticker": "PAYP",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "sedol": "BVCHTQ4",
+      "company": "cusip:70450C101"
+    },
+    {
+      "name": "RIOT PLATFORMS INC",
+      "ticker": "RIOT",
+      "asset_type": "Equity",
+      "weight": 0.0138,
+      "sedol": "BD9F675",
+      "company": "cusip:767292105"
+    },
+    {
+      "name": "TEMENOS AG - REG",
+      "ticker": "TEMN SW",
+      "asset_type": "Equity",
+      "weight": 0.0135,
+      "sedol": "7147892",
+      "company": "name:temenos ag reg"
+    },
+    {
+      "name": "BILL HOLDINGS INC",
+      "ticker": "BILL",
+      "asset_type": "Equity",
+      "weight": 0.013,
+      "sedol": "BKDS4H5",
+      "company": "cusip:090043100"
+    },
+    {
+      "name": "HUT 8 CORP",
+      "ticker": "HUT CN",
+      "asset_type": "Equity",
+      "weight": 0.0128,
+      "sedol": "BQQ8805",
+      "company": "cusip:44812J104"
+    },
+    {
+      "name": "NEXI SPA",
+      "ticker": "NEXI IM",
+      "asset_type": "Equity",
+      "weight": 0.0112,
+      "sedol": "BJ1F880",
+      "company": "name:nexi@italy"
+    },
+    {
+      "name": "ACI WORLDWIDE INC",
+      "ticker": "ACIW",
+      "asset_type": "Equity",
+      "weight": 0.0105,
+      "sedol": "2889155",
+      "company": "cusip:004498101"
+    },
+    {
+      "name": "VIRTU FINANCIAL INC-CLASS A",
+      "ticker": "VIRT",
+      "asset_type": "Equity",
+      "weight": 0.0103,
+      "sedol": "BWTVWD4",
+      "company": "name:virtu financial"
+    },
+    {
+      "name": "SEZZLE INC",
+      "ticker": "SEZL",
+      "asset_type": "Equity",
+      "weight": 0.0102,
+      "sedol": "BQC4R22",
+      "company": "name:sezzle"
+    },
+    {
+      "name": "KLARNA GROUP PLC",
+      "ticker": "KLAR",
+      "asset_type": "Equity",
+      "weight": 0.0098,
+      "sedol": "BMHVL51",
+      "company": "cusip:G5279N105"
+    },
+    {
+      "name": "CORE SCIENTIFIC INC",
+      "ticker": "CORZ",
+      "asset_type": "Equity",
+      "weight": 0.0086,
+      "sedol": "BN70TG2",
+      "company": "cusip:21874A106"
+    },
+    {
+      "name": "HUB24 LTD",
+      "ticker": "HUB AU",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "sedol": "BD4T5X1",
+      "company": "name:hub24"
+    },
+    {
       "name": "BLEND LABS INC-A",
       "ticker": "BLND",
       "asset_type": "Equity",
       "weight": 0.0005,
       "sedol": "BP8K987",
       "company": "name:blend labs"
+    },
+    {
+      "name": "YEAHKA LTD",
+      "ticker": "9923 HK",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BL58D39",
+      "company": "name:yeahka"
+    },
+    {
+      "name": "GREEN WORLD FIN TECH SERVICE",
+      "ticker": "6763 TT",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BK7KCS4",
+      "company": "name:green world fin tech service"
+    },
+    {
+      "name": "PAYSAFE LTD",
+      "ticker": "PSFE",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BPCPXY2",
+      "company": "name:paysafe"
+    },
+    {
+      "name": "LIANLIAN DIGITECH CO LTD-H",
+      "ticker": "2598 HK",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "sedol": "BQB5TJ7",
+      "company": "name:lianlian digitech"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
+      "name": "BAKKT INC",
+      "ticker": "BKKT",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "sedol": "BMDLW29",
+      "company": "cusip:05759B305"
+    },
+    {
+      "name": "GEMINI SPACE STATION INC-A",
+      "ticker": "GEMI",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "sedol": "BT6CC06",
+      "company": "name:gemini space station"
+    },
+    {
+      "name": "AMERICAN BITCOIN CORP-A",
+      "ticker": "ABTC",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "sedol": "BTCL713",
+      "company": "name:american bitcoin"
+    },
+    {
+      "name": "EXODUS MOVEMENT INC - A",
+      "ticker": "EXOD",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "sedol": "BNZJKK2",
+      "company": "name:exodus movement"
+    },
+    {
+      "name": "BRITISH STERLING POUND",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0001,
+      "company": null
     }
   ]
 }

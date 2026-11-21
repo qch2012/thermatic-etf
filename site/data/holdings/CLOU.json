@@ -1,15 +1,79 @@
 {
   "ticker": "CLOU",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:24.228926+00:00",
+  "fetched_at": "2026-11-21T03:28:26.326071+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/clou_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "OTHER PAYABLE & RECEIVABLES",
+      "name": "PUBMATIC INC-CLASS A",
+      "ticker": "PUBM",
+      "asset_type": "Equity",
+      "weight": 0.0053,
+      "sedol": "BNHP503",
+      "company": "name:pubmatic"
+    },
+    {
+      "name": "YEXT INC",
+      "ticker": "YEXT",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "BD8ZJW2",
+      "company": "name:yext"
+    },
+    {
+      "name": "VNET GROUP INCORPORATION",
+      "ticker": "VNET",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "B3Q0VS9",
+      "company": "name:vnet group incorporation"
+    },
+    {
+      "name": "ORACLE CORP",
+      "ticker": "ORCL",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "sedol": "2661568",
+      "company": "cusip:68389X105"
+    },
+    {
+      "name": "ORACLE CORP JAPAN",
+      "ticker": "4716 JP",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "sedol": "6141680",
+      "company": "name:oracle corp japan"
+    },
+    {
+      "name": "INTL BUSINESS MACHINES CORP",
+      "ticker": "IBM",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "2005973",
+      "company": "name:intl business machines"
+    },
+    {
+      "name": "ALIBABA GROUP HOLDING-SP ADR",
+      "ticker": "BABA",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "BP41ZD1",
+      "company": "cusip:01609W102"
+    },
+    {
+      "name": "KINGSOFT CLOUD HOLDINGS-ADR",
+      "ticker": "KC",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BM8R675",
+      "company": "cusip:49639K101"
+    },
+    {
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0003,
+      "weight": 0.0008,
       "company": null
     },
     {
@@ -253,75 +317,11 @@
       "company": "cusip:12468P104"
     },
     {
-      "name": "CASH",
+      "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0008,
+      "weight": -0.0003,
       "company": null
-    },
-    {
-      "name": "PUBMATIC INC-CLASS A",
-      "ticker": "PUBM",
-      "asset_type": "Equity",
-      "weight": 0.0053,
-      "sedol": "BNHP503",
-      "company": "name:pubmatic"
-    },
-    {
-      "name": "YEXT INC",
-      "ticker": "YEXT",
-      "asset_type": "Equity",
-      "weight": 0.0051,
-      "sedol": "BD8ZJW2",
-      "company": "name:yext"
-    },
-    {
-      "name": "VNET GROUP INCORPORATION",
-      "ticker": "VNET",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "sedol": "B3Q0VS9",
-      "company": "name:vnet group incorporation"
-    },
-    {
-      "name": "ORACLE CORP",
-      "ticker": "ORCL",
-      "asset_type": "Equity",
-      "weight": 0.0039,
-      "sedol": "2661568",
-      "company": "cusip:68389X105"
-    },
-    {
-      "name": "ORACLE CORP JAPAN",
-      "ticker": "4716 JP",
-      "asset_type": "Equity",
-      "weight": 0.003,
-      "sedol": "6141680",
-      "company": "name:oracle corp japan"
-    },
-    {
-      "name": "INTL BUSINESS MACHINES CORP",
-      "ticker": "IBM",
-      "asset_type": "Equity",
-      "weight": 0.0028,
-      "sedol": "2005973",
-      "company": "name:intl business machines"
-    },
-    {
-      "name": "ALIBABA GROUP HOLDING-SP ADR",
-      "ticker": "BABA",
-      "asset_type": "Equity",
-      "weight": 0.0024,
-      "sedol": "BP41ZD1",
-      "company": "cusip:01609W102"
-    },
-    {
-      "name": "KINGSOFT CLOUD HOLDINGS-ADR",
-      "ticker": "KC",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "sedol": "BM8R675",
-      "company": "cusip:49639K101"
     }
   ]
 }

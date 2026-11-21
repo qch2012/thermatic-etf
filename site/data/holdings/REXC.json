@@ -1,7 +1,7 @@
 {
   "ticker": "REXC",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:47.773754+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-21T03:28:58.148845+00:00",
   "stale": false,
   "source": "https://sprottetfs.com/rexc-rare-earths-ex-china-etf",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Lynas Rare Earths Ltd.",
       "ticker": "LYC AU",
       "asset_type": "Equity",
-      "weight": 0.238,
+      "weight": 0.2457,
       "sedol": "6121176",
       "company": "name:lynas rare earths@australia"
     },
@@ -17,7 +17,7 @@
       "name": "MP Materials Corp.",
       "ticker": "MP",
       "asset_type": "Equity",
-      "weight": 0.2136,
+      "weight": 0.2116,
       "sedol": "BN15Y35",
       "company": "cusip:553368101"
     },
@@ -25,7 +25,7 @@
       "name": "Iluka Resources Ltd.",
       "ticker": "ILU AU",
       "asset_type": "Equity",
-      "weight": 0.0557,
+      "weight": 0.0567,
       "sedol": "6957575",
       "company": "name:iluka resources@australia"
     },
@@ -33,39 +33,39 @@
       "name": "Neo Performance Materials Inc.",
       "ticker": "NEO CN",
       "asset_type": "Equity",
-      "weight": 0.0527,
+      "weight": 0.0518,
       "sedol": "BF5LL43",
       "company": "name:neo performance materials"
-    },
-    {
-      "name": "USA Rare Earth Inc.",
-      "ticker": "USAR",
-      "asset_type": "Equity",
-      "weight": 0.0401,
-      "sedol": "BSBGKF7",
-      "company": "cusip:91733P107"
-    },
-    {
-      "name": "Sunrise Energy Metals Ltd.",
-      "ticker": "SRL AU",
-      "asset_type": "Equity",
-      "weight": 0.0399,
-      "sedol": "BN4MX14",
-      "company": "name:sunrise energy metals"
     },
     {
       "name": "Arafura Rare Earths Ltd.",
       "ticker": "ARU AU",
       "asset_type": "Equity",
-      "weight": 0.0387,
+      "weight": 0.0411,
       "sedol": "6711726",
       "company": "name:arafura rare earths@australia"
+    },
+    {
+      "name": "Sunrise Energy Metals Ltd.",
+      "ticker": "SRL AU",
+      "asset_type": "Equity",
+      "weight": 0.0392,
+      "sedol": "BN4MX14",
+      "company": "name:sunrise energy metals"
+    },
+    {
+      "name": "USA Rare Earth Inc.",
+      "ticker": "USAR",
+      "asset_type": "Equity",
+      "weight": 0.0392,
+      "sedol": "BSBGKF7",
+      "company": "cusip:91733P107"
     },
     {
       "name": "Meteoric Resources Ltd.",
       "ticker": "MEI AU",
       "asset_type": "Equity",
-      "weight": 0.0345,
+      "weight": 0.0358,
       "sedol": "B01CRT2",
       "company": "name:meteoric resources"
     },
@@ -73,7 +73,7 @@
       "name": "NioCorp Developments Ltd.",
       "ticker": "NB",
       "asset_type": "Equity",
-      "weight": 0.0289,
+      "weight": 0.0276,
       "sedol": "BMYD3L0",
       "company": "name:niocorp developments"
     },
@@ -81,7 +81,7 @@
       "name": "Lindian Resources Ltd.",
       "ticker": "LIN AU",
       "asset_type": "Equity",
-      "weight": 0.0284,
+      "weight": 0.0273,
       "sedol": "6214816",
       "company": "name:lindian resources"
     },
@@ -89,7 +89,7 @@
       "name": "Critical Metals Corp.",
       "ticker": "CRML",
       "asset_type": "Equity",
-      "weight": 0.0257,
+      "weight": 0.0239,
       "sedol": "BSNX0D4",
       "company": "name:critical metals"
     },
@@ -97,7 +97,7 @@
       "name": "REalloys Inc.",
       "ticker": "ALOY",
       "asset_type": "Equity",
-      "weight": 0.022,
+      "weight": 0.0205,
       "sedol": "BSRFQG1",
       "company": "name:realloys"
     },
@@ -105,7 +105,7 @@
       "name": "Viridis Mining and Minerals Ltd.",
       "ticker": "VMM AU",
       "asset_type": "Equity",
-      "weight": 0.0201,
+      "weight": 0.0203,
       "sedol": "BKPGF18",
       "company": "name:viridis mining and minerals"
     },
@@ -113,23 +113,15 @@
       "name": "Brazilian Rare Earths Ltd.",
       "ticker": "BRE AU",
       "asset_type": "Equity",
-      "weight": 0.0185,
+      "weight": 0.0188,
       "sedol": "BMVMLB6",
       "company": "name:brazilian rare earths"
-    },
-    {
-      "name": "Energy Fuels Inc.",
-      "ticker": "UUUU",
-      "asset_type": "Equity",
-      "weight": 0.0134,
-      "sedol": "BFV4XW8",
-      "company": "name:energy fuels@canada"
     },
     {
       "name": "St George Mining Ltd.",
       "ticker": "SGQ AU",
       "asset_type": "Equity",
-      "weight": 0.0131,
+      "weight": 0.0137,
       "sedol": "B53ZW66",
       "company": "name:st george mining"
     },
@@ -137,31 +129,39 @@
       "name": "Mkango Magnetic Materials Ltd.",
       "ticker": "MKA LN",
       "asset_type": "Equity",
-      "weight": 0.0124,
+      "weight": 0.0133,
       "sedol": "BTSK7N6",
       "company": "name:mkango magnetic materials"
     },
     {
-      "name": "Ucore Rare Metals Inc.",
-      "ticker": "UCU CN",
+      "name": "Energy Fuels Inc.",
+      "ticker": "UUUU",
       "asset_type": "Equity",
-      "weight": 0.0121,
-      "sedol": "BMCMMH8",
-      "company": "name:ucore rare metals"
+      "weight": 0.013,
+      "sedol": "BFV4XW8",
+      "company": "name:energy fuels@canada"
     },
     {
       "name": "Northern Minerals Ltd.",
       "ticker": "NTU AU",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.011,
       "sedol": "B1FMNY2",
       "company": "name:northern minerals"
+    },
+    {
+      "name": "Ucore Rare Metals Inc.",
+      "ticker": "UCU CN",
+      "asset_type": "Equity",
+      "weight": 0.0103,
+      "sedol": "BMCMMH8",
+      "company": "name:ucore rare metals"
     },
     {
       "name": "Pensana PLC",
       "ticker": "PRE LN",
       "asset_type": "Equity",
-      "weight": 0.0097,
+      "weight": 0.01,
       "sedol": "BKV4DS9",
       "company": "name:pensana"
     },
@@ -169,7 +169,7 @@
       "name": "Aclara Resources Inc.",
       "ticker": "ARA CN",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0093,
       "sedol": "BMG55Q3",
       "company": "name:aclara resources"
     },
@@ -177,7 +177,7 @@
       "name": "Rainbow Rare Earths Ltd.",
       "ticker": "RBW LN",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0082,
       "sedol": "BD59ZW9",
       "company": "name:rainbow rare earths"
     },
@@ -193,7 +193,7 @@
       "name": "American Rare Earths Ltd.",
       "ticker": "ARR AU",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.0061,
       "sedol": "BMHKT87",
       "company": "name:american rare earths"
     },
@@ -201,7 +201,7 @@
       "name": "Ionic Rare Earths Ltd.",
       "ticker": "IXR AU",
       "asset_type": "Equity",
-      "weight": 0.0052,
+      "weight": 0.0051,
       "sedol": "BMDYLR6",
       "company": "name:ionic rare earths"
     },
@@ -209,7 +209,7 @@
       "name": "Brazilian Critical Minerals Ltd.",
       "ticker": "BCM AU",
       "asset_type": "Equity",
-      "weight": 0.0049,
+      "weight": 0.0046,
       "sedol": "BRT6ZF7",
       "company": "name:brazilian critical minerals"
     },
@@ -217,7 +217,7 @@
       "name": "Scandium Canada Ltd.",
       "ticker": "SCD CN",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0037,
       "sedol": "BPG5R02",
       "company": "name:scandium canada"
     },
@@ -225,7 +225,7 @@
       "name": "Critica Ltd.",
       "ticker": "CRI AU",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0035,
       "sedol": "BRQPKP2",
       "company": "name:critica"
     },
@@ -233,7 +233,7 @@
       "name": "VHM Ltd.",
       "ticker": "VHM AU",
       "asset_type": "Equity",
-      "weight": 0.0028,
+      "weight": 0.0029,
       "sedol": "BP9P970",
       "company": "name:vhm"
     },
@@ -241,7 +241,7 @@
       "name": "Ramaco Resources Inc.",
       "ticker": "METC",
       "asset_type": "Equity",
-      "weight": 0.0028,
+      "weight": 0.0027,
       "sedol": "BRXYZ91",
       "company": "name:ramaco resources"
     },
@@ -265,7 +265,7 @@
       "name": "Defense Metals Corp.",
       "ticker": "DEFN CN",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0017,
       "sedol": "BG5Q7K3",
       "company": "name:defense metals"
     },
@@ -273,7 +273,7 @@
       "name": "Leading Edge Materials Corp.",
       "ticker": "LEM CN",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "sedol": "BYMHHV6",
       "company": "name:leading edge materials"
     },
@@ -337,7 +337,7 @@
       "name": "Cash Equivalent",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0039,
+      "weight": 0.0036,
       "company": null
     }
   ]

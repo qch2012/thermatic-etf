@@ -1,7 +1,7 @@
 {
   "ticker": "JEDI",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:38.754053+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-21T03:28:46.427172+00:00",
   "stale": false,
   "source": "https://www.defianceetfs.com/jedi-full-holdings/",
   "holdings": [
@@ -9,14 +9,14 @@
       "name": "Shield Ai Ii -ic Llc",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0818,
+      "weight": 0.0889,
       "company": null
     },
     {
       "name": "Ondas Inc",
       "ticker": "ONDS",
       "asset_type": "Equity",
-      "weight": 0.0773,
+      "weight": 0.0747,
       "cusip": "68236H204",
       "company": "cusip:68236H204"
     },
@@ -24,7 +24,7 @@
       "name": "Redwire Corp",
       "ticker": "RDW",
       "asset_type": "Equity",
-      "weight": 0.0723,
+      "weight": 0.0683,
       "cusip": "75776W103",
       "company": "cusip:75776W103"
     },
@@ -32,7 +32,7 @@
       "name": "Intuitive Machines Inc",
       "ticker": "LUNR",
       "asset_type": "Equity",
-      "weight": 0.0571,
+      "weight": 0.0558,
       "cusip": "46125A100",
       "company": "cusip:46125A100"
     },
@@ -40,7 +40,7 @@
       "name": "Blacksky Technology Inc",
       "ticker": "BKSY",
       "asset_type": "Equity",
-      "weight": 0.0458,
+      "weight": 0.0434,
       "cusip": "09263B207",
       "company": "cusip:09263B207"
     },
@@ -48,7 +48,7 @@
       "name": "Rocket Lab Corp",
       "ticker": "RKLB",
       "asset_type": "Equity",
-      "weight": 0.0428,
+      "weight": 0.0415,
       "cusip": "773121108",
       "company": "cusip:773121108"
     },
@@ -56,7 +56,7 @@
       "name": "Unusual Machines Inc /us",
       "ticker": "UMAC",
       "asset_type": "Equity",
-      "weight": 0.0427,
+      "weight": 0.0395,
       "cusip": "91532F102",
       "company": "cusip:91532F102"
     },
@@ -64,7 +64,7 @@
       "name": "C3.ai Inc",
       "ticker": "AI",
       "asset_type": "Equity",
-      "weight": 0.036,
+      "weight": 0.0356,
       "cusip": "12468P104",
       "company": "cusip:12468P104"
     },
@@ -72,31 +72,39 @@
       "name": "Frequency Electronics Inc",
       "ticker": "FEIM",
       "asset_type": "Equity",
-      "weight": 0.0317,
+      "weight": 0.031,
       "cusip": "358010106",
       "company": "cusip:358010106"
-    },
-    {
-      "name": "Planet Labs Pbc",
-      "ticker": "PL",
-      "asset_type": "Equity",
-      "weight": 0.0314,
-      "cusip": "72703X106",
-      "company": "cusip:72703X106"
     },
     {
       "name": "Joby Aviation Inc",
       "ticker": "JOBY",
       "asset_type": "Equity",
-      "weight": 0.0311,
+      "weight": 0.031,
       "cusip": "G65163100",
       "company": "cusip:G65163100"
+    },
+    {
+      "name": "Planet Labs Pbc",
+      "ticker": "PL",
+      "asset_type": "Equity",
+      "weight": 0.0309,
+      "cusip": "72703X106",
+      "company": "cusip:72703X106"
+    },
+    {
+      "name": "Vertical Aerospace Ltd",
+      "ticker": "EVTL",
+      "asset_type": "Equity",
+      "weight": 0.0297,
+      "cusip": "G9471C206",
+      "company": "cusip:G9471C206"
     },
     {
       "name": "Ast Spacemobile Inc",
       "ticker": "ASTS",
       "asset_type": "Equity",
-      "weight": 0.0293,
+      "weight": 0.029,
       "cusip": "00217D100",
       "company": "cusip:00217D100"
     },
@@ -104,23 +112,15 @@
       "name": "Archer Aviation Inc",
       "ticker": "ACHR",
       "asset_type": "Equity",
-      "weight": 0.0288,
+      "weight": 0.0285,
       "cusip": "03945R102",
       "company": "cusip:03945R102"
-    },
-    {
-      "name": "Vertical Aerospace Ltd",
-      "ticker": "EVTL",
-      "asset_type": "Equity",
-      "weight": 0.0286,
-      "cusip": "G9471C206",
-      "company": "cusip:G9471C206"
     },
     {
       "name": "Aerovironment Inc",
       "ticker": "AVAV",
       "asset_type": "Equity",
-      "weight": 0.0262,
+      "weight": 0.0258,
       "cusip": "008073108",
       "company": "cusip:008073108"
     },
@@ -128,7 +128,7 @@
       "name": "Spire Global Inc",
       "ticker": "SPIR",
       "asset_type": "Equity",
-      "weight": 0.0229,
+      "weight": 0.0231,
       "cusip": "848560306",
       "company": "cusip:848560306"
     },
@@ -136,7 +136,7 @@
       "name": "Iridium Communications Inc",
       "ticker": "IRDM",
       "asset_type": "Equity",
-      "weight": 0.0203,
+      "weight": 0.0213,
       "cusip": "46269C102",
       "company": "cusip:46269C102"
     },
@@ -144,7 +144,7 @@
       "name": "Red Cat Holdings Inc",
       "ticker": "RCAT",
       "asset_type": "Equity",
-      "weight": 0.0185,
+      "weight": 0.0186,
       "cusip": "75644T100",
       "company": "cusip:75644T100"
     },
@@ -152,23 +152,15 @@
       "name": "Kratos Defense & Security Solutions Inc",
       "ticker": "KTOS",
       "asset_type": "Equity",
-      "weight": 0.0175,
+      "weight": 0.0173,
       "cusip": "50077B207",
       "company": "cusip:50077B207"
-    },
-    {
-      "name": "Palladyne Ai Corp",
-      "ticker": "PDYN",
-      "asset_type": "Equity",
-      "weight": 0.0168,
-      "cusip": "80359A205",
-      "company": "cusip:80359A205"
     },
     {
       "name": "Parsons Corp",
       "ticker": "PSN",
       "asset_type": "Equity",
-      "weight": 0.0162,
+      "weight": 0.017,
       "cusip": "70202L102",
       "company": "cusip:70202L102"
     },
@@ -176,47 +168,55 @@
       "name": "Mercury Systems Inc",
       "ticker": "MRCY",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0163,
       "cusip": "589378108",
       "company": "cusip:589378108"
     },
     {
-      "name": "Palantir Technologies Inc",
-      "ticker": "PLTR",
+      "name": "Palladyne Ai Corp",
+      "ticker": "PDYN",
       "asset_type": "Equity",
-      "weight": 0.0146,
-      "cusip": "69608A108",
-      "company": "cusip:69608A108"
+      "weight": 0.016,
+      "cusip": "80359A205",
+      "company": "cusip:80359A205"
     },
     {
       "name": "Science Applications International Corp",
       "ticker": "SAIC",
       "asset_type": "Equity",
-      "weight": 0.0144,
+      "weight": 0.0156,
       "cusip": "808625107",
       "company": "cusip:808625107"
     },
     {
-      "name": "Space Exploration Technologies Corp",
-      "ticker": "SPCX",
+      "name": "Palantir Technologies Inc",
+      "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0142,
-      "cusip": "84615Q103",
-      "company": "cusip:84615Q103"
+      "weight": 0.0148,
+      "cusip": "69608A108",
+      "company": "cusip:69608A108"
     },
     {
       "name": "Telos Corp",
       "ticker": "TLS",
       "asset_type": "Equity",
-      "weight": 0.0138,
+      "weight": 0.0145,
       "cusip": "87969B101",
       "company": "cusip:87969B101"
+    },
+    {
+      "name": "Space Exploration Technologies Corp",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.0143,
+      "cusip": "84615Q103",
+      "company": "cusip:84615Q103"
     },
     {
       "name": "Caci International Inc",
       "ticker": "CACI",
       "asset_type": "Equity",
-      "weight": 0.0123,
+      "weight": 0.013,
       "cusip": "127190304",
       "company": "cusip:127190304"
     },
@@ -224,23 +224,15 @@
       "name": "Leidos Holdings Inc",
       "ticker": "LDOS",
       "asset_type": "Equity",
-      "weight": 0.0121,
+      "weight": 0.0129,
       "cusip": "525327102",
       "company": "cusip:525327102"
-    },
-    {
-      "name": "Airo Group Holdings Inc",
-      "ticker": "AIRO",
-      "asset_type": "Equity",
-      "weight": 0.0106,
-      "cusip": "009422106",
-      "company": "cusip:009422106"
     },
     {
       "name": "L3harris Technologies Inc",
       "ticker": "LHX",
       "asset_type": "Equity",
-      "weight": 0.0105,
+      "weight": 0.0111,
       "cusip": "502431109",
       "company": "cusip:502431109"
     },
@@ -248,79 +240,79 @@
       "name": "Droneshield Ltd",
       "ticker": "DRO AU",
       "asset_type": "Equity",
-      "weight": 0.0097,
+      "weight": 0.0101,
       "sedol": "BYV1JW4",
       "company": "name:droneshield@australia"
+    },
+    {
+      "name": "Airo Group Holdings Inc",
+      "ticker": "AIRO",
+      "asset_type": "Equity",
+      "weight": 0.0098,
+      "cusip": "009422106",
+      "company": "cusip:009422106"
     },
     {
       "name": "Electro Optic Systems Holdings Ltd",
       "ticker": "EOS AU",
       "asset_type": "Equity",
-      "weight": 0.0093,
+      "weight": 0.0096,
       "sedol": "6293990",
       "company": "name:electro optic systems holdin"
-    },
-    {
-      "name": "Swarmer Inc",
-      "ticker": "SWMR",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "cusip": "86989Y109",
-      "company": "cusip:86989Y109"
     },
     {
       "name": "Cohort Plc",
       "ticker": "CHRT LN",
       "asset_type": "Equity",
-      "weight": 0.0077,
+      "weight": 0.0079,
       "sedol": "B0YD2B9",
-      "company": "name:cohort"
+      "company": "name:cohort@united kingdom"
     },
     {
-      "name": "Elbit Systems Ltd",
-      "ticker": "ESLT",
+      "name": "Swarmer Inc",
+      "ticker": "SWMR",
       "asset_type": "Equity",
-      "weight": 0.0071,
-      "cusip": "M3760D101",
-      "company": "cusip:M3760D101"
-    },
-    {
-      "name": "Chemring Group Plc",
-      "ticker": "CHG LN",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "sedol": "B45C9X4",
-      "company": "cusip:163867104"
+      "weight": 0.0077,
+      "cusip": "86989Y109",
+      "company": "cusip:86989Y109"
     },
     {
       "name": "Exail Technologies Sa",
       "ticker": "EXA FP",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0075,
       "sedol": "B06BGH5",
       "company": "cusip:F4606F100"
+    },
+    {
+      "name": "Chemring Group Plc",
+      "ticker": "CHG LN",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "B45C9X4",
+      "company": "cusip:163867104"
+    },
+    {
+      "name": "Elbit Systems Ltd",
+      "ticker": "ESLT",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "cusip": "M3760D101",
+      "company": "cusip:M3760D101"
     },
     {
       "name": "General Dynamics Corp",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0074,
       "cusip": "369550108",
       "company": "cusip:369550108"
-    },
-    {
-      "name": "Qinetiq Group Plc",
-      "ticker": "QQ/ LN",
-      "asset_type": "Equity",
-      "weight": 0.0069,
-      "sedol": "B0WMWD0",
-      "company": "cusip:G7303P106"
     },
     {
       "name": "Rtx Corp",
       "ticker": "RTX",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0074,
       "cusip": "75513E101",
       "company": "cusip:75513E101"
     },
@@ -328,15 +320,23 @@
       "name": "Saab Ab",
       "ticker": "SAABB SS",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0073,
       "sedol": "BPXZH27",
       "company": "cusip:W72838175"
+    },
+    {
+      "name": "Qinetiq Group Plc",
+      "ticker": "QQ/ LN",
+      "asset_type": "Equity",
+      "weight": 0.0072,
+      "sedol": "B0WMWD0",
+      "company": "cusip:G7303P106"
     },
     {
       "name": "Thales Sa",
       "ticker": "HO FP",
       "asset_type": "Equity",
-      "weight": 0.0067,
+      "weight": 0.0071,
       "sedol": "4162791",
       "company": "cusip:883219206"
     },
@@ -344,7 +344,7 @@
       "name": "Hensoldt Ag",
       "ticker": "HAG GR",
       "asset_type": "Equity",
-      "weight": 0.0066,
+      "weight": 0.007,
       "sedol": "BN0SDX8",
       "company": "cusip:42701C107"
     },
@@ -352,7 +352,7 @@
       "name": "Kraken Robotics Inc",
       "ticker": "PNG CN",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.0041,
       "sedol": "BD6NK36",
       "company": "name:kraken robotics@canada"
     },
@@ -360,7 +360,7 @@
       "name": "Elsight Ltd",
       "ticker": "ELS AU",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0032,
       "sedol": "BD36ZB1",
       "company": "name:elsight"
     },
@@ -368,7 +368,7 @@
       "name": "First American Government Obligations Fund 12/01/2031",
       "ticker": "FGXXX",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.0031,
       "cusip": "31846V336",
       "company": "cusip:31846V336"
     },
@@ -376,7 +376,7 @@
       "name": "Cash & Other",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0004,
+      "weight": -0.0005,
       "company": null
     }
   ]

@@ -1,30 +1,32 @@
 {
   "ticker": "DTCR",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:29.152276+00:00",
+  "fetched_at": "2026-11-21T03:28:32.388427+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/dtcr_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "CASH",
+      "name": "SUNEVISION HOLDINGS",
+      "ticker": "1686 HK",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "sedol": "6222217",
+      "company": "name:sunevision holdings"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0001,
+      "weight": 0.0016,
       "company": null
     },
     {
-      "name": "HONG KONG DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "TAIWAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
+      "name": "WHITEFIBER INC",
+      "ticker": "WYFI",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BQTYCT7",
+      "company": "cusip:G96115103"
     },
     {
       "name": "AMERICAN TOWER CORP",
@@ -211,27 +213,25 @@
       "company": "name:vnet group incorporation"
     },
     {
-      "name": "SUNEVISION HOLDINGS",
-      "ticker": "1686 HK",
-      "asset_type": "Equity",
-      "weight": 0.006,
-      "sedol": "6222217",
-      "company": "name:sunevision holdings"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0016,
+      "weight": 0.0001,
       "company": null
     },
     {
-      "name": "WHITEFIBER INC",
-      "ticker": "WYFI",
-      "asset_type": "Equity",
-      "weight": 0.0014,
-      "sedol": "BQTYCT7",
-      "company": "cusip:G96115103"
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "TAIWAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "ROBT",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-20T03:45:48.147064+00:00",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-21T03:28:58.946000+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=ROBT",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Ocado Group Plc",
       "ticker": "OCDO.LN",
       "asset_type": "Equity",
-      "weight": 0.0237,
+      "weight": 0.0235,
       "cusip": "G6718L106",
       "company": "cusip:G6718L106"
     },
@@ -17,15 +17,23 @@
       "name": "Appian Corporation",
       "ticker": "APPN",
       "asset_type": "Equity",
-      "weight": 0.0227,
+      "weight": 0.0219,
       "cusip": "03782L101",
       "company": "cusip:03782L101"
+    },
+    {
+      "name": "SentinelOne, Inc. (Class A)",
+      "ticker": "S",
+      "asset_type": "Equity",
+      "weight": 0.0201,
+      "cusip": "81730H109",
+      "company": "cusip:81730H109"
     },
     {
       "name": "Intuitive Surgical, Inc.",
       "ticker": "ISRG",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.02,
       "cusip": "46120E602",
       "company": "cusip:46120E602"
     },
@@ -33,31 +41,15 @@
       "name": "Meta Platforms, Inc. (Class A)",
       "ticker": "META",
       "asset_type": "Equity",
-      "weight": 0.0194,
+      "weight": 0.0192,
       "cusip": "30303M102",
       "company": "cusip:30303M102"
-    },
-    {
-      "name": "SentinelOne, Inc. (Class A)",
-      "ticker": "S",
-      "asset_type": "Equity",
-      "weight": 0.0191,
-      "cusip": "81730H109",
-      "company": "cusip:81730H109"
-    },
-    {
-      "name": "Tempus AI, Inc. (Class A)",
-      "ticker": "TEM",
-      "asset_type": "Equity",
-      "weight": 0.0182,
-      "cusip": "88023B103",
-      "company": "cusip:88023B103"
     },
     {
       "name": "Cloudflare, Inc. (Class A)",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.0178,
+      "weight": 0.0184,
       "cusip": "18915M107",
       "company": "cusip:18915M107"
     },
@@ -65,23 +57,15 @@
       "name": "Synopsys, Inc.",
       "ticker": "SNPS",
       "asset_type": "Equity",
-      "weight": 0.0178,
+      "weight": 0.0181,
       "cusip": "871607107",
       "company": "cusip:871607107"
-    },
-    {
-      "name": "Illumina, Inc.",
-      "ticker": "ILMN",
-      "asset_type": "Equity",
-      "weight": 0.0177,
-      "cusip": "452327109",
-      "company": "cusip:452327109"
     },
     {
       "name": "Hexagon AB (Class B)",
       "ticker": "HEXAB.SS",
       "asset_type": "Equity",
-      "weight": 0.0176,
+      "weight": 0.0178,
       "cusip": "W4R431112",
       "company": "cusip:W4R431112"
     },
@@ -89,7 +73,7 @@
       "name": "International Business Machines Corporation",
       "ticker": "IBM",
       "asset_type": "Equity",
-      "weight": 0.0176,
+      "weight": 0.0177,
       "cusip": "459200101",
       "company": "cusip:459200101"
     },
@@ -102,10 +86,34 @@
       "company": "cusip:F24571451"
     },
     {
+      "name": "Palo Alto Networks, Inc.",
+      "ticker": "PANW",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "cusip": "697435105",
+      "company": "cusip:697435105"
+    },
+    {
+      "name": "Tempus AI, Inc. (Class A)",
+      "ticker": "TEM",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "cusip": "88023B103",
+      "company": "cusip:88023B103"
+    },
+    {
+      "name": "Illumina, Inc.",
+      "ticker": "ILMN",
+      "asset_type": "Equity",
+      "weight": 0.0173,
+      "cusip": "452327109",
+      "company": "cusip:452327109"
+    },
+    {
       "name": "C3.ai, Inc. (Class A)",
       "ticker": "AI",
       "asset_type": "Equity",
-      "weight": 0.0167,
+      "weight": 0.0171,
       "cusip": "12468P104",
       "company": "cusip:12468P104"
     },
@@ -113,57 +121,49 @@
       "name": "QinetiQ Group Plc",
       "ticker": "QQ/.LN",
       "asset_type": "Equity",
-      "weight": 0.0166,
+      "weight": 0.0168,
       "cusip": "G7303P106",
       "company": "cusip:G7303P106"
-    },
-    {
-      "name": "Rainbow Robotics",
-      "ticker": "277810.KS",
-      "asset_type": "Equity",
-      "weight": 0.0164,
-      "cusip": "Y7S740108",
-      "company": "cusip:Y7S740108"
     },
     {
       "name": "AutoStore Holdings Ltd.",
       "ticker": "AUTO.NO",
       "asset_type": "Equity",
-      "weight": 0.0163,
+      "weight": 0.0167,
       "cusip": "G0670A109",
       "company": "cusip:G0670A109"
+    },
+    {
+      "name": "Rainbow Robotics",
+      "ticker": "277810.KS",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "cusip": "Y7S740108",
+      "company": "cusip:Y7S740108"
     },
     {
       "name": "Cadence Design Systems, Inc.",
       "ticker": "CDNS",
       "asset_type": "Equity",
-      "weight": 0.0163,
+      "weight": 0.0166,
       "cusip": "127387108",
       "company": "cusip:127387108"
-    },
-    {
-      "name": "Palo Alto Networks, Inc.",
-      "ticker": "PANW",
-      "asset_type": "Equity",
-      "weight": 0.016,
-      "cusip": "697435105",
-      "company": "cusip:697435105"
-    },
-    {
-      "name": "Cisco Systems, Inc.",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.0159,
-      "cusip": "17275R102",
-      "company": "cusip:17275R102"
     },
     {
       "name": "Siemens AG",
       "ticker": "SIE.GY",
       "asset_type": "Equity",
-      "weight": 0.0159,
+      "weight": 0.0161,
       "cusip": "D69671218",
       "company": "cusip:D69671218"
+    },
+    {
+      "name": "Cisco Systems, Inc.",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0158,
+      "cusip": "17275R102",
+      "company": "cusip:17275R102"
     },
     {
       "name": "Fanuc Corporation",
@@ -182,6 +182,14 @@
       "company": "cusip:87151X101"
     },
     {
+      "name": "Dynatrace, Inc.",
+      "ticker": "DT",
+      "asset_type": "Equity",
+      "weight": 0.0153,
+      "cusip": "268150109",
+      "company": "cusip:268150109"
+    },
+    {
       "name": "Palantir Technologies Inc. (Class A)",
       "ticker": "PLTR",
       "asset_type": "Equity",
@@ -190,18 +198,10 @@
       "company": "cusip:69608A108"
     },
     {
-      "name": "Dynatrace, Inc.",
-      "ticker": "DT",
-      "asset_type": "Equity",
-      "weight": 0.015,
-      "cusip": "268150109",
-      "company": "cusip:268150109"
-    },
-    {
       "name": "Recursion Pharmaceuticals, Inc. (Class A)",
       "ticker": "RXRX",
       "asset_type": "Equity",
-      "weight": 0.015,
+      "weight": 0.0148,
       "cusip": "75629V104",
       "company": "cusip:75629V104"
     },
@@ -209,17 +209,9 @@
       "name": "NICE Ltd. (ADR)",
       "ticker": "NICE",
       "asset_type": "Equity",
-      "weight": 0.0148,
+      "weight": 0.0147,
       "cusip": "653656108",
       "company": "cusip:653656108"
-    },
-    {
-      "name": "UBTech Robotics Corp Ltd (Class H)",
-      "ticker": "9880.HK",
-      "asset_type": "Equity",
-      "weight": 0.0144,
-      "cusip": "Y901ER107",
-      "company": "cusip:Y901ER107"
     },
     {
       "name": "Pegasystems Inc.",
@@ -230,34 +222,42 @@
       "company": "cusip:705573103"
     },
     {
+      "name": "UBTech Robotics Corp Ltd (Class H)",
+      "ticker": "9880.HK",
+      "asset_type": "Equity",
+      "weight": 0.0141,
+      "cusip": "Y901ER107",
+      "company": "cusip:Y901ER107"
+    },
+    {
       "name": "Alibaba Group Holding Limited (ADR)",
       "ticker": "BABA",
       "asset_type": "Equity",
-      "weight": 0.0134,
+      "weight": 0.0135,
       "cusip": "01609W102",
       "company": "cusip:01609W102"
-    },
-    {
-      "name": "Horizon Robotics, Inc.",
-      "ticker": "9660.HK",
-      "asset_type": "Equity",
-      "weight": 0.0133,
-      "cusip": "G4602S105",
-      "company": "cusip:G4602S105"
     },
     {
       "name": "Salesforce, Inc.",
       "ticker": "CRM",
       "asset_type": "Equity",
-      "weight": 0.0133,
+      "weight": 0.0131,
       "cusip": "79466L302",
       "company": "cusip:79466L302"
+    },
+    {
+      "name": "Horizon Robotics, Inc.",
+      "ticker": "9660.HK",
+      "asset_type": "Equity",
+      "weight": 0.013,
+      "cusip": "G4602S105",
+      "company": "cusip:G4602S105"
     },
     {
       "name": "Baidu, Inc. (ADR)",
       "ticker": "BIDU",
       "asset_type": "Equity",
-      "weight": 0.0131,
+      "weight": 0.0129,
       "cusip": "056752108",
       "company": "cusip:056752108"
     },
@@ -265,15 +265,23 @@
       "name": "AeroVironment, Inc.",
       "ticker": "AVAV",
       "asset_type": "Equity",
-      "weight": 0.0123,
+      "weight": 0.0119,
       "cusip": "008073108",
       "company": "cusip:008073108"
+    },
+    {
+      "name": "ServiceNow, Inc.",
+      "ticker": "NOW",
+      "asset_type": "Equity",
+      "weight": 0.0111,
+      "cusip": "81762P102",
+      "company": "cusip:81762P102"
     },
     {
       "name": "UiPath, Inc. (Class A)",
       "ticker": "PATH",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0111,
       "cusip": "90364P105",
       "company": "cusip:90364P105"
     },
@@ -286,18 +294,10 @@
       "company": "cusip:60741F104"
     },
     {
-      "name": "ServiceNow, Inc.",
-      "ticker": "NOW",
-      "asset_type": "Equity",
-      "weight": 0.011,
-      "cusip": "81762P102",
-      "company": "cusip:81762P102"
-    },
-    {
       "name": "BigBear.ai Holdings, Inc.",
       "ticker": "BBAI",
       "asset_type": "Equity",
-      "weight": 0.0101,
+      "weight": 0.0102,
       "cusip": "08975B109",
       "company": "cusip:08975B109"
     },
@@ -305,31 +305,31 @@
       "name": "Tecan Group AG (Registered)",
       "ticker": "TECN.SW",
       "asset_type": "Equity",
-      "weight": 0.0096,
+      "weight": 0.0101,
       "cusip": "H84774167",
       "company": "cusip:H84774167"
-    },
-    {
-      "name": "Advanced Micro Devices, Inc.",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "cusip": "007903107",
-      "company": "cusip:007903107"
     },
     {
       "name": "NXP Semiconductors N.V.",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.0094,
+      "weight": 0.0096,
       "cusip": "N6596X109",
       "company": "cusip:N6596X109"
+    },
+    {
+      "name": "Advanced Micro Devices, Inc.",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0089,
+      "cusip": "007903107",
+      "company": "cusip:007903107"
     },
     {
       "name": "Amazon.com, Inc.",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0085,
       "cusip": "023135106",
       "company": "cusip:023135106"
     },
@@ -342,6 +342,14 @@
       "company": "cusip:594918104"
     },
     {
+      "name": "QUALCOMM Incorporated",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "cusip": "747525103",
+      "company": "cusip:747525103"
+    },
+    {
       "name": "Broadcom Inc.",
       "ticker": "AVGO",
       "asset_type": "Equity",
@@ -350,20 +358,12 @@
       "company": "cusip:11135F101"
     },
     {
-      "name": "QUALCOMM Incorporated",
-      "ticker": "QCOM",
-      "asset_type": "Equity",
-      "weight": 0.0079,
-      "cusip": "747525103",
-      "company": "cusip:747525103"
-    },
-    {
-      "name": "Rockwell Automation, Inc.",
-      "ticker": "ROK",
+      "name": "Valmet Oyj",
+      "ticker": "VALMT.FH",
       "asset_type": "Equity",
       "weight": 0.0078,
-      "cusip": "773903109",
-      "company": "cusip:773903109"
+      "cusip": "X96478114",
+      "company": "cusip:X96478114"
     },
     {
       "name": "ATS Corp.",
@@ -374,20 +374,28 @@
       "company": "cusip:00217Y104"
     },
     {
-      "name": "Valmet Oyj",
-      "ticker": "VALMT.FH",
+      "name": "Rockwell Automation, Inc.",
+      "ticker": "ROK",
       "asset_type": "Equity",
       "weight": 0.0077,
-      "cusip": "X96478114",
-      "company": "cusip:X96478114"
+      "cusip": "773903109",
+      "company": "cusip:773903109"
     },
     {
       "name": "Keyence Corporation",
       "ticker": "6861.JP",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0074,
       "cusip": "J32491102",
       "company": "cusip:J32491102"
+    },
+    {
+      "name": "Ambarella, Inc.",
+      "ticker": "AMBA",
+      "asset_type": "Equity",
+      "weight": 0.0073,
+      "cusip": "G037AX101",
+      "company": "cusip:G037AX101"
     },
     {
       "name": "Taiwan Semiconductor Manufacturing Company Limited (ADR)",
@@ -398,18 +406,10 @@
       "company": "cusip:874039100"
     },
     {
-      "name": "Alphabet Inc. (Class A)",
-      "ticker": "GOOGL",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "cusip": "02079K305",
-      "company": "cusip:02079K107"
-    },
-    {
       "name": "Yokogawa Electric Corporation",
       "ticker": "6841.JP",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0071,
       "cusip": "J97272124",
       "company": "cusip:J97272124"
     },
@@ -420,6 +420,14 @@
       "weight": 0.0069,
       "cusip": "H0010V101",
       "company": "cusip:H0010V101"
+    },
+    {
+      "name": "Alphabet Inc. (Class A)",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "cusip": "02079K305",
+      "company": "cusip:02079K107"
     },
     {
       "name": "KLA Corporation",
@@ -433,7 +441,7 @@
       "name": "Cognex Corporation",
       "ticker": "CGNX",
       "asset_type": "Equity",
-      "weight": 0.0068,
+      "weight": 0.0067,
       "cusip": "192422103",
       "company": "cusip:192422103"
     },
@@ -446,38 +454,6 @@
       "company": "cusip:743713109"
     },
     {
-      "name": "Ambarella, Inc.",
-      "ticker": "AMBA",
-      "asset_type": "Equity",
-      "weight": 0.0066,
-      "cusip": "G037AX101",
-      "company": "cusip:G037AX101"
-    },
-    {
-      "name": "Renesas Electronics Corporation",
-      "ticker": "6723.JP",
-      "asset_type": "Equity",
-      "weight": 0.0065,
-      "cusip": "J4881V107",
-      "company": "cusip:J4881V107"
-    },
-    {
-      "name": "Daifuku Co., Ltd.",
-      "ticker": "6383.JP",
-      "asset_type": "Equity",
-      "weight": 0.0064,
-      "cusip": "J08988107",
-      "company": "cusip:J08988107"
-    },
-    {
-      "name": "Samsung Electronics Co., Ltd.",
-      "ticker": "005930.KS",
-      "asset_type": "Equity",
-      "weight": 0.0064,
-      "cusip": "Y74718100",
-      "company": "cusip:Y74718100"
-    },
-    {
       "name": "Schneider Electric SE",
       "ticker": "SU.FP",
       "asset_type": "Equity",
@@ -486,20 +462,20 @@
       "company": "cusip:F86921107"
     },
     {
-      "name": "Minimax Group Inc",
-      "ticker": "100.HK",
+      "name": "Daifuku Co., Ltd.",
+      "ticker": "6383.JP",
       "asset_type": "Equity",
       "weight": 0.0063,
-      "cusip": "G6181S109",
-      "company": "cusip:G6181S109"
+      "cusip": "J08988107",
+      "company": "cusip:J08988107"
     },
     {
-      "name": "Mirle Automation Corporation",
-      "ticker": "2464.TT",
+      "name": "Samsung Electronics Co., Ltd.",
+      "ticker": "005930.KS",
       "asset_type": "Equity",
       "weight": 0.0063,
-      "cusip": "Y6076J107",
-      "company": "cusip:Y6076J107"
+      "cusip": "Y74718100",
+      "company": "cusip:Y74718100"
     },
     {
       "name": "Micron Technology, Inc.",
@@ -510,26 +486,42 @@
       "company": "cusip:595112103"
     },
     {
-      "name": "Yaskawa Electric Corporation",
-      "ticker": "6506.JP",
+      "name": "Renesas Electronics Corporation",
+      "ticker": "6723.JP",
       "asset_type": "Equity",
       "weight": 0.0062,
-      "cusip": "J9690T102",
-      "company": "cusip:J9690T102"
+      "cusip": "J4881V107",
+      "company": "cusip:J4881V107"
     },
     {
       "name": "PTC Inc.",
       "ticker": "PTC",
       "asset_type": "Equity",
-      "weight": 0.006,
+      "weight": 0.0061,
       "cusip": "69370C100",
       "company": "cusip:69370C100"
+    },
+    {
+      "name": "Yaskawa Electric Corporation",
+      "ticker": "6506.JP",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "cusip": "J9690T102",
+      "company": "cusip:J9690T102"
+    },
+    {
+      "name": "Mirle Automation Corporation",
+      "ticker": "2464.TT",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "cusip": "Y6076J107",
+      "company": "cusip:Y6076J107"
     },
     {
       "name": "Lam Research Corporation",
       "ticker": "LRCX",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "cusip": "512807306",
       "company": "cusip:512807306"
     },
@@ -537,7 +529,7 @@
       "name": "OMRON Corporation",
       "ticker": "6645.JP",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "cusip": "J61374120",
       "company": "cusip:J61374120"
     },
@@ -545,17 +537,17 @@
       "name": "SK Hynix Inc.",
       "ticker": "000660.KS",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "cusip": "Y8085F100",
       "company": "cusip:78392B206"
     },
     {
-      "name": "Marvell Technology, Inc.",
-      "ticker": "MRVL",
+      "name": "Minimax Group Inc",
+      "ticker": "100.HK",
       "asset_type": "Equity",
-      "weight": 0.0058,
-      "cusip": "573874104",
-      "company": "cusip:573874104"
+      "weight": 0.0057,
+      "cusip": "G6181S109",
+      "company": "cusip:G6181S109"
     },
     {
       "name": "NVIDIA Corporation",
@@ -564,6 +556,22 @@
       "weight": 0.0057,
       "cusip": "67066G104",
       "company": "cusip:67066G104"
+    },
+    {
+      "name": "Marvell Technology, Inc.",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "cusip": "573874104",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "NIDEC CORP.",
+      "ticker": "6594.JP",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "cusip": "J52968104",
+      "company": "cusip:J52968104"
     },
     {
       "name": "Teradyne, Inc.",
@@ -582,26 +590,10 @@
       "company": "cusip:36262G101"
     },
     {
-      "name": "NIDEC CORP.",
-      "ticker": "6594.JP",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "cusip": "J52968104",
-      "company": "cusip:J52968104"
-    },
-    {
-      "name": "Z AI Co., Ltd. (Class H)",
-      "ticker": "2513.HK",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "cusip": "Y615F6108",
-      "company": "cusip:Y615F6108"
-    },
-    {
       "name": "Apple Inc.",
       "ticker": "AAPL",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0054,
       "cusip": "037833100",
       "company": "cusip:037833100"
     },
@@ -609,25 +601,33 @@
       "name": "Medtronic Plc",
       "ticker": "MDT",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0054,
       "cusip": "G5960L103",
       "company": "cusip:G5960L103"
-    },
-    {
-      "name": "Emerson Electric Co.",
-      "ticker": "EMR",
-      "asset_type": "Equity",
-      "weight": 0.0051,
-      "cusip": "291011104",
-      "company": "cusip:291011104"
     },
     {
       "name": "Sony Group Corp.",
       "ticker": "6758.JP",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0052,
       "cusip": "J76379106",
       "company": "cusip:835699307"
+    },
+    {
+      "name": "Z AI Co., Ltd. (Class H)",
+      "ticker": "2513.HK",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "cusip": "Y615F6108",
+      "company": "cusip:Y615F6108"
+    },
+    {
+      "name": "Emerson Electric Co.",
+      "ticker": "EMR",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "cusip": "291011104",
+      "company": "cusip:291011104"
     },
     {
       "name": "Tesla, Inc.",
@@ -646,6 +646,14 @@
       "company": "cusip:478160104"
     },
     {
+      "name": "Northrop Grumman Corporation",
+      "ticker": "NOC",
+      "asset_type": "Equity",
+      "weight": 0.0049,
+      "cusip": "666807102",
+      "company": "cusip:666807102"
+    },
+    {
       "name": "DENSO Corporation",
       "ticker": "6902.JP",
       "asset_type": "Equity",
@@ -654,44 +662,12 @@
       "company": "cusip:J12075107"
     },
     {
-      "name": "Northrop Grumman Corporation",
-      "ticker": "NOC",
-      "asset_type": "Equity",
-      "weight": 0.0048,
-      "cusip": "666807102",
-      "company": "cusip:666807102"
-    },
-    {
       "name": "Arista Networks, Inc.",
       "ticker": "ANET",
       "asset_type": "Equity",
       "weight": 0.0047,
       "cusip": "040413205",
       "company": "cusip:040413205"
-    },
-    {
-      "name": "Autodesk, Inc.",
-      "ticker": "ADSK",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "cusip": "052769106",
-      "company": "cusip:052769106"
-    },
-    {
-      "name": "Deere & Company",
-      "ticker": "DE",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "cusip": "244199105",
-      "company": "cusip:244199105"
-    },
-    {
-      "name": "Omnicell, Inc.",
-      "ticker": "OMCL",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "cusip": "68213N109",
-      "company": "cusip:68213N109"
     },
     {
       "name": "Space Exploration Technologies Corp. (Class A)",
@@ -710,36 +686,60 @@
       "company": "cusip:863667101"
     },
     {
-      "name": "Delta Electronics Inc.",
-      "ticker": "2308.TT",
+      "name": "Autodesk, Inc.",
+      "ticker": "ADSK",
       "asset_type": "Equity",
       "weight": 0.0046,
-      "cusip": "Y20263102",
-      "company": "cusip:Y20263102"
+      "cusip": "052769106",
+      "company": "cusip:052769106"
+    },
+    {
+      "name": "Deere & Company",
+      "ticker": "DE",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "cusip": "244199105",
+      "company": "cusip:244199105"
     },
     {
       "name": "Magna International Inc.",
       "ticker": "MGA",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0046,
       "cusip": "559222401",
       "company": "cusip:559222401"
     },
     {
-      "name": "Cognizant Technology Solutions Corporation",
-      "ticker": "CTSH",
+      "name": "Omnicell, Inc.",
+      "ticker": "OMCL",
       "asset_type": "Equity",
-      "weight": 0.0043,
-      "cusip": "192446102",
-      "company": "cusip:192446102"
+      "weight": 0.0046,
+      "cusip": "68213N109",
+      "company": "cusip:68213N109"
+    },
+    {
+      "name": "Delta Electronics Inc.",
+      "ticker": "2308.TT",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "cusip": "Y20263102",
+      "company": "cusip:Y20263102"
     },
     {
       "name": "JD.com, Inc. (ADR)",
       "ticker": "JD",
       "asset_type": "Equity",
-      "weight": 0.0042,
+      "weight": 0.0044,
       "cusip": "47215P106",
       "company": "cusip:47215P106"
+    },
+    {
+      "name": "Cognizant Technology Solutions Corporation",
+      "ticker": "CTSH",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "cusip": "192446102",
+      "company": "cusip:192446102"
     },
     {
       "name": "Kakao Corp.",
@@ -748,6 +748,14 @@
       "weight": 0.0042,
       "cusip": "Y4519H119",
       "company": "cusip:Y4519H119"
+    },
+    {
+      "name": "Akamai Technologies, Inc.",
+      "ticker": "AKAM",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "cusip": "00971T101",
+      "company": "cusip:00971T101"
     },
     {
       "name": "Aptiv Plc",
@@ -761,33 +769,17 @@
       "name": "Seiko Epson Corporation",
       "ticker": "6724.JP",
       "asset_type": "Equity",
-      "weight": 0.0041,
+      "weight": 0.004,
       "cusip": "J7030F105",
       "company": "cusip:J7030F105"
     },
     {
-      "name": "Akamai Technologies, Inc.",
-      "ticker": "AKAM",
+      "name": "3D Systems Corporation",
+      "ticker": "DDD",
       "asset_type": "Equity",
-      "weight": 0.004,
-      "cusip": "00971T101",
-      "company": "cusip:00971T101"
-    },
-    {
-      "name": "Elastic N.V.",
-      "ticker": "ESTC",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "cusip": "N14506104",
-      "company": "cusip:N14506104"
-    },
-    {
-      "name": "Snowflake Inc. (Class A)",
-      "ticker": "SNOW",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "cusip": "833445109",
-      "company": "cusip:833445109"
+      "weight": 0.0039,
+      "cusip": "88554D205",
+      "company": "cusip:88554D205"
     },
     {
       "name": "Mitsubishi Electric Corporation",
@@ -798,20 +790,20 @@
       "company": "cusip:J43873116"
     },
     {
-      "name": "Tencent Holdings Limited",
-      "ticker": "700.HK",
+      "name": "Snowflake Inc. (Class A)",
+      "ticker": "SNOW",
       "asset_type": "Equity",
       "weight": 0.0039,
-      "cusip": "G87572163",
-      "company": "cusip:G87572163"
+      "cusip": "833445109",
+      "company": "cusip:833445109"
     },
     {
-      "name": "NAVER Corporation",
-      "ticker": "035420.KS",
+      "name": "Elastic N.V.",
+      "ticker": "ESTC",
       "asset_type": "Equity",
       "weight": 0.0038,
-      "cusip": "Y62579100",
-      "company": "cusip:Y62579100"
+      "cusip": "N14506104",
+      "company": "cusip:N14506104"
     },
     {
       "name": "Adobe Incorporated",
@@ -822,18 +814,26 @@
       "company": "cusip:00724F101"
     },
     {
-      "name": "3D Systems Corporation",
-      "ticker": "DDD",
+      "name": "NAVER Corporation",
+      "ticker": "035420.KS",
       "asset_type": "Equity",
-      "weight": 0.0035,
-      "cusip": "88554D205",
-      "company": "cusip:88554D205"
+      "weight": 0.0037,
+      "cusip": "Y62579100",
+      "company": "cusip:Y62579100"
+    },
+    {
+      "name": "Tencent Holdings Limited",
+      "ticker": "700.HK",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "cusip": "G87572163",
+      "company": "cusip:G87572163"
     },
     {
       "name": "BlackLine, Inc.",
       "ticker": "BL",
       "asset_type": "Equity",
-      "weight": 0.0035,
+      "weight": 0.0036,
       "cusip": "09239B109",
       "company": "cusip:09239B109"
     },
@@ -854,20 +854,20 @@
       "company": "cusip:F96221340"
     },
     {
-      "name": "Hyundai Motor Company",
-      "ticker": "005380.KS",
-      "asset_type": "Equity",
-      "weight": 0.0032,
-      "cusip": "Y38472109",
-      "company": "cusip:Y38472109"
-    },
-    {
       "name": "MongoDB, Inc.",
       "ticker": "MDB",
       "asset_type": "Equity",
       "weight": 0.0032,
       "cusip": "60937P106",
       "company": "cusip:60937P106"
+    },
+    {
+      "name": "Hyundai Motor Company",
+      "ticker": "005380.KS",
+      "asset_type": "Equity",
+      "weight": 0.0031,
+      "cusip": "Y38472109",
+      "company": "cusip:Y38472109"
     },
     {
       "name": "Kawasaki Heavy Industries, Ltd.",
@@ -889,7 +889,7 @@
       "name": "Intel Corporation",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "cusip": "458140100",
       "company": "cusip:458140100"
     },

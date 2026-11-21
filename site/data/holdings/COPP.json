@@ -1,7 +1,7 @@
 {
   "ticker": "COPP",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-20T03:45:25.148519+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-21T03:28:27.147404+00:00",
   "stale": false,
   "source": "https://sprottetfs.com/copp-sprott-copper-miners-etf",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Freeport-McMoRan Inc.",
       "ticker": "FCX",
       "asset_type": "Equity",
-      "weight": 0.2342,
+      "weight": 0.2316,
       "sedol": "2352118",
       "company": "name:freeport mcmoran@united states"
     },
@@ -17,7 +17,7 @@
       "name": "Teck Resources Ltd.",
       "ticker": "TECK",
       "asset_type": "Equity",
-      "weight": 0.1139,
+      "weight": 0.1131,
       "sedol": "2124533",
       "company": "name:teck resources"
     },
@@ -25,7 +25,7 @@
       "name": "Antofagasta PLC",
       "ticker": "ANTO LN",
       "asset_type": "Equity",
-      "weight": 0.0847,
+      "weight": 0.0852,
       "sedol": "0045614",
       "company": "name:antofagasta@united kingdom"
     },
@@ -33,7 +33,7 @@
       "name": "Sprott Physical Copper Trust",
       "ticker": "COP/U",
       "asset_type": "Equity",
-      "weight": 0.0603,
+      "weight": 0.0624,
       "sedol": "BRF1V03",
       "company": "name:sprott physical copper trust"
     },
@@ -46,20 +46,20 @@
       "company": "name:southern copper@peru"
     },
     {
-      "name": "Hudbay Minerals Inc.",
-      "ticker": "HBM",
-      "asset_type": "Equity",
-      "weight": 0.0472,
-      "sedol": "B05BQ98",
-      "company": "name:hudbay minerals@canada"
-    },
-    {
       "name": "KGHM Polska Miedz SA",
       "ticker": "KGH PW",
       "asset_type": "Equity",
-      "weight": 0.0472,
+      "weight": 0.0468,
       "sedol": "5263251",
       "company": "name:kghm polska miedz@poland"
+    },
+    {
+      "name": "Hudbay Minerals Inc.",
+      "ticker": "HBM",
+      "asset_type": "Equity",
+      "weight": 0.0467,
+      "sedol": "B05BQ98",
+      "company": "name:hudbay minerals@canada"
     },
     {
       "name": "Lundin Mining Corp.",
@@ -73,7 +73,7 @@
       "name": "First Quantum Minerals Ltd.",
       "ticker": "FM CN",
       "asset_type": "Equity",
-      "weight": 0.0417,
+      "weight": 0.0411,
       "sedol": "2347608",
       "company": "name:first quantum minerals@canada"
     },
@@ -81,7 +81,7 @@
       "name": "Sandfire Resources Ltd.",
       "ticker": "SFR AU",
       "asset_type": "Equity",
-      "weight": 0.0285,
+      "weight": 0.0288,
       "sedol": "6739739",
       "company": "name:sandfire resources@australia"
     },
@@ -89,7 +89,7 @@
       "name": "Capstone Copper Corp.",
       "ticker": "CS CN",
       "asset_type": "Equity",
-      "weight": 0.0266,
+      "weight": 0.026,
       "sedol": "BMY5XY9",
       "company": "name:capstone copper@canada"
     },
@@ -97,7 +97,7 @@
       "name": "MMG Ltd.",
       "ticker": "1208 HK",
       "asset_type": "Equity",
-      "weight": 0.0225,
+      "weight": 0.0231,
       "sedol": "6728793",
       "company": "name:mmg@china"
     },
@@ -105,7 +105,7 @@
       "name": "Amman Mineral Internasional PT",
       "ticker": "AMMN IJ",
       "asset_type": "Equity",
-      "weight": 0.0213,
+      "weight": 0.0225,
       "sedol": "BRK2Z98",
       "company": "name:amman mineral internasional pt"
     },
@@ -113,7 +113,7 @@
       "name": "Ivanhoe Mines Ltd.",
       "ticker": "IVN CN",
       "asset_type": "Equity",
-      "weight": 0.0191,
+      "weight": 0.0195,
       "sedol": "BD73C40",
       "company": "name:ivanhoe mines@canada"
     },
@@ -121,7 +121,7 @@
       "name": "ERO Copper Corp.",
       "ticker": "ERO",
       "asset_type": "Equity",
-      "weight": 0.0145,
+      "weight": 0.0141,
       "sedol": "BD6D4V2",
       "company": "name:ero copper@canada"
     },
@@ -129,7 +129,7 @@
       "name": "iShares MSCI India ETF",
       "ticker": "INDA",
       "asset_type": "Equity",
-      "weight": 0.0123,
+      "weight": 0.0132,
       "sedol": "B6XGR72",
       "company": "name:ishares msci india etf"
     },
@@ -137,7 +137,7 @@
       "name": "Trekor Metals Ltd.",
       "ticker": "TGB",
       "asset_type": "Equity",
-      "weight": 0.0122,
+      "weight": 0.0123,
       "sedol": "BRSCTS7",
       "company": "name:trekor metals@canada"
     },
@@ -145,7 +145,7 @@
       "name": "Minsur SA",
       "ticker": "MINSURI1",
       "asset_type": "Equity",
-      "weight": 0.0119,
+      "weight": 0.0118,
       "sedol": "2595797",
       "company": "name:minsur"
     },
@@ -169,7 +169,7 @@
       "name": "Sociedad Minera Cerro Verde SAA",
       "ticker": "CVERDEC1",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0073,
       "sedol": "2677929",
       "company": "name:sociedad minera cerro verde saa"
     },
@@ -177,7 +177,7 @@
       "name": "Sociedad Punta del Cobre SA",
       "ticker": "PUCOBREC",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0044,
       "sedol": "BGPFS63",
       "company": "name:sociedad punta del cobre"
     },
@@ -185,7 +185,7 @@
       "name": "Ivanhoe Electric Inc. / US",
       "ticker": "IE",
       "asset_type": "Equity",
-      "weight": 0.0042,
+      "weight": 0.0041,
       "sedol": "BPF0KH6",
       "company": "name:ivanhoe electric inc us"
     },
@@ -193,7 +193,7 @@
       "name": "Amerigo Resources Ltd.",
       "ticker": "ARG CN",
       "asset_type": "Equity",
-      "weight": 0.0041,
+      "weight": 0.004,
       "sedol": "2855822",
       "company": "name:amerigo resources@canada"
     },
@@ -209,7 +209,7 @@
       "name": "FireFly Metals Ltd.",
       "ticker": "FFM AU",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0037,
       "sedol": "BPDXXB2",
       "company": "name:firefly metals@australia"
     },
@@ -217,7 +217,7 @@
       "name": "Osisko Metals Inc.",
       "ticker": "OM CN",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0034,
       "sedol": "BYW9WY0",
       "company": "name:osisko metals@canada"
     },
@@ -241,7 +241,7 @@
       "name": "Marimaca Copper Corp.",
       "ticker": "MARI CN",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.0022,
       "sedol": "BKSCZX5",
       "company": "name:marimaca copper@canada"
     },
@@ -252,6 +252,14 @@
       "weight": 0.002,
       "sedol": "B1FHVG5",
       "company": "name:philex mining"
+    },
+    {
+      "name": "Regulus Resources Inc.",
+      "ticker": "REG CN",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "sedol": "BRGW934",
+      "company": "name:regulus resources"
     },
     {
       "name": "Atex Resources Inc.",
@@ -270,14 +278,6 @@
       "company": "name:aeris resources@australia"
     },
     {
-      "name": "Regulus Resources Inc.",
-      "ticker": "REG CN",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "sedol": "BRGW934",
-      "company": "name:regulus resources"
-    },
-    {
       "name": "Anglo Asian Mining PLC",
       "ticker": "AAZ LN",
       "asset_type": "Equity",
@@ -294,20 +294,12 @@
       "company": "name:atlas consolidated mining development"
     },
     {
-      "name": "Trilogy Metals Inc.",
-      "ticker": "TMQ",
-      "asset_type": "Equity",
-      "weight": 0.0018,
-      "sedol": "BD89HT7",
-      "company": "name:trilogy metals"
-    },
-    {
-      "name": "Koryx Copper SA",
-      "ticker": "KRY CN",
+      "name": "Central Asia Metals PLC",
+      "ticker": "CAML LN",
       "asset_type": "Equity",
       "weight": 0.0017,
-      "sedol": "BV4K983",
-      "company": "name:koryx copper"
+      "sedol": "B67KBV2",
+      "company": "name:central asia metals@united kingdom"
     },
     {
       "name": "Imperial Metals Corp.",
@@ -318,12 +310,20 @@
       "company": "name:imperial metals@canada"
     },
     {
-      "name": "Central Asia Metals PLC",
-      "ticker": "CAML LN",
+      "name": "Trilogy Metals Inc.",
+      "ticker": "TMQ",
       "asset_type": "Equity",
-      "weight": 0.0017,
-      "sedol": "B67KBV2",
-      "company": "name:central asia metals@united kingdom"
+      "weight": 0.0016,
+      "sedol": "BD89HT7",
+      "company": "name:trilogy metals"
+    },
+    {
+      "name": "Koryx Copper SA",
+      "ticker": "KRY CN",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "sedol": "BV4K983",
+      "company": "name:koryx copper"
     },
     {
       "name": "AIC Mines Ltd.",
@@ -332,6 +332,14 @@
       "weight": 0.0015,
       "sedol": "BK9PVF7",
       "company": "name:aic mines@australia"
+    },
+    {
+      "name": "PECOY COPPER Corp.",
+      "ticker": "PCU CN",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "sedol": "BTWQNW1",
+      "company": "name:pecoy copper"
     },
     {
       "name": "Blue Moon Metals Inc.",
@@ -345,7 +353,7 @@
       "name": "Aldebaran Resources Inc.",
       "ticker": "ALDE CN",
       "asset_type": "Equity",
-      "weight": 0.0015,
+      "weight": 0.0014,
       "sedol": "BVPW762",
       "company": "name:aldebaran resources"
     },
@@ -358,28 +366,12 @@
       "company": "name:element 29 resources"
     },
     {
-      "name": "PECOY COPPER Corp.",
-      "ticker": "PCU CN",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "sedol": "BTWQNW1",
-      "company": "name:pecoy copper"
-    },
-    {
       "name": "Entree Resources Ltd.",
       "ticker": "ETG CN",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "sedol": "BDT74S8",
       "company": "name:entree resources"
-    },
-    {
-      "name": "Panoro Minerals Ltd.",
-      "ticker": "PML CN",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "2001551",
-      "company": "name:panoro minerals"
     },
     {
       "name": "Hercules Metals Corp.",
@@ -388,6 +380,14 @@
       "weight": 0.0011,
       "sedol": "BR2NNV7",
       "company": "name:hercules metals"
+    },
+    {
+      "name": "Panoro Minerals Ltd.",
+      "ticker": "PML CN",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "sedol": "2001551",
+      "company": "name:panoro minerals"
     },
     {
       "name": "Hot Chili Ltd.",
@@ -422,14 +422,6 @@
       "company": "name:cobre@australia"
     },
     {
-      "name": "Kantra Copper Ltd.",
-      "ticker": "KAN AU",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BQZCG48",
-      "company": "name:kantra copper"
-    },
-    {
       "name": "KGL Resources Ltd.",
       "ticker": "KGL AU",
       "asset_type": "Equity",
@@ -438,28 +430,36 @@
       "company": "name:kgl resources"
     },
     {
-      "name": "Los Andes Copper Ltd.",
-      "ticker": "LA CN",
+      "name": "Kantra Copper Ltd.",
+      "ticker": "KAN AU",
       "asset_type": "Equity",
       "weight": 0.0007,
-      "sedol": "BN4GHY7",
-      "company": "name:los andes copper"
-    },
-    {
-      "name": "King Copper Discovery Corp.",
-      "ticker": "KCP CN",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BTJTLW9",
-      "company": "name:king copper discovery"
+      "sedol": "BQZCG48",
+      "company": "name:kantra copper"
     },
     {
       "name": "Prospect Resources Ltd.",
       "ticker": "PSC AU",
       "asset_type": "Equity",
-      "weight": 0.0006,
+      "weight": 0.0007,
       "sedol": "B7740P8",
       "company": "name:prospect resources"
+    },
+    {
+      "name": "Los Andes Copper Ltd.",
+      "ticker": "LA CN",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BN4GHY7",
+      "company": "name:los andes copper"
+    },
+    {
+      "name": "Amarc Resources Ltd.",
+      "ticker": "AHR CN",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "2023094",
+      "company": "name:amarc resources"
     },
     {
       "name": "Gunnison Copper Corp.",
@@ -470,12 +470,20 @@
       "company": "name:gunnison copper"
     },
     {
-      "name": "Amarc Resources Ltd.",
-      "ticker": "AHR CN",
+      "name": "King Copper Discovery Corp.",
+      "ticker": "KCP CN",
       "asset_type": "Equity",
       "weight": 0.0006,
-      "sedol": "2023094",
-      "company": "name:amarc resources"
+      "sedol": "BTJTLW9",
+      "company": "name:king copper discovery"
+    },
+    {
+      "name": "Kingfisher Metals Corp.",
+      "ticker": "KFR CN",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BQXNYZ0",
+      "company": "name:kingfisher metals"
     },
     {
       "name": "Copper Fox Metals Inc.",
@@ -494,12 +502,12 @@
       "company": "name:copper 360"
     },
     {
-      "name": "Kingfisher Metals Corp.",
-      "ticker": "KFR CN",
+      "name": "Gladiator Metals Corp.",
+      "ticker": "GLAD CN",
       "asset_type": "Equity",
       "weight": 0.0005,
-      "sedol": "BQXNYZ0",
-      "company": "name:kingfisher metals"
+      "sedol": "BP6JW10",
+      "company": "name:gladiator metals"
     },
     {
       "name": "Fitzroy Minerals Inc.",
@@ -510,28 +518,28 @@
       "company": "name:fitzroy minerals"
     },
     {
-      "name": "Gladiator Metals Corp.",
-      "ticker": "GLAD CN",
-      "asset_type": "Equity",
-      "weight": 0.0005,
-      "sedol": "BP6JW10",
-      "company": "name:gladiator metals"
-    },
-    {
-      "name": "Cyprium Metals Ltd.",
-      "ticker": "CYM AU",
-      "asset_type": "Equity",
-      "weight": 0.0005,
-      "sedol": "BJDX9R8",
-      "company": "name:cyprium metals"
-    },
-    {
       "name": "China Daye Non-Ferrous Metals Mining Ltd.",
       "ticker": "661 HK",
       "asset_type": "Equity",
       "weight": 0.0004,
       "sedol": "6571180",
       "company": "name:china daye non ferrous metals mining"
+    },
+    {
+      "name": "Cyprium Metals Ltd.",
+      "ticker": "CYM AU",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BJDX9R8",
+      "company": "name:cyprium metals"
+    },
+    {
+      "name": "Oroco Resource Corp.",
+      "ticker": "OCO CN",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "B2QFFL8",
+      "company": "name:oroco resource"
     },
     {
       "name": "Copper Giant Resources Corp.",
@@ -542,12 +550,12 @@
       "company": "name:copper giant resources"
     },
     {
-      "name": "Oroco Resource Corp.",
-      "ticker": "OCO CN",
+      "name": "Valiente Resources Inc",
+      "ticker": "VALX CN",
       "asset_type": "Equity",
       "weight": 0.0004,
-      "sedol": "B2QFFL8",
-      "company": "name:oroco resource"
+      "sedol": "BXM4CG0",
+      "company": "name:valiente resources@canada"
     },
     {
       "name": "Midnight Sun Mining Corp.",
@@ -564,14 +572,6 @@
       "weight": 0.0004,
       "sedol": "BK80SR4",
       "company": "name:austral resources australia"
-    },
-    {
-      "name": "Valiente Resources Inc",
-      "ticker": "VALX CN",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BXM4CG0",
-      "company": "name:valiente resources@canada"
     },
     {
       "name": "Caravel Minerals Ltd.",
@@ -641,7 +641,7 @@
       "name": "Cash Equivalent",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0059,
+      "weight": 0.0061,
       "company": null
     }
   ]
