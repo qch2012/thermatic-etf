@@ -1,7 +1,7 @@
 {
   "ticker": "LAZR",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-21T03:28:48.143735+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-24T06:23:00.656821+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/LAZR-holdings-{mdy}.csv",
   "holdings": [
@@ -9,31 +9,31 @@
       "name": "LUMENTUM HOLDINGS INC",
       "ticker": "LITE",
       "asset_type": "Equity",
-      "weight": 0.2183,
+      "weight": 0.2022,
       "cusip": "55024U109",
       "location": "United States",
       "company": "cusip:55024U109"
     },
     {
-      "name": "AIXTRON SE",
-      "ticker": "AIXA GR",
-      "asset_type": "Equity",
-      "weight": 0.1067,
-      "location": "Germany",
-      "company": "name:aixtron@germany"
-    },
-    {
       "name": "ANTHROPIC SPV EXPOSURE",
       "ticker": "ANTHROPIC SPV",
       "asset_type": "Equity",
-      "weight": 0.0942,
+      "weight": 0.1112,
       "company": "name:anthropic spv exposure"
+    },
+    {
+      "name": "AIXTRON SE",
+      "ticker": "AIXA GR",
+      "asset_type": "Equity",
+      "weight": 0.1036,
+      "location": "Germany",
+      "company": "name:aixtron@germany"
     },
     {
       "name": "AXT INC",
       "ticker": "AXTI",
       "asset_type": "Equity",
-      "weight": 0.0845,
+      "weight": 0.0942,
       "cusip": "00246W103",
       "location": "United States",
       "company": "cusip:00246W103"
@@ -42,7 +42,7 @@
       "name": "LANDMARK OPTOELECTRONICS CORP",
       "ticker": "3081 TT",
       "asset_type": "Equity",
-      "weight": 0.0611,
+      "weight": 0.0456,
       "location": "Taiwan",
       "company": "name:landmark optoelectronics@taiwan"
     },
@@ -50,42 +50,43 @@
       "name": "SEMTECH CORP",
       "ticker": "SMTC",
       "asset_type": "Equity",
-      "weight": 0.0412,
+      "weight": 0.0439,
       "cusip": "816850101",
       "location": "United States",
       "company": "cusip:816850101"
     },
     {
-      "name": "WIN SEMICONDUCTORS CORP",
-      "ticker": "3105 TT",
-      "asset_type": "Equity",
-      "weight": 0.035,
-      "location": "Taiwan",
-      "company": "name:win semiconductors@taiwan"
-    },
-    {
-      "name": "COHERENT CORP",
-      "ticker": "COHR",
-      "asset_type": "Equity",
-      "weight": 0.0338,
-      "cusip": "19247G107",
-      "location": "United States",
-      "company": "cusip:19247G107"
-    },
-    {
       "name": "TOWER SEMICONDUCTOR LTD",
       "ticker": "TSEM",
       "asset_type": "Equity",
-      "weight": 0.0336,
+      "weight": 0.0357,
       "cusip": "M87915274",
       "location": "Israel",
       "company": "cusip:M87915274"
     },
     {
+      "name": "COHERENT CORP",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.0351,
+      "cusip": "19247G107",
+      "location": "United States",
+      "company": "cusip:19247G107"
+    },
+    {
+      "name": "AEHR TEST SYSTEMS",
+      "ticker": "AEHR",
+      "asset_type": "Equity",
+      "weight": 0.0327,
+      "cusip": "00760J108",
+      "location": "United States",
+      "company": "cusip:00760J108"
+    },
+    {
       "name": "YUANJIE SEMICONDUCTOR TECHNOLOGY CO LTD",
       "ticker": "688498 C1",
       "asset_type": "Equity",
-      "weight": 0.0329,
+      "weight": 0.0309,
       "location": "China",
       "company": "name:yuanjie semiconductor technology@china"
     },
@@ -93,41 +94,40 @@
       "name": "SOITEC",
       "ticker": "SOI FP",
       "asset_type": "Equity",
-      "weight": 0.032,
+      "weight": 0.0301,
       "location": "France",
       "company": "name:soitec@france"
-    },
-    {
-      "name": "FURUKAWA ELECTRIC CO LTD",
-      "ticker": "5801 JP",
-      "asset_type": "Equity",
-      "weight": 0.03,
-      "location": "Japan",
-      "company": "cusip:J16464117"
-    },
-    {
-      "name": "AEHR TEST SYSTEMS",
-      "ticker": "AEHR",
-      "asset_type": "Equity",
-      "weight": 0.03,
-      "cusip": "00760J108",
-      "location": "United States",
-      "company": "cusip:00760J108"
     },
     {
       "name": "APPLIED OPTOELECTRONICS INC",
       "ticker": "AAOI",
       "asset_type": "Equity",
-      "weight": 0.0284,
+      "weight": 0.03,
       "cusip": "03823U102",
       "location": "United States",
       "company": "cusip:03823U102"
     },
     {
+      "name": "WIN SEMICONDUCTORS CORP",
+      "ticker": "3105 TT",
+      "asset_type": "Equity",
+      "weight": 0.0275,
+      "location": "Taiwan",
+      "company": "name:win semiconductors@taiwan"
+    },
+    {
+      "name": "FURUKAWA ELECTRIC CO LTD",
+      "ticker": "5801 JP",
+      "asset_type": "Equity",
+      "weight": 0.0267,
+      "location": "Japan",
+      "company": "cusip:J16464117"
+    },
+    {
       "name": "YANGTZE OPTICAL FIBRE & CABLE JOINT STOCK LTD CO",
       "ticker": "6869 HK",
       "asset_type": "Equity",
-      "weight": 0.0266,
+      "weight": 0.0241,
       "location": "China",
       "company": "name:yangtze optical fibre cable joint stock@china"
     },
@@ -135,31 +135,15 @@
       "name": "MPI CORP",
       "ticker": "6223 TT",
       "asset_type": "Equity",
-      "weight": 0.0256,
+      "weight": 0.0214,
       "location": "Taiwan",
       "company": "name:mpi@taiwan"
-    },
-    {
-      "name": "INTELLIEPI INC",
-      "ticker": "4971 TT",
-      "asset_type": "Equity",
-      "weight": 0.0211,
-      "location": "Cayman Islands",
-      "company": "name:intelliepi@cayman islands"
-    },
-    {
-      "name": "CHROMA ATE INC",
-      "ticker": "2360 TT",
-      "asset_type": "Equity",
-      "weight": 0.0183,
-      "location": "Taiwan",
-      "company": "cusip:Y1604M102"
     },
     {
       "name": "CIENA CORP",
       "ticker": "CIEN",
       "asset_type": "Equity",
-      "weight": 0.0182,
+      "weight": 0.0185,
       "cusip": "171779309",
       "location": "United States",
       "company": "cusip:171779309"
@@ -168,31 +152,47 @@
       "name": "IQE PLC",
       "ticker": "IQE LN",
       "asset_type": "Equity",
-      "weight": 0.0179,
+      "weight": 0.0173,
       "location": "United Kingdom",
       "company": "name:iqe@united kingdom"
-    },
-    {
-      "name": "ZHONGJI INNOLIGHT CO LTD",
-      "ticker": "300308 C2",
-      "asset_type": "Equity",
-      "weight": 0.0157,
-      "location": "China",
-      "company": "cusip:Y7685V101"
     },
     {
       "name": "EOPTOLINK TECHNOLOGY INC LTD",
       "ticker": "300502 C2",
       "asset_type": "Equity",
-      "weight": 0.0152,
+      "weight": 0.015,
       "location": "China",
       "company": "name:eoptolink technology@china"
+    },
+    {
+      "name": "ZHONGJI INNOLIGHT CO LTD",
+      "ticker": "300308 C2",
+      "asset_type": "Equity",
+      "weight": 0.015,
+      "location": "China",
+      "company": "cusip:Y7685V101"
+    },
+    {
+      "name": "INTELLIEPI INC",
+      "ticker": "4971 TT",
+      "asset_type": "Equity",
+      "weight": 0.0148,
+      "location": "Cayman Islands",
+      "company": "name:intelliepi@cayman islands"
+    },
+    {
+      "name": "CHROMA ATE INC",
+      "ticker": "2360 TT",
+      "asset_type": "Equity",
+      "weight": 0.0134,
+      "location": "Taiwan",
+      "company": "cusip:Y1604M102"
     },
     {
       "name": "SIVERS SEMICONDUCTORS AB",
       "ticker": "SIVE SS",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0078,
       "location": "Sweden",
       "company": "name:sivers semiconductors@sweden"
     },
@@ -200,7 +200,7 @@
       "name": "SUZHOU TFC OPTICAL COMMUNICATION CO LTD",
       "ticker": "300394 C2",
       "asset_type": "Equity",
-      "weight": 0.0066,
+      "weight": 0.0067,
       "location": "China",
       "company": "name:suzhou tfc optical communication@china"
     },
@@ -208,7 +208,7 @@
       "name": "CASH & CASH EQUIVALENTS",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0342,
+      "weight": -0.0072,
       "company": null
     }
   ]

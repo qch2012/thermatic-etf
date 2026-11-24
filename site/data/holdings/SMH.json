@@ -1,7 +1,7 @@
 {
   "ticker": "SMH",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:29:01.312984+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:23:09.300325+00:00",
   "stale": false,
   "source": "https://www.vaneck.com/us/en/etf/equity/smh/holdings/download/xlsx/",
   "holdings": [
@@ -9,71 +9,64 @@
       "name": "Nvidia Corp",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.1683,
+      "weight": 0.1621,
       "company": "cusip:67066G104"
     },
     {
       "name": "Taiwan Semiconductor Manufacturing Co L",
       "ticker": "TSM",
       "asset_type": "Equity",
-      "weight": 0.097,
+      "weight": 0.0983,
       "company": "cusip:874039100"
     },
     {
       "name": "Broadcom Inc",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0698,
+      "weight": 0.0687,
       "company": "cusip:11135F101"
     },
     {
       "name": "Texas Instruments Inc",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0633,
+      "weight": 0.0655,
       "company": "cusip:882508104"
     },
     {
       "name": "Advanced Micro Devices Inc",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0605,
+      "weight": 0.0588,
       "company": "cusip:007903107"
     },
     {
       "name": "Analog Devices Inc",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.0525,
+      "weight": 0.0538,
       "company": "cusip:032654105"
     },
     {
       "name": "Asml Holding Nv",
       "ticker": "ASML",
       "asset_type": "Equity",
-      "weight": 0.0455,
+      "weight": 0.0476,
       "company": "cusip:N07059202"
-    },
-    {
-      "name": "Kla Corp",
-      "ticker": "KLAC",
-      "asset_type": "Equity",
-      "weight": 0.0448,
-      "company": "cusip:482480100"
     },
     {
       "name": "Qualcomm Inc",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.0446,
+      "weight": 0.0462,
       "company": "cusip:747525103"
     },
     {
-      "name": "Micron Technology Inc",
-      "ticker": "MU",
+      "name": "Kla Corp",
+      "ticker": "KLAC",
       "asset_type": "Equity",
-      "weight": 0.0433,
-      "company": "cusip:595112103"
+      "weight": 0.045,
+      "company": "cusip:482480100"
     },
     {
       "name": "Applied Materials Inc",
@@ -83,59 +76,66 @@
       "company": "cusip:038222105"
     },
     {
-      "name": "Sk Hynix Inc",
-      "ticker": "SKHY",
+      "name": "Micron Technology Inc",
+      "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0387,
-      "company": "cusip:78392B206"
+      "weight": 0.0418,
+      "company": "cusip:595112103"
     },
     {
       "name": "Lam Research Corp",
       "ticker": "LRCX",
       "asset_type": "Equity",
-      "weight": 0.0374,
+      "weight": 0.0377,
       "company": "cusip:512807306"
+    },
+    {
+      "name": "Sk Hynix Inc",
+      "ticker": "SKHY",
+      "asset_type": "Equity",
+      "weight": 0.0376,
+      "company": "cusip:78392B206"
     },
     {
       "name": "Marvell Technology Inc",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0318,
+      "weight": 0.0315,
       "company": "cusip:573874104"
     },
     {
       "name": "Intel Corp",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0304,
+      "weight": 0.0313,
       "company": "cusip:458140100"
     },
     {
       "name": "Cadence Design Systems Inc",
       "ticker": "CDNS",
       "asset_type": "Equity",
-      "weight": 0.0241,
+      "weight": 0.0249,
       "company": "cusip:127387108"
     },
     {
       "name": "Synopsys Inc",
       "ticker": "SNPS",
       "asset_type": "Equity",
-      "weight": 0.024,
+      "weight": 0.0247,
       "company": "cusip:871607107"
     },
     {
       "name": "Monolithic Power Systems Inc",
       "ticker": "MPWR",
       "asset_type": "Equity",
-      "weight": 0.0156,
+      "weight": 0.0154,
       "company": "cusip:609839105"
     },
     {
       "name": "Nxp Semiconductors Nv",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.0146,
+      "weight": 0.0153,
       "company": "cusip:N6596X109"
     },
     {
@@ -149,49 +149,49 @@
       "name": "Teradyne Inc",
       "ticker": "TER",
       "asset_type": "Equity",
-      "weight": 0.0097,
+      "weight": 0.0098,
       "company": "cusip:880770102"
     },
     {
       "name": "Arm Holdings Plc",
       "ticker": "ARM",
       "asset_type": "Equity",
-      "weight": 0.0094,
+      "weight": 0.009,
       "company": "cusip:042068205"
     },
     {
       "name": "Astera Labs Inc",
       "ticker": "ALAB",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0087,
       "company": "cusip:04626A103"
     },
     {
       "name": "Microchip Technology Inc",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0084,
       "company": "cusip:595017104"
     },
     {
       "name": "On Semiconductor Corp",
       "ticker": "ON",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0057,
       "company": "cusip:682189105"
     },
     {
       "name": "USD CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0001,
+      "weight": 0.0002,
       "company": null
     },
     {
       "name": "Other/Cash",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0001,
+      "weight": 0.0,
       "company": null
     }
   ]

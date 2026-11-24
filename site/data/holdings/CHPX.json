@@ -1,290 +1,10 @@
 {
   "ticker": "CHPX",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:24.759243+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-24T06:22:45.269966+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/chpx_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "ASTERA LABS INC",
-      "ticker": "ALAB",
-      "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "BMTQ7V2",
-      "company": "cusip:04626A103"
-    },
-    {
-      "name": "QUANTA COMPUTER INC",
-      "ticker": "2382 TT",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "6141011",
-      "company": "name:quanta computer@taiwan"
-    },
-    {
-      "name": "ACCTON TECHNOLOGY CORP",
-      "ticker": "2345 TT",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "6005214",
-      "company": "cusip:Y0002S109"
-    },
-    {
-      "name": "NEBIUS GROUP NV",
-      "ticker": "NBIS",
-      "asset_type": "Equity",
-      "weight": 0.0053,
-      "sedol": "B5BSZB3",
-      "company": "cusip:N97284108"
-    },
-    {
-      "name": "CREDO TECHNOLOGY GROUP HOLDI",
-      "ticker": "CRDO",
-      "asset_type": "Equity",
-      "weight": 0.0053,
-      "sedol": "BLD13F2",
-      "company": "cusip:G25457105"
-    },
-    {
-      "name": "COREWEAVE INC-CL A",
-      "ticker": "CRWV",
-      "asset_type": "Equity",
-      "weight": 0.0041,
-      "sedol": "BTTRKN7",
-      "company": "cusip:21873S108"
-    },
-    {
-      "name": "WIWYNN CORP",
-      "ticker": "6669 TT",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "sedol": "BF4QXG5",
-      "company": "cusip:Y9673D101"
-    },
-    {
-      "name": "SUPER MICRO COMPUTER INC",
-      "ticker": "SMCI",
-      "asset_type": "Equity",
-      "weight": 0.0033,
-      "sedol": "BRC3N73",
-      "company": "cusip:86800U302"
-    },
-    {
-      "name": "ALCHIP TECHNOLOGIES LTD",
-      "ticker": "3661 TT",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "B4TPSL0",
-      "company": "cusip:G02242108"
-    },
-    {
-      "name": "IONQ INC",
-      "ticker": "IONQ",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "BP484B3",
-      "company": "cusip:46222L108"
-    },
-    {
-      "name": "RAMBUS INC",
-      "ticker": "RMBS",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "2721967",
-      "company": "cusip:750917106"
-    },
-    {
-      "name": "RIGETTI COMPUTING INC",
-      "ticker": "RGTI",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BN45WL6",
-      "company": "cusip:76655K103"
-    },
-    {
-      "name": "D-WAVE QUANTUM INC",
-      "ticker": "QBTS",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BMCCXH5",
-      "company": "cusip:26740W109"
-    },
-    {
-      "name": "AMBARELLA INC",
-      "ticker": "AMBA",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "B7KH3G6",
-      "company": "cusip:G037AX101"
-    },
-    {
-      "name": "MITAC HOLDINGS CORP",
-      "ticker": "3706 TT",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BDRZRW9",
-      "company": "name:mitac holdings"
-    },
-    {
-      "name": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "asset_type": "Equity",
-      "weight": 0.117,
-      "sedol": "2588184",
-      "company": "cusip:595112103"
-    },
-    {
-      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM",
-      "asset_type": "Equity",
-      "weight": 0.1105,
-      "sedol": "2113382",
-      "company": "cusip:874039100"
-    },
-    {
-      "name": "BROADCOM INC",
-      "ticker": "AVGO",
-      "asset_type": "Equity",
-      "weight": 0.1065,
-      "sedol": "BDZ78H9",
-      "company": "cusip:11135F101"
-    },
-    {
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0862,
-      "sedol": "2379504",
-      "company": "cusip:67066G104"
-    },
-    {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0599,
-      "sedol": "2007849",
-      "company": "cusip:007903107"
-    },
-    {
-      "name": "ARISTA NETWORKS INC",
-      "ticker": "ANET",
-      "asset_type": "Equity",
-      "weight": 0.0534,
-      "sedol": "BL9XPM3",
-      "company": "cusip:040413205"
-    },
-    {
-      "name": "ASML HOLDING NV-NY REG SHS",
-      "ticker": "ASML",
-      "asset_type": "Equity",
-      "weight": 0.0474,
-      "sedol": "B908F01",
-      "company": "name:asml holding nv ny reg shs"
-    },
-    {
-      "name": "MEDIATEK INC",
-      "ticker": "2454 TT",
-      "asset_type": "Equity",
-      "weight": 0.0471,
-      "sedol": "6372480",
-      "company": "cusip:Y5945U103"
-    },
-    {
-      "name": "CISCO SYSTEMS INC",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.045,
-      "sedol": "2198163",
-      "company": "cusip:17275R102"
-    },
-    {
-      "name": "SK HYNIX INC",
-      "ticker": "000660 KS",
-      "asset_type": "Equity",
-      "weight": 0.0398,
-      "sedol": "6450267",
-      "company": "cusip:78392B206"
-    },
-    {
-      "name": "QUALCOMM INC",
-      "ticker": "QCOM",
-      "asset_type": "Equity",
-      "weight": 0.039,
-      "sedol": "2714923",
-      "company": "cusip:747525103"
-    },
-    {
-      "name": "ARM HOLDINGS PLC-ADR",
-      "ticker": "ARM",
-      "asset_type": "Equity",
-      "weight": 0.0331,
-      "sedol": "BNSP5P7",
-      "company": "cusip:042068205"
-    },
-    {
-      "name": "MARVELL TECHNOLOGY INC",
-      "ticker": "MRVL",
-      "asset_type": "Equity",
-      "weight": 0.0325,
-      "sedol": "BNKJSM5",
-      "company": "cusip:573874104"
-    },
-    {
-      "name": "INTEL CORP",
-      "ticker": "INTC",
-      "asset_type": "Equity",
-      "weight": 0.0266,
-      "sedol": "2463247",
-      "company": "cusip:458140100"
-    },
-    {
-      "name": "CADENCE DESIGN SYS INC",
-      "ticker": "CDNS",
-      "asset_type": "Equity",
-      "weight": 0.0226,
-      "sedol": "2302232",
-      "company": "name:cadence design sys"
-    },
-    {
-      "name": "SYNOPSYS INC",
-      "ticker": "SNPS",
-      "asset_type": "Equity",
-      "weight": 0.0211,
-      "sedol": "2867719",
-      "company": "cusip:871607107"
-    },
-    {
-      "name": "VERTIV HOLDINGS CO-A",
-      "ticker": "VRT",
-      "asset_type": "Equity",
-      "weight": 0.0189,
-      "sedol": "BL3LWS8",
-      "company": "cusip:92537N108"
-    },
-    {
-      "name": "MONOLITHIC POWER SYSTEMS INC",
-      "ticker": "MPWR",
-      "asset_type": "Equity",
-      "weight": 0.017,
-      "sedol": "B01Z7J1",
-      "company": "cusip:609839105"
-    },
-    {
-      "name": "HEWLETT PACKARD ENTERPRISE",
-      "ticker": "HPE",
-      "asset_type": "Equity",
-      "weight": 0.0163,
-      "sedol": "BYVYWS0",
-      "company": "cusip:42824C109"
-    },
-    {
-      "name": "NETAPP INC",
-      "ticker": "NTAP",
-      "asset_type": "Equity",
-      "weight": 0.0091,
-      "sedol": "2630643",
-      "company": "cusip:64110D104"
-    },
     {
       "name": "QUANTUM COMPUTING INC",
       "ticker": "QUBT",
@@ -320,15 +40,295 @@
       "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0001,
+      "weight": -0.0002,
       "company": null
     },
     {
       "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0004,
+      "weight": -0.0003,
       "company": null
+    },
+    {
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.1194,
+      "sedol": "2588184",
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.1136,
+      "sedol": "2113382",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0971,
+      "sedol": "2379504",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "BROADCOM INC",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0959,
+      "sedol": "BDZ78H9",
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0553,
+      "sedol": "2007849",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "ARISTA NETWORKS INC",
+      "ticker": "ANET",
+      "asset_type": "Equity",
+      "weight": 0.05,
+      "sedol": "BL9XPM3",
+      "company": "cusip:040413205"
+    },
+    {
+      "name": "ASML HOLDING NV-NY REG SHS",
+      "ticker": "ASML",
+      "asset_type": "Equity",
+      "weight": 0.0482,
+      "sedol": "B908F01",
+      "company": "name:asml holding nv ny reg shs"
+    },
+    {
+      "name": "MEDIATEK INC",
+      "ticker": "2454 TT",
+      "asset_type": "Equity",
+      "weight": 0.0466,
+      "sedol": "6372480",
+      "company": "cusip:Y5945U103"
+    },
+    {
+      "name": "CISCO SYSTEMS INC",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0458,
+      "sedol": "2198163",
+      "company": "cusip:17275R102"
+    },
+    {
+      "name": "QUALCOMM INC",
+      "ticker": "QCOM",
+      "asset_type": "Equity",
+      "weight": 0.0396,
+      "sedol": "2714923",
+      "company": "cusip:747525103"
+    },
+    {
+      "name": "SK HYNIX INC",
+      "ticker": "000660 KS",
+      "asset_type": "Equity",
+      "weight": 0.0359,
+      "sedol": "6450267",
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0338,
+      "sedol": "BNKJSM5",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "ARM HOLDINGS PLC-ADR",
+      "ticker": "ARM",
+      "asset_type": "Equity",
+      "weight": 0.0329,
+      "sedol": "BNSP5P7",
+      "company": "cusip:042068205"
+    },
+    {
+      "name": "INTEL CORP",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0284,
+      "sedol": "2463247",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "CADENCE DESIGN SYS INC",
+      "ticker": "CDNS",
+      "asset_type": "Equity",
+      "weight": 0.0224,
+      "sedol": "2302232",
+      "company": "name:cadence design sys"
+    },
+    {
+      "name": "SYNOPSYS INC",
+      "ticker": "SNPS",
+      "asset_type": "Equity",
+      "weight": 0.0208,
+      "sedol": "2867719",
+      "company": "cusip:871607107"
+    },
+    {
+      "name": "VERTIV HOLDINGS CO-A",
+      "ticker": "VRT",
+      "asset_type": "Equity",
+      "weight": 0.0189,
+      "sedol": "BL3LWS8",
+      "company": "cusip:92537N108"
+    },
+    {
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "ticker": "MPWR",
+      "asset_type": "Equity",
+      "weight": 0.0174,
+      "sedol": "B01Z7J1",
+      "company": "cusip:609839105"
+    },
+    {
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "ticker": "HPE",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "sedol": "BYVYWS0",
+      "company": "cusip:42824C109"
+    },
+    {
+      "name": "NETAPP INC",
+      "ticker": "NTAP",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "sedol": "2630643",
+      "company": "cusip:64110D104"
+    },
+    {
+      "name": "ASTERA LABS INC",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.0084,
+      "sedol": "BMTQ7V2",
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "RIGETTI COMPUTING INC",
+      "ticker": "RGTI",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BN45WL6",
+      "company": "cusip:76655K103"
+    },
+    {
+      "name": "D-WAVE QUANTUM INC",
+      "ticker": "QBTS",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BMCCXH5",
+      "company": "cusip:26740W109"
+    },
+    {
+      "name": "AMBARELLA INC",
+      "ticker": "AMBA",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "B7KH3G6",
+      "company": "cusip:G037AX101"
+    },
+    {
+      "name": "MITAC HOLDINGS CORP",
+      "ticker": "3706 TT",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BDRZRW9",
+      "company": "name:mitac holdings"
+    },
+    {
+      "name": "QUANTA COMPUTER INC",
+      "ticker": "2382 TT",
+      "asset_type": "Equity",
+      "weight": 0.0058,
+      "sedol": "6141011",
+      "company": "name:quanta computer@taiwan"
+    },
+    {
+      "name": "ACCTON TECHNOLOGY CORP",
+      "ticker": "2345 TT",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "6005214",
+      "company": "cusip:Y0002S109"
+    },
+    {
+      "name": "CREDO TECHNOLOGY GROUP HOLDI",
+      "ticker": "CRDO",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "BLD13F2",
+      "company": "cusip:G25457105"
+    },
+    {
+      "name": "NEBIUS GROUP NV",
+      "ticker": "NBIS",
+      "asset_type": "Equity",
+      "weight": 0.0054,
+      "sedol": "B5BSZB3",
+      "company": "cusip:N97284108"
+    },
+    {
+      "name": "COREWEAVE INC-CL A",
+      "ticker": "CRWV",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "sedol": "BTTRKN7",
+      "company": "cusip:21873S108"
+    },
+    {
+      "name": "WIWYNN CORP",
+      "ticker": "6669 TT",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "sedol": "BF4QXG5",
+      "company": "cusip:Y9673D101"
+    },
+    {
+      "name": "SUPER MICRO COMPUTER INC",
+      "ticker": "SMCI",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BRC3N73",
+      "company": "cusip:86800U302"
+    },
+    {
+      "name": "ALCHIP TECHNOLOGIES LTD",
+      "ticker": "3661 TT",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "B4TPSL0",
+      "company": "cusip:G02242108"
+    },
+    {
+      "name": "IONQ INC",
+      "ticker": "IONQ",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BP484B3",
+      "company": "cusip:46222L108"
+    },
+    {
+      "name": "RAMBUS INC",
+      "ticker": "RMBS",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "2721967",
+      "company": "cusip:750917106"
     }
   ]
 }

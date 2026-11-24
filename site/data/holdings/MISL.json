@@ -1,7 +1,7 @@
 {
   "ticker": "MISL",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:49.724209+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:23:01.472015+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=MISL",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "RTX Corporation",
       "ticker": "RTX",
       "asset_type": "Equity",
-      "weight": 0.0876,
+      "weight": 0.0894,
       "cusip": "75513E101",
       "company": "cusip:75513E101"
     },
@@ -17,31 +17,31 @@
       "name": "GE Aerospace",
       "ticker": "GE",
       "asset_type": "Equity",
-      "weight": 0.0871,
+      "weight": 0.0879,
       "cusip": "369604301",
       "company": "cusip:369604301"
-    },
-    {
-      "name": "Space Exploration Technologies Corp. (Class A)",
-      "ticker": "SPCX",
-      "asset_type": "Equity",
-      "weight": 0.0717,
-      "cusip": "84615Q103",
-      "company": "cusip:84615Q103"
     },
     {
       "name": "The Boeing Company",
       "ticker": "BA",
       "asset_type": "Equity",
-      "weight": 0.071,
+      "weight": 0.0716,
       "cusip": "097023105",
       "company": "cusip:097023105"
+    },
+    {
+      "name": "Space Exploration Technologies Corp. (Class A)",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.0688,
+      "cusip": "84615Q103",
+      "company": "cusip:84615Q103"
     },
     {
       "name": "Palantir Technologies Inc. (Class A)",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0619,
+      "weight": 0.06,
       "cusip": "69608A108",
       "company": "cusip:69608A108"
     },
@@ -49,7 +49,7 @@
       "name": "Northrop Grumman Corporation",
       "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0474,
+      "weight": 0.0486,
       "cusip": "666807102",
       "company": "cusip:666807102"
     },
@@ -57,7 +57,7 @@
       "name": "Lockheed Martin Corporation",
       "ticker": "LMT",
       "asset_type": "Equity",
-      "weight": 0.0472,
+      "weight": 0.0485,
       "cusip": "539830109",
       "company": "cusip:539830109"
     },
@@ -65,31 +65,31 @@
       "name": "L3Harris Technologies, Inc.",
       "ticker": "LHX",
       "asset_type": "Equity",
-      "weight": 0.0456,
+      "weight": 0.0461,
       "cusip": "502431109",
       "company": "cusip:502431109"
-    },
-    {
-      "name": "HEICO Corporation",
-      "ticker": "HEI",
-      "asset_type": "Equity",
-      "weight": 0.0445,
-      "cusip": "422806109",
-      "company": "cusip:422806109"
     },
     {
       "name": "General Dynamics Corporation",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.0441,
+      "weight": 0.0451,
       "cusip": "369550108",
       "company": "cusip:369550108"
+    },
+    {
+      "name": "HEICO Corporation",
+      "ticker": "HEI",
+      "asset_type": "Equity",
+      "weight": 0.045,
+      "cusip": "422806109",
+      "company": "cusip:422806109"
     },
     {
       "name": "TransDigm Group Incorporated",
       "ticker": "TDG",
       "asset_type": "Equity",
-      "weight": 0.0441,
+      "weight": 0.0443,
       "cusip": "893641100",
       "company": "cusip:893641100"
     },
@@ -97,7 +97,7 @@
       "name": "Honeywell Aerospace Inc.",
       "ticker": "HONA",
       "asset_type": "Equity",
-      "weight": 0.0415,
+      "weight": 0.0417,
       "cusip": "43849R105",
       "company": "cusip:43849R105"
     },
@@ -105,7 +105,7 @@
       "name": "Howmet Aerospace Inc.",
       "ticker": "HWM",
       "asset_type": "Equity",
-      "weight": 0.0408,
+      "weight": 0.0406,
       "cusip": "443201108",
       "company": "cusip:443201108"
     },
@@ -113,7 +113,7 @@
       "name": "Rocket Lab Corporation",
       "ticker": "RKLB",
       "asset_type": "Equity",
-      "weight": 0.0315,
+      "weight": 0.0291,
       "cusip": "773121108",
       "company": "cusip:773121108"
     },
@@ -121,31 +121,31 @@
       "name": "Woodward, Inc.",
       "ticker": "WWD",
       "asset_type": "Equity",
-      "weight": 0.0225,
+      "weight": 0.0227,
       "cusip": "980745103",
       "company": "cusip:980745103"
-    },
-    {
-      "name": "FTAI Aviation Ltd.",
-      "ticker": "FTAI",
-      "asset_type": "Equity",
-      "weight": 0.0196,
-      "cusip": "G3730V105",
-      "company": "cusip:G3730V105"
     },
     {
       "name": "Curtiss-Wright Corporation",
       "ticker": "CW",
       "asset_type": "Equity",
-      "weight": 0.0188,
+      "weight": 0.0192,
       "cusip": "231561101",
       "company": "cusip:231561101"
+    },
+    {
+      "name": "FTAI Aviation Ltd.",
+      "ticker": "FTAI",
+      "asset_type": "Equity",
+      "weight": 0.0181,
+      "cusip": "G3730V105",
+      "company": "cusip:G3730V105"
     },
     {
       "name": "Leidos Holdings, Inc.",
       "ticker": "LDOS",
       "asset_type": "Equity",
-      "weight": 0.0177,
+      "weight": 0.0181,
       "cusip": "525327102",
       "company": "cusip:525327102"
     },
@@ -153,7 +153,7 @@
       "name": "Textron Inc.",
       "ticker": "TXT",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0161,
       "cusip": "883203101",
       "company": "cusip:883203101"
     },
@@ -161,7 +161,7 @@
       "name": "CACI International Inc.",
       "ticker": "CACI",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0153,
       "cusip": "127190304",
       "company": "cusip:127190304"
     },
@@ -169,7 +169,7 @@
       "name": "Huntington Ingalls Industries, Inc.",
       "ticker": "HII",
       "asset_type": "Equity",
-      "weight": 0.0128,
+      "weight": 0.013,
       "cusip": "446413106",
       "company": "cusip:446413106"
     },
@@ -177,7 +177,7 @@
       "name": "Moog Inc.",
       "ticker": "MOG/A",
       "asset_type": "Equity",
-      "weight": 0.0118,
+      "weight": 0.0125,
       "cusip": "615394202",
       "company": "cusip:615394202"
     },
@@ -185,7 +185,7 @@
       "name": "AST SpaceMobile, Inc.",
       "ticker": "ASTS",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0107,
       "cusip": "00217D100",
       "company": "cusip:00217D100"
     },
@@ -193,7 +193,7 @@
       "name": "Leonardo DRS, Inc.",
       "ticker": "DRS",
       "asset_type": "Equity",
-      "weight": 0.0099,
+      "weight": 0.0098,
       "cusip": "52661A108",
       "company": "cusip:52661A108"
     },
@@ -209,7 +209,7 @@
       "name": "Science Applications International Corporation",
       "ticker": "SAIC",
       "asset_type": "Equity",
-      "weight": 0.0068,
+      "weight": 0.007,
       "cusip": "808625107",
       "company": "cusip:808625107"
     },
@@ -222,14 +222,6 @@
       "company": "cusip:428291108"
     },
     {
-      "name": "Kratos Defense & Security Solutions, Inc.",
-      "ticker": "KTOS",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "cusip": "50077B207",
-      "company": "cusip:50077B207"
-    },
-    {
       "name": "Parsons Corporation",
       "ticker": "PSN",
       "asset_type": "Equity",
@@ -238,10 +230,18 @@
       "company": "cusip:70202L102"
     },
     {
+      "name": "Kratos Defense & Security Solutions, Inc.",
+      "ticker": "KTOS",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "cusip": "50077B207",
+      "company": "cusip:50077B207"
+    },
+    {
       "name": "AeroVironment, Inc.",
       "ticker": "AVAV",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0052,
       "cusip": "008073108",
       "company": "cusip:008073108"
     },
@@ -249,17 +249,9 @@
       "name": "Mercury Systems, Inc.",
       "ticker": "MRCY",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0052,
       "cusip": "589378108",
       "company": "cusip:589378108"
-    },
-    {
-      "name": "Karman Holdings Inc.",
-      "ticker": "KRMN",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "cusip": "485924104",
-      "company": "cusip:485924104"
     },
     {
       "name": "AAR CORP.",
@@ -273,15 +265,23 @@
       "name": "KBR, Inc.",
       "ticker": "KBR",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0047,
       "cusip": "48242W106",
       "company": "cusip:48242W106"
+    },
+    {
+      "name": "Karman Holdings Inc.",
+      "ticker": "KRMN",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "cusip": "485924104",
+      "company": "cusip:485924104"
     },
     {
       "name": "Firefly Aerospace Inc.",
       "ticker": "FLY",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0035,
       "cusip": "31816X106",
       "company": "cusip:31816X106"
     },
@@ -294,12 +294,11 @@
       "company": "cusip:046433108"
     },
     {
-      "name": "Intuitive Machines, Inc. (Class A)",
-      "ticker": "LUNR",
-      "asset_type": "Equity",
+      "name": "US Dollar",
+      "ticker": "$USD",
+      "asset_type": "Cash",
       "weight": 0.0025,
-      "cusip": "46125A100",
-      "company": "cusip:46125A100"
+      "company": null
     },
     {
       "name": "Ducommun Incorporated",
@@ -310,27 +309,20 @@
       "company": "cusip:264147109"
     },
     {
-      "name": "US Dollar",
-      "ticker": "$USD",
-      "asset_type": "Cash",
-      "weight": 0.0021,
-      "company": null
+      "name": "Intuitive Machines, Inc. (Class A)",
+      "ticker": "LUNR",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "cusip": "46125A100",
+      "company": "cusip:46125A100"
     },
     {
       "name": "AEVEX Corp. (Class A)",
       "ticker": "AVEX",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0016,
       "cusip": "00835T107",
       "company": "cusip:00835T107"
-    },
-    {
-      "name": "Voyager Technologies, Inc. (Class A)",
-      "ticker": "VOYG",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "cusip": "92892B103",
-      "company": "cusip:92892B103"
     },
     {
       "name": "Applied Aerospace & Defense, Inc.",
@@ -341,10 +333,18 @@
       "company": "cusip:03815J107"
     },
     {
+      "name": "Voyager Technologies, Inc. (Class A)",
+      "ticker": "VOYG",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "cusip": "92892B103",
+      "company": "cusip:92892B103"
+    },
+    {
       "name": "National Presto Industries, Inc.",
       "ticker": "NPK",
       "asset_type": "Equity",
-      "weight": 0.0011,
+      "weight": 0.0012,
       "cusip": "637215104",
       "company": "cusip:637215104"
     },
@@ -352,7 +352,7 @@
       "name": "BlackSky Technology Inc. (Class A)",
       "ticker": "BKSY",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.0008,
       "cusip": "09263B207",
       "company": "cusip:09263B207"
     },

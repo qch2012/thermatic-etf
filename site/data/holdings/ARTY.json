@@ -1,7 +1,7 @@
 {
   "ticker": "ARTY",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:17.605806+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:22:40.206719+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/297905/ishares-future-ai-tech-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0584,
+      "weight": 0.0552,
       "location": "United States",
       "company": "cusip:007903107"
     },
@@ -17,7 +17,7 @@
       "name": "BROADCOM INC",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0556,
+      "weight": 0.0532,
       "location": "United States",
       "company": "cusip:11135F101"
     },
@@ -25,7 +25,7 @@
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
       "ticker": "2330",
       "asset_type": "Equity",
-      "weight": 0.0468,
+      "weight": 0.0487,
       "location": "Taiwan",
       "company": "cusip:874039100"
     },
@@ -33,79 +33,79 @@
       "name": "ORACLE",
       "ticker": "ORCL",
       "asset_type": "Equity",
-      "weight": 0.0415,
+      "weight": 0.0414,
       "location": "United States",
       "company": "cusip:68389X105"
-    },
-    {
-      "name": "MICRON TECHNOLOGY",
-      "ticker": "MU",
-      "asset_type": "Equity",
-      "weight": 0.0388,
-      "location": "United States",
-      "company": "cusip:595112103"
-    },
-    {
-      "name": "NVIDIA",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0373,
-      "location": "United States",
-      "company": "cusip:67066G104"
     },
     {
       "name": "NAVER",
       "ticker": "035420",
       "asset_type": "Equity",
-      "weight": 0.037,
+      "weight": 0.0385,
       "location": "Korea (South)",
       "company": "cusip:Y62579100"
     },
     {
-      "name": "GLOBAL UNICHIP",
-      "ticker": "3443",
+      "name": "MICRON TECHNOLOGY",
+      "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0358,
-      "location": "Taiwan",
-      "company": "cusip:Y2724H114"
-    },
-    {
-      "name": "MARVELL TECHNOLOGY",
-      "ticker": "MRVL",
-      "asset_type": "Equity",
-      "weight": 0.0351,
+      "weight": 0.0364,
       "location": "United States",
-      "company": "cusip:573874104"
+      "company": "cusip:595112103"
     },
     {
       "name": "MICROSOFT",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0336,
+      "weight": 0.0356,
       "location": "United States",
       "company": "cusip:594918104"
     },
     {
-      "name": "ARISTA NETWORKS",
-      "ticker": "ANET",
+      "name": "GLOBAL UNICHIP",
+      "ticker": "3443",
       "asset_type": "Equity",
-      "weight": 0.032,
+      "weight": 0.0351,
+      "location": "Taiwan",
+      "company": "cusip:Y2724H114"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.035,
       "location": "United States",
-      "company": "cusip:040413205"
+      "company": "cusip:67066G104"
     },
     {
       "name": "INTERNATIONAL BUSINESS MACHINES CO",
       "ticker": "IBM",
       "asset_type": "Equity",
-      "weight": 0.0311,
+      "weight": 0.034,
       "location": "United States",
       "company": "cusip:459200101"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0338,
+      "location": "United States",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "ARISTA NETWORKS",
+      "ticker": "ANET",
+      "asset_type": "Equity",
+      "weight": 0.0308,
+      "location": "United States",
+      "company": "cusip:040413205"
     },
     {
       "name": "SPACE EXPLORATION TECHNOLOGIES COR",
       "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.0306,
+      "weight": 0.0308,
       "location": "United States",
       "company": "name:space exploration technologies cor@united states"
     },
@@ -113,15 +113,23 @@
       "name": "PALANTIR TECHNOLOGIES CLASS A",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0288,
+      "weight": 0.0294,
       "location": "United States",
       "company": "cusip:69608A108"
+    },
+    {
+      "name": "ACCENTURE PLC CLASS A",
+      "ticker": "ACN",
+      "asset_type": "Equity",
+      "weight": 0.0287,
+      "location": "United States",
+      "company": "cusip:G1151C101"
     },
     {
       "name": "COREWEAVE CLASS A",
       "ticker": "CRWV",
       "asset_type": "Equity",
-      "weight": 0.0285,
+      "weight": 0.0273,
       "location": "United States",
       "company": "cusip:21873S108"
     },
@@ -129,47 +137,39 @@
       "name": "SUPER MICRO COMPUTER INC",
       "ticker": "SMCI",
       "asset_type": "Equity",
-      "weight": 0.0265,
+      "weight": 0.0263,
       "location": "United States",
       "company": "cusip:86800U302"
-    },
-    {
-      "name": "ACCENTURE PLC CLASS A",
-      "ticker": "ACN",
-      "asset_type": "Equity",
-      "weight": 0.026,
-      "location": "United States",
-      "company": "cusip:G1151C101"
     },
     {
       "name": "SCHNEIDER ELECTRIC",
       "ticker": "SU",
       "asset_type": "Equity",
-      "weight": 0.0229,
+      "weight": 0.024,
       "location": "France",
       "company": "cusip:F86921107"
-    },
-    {
-      "name": "ALCHIP TECHNOLOGIES",
-      "ticker": "3661",
-      "asset_type": "Equity",
-      "weight": 0.0224,
-      "location": "Taiwan",
-      "company": "cusip:G02242108"
     },
     {
       "name": "SK HYNIX",
       "ticker": "000660",
       "asset_type": "Equity",
-      "weight": 0.0219,
+      "weight": 0.0224,
       "location": "Korea (South)",
       "company": "cusip:78392B206"
+    },
+    {
+      "name": "ALCHIP TECHNOLOGIES",
+      "ticker": "3661",
+      "asset_type": "Equity",
+      "weight": 0.022,
+      "location": "Taiwan",
+      "company": "cusip:G02242108"
     },
     {
       "name": "ADVANTEST",
       "ticker": "6857",
       "asset_type": "Equity",
-      "weight": 0.0201,
+      "weight": 0.0198,
       "location": "Japan",
       "company": "name:advantest@japan"
     },
@@ -177,23 +177,15 @@
       "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
       "ticker": "STX",
       "asset_type": "Equity",
-      "weight": 0.0189,
+      "weight": 0.018,
       "location": "United States",
       "company": "name:seagate technology holdings@united states"
-    },
-    {
-      "name": "WESTERN DIGITAL CORP",
-      "ticker": "WDC",
-      "asset_type": "Equity",
-      "weight": 0.0176,
-      "location": "United States",
-      "company": "cusip:958102105"
     },
     {
       "name": "SNOWFLAKE",
       "ticker": "SNOW",
       "asset_type": "Equity",
-      "weight": 0.0173,
+      "weight": 0.0179,
       "location": "United States",
       "company": "cusip:833445109"
     },
@@ -201,15 +193,31 @@
       "name": "CONSTELLATION ENERGY CORP",
       "ticker": "CEG",
       "asset_type": "Equity",
-      "weight": 0.0165,
+      "weight": 0.0169,
       "location": "United States",
       "company": "cusip:21037T109"
+    },
+    {
+      "name": "WESTERN DIGITAL CORP",
+      "ticker": "WDC",
+      "asset_type": "Equity",
+      "weight": 0.0168,
+      "location": "United States",
+      "company": "cusip:958102105"
+    },
+    {
+      "name": "WORKDAY CLASS A",
+      "ticker": "WDAY",
+      "asset_type": "Equity",
+      "weight": 0.0128,
+      "location": "United States",
+      "company": "cusip:98138H101"
     },
     {
       "name": "ASE TECHNOLOGY HOLDING",
       "ticker": "3711",
       "asset_type": "Equity",
-      "weight": 0.0124,
+      "weight": 0.0123,
       "location": "Taiwan",
       "company": "cusip:Y0249T100"
     },
@@ -217,55 +225,71 @@
       "name": "LEGRAND SA",
       "ticker": "LR",
       "asset_type": "Equity",
-      "weight": 0.0118,
+      "weight": 0.0122,
       "location": "France",
       "company": "cusip:F56196185"
-    },
-    {
-      "name": "WORKDAY CLASS A",
-      "ticker": "WDAY",
-      "asset_type": "Equity",
-      "weight": 0.0116,
-      "location": "United States",
-      "company": "cusip:98138H101"
-    },
-    {
-      "name": "ENTEGRIS INC",
-      "ticker": "ENTG",
-      "asset_type": "Equity",
-      "weight": 0.0109,
-      "location": "United States",
-      "company": "cusip:29362U104"
     },
     {
       "name": "CGI INC CLASS A",
       "ticker": "GIB.A",
       "asset_type": "Equity",
-      "weight": 0.0108,
+      "weight": 0.012,
       "location": "Canada",
       "company": "name:cgi@canada"
-    },
-    {
-      "name": "BLOOM ENERGY CLASS A",
-      "ticker": "BE",
-      "asset_type": "Equity",
-      "weight": 0.0103,
-      "location": "United States",
-      "company": "cusip:093712107"
     },
     {
       "name": "MONGODB CLASS A",
       "ticker": "MDB",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0108,
       "location": "United States",
       "company": "cusip:60937P106"
+    },
+    {
+      "name": "ENTEGRIS INC",
+      "ticker": "ENTG",
+      "asset_type": "Equity",
+      "weight": 0.0107,
+      "location": "United States",
+      "company": "cusip:29362U104"
+    },
+    {
+      "name": "COSTAR GROUP",
+      "ticker": "CSGP",
+      "asset_type": "Equity",
+      "weight": 0.0105,
+      "location": "United States",
+      "company": "cusip:22160N109"
+    },
+    {
+      "name": "BLOOM ENERGY CLASS A",
+      "ticker": "BE",
+      "asset_type": "Equity",
+      "weight": 0.0095,
+      "location": "United States",
+      "company": "cusip:093712107"
+    },
+    {
+      "name": "PRESIGHT AI HOLDING PLC",
+      "ticker": "PRESIGHT",
+      "asset_type": "Equity",
+      "weight": 0.0093,
+      "location": "United Arab Emirates",
+      "company": "name:presight ai holding@united arab emirates"
+    },
+    {
+      "name": "QUANTA COMPUTER",
+      "ticker": "2382",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "location": "Taiwan",
+      "company": "name:quanta computer@taiwan"
     },
     {
       "name": "CELESTICA",
       "ticker": "CLS",
       "asset_type": "Equity",
-      "weight": 0.01,
+      "weight": 0.0091,
       "location": "Canada",
       "company": "cusip:15101Q207"
     },
@@ -273,103 +297,71 @@
       "name": "ASTERA LABS",
       "ticker": "ALAB",
       "asset_type": "Equity",
-      "weight": 0.0095,
+      "weight": 0.0089,
       "location": "United States",
       "company": "cusip:04626A103"
-    },
-    {
-      "name": "COSTAR GROUP",
-      "ticker": "CSGP",
-      "asset_type": "Equity",
-      "weight": 0.0093,
-      "location": "United States",
-      "company": "cusip:22160N109"
-    },
-    {
-      "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
-      "ticker": "CRDO",
-      "asset_type": "Equity",
-      "weight": 0.009,
-      "location": "United States",
-      "company": "cusip:G25457105"
-    },
-    {
-      "name": "QUANTA COMPUTER",
-      "ticker": "2382",
-      "asset_type": "Equity",
-      "weight": 0.0088,
-      "location": "Taiwan",
-      "company": "name:quanta computer@taiwan"
-    },
-    {
-      "name": "PRESIGHT AI HOLDING PLC",
-      "ticker": "PRESIGHT",
-      "asset_type": "Equity",
-      "weight": 0.0087,
-      "location": "United Arab Emirates",
-      "company": "name:presight ai holding@united arab emirates"
     },
     {
       "name": "TEMPUS AI CLASS A",
       "ticker": "TEM",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0086,
       "location": "United States",
       "company": "cusip:88023B103"
     },
     {
-      "name": "RAMBUS",
-      "ticker": "RMBS",
+      "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+      "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0084,
       "location": "United States",
-      "company": "cusip:750917106"
+      "company": "cusip:G25457105"
     },
     {
       "name": "WISTRON",
       "ticker": "3231",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0083,
       "location": "Taiwan",
       "company": "name:wistron@taiwan"
     },
     {
-      "name": "ONTO INNOVATION",
-      "ticker": "ONTO",
+      "name": "RAMBUS",
+      "ticker": "RMBS",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0082,
       "location": "United States",
-      "company": "cusip:683344105"
-    },
-    {
-      "name": "MACQUARIE TECHNOLOGY GROUP",
-      "ticker": "MAQ",
-      "asset_type": "Equity",
-      "weight": 0.0073,
-      "location": "Australia",
-      "company": "name:macquarie technology group@australia"
+      "company": "cusip:750917106"
     },
     {
       "name": "DIGICO INFRASTRUCTURE REIT STAPLED",
       "ticker": "DGT",
       "asset_type": "Equity",
-      "weight": 0.0072,
+      "weight": 0.0076,
       "location": "Australia",
       "company": "name:digico infrastructure reit stapled@australia"
     },
     {
-      "name": "AMKOR TECHNOLOGY",
-      "ticker": "AMKR",
+      "name": "MACQUARIE TECHNOLOGY GROUP",
+      "ticker": "MAQ",
       "asset_type": "Equity",
-      "weight": 0.0066,
+      "weight": 0.0076,
+      "location": "Australia",
+      "company": "name:macquarie technology group@australia"
+    },
+    {
+      "name": "ONTO INNOVATION",
+      "ticker": "ONTO",
+      "asset_type": "Equity",
+      "weight": 0.007,
       "location": "United States",
-      "company": "cusip:031652100"
+      "company": "cusip:683344105"
     },
     {
       "name": "GIGABYTE TECHNOLOGY LTD",
       "ticker": "2376",
       "asset_type": "Equity",
-      "weight": 0.0064,
+      "weight": 0.0066,
       "location": "Taiwan",
       "company": "cusip:Y2711J107"
     },
@@ -377,15 +369,23 @@
       "name": "WIWYNN CORPORATION",
       "ticker": "6669",
       "asset_type": "Equity",
-      "weight": 0.0063,
+      "weight": 0.0064,
       "location": "Taiwan",
       "company": "cusip:Y9673D101"
+    },
+    {
+      "name": "AMKOR TECHNOLOGY",
+      "ticker": "AMKR",
+      "asset_type": "Equity",
+      "weight": 0.0064,
+      "location": "United States",
+      "company": "cusip:031652100"
     },
     {
       "name": "CAMTEK",
       "ticker": "CAMT",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.0063,
       "location": "Israel",
       "company": "name:camtek@israel"
     },
@@ -401,7 +401,7 @@
       "name": "AURAS TECHNOLOGY LTD",
       "ticker": "3324",
       "asset_type": "Equity",
-      "weight": 0.0052,
+      "weight": 0.0051,
       "location": "Taiwan",
       "company": "name:auras technology@taiwan"
     },
@@ -409,7 +409,7 @@
       "name": "BLK CSH FND TREASURY SL AGENCY",
       "ticker": "XTSLA",
       "asset_type": "Money Market",
-      "weight": 0.0011,
+      "weight": 0.0012,
       "location": "United States",
       "company": null
     },
@@ -430,14 +430,6 @@
       "company": null
     },
     {
-      "name": "EUR CASH",
-      "ticker": "EUR",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "European Union",
-      "company": null
-    },
-    {
       "name": "JPY CASH",
       "ticker": "JPY",
       "asset_type": "Cash",
@@ -446,11 +438,11 @@
       "company": null
     },
     {
-      "name": "USD CASH",
-      "ticker": "USD",
+      "name": "EUR CASH",
+      "ticker": "EUR",
       "asset_type": "Cash",
-      "weight": 0.0,
-      "location": "United States",
+      "weight": 0.0001,
+      "location": "European Union",
       "company": null
     },
     {
@@ -459,6 +451,14 @@
       "asset_type": "Cash",
       "weight": 0.0,
       "location": "Taiwan",
+      "company": null
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "United States",
       "company": null
     },
     {

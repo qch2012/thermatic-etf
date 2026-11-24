@@ -1,7 +1,7 @@
 {
   "ticker": "IHAK",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:43.953309+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:22:57.706928+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/307352/ishares-cybersecurity-and-tech-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "NETSKOPE CLASS A",
       "ticker": "NTSK",
       "asset_type": "Equity",
-      "weight": 0.073,
+      "weight": 0.0731,
       "location": "United States",
       "company": "cusip:64119N608"
     },
@@ -17,7 +17,7 @@
       "name": "QUALYS",
       "ticker": "QLYS",
       "asset_type": "Equity",
-      "weight": 0.0571,
+      "weight": 0.0573,
       "location": "United States",
       "company": "cusip:74758T303"
     },
@@ -25,15 +25,23 @@
       "name": "OKTA CLASS A",
       "ticker": "OKTA",
       "asset_type": "Equity",
-      "weight": 0.0568,
+      "weight": 0.0546,
       "location": "United States",
       "company": "cusip:679295105"
+    },
+    {
+      "name": "VARONIS SYSTEMS",
+      "ticker": "VRNS",
+      "asset_type": "Equity",
+      "weight": 0.051,
+      "location": "United States",
+      "company": "cusip:922280102"
     },
     {
       "name": "TENABLE HOLDINGS INC",
       "ticker": "TENB",
       "asset_type": "Equity",
-      "weight": 0.0513,
+      "weight": 0.0507,
       "location": "United States",
       "company": "cusip:88025T102"
     },
@@ -41,7 +49,7 @@
       "name": "ZSCALER",
       "ticker": "ZS",
       "asset_type": "Equity",
-      "weight": 0.0513,
+      "weight": 0.0504,
       "location": "United States",
       "company": "cusip:98980G102"
     },
@@ -49,23 +57,15 @@
       "name": "SENTINELONE INC CLASS A",
       "ticker": "S",
       "asset_type": "Equity",
-      "weight": 0.0491,
+      "weight": 0.0486,
       "location": "United States",
       "company": "cusip:81730H109"
-    },
-    {
-      "name": "VARONIS SYSTEMS",
-      "ticker": "VRNS",
-      "asset_type": "Equity",
-      "weight": 0.049,
-      "location": "United States",
-      "company": "cusip:922280102"
     },
     {
       "name": "CROWDSTRIKE HOLDINGS CLASS A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0473,
+      "weight": 0.0463,
       "location": "United States",
       "company": "cusip:22788C105"
     },
@@ -73,7 +73,7 @@
       "name": "PALO ALTO NETWORKS",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.0433,
+      "weight": 0.0427,
       "location": "United States",
       "company": "cusip:697435105"
     },
@@ -81,7 +81,7 @@
       "name": "SCIENCE APPLICATIONS INTERNATIONAL",
       "ticker": "SAIC",
       "asset_type": "Equity",
-      "weight": 0.0409,
+      "weight": 0.0421,
       "location": "United States",
       "company": "cusip:808625107"
     },
@@ -89,15 +89,23 @@
       "name": "ALARM.COM HOLDINGS",
       "ticker": "ALRM",
       "asset_type": "Equity",
-      "weight": 0.0381,
+      "weight": 0.0393,
       "location": "United States",
       "company": "cusip:011642105"
+    },
+    {
+      "name": "TREND MICRO",
+      "ticker": "4704",
+      "asset_type": "Equity",
+      "weight": 0.0388,
+      "location": "Japan",
+      "company": "name:trend micro@japan"
     },
     {
       "name": "CHECK POINT SOFTWARE TECHNOLOGIES",
       "ticker": "CHKP",
       "asset_type": "Equity",
-      "weight": 0.0373,
+      "weight": 0.0386,
       "location": "Israel",
       "company": "cusip:M22465104"
     },
@@ -105,23 +113,15 @@
       "name": "CACI INTERNATIONAL INC CLASS A",
       "ticker": "CACI",
       "asset_type": "Equity",
-      "weight": 0.0371,
+      "weight": 0.0374,
       "location": "United States",
       "company": "cusip:127190304"
-    },
-    {
-      "name": "TREND MICRO",
-      "ticker": "4704",
-      "asset_type": "Equity",
-      "weight": 0.0367,
-      "location": "Japan",
-      "company": "name:trend micro@japan"
     },
     {
       "name": "BOOZ ALLEN HAMILTON HOLDING CLASS",
       "ticker": "BAH",
       "asset_type": "Equity",
-      "weight": 0.0339,
+      "weight": 0.0345,
       "location": "United States",
       "company": "name:booz allen hamilton holding class@united states"
     },
@@ -129,7 +129,7 @@
       "name": "CLEAR SECURE CLASS A",
       "ticker": "YOU",
       "asset_type": "Equity",
-      "weight": 0.0328,
+      "weight": 0.0325,
       "location": "United States",
       "company": "name:clear secure@united states"
     },
@@ -137,7 +137,7 @@
       "name": "FORTINET",
       "ticker": "FTNT",
       "asset_type": "Equity",
-      "weight": 0.0296,
+      "weight": 0.0291,
       "location": "United States",
       "company": "cusip:34959E109"
     },
@@ -145,7 +145,7 @@
       "name": "BLACKBERRY",
       "ticker": "BB",
       "asset_type": "Equity",
-      "weight": 0.0289,
+      "weight": 0.0279,
       "location": "Canada",
       "company": "cusip:09228F103"
     },
@@ -153,7 +153,7 @@
       "name": "A10 NETWORKS",
       "ticker": "ATEN",
       "asset_type": "Equity",
-      "weight": 0.0286,
+      "weight": 0.0277,
       "location": "United States",
       "company": "cusip:002121101"
     },
@@ -161,7 +161,7 @@
       "name": "NETCOMPANY GROUP",
       "ticker": "NETC",
       "asset_type": "Equity",
-      "weight": 0.0262,
+      "weight": 0.0272,
       "location": "Denmark",
       "company": "name:netcompany group@denmark"
     },
@@ -169,7 +169,7 @@
       "name": "CALIX NETWORKS",
       "ticker": "CALX",
       "asset_type": "Equity",
-      "weight": 0.0241,
+      "weight": 0.0247,
       "location": "United States",
       "company": "name:calix networks@united states"
     },
@@ -177,7 +177,7 @@
       "name": "AKAMAI TECHNOLOGIES INC",
       "ticker": "AKAM",
       "asset_type": "Equity",
-      "weight": 0.02,
+      "weight": 0.0193,
       "location": "United States",
       "company": "cusip:00971T101"
     },
@@ -185,7 +185,7 @@
       "name": "SAILPOINT",
       "ticker": "SAIL",
       "asset_type": "Equity",
-      "weight": 0.0181,
+      "weight": 0.0182,
       "location": "United States",
       "company": "cusip:78781J109"
     },
@@ -193,7 +193,7 @@
       "name": "ACCTON TECHNOLOGY",
       "ticker": "2345",
       "asset_type": "Equity",
-      "weight": 0.0168,
+      "weight": 0.016,
       "location": "Taiwan",
       "company": "cusip:Y0002S109"
     },
@@ -201,7 +201,7 @@
       "name": "RADWARE",
       "ticker": "RDWR",
       "asset_type": "Equity",
-      "weight": 0.0148,
+      "weight": 0.0147,
       "location": "Israel",
       "company": "cusip:M81873107"
     },
@@ -209,7 +209,7 @@
       "name": "RAPID7",
       "ticker": "RPD",
       "asset_type": "Equity",
-      "weight": 0.0124,
+      "weight": 0.012,
       "location": "United States",
       "company": "cusip:753422104"
     },
@@ -217,7 +217,7 @@
       "name": "ONESPAN",
       "ticker": "OSPN",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0104,
       "location": "United States",
       "company": "cusip:68287N100"
     },
@@ -233,7 +233,7 @@
       "name": "NCC GROUP PLC",
       "ticker": "NCC",
       "asset_type": "Equity",
-      "weight": 0.0058,
+      "weight": 0.0059,
       "location": "United Kingdom",
       "company": "name:ncc group@united kingdom"
     },
@@ -241,7 +241,7 @@
       "name": "GB GROUP PLC",
       "ticker": "GBG",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0054,
       "location": "United Kingdom",
       "company": "name:gb group@united kingdom"
     },
@@ -249,7 +249,7 @@
       "name": "DIGITAL ARTS INC",
       "ticker": "2326",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0049,
       "location": "Japan",
       "company": "name:digital arts@japan"
     },
@@ -257,7 +257,7 @@
       "name": "ALLOT LTD",
       "ticker": "ALLT",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0044,
       "location": "Israel",
       "company": "name:allot@israel"
     },
@@ -265,17 +265,9 @@
       "name": "GORILLA TECHNOLOGY GROUP",
       "ticker": "GRRR",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0017,
       "location": "United Kingdom",
       "company": "cusip:G4000K175"
-    },
-    {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": 0.0008,
-      "location": "United States",
-      "company": null
     },
     {
       "name": "ZETRIX AI",
@@ -286,10 +278,18 @@
       "company": "name:zetrix ai@malaysia"
     },
     {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0007,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "BLK CSH FND TREASURY SL AGENCY",
       "ticker": "XTSLA",
       "asset_type": "Money Market",
-      "weight": 0.0006,
+      "weight": 0.0007,
       "location": "United States",
       "company": null
     },
@@ -315,6 +315,14 @@
       "asset_type": "Cash",
       "weight": 0.0,
       "location": "Japan",
+      "company": null
+    },
+    {
+      "name": "TWD CASH",
+      "ticker": "TWD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Taiwan",
       "company": null
     },
     {
@@ -390,18 +398,18 @@
       "company": null
     },
     {
+      "name": "MYR/USD",
+      "ticker": "MYR",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "EMINI TECHNOLOGY SELECT SECTOR DEC",
       "ticker": "IXTZ6",
       "asset_type": "Futures",
       "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "TWD CASH",
-      "ticker": "TWD",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "location": "Taiwan",
       "company": null
     }
   ]

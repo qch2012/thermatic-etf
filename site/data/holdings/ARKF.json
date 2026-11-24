@@ -1,7 +1,7 @@
 {
   "ticker": "ARKF",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-21T03:28:15.371597+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-24T06:22:38.514243+00:00",
   "stale": false,
   "source": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "BLOCK INC",
       "ticker": "XYZ",
       "asset_type": "Equity",
-      "weight": 0.0934,
+      "weight": 0.0932,
       "cusip": "852234103",
       "company": "cusip:852234103"
     },
@@ -17,7 +17,7 @@
       "name": "SHOPIFY INC - CLASS A",
       "ticker": "SHOP",
       "asset_type": "Equity",
-      "weight": 0.0853,
+      "weight": 0.085,
       "cusip": "82509L107",
       "company": "cusip:82509L107"
     },
@@ -33,69 +33,69 @@
       "name": "AMAZON.COM INC",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0501,
+      "weight": 0.0511,
       "cusip": "023135106",
       "company": "cusip:023135106"
-    },
-    {
-      "name": "CIRCLE INTERNET GROUP INC",
-      "ticker": "CRCL",
-      "asset_type": "Equity",
-      "weight": 0.0469,
-      "cusip": "172573107",
-      "company": "cusip:172573107"
     },
     {
       "name": "TOAST INC-CLASS A",
       "ticker": "TOST",
       "asset_type": "Equity",
-      "weight": 0.0463,
+      "weight": 0.0486,
       "cusip": "888787108",
       "company": "cusip:888787108"
+    },
+    {
+      "name": "CIRCLE INTERNET GROUP INC",
+      "ticker": "CRCL",
+      "asset_type": "Equity",
+      "weight": 0.0456,
+      "cusip": "172573107",
+      "company": "cusip:172573107"
     },
     {
       "name": "COINBASE GLOBAL INC -CLASS A",
       "ticker": "COIN",
       "asset_type": "Equity",
-      "weight": 0.0425,
+      "weight": 0.0424,
       "cusip": "19260Q107",
       "company": "cusip:19260Q107"
-    },
-    {
-      "name": "GOLDMAN FS TRSY OBLIG INST 468",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0421,
-      "company": null
     },
     {
       "name": "PALANTIR TECHNOLOGIES INC-A",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0404,
+      "weight": 0.0401,
       "cusip": "69608A108",
       "company": "cusip:69608A108"
-    },
-    {
-      "name": "ROBINHOOD MARKETS INC - A",
-      "ticker": "HOOD",
-      "asset_type": "Equity",
-      "weight": 0.0395,
-      "cusip": "770700102",
-      "company": "cusip:770700102"
     },
     {
       "name": "OPENAI GROUP PBC SERIES C",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0357,
+      "weight": 0.0396,
+      "company": null
+    },
+    {
+      "name": "ROBINHOOD MARKETS INC - A",
+      "ticker": "HOOD",
+      "asset_type": "Equity",
+      "weight": 0.038,
+      "cusip": "770700102",
+      "company": "cusip:770700102"
+    },
+    {
+      "name": "GOLDMAN FS TRSY OBLIG INST 468",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 0.0336,
       "company": null
     },
     {
       "name": "AIRBNB INC-CLASS A",
       "ticker": "ABNB",
       "asset_type": "Equity",
-      "weight": 0.0315,
+      "weight": 0.033,
       "cusip": "009066101",
       "company": "cusip:009066101"
     },
@@ -103,30 +103,38 @@
       "name": "MERCADOLIBRE INC",
       "ticker": "MELI",
       "asset_type": "Equity",
-      "weight": 0.0294,
+      "weight": 0.0313,
       "cusip": "58733R102",
       "company": "cusip:58733R102"
-    },
-    {
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0256,
-      "cusip": "67066G104",
-      "company": "cusip:67066G104"
     },
     {
       "name": "ARK BITCOIN ETF HOLDCO (ARKF)",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0244,
+      "weight": 0.0255,
       "company": null
+    },
+    {
+      "name": "ROBLOX CORP -CLASS A",
+      "ticker": "RBLX",
+      "asset_type": "Equity",
+      "weight": 0.0236,
+      "cusip": "771049103",
+      "company": "cusip:771049103"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0234,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
     },
     {
       "name": "SOFI TECHNOLOGIES INC",
       "ticker": "SOFI",
       "asset_type": "Equity",
-      "weight": 0.0237,
+      "weight": 0.0232,
       "cusip": "83406F102",
       "company": "cusip:83406F102"
     },
@@ -134,23 +142,15 @@
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0229,
+      "weight": 0.023,
       "cusip": "22788C105",
       "company": "cusip:22788C105"
-    },
-    {
-      "name": "ROBLOX CORP -CLASS A",
-      "ticker": "RBLX",
-      "asset_type": "Equity",
-      "weight": 0.022,
-      "cusip": "771049103",
-      "company": "cusip:771049103"
     },
     {
       "name": "SPOTIFY TECHNOLOGY SA",
       "ticker": "SPOT",
       "asset_type": "Equity",
-      "weight": 0.0208,
+      "weight": 0.0219,
       "cusip": "L8681T102",
       "company": "cusip:L8681T102"
     },
@@ -158,47 +158,39 @@
       "name": "NU HOLDINGS LTD/CAYMAN ISL-A",
       "ticker": "NU UN",
       "asset_type": "Equity",
-      "weight": 0.0203,
+      "weight": 0.0206,
       "cusip": "G6683N103",
       "company": "cusip:G6683N103"
-    },
-    {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.019,
-      "cusip": "007903107",
-      "company": "cusip:007903107"
     },
     {
       "name": "ADYEN NV",
       "ticker": "ADYEN",
       "asset_type": "Equity",
-      "weight": 0.0187,
+      "weight": 0.0195,
       "sedol": "BZ1HM42",
       "company": "cusip:N3501V104"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "cusip": "007903107",
+      "company": "cusip:007903107"
     },
     {
       "name": "BULLISH",
       "ticker": "BLSH",
       "asset_type": "Equity",
-      "weight": 0.0165,
+      "weight": 0.0168,
       "cusip": "G16910120",
       "company": "cusip:G16910120"
-    },
-    {
-      "name": "BITMINE IMMERSION TECHNOLOGI",
-      "ticker": "BMNR",
-      "asset_type": "Equity",
-      "weight": 0.0164,
-      "cusip": "09175A206",
-      "company": "cusip:09175A206"
     },
     {
       "name": "DOORDASH INC - A",
       "ticker": "DASH",
       "asset_type": "Equity",
-      "weight": 0.0156,
+      "weight": 0.0161,
       "cusip": "25809K105",
       "company": "cusip:25809K105"
     },
@@ -206,15 +198,30 @@
       "name": "KLARNA GROUP PLC",
       "ticker": "KLAR",
       "asset_type": "Equity",
-      "weight": 0.0152,
+      "weight": 0.0153,
       "cusip": "G5279N105",
       "company": "cusip:G5279N105"
+    },
+    {
+      "name": "BITMINE IMMERSION TECHNOLOGI",
+      "ticker": "BMNR",
+      "asset_type": "Equity",
+      "weight": 0.015,
+      "cusip": "09175A206",
+      "company": "cusip:09175A206"
+    },
+    {
+      "name": "KALSHI INC.",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 0.015,
+      "company": null
     },
     {
       "name": "SEA LTD-ADR",
       "ticker": "SE",
       "asset_type": "Equity",
-      "weight": 0.0149,
+      "weight": 0.015,
       "cusip": "81141R100",
       "company": "cusip:81141R100"
     },
@@ -222,7 +229,7 @@
       "name": "FUTU HOLDINGS LTD-ADR",
       "ticker": "FUTU",
       "asset_type": "Equity",
-      "weight": 0.0139,
+      "weight": 0.014,
       "cusip": "36118L106",
       "company": "cusip:36118L106"
     },
@@ -230,22 +237,15 @@
       "name": "CLOUDFLARE INC - CLASS A",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0132,
       "cusip": "18915M107",
       "company": "cusip:18915M107"
-    },
-    {
-      "name": "KALSHI INC.",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0135,
-      "company": null
     },
     {
       "name": "SECURITIZE CORP",
       "ticker": "SECZ",
       "asset_type": "Equity",
-      "weight": 0.0115,
+      "weight": 0.0113,
       "cusip": "81517B101",
       "company": "cusip:81517B101"
     },
@@ -253,7 +253,7 @@
       "name": "GENIUS SPORTS LTD",
       "ticker": "GENI",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0107,
       "cusip": "G3934V109",
       "company": "cusip:G3934V109"
     },
@@ -261,30 +261,30 @@
       "name": "ETORO GROUP LTD-A",
       "ticker": "ETOR",
       "asset_type": "Equity",
-      "weight": 0.0082,
+      "weight": 0.0083,
       "cusip": "G32089107",
       "company": "cusip:G32089107"
-    },
-    {
-      "name": "PAYPAY CORP",
-      "ticker": "PAYP",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "cusip": "70450C101",
-      "company": "cusip:70450C101"
     },
     {
       "name": "ANTHROPIC PBC-CL A",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0042,
+      "weight": 0.0065,
       "company": null
+    },
+    {
+      "name": "PAYPAY CORP",
+      "ticker": "PAYP",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "cusip": "70450C101",
+      "company": "cusip:70450C101"
     },
     {
       "name": "JSC KASPI.KZ ADR",
       "ticker": "KSPI",
       "asset_type": "Equity",
-      "weight": 0.0041,
+      "weight": 0.0042,
       "sedol": "BJY21K1",
       "company": "cusip:48581R205"
     },
@@ -292,17 +292,9 @@
       "name": "3IQ ETHER STAKING ETF",
       "ticker": "ETHQ/U",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0008,
       "sedol": "BQ84B35",
       "company": "name:3iq ether staking etf"
-    },
-    {
-      "name": "3IQ SOLANA STAKING ETF",
-      "ticker": "SOLQ/U",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "sedol": "BTRDQ40",
-      "company": "name:3iq solana staking etf"
     },
     {
       "name": "CANTON STRATEGIC HOLDINGS IN",
@@ -311,6 +303,14 @@
       "weight": 0.0007,
       "cusip": "432705309",
       "company": "cusip:432705309"
+    },
+    {
+      "name": "3IQ SOLANA STAKING ETF",
+      "ticker": "SOLQ/U",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "sedol": "BTRDQ40",
+      "company": "name:3iq solana staking etf"
     },
     {
       "name": "BRERA HOLDINGS PLC WTS",

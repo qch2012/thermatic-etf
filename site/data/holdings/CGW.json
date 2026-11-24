@@ -1,7 +1,7 @@
 {
   "ticker": "CGW",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:23.133179+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:22:44.124436+00:00",
   "stale": false,
   "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138E263/holdings/fund?idType=cusip&productType=ETF",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "American Water Works Co Inc",
       "ticker": "AWK",
       "asset_type": "Equity",
-      "weight": 0.09288922,
+      "weight": 0.09499456,
       "cusip": "030420103",
       "company": "cusip:030420103"
     },
@@ -17,7 +17,7 @@
       "name": "Xylem Inc/NY",
       "ticker": "XYL",
       "asset_type": "Equity",
-      "weight": 0.07421956,
+      "weight": 0.07481158,
       "cusip": "98419M100",
       "company": "cusip:98419M100"
     },
@@ -25,7 +25,7 @@
       "name": "Veralto Corp",
       "ticker": "VLTO",
       "asset_type": "Equity",
-      "weight": 0.07116137,
+      "weight": 0.07251277,
       "cusip": "92338C103",
       "company": "cusip:92338C103"
     },
@@ -33,7 +33,7 @@
       "name": "United Utilities Group PLC",
       "ticker": "UU/",
       "asset_type": "Equity",
-      "weight": 0.06218694,
+      "weight": 0.06287925,
       "cusip": "G92755100",
       "company": "cusip:G92755100"
     },
@@ -41,7 +41,7 @@
       "name": "Essential Utilities Inc",
       "ticker": "WTRG",
       "asset_type": "Equity",
-      "weight": 0.05987911,
+      "weight": 0.06114156,
       "cusip": "29670G102",
       "company": "cusip:29670G102"
     },
@@ -49,7 +49,7 @@
       "name": "Severn Trent PLC",
       "ticker": "SVT",
       "asset_type": "Equity",
-      "weight": 0.04338213,
+      "weight": 0.04387087,
       "cusip": "G8056D159",
       "company": "cusip:G8056D159"
     },
@@ -57,31 +57,31 @@
       "name": "Cia de Saneamento Basico do Estado de Sao Paulo SABESP",
       "ticker": "SBSP3",
       "asset_type": "Equity",
-      "weight": 0.04287675,
+      "weight": 0.04283631,
       "cusip": "P2R268136",
       "company": "cusip:20441A102"
-    },
-    {
-      "name": "Veolia Environnement SA",
-      "ticker": "VIE",
-      "asset_type": "Equity",
-      "weight": 0.04272835,
-      "cusip": "F9686M107",
-      "company": "cusip:F9686M107"
     },
     {
       "name": "Ecolab Inc",
       "ticker": "ECL",
       "asset_type": "Equity",
-      "weight": 0.04246904,
+      "weight": 0.04269729,
       "cusip": "278865100",
       "company": "cusip:278865100"
+    },
+    {
+      "name": "Veolia Environnement SA",
+      "ticker": "VIE",
+      "asset_type": "Equity",
+      "weight": 0.04267569,
+      "cusip": "F9686M107",
+      "company": "cusip:F9686M107"
     },
     {
       "name": "Geberit AG",
       "ticker": "GEBN",
       "asset_type": "Equity",
-      "weight": 0.04006236,
+      "weight": 0.04026744,
       "cusip": "H2942E124",
       "company": "cusip:H2942E124"
     },
@@ -89,7 +89,7 @@
       "name": "Advanced Drainage Systems Inc",
       "ticker": "WMS",
       "asset_type": "Equity",
-      "weight": 0.02802017,
+      "weight": 0.02708426,
       "cusip": "00790R104",
       "company": "cusip:00790R104"
     },
@@ -97,7 +97,7 @@
       "name": "Watts Water Technologies Inc",
       "ticker": "WTS",
       "asset_type": "Equity",
-      "weight": 0.02601025,
+      "weight": 0.02557847,
       "cusip": "942749102",
       "company": "cusip:942749102"
     },
@@ -105,7 +105,7 @@
       "name": "Zurn Elkay Water Solutions Corp",
       "ticker": "ZWS",
       "asset_type": "Equity",
-      "weight": 0.02286631,
+      "weight": 0.02291937,
       "cusip": "98983L108",
       "company": "cusip:98983L108"
     },
@@ -113,7 +113,7 @@
       "name": "American States Water Co",
       "ticker": "AWR",
       "asset_type": "Equity",
-      "weight": 0.02146463,
+      "weight": 0.02176334,
       "cusip": "029899101",
       "company": "cusip:029899101"
     },
@@ -121,7 +121,7 @@
       "name": "Core & Main Inc",
       "ticker": "CNM",
       "asset_type": "Equity",
-      "weight": 0.02017402,
+      "weight": 0.0198652,
       "cusip": "21874C102",
       "company": "cusip:21874C102"
     },
@@ -129,7 +129,7 @@
       "name": "Pentair PLC",
       "ticker": "PNR",
       "asset_type": "Equity",
-      "weight": 0.01891644,
+      "weight": 0.01907419,
       "cusip": "G7S00T104",
       "company": "cusip:G7S00T104"
     },
@@ -137,31 +137,31 @@
       "name": "California Water Service Group",
       "ticker": "CWT",
       "asset_type": "Equity",
-      "weight": 0.01866276,
+      "weight": 0.01900989,
       "cusip": "130788102",
       "company": "cusip:130788102"
-    },
-    {
-      "name": "Pennon Group PLC",
-      "ticker": "PNN",
-      "asset_type": "Equity",
-      "weight": 0.01569104,
-      "cusip": "G8295T239",
-      "company": "cusip:G8295T239"
     },
     {
       "name": "Badger Meter Inc",
       "ticker": "BMI",
       "asset_type": "Equity",
-      "weight": 0.01563437,
+      "weight": 0.01582445,
       "cusip": "056525108",
       "company": "cusip:056525108"
+    },
+    {
+      "name": "Pennon Group PLC",
+      "ticker": "PNN",
+      "asset_type": "Equity",
+      "weight": 0.01553537,
+      "cusip": "G8295T239",
+      "company": "cusip:G8295T239"
     },
     {
       "name": "Belimo Holding AG",
       "ticker": "BEAN",
       "asset_type": "Equity",
-      "weight": 0.01507052,
+      "weight": 0.01458094,
       "cusip": "H07171129",
       "company": "cusip:H07171129"
     },
@@ -169,7 +169,7 @@
       "name": "Franklin Electric Co Inc",
       "ticker": "FELE",
       "asset_type": "Equity",
-      "weight": 0.01378276,
+      "weight": 0.01359424,
       "cusip": "353514102",
       "company": "cusip:353514102"
     },
@@ -177,7 +177,7 @@
       "name": "H2O America",
       "ticker": "HTO",
       "asset_type": "Equity",
-      "weight": 0.01339243,
+      "weight": 0.01349989,
       "cusip": "784305104",
       "company": "cusip:784305104"
     },
@@ -185,31 +185,31 @@
       "name": "Mueller Water Products Inc",
       "ticker": "MWA",
       "asset_type": "Equity",
-      "weight": 0.01284036,
+      "weight": 0.01287253,
       "cusip": "624758108",
       "company": "cusip:624758108"
-    },
-    {
-      "name": "Select Water Solutions Inc",
-      "ticker": "WTTR",
-      "asset_type": "Equity",
-      "weight": 0.01240781,
-      "cusip": "81617J301",
-      "company": "cusip:81617J301"
     },
     {
       "name": "COPASA",
       "ticker": "CSMG3",
       "asset_type": "Equity",
-      "weight": 0.01219182,
+      "weight": 0.01218167,
       "cusip": "P28269101",
       "company": "cusip:P28269101"
+    },
+    {
+      "name": "Select Water Solutions Inc",
+      "ticker": "WTTR",
+      "asset_type": "Equity",
+      "weight": 0.01166841,
+      "cusip": "81617J301",
+      "company": "cusip:81617J301"
     },
     {
       "name": "Kurita Water Industries Ltd",
       "ticker": "6370",
       "asset_type": "Equity",
-      "weight": 0.01174509,
+      "weight": 0.01088289,
       "cusip": "J37221116",
       "company": "cusip:J37221116"
     },
@@ -217,7 +217,7 @@
       "name": "Georg Fischer AG",
       "ticker": "GF",
       "asset_type": "Equity",
-      "weight": 0.00904769,
+      "weight": 0.00881641,
       "cusip": "H26091142",
       "company": "cusip:H26091142"
     },
@@ -225,7 +225,7 @@
       "name": "YTL Power International Bhd",
       "ticker": "YTLP",
       "asset_type": "Equity",
-      "weight": 0.00852562,
+      "weight": 0.00842634,
       "cusip": "Y9861K107",
       "company": "cusip:Y9861K107"
     },
@@ -233,7 +233,7 @@
       "name": "Aalberts NV",
       "ticker": "AALB",
       "asset_type": "Equity",
-      "weight": 0.00709477,
+      "weight": 0.00680712,
       "cusip": "N00089271",
       "company": "cusip:N00089271"
     },
@@ -241,30 +241,30 @@
       "name": "Cia De Saneamento do Parana Sanepar",
       "ticker": "SAPR11",
       "asset_type": "Unit",
-      "weight": 0.00680627,
+      "weight": 0.00679911,
       "company": null
-    },
-    {
-      "name": "Coway Co Ltd",
-      "ticker": "021240",
-      "asset_type": "Equity",
-      "weight": 0.00679459,
-      "cusip": "Y1786S109",
-      "company": "cusip:Y1786S109"
     },
     {
       "name": "Middlesex Water Co",
       "ticker": "MSEX",
       "asset_type": "Equity",
-      "weight": 0.00659265,
+      "weight": 0.00675683,
       "cusip": "596680108",
       "company": "cusip:596680108"
+    },
+    {
+      "name": "Coway Co Ltd",
+      "ticker": "021240",
+      "asset_type": "Equity",
+      "weight": 0.00660415,
+      "cusip": "Y1786S109",
+      "company": "cusip:Y1786S109"
     },
     {
       "name": "Sulzer AG",
       "ticker": "SUN",
       "asset_type": "Equity",
-      "weight": 0.00633737,
+      "weight": 0.00625389,
       "cusip": "H83580284",
       "company": "cusip:H83580284"
     },
@@ -272,127 +272,127 @@
       "name": "VA Tech Wabag Ltd",
       "ticker": "VATW",
       "asset_type": "Equity",
-      "weight": 0.00558875,
+      "weight": 0.00562017,
       "cusip": "Y9356W111",
       "company": "cusip:Y9356W111"
-    },
-    {
-      "name": "Interpump Group SpA",
-      "ticker": "IP",
-      "asset_type": "Equity",
-      "weight": 0.00537473,
-      "cusip": "T5513W107",
-      "company": "cusip:T5513W107"
     },
     {
       "name": "Hawkins Inc",
       "ticker": "HWKN",
       "asset_type": "Equity",
-      "weight": 0.00532332,
+      "weight": 0.0052377,
       "cusip": "420261109",
       "company": "cusip:420261109"
+    },
+    {
+      "name": "Interpump Group SpA",
+      "ticker": "IP",
+      "asset_type": "Equity",
+      "weight": 0.00522852,
+      "cusip": "T5513W107",
+      "company": "cusip:T5513W107"
     },
     {
       "name": "Daiei Kankyo Co Ltd",
       "ticker": "9336",
       "asset_type": "Equity",
-      "weight": 0.0051247,
+      "weight": 0.00506139,
       "cusip": "J08947103",
       "company": "cusip:J08947103"
-    },
-    {
-      "name": "Gorman-Rupp Co/The",
-      "ticker": "GRC",
-      "asset_type": "Equity",
-      "weight": 0.00493906,
-      "cusip": "383082104",
-      "company": "cusip:383082104"
     },
     {
       "name": "ACEA SpA",
       "ticker": "ACE",
       "asset_type": "Equity",
-      "weight": 0.00490797,
+      "weight": 0.0049224,
       "cusip": "T0040K106",
       "company": "cusip:T0040K106"
+    },
+    {
+      "name": "Gorman-Rupp Co/The",
+      "ticker": "GRC",
+      "asset_type": "Equity",
+      "weight": 0.00477327,
+      "cusip": "383082104",
+      "company": "cusip:383082104"
     },
     {
       "name": "Astral Ltd",
       "ticker": "ASTRA",
       "asset_type": "Equity",
-      "weight": 0.00397609,
+      "weight": 0.00402614,
       "cusip": "Y0433Q169",
       "company": "cusip:Y0433Q169"
-    },
-    {
-      "name": "Organo Corp",
-      "ticker": "6368",
-      "asset_type": "Equity",
-      "weight": 0.0039264,
-      "cusip": "J61697108",
-      "company": "cusip:J61697108"
     },
     {
       "name": "Supreme Industries Ltd",
       "ticker": "SI",
       "asset_type": "Equity",
-      "weight": 0.00369936,
+      "weight": 0.00374828,
       "cusip": "Y83139140",
       "company": "cusip:Y83139140"
+    },
+    {
+      "name": "Organo Corp",
+      "ticker": "6368",
+      "asset_type": "Equity",
+      "weight": 0.0036782,
+      "cusip": "J61697108",
+      "company": "cusip:J61697108"
     },
     {
       "name": "Lindsay Corp",
       "ticker": "LNN",
       "asset_type": "Equity",
-      "weight": 0.00345333,
+      "weight": 0.00336796,
       "cusip": "535555106",
       "company": "cusip:535555106"
-    },
-    {
-      "name": "Wienerberger AG",
-      "ticker": "WIE",
-      "asset_type": "Equity",
-      "weight": 0.00338937,
-      "cusip": "A95384110",
-      "company": "cusip:A95384110"
     },
     {
       "name": "Beijing Enterprises Water Group Ltd",
       "ticker": "371",
       "asset_type": "Equity",
-      "weight": 0.00336887,
+      "weight": 0.00333772,
       "cusip": "G0957L109",
       "company": "cusip:G0957L109"
+    },
+    {
+      "name": "Wienerberger AG",
+      "ticker": "WIE",
+      "asset_type": "Equity",
+      "weight": 0.00332179,
+      "cusip": "A95384110",
+      "company": "cusip:A95384110"
     },
     {
       "name": "Kemira Oyj",
       "ticker": "KEMIRA",
       "asset_type": "Equity",
-      "weight": 0.00315069,
+      "weight": 0.00310955,
       "cusip": "X44073108",
       "company": "cusip:X44073108"
-    },
-    {
-      "name": "PILLAR Corp /Japan",
-      "ticker": "6490",
-      "asset_type": "Equity",
-      "weight": 0.00304015,
-      "cusip": "J55182109",
-      "company": "cusip:J55182109"
     },
     {
       "name": "York Water Co/The",
       "ticker": "YORW",
       "asset_type": "Equity",
-      "weight": 0.0030014,
+      "weight": 0.00304819,
       "cusip": "987184108",
       "company": "cusip:987184108"
+    },
+    {
+      "name": "PILLAR Corp /Japan",
+      "ticker": "6490",
+      "asset_type": "Equity",
+      "weight": 0.00287705,
+      "cusip": "J55182109",
+      "company": "cusip:J55182109"
     },
     {
       "name": "NWPX Infrastructure Inc",
       "ticker": "NWPX",
       "asset_type": "Equity",
-      "weight": 0.00293477,
+      "weight": 0.00287157,
       "cusip": "667746101",
       "company": "cusip:667746101"
     },
@@ -400,7 +400,7 @@
       "name": "Kitz Corp",
       "ticker": "6498",
       "asset_type": "Equity",
-      "weight": 0.00284529,
+      "weight": 0.00272576,
       "cusip": "J34039115",
       "company": "cusip:J34039115"
     },
@@ -408,7 +408,7 @@
       "name": "Power & Water Utility Co for Jubail & Yanbu",
       "ticker": "MARAFIQ",
       "asset_type": "Equity",
-      "weight": 0.00269588,
+      "weight": 0.00269823,
       "cusip": "M7S61K102",
       "company": "cusip:M7S61K102"
     },
@@ -416,7 +416,7 @@
       "name": "TETRA Technologies Inc",
       "ticker": "TTI",
       "asset_type": "Equity",
-      "weight": 0.00266198,
+      "weight": 0.00243231,
       "cusip": "88162F105",
       "company": "cusip:88162F105"
     },
@@ -424,7 +424,7 @@
       "name": "Consolidated Water Co Ltd",
       "ticker": "CWCO",
       "asset_type": "Equity",
-      "weight": 0.00223136,
+      "weight": 0.00223543,
       "cusip": "G23773107",
       "company": "cusip:G23773107"
     },
@@ -432,7 +432,7 @@
       "name": "Onterris Inc",
       "ticker": "ONT",
       "asset_type": "Equity",
-      "weight": 0.00206756,
+      "weight": 0.00195168,
       "cusip": "615111101",
       "company": "cusip:615111101"
     },
@@ -440,7 +440,7 @@
       "name": "AlKhorayef Water & Power Technologies Co",
       "ticker": "AWPT",
       "asset_type": "Equity",
-      "weight": 0.00168427,
+      "weight": 0.00169251,
       "cusip": "M0852G109",
       "company": "cusip:M0852G109"
     },
@@ -448,38 +448,30 @@
       "name": "CHENGDU XINGRONG INVESTMENT (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00162573,
+      "weight": 0.00163724,
       "company": "name:chengdu xingrong investment a sc sz"
-    },
-    {
-      "name": "Nikkiso Co Ltd",
-      "ticker": "6376",
-      "asset_type": "Equity",
-      "weight": 0.00149192,
-      "cusip": "J51484103",
-      "company": "cusip:J51484103"
-    },
-    {
-      "name": "Tsukishima Holdings Co Ltd",
-      "ticker": "6332",
-      "asset_type": "Equity",
-      "weight": 0.00146735,
-      "cusip": "J93321107",
-      "company": "cusip:J93321107"
     },
     {
       "name": "Orbia Advance Corp SAB de CV",
       "ticker": "ORBIA*",
       "asset_type": "Equity",
-      "weight": 0.00146217,
+      "weight": 0.00144622,
       "cusip": "P7S81Y105",
       "company": "cusip:P7S81Y105"
+    },
+    {
+      "name": "Tsukishima Holdings Co Ltd",
+      "ticker": "6332",
+      "asset_type": "Equity",
+      "weight": 0.00141389,
+      "cusip": "J93321107",
+      "company": "cusip:J93321107"
     },
     {
       "name": "Amata Corp PCL",
       "ticker": "AMATA-R",
       "asset_type": "Equity",
-      "weight": 0.00143302,
+      "weight": 0.0013948,
       "cusip": "Y0099Y126",
       "company": "cusip:Y0099Y126"
     },
@@ -487,15 +479,23 @@
       "name": "Genuit Group PLC",
       "ticker": "GEN",
       "asset_type": "Equity",
-      "weight": 0.00140028,
+      "weight": 0.00136729,
       "cusip": "G7179X100",
       "company": "cusip:G7179X100"
+    },
+    {
+      "name": "Nikkiso Co Ltd",
+      "ticker": "6376",
+      "asset_type": "Equity",
+      "weight": 0.00133001,
+      "cusip": "J51484103",
+      "company": "cusip:J51484103"
     },
     {
       "name": "Nomura Micro Science Co Ltd",
       "ticker": "6254",
       "asset_type": "Equity",
-      "weight": 0.00132568,
+      "weight": 0.00124301,
       "cusip": "J5893C102",
       "company": "cusip:J5893C102"
     },
@@ -503,7 +503,7 @@
       "name": "Energy Recovery Inc",
       "ticker": "ERII",
       "asset_type": "Equity",
-      "weight": 0.00123024,
+      "weight": 0.00114933,
       "cusip": "29270J100",
       "company": "cusip:29270J100"
     },
@@ -511,44 +511,44 @@
       "name": "BEIJING CAPITAL A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00110269,
+      "weight": 0.00111915,
       "company": "name:beijing capital a hk"
     },
     {
       "name": "Zhongshan Public Utilities Group (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00108266,
+      "weight": 0.00108113,
       "company": "name:zhongshan public utilities group a sc sz"
-    },
-    {
-      "name": "Shikoku Kasei Holdings Corp",
-      "ticker": "4099",
-      "asset_type": "Equity",
-      "weight": 0.00103109,
-      "cusip": "J71993117",
-      "company": "cusip:J71993117"
     },
     {
       "name": "Jindal Saw Ltd",
       "ticker": "JSAW",
       "asset_type": "Equity",
-      "weight": 0.00099906,
+      "weight": 0.0010053,
       "cusip": "Y4448P133",
       "company": "cusip:Y4448P133"
+    },
+    {
+      "name": "Shikoku Kasei Holdings Corp",
+      "ticker": "4099",
+      "asset_type": "Equity",
+      "weight": 0.00096162,
+      "cusip": "J71993117",
+      "company": "cusip:J71993117"
     },
     {
       "name": "BEIJING ORIGNWTR A(HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00079871,
+      "weight": 0.00078303,
       "company": "name:beijing orignwtr a hk"
     },
     {
       "name": "Kurimoto Ltd",
       "ticker": "5602",
       "asset_type": "Equity",
-      "weight": 0.00078533,
+      "weight": 0.0007606,
       "cusip": "J37178100",
       "company": "cusip:J37178100"
     },
@@ -556,14 +556,14 @@
       "name": "JIANGXI HONGCHENG ENVIRONMENT CO LTD A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00060919,
+      "weight": 0.00061095,
       "company": "name:jiangxi hongcheng environment"
     },
     {
       "name": "Mitsubishi Kakoki Kaisha Ltd",
       "ticker": "6331",
       "asset_type": "Equity",
-      "weight": 0.00055741,
+      "weight": 0.00053387,
       "cusip": "J43787100",
       "company": "cusip:J43787100"
     },
@@ -571,7 +571,7 @@
       "name": "Torishima Pump Manufacturing Co Ltd",
       "ticker": "6363",
       "asset_type": "Equity",
-      "weight": 0.00052622,
+      "weight": 0.00049837,
       "cusip": "J64169105",
       "company": "cusip:J64169105"
     },
@@ -579,7 +579,7 @@
       "name": "China Lesso Group Holdings Ltd",
       "ticker": "2128",
       "asset_type": "Equity",
-      "weight": 0.00048465,
+      "weight": 0.00047119,
       "cusip": "G2157Q102",
       "company": "cusip:G2157Q102"
     },
@@ -587,21 +587,21 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "INR",
       "asset_type": "Currency",
-      "weight": 7.011e-05,
+      "weight": 8.808e-05,
       "company": null
     },
     {
       "name": "Saudi Riyal",
       "ticker": "SAR",
       "asset_type": "Currency",
-      "weight": 5.128e-05,
+      "weight": 5.186e-05,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "SEK",
       "asset_type": "Currency",
-      "weight": 4.85e-06,
+      "weight": 4.89e-06,
       "company": null
     },
     {
@@ -615,7 +615,7 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "DKK",
       "asset_type": "Currency",
-      "weight": 3.9e-07,
+      "weight": 4e-07,
       "company": null
     },
     {
@@ -657,35 +657,35 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "EUR",
       "asset_type": "Currency",
-      "weight": -4e-07,
+      "weight": -4.1e-07,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "MXN",
       "asset_type": "Currency",
-      "weight": -1.59e-06,
+      "weight": -1.6e-06,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "CHF",
       "asset_type": "Currency",
-      "weight": -2.06e-06,
+      "weight": -2.09e-06,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "CAD",
       "asset_type": "Currency",
-      "weight": -3.678e-05,
+      "weight": -3.719e-05,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "USD",
       "asset_type": "Currency",
-      "weight": -0.00080978,
+      "weight": -0.00196381,
       "company": null
     },
     {

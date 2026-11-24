@@ -1,7 +1,7 @@
 {
   "ticker": "AIBF",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:12.684941+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:22:37.001901+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/353593/ishares-future-ai-beneficiaries-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "WALMART",
       "ticker": "WMT",
       "asset_type": "Equity",
-      "weight": 0.0456,
+      "weight": 0.0469,
       "location": "United States",
       "company": "name:walmart@united states"
     },
@@ -17,7 +17,7 @@
       "name": "COSTCO WHOLESALE CORP",
       "ticker": "COST",
       "asset_type": "Equity",
-      "weight": 0.0444,
+      "weight": 0.0454,
       "location": "United States",
       "company": "name:costco wholesale@united states"
     },
@@ -25,7 +25,7 @@
       "name": "ELI LILLY",
       "ticker": "LLY",
       "asset_type": "Equity",
-      "weight": 0.0421,
+      "weight": 0.0425,
       "location": "United States",
       "company": "cusip:532457108"
     },
@@ -33,7 +33,7 @@
       "name": "ABBVIE",
       "ticker": "ABBV",
       "asset_type": "Equity",
-      "weight": 0.0396,
+      "weight": 0.0405,
       "location": "United States",
       "company": "cusip:00287Y109"
     },
@@ -41,7 +41,7 @@
       "name": "JOHNSON & JOHNSON",
       "ticker": "JNJ",
       "asset_type": "Equity",
-      "weight": 0.0348,
+      "weight": 0.0356,
       "location": "United States",
       "company": "cusip:478160104"
     },
@@ -49,7 +49,7 @@
       "name": "PROCTER & GAMBLE",
       "ticker": "PG",
       "asset_type": "Equity",
-      "weight": 0.0343,
+      "weight": 0.0351,
       "location": "United States",
       "company": "name:procter gamble@united states"
     },
@@ -57,7 +57,7 @@
       "name": "COCA-COLA",
       "ticker": "KO",
       "asset_type": "Equity",
-      "weight": 0.0336,
+      "weight": 0.0343,
       "location": "United States",
       "company": "name:coca cola@united states"
     },
@@ -65,7 +65,7 @@
       "name": "HOME DEPOT",
       "ticker": "HD",
       "asset_type": "Equity",
-      "weight": 0.0304,
+      "weight": 0.031,
       "location": "United States",
       "company": "name:home depot@united states"
     },
@@ -73,7 +73,7 @@
       "name": "PALO ALTO NETWORKS",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.03,
+      "weight": 0.0288,
       "location": "United States",
       "company": "cusip:697435105"
     },
@@ -81,7 +81,7 @@
       "name": "GE AEROSPACE",
       "ticker": "GE",
       "asset_type": "Equity",
-      "weight": 0.0292,
+      "weight": 0.0287,
       "location": "United States",
       "company": "cusip:369604301"
     },
@@ -89,15 +89,23 @@
       "name": "MERCK & CO INC",
       "ticker": "MRK",
       "asset_type": "Equity",
-      "weight": 0.0255,
+      "weight": 0.026,
       "location": "United States",
       "company": "cusip:58933Y105"
+    },
+    {
+      "name": "UNITEDHEALTH GROUP",
+      "ticker": "UNH",
+      "asset_type": "Equity",
+      "weight": 0.024,
+      "location": "United States",
+      "company": "cusip:91324P102"
     },
     {
       "name": "RTX",
       "ticker": "RTX",
       "asset_type": "Equity",
-      "weight": 0.0239,
+      "weight": 0.0238,
       "location": "United States",
       "company": "cusip:75513E101"
     },
@@ -105,23 +113,15 @@
       "name": "CROWDSTRIKE HOLDINGS CLASS A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0233,
+      "weight": 0.0222,
       "location": "United States",
       "company": "cusip:22788C105"
-    },
-    {
-      "name": "UNITEDHEALTH GROUP",
-      "ticker": "UNH",
-      "asset_type": "Equity",
-      "weight": 0.0231,
-      "location": "United States",
-      "company": "cusip:91324P102"
     },
     {
       "name": "LINDE PLC",
       "ticker": "LIN",
       "asset_type": "Equity",
-      "weight": 0.0214,
+      "weight": 0.0213,
       "location": "United States",
       "company": "name:linde@united states"
     },
@@ -129,65 +129,57 @@
       "name": "TESLA INC",
       "ticker": "TSLA",
       "asset_type": "Equity",
-      "weight": 0.0205,
+      "weight": 0.0192,
       "location": "United States",
       "company": "cusip:88160R101"
-    },
-    {
-      "name": "META PLATFORMS CLASS A",
-      "ticker": "META",
-      "asset_type": "Equity",
-      "weight": 0.0187,
-      "location": "United States",
-      "company": "cusip:30303M102"
     },
     {
       "name": "AMGEN INC",
       "ticker": "AMGN",
       "asset_type": "Equity",
-      "weight": 0.0185,
+      "weight": 0.0186,
       "location": "United States",
       "company": "cusip:031162100"
-    },
-    {
-      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
-      "ticker": "SPCX",
-      "asset_type": "Equity",
-      "weight": 0.0181,
-      "location": "United States",
-      "company": "name:space exploration technologies cor@united states"
     },
     {
       "name": "MCDONALDS CORP",
       "ticker": "MCD",
       "asset_type": "Equity",
-      "weight": 0.0176,
+      "weight": 0.0179,
       "location": "United States",
       "company": "name:mcdonalds@united states"
+    },
+    {
+      "name": "META PLATFORMS CLASS A",
+      "ticker": "META",
+      "asset_type": "Equity",
+      "weight": 0.0178,
+      "location": "United States",
+      "company": "cusip:30303M102"
     },
     {
       "name": "PEPSICO",
       "ticker": "PEP",
       "asset_type": "Equity",
-      "weight": 0.0172,
+      "weight": 0.0176,
       "location": "United States",
       "company": "name:pepsico@united states"
+    },
+    {
+      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.017,
+      "location": "United States",
+      "company": "name:space exploration technologies cor@united states"
     },
     {
       "name": "GILEAD SCIENCES",
       "ticker": "GILD",
       "asset_type": "Equity",
-      "weight": 0.0159,
+      "weight": 0.0161,
       "location": "United States",
       "company": "cusip:375558103"
-    },
-    {
-      "name": "ALPHABET CLASS A",
-      "ticker": "GOOGL",
-      "asset_type": "Equity",
-      "weight": 0.0156,
-      "location": "United States",
-      "company": "cusip:02079K107"
     },
     {
       "name": "WELLTOWER",
@@ -198,10 +190,18 @@
       "company": "name:welltower@united states"
     },
     {
+      "name": "ALPHABET CLASS A",
+      "ticker": "GOOGL",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "location": "United States",
+      "company": "cusip:02079K107"
+    },
+    {
       "name": "BLACKROCK",
       "ticker": "BLK",
       "asset_type": "Equity",
-      "weight": 0.0144,
+      "weight": 0.0142,
       "location": "United States",
       "company": "name:blackrock@united states"
     },
@@ -209,7 +209,7 @@
       "name": "TJX",
       "ticker": "TJX",
       "asset_type": "Equity",
-      "weight": 0.0138,
+      "weight": 0.014,
       "location": "United States",
       "company": "name:tjx@united states"
     },
@@ -217,23 +217,15 @@
       "name": "PFIZER",
       "ticker": "PFE",
       "asset_type": "Equity",
-      "weight": 0.0125,
+      "weight": 0.0126,
       "location": "United States",
       "company": "name:pfizer@united states"
-    },
-    {
-      "name": "EATON PLC",
-      "ticker": "ETN",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "location": "United States",
-      "company": "name:eaton@united states"
     },
     {
       "name": "LOWES COMPANIES INC",
       "ticker": "LOW",
       "asset_type": "Equity",
-      "weight": 0.0109,
+      "weight": 0.0111,
       "location": "United States",
       "company": "name:lowes companies@united states"
     },
@@ -246,6 +238,14 @@
       "company": "name:starbucks@united states"
     },
     {
+      "name": "EATON PLC",
+      "ticker": "ETN",
+      "asset_type": "Equity",
+      "weight": 0.0106,
+      "location": "United States",
+      "company": "name:eaton@united states"
+    },
+    {
       "name": "LOCKHEED MARTIN",
       "ticker": "LMT",
       "asset_type": "Equity",
@@ -254,26 +254,26 @@
       "company": "cusip:539830109"
     },
     {
-      "name": "PARKER-HANNIFIN",
-      "ticker": "PH",
-      "asset_type": "Equity",
-      "weight": 0.0099,
-      "location": "United States",
-      "company": "cusip:701094104"
-    },
-    {
       "name": "BRISTOL MYERS SQUIBB",
       "ticker": "BMY",
       "asset_type": "Equity",
-      "weight": 0.0095,
+      "weight": 0.0097,
       "location": "United States",
       "company": "cusip:110122108"
+    },
+    {
+      "name": "PARKER-HANNIFIN",
+      "ticker": "PH",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "location": "United States",
+      "company": "cusip:701094104"
     },
     {
       "name": "CLOUDFLARE CLASS A",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.0094,
+      "weight": 0.0087,
       "location": "United States",
       "company": "cusip:18915M107"
     },
@@ -281,39 +281,15 @@
       "name": "MARRIOTT INTERNATIONAL CLASS A",
       "ticker": "MAR",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0079,
       "location": "United States",
       "company": "name:marriott international@united states"
-    },
-    {
-      "name": "SNOWFLAKE",
-      "ticker": "SNOW",
-      "asset_type": "Equity",
-      "weight": 0.0079,
-      "location": "United States",
-      "company": "cusip:833445109"
-    },
-    {
-      "name": "FORTINET",
-      "ticker": "FTNT",
-      "asset_type": "Equity",
-      "weight": 0.0079,
-      "location": "United States",
-      "company": "cusip:34959E109"
-    },
-    {
-      "name": "EMERSON ELECTRIC",
-      "ticker": "EMR",
-      "asset_type": "Equity",
-      "weight": 0.0078,
-      "location": "United States",
-      "company": "cusip:291011104"
     },
     {
       "name": "GENERAL DYNAMICS CORP",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.0077,
       "location": "United States",
       "company": "cusip:369550108"
     },
@@ -321,25 +297,57 @@
       "name": "MONDELEZ INTERNATIONAL CLASS A",
       "ticker": "MDLZ",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0077,
       "location": "United States",
       "company": "name:mondelez international@united states"
     },
     {
-      "name": "HILTON WORLDWIDE HOLDINGS",
-      "ticker": "HLT",
+      "name": "SNOWFLAKE",
+      "ticker": "SNOW",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "location": "United States",
+      "company": "cusip:833445109"
+    },
+    {
+      "name": "FORTINET",
+      "ticker": "FTNT",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "location": "United States",
+      "company": "cusip:34959E109"
+    },
+    {
+      "name": "EMERSON ELECTRIC",
+      "ticker": "EMR",
+      "asset_type": "Equity",
+      "weight": 0.0075,
+      "location": "United States",
+      "company": "cusip:291011104"
+    },
+    {
+      "name": "COLGATE-PALMOLIVE",
+      "ticker": "CL",
       "asset_type": "Equity",
       "weight": 0.0072,
       "location": "United States",
-      "company": "name:hilton worldwide holdings@united states"
+      "company": "name:colgate palmolive@united states"
     },
     {
       "name": "NORTHROP GRUMMAN CORP",
       "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0072,
+      "weight": 0.0071,
       "location": "United States",
       "company": "cusip:666807102"
+    },
+    {
+      "name": "HILTON WORLDWIDE HOLDINGS",
+      "ticker": "HLT",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "location": "United States",
+      "company": "name:hilton worldwide holdings@united states"
     },
     {
       "name": "ILLINOIS TOOL INC",
@@ -353,33 +361,25 @@
       "name": "REGENERON PHARMACEUTICALS",
       "ticker": "REGN",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0071,
       "location": "United States",
       "company": "cusip:75886F107"
-    },
-    {
-      "name": "COLGATE-PALMOLIVE",
-      "ticker": "CL",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "location": "United States",
-      "company": "name:colgate palmolive@united states"
-    },
-    {
-      "name": "ROYAL CARIBBEAN GROUP",
-      "ticker": "RCL",
-      "asset_type": "Equity",
-      "weight": 0.0068,
-      "location": "United States",
-      "company": "name:royal caribbean group@united states"
     },
     {
       "name": "ECOLAB",
       "ticker": "ECL",
       "asset_type": "Equity",
-      "weight": 0.0067,
+      "weight": 0.0068,
       "location": "United States",
       "company": "cusip:278865100"
+    },
+    {
+      "name": "ROYAL CARIBBEAN GROUP",
+      "ticker": "RCL",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "location": "United States",
+      "company": "name:royal caribbean group@united states"
     },
     {
       "name": "TARGET CORP",
@@ -390,14 +390,6 @@
       "company": "name:target@united states"
     },
     {
-      "name": "HONEYWELL INTERNATIONAL INC",
-      "ticker": "HON",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "location": "United States",
-      "company": "cusip:438516205"
-    },
-    {
       "name": "AIRBNB CLASS A",
       "ticker": "ABNB",
       "asset_type": "Equity",
@@ -406,10 +398,18 @@
       "company": "cusip:009066101"
     },
     {
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "ticker": "HON",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "location": "United States",
+      "company": "cusip:438516205"
+    },
+    {
       "name": "AIR PRODUCTS AND CHEMICALS",
       "ticker": "APD",
       "asset_type": "Equity",
-      "weight": 0.0062,
+      "weight": 0.0061,
       "location": "United States",
       "company": "name:air products and chemicals@united states"
     },
@@ -417,23 +417,15 @@
       "name": "ROSS STORES INC",
       "ticker": "ROST",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.006,
       "location": "United States",
       "company": "name:ross stores@united states"
-    },
-    {
-      "name": "VERTIV HOLDINGS CLASS A",
-      "ticker": "VRT",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "location": "United States",
-      "company": "cusip:92537N108"
     },
     {
       "name": "KIMBERLY CLARK",
       "ticker": "KMB",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0058,
       "location": "United States",
       "company": "name:kimberly clark@united states"
     },
@@ -454,10 +446,18 @@
       "company": "cusip:60770K107"
     },
     {
+      "name": "VERTIV HOLDINGS CLASS A",
+      "ticker": "VRT",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "location": "United States",
+      "company": "cusip:92537N108"
+    },
+    {
       "name": "AMETEK INC",
       "ticker": "AME",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0046,
       "location": "United States",
       "company": "cusip:031100100"
     },
@@ -470,26 +470,26 @@
       "company": "cusip:502431109"
     },
     {
-      "name": "CHIPOTLE MEXICAN GRILL",
-      "ticker": "CMG",
-      "asset_type": "Equity",
-      "weight": 0.0042,
-      "location": "United States",
-      "company": "name:chipotle mexican grill@united states"
-    },
-    {
       "name": "KEURIG DR PEPPER INC",
       "ticker": "KDP",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0041,
       "location": "United States",
       "company": "name:keurig dr pepper@united states"
+    },
+    {
+      "name": "CHIPOTLE MEXICAN GRILL",
+      "ticker": "CMG",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "location": "United States",
+      "company": "name:chipotle mexican grill@united states"
     },
     {
       "name": "YUM BRANDS",
       "ticker": "YUM",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0039,
       "location": "United States",
       "company": "name:yum brands@united states"
     },
@@ -497,7 +497,7 @@
       "name": "ROCKWELL AUTOMATION INC",
       "ticker": "ROK",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0036,
       "location": "United States",
       "company": "cusip:773903109"
     },
@@ -510,14 +510,6 @@
       "company": "name:kroger@united states"
     },
     {
-      "name": "CARNIVAL CORP LTD",
-      "ticker": "CCL",
-      "asset_type": "Equity",
-      "weight": 0.0032,
-      "location": "United States",
-      "company": "name:carnival@united states"
-    },
-    {
       "name": "VULCAN MATERIALS",
       "ticker": "VMC",
       "asset_type": "Equity",
@@ -526,12 +518,12 @@
       "company": "name:vulcan materials@united states"
     },
     {
-      "name": "OLD DOMINION FREIGHT LINE",
-      "ticker": "ODFL",
+      "name": "CARNIVAL CORP LTD",
+      "ticker": "CCL",
       "asset_type": "Equity",
-      "weight": 0.003,
+      "weight": 0.0031,
       "location": "United States",
-      "company": "name:old dominion freight line@united states"
+      "company": "name:carnival@united states"
     },
     {
       "name": "GE HEALTHCARE TECHNOLOGIES",
@@ -542,20 +534,20 @@
       "company": "name:ge healthcare technologies@united states"
     },
     {
+      "name": "OLD DOMINION FREIGHT LINE",
+      "ticker": "ODFL",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "location": "United States",
+      "company": "name:old dominion freight line@united states"
+    },
+    {
       "name": "BIOGEN",
       "ticker": "BIIB",
       "asset_type": "Equity",
-      "weight": 0.0028,
+      "weight": 0.0029,
       "location": "United States",
       "company": "cusip:09062X103"
-    },
-    {
-      "name": "INGERSOLL RAND",
-      "ticker": "IR",
-      "asset_type": "Equity",
-      "weight": 0.0028,
-      "location": "United States",
-      "company": "cusip:45687V106"
     },
     {
       "name": "MARTIN MARIETTA MATERIALS",
@@ -564,6 +556,14 @@
       "weight": 0.0028,
       "location": "United States",
       "company": "name:martin marietta materials@united states"
+    },
+    {
+      "name": "INGERSOLL RAND",
+      "ticker": "IR",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "location": "United States",
+      "company": "cusip:45687V106"
     },
     {
       "name": "MONGODB CLASS A",
@@ -577,7 +577,7 @@
       "name": "DOLLAR GENERAL CORP",
       "ticker": "DG",
       "asset_type": "Equity",
-      "weight": 0.0025,
+      "weight": 0.0024,
       "location": "United States",
       "company": "name:dollar general@united states"
     },
@@ -585,7 +585,7 @@
       "name": "CHURCH AND DWIGHT INC",
       "ticker": "CHD",
       "asset_type": "Equity",
-      "weight": 0.0023,
+      "weight": 0.0024,
       "location": "United States",
       "company": "name:church and dwight@united states"
     },
@@ -596,6 +596,14 @@
       "weight": 0.0023,
       "location": "United States",
       "company": "name:ulta beauty@united states"
+    },
+    {
+      "name": "HERSHEY FOODS",
+      "ticker": "HSY",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "location": "United States",
+      "company": "name:hershey foods@united states"
     },
     {
       "name": "WEST PHARMACEUTICAL SERVICES",
@@ -612,14 +620,6 @@
       "weight": 0.0022,
       "location": "United States",
       "company": "name:tapestry@united states"
-    },
-    {
-      "name": "HERSHEY FOODS",
-      "ticker": "HSY",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "location": "United States",
-      "company": "name:hershey foods@united states"
     },
     {
       "name": "DOLLAR TREE INC",
@@ -649,7 +649,7 @@
       "name": "CONSTELLATION BRANDS CLASS A",
       "ticker": "STZ",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "location": "United States",
       "company": "name:constellation brands@united states"
     },
@@ -657,17 +657,9 @@
       "name": "HUBBELL INC",
       "ticker": "HUBB",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.0018,
       "location": "United States",
       "company": "cusip:443510607"
-    },
-    {
-      "name": "ZOOM COMMUNICATIONS CLASS A",
-      "ticker": "ZM",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "location": "United States",
-      "company": "cusip:98980L101"
     },
     {
       "name": "COUPANG CLASS A",
@@ -676,6 +668,14 @@
       "weight": 0.0017,
       "location": "United States",
       "company": "cusip:22266T109"
+    },
+    {
+      "name": "ZOOM COMMUNICATIONS CLASS A",
+      "ticker": "ZM",
+      "asset_type": "Equity",
+      "weight": 0.0017,
+      "location": "United States",
+      "company": "cusip:98980L101"
     },
     {
       "name": "TRACTOR SUPPLY",
@@ -742,14 +742,6 @@
       "company": "name:guidewire software@united states"
     },
     {
-      "name": "LULULEMON ATHLETICA",
-      "ticker": "LULU",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "location": "United States",
-      "company": "name:lululemon athletica@united states"
-    },
-    {
       "name": "MCCORMICK & CO NON-VOTING",
       "ticker": "MKC",
       "asset_type": "Equity",
@@ -758,12 +750,12 @@
       "company": "name:mccormick co non voting@united states"
     },
     {
-      "name": "RIVIAN AUTOMOTIVE CLASS A",
-      "ticker": "RIVN",
+      "name": "LULULEMON ATHLETICA",
+      "ticker": "LULU",
       "asset_type": "Equity",
-      "weight": 0.001,
+      "weight": 0.0011,
       "location": "United States",
-      "company": "cusip:76954A103"
+      "company": "name:lululemon athletica@united states"
     },
     {
       "name": "BIO TECHNE",
@@ -772,6 +764,14 @@
       "weight": 0.0009,
       "location": "United States",
       "company": "cusip:09073M104"
+    },
+    {
+      "name": "RIVIAN AUTOMOTIVE CLASS A",
+      "ticker": "RIVN",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "location": "United States",
+      "company": "cusip:76954A103"
     },
     {
       "name": "REPLIGEN",

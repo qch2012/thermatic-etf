@@ -1,7 +1,7 @@
 {
   "ticker": "IDNA",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:42.361480+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:22:55.936479+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/308878/ishares-genomics-immunology-and-healthcare-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "MODERNA",
       "ticker": "MRNA",
       "asset_type": "Equity",
-      "weight": 0.13,
+      "weight": 0.1298,
       "location": "United States",
       "company": "cusip:60770K107"
     },
@@ -17,7 +17,7 @@
       "name": "GENMAB",
       "ticker": "GMAB",
       "asset_type": "Equity",
-      "weight": 0.0645,
+      "weight": 0.0653,
       "location": "Denmark",
       "company": "cusip:372303206"
     },
@@ -25,7 +25,7 @@
       "name": "TWIST BIOSCIENCE",
       "ticker": "TWST",
       "asset_type": "Equity",
-      "weight": 0.0499,
+      "weight": 0.0471,
       "location": "United States",
       "company": "cusip:90184D100"
     },
@@ -33,31 +33,31 @@
       "name": "REGENERON PHARMACEUTICALS",
       "ticker": "REGN",
       "asset_type": "Equity",
-      "weight": 0.045,
+      "weight": 0.0457,
       "location": "United States",
       "company": "cusip:75886F107"
-    },
-    {
-      "name": "BAYER AG",
-      "ticker": "BAYN",
-      "asset_type": "Equity",
-      "weight": 0.0445,
-      "location": "Germany",
-      "company": "name:bayer@germany"
     },
     {
       "name": "TAKEDA PHARMACEUTICAL",
       "ticker": "4502",
       "asset_type": "Equity",
-      "weight": 0.0437,
+      "weight": 0.0451,
       "location": "Japan",
       "company": "name:takeda pharmaceutical@japan"
+    },
+    {
+      "name": "BAYER AG",
+      "ticker": "BAYN",
+      "asset_type": "Equity",
+      "weight": 0.0443,
+      "location": "Germany",
+      "company": "name:bayer@germany"
     },
     {
       "name": "EXELIXIS INC",
       "ticker": "EXEL",
       "asset_type": "Equity",
-      "weight": 0.0386,
+      "weight": 0.0387,
       "location": "United States",
       "company": "cusip:30161Q104"
     },
@@ -65,7 +65,7 @@
       "name": "VERTEX PHARMACEUTICALS",
       "ticker": "VRTX",
       "asset_type": "Equity",
-      "weight": 0.0361,
+      "weight": 0.0364,
       "location": "United States",
       "company": "cusip:92532F100"
     },
@@ -73,7 +73,7 @@
       "name": "ROCHE PS PAR AG",
       "ticker": "ROP",
       "asset_type": "Equity",
-      "weight": 0.0356,
+      "weight": 0.0362,
       "location": "Switzerland",
       "company": "name:roche ps par@switzerland"
     },
@@ -81,7 +81,7 @@
       "name": "INCYTE CORP",
       "ticker": "INCY",
       "asset_type": "Equity",
-      "weight": 0.035,
+      "weight": 0.0353,
       "location": "United States",
       "company": "cusip:45337C102"
     },
@@ -89,7 +89,7 @@
       "name": "MERCK & CO INC",
       "ticker": "MRK",
       "asset_type": "Equity",
-      "weight": 0.034,
+      "weight": 0.035,
       "location": "United States",
       "company": "cusip:58933Y105"
     },
@@ -97,7 +97,7 @@
       "name": "REVOLUTION MEDICINES",
       "ticker": "RVMD",
       "asset_type": "Equity",
-      "weight": 0.0331,
+      "weight": 0.0341,
       "location": "United States",
       "company": "cusip:76155X100"
     },
@@ -105,7 +105,7 @@
       "name": "SANOFI SA",
       "ticker": "SAN",
       "asset_type": "Equity",
-      "weight": 0.0316,
+      "weight": 0.0327,
       "location": "France",
       "company": "name:sanofi@france"
     },
@@ -113,7 +113,7 @@
       "name": "IPSEN SA",
       "ticker": "IPN",
       "asset_type": "Equity",
-      "weight": 0.0303,
+      "weight": 0.0307,
       "location": "France",
       "company": "name:ipsen@france"
     },
@@ -121,7 +121,7 @@
       "name": "GLAXOSMITHKLINE",
       "ticker": "GSK",
       "asset_type": "Equity",
-      "weight": 0.0286,
+      "weight": 0.0294,
       "location": "United Kingdom",
       "company": "name:glaxosmithkline@united kingdom"
     },
@@ -129,7 +129,7 @@
       "name": "BIONTECH SE ADR",
       "ticker": "BNTX",
       "asset_type": "Equity",
-      "weight": 0.0286,
+      "weight": 0.029,
       "location": "Germany",
       "company": "cusip:09075V102"
     },
@@ -137,31 +137,31 @@
       "name": "IOVANCE BIOTHERAPEUTICS INC",
       "ticker": "IOVA",
       "asset_type": "Equity",
-      "weight": 0.0276,
+      "weight": 0.0265,
       "location": "United States",
       "company": "cusip:462260100"
-    },
-    {
-      "name": "IMMUNITYBIO",
-      "ticker": "IBRX",
-      "asset_type": "Equity",
-      "weight": 0.024,
-      "location": "United States",
-      "company": "cusip:45256X103"
     },
     {
       "name": "ABCELLERA BIOLOGICS",
       "ticker": "ABCL",
       "asset_type": "Equity",
-      "weight": 0.0239,
+      "weight": 0.0225,
       "location": "Canada",
       "company": "name:abcellera biologics@canada"
+    },
+    {
+      "name": "IMMUNITYBIO",
+      "ticker": "IBRX",
+      "asset_type": "Equity",
+      "weight": 0.0224,
+      "location": "United States",
+      "company": "cusip:45256X103"
     },
     {
       "name": "CARIS LIFE SCIENCES",
       "ticker": "CAI",
       "asset_type": "Equity",
-      "weight": 0.0221,
+      "weight": 0.0213,
       "location": "United States",
       "company": "name:caris life sciences@united states"
     },
@@ -169,7 +169,7 @@
       "name": "IDEAYA BIOSCIENCES",
       "ticker": "IDYA",
       "asset_type": "Equity",
-      "weight": 0.0211,
+      "weight": 0.021,
       "location": "United States",
       "company": "cusip:45166A102"
     },
@@ -177,7 +177,7 @@
       "name": "ONO PHARMACEUTICAL",
       "ticker": "4528",
       "asset_type": "Equity",
-      "weight": 0.0171,
+      "weight": 0.0173,
       "location": "Japan",
       "company": "name:ono pharmaceutical@japan"
     },
@@ -185,7 +185,7 @@
       "name": "ARCUS BIOSCIENCES",
       "ticker": "RCUS",
       "asset_type": "Equity",
-      "weight": 0.0128,
+      "weight": 0.0129,
       "location": "United States",
       "company": "cusip:03969F109"
     },
@@ -193,7 +193,7 @@
       "name": "NOVAVAX",
       "ticker": "NVAX",
       "asset_type": "Equity",
-      "weight": 0.0117,
+      "weight": 0.0116,
       "location": "United States",
       "company": "cusip:670002401"
     },
@@ -201,7 +201,7 @@
       "name": "VIR BIOTECHNOLOGY",
       "ticker": "VIR",
       "asset_type": "Equity",
-      "weight": 0.0115,
+      "weight": 0.0111,
       "location": "United States",
       "company": "cusip:92764N102"
     },
@@ -209,7 +209,7 @@
       "name": "CRISPR THERAPEUTICS AG",
       "ticker": "CRSP",
       "asset_type": "Equity",
-      "weight": 0.0108,
+      "weight": 0.0111,
       "location": "United States",
       "company": "cusip:H17182108"
     },
@@ -217,7 +217,7 @@
       "name": "NUVATION BIO CLASS A",
       "ticker": "NUVB",
       "asset_type": "Equity",
-      "weight": 0.0092,
+      "weight": 0.0093,
       "location": "United States",
       "company": "cusip:67080N101"
     },
@@ -257,7 +257,7 @@
       "name": "CORVUS PHARMACEUTICALS",
       "ticker": "CRVS",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.006,
       "location": "United States",
       "company": "cusip:221015100"
     },
@@ -265,7 +265,7 @@
       "name": "KURA ONCOLOGY",
       "ticker": "KURA",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.0059,
       "location": "United States",
       "company": "cusip:50127T109"
     },
@@ -281,7 +281,7 @@
       "name": "VERASTEM INC",
       "ticker": "VSTM",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0052,
       "location": "United States",
       "company": "cusip:92337C203"
     },
@@ -289,7 +289,7 @@
       "name": "PACIFIC BIOSCIENCES OF CALIFORNIA",
       "ticker": "PACB",
       "asset_type": "Equity",
-      "weight": 0.0049,
+      "weight": 0.0046,
       "location": "United States",
       "company": "name:pacific biosciences of california@united states"
     },
@@ -297,7 +297,7 @@
       "name": "ALVOTECH SA",
       "ticker": "ALVO",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0046,
       "location": "Iceland",
       "company": "name:alvotech@iceland"
     },
@@ -305,41 +305,41 @@
       "name": "GENFLEET THERAPEUTICS (SHANGHAI) I",
       "ticker": "2595",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0043,
       "location": "China",
       "company": "name:genfleet therapeutics shanghai@china"
-    },
-    {
-      "name": "VALNEVA",
-      "ticker": "VLA",
-      "asset_type": "Equity",
-      "weight": 0.0042,
-      "location": "France",
-      "company": "name:valneva@france"
     },
     {
       "name": "INTELLIA THERAPEUTICS",
       "ticker": "NTLA",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.0042,
       "location": "United States",
       "company": "cusip:45826J105"
     },
     {
-      "name": "GINKGO BIOWORKS HOLDINGS CLASS A",
-      "ticker": "DNA",
+      "name": "VALNEVA",
+      "ticker": "VLA",
       "asset_type": "Equity",
-      "weight": 0.0037,
-      "location": "United States",
-      "company": "cusip:37611X209"
+      "weight": 0.0041,
+      "location": "France",
+      "company": "name:valneva@france"
     },
     {
       "name": "CYTOMX THERAPEUTICS",
       "ticker": "CTMX",
       "asset_type": "Equity",
-      "weight": 0.0034,
+      "weight": 0.0035,
       "location": "United States",
       "company": "name:cytomx therapeutics@united states"
+    },
+    {
+      "name": "GINKGO BIOWORKS HOLDINGS CLASS A",
+      "ticker": "DNA",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "location": "United States",
+      "company": "cusip:37611X209"
     },
     {
       "name": "SHANGHAI HENLIUS BIOTECH H",
@@ -369,7 +369,7 @@
       "name": "OCUGEN",
       "ticker": "OCGN",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "location": "United States",
       "company": "cusip:67577C105"
     },
@@ -385,7 +385,7 @@
       "name": "BLK CSH FND TREASURY SL AGENCY",
       "ticker": "XTSLA",
       "asset_type": "Money Market",
-      "weight": 0.0009,
+      "weight": 0.001,
       "location": "United States",
       "company": null
     },
@@ -422,19 +422,19 @@
       "company": null
     },
     {
+      "name": "KRW CASH",
+      "ticker": "KRW",
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "location": "Korea (South)",
+      "company": null
+    },
+    {
       "name": "CHF CASH",
       "ticker": "CHF",
       "asset_type": "Cash",
       "weight": 0.0001,
       "location": "Switzerland",
-      "company": null
-    },
-    {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "United States",
       "company": null
     },
     {
@@ -454,11 +454,11 @@
       "company": null
     },
     {
-      "name": "KRW CASH",
-      "ticker": "KRW",
+      "name": "DKK CASH",
+      "ticker": "DKK",
       "asset_type": "Cash",
       "weight": 0.0,
-      "location": "Korea (South)",
+      "location": "Denmark",
       "company": null
     },
     {
@@ -470,11 +470,11 @@
       "company": null
     },
     {
-      "name": "DKK CASH",
-      "ticker": "DKK",
-      "asset_type": "Cash",
+      "name": "KRW/USD",
+      "ticker": "KRW",
+      "asset_type": "FX",
       "weight": 0.0,
-      "location": "Denmark",
+      "location": "United States",
       "company": null
     },
     {
@@ -498,6 +498,14 @@
       "ticker": "IXCZ6",
       "asset_type": "Futures",
       "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": -0.0003,
+      "location": "United States",
       "company": null
     }
   ]

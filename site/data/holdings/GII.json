@@ -1,7 +1,7 @@
 {
   "ticker": "GII",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:28:39.049865+00:00",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-24T06:22:53.533361+00:00",
   "stale": false,
   "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-gii.xlsx",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "TRANSURBAN GROUP",
       "ticker": "TCL",
       "asset_type": "Equity",
-      "weight": 0.05165218,
+      "weight": 0.05075172,
       "cusip": "620088906",
       "sedol": "6200882",
       "company": "cusip:620088906"
@@ -18,7 +18,7 @@
       "name": "AENA SME SA",
       "ticker": "AENA",
       "asset_type": "Equity",
-      "weight": 0.04997223,
+      "weight": 0.05041639,
       "cusip": "ACI2XYWJ4",
       "sedol": "BTMKJR0",
       "company": "cusip:ACI2XYWJ4"
@@ -27,7 +27,7 @@
       "name": "NEXTERA ENERGY INC",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.04875393,
+      "weight": 0.04909175,
       "cusip": "65339F101",
       "sedol": "2328915",
       "company": "cusip:65339F101"
@@ -36,7 +36,7 @@
       "name": "IBERDROLA SA",
       "ticker": "IBE",
       "asset_type": "Equity",
-      "weight": 0.0415603,
+      "weight": 0.04216952,
       "cusip": "B288C9908",
       "sedol": "B288C92",
       "company": "cusip:B288C9908"
@@ -45,7 +45,7 @@
       "name": "GRUPO AEROPORTUARIO PAC ADR",
       "ticker": "PAC",
       "asset_type": "Equity",
-      "weight": 0.0399954,
+      "weight": 0.03946999,
       "cusip": "400506101",
       "sedol": "B0YFC60",
       "company": "cusip:400506101"
@@ -54,7 +54,7 @@
       "name": "AUCKLAND INTL AIRPORT LTD",
       "ticker": "AIA",
       "asset_type": "Equity",
-      "weight": 0.03677251,
+      "weight": 0.03739247,
       "cusip": "BKX3XG902",
       "sedol": "BKX3XG2",
       "company": "cusip:BKX3XG902"
@@ -63,7 +63,7 @@
       "name": "ENBRIDGE INC",
       "ticker": "ENB",
       "asset_type": "Equity",
-      "weight": 0.03418428,
+      "weight": 0.03430414,
       "cusip": "29250N956",
       "sedol": "2466149",
       "company": "cusip:29250N956"
@@ -72,7 +72,7 @@
       "name": "SOUTHERN CO/THE",
       "ticker": "SO",
       "asset_type": "Equity",
-      "weight": 0.02993981,
+      "weight": 0.03021817,
       "cusip": "842587107",
       "sedol": "2829601",
       "company": "cusip:842587107"
@@ -81,7 +81,7 @@
       "name": "GETLINK SE",
       "ticker": "GET",
       "asset_type": "Equity",
-      "weight": 0.02930305,
+      "weight": 0.02933607,
       "cusip": "B292JQ905",
       "sedol": "B292JQ9",
       "company": "cusip:B292JQ905"
@@ -90,7 +90,7 @@
       "name": "DUKE ENERGY CORP",
       "ticker": "DUK",
       "asset_type": "Equity",
-      "weight": 0.02802952,
+      "weight": 0.02854105,
       "cusip": "26441C204",
       "sedol": "B7VD3F2",
       "company": "cusip:26441C204"
@@ -99,106 +99,106 @@
       "name": "WILLIAMS COS INC",
       "ticker": "WMB",
       "asset_type": "Equity",
-      "weight": 0.02698186,
+      "weight": 0.02652873,
       "cusip": "969457100",
       "sedol": "2967181",
       "company": "cusip:969457100"
     },
     {
-      "name": "CONSTELLATION ENERGY",
-      "ticker": "CEG",
-      "asset_type": "Equity",
-      "weight": 0.02316762,
-      "cusip": "21037T109",
-      "sedol": "BMH4FS1",
-      "company": "cusip:21037T109"
-    },
-    {
-      "name": "ADP",
-      "ticker": "ADP",
-      "asset_type": "Equity",
-      "weight": 0.02255327,
-      "cusip": "B164FY903",
-      "sedol": "B164FY1",
-      "company": "cusip:B164FY903"
-    },
-    {
       "name": "NATIONAL GRID PLC",
       "ticker": "NG.",
       "asset_type": "Equity",
-      "weight": 0.02234429,
+      "weight": 0.02280301,
       "cusip": "BDR05C901",
       "sedol": "BDR05C0",
       "company": "cusip:BDR05C901"
     },
     {
-      "name": "TC ENERGY CORP",
-      "ticker": "TRP",
+      "name": "ADP",
+      "ticker": "ADP",
       "asset_type": "Equity",
-      "weight": 0.02188472,
-      "cusip": "87807B909",
-      "sedol": "BJMY6G0",
-      "company": "cusip:87807B909"
+      "weight": 0.02211617,
+      "cusip": "B164FY903",
+      "sedol": "B164FY1",
+      "company": "cusip:B164FY903"
+    },
+    {
+      "name": "CONSTELLATION ENERGY",
+      "ticker": "CEG",
+      "asset_type": "Equity",
+      "weight": 0.02206444,
+      "cusip": "21037T109",
+      "sedol": "BMH4FS1",
+      "company": "cusip:21037T109"
     },
     {
       "name": "ENEL SPA",
       "ticker": "ENEL",
       "asset_type": "Equity",
-      "weight": 0.02179027,
+      "weight": 0.02194543,
       "cusip": "714456902",
       "sedol": "7144569",
       "company": "cusip:714456902"
     },
     {
+      "name": "TC ENERGY CORP",
+      "ticker": "TRP",
+      "asset_type": "Equity",
+      "weight": 0.02185949,
+      "cusip": "87807B909",
+      "sedol": "BJMY6G0",
+      "company": "cusip:87807B909"
+    },
+    {
       "name": "FLUGHAFEN ZURICH AG REG",
       "ticker": "FHZN",
       "asset_type": "Equity",
-      "weight": 0.02082308,
+      "weight": 0.02098632,
       "cusip": "976ULC906",
       "sedol": "BYQ8481",
       "company": "cusip:976ULC906"
     },
     {
-      "name": "TARGA RESOURCES CORP",
-      "ticker": "TRGP",
-      "asset_type": "Equity",
-      "weight": 0.02041832,
-      "cusip": "87612G101",
-      "sedol": "B55PZY3",
-      "company": "cusip:87612G101"
-    },
-    {
-      "name": "CHENIERE ENERGY INC",
-      "ticker": "LNG",
-      "asset_type": "Equity",
-      "weight": 0.02035581,
-      "cusip": "16411R208",
-      "sedol": "2654364",
-      "company": "cusip:16411R208"
-    },
-    {
-      "name": "KINDER MORGAN INC",
-      "ticker": "KMI",
-      "asset_type": "Equity",
-      "weight": 0.02032307,
-      "cusip": "49456B101",
-      "sedol": "B3NQ4P8",
-      "company": "cusip:49456B101"
-    },
-    {
       "name": "GRUPO AEROPORTUARIO SUR ADR",
       "ticker": "ASR",
       "asset_type": "Equity",
-      "weight": 0.01991527,
+      "weight": 0.02054958,
       "cusip": "40051E202",
       "sedol": "2639361",
       "company": "cusip:40051E202"
     },
     {
+      "name": "CHENIERE ENERGY INC",
+      "ticker": "LNG",
+      "asset_type": "Equity",
+      "weight": 0.02054344,
+      "cusip": "16411R208",
+      "sedol": "2654364",
+      "company": "cusip:16411R208"
+    },
+    {
+      "name": "TARGA RESOURCES CORP",
+      "ticker": "TRGP",
+      "asset_type": "Equity",
+      "weight": 0.0201286,
+      "cusip": "87612G101",
+      "sedol": "B55PZY3",
+      "company": "cusip:87612G101"
+    },
+    {
+      "name": "KINDER MORGAN INC",
+      "ticker": "KMI",
+      "asset_type": "Equity",
+      "weight": 0.02006481,
+      "cusip": "49456B101",
+      "sedol": "B3NQ4P8",
+      "company": "cusip:49456B101"
+    },
+    {
       "name": "AMERICAN ELECTRIC POWER",
       "ticker": "AEP",
       "asset_type": "Equity",
-      "weight": 0.01898665,
+      "weight": 0.01922222,
       "cusip": "025537101",
       "sedol": "2026242",
       "company": "cusip:025537101"
@@ -207,7 +207,7 @@
       "name": "ONEOK INC",
       "ticker": "OKE",
       "asset_type": "Equity",
-      "weight": 0.01819416,
+      "weight": 0.01793776,
       "cusip": "30609A109",
       "sedol": "BWJJFW8",
       "company": "cusip:30609A109"
@@ -216,7 +216,7 @@
       "name": "JAPAN AIRPORT TERMINAL CO",
       "ticker": "9706",
       "asset_type": "Equity",
-      "weight": 0.01722222,
+      "weight": 0.01722985,
       "cusip": "647217009",
       "sedol": "6472175",
       "company": "cusip:647217009"
@@ -225,7 +225,7 @@
       "name": "DOMINION ENERGY INC",
       "ticker": "D",
       "asset_type": "Equity",
-      "weight": 0.01635435,
+      "weight": 0.01644297,
       "cusip": "25746U109",
       "sedol": "2542049",
       "company": "cusip:25746U109"
@@ -234,7 +234,7 @@
       "name": "GRUPO AEROPORTUARIO CEN ADR",
       "ticker": "OMAB",
       "asset_type": "Equity",
-      "weight": 0.01586774,
+      "weight": 0.01573433,
       "cusip": "400501102",
       "sedol": "B1JB4F3",
       "company": "cusip:400501102"
@@ -243,7 +243,7 @@
       "name": "ENGIE",
       "ticker": "ENGI",
       "asset_type": "Equity",
-      "weight": 0.01404018,
+      "weight": 0.01414325,
       "cusip": "B0C2CQ902",
       "sedol": "B0C2CQ3",
       "company": "cusip:B0C2CQ902"
@@ -252,7 +252,7 @@
       "name": "SEMPRA",
       "ticker": "SRE",
       "asset_type": "Equity",
-      "weight": 0.01392019,
+      "weight": 0.01404977,
       "cusip": "816851109",
       "sedol": "2138158",
       "company": "cusip:816851109"
@@ -261,7 +261,7 @@
       "name": "XCEL ENERGY INC",
       "ticker": "XEL",
       "asset_type": "Equity",
-      "weight": 0.0138472,
+      "weight": 0.01397176,
       "cusip": "98389B100",
       "sedol": "2614807",
       "company": "cusip:98389B100"
@@ -270,7 +270,7 @@
       "name": "ENTERGY CORP",
       "ticker": "ETR",
       "asset_type": "Equity",
-      "weight": 0.01382794,
+      "weight": 0.01374348,
       "cusip": "29364G103",
       "sedol": "2317087",
       "company": "cusip:29364G103"
@@ -279,7 +279,7 @@
       "name": "EXELON CORP",
       "ticker": "EXC",
       "asset_type": "Equity",
-      "weight": 0.01308446,
+      "weight": 0.01331035,
       "cusip": "30161N101",
       "sedol": "2670519",
       "company": "cusip:30161N101"
@@ -288,7 +288,7 @@
       "name": "E.ON SE",
       "ticker": "EOAN",
       "asset_type": "Equity",
-      "weight": 0.01259073,
+      "weight": 0.01279553,
       "cusip": "494290901",
       "sedol": "4942904",
       "company": "cusip:494290901"
@@ -297,7 +297,7 @@
       "name": "CONSOLIDATED EDISON INC",
       "ticker": "ED",
       "asset_type": "Equity",
-      "weight": 0.01229362,
+      "weight": 0.01245742,
       "cusip": "209115104",
       "sedol": "2216850",
       "company": "cusip:209115104"
@@ -306,61 +306,61 @@
       "name": "RWE AG",
       "ticker": "RWE",
       "asset_type": "Equity",
-      "weight": 0.01202988,
+      "weight": 0.01184833,
       "cusip": "476896907",
       "sedol": "4768962",
       "company": "cusip:476896907"
     },
     {
-      "name": "SATS LTD",
-      "ticker": "S58",
-      "asset_type": "Equity",
-      "weight": 0.01197768,
-      "cusip": "624358909",
-      "sedol": "6243586",
-      "company": "cusip:624358909"
-    },
-    {
       "name": "CHINA MERCHANTS PORT HOLDING",
       "ticker": "144",
       "asset_type": "Equity",
-      "weight": 0.01138776,
+      "weight": 0.01150997,
       "cusip": "641613005",
       "sedol": "6416139",
       "company": "cusip:641613005"
     },
     {
+      "name": "SATS LTD",
+      "ticker": "S58",
+      "asset_type": "Equity",
+      "weight": 0.01148793,
+      "cusip": "624358909",
+      "sedol": "6243586",
+      "company": "cusip:624358909"
+    },
+    {
       "name": "SSE PLC",
       "ticker": "SSE",
       "asset_type": "Equity",
-      "weight": 0.01132555,
+      "weight": 0.01139105,
       "cusip": "079087003",
       "sedol": "0790873",
       "company": "cusip:079087003"
     },
     {
-      "name": "VISTRA CORP",
-      "ticker": "VST",
-      "asset_type": "Equity",
-      "weight": 0.01087967,
-      "cusip": "92840M102",
-      "sedol": "BZ8VJQ8",
-      "company": "cusip:92840M102"
-    },
-    {
       "name": "PUBLIC SERVICE ENTERPRISE GP",
       "ticker": "PEG",
       "asset_type": "Equity",
-      "weight": 0.01025683,
+      "weight": 0.0103406,
       "cusip": "744573106",
       "sedol": "2707677",
       "company": "cusip:744573106"
     },
     {
+      "name": "VISTRA CORP",
+      "ticker": "VST",
+      "asset_type": "Equity",
+      "weight": 0.01021115,
+      "cusip": "92840M102",
+      "sedol": "BZ8VJQ8",
+      "company": "cusip:92840M102"
+    },
+    {
       "name": "FRAPORT AG FRANKFURT AIRPORT",
       "ticker": "FRA",
       "asset_type": "Equity",
-      "weight": 0.0097883,
+      "weight": 0.00955729,
       "cusip": "710755901",
       "sedol": "7107551",
       "company": "cusip:710755901"
@@ -369,7 +369,7 @@
       "name": "PEMBINA PIPELINE CORP",
       "ticker": "PPL",
       "asset_type": "Equity",
-      "weight": 0.00944156,
+      "weight": 0.00941565,
       "cusip": "706327954",
       "sedol": "B4PT2P8",
       "company": "cusip:706327954"
@@ -378,7 +378,7 @@
       "name": "DALRYMPLE BAY INFRASTRUCTURE",
       "ticker": "DBI",
       "asset_type": "Equity",
-      "weight": 0.00779928,
+      "weight": 0.00777379,
       "cusip": "BNM6Z5903",
       "sedol": "BNM6Z56",
       "company": "cusip:BNM6Z5903"
@@ -387,7 +387,7 @@
       "name": "JIANGSU EXPRESS CO LTD H",
       "ticker": "177",
       "asset_type": "Equity",
-      "weight": 0.00720132,
+      "weight": 0.00721879,
       "cusip": "600550909",
       "sedol": "6005504",
       "company": "cusip:600550909"
@@ -396,7 +396,7 @@
       "name": "ENAV SPA",
       "ticker": "ENAV",
       "asset_type": "Equity",
-      "weight": 0.00643978,
+      "weight": 0.00648721,
       "cusip": "ACI0NKS62",
       "sedol": "BD0CRV6",
       "company": "cusip:ACI0NKS62"
@@ -405,34 +405,34 @@
       "name": "ZHEJIANG EXPRESSWAY CO H",
       "ticker": "576",
       "asset_type": "Equity",
-      "weight": 0.00567394,
+      "weight": 0.00569972,
       "cusip": "699076907",
       "sedol": "6990763",
       "company": "cusip:699076907"
     },
     {
-      "name": "ATLAS ARTERIA",
-      "ticker": "ALX",
-      "asset_type": "Equity",
-      "weight": 0.00508845,
-      "cusip": "ACI1308Z4",
-      "sedol": "BZ03TZ1",
-      "company": "cusip:ACI1308Z4"
-    },
-    {
       "name": "ATHENS INTERNATIONAL AIRPORT",
       "ticker": "AIA",
       "asset_type": "Equity",
-      "weight": 0.00494419,
+      "weight": 0.00517134,
       "cusip": "ACI2MMYM3",
       "sedol": "BPYS8N3",
       "company": "cusip:ACI2MMYM3"
     },
     {
+      "name": "ATLAS ARTERIA",
+      "ticker": "ALX",
+      "asset_type": "Equity",
+      "weight": 0.00507827,
+      "cusip": "ACI1308Z4",
+      "sedol": "BZ03TZ1",
+      "company": "cusip:ACI1308Z4"
+    },
+    {
       "name": "HUTCHISON PORT HOLDINGS TR U",
       "ticker": "NS8U",
       "asset_type": "Equity",
-      "weight": 0.00453248,
+      "weight": 0.00458248,
       "cusip": "B56ZM7906",
       "sedol": "B56ZM74",
       "company": "cusip:B56ZM7906"
@@ -441,7 +441,7 @@
       "name": "COSCO SHIPPING PORTS LTD",
       "ticker": "1199",
       "asset_type": "Equity",
-      "weight": 0.00438016,
+      "weight": 0.00434772,
       "cusip": "635425903",
       "sedol": "6354251",
       "company": "cusip:635425903"
@@ -450,7 +450,7 @@
       "name": "WESTSHORE TERMINALS INVESTME",
       "ticker": "WTE",
       "asset_type": "Equity",
-      "weight": 0.00426249,
+      "weight": 0.00421957,
       "cusip": "96145A960",
       "sedol": "B8KB138",
       "company": "cusip:96145A960"
@@ -459,7 +459,7 @@
       "name": "DT MIDSTREAM INC",
       "ticker": "DTM",
       "asset_type": "Equity",
-      "weight": 0.00388811,
+      "weight": 0.00379449,
       "cusip": "23345M107",
       "sedol": "BN7L880",
       "company": "cusip:23345M107"
@@ -468,7 +468,7 @@
       "name": "SHENZHEN INTL HOLDINGS",
       "ticker": "152",
       "asset_type": "Equity",
-      "weight": 0.00347485,
+      "weight": 0.00349667,
       "cusip": "BJVBTY905",
       "sedol": "BJVBTY1",
       "company": "cusip:BJVBTY905"
@@ -477,7 +477,7 @@
       "name": "KEYERA CORP",
       "ticker": "KEY",
       "asset_type": "Equity",
-      "weight": 0.0034695,
+      "weight": 0.00344503,
       "cusip": "493271951",
       "sedol": "B3SGMV5",
       "company": "cusip:493271951"
@@ -486,7 +486,7 @@
       "name": "ANHUI EXPRESSWAY CO LTD H",
       "ticker": "995",
       "asset_type": "Equity",
-      "weight": 0.00317391,
+      "weight": 0.00311064,
       "cusip": "604518902",
       "sedol": "6045180",
       "company": "cusip:604518902"
@@ -495,7 +495,7 @@
       "name": "CORP AMERICA AIRPORTS SA",
       "ticker": "CAAP",
       "asset_type": "Equity",
-      "weight": 0.00304551,
+      "weight": 0.00299783,
       "cusip": "L1995B107",
       "sedol": "BD45SN0",
       "company": "cusip:L1995B107"
@@ -504,7 +504,7 @@
       "name": "CIA SANEAMENTO BASICO DE ADR",
       "ticker": "SBS",
       "asset_type": "Equity",
-      "weight": 0.0030036,
+      "weight": 0.00297706,
       "cusip": "20441A102",
       "sedol": "2945927",
       "company": "cusip:20441A102"
@@ -513,7 +513,7 @@
       "name": "GAZTRANSPORT ET TECHNIGA SA",
       "ticker": "GTT",
       "asset_type": "Equity",
-      "weight": 0.00253362,
+      "weight": 0.00249053,
       "cusip": "ACI07W296",
       "sedol": "BJYRDP5",
       "company": "cusip:ACI07W296"
@@ -522,7 +522,7 @@
       "name": "SIA ENGINEERING CO LTD",
       "ticker": "S59",
       "asset_type": "Equity",
-      "weight": 0.00231706,
+      "weight": 0.0023213,
       "cusip": "624359907",
       "sedol": "6243597",
       "company": "cusip:624359907"
@@ -531,7 +531,7 @@
       "name": "SOUTH BOW CORP",
       "ticker": "SOBO",
       "asset_type": "Equity",
-      "weight": 0.0022271,
+      "weight": 0.00222484,
       "cusip": "83671M956",
       "sedol": "BMZMBC3",
       "company": "cusip:83671M956"
@@ -540,7 +540,7 @@
       "name": "ANTERO MIDSTREAM CORP",
       "ticker": "AM",
       "asset_type": "Equity",
-      "weight": 0.00221599,
+      "weight": 0.00220029,
       "cusip": "03676B102",
       "sedol": "BJBT0Q4",
       "company": "cusip:03676B102"
@@ -549,7 +549,7 @@
       "name": "FRONTLINE PLC",
       "ticker": "FRO",
       "asset_type": "Equity",
-      "weight": 0.0021032,
+      "weight": 0.00216692,
       "cusip": "BMHDM5900",
       "sedol": "BMHDM54",
       "company": "cusip:BMHDM5900"
@@ -558,7 +558,7 @@
       "name": "SICHUAN EXPRESSWAY GROUP CO",
       "ticker": "107",
       "asset_type": "Equity",
-      "weight": 0.00172545,
+      "weight": 0.00172012,
       "cusip": "605587906",
       "sedol": "6055877",
       "company": "cusip:605587906"
@@ -567,7 +567,7 @@
       "name": "SHENZHEN EXPRESSWAY CORP H",
       "ticker": "548",
       "asset_type": "Equity",
-      "weight": 0.00171966,
+      "weight": 0.00170078,
       "cusip": "684874902",
       "sedol": "6848743",
       "company": "cusip:684874902"
@@ -576,7 +576,7 @@
       "name": "BEIJING CAPITAL INTL AIRPO H",
       "ticker": "694",
       "asset_type": "Equity",
-      "weight": 0.00162043,
+      "weight": 0.00161349,
       "cusip": "620842906",
       "sedol": "6208422",
       "company": "cusip:620842906"
@@ -585,7 +585,7 @@
       "name": "CHINA RESOURCES POWER HOLDIN",
       "ticker": "836",
       "asset_type": "Equity",
-      "weight": 0.00152372,
+      "weight": 0.00152076,
       "cusip": "671156909",
       "sedol": "6711566",
       "company": "cusip:671156909"
@@ -594,7 +594,7 @@
       "name": "CIA PARANAENSE DE ENER ADR",
       "ticker": "ELPC",
       "asset_type": "Equity",
-      "weight": 0.00135467,
+      "weight": 0.00134415,
       "cusip": "20441B704",
       "sedol": "BPDHMY0",
       "company": "cusip:20441B704"
@@ -603,7 +603,7 @@
       "name": "CGN POWER CO LTD H",
       "ticker": "1816",
       "asset_type": "Equity",
-      "weight": 0.00129351,
+      "weight": 0.00129558,
       "cusip": "BSBMM0904",
       "sedol": "BSBMM04",
       "company": "cusip:BSBMM0904"
@@ -612,7 +612,7 @@
       "name": "ENN ENERGY HOLDINGS LTD",
       "ticker": "2688",
       "asset_type": "Equity",
-      "weight": 0.00128534,
+      "weight": 0.00129151,
       "cusip": "633393905",
       "sedol": "6333937",
       "company": "cusip:633393905"
@@ -621,7 +621,7 @@
       "name": "SKY HARBOUR GROUP CORP",
       "ticker": "SKYH",
       "asset_type": "Equity",
-      "weight": 0.00118379,
+      "weight": 0.00114434,
       "cusip": "83085C107",
       "sedol": "BPNXSS4",
       "company": "cusip:83085C107"
@@ -630,23 +630,16 @@
       "name": "KUNLUN ENERGY CO LTD",
       "ticker": "135",
       "asset_type": "Equity",
-      "weight": 0.00104857,
+      "weight": 0.00105966,
       "cusip": "634007900",
       "sedol": "6340078",
       "company": "cusip:634007900"
     },
     {
-      "name": "SSI US GOV MONEY MARKET CLASS",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.00102724,
-      "company": null
-    },
-    {
       "name": "CIA ENERGETICA DE SPON ADR",
       "ticker": "CIG",
       "asset_type": "Equity",
-      "weight": 0.00095232,
+      "weight": 0.00094143,
       "cusip": "204409601",
       "sedol": "2178938",
       "company": "cusip:204409601"
@@ -655,7 +648,7 @@
       "name": "HUANENG POWER INTL INC H",
       "ticker": "902",
       "asset_type": "Equity",
-      "weight": 0.00091432,
+      "weight": 0.00090924,
       "cusip": "609967906",
       "sedol": "6099671",
       "company": "cusip:609967906"
@@ -664,7 +657,7 @@
       "name": "GUANGDONG INVESTMENT LTD",
       "ticker": "270",
       "asset_type": "Equity",
-      "weight": 0.00079772,
+      "weight": 0.00080373,
       "cusip": "691316004",
       "sedol": "6913168",
       "company": "cusip:691316004"
@@ -673,7 +666,7 @@
       "name": "COSCO SHIPPING ENERGY TRAN H",
       "ticker": "1138",
       "asset_type": "Equity",
-      "weight": 0.00079673,
+      "weight": 0.00079461,
       "cusip": "678204900",
       "sedol": "6782045",
       "company": "cusip:678204900"
@@ -682,14 +675,14 @@
       "name": "AUSTRALIAN DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.00073209,
+      "weight": 0.00073645,
       "company": null
     },
     {
       "name": "CHINA LONGYUAN POWER GROUP H",
       "ticker": "916",
       "asset_type": "Equity",
-      "weight": 0.00047098,
+      "weight": 0.00047135,
       "cusip": "B4Q2TX906",
       "sedol": "B4Q2TX3",
       "company": "cusip:B4Q2TX906"
@@ -698,77 +691,119 @@
       "name": "NORWEGIAN KRONE",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.00037384,
-      "company": null
-    },
-    {
-      "name": "CANADIAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.00023079,
+      "weight": 0.00037716,
       "company": null
     },
     {
       "name": "HONG KONG DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.00022342,
+      "weight": 0.00022607,
       "company": null
     },
     {
       "name": "SINGAPORE DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 3.549e-05,
+      "weight": 3.594e-05,
       "company": null
     },
     {
       "name": "JAPANESE YEN",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 3.487e-05,
+      "weight": 3.549e-05,
       "company": null
     },
     {
       "name": "POUND STERLING",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 3.375e-05,
+      "weight": 3.408e-05,
       "company": null
     },
     {
       "name": "SWISS FRANC",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 3.255e-05,
+      "weight": 3.306e-05,
       "company": null
     },
     {
       "name": "YUAN RENMINBI OFFSHORE",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 3.213e-05,
+      "weight": 3.257e-05,
       "company": null
     },
     {
       "name": "DANISH KRONE",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 2.259e-05,
+      "weight": 2.284e-05,
       "company": null
     },
     {
       "name": "NEW ZEALAND DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 1.976e-05,
+      "weight": 1.991e-05,
       "company": null
     },
     {
       "name": "EURO CURRENCY",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 1.074e-05,
+      "weight": 1.085e-05,
+      "company": null
+    },
+    {
+      "name": "CANADIAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 9.26e-06,
+      "company": null
+    },
+    {
+      "name": "AUSTRALIAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 2.58e-06,
+      "company": null
+    },
+    {
+      "name": "NORWEGIAN KRONE",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 7.4e-07,
+      "company": null
+    },
+    {
+      "name": "JAPANESE YEN",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 3.7e-07,
+      "company": null
+    },
+    {
+      "name": "SWISS FRANC",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 3.3e-07,
+      "company": null
+    },
+    {
+      "name": "EURO CURRENCY",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 6e-08,
+      "company": null
+    },
+    {
+      "name": "SINGAPORE DOLLAR",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 5e-08,
       "company": null
     },
     {
@@ -779,73 +814,24 @@
       "company": null
     },
     {
-      "name": "EURO CURRENCY",
+      "name": "POUND STERLING",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 2e-08,
-      "company": null
-    },
-    {
-      "name": "AUSTRALIAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 1e-08,
+      "weight": -1e-07,
       "company": null
     },
     {
       "name": "HONG KONG DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "POUND STERLING",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CANADIAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "SINGAPORE DOLLAR",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "JAPANESE YEN",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "SWISS FRANC",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "NORWEGIAN KRONE",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": -1e-08,
+      "weight": -1.7e-07,
       "company": null
     },
     {
       "name": "US DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": -0.00191749,
+      "weight": -0.00095949,
       "company": null
     }
   ]

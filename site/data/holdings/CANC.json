@@ -1,7 +1,7 @@
 {
   "ticker": "CANC",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-21T03:28:22.583809+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-24T06:22:43.901564+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/CANC-holdings-{mdy}.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "GENMAB A/S",
       "ticker": "GMAB",
       "asset_type": "Equity",
-      "weight": 0.0649,
+      "weight": 0.0661,
       "cusip": "372303206",
       "location": "Denmark",
       "company": "cusip:372303206"
@@ -18,7 +18,7 @@
       "name": "REVOLUTION MEDICINES INC",
       "ticker": "RVMD",
       "asset_type": "Equity",
-      "weight": 0.057,
+      "weight": 0.0576,
       "cusip": "76155X100",
       "location": "United States",
       "company": "cusip:76155X100"
@@ -27,19 +27,19 @@
       "name": "ELI LILLY & CO",
       "ticker": "LLY",
       "asset_type": "Equity",
-      "weight": 0.0521,
+      "weight": 0.0511,
       "cusip": "532457108",
       "location": "United States",
       "company": "cusip:532457108"
     },
     {
-      "name": "MERCK & CO INC",
-      "ticker": "MRK",
+      "name": "COGENT BIOSCIENCES INC",
+      "ticker": "COGT",
       "asset_type": "Equity",
-      "weight": 0.0446,
-      "cusip": "58933Y105",
+      "weight": 0.0447,
+      "cusip": "19240Q201",
       "location": "United States",
-      "company": "cusip:58933Y105"
+      "company": "cusip:19240Q201"
     },
     {
       "name": "BEONE MEDICINES LTD",
@@ -51,27 +51,19 @@
       "company": "cusip:07725L102"
     },
     {
-      "name": "COGENT BIOSCIENCES INC",
-      "ticker": "COGT",
+      "name": "MERCK & CO INC",
+      "ticker": "MRK",
       "asset_type": "Equity",
       "weight": 0.0438,
-      "cusip": "19240Q201",
+      "cusip": "58933Y105",
       "location": "United States",
-      "company": "cusip:19240Q201"
-    },
-    {
-      "name": "NOVARTIS AG",
-      "ticker": "NOVN SW",
-      "asset_type": "Equity",
-      "weight": 0.0384,
-      "location": "Switzerland",
-      "company": "cusip:66987V109"
+      "company": "cusip:58933Y105"
     },
     {
       "name": "EXELIXIS INC",
       "ticker": "EXEL",
       "asset_type": "Equity",
-      "weight": 0.0381,
+      "weight": 0.0382,
       "cusip": "30161Q104",
       "location": "United States",
       "company": "cusip:30161Q104"
@@ -80,43 +72,51 @@
       "name": "CG ONCOLOGY INC",
       "ticker": "CGON",
       "asset_type": "Equity",
-      "weight": 0.0371,
+      "weight": 0.0378,
       "cusip": "156944100",
       "location": "United States",
       "company": "cusip:156944100"
     },
     {
+      "name": "NOVARTIS AG",
+      "ticker": "NOVN SW",
+      "asset_type": "Equity",
+      "weight": 0.0372,
+      "location": "Switzerland",
+      "company": "cusip:66987V109"
+    },
+    {
       "name": "ABBVIE INC",
       "ticker": "ABBV",
       "asset_type": "Equity",
-      "weight": 0.0358,
+      "weight": 0.0349,
       "cusip": "00287Y109",
       "location": "United States",
       "company": "cusip:00287Y109"
     },
     {
-      "name": "ROCHE HOLDING AG",
-      "ticker": "RHHBY",
-      "asset_type": "Equity",
-      "weight": 0.0339,
-      "cusip": "771195104",
-      "location": "Switzerland",
-      "company": "cusip:771195104"
-    },
-    {
       "name": "BRIDGEBIO PHARMA INC",
       "ticker": "BBIO",
       "asset_type": "Equity",
-      "weight": 0.0338,
+      "weight": 0.0341,
       "cusip": "10806X102",
       "location": "United States",
       "company": "cusip:10806X102"
     },
     {
+      "name": "ROCHE HOLDING AG",
+      "ticker": "RHHBY",
+      "asset_type": "Equity",
+      "weight": 0.0332,
+      "cusip": "771195104",
+      "location": "Switzerland",
+      "company": "cusip:771195104"
+    },
+    {
       "name": "ENLIVEN THERAPEUTICS INC",
       "ticker": "ELVN",
       "asset_type": "Equity",
-      "weight": 0.0313,
+      "weight": 0.0315,
       "cusip": "29337E102",
       "location": "United States",
       "company": "cusip:29337E102"
@@ -134,7 +134,7 @@
       "name": "BRISTOL-MYERS SQUIBB CO",
       "ticker": "BMY",
       "asset_type": "Equity",
-      "weight": 0.0256,
+      "weight": 0.0252,
       "cusip": "110122108",
       "location": "United States",
       "company": "cusip:110122108"
@@ -143,7 +143,7 @@
       "name": "ASTRAZENECA PLC",
       "ticker": "AZN LN",
       "asset_type": "Equity",
-      "weight": 0.0248,
+      "weight": 0.0242,
       "location": "United Kingdom",
       "company": "cusip:G0593M107"
     },
@@ -151,7 +151,7 @@
       "name": "RELAY THERAPEUTICS INC",
       "ticker": "RLAY",
       "asset_type": "Equity",
-      "weight": 0.0217,
+      "weight": 0.0225,
       "cusip": "75943R102",
       "location": "United States",
       "company": "cusip:75943R102"
@@ -169,61 +169,43 @@
       "name": "IDEAYA BIOSCIENCES INC",
       "ticker": "IDYA",
       "asset_type": "Equity",
-      "weight": 0.0198,
+      "weight": 0.0202,
       "cusip": "45166A102",
       "location": "United States",
       "company": "cusip:45166A102"
     },
     {
-      "name": "JOHNSON & JOHNSON",
-      "ticker": "JNJ",
-      "asset_type": "Equity",
-      "weight": 0.0198,
-      "cusip": "478160104",
-      "location": "United States",
-      "company": "cusip:478160104"
-    },
-    {
-      "name": "ERASCA INC",
-      "ticker": "ERAS",
-      "asset_type": "Equity",
-      "weight": 0.0196,
-      "cusip": "29479A108",
-      "location": "United States",
-      "company": "cusip:29479A108"
-    },
-    {
       "name": "IMMUNOME INC",
       "ticker": "IMNM",
       "asset_type": "Equity",
-      "weight": 0.0195,
+      "weight": 0.0196,
       "cusip": "45257U108",
       "location": "United States",
       "company": "cusip:45257U108"
     },
     {
-      "name": "SELLAS LIFE SCIENCES GROUP INC",
-      "ticker": "SLS",
+      "name": "ERASCA INC",
+      "ticker": "ERAS",
       "asset_type": "Equity",
-      "weight": 0.0187,
-      "cusip": "81642T209",
+      "weight": 0.0193,
+      "cusip": "29479A108",
       "location": "United States",
-      "company": "cusip:81642T209"
+      "company": "cusip:29479A108"
     },
     {
-      "name": "IOVANCE BIOTHERAPEUTICS INC",
-      "ticker": "IOVA",
+      "name": "JOHNSON & JOHNSON",
+      "ticker": "JNJ",
       "asset_type": "Equity",
-      "weight": 0.0166,
-      "cusip": "462260100",
+      "weight": 0.019,
+      "cusip": "478160104",
       "location": "United States",
-      "company": "cusip:462260100"
+      "company": "cusip:478160104"
     },
     {
       "name": "LEGEND BIOTECH CORP",
       "ticker": "LEGN",
       "asset_type": "Equity",
-      "weight": 0.0164,
+      "weight": 0.0165,
       "cusip": "52490G102",
       "location": "Cayman Islands",
       "company": "cusip:52490G102"
@@ -232,46 +214,55 @@
       "name": "ZAI LAB LTD",
       "ticker": "ZLAB",
       "asset_type": "Equity",
-      "weight": 0.0133,
+      "weight": 0.0162,
       "cusip": "98887Q104",
       "location": "Cayman Islands",
       "company": "cusip:98887Q104"
     },
     {
+      "name": "REPLIMUNE GROUP INC",
+      "ticker": "REPL",
+      "asset_type": "Equity",
+      "weight": 0.0135,
+      "cusip": "76029N106",
+      "location": "United States",
+      "company": "cusip:76029N106"
+    },
+    {
+      "name": "IOVANCE BIOTHERAPEUTICS INC",
+      "ticker": "IOVA",
+      "asset_type": "Equity",
+      "weight": 0.0135,
+      "cusip": "462260100",
+      "location": "United States",
+      "company": "cusip:462260100"
+    },
+    {
       "name": "CELCUITY INC",
       "ticker": "CELC",
       "asset_type": "Equity",
-      "weight": 0.0124,
+      "weight": 0.013,
       "cusip": "15102K100",
       "location": "United States",
       "company": "cusip:15102K100"
     },
     {
+      "name": "SELLAS LIFE SCIENCES GROUP INC",
+      "ticker": "SLS",
+      "asset_type": "Equity",
+      "weight": 0.0127,
+      "cusip": "81642T209",
+      "location": "United States",
+      "company": "cusip:81642T209"
+    },
+    {
       "name": "ZYMEWORKS INC",
       "ticker": "ZYME",
       "asset_type": "Equity",
-      "weight": 0.012,
+      "weight": 0.0125,
       "cusip": "98985Y108",
       "location": "United States",
       "company": "cusip:98985Y108"
-    },
-    {
-      "name": "GILEAD SCIENCES INC",
-      "ticker": "GILD",
-      "asset_type": "Equity",
-      "weight": 0.0113,
-      "cusip": "375558103",
-      "location": "United States",
-      "company": "cusip:375558103"
-    },
-    {
-      "name": "REPLIMUNE GROUP INC",
-      "ticker": "REPL",
-      "asset_type": "Equity",
-      "weight": 0.0113,
-      "cusip": "76029N106",
-      "location": "United States",
-      "company": "cusip:76029N106"
     },
     {
       "name": "SUMMIT THERAPEUTICS INC",
@@ -283,10 +274,19 @@
       "company": "cusip:86627T108"
     },
     {
+      "name": "GILEAD SCIENCES INC",
+      "ticker": "GILD",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "cusip": "375558103",
+      "location": "United States",
+      "company": "cusip:375558103"
+    },
+    {
       "name": "GUARDANT HEALTH INC",
       "ticker": "GH",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.0091,
       "cusip": "40131M109",
       "location": "United States",
       "company": "cusip:40131M109"
@@ -304,7 +304,7 @@
       "name": "UROGEN PHARMA LTD",
       "ticker": "URGN",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.0076,
       "cusip": "M96088105",
       "location": "Israel",
       "company": "cusip:M96088105"
@@ -313,7 +313,7 @@
       "name": "CORVUS PHARMACEUTICALS INC",
       "ticker": "CRVS",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0073,
       "cusip": "221015100",
       "location": "United States",
       "company": "cusip:221015100"
@@ -322,19 +322,37 @@
       "name": "KURA ONCOLOGY INC",
       "ticker": "KURA",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0071,
       "cusip": "50127T109",
       "location": "United States",
       "company": "cusip:50127T109"
     },
     {
+      "name": "ANAPTYSBIO INC",
+      "ticker": "ANAB",
+      "asset_type": "Equity",
+      "weight": 0.007,
+      "cusip": "032724106",
+      "location": "United States",
+      "company": "cusip:032724106"
+    },
+    {
       "name": "NATERA INC",
       "ticker": "NTRA",
       "asset_type": "Equity",
-      "weight": 0.0067,
+      "weight": 0.0069,
       "cusip": "632307104",
       "location": "United States",
       "company": "cusip:632307104"
+    },
+    {
+      "name": "ARCUS BIOSCIENCES INC",
+      "ticker": "RCUS",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "cusip": "03969F109",
+      "location": "United States",
+      "company": "cusip:03969F109"
     },
     {
       "name": "IMMUNOCORE HOLDINGS PLC",
@@ -346,19 +364,17 @@
       "company": "cusip:45258D105"
     },
     {
-      "name": "ARCUS BIOSCIENCES INC",
-      "ticker": "RCUS",
-      "asset_type": "Equity",
-      "weight": 0.0064,
-      "cusip": "03969F109",
-      "location": "United States",
-      "company": "cusip:03969F109"
+      "name": "CASH & CASH EQUIVALENTS",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.006,
+      "company": null
     },
     {
       "name": "INHIBRX BIOSCIENCES INC",
       "ticker": "INBX",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0052,
       "cusip": "45720N103",
       "location": "United States",
       "company": "cusip:45720N103"
@@ -367,50 +383,34 @@
       "name": "IMMUNITYBIO INC",
       "ticker": "IBRX",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.005,
       "cusip": "45256X103",
       "location": "United States",
       "company": "cusip:45256X103"
     },
     {
-      "name": "CASH & CASH EQUIVALENTS",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0052,
-      "company": null
-    },
-    {
-      "name": "ANAPTYSBIO INC",
-      "ticker": "ANAB",
-      "asset_type": "Equity",
-      "weight": 0.0046,
-      "cusip": "032724106",
-      "location": "United States",
-      "company": "cusip:032724106"
-    },
-    {
       "name": "ADLAI NORTYE GROUP LTD",
       "ticker": "ANL",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0047,
       "cusip": "00704R109",
       "location": "Singapore",
       "company": "cusip:00704R109"
     },
     {
-      "name": "ORIC PHARMACEUTICALS INC",
-      "ticker": "ORIC",
+      "name": "TANGO THERAPEUTICS INC",
+      "ticker": "TNGX",
       "asset_type": "Equity",
-      "weight": 0.0044,
-      "cusip": "68622P109",
+      "weight": 0.0046,
+      "cusip": "87583X109",
       "location": "United States",
-      "company": "cusip:68622P109"
+      "company": "cusip:87583X109"
     },
     {
       "name": "IMMATICS NV",
       "ticker": "IMTX",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0045,
       "cusip": "N44445109",
       "location": "Netherlands",
       "company": "cusip:N44445109"
@@ -425,19 +425,19 @@
       "company": "cusip:92337C203"
     },
     {
-      "name": "TANGO THERAPEUTICS INC",
-      "ticker": "TNGX",
+      "name": "ORIC PHARMACEUTICALS INC",
+      "ticker": "ORIC",
       "asset_type": "Equity",
-      "weight": 0.0043,
-      "cusip": "87583X109",
+      "weight": 0.0044,
+      "cusip": "68622P109",
       "location": "United States",
-      "company": "cusip:87583X109"
+      "company": "cusip:68622P109"
     },
     {
       "name": "OLEMA ONCOLOGY INC",
       "ticker": "OLMA",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0034,
       "cusip": "68062P106",
       "location": "United States",
       "company": "cusip:68062P106"
@@ -482,7 +482,7 @@
       "name": "ARVINAS INC",
       "ticker": "ARVN",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.0023,
       "cusip": "04335A105",
       "location": "United States",
       "company": "cusip:04335A105"

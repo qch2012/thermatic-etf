@@ -1,441 +1,10 @@
 {
   "ticker": "URA",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-21T03:29:04.849353+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-24T06:23:11.650246+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/ura_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "NANO NUCLEAR ENERGY INC",
-      "ticker": "NNE",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "sedol": "BPDH477",
-      "company": "cusip:63010H108"
-    },
-    {
-      "name": "DEEP YELLOW LTD",
-      "ticker": "DYL AU",
-      "asset_type": "Equity",
-      "weight": 0.006,
-      "sedol": "6480275",
-      "company": "name:deep yellow"
-    },
-    {
-      "name": "SILEX SYSTEMS LTD",
-      "ticker": "SLX AU",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "6111735",
-      "company": "name:silex systems"
-    },
-    {
-      "name": "BANNERMAN ENERGY LTD",
-      "ticker": "BMN AU",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "B07DXJ1",
-      "company": "name:bannerman energy"
-    },
-    {
-      "name": "BOSS ENERGY LTD",
-      "ticker": "BOE AU",
-      "asset_type": "Equity",
-      "weight": 0.0051,
-      "sedol": "B1XLCQ6",
-      "company": "name:boss energy"
-    },
-    {
-      "name": "URANIUM ROYALTY CORP",
-      "ticker": "UROY",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "sedol": "BRJH5C7",
-      "company": "name:uranium royalty"
-    },
-    {
-      "name": "ISOENERGY LTD",
-      "ticker": "ISO CN",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "sedol": "BTTRKM6",
-      "company": "name:isoenergy"
-    },
-    {
-      "name": "BERKELEY ENERGIA LTD",
-      "ticker": "BKY SM",
-      "asset_type": "Equity",
-      "weight": 0.0032,
-      "sedol": "BYVQC08",
-      "company": "name:berkeley energia"
-    },
-    {
-      "name": "UR-ENERGY INC",
-      "ticker": "URG",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "sedol": "B0WW4L2",
-      "company": "cusip:91688R108"
-    },
-    {
-      "name": "ATHA ENERGY CORP",
-      "ticker": "SASK CN",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "BNQNDF9",
-      "company": "name:atha energy"
-    },
-    {
-      "name": "TERRESTRIAL ENERGY INC",
-      "ticker": "IMSR",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "BVK6BG7",
-      "company": "name:terrestrial energy"
-    },
-    {
-      "name": "LIGHTBRIDGE CORP",
-      "ticker": "LTBR",
-      "asset_type": "Equity",
-      "weight": 0.0018,
-      "sedol": "BKDNG30",
-      "company": "name:lightbridge"
-    },
-    {
-      "name": "ENCORE ENERGY CORP",
-      "ticker": "EU CN",
-      "asset_type": "Equity",
-      "weight": 0.0014,
-      "sedol": "BN48958",
-      "company": "cusip:29259W700"
-    },
-    {
-      "name": "MEGA URANIUM LTD",
-      "ticker": "MGA CN",
-      "asset_type": "Equity",
-      "weight": 0.0014,
-      "sedol": "2817833",
-      "company": "name:mega uranium"
-    },
-    {
-      "name": "GLOBAL ATOMIC CORP",
-      "ticker": "GLO CN",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "sedol": "BF11BK3",
-      "company": "name:global atomic"
-    },
-    {
-      "name": "ALLIGATOR ENERGY LTD",
-      "ticker": "AGE AU",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "B55ZH25",
-      "company": "name:alligator energy"
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.001,
-      "company": null
-    },
-    {
-      "name": "LOTUS RESOURCES LTD",
-      "ticker": "LOT AU",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BK6XLC1",
-      "company": "name:lotus resources"
-    },
-    {
-      "name": "LARAMIDE RESOURCES",
-      "ticker": "LAM CN",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "2507952",
-      "company": "name:laramide resources"
-    },
-    {
-      "name": "ELEVATE URANIUM LTD",
-      "ticker": "EL8 AU",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BM8ZH21",
-      "company": "name:elevate uranium"
-    },
-    {
-      "name": "ATOMIC EAGLE LTD",
-      "ticker": "AEU AU",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BSQM0M7",
-      "company": "name:atomic eagle"
-    },
-    {
-      "name": "TERRA INNOVATUM GLOBAL NV",
-      "ticker": "NKLR",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "BVBQSY3",
-      "company": "name:terra innovatum global"
-    },
-    {
-      "name": "PENINSULA ENERGY LTD",
-      "ticker": "PEN AU",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "6486381",
-      "company": "name:peninsula energy"
-    },
-    {
-      "name": "EAGLE NUCLEAR ENERGY CORP",
-      "ticker": "NUCL",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BSRFLX3",
-      "company": "name:eagle nuclear energy"
-    },
-    {
-      "name": "ASARIAN ENERGY LTD",
-      "ticker": "ARN CN",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BV87YW9",
-      "company": "name:asarian energy"
-    },
-    {
-      "name": "AURA ENERGY LTD",
-      "ticker": "AEE AU",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "B14Z2S9",
-      "company": "name:aura energy"
-    },
-    {
-      "name": "SKYHARBOUR RESOURCES LTD",
-      "ticker": "SYH CN",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BDFGHL3",
-      "company": "name:skyharbour resources"
-    },
-    {
-      "name": "AMERICAN LITHIUM CORP",
-      "ticker": "LI CN",
-      "asset_type": "Equity",
-      "weight": 0.0005,
-      "sedol": "BF4XHL9",
-      "company": "name:american lithium"
-    },
-    {
-      "name": "CAMECO CORP",
-      "ticker": "CCO CN",
-      "asset_type": "Equity",
-      "weight": 0.2158,
-      "sedol": "2166160",
-      "company": "cusip:13321L108"
-    },
-    {
-      "name": "SPROTT PHYSICAL URANIUM TR",
-      "ticker": "U-U CN",
-      "asset_type": "Equity",
-      "weight": 0.0907,
-      "sedol": "BNZKG52",
-      "company": "name:sprott physical uranium tr"
-    },
-    {
-      "name": "NEXGEN ENERGY LTD",
-      "ticker": "NXE CN",
-      "asset_type": "Equity",
-      "weight": 0.0628,
-      "sedol": "B987K72",
-      "company": "cusip:65340P106"
-    },
-    {
-      "name": "NAC KAZATOMPROM JSC-GDR REGS",
-      "ticker": "KAP LI",
-      "asset_type": "Equity",
-      "weight": 0.0545,
-      "sedol": "BGXQL36",
-      "company": "name:nac kazatomprom jsc"
-    },
-    {
-      "name": "OKLO INC",
-      "ticker": "OKLO",
-      "asset_type": "Equity",
-      "weight": 0.0446,
-      "sedol": "BMD78K7",
-      "company": "cusip:02156V109"
-    },
-    {
-      "name": "URANIUM ENERGY CORP",
-      "ticker": "UEC",
-      "asset_type": "Equity",
-      "weight": 0.0393,
-      "sedol": "B0VLLY2",
-      "company": "cusip:916896103"
-    },
-    {
-      "name": "ITOCHU CORP",
-      "ticker": "8001 JP",
-      "asset_type": "Equity",
-      "weight": 0.0326,
-      "sedol": "6467803",
-      "company": "name:itochu"
-    },
-    {
-      "name": "PALADIN ENERGY LTD",
-      "ticker": "PDN AU",
-      "asset_type": "Equity",
-      "weight": 0.0267,
-      "sedol": "6668468",
-      "company": "name:paladin energy"
-    },
-    {
-      "name": "SIBANYE STILLWATER LTD",
-      "ticker": "SSW SJ",
-      "asset_type": "Equity",
-      "weight": 0.0267,
-      "sedol": "BL0L913",
-      "company": "name:sibanye stillwater"
-    },
-    {
-      "name": "AECON GROUP INC",
-      "ticker": "ARE CN",
-      "asset_type": "Equity",
-      "weight": 0.0254,
-      "sedol": "2699547",
-      "company": "name:aecon group"
-    },
-    {
-      "name": "YELLOW CAKE PLC",
-      "ticker": "YCA LN",
-      "asset_type": "Equity",
-      "weight": 0.0246,
-      "sedol": "BF50RG4",
-      "company": "name:yellow cake"
-    },
-    {
-      "name": "X-ENERGY INC",
-      "ticker": "XE",
-      "asset_type": "Equity",
-      "weight": 0.0246,
-      "sedol": "BW0TQY6",
-      "company": "cusip:98386P102"
-    },
-    {
-      "name": "DENISON MINES CORP",
-      "ticker": "DML CN",
-      "asset_type": "Equity",
-      "weight": 0.0241,
-      "sedol": "2003223",
-      "company": "cusip:248356107"
-    },
-    {
-      "name": "CENTRUS ENERGY CORP-CLASS A",
-      "ticker": "LEU",
-      "asset_type": "Equity",
-      "weight": 0.0239,
-      "sedol": "BQXKDH6",
-      "company": "cusip:15643U104"
-    },
-    {
-      "name": "HYUNDAI ENGINEERING & CONST",
-      "ticker": "000720 KS",
-      "asset_type": "Equity",
-      "weight": 0.0238,
-      "sedol": "6450988",
-      "company": "name:hyundai engineering const"
-    },
-    {
-      "name": "SAMSUNG C&T CORP",
-      "ticker": "028260 KS",
-      "asset_type": "Equity",
-      "weight": 0.0234,
-      "sedol": "BSXN8K7",
-      "company": "name:samsung"
-    },
-    {
-      "name": "BHP GROUP LTD",
-      "ticker": "BHP AU",
-      "asset_type": "Equity",
-      "weight": 0.0232,
-      "sedol": "6144690",
-      "company": "name:bhp group@australia"
-    },
-    {
-      "name": "DAEWOO ENGINEERING & CONSTR",
-      "ticker": "047040 KS",
-      "asset_type": "Equity",
-      "weight": 0.0222,
-      "sedol": "6344122",
-      "company": "name:daewoo engineering constr"
-    },
-    {
-      "name": "GS ENGINEERING & CONSTRUCT",
-      "ticker": "006360 KS",
-      "asset_type": "Equity",
-      "weight": 0.0219,
-      "sedol": "6537096",
-      "company": "name:gs engineering construct"
-    },
-    {
-      "name": "MITSUBISHI HEAVY INDUSTRIES",
-      "ticker": "7011 JP",
-      "asset_type": "Equity",
-      "weight": 0.0212,
-      "sedol": "6597067",
-      "company": "name:mitsubishi heavy industries@japan"
-    },
-    {
-      "name": "ENERGY FUELS INC",
-      "ticker": "EFR CN",
-      "asset_type": "Equity",
-      "weight": 0.0198,
-      "sedol": "BFV4XV7",
-      "company": "name:energy fuels@canada"
-    },
-    {
-      "name": "NUSCALE POWER CORP",
-      "ticker": "SMR",
-      "asset_type": "Equity",
-      "weight": 0.0187,
-      "sedol": "BNXK803",
-      "company": "cusip:67079K100"
-    },
-    {
-      "name": "DOOSAN ENERBILITY CO LTD",
-      "ticker": "034020 KS",
-      "asset_type": "Equity",
-      "weight": 0.0186,
-      "sedol": "6294670",
-      "company": "name:doosan enerbility"
-    },
-    {
-      "name": "KEPCO ENGINEERING & CONSTRUC",
-      "ticker": "052690 KS",
-      "asset_type": "Equity",
-      "weight": 0.0137,
-      "sedol": "B4LW1M1",
-      "company": "name:kepco engineering construc"
-    },
-    {
-      "name": "CGN MINING CO LTD",
-      "ticker": "1164 HK",
-      "asset_type": "Equity",
-      "weight": 0.0117,
-      "sedol": "B755514",
-      "company": "name:cgn mining"
-    },
-    {
-      "name": "CAULDRON ENERGY LTD",
-      "ticker": "CXU AU",
-      "asset_type": "Equity",
-      "weight": 0.0005,
-      "sedol": "B04D4W4",
-      "company": "name:cauldron energy"
-    },
     {
       "name": "CANALASKA URANIUM LTD",
       "ticker": "CVV CN",
@@ -443,14 +12,6 @@
       "weight": 0.0004,
       "sedol": "BR1YTV3",
       "company": "name:canalaska uranium"
-    },
-    {
-      "name": "ANFIELD ENERGY INC",
-      "ticker": "AEC CN",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BRT7VZ2",
-      "company": "name:anfield energy"
     },
     {
       "name": "ANSON RESOURCES LTD",
@@ -469,19 +30,28 @@
       "company": "name:f3 uranium"
     },
     {
-      "name": "VERDERA ENERGY CORP",
-      "ticker": "V CN",
+      "name": "ANFIELD ENERGY INC",
+      "ticker": "AEC CN",
       "asset_type": "Equity",
-      "weight": 0.0,
-      "sedol": "BR1FDY7",
-      "company": "cusip:92339J107"
+      "weight": 0.0004,
+      "sedol": "BRT7VZ2",
+      "company": "name:anfield energy"
+    },
+    {
+      "name": "CAULDRON ENERGY LTD",
+      "ticker": "CXU AU",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "B04D4W4",
+      "company": "name:cauldron energy"
     },
     {
       "name": "VERDERA ENERGY CORP",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
+      "ticker": "V CN",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "sedol": "BR1FDY7",
+      "company": "cusip:92339J107"
     },
     {
       "name": "VERDERA ENERGY CORP",
@@ -494,8 +64,431 @@
       "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0004,
+      "weight": -0.0005,
       "company": null
+    },
+    {
+      "name": "CAMECO CORP",
+      "ticker": "CCO CN",
+      "asset_type": "Equity",
+      "weight": 0.2221,
+      "sedol": "2166160",
+      "company": "cusip:13321L108"
+    },
+    {
+      "name": "SPROTT PHYSICAL URANIUM TR",
+      "ticker": "U-U CN",
+      "asset_type": "Equity",
+      "weight": 0.0929,
+      "sedol": "BNZKG52",
+      "company": "name:sprott physical uranium tr"
+    },
+    {
+      "name": "NEXGEN ENERGY LTD",
+      "ticker": "NXE CN",
+      "asset_type": "Equity",
+      "weight": 0.0632,
+      "sedol": "B987K72",
+      "company": "cusip:65340P106"
+    },
+    {
+      "name": "NAC KAZATOMPROM JSC-GDR REGS",
+      "ticker": "KAP LI",
+      "asset_type": "Equity",
+      "weight": 0.0554,
+      "sedol": "BGXQL36",
+      "company": "name:nac kazatomprom jsc"
+    },
+    {
+      "name": "OKLO INC",
+      "ticker": "OKLO",
+      "asset_type": "Equity",
+      "weight": 0.0458,
+      "sedol": "BMD78K7",
+      "company": "cusip:02156V109"
+    },
+    {
+      "name": "URANIUM ENERGY CORP",
+      "ticker": "UEC",
+      "asset_type": "Equity",
+      "weight": 0.0411,
+      "sedol": "B0VLLY2",
+      "company": "cusip:916896103"
+    },
+    {
+      "name": "ITOCHU CORP",
+      "ticker": "8001 JP",
+      "asset_type": "Equity",
+      "weight": 0.0331,
+      "sedol": "6467803",
+      "company": "name:itochu"
+    },
+    {
+      "name": "SIBANYE STILLWATER LTD",
+      "ticker": "SSW SJ",
+      "asset_type": "Equity",
+      "weight": 0.0273,
+      "sedol": "BL0L913",
+      "company": "name:sibanye stillwater"
+    },
+    {
+      "name": "PALADIN ENERGY LTD",
+      "ticker": "PDN AU",
+      "asset_type": "Equity",
+      "weight": 0.0266,
+      "sedol": "6668468",
+      "company": "name:paladin energy"
+    },
+    {
+      "name": "AECON GROUP INC",
+      "ticker": "ARE CN",
+      "asset_type": "Equity",
+      "weight": 0.0265,
+      "sedol": "2699547",
+      "company": "name:aecon group"
+    },
+    {
+      "name": "X-ENERGY INC",
+      "ticker": "XE",
+      "asset_type": "Equity",
+      "weight": 0.0258,
+      "sedol": "BW0TQY6",
+      "company": "cusip:98386P102"
+    },
+    {
+      "name": "YELLOW CAKE PLC",
+      "ticker": "YCA LN",
+      "asset_type": "Equity",
+      "weight": 0.0255,
+      "sedol": "BF50RG4",
+      "company": "name:yellow cake"
+    },
+    {
+      "name": "DENISON MINES CORP",
+      "ticker": "DML CN",
+      "asset_type": "Equity",
+      "weight": 0.0241,
+      "sedol": "2003223",
+      "company": "cusip:248356107"
+    },
+    {
+      "name": "CENTRUS ENERGY CORP-CLASS A",
+      "ticker": "LEU",
+      "asset_type": "Equity",
+      "weight": 0.0238,
+      "sedol": "BQXKDH6",
+      "company": "cusip:15643U104"
+    },
+    {
+      "name": "BHP GROUP LTD",
+      "ticker": "BHP AU",
+      "asset_type": "Equity",
+      "weight": 0.0238,
+      "sedol": "6144690",
+      "company": "name:bhp group@australia"
+    },
+    {
+      "name": "SAMSUNG C&T CORP",
+      "ticker": "028260 KS",
+      "asset_type": "Equity",
+      "weight": 0.0215,
+      "sedol": "BSXN8K7",
+      "company": "name:samsung"
+    },
+    {
+      "name": "MITSUBISHI HEAVY INDUSTRIES",
+      "ticker": "7011 JP",
+      "asset_type": "Equity",
+      "weight": 0.0207,
+      "sedol": "6597067",
+      "company": "name:mitsubishi heavy industries@japan"
+    },
+    {
+      "name": "HYUNDAI ENGINEERING & CONST",
+      "ticker": "000720 KS",
+      "asset_type": "Equity",
+      "weight": 0.0202,
+      "sedol": "6450988",
+      "company": "name:hyundai engineering const"
+    },
+    {
+      "name": "DAEWOO ENGINEERING & CONSTR",
+      "ticker": "047040 KS",
+      "asset_type": "Equity",
+      "weight": 0.0194,
+      "sedol": "6344122",
+      "company": "name:daewoo engineering constr"
+    },
+    {
+      "name": "ENERGY FUELS INC",
+      "ticker": "EFR CN",
+      "asset_type": "Equity",
+      "weight": 0.0193,
+      "sedol": "BFV4XV7",
+      "company": "name:energy fuels@canada"
+    },
+    {
+      "name": "GS ENGINEERING & CONSTRUCT",
+      "ticker": "006360 KS",
+      "asset_type": "Equity",
+      "weight": 0.0185,
+      "sedol": "6537096",
+      "company": "name:gs engineering construct"
+    },
+    {
+      "name": "NUSCALE POWER CORP",
+      "ticker": "SMR",
+      "asset_type": "Equity",
+      "weight": 0.0179,
+      "sedol": "BNXK803",
+      "company": "cusip:67079K100"
+    },
+    {
+      "name": "DOOSAN ENERBILITY CO LTD",
+      "ticker": "034020 KS",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "sedol": "6294670",
+      "company": "name:doosan enerbility"
+    },
+    {
+      "name": "KEPCO ENGINEERING & CONSTRUC",
+      "ticker": "052690 KS",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "sedol": "B4LW1M1",
+      "company": "name:kepco engineering construc"
+    },
+    {
+      "name": "CGN MINING CO LTD",
+      "ticker": "1164 HK",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "sedol": "B755514",
+      "company": "name:cgn mining"
+    },
+    {
+      "name": "GLOBAL ATOMIC CORP",
+      "ticker": "GLO CN",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "sedol": "BF11BK3",
+      "company": "name:global atomic"
+    },
+    {
+      "name": "MEGA URANIUM LTD",
+      "ticker": "MGA CN",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "sedol": "2817833",
+      "company": "name:mega uranium"
+    },
+    {
+      "name": "ENCORE ENERGY CORP",
+      "ticker": "EU CN",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "sedol": "BN48958",
+      "company": "cusip:29259W700"
+    },
+    {
+      "name": "ALLIGATOR ENERGY LTD",
+      "ticker": "AGE AU",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "sedol": "B55ZH25",
+      "company": "name:alligator energy"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.001,
+      "company": null
+    },
+    {
+      "name": "LARAMIDE RESOURCES",
+      "ticker": "LAM CN",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "2507952",
+      "company": "name:laramide resources"
+    },
+    {
+      "name": "LOTUS RESOURCES LTD",
+      "ticker": "LOT AU",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "BK6XLC1",
+      "company": "name:lotus resources"
+    },
+    {
+      "name": "TERRA INNOVATUM GLOBAL NV",
+      "ticker": "NKLR",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BVBQSY3",
+      "company": "name:terra innovatum global"
+    },
+    {
+      "name": "ATOMIC EAGLE LTD",
+      "ticker": "AEU AU",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BSQM0M7",
+      "company": "name:atomic eagle"
+    },
+    {
+      "name": "ELEVATE URANIUM LTD",
+      "ticker": "EL8 AU",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BM8ZH21",
+      "company": "name:elevate uranium"
+    },
+    {
+      "name": "AMERICAN LITHIUM CORP",
+      "ticker": "LI CN",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BF4XHL9",
+      "company": "name:american lithium"
+    },
+    {
+      "name": "PENINSULA ENERGY LTD",
+      "ticker": "PEN AU",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "6486381",
+      "company": "name:peninsula energy"
+    },
+    {
+      "name": "EAGLE NUCLEAR ENERGY CORP",
+      "ticker": "NUCL",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BSRFLX3",
+      "company": "name:eagle nuclear energy"
+    },
+    {
+      "name": "SKYHARBOUR RESOURCES LTD",
+      "ticker": "SYH CN",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BDFGHL3",
+      "company": "name:skyharbour resources"
+    },
+    {
+      "name": "AURA ENERGY LTD",
+      "ticker": "AEE AU",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "B14Z2S9",
+      "company": "name:aura energy"
+    },
+    {
+      "name": "ASARIAN ENERGY LTD",
+      "ticker": "ARN CN",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "sedol": "BV87YW9",
+      "company": "name:asarian energy"
+    },
+    {
+      "name": "NANO NUCLEAR ENERGY INC",
+      "ticker": "NNE",
+      "asset_type": "Equity",
+      "weight": 0.0061,
+      "sedol": "BPDH477",
+      "company": "cusip:63010H108"
+    },
+    {
+      "name": "BANNERMAN ENERGY LTD",
+      "ticker": "BMN AU",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "sedol": "B07DXJ1",
+      "company": "name:bannerman energy"
+    },
+    {
+      "name": "DEEP YELLOW LTD",
+      "ticker": "DYL AU",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "6480275",
+      "company": "name:deep yellow"
+    },
+    {
+      "name": "SILEX SYSTEMS LTD",
+      "ticker": "SLX AU",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "6111735",
+      "company": "name:silex systems"
+    },
+    {
+      "name": "BOSS ENERGY LTD",
+      "ticker": "BOE AU",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "B1XLCQ6",
+      "company": "name:boss energy"
+    },
+    {
+      "name": "URANIUM ROYALTY CORP",
+      "ticker": "UROY",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "BRJH5C7",
+      "company": "name:uranium royalty"
+    },
+    {
+      "name": "ISOENERGY LTD",
+      "ticker": "ISO CN",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "BTTRKM6",
+      "company": "name:isoenergy"
+    },
+    {
+      "name": "BERKELEY ENERGIA LTD",
+      "ticker": "BKY SM",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "BYVQC08",
+      "company": "name:berkeley energia"
+    },
+    {
+      "name": "UR-ENERGY INC",
+      "ticker": "URG",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "sedol": "B0WW4L2",
+      "company": "cusip:91688R108"
+    },
+    {
+      "name": "ATHA ENERGY CORP",
+      "ticker": "SASK CN",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "BNQNDF9",
+      "company": "name:atha energy"
+    },
+    {
+      "name": "TERRESTRIAL ENERGY INC",
+      "ticker": "IMSR",
+      "asset_type": "Equity",
+      "weight": 0.0023,
+      "sedol": "BVK6BG7",
+      "company": "name:terrestrial energy"
+    },
+    {
+      "name": "LIGHTBRIDGE CORP",
+      "ticker": "LTBR",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "sedol": "BKDNG30",
+      "company": "name:lightbridge"
     }
   ]
 }

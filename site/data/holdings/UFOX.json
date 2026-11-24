@@ -1,7 +1,7 @@
 {
   "ticker": "UFOX",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-21T03:29:03.950288+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-24T06:23:11.206672+00:00",
   "stale": false,
   "source": "https://www.defianceetfs.com/ufox-full-holdings/",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Apple Inc",
       "ticker": "AAPL",
       "asset_type": "Equity",
-      "weight": 0.0686,
+      "weight": 0.065,
       "cusip": "037833100",
       "company": "cusip:037833100"
     },
@@ -17,7 +17,7 @@
       "name": "Space Exploration Technologies Corp",
       "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.0547,
+      "weight": 0.0531,
       "cusip": "84615Q103",
       "company": "cusip:84615Q103"
     },
@@ -25,31 +25,31 @@
       "name": "Broadcom Inc",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0527,
+      "weight": 0.0505,
       "cusip": "11135F101",
       "company": "cusip:11135F101"
-    },
-    {
-      "name": "Cisco Systems Inc",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.0368,
-      "cusip": "17275R102",
-      "company": "cusip:17275R102"
     },
     {
       "name": "Nvidia Corp",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.0354,
+      "weight": 0.0433,
       "cusip": "67066G104",
       "company": "cusip:67066G104"
+    },
+    {
+      "name": "Cisco Systems Inc",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0365,
+      "cusip": "17275R102",
+      "company": "cusip:17275R102"
     },
     {
       "name": "Arista Networks Inc",
       "ticker": "ANET",
       "asset_type": "Equity",
-      "weight": 0.0252,
+      "weight": 0.025,
       "cusip": "040413205",
       "company": "cusip:040413205"
     },
@@ -57,7 +57,7 @@
       "name": "Skyworks Solutions Inc",
       "ticker": "SWKS",
       "asset_type": "Equity",
-      "weight": 0.0246,
+      "weight": 0.0239,
       "cusip": "83088M102",
       "company": "cusip:83088M102"
     },
@@ -65,7 +65,7 @@
       "name": "Oracle Corp",
       "ticker": "ORCL",
       "asset_type": "Equity",
-      "weight": 0.0223,
+      "weight": 0.0233,
       "cusip": "68389X105",
       "company": "cusip:68389X105"
     },
@@ -73,7 +73,7 @@
       "name": "Qualcomm Inc",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.0223,
+      "weight": 0.0228,
       "cusip": "747525103",
       "company": "cusip:747525103"
     },
@@ -81,7 +81,7 @@
       "name": "Rocket Lab Corp",
       "ticker": "RKLB",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.0205,
       "cusip": "773121108",
       "company": "cusip:773121108"
     },
@@ -89,7 +89,7 @@
       "name": "American Tower Corp",
       "ticker": "AMT",
       "asset_type": "Equity",
-      "weight": 0.0199,
+      "weight": 0.018,
       "cusip": "03027X100",
       "company": "cusip:03027X100"
     },
@@ -97,23 +97,39 @@
       "name": "Cloudflare Inc",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.018,
+      "weight": 0.0178,
       "cusip": "18915M107",
       "company": "cusip:18915M107"
+    },
+    {
+      "name": "N-able Inc/us",
+      "ticker": "NABL",
+      "asset_type": "Equity",
+      "weight": 0.0177,
+      "cusip": "62878D100",
+      "company": "cusip:62878D100"
     },
     {
       "name": "A10 Networks Inc",
       "ticker": "ATEN",
       "asset_type": "Equity",
-      "weight": 0.0178,
+      "weight": 0.0175,
       "cusip": "002121101",
       "company": "cusip:002121101"
+    },
+    {
+      "name": "Equinix Inc",
+      "ticker": "EQIX",
+      "asset_type": "Equity",
+      "weight": 0.0169,
+      "cusip": "29444U700",
+      "company": "cusip:29444U700"
     },
     {
       "name": "T-mobile Us Inc",
       "ticker": "TMUS",
       "asset_type": "Equity",
-      "weight": 0.0177,
+      "weight": 0.0165,
       "cusip": "872590104",
       "company": "cusip:872590104"
     },
@@ -121,71 +137,63 @@
       "name": "Verizon Communications Inc",
       "ticker": "VZ",
       "asset_type": "Equity",
-      "weight": 0.0177,
+      "weight": 0.0165,
       "cusip": "92343V104",
       "company": "cusip:92343V104"
-    },
-    {
-      "name": "Equinix Inc",
-      "ticker": "EQIX",
-      "asset_type": "Equity",
-      "weight": 0.0176,
-      "cusip": "29444U700",
-      "company": "cusip:29444U700"
-    },
-    {
-      "name": "N-able Inc/us",
-      "ticker": "NABL",
-      "asset_type": "Equity",
-      "weight": 0.0176,
-      "cusip": "62878D100",
-      "company": "cusip:62878D100"
     },
     {
       "name": "Kyndryl Holdings Inc",
       "ticker": "KD",
       "asset_type": "Equity",
-      "weight": 0.017,
+      "weight": 0.0164,
       "cusip": "50155Q100",
       "company": "cusip:50155Q100"
-    },
-    {
-      "name": "At&t Inc",
-      "ticker": "T",
-      "asset_type": "Equity",
-      "weight": 0.0168,
-      "cusip": "00206R102",
-      "company": "cusip:00206R102"
     },
     {
       "name": "Radware Ltd",
       "ticker": "RDWR",
       "asset_type": "Equity",
-      "weight": 0.0167,
+      "weight": 0.0164,
       "cusip": "M81873107",
       "company": "cusip:M81873107"
-    },
-    {
-      "name": "Telefonaktiebolaget Lm Ericsson",
-      "ticker": "ERIC",
-      "asset_type": "Equity",
-      "weight": 0.0165,
-      "cusip": "294821608",
-      "company": "cusip:294821608"
     },
     {
       "name": "Extreme Networks Inc",
       "ticker": "EXTR",
       "asset_type": "Equity",
-      "weight": 0.0165,
+      "weight": 0.0163,
       "cusip": "30226D106",
       "company": "cusip:30226D106"
+    },
+    {
+      "name": "Telefonaktiebolaget Lm Ericsson",
+      "ticker": "ERIC",
+      "asset_type": "Equity",
+      "weight": 0.016,
+      "cusip": "294821608",
+      "company": "cusip:294821608"
+    },
+    {
+      "name": "Marvell Technology Inc",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0158,
+      "cusip": "573874104",
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "At&t Inc",
+      "ticker": "T",
+      "asset_type": "Equity",
+      "weight": 0.0156,
+      "cusip": "00206R102",
+      "company": "cusip:00206R102"
     },
     {
       "name": "Digital Realty Trust Inc",
       "ticker": "DLR",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0145,
       "cusip": "253868103",
       "company": "cusip:253868103"
     },
@@ -193,49 +201,33 @@
       "name": "Echostar Corp",
       "ticker": "ECHO",
       "asset_type": "Equity",
-      "weight": 0.0149,
+      "weight": 0.0145,
       "cusip": "278768106",
       "company": "cusip:278768106"
-    },
-    {
-      "name": "Marvell Technology Inc",
-      "ticker": "MRVL",
-      "asset_type": "Equity",
-      "weight": 0.0143,
-      "cusip": "573874104",
-      "company": "cusip:573874104"
-    },
-    {
-      "name": "Netapp Inc",
-      "ticker": "NTAP",
-      "asset_type": "Equity",
-      "weight": 0.0142,
-      "cusip": "64110D104",
-      "company": "cusip:64110D104"
-    },
-    {
-      "name": "Calix Inc",
-      "ticker": "CALX",
-      "asset_type": "Equity",
-      "weight": 0.014,
-      "cusip": "13100M509",
-      "company": "cusip:13100M509"
-    },
-    {
-      "name": "Globalstar Inc",
-      "ticker": "GSAT",
-      "asset_type": "Equity",
-      "weight": 0.014,
-      "cusip": "378973507",
-      "company": "cusip:378973507"
     },
     {
       "name": "Keysight Technologies Inc",
       "ticker": "KEYS",
       "asset_type": "Equity",
-      "weight": 0.0139,
+      "weight": 0.0144,
       "cusip": "49338L103",
       "company": "cusip:49338L103"
+    },
+    {
+      "name": "Netapp Inc",
+      "ticker": "NTAP",
+      "asset_type": "Equity",
+      "weight": 0.0144,
+      "cusip": "64110D104",
+      "company": "cusip:64110D104"
+    },
+    {
+      "name": "Lattice Semiconductor Corp",
+      "ticker": "LSCC",
+      "asset_type": "Equity",
+      "weight": 0.014,
+      "cusip": "518415104",
+      "company": "cusip:518415104"
     },
     {
       "name": "Datadog Inc",
@@ -246,66 +238,42 @@
       "company": "cusip:23804L103"
     },
     {
+      "name": "Calix Inc",
+      "ticker": "CALX",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "cusip": "13100M509",
+      "company": "cusip:13100M509"
+    },
+    {
+      "name": "Globalstar Inc",
+      "ticker": "GSAT",
+      "asset_type": "Equity",
+      "weight": 0.0131,
+      "cusip": "378973507",
+      "company": "cusip:378973507"
+    },
+    {
       "name": "Dynatrace Inc",
       "ticker": "DT",
       "asset_type": "Equity",
-      "weight": 0.0132,
+      "weight": 0.013,
       "cusip": "268150109",
       "company": "cusip:268150109"
-    },
-    {
-      "name": "Lattice Semiconductor Corp",
-      "ticker": "LSCC",
-      "asset_type": "Equity",
-      "weight": 0.0131,
-      "cusip": "518415104",
-      "company": "cusip:518415104"
     },
     {
       "name": "Nokia Oyj",
       "ticker": "NOK",
       "asset_type": "Equity",
-      "weight": 0.0123,
+      "weight": 0.0125,
       "cusip": "654902204",
       "company": "cusip:654902204"
-    },
-    {
-      "name": "Akamai Technologies Inc",
-      "ticker": "AKAM",
-      "asset_type": "Equity",
-      "weight": 0.012,
-      "cusip": "00971T101",
-      "company": "cusip:00971T101"
-    },
-    {
-      "name": "Netscout Systems Inc",
-      "ticker": "NTCT",
-      "asset_type": "Equity",
-      "weight": 0.012,
-      "cusip": "64115T104",
-      "company": "cusip:64115T104"
-    },
-    {
-      "name": "F5 Inc",
-      "ticker": "FFIV",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "cusip": "315616102",
-      "company": "cusip:315616102"
-    },
-    {
-      "name": "Mda Space Ltd",
-      "ticker": "MDA",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "cusip": "55293N109",
-      "company": "cusip:55293N109"
     },
     {
       "name": "Ceva Inc",
       "ticker": "CEVA",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0122,
       "cusip": "157210105",
       "company": "cusip:157210105"
     },
@@ -313,151 +281,183 @@
       "name": "Ciena Corp",
       "ticker": "CIEN",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0122,
       "cusip": "171779309",
       "company": "cusip:171779309"
-    },
-    {
-      "name": "Viasat Inc",
-      "ticker": "VSAT",
-      "asset_type": "Equity",
-      "weight": 0.0114,
-      "cusip": "92552V100",
-      "company": "cusip:92552V100"
-    },
-    {
-      "name": "Iridium Communications Inc",
-      "ticker": "IRDM",
-      "asset_type": "Equity",
-      "weight": 0.0113,
-      "cusip": "46269C102",
-      "company": "cusip:46269C102"
     },
     {
       "name": "Coherent Corp",
       "ticker": "COHR",
       "asset_type": "Equity",
-      "weight": 0.0111,
+      "weight": 0.0119,
       "cusip": "19247G107",
       "company": "cusip:19247G107"
     },
     {
-      "name": "Interdigital Inc",
-      "ticker": "IDCC",
+      "name": "Akamai Technologies Inc",
+      "ticker": "AKAM",
       "asset_type": "Equity",
-      "weight": 0.0111,
-      "cusip": "45867G101",
-      "company": "cusip:45867G101"
+      "weight": 0.0117,
+      "cusip": "00971T101",
+      "company": "cusip:00971T101"
     },
     {
-      "name": "Celestica Inc",
-      "ticker": "CLS",
+      "name": "Netscout Systems Inc",
+      "ticker": "NTCT",
       "asset_type": "Equity",
-      "weight": 0.0107,
-      "cusip": "15101Q207",
-      "company": "cusip:15101Q207"
+      "weight": 0.0117,
+      "cusip": "64115T104",
+      "company": "cusip:64115T104"
+    },
+    {
+      "name": "F5 Inc",
+      "ticker": "FFIV",
+      "asset_type": "Equity",
+      "weight": 0.0116,
+      "cusip": "315616102",
+      "company": "cusip:315616102"
     },
     {
       "name": "Macom Technology Solutions Holdings Inc",
       "ticker": "MTSI",
       "asset_type": "Equity",
-      "weight": 0.0105,
+      "weight": 0.0116,
       "cusip": "55405Y100",
       "company": "cusip:55405Y100"
     },
     {
-      "name": "Arm Holdings Plc",
-      "ticker": "ARM",
+      "name": "Mda Space Ltd",
+      "ticker": "MDA",
       "asset_type": "Equity",
-      "weight": 0.0103,
-      "cusip": "042068205",
-      "company": "cusip:042068205"
+      "weight": 0.0115,
+      "cusip": "55293N109",
+      "company": "cusip:55293N109"
     },
     {
-      "name": "Amdocs Ltd",
-      "ticker": "DOX",
+      "name": "Viasat Inc",
+      "ticker": "VSAT",
       "asset_type": "Equity",
-      "weight": 0.0102,
-      "cusip": "G02602103",
-      "company": "cusip:G02602103"
-    },
-    {
-      "name": "Viavi Solutions Inc",
-      "ticker": "VIAV",
-      "asset_type": "Equity",
-      "weight": 0.0102,
-      "cusip": "925550105",
-      "company": "cusip:925550105"
+      "weight": 0.0115,
+      "cusip": "92552V100",
+      "company": "cusip:92552V100"
     },
     {
       "name": "Credo Technology Group Holding Ltd",
       "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0099,
+      "weight": 0.0113,
       "cusip": "G25457105",
       "company": "cusip:G25457105"
     },
     {
-      "name": "Firefly Aerospace Inc",
-      "ticker": "FLY",
+      "name": "Arm Holdings Plc",
+      "ticker": "ARM",
       "asset_type": "Equity",
-      "weight": 0.0097,
-      "cusip": "31816X106",
-      "company": "cusip:31816X106"
+      "weight": 0.0111,
+      "cusip": "042068205",
+      "company": "cusip:042068205"
+    },
+    {
+      "name": "Interdigital Inc",
+      "ticker": "IDCC",
+      "asset_type": "Equity",
+      "weight": 0.0108,
+      "cusip": "45867G101",
+      "company": "cusip:45867G101"
+    },
+    {
+      "name": "Iridium Communications Inc",
+      "ticker": "IRDM",
+      "asset_type": "Equity",
+      "weight": 0.0108,
+      "cusip": "46269C102",
+      "company": "cusip:46269C102"
+    },
+    {
+      "name": "Viavi Solutions Inc",
+      "ticker": "VIAV",
+      "asset_type": "Equity",
+      "weight": 0.0106,
+      "cusip": "925550105",
+      "company": "cusip:925550105"
+    },
+    {
+      "name": "Celestica Inc",
+      "ticker": "CLS",
+      "asset_type": "Equity",
+      "weight": 0.0105,
+      "cusip": "15101Q207",
+      "company": "cusip:15101Q207"
     },
     {
       "name": "Lumentum Holdings Inc",
       "ticker": "LITE",
       "asset_type": "Equity",
-      "weight": 0.0095,
+      "weight": 0.0105,
       "cusip": "55024U109",
       "company": "cusip:55024U109"
     },
     {
-      "name": "Vistance Networks Inc",
-      "ticker": "VISN",
+      "name": "Firefly Aerospace Inc",
+      "ticker": "FLY",
       "asset_type": "Equity",
-      "weight": 0.0087,
-      "cusip": "20337X109",
-      "company": "cusip:20337X109"
+      "weight": 0.0098,
+      "cusip": "31816X106",
+      "company": "cusip:31816X106"
     },
     {
       "name": "Maxlinear Inc",
       "ticker": "MXL",
       "asset_type": "Equity",
-      "weight": 0.0085,
+      "weight": 0.0097,
       "cusip": "57776J100",
       "company": "cusip:57776J100"
     },
     {
-      "name": "Planet Labs Pbc",
-      "ticker": "PL",
+      "name": "Amdocs Ltd",
+      "ticker": "DOX",
       "asset_type": "Equity",
-      "weight": 0.0081,
-      "cusip": "72703X106",
-      "company": "cusip:72703X106"
+      "weight": 0.0096,
+      "cusip": "G02602103",
+      "company": "cusip:G02602103"
     },
     {
-      "name": "Kingsoft Cloud Holdings Ltd",
-      "ticker": "KC",
+      "name": "Vistance Networks Inc",
+      "ticker": "VISN",
       "asset_type": "Equity",
-      "weight": 0.0078,
-      "cusip": "49639K101",
-      "company": "cusip:49639K101"
+      "weight": 0.0086,
+      "cusip": "20337X109",
+      "company": "cusip:20337X109"
     },
     {
       "name": "Digitalocean Holdings Inc",
       "ticker": "DOCN",
       "asset_type": "Equity",
-      "weight": 0.0076,
+      "weight": 0.0084,
       "cusip": "25402D102",
       "company": "cusip:25402D102"
+    },
+    {
+      "name": "Kingsoft Cloud Holdings Ltd",
+      "ticker": "KC",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "cusip": "49639K101",
+      "company": "cusip:49639K101"
+    },
+    {
+      "name": "Planet Labs Pbc",
+      "ticker": "PL",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "cusip": "72703X106",
+      "company": "cusip:72703X106"
     },
     {
       "name": "Ast Spacemobile Inc",
       "ticker": "ASTS",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0075,
       "cusip": "00217D100",
       "company": "cusip:00217D100"
     },
@@ -465,7 +465,7 @@
       "name": "Intuitive Machines Inc",
       "ticker": "LUNR",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0072,
       "cusip": "46125A100",
       "company": "cusip:46125A100"
     },
@@ -473,7 +473,7 @@
       "name": "Redwire Corp",
       "ticker": "RDW",
       "asset_type": "Equity",
-      "weight": 0.0064,
+      "weight": 0.0067,
       "cusip": "75776W103",
       "company": "cusip:75776W103"
     },
@@ -481,7 +481,7 @@
       "name": "Voyager Technologies Inc",
       "ticker": "VOYG",
       "asset_type": "Equity",
-      "weight": 0.0064,
+      "weight": 0.0063,
       "cusip": "92892B103",
       "company": "cusip:92892B103"
     },
@@ -489,7 +489,7 @@
       "name": "Gilat Satellite Networks Ltd",
       "ticker": "GILT",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0052,
       "cusip": "M51474118",
       "company": "cusip:M51474118"
     },
@@ -497,7 +497,7 @@
       "name": "First American Government Obligations Fund 12/01/2031",
       "ticker": "FGXXX",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0047,
       "cusip": "31846V336",
       "company": "cusip:31846V336"
     },
