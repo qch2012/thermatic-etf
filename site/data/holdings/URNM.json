@@ -1,7 +1,7 @@
 {
   "ticker": "URNM",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-24T06:23:12.313129+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-25T05:04:18.222041+00:00",
   "stale": false,
   "source": "https://sprottetfs.com/urnm-sprott-uranium-miners-etf",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Sprott Physical Uranium Trust",
       "ticker": "U-U CN",
       "asset_type": "Equity",
-      "weight": 0.1963,
+      "weight": 0.1996,
       "sedol": "BNZKG52",
       "company": "name:sprott physical uranium tr"
     },
@@ -17,7 +17,7 @@
       "name": "Cameco Corp.",
       "ticker": "CCJ",
       "asset_type": "Equity",
-      "weight": 0.1955,
+      "weight": 0.1917,
       "sedol": "2158684",
       "company": "cusip:13321L108"
     },
@@ -25,7 +25,7 @@
       "name": "NexGen Energy Ltd.",
       "ticker": "NXE",
       "asset_type": "Equity",
-      "weight": 0.1292,
+      "weight": 0.1315,
       "sedol": "BCH0BB4",
       "company": "cusip:65340P106"
     },
@@ -33,7 +33,7 @@
       "name": "NAC Kazatomprom JSC",
       "ticker": "KAP LI",
       "asset_type": "Equity",
-      "weight": 0.0561,
+      "weight": 0.0552,
       "sedol": "BGXQL36",
       "company": "name:nac kazatomprom jsc"
     },
@@ -41,7 +41,7 @@
       "name": "CGN Mining Co. Ltd.",
       "ticker": "1164 HK",
       "asset_type": "Equity",
-      "weight": 0.0545,
+      "weight": 0.0541,
       "sedol": "B755514",
       "company": "name:cgn mining"
     },
@@ -49,7 +49,7 @@
       "name": "Yellow Cake PLC",
       "ticker": "YCA LN",
       "asset_type": "Equity",
-      "weight": 0.0538,
+      "weight": 0.0522,
       "sedol": "BF50RG4",
       "company": "name:yellow cake"
     },
@@ -57,7 +57,7 @@
       "name": "Denison Mines Corp.",
       "ticker": "DNN",
       "asset_type": "Equity",
-      "weight": 0.0392,
+      "weight": 0.0386,
       "sedol": "B0122F3",
       "company": "cusip:248356107"
     },
@@ -65,7 +65,7 @@
       "name": "Uranium Energy Corp.",
       "ticker": "UEC",
       "asset_type": "Equity",
-      "weight": 0.0381,
+      "weight": 0.0366,
       "sedol": "B0VLLY2",
       "company": "cusip:916896103"
     },
@@ -73,7 +73,7 @@
       "name": "Paladin Energy Ltd.",
       "ticker": "PDN AU",
       "asset_type": "Equity",
-      "weight": 0.0356,
+      "weight": 0.036,
       "sedol": "6668468",
       "company": "name:paladin energy"
     },
@@ -81,7 +81,7 @@
       "name": "Bannerman Energy Ltd.",
       "ticker": "BMN AU",
       "asset_type": "Equity",
-      "weight": 0.0315,
+      "weight": 0.0322,
       "sedol": "B07DXJ1",
       "company": "name:bannerman energy"
     },
@@ -89,31 +89,31 @@
       "name": "Boss Energy Ltd.",
       "ticker": "BOE AU",
       "asset_type": "Equity",
-      "weight": 0.0274,
+      "weight": 0.0286,
       "sedol": "B1XLCQ6",
       "company": "name:boss energy"
-    },
-    {
-      "name": "Energy Fuels Inc.",
-      "ticker": "UUUU",
-      "asset_type": "Equity",
-      "weight": 0.0271,
-      "sedol": "BFV4XW8",
-      "company": "name:energy fuels@canada"
     },
     {
       "name": "Deep Yellow Ltd.",
       "ticker": "DYL AU",
       "asset_type": "Equity",
-      "weight": 0.026,
+      "weight": 0.0272,
       "sedol": "6480275",
       "company": "name:deep yellow"
+    },
+    {
+      "name": "Energy Fuels Inc.",
+      "ticker": "UUUU",
+      "asset_type": "Equity",
+      "weight": 0.0269,
+      "sedol": "BFV4XW8",
+      "company": "name:energy fuels@canada"
     },
     {
       "name": "IsoEnergy Ltd.",
       "ticker": "ISO CN",
       "asset_type": "Equity",
-      "weight": 0.0208,
+      "weight": 0.0203,
       "sedol": "BTTRKM6",
       "company": "name:isoenergy"
     },
@@ -121,7 +121,7 @@
       "name": "Ur-Energy Inc.",
       "ticker": "URG",
       "asset_type": "Equity",
-      "weight": 0.0141,
+      "weight": 0.0136,
       "sedol": "B0WW4L2",
       "company": "cusip:91688R108"
     },
@@ -137,7 +137,7 @@
       "name": "Global Atomic Corp.",
       "ticker": "GLO CN",
       "asset_type": "Equity",
-      "weight": 0.0073,
+      "weight": 0.0074,
       "sedol": "BF11BK3",
       "company": "name:global atomic"
     },
@@ -153,7 +153,7 @@
       "name": "Encore Energy Corp.",
       "ticker": "EU CN",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0071,
       "sedol": "BN48958",
       "company": "cusip:29259W700"
     },
@@ -161,25 +161,25 @@
       "name": "Alligator Energy Ltd.",
       "ticker": "AGE AU",
       "asset_type": "Equity",
-      "weight": 0.0063,
+      "weight": 0.0069,
       "sedol": "B55ZH25",
       "company": "name:alligator energy"
-    },
-    {
-      "name": "Laramide Resources Ltd.",
-      "ticker": "LAM CN",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "2507952",
-      "company": "name:laramide resources"
     },
     {
       "name": "Lotus Resources Ltd.",
       "ticker": "LOT AU",
       "asset_type": "Equity",
-      "weight": 0.0042,
+      "weight": 0.0045,
       "sedol": "BK6XLC1",
       "company": "name:lotus resources"
+    },
+    {
+      "name": "Laramide Resources Ltd.",
+      "ticker": "LAM CN",
+      "asset_type": "Equity",
+      "weight": 0.004,
+      "sedol": "2507952",
+      "company": "name:laramide resources"
     },
     {
       "name": "Peninsula Energy Ltd.",
@@ -193,22 +193,23 @@
       "name": "Eagle Nuclear Energy Corp.",
       "ticker": "NUCL",
       "asset_type": "Equity",
-      "weight": 0.0027,
+      "weight": 0.0026,
       "sedol": "BSRFLX3",
       "company": "name:eagle nuclear energy"
     },
     {
-      "name": "VERDERA ENERGY\u00ef\u00bf\u00bd",
-      "ticker": "92339J9",
-      "asset_type": "Cash",
+      "name": "Verdera Energy Corp.",
+      "ticker": "V CN",
+      "asset_type": "Equity",
       "weight": 0.0002,
-      "company": null
+      "sedol": "BR1FDY7",
+      "company": "cusip:92339J107"
     },
     {
       "name": "Cash Equivalent",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0009,
+      "weight": 0.001,
       "company": null
     }
   ]

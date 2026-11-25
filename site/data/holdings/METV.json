@@ -1,7 +1,7 @@
 {
   "ticker": "METV",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-24T06:23:01.111077+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-25T05:04:04.894764+00:00",
   "stale": false,
   "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "NAVER Corp",
       "ticker": "035420 KS",
       "asset_type": "Equity",
-      "weight": 0.0251,
+      "weight": 0.0261,
       "sedol": "6560393",
       "company": "cusip:Y62579100"
     },
@@ -17,7 +17,7 @@
       "name": "NC Corp",
       "ticker": "036570 KS",
       "asset_type": "Equity",
-      "weight": 0.0195,
+      "weight": 0.0198,
       "sedol": "6264189",
       "company": "name:nc"
     },
@@ -25,7 +25,7 @@
       "name": "XD Inc",
       "ticker": "2400 HK",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0154,
       "sedol": "BKF2W48",
       "company": "name:xd"
     },
@@ -33,7 +33,7 @@
       "name": "Netmarble Corp",
       "ticker": "251270 KS",
       "asset_type": "Equity",
-      "weight": 0.0212,
+      "weight": 0.0214,
       "sedol": "BF2S426",
       "company": "name:netmarble"
     },
@@ -41,7 +41,7 @@
       "name": "Krafton Inc",
       "ticker": "259960 KS",
       "asset_type": "Equity",
-      "weight": 0.0467,
+      "weight": 0.0482,
       "sedol": "BMBP900",
       "company": "name:krafton"
     },
@@ -49,7 +49,7 @@
       "name": "Pearl Abyss Corp",
       "ticker": "263750 KS",
       "asset_type": "Equity",
-      "weight": 0.0133,
+      "weight": 0.0136,
       "sedol": "BYX56S9",
       "company": "name:pearl abyss"
     },
@@ -57,7 +57,7 @@
       "name": "Genius Electronic Optical Co Ltd",
       "ticker": "3406 TT",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0065,
       "sedol": "B059SR4",
       "company": "name:genius electronic optical"
     },
@@ -65,7 +65,7 @@
       "name": "Nexon Co Ltd",
       "ticker": "3659 JP",
       "asset_type": "Equity",
-      "weight": 0.047,
+      "weight": 0.0467,
       "sedol": "B63QM77",
       "company": "name:nexon"
     },
@@ -73,7 +73,7 @@
       "name": "Sony Group Corp",
       "ticker": "6758 JP",
       "asset_type": "Equity",
-      "weight": 0.0377,
+      "weight": 0.0378,
       "sedol": "6821506",
       "company": "cusip:835699307"
     },
@@ -81,7 +81,7 @@
       "name": "Tencent Holdings Ltd",
       "ticker": "700 HK",
       "asset_type": "Equity",
-      "weight": 0.0344,
+      "weight": 0.0341,
       "sedol": "BMMV2K8",
       "company": "cusip:G87572163"
     },
@@ -89,7 +89,7 @@
       "name": "Nintendo Co Ltd",
       "ticker": "7974 JT",
       "asset_type": "Equity",
-      "weight": 0.0449,
+      "weight": 0.044,
       "sedol": "6639550",
       "company": "name:nintendo"
     },
@@ -97,7 +97,7 @@
       "name": "Square Enix Holdings Co Ltd",
       "ticker": "9684 JP",
       "asset_type": "Equity",
-      "weight": 0.0197,
+      "weight": 0.0194,
       "sedol": "6309262",
       "company": "name:square enix holdings"
     },
@@ -105,7 +105,7 @@
       "name": "Apple Inc",
       "ticker": "AAPL",
       "asset_type": "Equity",
-      "weight": 0.0646,
+      "weight": 0.0654,
       "cusip": "037833100",
       "company": "cusip:037833100"
     },
@@ -121,7 +121,7 @@
       "name": "Advanced Micro Devices Inc",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0224,
+      "weight": 0.0204,
       "cusip": "007903107",
       "company": "cusip:007903107"
     },
@@ -129,7 +129,7 @@
       "name": "AppLovin Corp",
       "ticker": "APP",
       "asset_type": "Equity",
-      "weight": 0.0107,
+      "weight": 0.0109,
       "cusip": "03831W108",
       "company": "cusip:03831W108"
     },
@@ -137,7 +137,7 @@
       "name": "Coinbase Global Inc",
       "ticker": "COIN",
       "asset_type": "Equity",
-      "weight": 0.0279,
+      "weight": 0.0262,
       "cusip": "19260Q107",
       "company": "cusip:19260Q107"
     },
@@ -145,7 +145,7 @@
       "name": "Circle Internet Group Inc",
       "ticker": "CRCL",
       "asset_type": "Equity",
-      "weight": 0.0297,
+      "weight": 0.0276,
       "cusip": "172573107",
       "company": "cusip:172573107"
     },
@@ -153,7 +153,7 @@
       "name": "EssilorLuxottica SA",
       "ticker": "EL FP",
       "asset_type": "Equity",
-      "weight": 0.0099,
+      "weight": 0.01,
       "sedol": "7212477",
       "company": "name:essilorluxottica"
     },
@@ -175,7 +175,7 @@
       "name": "Meta Platforms Inc",
       "ticker": "META",
       "asset_type": "Equity",
-      "weight": 0.0545,
+      "weight": 0.0537,
       "cusip": "30303M102",
       "company": "cusip:30303M102"
     },
@@ -183,7 +183,7 @@
       "name": "Microsoft Corp",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0521,
+      "weight": 0.0523,
       "cusip": "594918104",
       "company": "cusip:594918104"
     },
@@ -191,7 +191,7 @@
       "name": "NETEASE INC",
       "ticker": "NTES",
       "asset_type": "Equity",
-      "weight": 0.0413,
+      "weight": 0.0402,
       "cusip": "64110W102",
       "company": "cusip:64110W102"
     },
@@ -199,7 +199,7 @@
       "name": "NVIDIA Corp",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.0406,
+      "weight": 0.0382,
       "cusip": "67066G104",
       "company": "cusip:67066G104"
     },
@@ -207,7 +207,7 @@
       "name": "ROBLOX Corp",
       "ticker": "RBLX",
       "asset_type": "Equity",
-      "weight": 0.0913,
+      "weight": 0.0943,
       "cusip": "771049103",
       "company": "cusip:771049103"
     },
@@ -215,7 +215,7 @@
       "name": "Sea Ltd",
       "ticker": "SE",
       "asset_type": "Equity",
-      "weight": 0.027,
+      "weight": 0.0268,
       "cusip": "81141R100",
       "company": "cusip:81141R100"
     },
@@ -223,7 +223,7 @@
       "name": "Snap Inc",
       "ticker": "SNAP",
       "asset_type": "Equity",
-      "weight": 0.0297,
+      "weight": 0.0295,
       "cusip": "83304A106",
       "company": "cusip:83304A106"
     },
@@ -231,7 +231,7 @@
       "name": "Take-Two Interactive Software Inc",
       "ticker": "TTWO",
       "asset_type": "Equity",
-      "weight": 0.0751,
+      "weight": 0.0789,
       "cusip": "874054109",
       "company": "cusip:874054109"
     },
@@ -246,7 +246,7 @@
       "name": "Unity Software Inc",
       "ticker": "U",
       "asset_type": "Equity",
-      "weight": 0.0483,
+      "weight": 0.0491,
       "cusip": "91332U101",
       "company": "cusip:91332U101"
     },

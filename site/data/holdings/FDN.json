@@ -1,7 +1,7 @@
 {
   "ticker": "FDN",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-24T06:22:51.601134+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-25T05:03:54.866319+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FDN",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Amazon.com, Inc.",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.1163,
+      "weight": 0.1144,
       "cusip": "023135106",
       "company": "cusip:023135106"
     },
@@ -17,7 +17,7 @@
       "name": "Meta Platforms, Inc. (Class A)",
       "ticker": "META",
       "asset_type": "Equity",
-      "weight": 0.102,
+      "weight": 0.1034,
       "cusip": "30303M102",
       "company": "cusip:30303M102"
     },
@@ -25,7 +25,7 @@
       "name": "Cisco Systems, Inc.",
       "ticker": "CSCO",
       "asset_type": "Equity",
-      "weight": 0.0858,
+      "weight": 0.0871,
       "cusip": "17275R102",
       "company": "cusip:17275R102"
     },
@@ -33,7 +33,7 @@
       "name": "Netflix, Inc.",
       "ticker": "NFLX",
       "asset_type": "Equity",
-      "weight": 0.0558,
+      "weight": 0.0544,
       "cusip": "64110L106",
       "company": "cusip:64110L106"
     },
@@ -41,7 +41,7 @@
       "name": "Alphabet Inc. (Class A)",
       "ticker": "GOOGL",
       "asset_type": "Equity",
-      "weight": 0.0529,
+      "weight": 0.0535,
       "cusip": "02079K305",
       "company": "cusip:02079K107"
     },
@@ -49,63 +49,63 @@
       "name": "Arista Networks, Inc.",
       "ticker": "ANET",
       "asset_type": "Equity",
-      "weight": 0.0465,
+      "weight": 0.047,
       "cusip": "040413205",
       "company": "cusip:040413205"
-    },
-    {
-      "name": "Booking Holdings Inc.",
-      "ticker": "BKNG",
-      "asset_type": "Equity",
-      "weight": 0.0442,
-      "cusip": "09857L108",
-      "company": "cusip:09857L108"
     },
     {
       "name": "Alphabet Inc. (Class C)",
       "ticker": "GOOG",
       "asset_type": "Equity",
-      "weight": 0.0426,
+      "weight": 0.0429,
       "cusip": "02079K107",
       "company": "cusip:02079K107"
     },
     {
-      "name": "Salesforce, Inc.",
-      "ticker": "CRM",
+      "name": "Booking Holdings Inc.",
+      "ticker": "BKNG",
       "asset_type": "Equity",
-      "weight": 0.0396,
-      "cusip": "79466L302",
-      "company": "cusip:79466L302"
+      "weight": 0.0421,
+      "cusip": "09857L108",
+      "company": "cusip:09857L108"
     },
     {
       "name": "Oracle Corporation",
       "ticker": "ORCL",
       "asset_type": "Equity",
-      "weight": 0.0381,
+      "weight": 0.0407,
       "cusip": "68389X105",
       "company": "cusip:68389X105"
     },
     {
-      "name": "Cloudflare, Inc. (Class A)",
-      "ticker": "NET",
+      "name": "Salesforce, Inc.",
+      "ticker": "CRM",
       "asset_type": "Equity",
-      "weight": 0.0359,
-      "cusip": "18915M107",
-      "company": "cusip:18915M107"
+      "weight": 0.0386,
+      "cusip": "79466L302",
+      "company": "cusip:79466L302"
     },
     {
       "name": "Snowflake Inc. (Class A)",
       "ticker": "SNOW",
       "asset_type": "Equity",
-      "weight": 0.0358,
+      "weight": 0.0363,
       "cusip": "833445109",
       "company": "cusip:833445109"
+    },
+    {
+      "name": "Cloudflare, Inc. (Class A)",
+      "ticker": "NET",
+      "asset_type": "Equity",
+      "weight": 0.0361,
+      "cusip": "18915M107",
+      "company": "cusip:18915M107"
     },
     {
       "name": "Airbnb, Inc. (Class A)",
       "ticker": "ABNB",
       "asset_type": "Equity",
-      "weight": 0.029,
+      "weight": 0.0282,
       "cusip": "009066101",
       "company": "cusip:009066101"
     },
@@ -113,7 +113,7 @@
       "name": "DoorDash, Inc. (Class A)",
       "ticker": "DASH",
       "asset_type": "Equity",
-      "weight": 0.0233,
+      "weight": 0.0234,
       "cusip": "25809K105",
       "company": "cusip:25809K105"
     },
@@ -121,7 +121,7 @@
       "name": "Datadog, Inc. (Class A)",
       "ticker": "DDOG",
       "asset_type": "Equity",
-      "weight": 0.0215,
+      "weight": 0.0219,
       "cusip": "23804L103",
       "company": "cusip:23804L103"
     },
@@ -129,55 +129,55 @@
       "name": "Carvana Co. (Class A)",
       "ticker": "CVNA",
       "asset_type": "Equity",
-      "weight": 0.0187,
+      "weight": 0.0188,
       "cusip": "146869102",
       "company": "cusip:146869102"
-    },
-    {
-      "name": "eBay Inc.",
-      "ticker": "EBAY",
-      "asset_type": "Equity",
-      "weight": 0.0187,
-      "cusip": "278642103",
-      "company": "cusip:278642103"
     },
     {
       "name": "PayPal Holdings, Inc.",
       "ticker": "PYPL",
       "asset_type": "Equity",
-      "weight": 0.0184,
+      "weight": 0.0182,
       "cusip": "70450Y103",
       "company": "cusip:70450Y103"
+    },
+    {
+      "name": "eBay Inc.",
+      "ticker": "EBAY",
+      "asset_type": "Equity",
+      "weight": 0.0181,
+      "cusip": "278642103",
+      "company": "cusip:278642103"
     },
     {
       "name": "Veeva Systems Inc. (Class A)",
       "ticker": "VEEV",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0154,
       "cusip": "922475108",
       "company": "cusip:922475108"
-    },
-    {
-      "name": "Workday, Inc. (Class A)",
-      "ticker": "WDAY",
-      "asset_type": "Equity",
-      "weight": 0.0142,
-      "cusip": "98138H101",
-      "company": "cusip:98138H101"
     },
     {
       "name": "Ciena Corporation",
       "ticker": "CIEN",
       "asset_type": "Equity",
-      "weight": 0.0136,
+      "weight": 0.0146,
       "cusip": "171779309",
       "company": "cusip:171779309"
+    },
+    {
+      "name": "Workday, Inc. (Class A)",
+      "ticker": "WDAY",
+      "asset_type": "Equity",
+      "weight": 0.0137,
+      "cusip": "98138H101",
+      "company": "cusip:98138H101"
     },
     {
       "name": "Okta, Inc.",
       "ticker": "OKTA",
       "asset_type": "Equity",
-      "weight": 0.013,
+      "weight": 0.0133,
       "cusip": "679295105",
       "company": "cusip:679295105"
     },
@@ -185,7 +185,7 @@
       "name": "Roblox Corporation (Class A)",
       "ticker": "RBLX",
       "asset_type": "Equity",
-      "weight": 0.0127,
+      "weight": 0.0133,
       "cusip": "771049103",
       "company": "cusip:771049103"
     },
@@ -193,7 +193,7 @@
       "name": "Copart, Inc.",
       "ticker": "CPRT",
       "asset_type": "Equity",
-      "weight": 0.0107,
+      "weight": 0.0103,
       "cusip": "217204106",
       "company": "cusip:217204106"
     },
@@ -201,25 +201,33 @@
       "name": "VeriSign, Inc.",
       "ticker": "VRSN",
       "asset_type": "Equity",
-      "weight": 0.0102,
+      "weight": 0.0099,
       "cusip": "92343E102",
       "company": "cusip:92343E102"
-    },
-    {
-      "name": "Atlassian Corporation (Class A)",
-      "ticker": "TEAM",
-      "asset_type": "Equity",
-      "weight": 0.0087,
-      "cusip": "049468101",
-      "company": "cusip:049468101"
     },
     {
       "name": "Zoom Communications, Inc. (Class A)",
       "ticker": "ZM",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0088,
       "cusip": "98980L101",
       "company": "cusip:98980L101"
+    },
+    {
+      "name": "Atlassian Corporation (Class A)",
+      "ticker": "TEAM",
+      "asset_type": "Equity",
+      "weight": 0.0086,
+      "cusip": "049468101",
+      "company": "cusip:049468101"
+    },
+    {
+      "name": "CoreWeave, Inc. (Class A)",
+      "ticker": "CRWV",
+      "asset_type": "Equity",
+      "weight": 0.0072,
+      "cusip": "21873S108",
+      "company": "cusip:21873S108"
     },
     {
       "name": "F5, Inc.",
@@ -228,14 +236,6 @@
       "weight": 0.007,
       "cusip": "315616102",
       "company": "cusip:315616102"
-    },
-    {
-      "name": "CoreWeave, Inc. (Class A)",
-      "ticker": "CRWV",
-      "asset_type": "Equity",
-      "weight": 0.0061,
-      "cusip": "21873S108",
-      "company": "cusip:21873S108"
     },
     {
       "name": "Nutanix, Inc. (Class A)",
@@ -249,7 +249,7 @@
       "name": "DocuSign, Inc.",
       "ticker": "DOCU",
       "asset_type": "Equity",
-      "weight": 0.0058,
+      "weight": 0.0057,
       "cusip": "256163106",
       "company": "cusip:256163106"
     },
@@ -257,7 +257,7 @@
       "name": "Samsara Inc. (Class A)",
       "ticker": "IOT",
       "asset_type": "Equity",
-      "weight": 0.0057,
+      "weight": 0.0056,
       "cusip": "79589L106",
       "company": "cusip:79589L106"
     },
@@ -265,17 +265,9 @@
       "name": "GoDaddy Inc. (Class A)",
       "ticker": "GDDY",
       "asset_type": "Equity",
-      "weight": 0.0051,
+      "weight": 0.005,
       "cusip": "380237107",
       "company": "cusip:380237107"
-    },
-    {
-      "name": "Akamai Technologies, Inc.",
-      "ticker": "AKAM",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "cusip": "00971T101",
-      "company": "cusip:00971T101"
     },
     {
       "name": "Reddit, Inc. (Class A)",
@@ -286,10 +278,18 @@
       "company": "cusip:75734B100"
     },
     {
+      "name": "Akamai Technologies, Inc.",
+      "ticker": "AKAM",
+      "asset_type": "Equity",
+      "weight": 0.0049,
+      "cusip": "00971T101",
+      "company": "cusip:00971T101"
+    },
+    {
       "name": "Circle Internet Group, Inc. (Class A)",
       "ticker": "CRCL",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.004,
       "cusip": "172573107",
       "company": "cusip:172573107"
     },
@@ -297,7 +297,7 @@
       "name": "HubSpot, Inc.",
       "ticker": "HUBS",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.0038,
       "cusip": "443573100",
       "company": "cusip:443573100"
     },
@@ -305,7 +305,7 @@
       "name": "Flutter Entertainment Plc",
       "ticker": "FLUT",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0037,
       "cusip": "G3643J108",
       "company": "cusip:G3643J108"
     },
@@ -313,7 +313,7 @@
       "name": "Paycom Software, Inc.",
       "ticker": "PAYC",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0036,
       "cusip": "70432V102",
       "company": "cusip:70432V102"
     },
@@ -321,7 +321,7 @@
       "name": "DraftKings Inc.",
       "ticker": "DKNG",
       "asset_type": "Equity",
-      "weight": 0.0031,
+      "weight": 0.003,
       "cusip": "26142V105",
       "company": "cusip:26142V105"
     },
@@ -329,7 +329,7 @@
       "name": "Duolingo, Inc.",
       "ticker": "DUOL",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0023,
       "cusip": "26603R106",
       "company": "cusip:26603R106"
     },

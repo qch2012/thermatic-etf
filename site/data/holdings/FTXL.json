@@ -1,7 +1,7 @@
 {
   "ticker": "FTXL",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-24T06:22:53.495185+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-25T05:03:57.204100+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FTXL",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "QUALCOMM Incorporated",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.092,
+      "weight": 0.0898,
       "cusip": "747525103",
       "company": "cusip:747525103"
     },
@@ -17,15 +17,23 @@
       "name": "Broadcom Inc.",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.086,
+      "weight": 0.0783,
       "cusip": "11135F101",
       "company": "cusip:11135F101"
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0692,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
     },
     {
       "name": "Micron Technology, Inc.",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0649,
+      "weight": 0.0683,
       "cusip": "595112103",
       "company": "cusip:595112103"
     },
@@ -33,23 +41,15 @@
       "name": "Intel Corporation",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0599,
+      "weight": 0.0617,
       "cusip": "458140100",
       "company": "cusip:458140100"
-    },
-    {
-      "name": "NVIDIA Corporation",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0595,
-      "cusip": "67066G104",
-      "company": "cusip:67066G104"
     },
     {
       "name": "NXP Semiconductors N.V.",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.0548,
+      "weight": 0.0527,
       "cusip": "N6596X109",
       "company": "cusip:N6596X109"
     },
@@ -57,7 +57,7 @@
       "name": "Texas Instruments Incorporated",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0529,
+      "weight": 0.0516,
       "cusip": "882508104",
       "company": "cusip:882508104"
     },
@@ -65,7 +65,7 @@
       "name": "Analog Devices, Inc.",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.05,
+      "weight": 0.0484,
       "cusip": "032654105",
       "company": "cusip:032654105"
     },
@@ -73,7 +73,7 @@
       "name": "Advanced Micro Devices, Inc.",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0472,
+      "weight": 0.0446,
       "cusip": "007903107",
       "company": "cusip:007903107"
     },
@@ -81,7 +81,7 @@
       "name": "ON Semiconductor Corporation",
       "ticker": "ON",
       "asset_type": "Equity",
-      "weight": 0.043,
+      "weight": 0.0417,
       "cusip": "682189105",
       "company": "cusip:682189105"
     },
@@ -89,7 +89,7 @@
       "name": "KLA Corporation",
       "ticker": "KLAC",
       "asset_type": "Equity",
-      "weight": 0.0378,
+      "weight": 0.0385,
       "cusip": "482480100",
       "company": "cusip:482480100"
     },
@@ -97,7 +97,7 @@
       "name": "Applied Materials, Inc.",
       "ticker": "AMAT",
       "asset_type": "Equity",
-      "weight": 0.0345,
+      "weight": 0.035,
       "cusip": "038222105",
       "company": "cusip:038222105"
     },
@@ -105,7 +105,7 @@
       "name": "Lam Research Corporation",
       "ticker": "LRCX",
       "asset_type": "Equity",
-      "weight": 0.0318,
+      "weight": 0.0322,
       "cusip": "512807306",
       "company": "cusip:512807306"
     },
@@ -113,31 +113,31 @@
       "name": "Amkor Technology, Inc.",
       "ticker": "AMKR",
       "asset_type": "Equity",
-      "weight": 0.0312,
+      "weight": 0.0317,
       "cusip": "031652100",
       "company": "cusip:031652100"
-    },
-    {
-      "name": "Microchip Technology Incorporated",
-      "ticker": "MCHP",
-      "asset_type": "Equity",
-      "weight": 0.0306,
-      "cusip": "595017104",
-      "company": "cusip:595017104"
     },
     {
       "name": "Marvell Technology, Inc.",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0302,
+      "weight": 0.0316,
       "cusip": "573874104",
       "company": "cusip:573874104"
+    },
+    {
+      "name": "Microchip Technology Incorporated",
+      "ticker": "MCHP",
+      "asset_type": "Equity",
+      "weight": 0.0299,
+      "cusip": "595017104",
+      "company": "cusip:595017104"
     },
     {
       "name": "Entegris, Inc.",
       "ticker": "ENTG",
       "asset_type": "Equity",
-      "weight": 0.0276,
+      "weight": 0.0279,
       "cusip": "29362U104",
       "company": "cusip:29362U104"
     },
@@ -145,7 +145,7 @@
       "name": "Teradyne, Inc.",
       "ticker": "TER",
       "asset_type": "Equity",
-      "weight": 0.0247,
+      "weight": 0.0249,
       "cusip": "880770102",
       "company": "cusip:880770102"
     },
@@ -153,7 +153,7 @@
       "name": "Monolithic Power Systems, Inc.",
       "ticker": "MPWR",
       "asset_type": "Equity",
-      "weight": 0.0231,
+      "weight": 0.0238,
       "cusip": "609839105",
       "company": "cusip:609839105"
     },
@@ -161,7 +161,7 @@
       "name": "Cirrus Logic, Inc.",
       "ticker": "CRUS",
       "asset_type": "Equity",
-      "weight": 0.0224,
+      "weight": 0.021,
       "cusip": "172755100",
       "company": "cusip:172755100"
     },
@@ -169,7 +169,7 @@
       "name": "Vishay Intertechnology, Inc.",
       "ticker": "VSH",
       "asset_type": "Equity",
-      "weight": 0.0098,
+      "weight": 0.0096,
       "cusip": "928298108",
       "company": "cusip:928298108"
     },
@@ -190,6 +190,14 @@
       "company": "cusip:254543101"
     },
     {
+      "name": "MACOM Technology Solutions Holdings, Inc.",
+      "ticker": "MTSI",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "cusip": "55405Y100",
+      "company": "cusip:55405Y100"
+    },
+    {
       "name": "Onto Innovation Inc.",
       "ticker": "ONTO",
       "asset_type": "Equity",
@@ -198,18 +206,10 @@
       "company": "cusip:683344105"
     },
     {
-      "name": "MACOM Technology Solutions Holdings, Inc.",
-      "ticker": "MTSI",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "cusip": "55405Y100",
-      "company": "cusip:55405Y100"
-    },
-    {
       "name": "Credo Technology Group Holding Ltd",
       "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0064,
       "cusip": "G25457105",
       "company": "cusip:G25457105"
     },
@@ -217,17 +217,9 @@
       "name": "Lattice Semiconductor Corporation",
       "ticker": "LSCC",
       "asset_type": "Equity",
-      "weight": 0.0057,
+      "weight": 0.0058,
       "cusip": "518415104",
       "company": "cusip:518415104"
-    },
-    {
-      "name": "Avnet, Inc.",
-      "ticker": "AVT",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "cusip": "053807103",
-      "company": "cusip:053807103"
     },
     {
       "name": "Advanced Energy Industries, Inc.",
@@ -238,36 +230,44 @@
       "company": "cusip:007973100"
     },
     {
-      "name": "FormFactor, Inc.",
-      "ticker": "FORM",
+      "name": "Avnet, Inc.",
+      "ticker": "AVT",
       "asset_type": "Equity",
-      "weight": 0.0049,
-      "cusip": "346375108",
-      "company": "cusip:346375108"
+      "weight": 0.0052,
+      "cusip": "053807103",
+      "company": "cusip:053807103"
     },
     {
       "name": "Astera Labs, Inc.",
       "ticker": "ALAB",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.005,
       "cusip": "04626A103",
       "company": "cusip:04626A103"
     },
     {
-      "name": "Coherent Corp.",
-      "ticker": "COHR",
+      "name": "FormFactor, Inc.",
+      "ticker": "FORM",
       "asset_type": "Equity",
-      "weight": 0.0045,
-      "cusip": "19247G107",
-      "company": "cusip:19247G107"
+      "weight": 0.0048,
+      "cusip": "346375108",
+      "company": "cusip:346375108"
     },
     {
       "name": "Semtech Corporation",
       "ticker": "SMTC",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0047,
       "cusip": "816850101",
       "company": "cusip:816850101"
+    },
+    {
+      "name": "Coherent Corp.",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "cusip": "19247G107",
+      "company": "cusip:19247G107"
     },
     {
       "name": "ACM Research, Inc. (Class A)",
@@ -278,10 +278,18 @@
       "company": "cusip:00108J109"
     },
     {
+      "name": "AXT, Inc.",
+      "ticker": "AXTI",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "cusip": "00246W103",
+      "company": "cusip:00246W103"
+    },
+    {
       "name": "Ultra Clean Holdings, Inc.",
       "ticker": "UCTT",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0036,
       "cusip": "90385V107",
       "company": "cusip:90385V107"
     },
@@ -289,17 +297,9 @@
       "name": "Adeia Inc.",
       "ticker": "ADEA",
       "asset_type": "Equity",
-      "weight": 0.0034,
+      "weight": 0.0033,
       "cusip": "00676P107",
       "company": "cusip:00676P107"
-    },
-    {
-      "name": "AXT, Inc.",
-      "ticker": "AXTI",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "cusip": "00246W103",
-      "company": "cusip:00246W103"
     },
     {
       "name": "US Dollar",

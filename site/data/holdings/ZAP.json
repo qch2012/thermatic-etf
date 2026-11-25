@@ -1,86 +1,55 @@
 {
   "ticker": "ZAP",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-24T06:23:15.748986+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-25T05:04:22.040862+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/zap_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "CHARGEPOINT HOLDINGS INC",
-      "ticker": "CHPT",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BVN2B39",
-      "company": "name:chargepoint holdings"
-    },
-    {
-      "name": "EROCK INC-A",
-      "ticker": "EROC",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BM927N2",
-      "company": "name:erock"
-    },
-    {
-      "name": "EVGO INC",
-      "ticker": "EVGO",
-      "asset_type": "Equity",
-      "weight": 0.0002,
-      "sedol": "BP2Q7L0",
-      "company": "cusip:30052F100"
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0,
-      "company": null
-    },
-    {
       "name": "DUKE ENERGY CORP",
       "ticker": "DUK",
       "asset_type": "Equity",
-      "weight": 0.0433,
+      "weight": 0.0441,
       "sedol": "B7VD3F2",
       "company": "cusip:26441C204"
-    },
-    {
-      "name": "EXELON CORP",
-      "ticker": "EXC",
-      "asset_type": "Equity",
-      "weight": 0.043,
-      "sedol": "2670519",
-      "company": "cusip:30161N101"
     },
     {
       "name": "CONSOLIDATED EDISON INC",
       "ticker": "ED",
       "asset_type": "Equity",
-      "weight": 0.0429,
+      "weight": 0.0436,
       "sedol": "2216850",
       "company": "cusip:209115104"
     },
     {
-      "name": "XCEL ENERGY INC",
-      "ticker": "XEL",
+      "name": "EXELON CORP",
+      "ticker": "EXC",
       "asset_type": "Equity",
-      "weight": 0.0428,
-      "sedol": "2614807",
-      "company": "cusip:98389B100"
+      "weight": 0.0435,
+      "sedol": "2670519",
+      "company": "cusip:30161N101"
     },
     {
       "name": "NEXTERA ENERGY INC",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.0427,
+      "weight": 0.0434,
       "sedol": "2328915",
       "company": "cusip:65339F101"
+    },
+    {
+      "name": "XCEL ENERGY INC",
+      "ticker": "XEL",
+      "asset_type": "Equity",
+      "weight": 0.0433,
+      "sedol": "2614807",
+      "company": "cusip:98389B100"
     },
     {
       "name": "DOMINION ENERGY INC",
       "ticker": "D",
       "asset_type": "Equity",
-      "weight": 0.0427,
+      "weight": 0.0433,
       "sedol": "2542049",
       "company": "cusip:25746U109"
     },
@@ -88,7 +57,7 @@
       "name": "PUBLIC SERVICE ENTERPRISE GP",
       "ticker": "PEG",
       "asset_type": "Equity",
-      "weight": 0.0423,
+      "weight": 0.0428,
       "sedol": "2707677",
       "company": "cusip:744573106"
     },
@@ -96,15 +65,23 @@
       "name": "SOUTHERN CO/THE",
       "ticker": "SO",
       "asset_type": "Equity",
-      "weight": 0.0415,
+      "weight": 0.0422,
       "sedol": "2829601",
       "company": "cusip:842587107"
+    },
+    {
+      "name": "NATIONAL GRID PLC-SP ADR",
+      "ticker": "NGG",
+      "asset_type": "Equity",
+      "weight": 0.0414,
+      "sedol": "BZ8FYV0",
+      "company": "cusip:BDR05C901"
     },
     {
       "name": "ENTERGY CORP",
       "ticker": "ETR",
       "asset_type": "Equity",
-      "weight": 0.0414,
+      "weight": 0.0412,
       "sedol": "2317087",
       "company": "cusip:29364G103"
     },
@@ -112,23 +89,15 @@
       "name": "AMERICAN ELECTRIC POWER",
       "ticker": "AEP",
       "asset_type": "Equity",
-      "weight": 0.0406,
+      "weight": 0.041,
       "sedol": "2026242",
       "company": "cusip:025537101"
-    },
-    {
-      "name": "NATIONAL GRID PLC-SP ADR",
-      "ticker": "NGG",
-      "asset_type": "Equity",
-      "weight": 0.0403,
-      "sedol": "BZ8FYV0",
-      "company": "cusip:BDR05C901"
     },
     {
       "name": "QUANTA SERVICES INC",
       "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.0391,
+      "weight": 0.0382,
       "sedol": "2150204",
       "company": "cusip:74762E102"
     },
@@ -136,7 +105,7 @@
       "name": "AMETEK INC",
       "ticker": "AME",
       "asset_type": "Equity",
-      "weight": 0.0378,
+      "weight": 0.0375,
       "sedol": "2089212",
       "company": "cusip:031100100"
     },
@@ -144,63 +113,63 @@
       "name": "CONSTELLATION ENERGY",
       "ticker": "CEG",
       "asset_type": "Equity",
-      "weight": 0.0377,
+      "weight": 0.0369,
       "sedol": "BMH4FS1",
       "company": "cusip:21037T109"
-    },
-    {
-      "name": "EATON CORP PLC",
-      "ticker": "ETN",
-      "asset_type": "Equity",
-      "weight": 0.0349,
-      "sedol": "B8KQN82",
-      "company": "cusip:G29183103"
     },
     {
       "name": "AMEREN CORPORATION",
       "ticker": "AEE",
       "asset_type": "Equity",
-      "weight": 0.0338,
+      "weight": 0.0342,
       "sedol": "2050832",
       "company": "name:ameren@united states"
+    },
+    {
+      "name": "EATON CORP PLC",
+      "ticker": "ETN",
+      "asset_type": "Equity",
+      "weight": 0.0334,
+      "sedol": "B8KQN82",
+      "company": "cusip:G29183103"
     },
     {
       "name": "VISTRA CORP.",
       "ticker": "VST",
       "asset_type": "Equity",
-      "weight": 0.0331,
+      "weight": 0.0325,
       "sedol": "BZ8VJQ8",
       "company": "cusip:92840M102"
-    },
-    {
-      "name": "BLOOM ENERGY CORP- A",
-      "ticker": "BE",
-      "asset_type": "Equity",
-      "weight": 0.0308,
-      "sedol": "BDD1BB8",
-      "company": "cusip:093712107"
-    },
-    {
-      "name": "FIRSTENERGY CORP",
-      "ticker": "FE",
-      "asset_type": "Equity",
-      "weight": 0.0302,
-      "sedol": "2100920",
-      "company": "name:firstenergy@united states"
     },
     {
       "name": "EVERSOURCE ENERGY",
       "ticker": "ES",
       "asset_type": "Equity",
-      "weight": 0.0298,
+      "weight": 0.0305,
       "sedol": "BVVN4Q8",
       "company": "name:eversource energy@united states"
+    },
+    {
+      "name": "FIRSTENERGY CORP",
+      "ticker": "FE",
+      "asset_type": "Equity",
+      "weight": 0.0303,
+      "sedol": "2100920",
+      "company": "name:firstenergy@united states"
+    },
+    {
+      "name": "BLOOM ENERGY CORP- A",
+      "ticker": "BE",
+      "asset_type": "Equity",
+      "weight": 0.0289,
+      "sedol": "BDD1BB8",
+      "company": "cusip:093712107"
     },
     {
       "name": "EDISON INTERNATIONAL",
       "ticker": "EIX",
       "asset_type": "Equity",
-      "weight": 0.0267,
+      "weight": 0.0269,
       "sedol": "2829515",
       "company": "name:edison international@united states"
     },
@@ -208,7 +177,7 @@
       "name": "HUBBELL INC",
       "ticker": "HUBB",
       "asset_type": "Equity",
-      "weight": 0.0265,
+      "weight": 0.026,
       "sedol": "BDFG6S3",
       "company": "cusip:443510607"
     },
@@ -216,7 +185,7 @@
       "name": "EVERGY INC",
       "ticker": "EVRG",
       "asset_type": "Equity",
-      "weight": 0.0217,
+      "weight": 0.0219,
       "sedol": "BFMXGR0",
       "company": "cusip:30034W106"
     },
@@ -224,7 +193,7 @@
       "name": "ALLIANT ENERGY CORP",
       "ticker": "LNT",
       "asset_type": "Equity",
-      "weight": 0.0204,
+      "weight": 0.0206,
       "sedol": "2973821",
       "company": "cusip:018802108"
     },
@@ -232,7 +201,7 @@
       "name": "TALEN ENERGY CORP",
       "ticker": "TLN",
       "asset_type": "Equity",
-      "weight": 0.0196,
+      "weight": 0.0189,
       "sedol": "BRRF114",
       "company": "cusip:87422Q109"
     },
@@ -240,7 +209,7 @@
       "name": "EMERA INC",
       "ticker": "EMA",
       "asset_type": "Equity",
-      "weight": 0.017,
+      "weight": 0.0173,
       "sedol": "B11JS64",
       "company": "name:emera@canada"
     },
@@ -248,7 +217,7 @@
       "name": "PINNACLE WEST CAPITAL",
       "ticker": "PNW",
       "asset_type": "Equity",
-      "weight": 0.0133,
+      "weight": 0.0134,
       "sedol": "2048804",
       "company": "cusip:723484101"
     },
@@ -256,7 +225,7 @@
       "name": "MASTEC INC",
       "ticker": "MTZ",
       "asset_type": "Equity",
-      "weight": 0.0125,
+      "weight": 0.012,
       "sedol": "2155306",
       "company": "cusip:576323109"
     },
@@ -272,7 +241,7 @@
       "name": "IDACORP INC",
       "ticker": "IDA",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0092,
       "sedol": "2296937",
       "company": "cusip:451107106"
     },
@@ -288,7 +257,7 @@
       "name": "PORTLAND GENERAL ELECTRIC CO",
       "ticker": "POR",
       "asset_type": "Equity",
-      "weight": 0.0062,
+      "weight": 0.0063,
       "sedol": "B125XQ6",
       "company": "cusip:736508847"
     },
@@ -304,7 +273,7 @@
       "name": "ENERSYS",
       "ticker": "ENS",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0055,
       "sedol": "B020GQ5",
       "company": "cusip:29275Y102"
     },
@@ -312,7 +281,7 @@
       "name": "FORGENT POWER SOLUTIONS-CL A",
       "ticker": "FPS",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0051,
       "sedol": "BV9C843",
       "company": "cusip:34631F102"
     },
@@ -320,7 +289,7 @@
       "name": "CLEARWAY ENERGY INC-C",
       "ticker": "CWEN",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.004,
       "sedol": "BGJRH57",
       "company": "cusip:18539C204"
     },
@@ -328,7 +297,7 @@
       "name": "AVISTA CORP",
       "ticker": "AVA",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0037,
       "sedol": "2942605",
       "company": "cusip:05379B107"
     },
@@ -336,22 +305,53 @@
       "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0028,
+      "weight": 0.0026,
       "company": null
     },
     {
       "name": "NUSCALE POWER CORP",
       "ticker": "SMR",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0019,
       "sedol": "BNXK803",
       "company": "cusip:67079K100"
+    },
+    {
+      "name": "CHARGEPOINT HOLDINGS INC",
+      "ticker": "CHPT",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "sedol": "BVN2B39",
+      "company": "name:chargepoint holdings"
+    },
+    {
+      "name": "EVGO INC",
+      "ticker": "EVGO",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "sedol": "BP2Q7L0",
+      "company": "cusip:30052F100"
+    },
+    {
+      "name": "EROCK INC-A",
+      "ticker": "EROC",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "sedol": "BM927N2",
+      "company": "name:erock"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
     },
     {
       "name": "PLUG POWER INC",
       "ticker": "PLUG",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0017,
       "sedol": "2508386",
       "company": "cusip:72919P202"
     },
@@ -383,7 +383,7 @@
       "name": "AMERESCO INC-CL A",
       "ticker": "AMRC",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.0008,
       "sedol": "B3SWPT2",
       "company": "cusip:02361E108"
     },

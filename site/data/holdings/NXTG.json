@@ -1,7 +1,7 @@
 {
   "ticker": "NXTG",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-24T06:23:03.142278+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-25T05:04:07.931944+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=NXTG",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Skyworks Solutions, Inc.",
       "ticker": "SWKS",
       "asset_type": "Equity",
-      "weight": 0.0279,
+      "weight": 0.0276,
       "cusip": "83088M102",
       "company": "cusip:83088M102"
     },
@@ -17,7 +17,7 @@
       "name": "Sony Group Corp.",
       "ticker": "6758.JP",
       "asset_type": "Equity",
-      "weight": 0.0199,
+      "weight": 0.0193,
       "cusip": "J76379106",
       "company": "cusip:835699307"
     },
@@ -25,7 +25,7 @@
       "name": "Motorola Solutions, Inc.",
       "ticker": "MSI",
       "asset_type": "Equity",
-      "weight": 0.0196,
+      "weight": 0.0189,
       "cusip": "620076307",
       "company": "cusip:620076307"
     },
@@ -33,7 +33,7 @@
       "name": "HCL Technologies Limited",
       "ticker": "HCLT.IS",
       "asset_type": "Equity",
-      "weight": 0.0191,
+      "weight": 0.0181,
       "cusip": "Y3121G147",
       "company": "cusip:Y3121G147"
     },
@@ -41,7 +41,7 @@
       "name": "Tech Mahindra Ltd.",
       "ticker": "TECHM.IS",
       "asset_type": "Equity",
-      "weight": 0.0189,
+      "weight": 0.0181,
       "cusip": "Y85491127",
       "company": "cusip:Y85491127"
     },
@@ -49,47 +49,63 @@
       "name": "Apple Inc.",
       "ticker": "AAPL",
       "asset_type": "Equity",
-      "weight": 0.0182,
+      "weight": 0.0176,
       "cusip": "037833100",
       "company": "cusip:037833100"
     },
     {
-      "name": "NTT Inc.",
-      "ticker": "9432.JP",
+      "name": "Advantech Co., Ltd.",
+      "ticker": "2395.TT",
       "asset_type": "Equity",
-      "weight": 0.0177,
-      "cusip": "J59396101",
-      "company": "cusip:J59396101"
-    },
-    {
-      "name": "Tata Consultancy Services Limited",
-      "ticker": "TCS.IS",
-      "asset_type": "Equity",
-      "weight": 0.0177,
-      "cusip": "Y85279100",
-      "company": "cusip:Y85279100"
+      "weight": 0.0175,
+      "cusip": "Y0017P108",
+      "company": "cusip:Y0017P108"
     },
     {
       "name": "Arista Networks, Inc.",
       "ticker": "ANET",
       "asset_type": "Equity",
-      "weight": 0.0171,
+      "weight": 0.0173,
       "cusip": "040413205",
       "company": "cusip:040413205"
+    },
+    {
+      "name": "Tata Consultancy Services Limited",
+      "ticker": "TCS.IS",
+      "asset_type": "Equity",
+      "weight": 0.0171,
+      "cusip": "Y85279100",
+      "company": "cusip:Y85279100"
+    },
+    {
+      "name": "NTT Inc.",
+      "ticker": "9432.JP",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "cusip": "J59396101",
+      "company": "cusip:J59396101"
     },
     {
       "name": "NEC Corporation",
       "ticker": "6701.JP",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0158,
       "cusip": "J48818207",
       "company": "cusip:J48818207"
+    },
+    {
+      "name": "Hewlett Packard Enterprise Company",
+      "ticker": "HPE",
+      "asset_type": "Equity",
+      "weight": 0.0155,
+      "cusip": "42824C109",
+      "company": "cusip:42824C109"
     },
     {
       "name": "Xiaomi Corporation (Class B)",
       "ticker": "1810.HK",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0155,
       "cusip": "G9830T106",
       "company": "cusip:G9830T106"
     },
@@ -97,127 +113,151 @@
       "name": "Infosys Limited (ADR)",
       "ticker": "INFY",
       "asset_type": "Equity",
-      "weight": 0.0159,
+      "weight": 0.0151,
       "cusip": "456788108",
       "company": "cusip:456788108"
-    },
-    {
-      "name": "BT Group Plc",
-      "ticker": "BT/A.LN",
-      "asset_type": "Equity",
-      "weight": 0.0158,
-      "cusip": "G16612106",
-      "company": "cusip:G16612106"
-    },
-    {
-      "name": "Advantech Co., Ltd.",
-      "ticker": "2395.TT",
-      "asset_type": "Equity",
-      "weight": 0.0157,
-      "cusip": "Y0017P108",
-      "company": "cusip:Y0017P108"
     },
     {
       "name": "Fujitsu Limited",
       "ticker": "6702.JP",
       "asset_type": "Equity",
-      "weight": 0.0156,
+      "weight": 0.0148,
       "cusip": "J15708159",
       "company": "cusip:J15708159"
-    },
-    {
-      "name": "Samsung SDS Co., Ltd.",
-      "ticker": "018260.KS",
-      "asset_type": "Equity",
-      "weight": 0.0156,
-      "cusip": "Y7T72C103",
-      "company": "cusip:Y7T72C103"
-    },
-    {
-      "name": "Wipro Limited (ADR)",
-      "ticker": "WIT",
-      "asset_type": "Equity",
-      "weight": 0.0151,
-      "cusip": "97651M109",
-      "company": "cusip:97651M109"
-    },
-    {
-      "name": "American Tower Corporation",
-      "ticker": "AMT",
-      "asset_type": "Equity",
-      "weight": 0.0148,
-      "cusip": "03027X100",
-      "company": "cusip:03027X100"
     },
     {
       "name": "Advanced Micro Devices, Inc.",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0146,
+      "weight": 0.0147,
       "cusip": "007903107",
       "company": "cusip:007903107"
     },
     {
-      "name": "Equinix, Inc.",
-      "ticker": "EQIX",
+      "name": "BT Group Plc",
+      "ticker": "BT/A.LN",
       "asset_type": "Equity",
-      "weight": 0.0145,
-      "cusip": "29444U700",
-      "company": "cusip:29444U700"
+      "weight": 0.0147,
+      "cusip": "G16612106",
+      "company": "cusip:G16612106"
     },
     {
-      "name": "China Tower Corporation Limited (Class H)",
-      "ticker": "788.HK",
+      "name": "Wipro Limited (ADR)",
+      "ticker": "WIT",
       "asset_type": "Equity",
-      "weight": 0.0143,
-      "cusip": "Y15076121",
-      "company": "cusip:Y15076121"
-    },
-    {
-      "name": "Hewlett Packard Enterprise Company",
-      "ticker": "HPE",
-      "asset_type": "Equity",
-      "weight": 0.014,
-      "cusip": "42824C109",
-      "company": "cusip:42824C109"
-    },
-    {
-      "name": "Digital Realty Trust, Inc.",
-      "ticker": "DLR",
-      "asset_type": "Equity",
-      "weight": 0.0139,
-      "cusip": "253868103",
-      "company": "cusip:253868103"
+      "weight": 0.0146,
+      "cusip": "97651M109",
+      "company": "cusip:97651M109"
     },
     {
       "name": "Analog Devices, Inc.",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0142,
       "cusip": "032654105",
       "company": "cusip:032654105"
+    },
+    {
+      "name": "Equinix, Inc.",
+      "ticker": "EQIX",
+      "asset_type": "Equity",
+      "weight": 0.0141,
+      "cusip": "29444U700",
+      "company": "cusip:29444U700"
+    },
+    {
+      "name": "ASE Technology Holding Co., Ltd.",
+      "ticker": "3711.TT",
+      "asset_type": "Equity",
+      "weight": 0.0138,
+      "cusip": "Y0249T100",
+      "company": "cusip:Y0249T100"
+    },
+    {
+      "name": "MediaTek Inc.",
+      "ticker": "2454.TT",
+      "asset_type": "Equity",
+      "weight": 0.0138,
+      "cusip": "Y5945U103",
+      "company": "cusip:Y5945U103"
+    },
+    {
+      "name": "American Tower Corporation",
+      "ticker": "AMT",
+      "asset_type": "Equity",
+      "weight": 0.0137,
+      "cusip": "03027X100",
+      "company": "cusip:03027X100"
+    },
+    {
+      "name": "Digital Realty Trust, Inc.",
+      "ticker": "DLR",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "cusip": "253868103",
+      "company": "cusip:253868103"
+    },
+    {
+      "name": "Samsung SDS Co., Ltd.",
+      "ticker": "018260.KS",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "cusip": "Y7T72C103",
+      "company": "cusip:Y7T72C103"
+    },
+    {
+      "name": "China Tower Corporation Limited (Class H)",
+      "ticker": "788.HK",
+      "asset_type": "Equity",
+      "weight": 0.0134,
+      "cusip": "Y15076121",
+      "company": "cusip:Y15076121"
+    },
+    {
+      "name": "NXP Semiconductors N.V.",
+      "ticker": "NXPI",
+      "asset_type": "Equity",
+      "weight": 0.0132,
+      "cusip": "N6596X109",
+      "company": "cusip:N6596X109"
+    },
+    {
+      "name": "Keysight Technologies, Inc.",
+      "ticker": "KEYS",
+      "asset_type": "Equity",
+      "weight": 0.0131,
+      "cusip": "49338L103",
+      "company": "cusip:49338L103"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Company Limited (ADR)",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0131,
+      "cusip": "874039100",
+      "company": "cusip:874039100"
     },
     {
       "name": "Crown Castle Inc.",
       "ticker": "CCI",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0128,
       "cusip": "22822V101",
       "company": "cusip:22822V101"
     },
     {
-      "name": "SBA Communications Corporation",
-      "ticker": "SBAC",
+      "name": "QUALCOMM Incorporated",
+      "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.013,
-      "cusip": "78410G104",
-      "company": "cusip:78410G104"
+      "weight": 0.0127,
+      "cusip": "747525103",
+      "company": "cusip:747525103"
     },
     {
       "name": "Telefonaktiebolaget LM Ericsson (Class B)",
       "ticker": "ERICB.SS",
       "asset_type": "Equity",
-      "weight": 0.013,
+      "weight": 0.0127,
       "cusip": "W26049119",
       "company": "cusip:294821608"
     },
@@ -225,41 +265,41 @@
       "name": "International Business Machines Corporation",
       "ticker": "IBM",
       "asset_type": "Equity",
-      "weight": 0.0128,
+      "weight": 0.0126,
       "cusip": "459200101",
       "company": "cusip:459200101"
-    },
-    {
-      "name": "NXP Semiconductors N.V.",
-      "ticker": "NXPI",
-      "asset_type": "Equity",
-      "weight": 0.0128,
-      "cusip": "N6596X109",
-      "company": "cusip:N6596X109"
     },
     {
       "name": "Broadcom Inc.",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0127,
+      "weight": 0.0124,
       "cusip": "11135F101",
       "company": "cusip:11135F101"
     },
     {
-      "name": "Keysight Technologies, Inc.",
-      "ticker": "KEYS",
+      "name": "Lenovo Group Limited",
+      "ticker": "992.HK",
       "asset_type": "Equity",
-      "weight": 0.0125,
-      "cusip": "49338L103",
-      "company": "cusip:49338L103"
+      "weight": 0.0124,
+      "cusip": "Y5257Y107",
+      "company": "cusip:Y5257Y107"
     },
     {
-      "name": "QUALCOMM Incorporated",
-      "ticker": "QCOM",
+      "name": "Wiwynn Corporation",
+      "ticker": "6669.TT",
       "asset_type": "Equity",
-      "weight": 0.0122,
-      "cusip": "747525103",
-      "company": "cusip:747525103"
+      "weight": 0.0124,
+      "cusip": "Y9673D101",
+      "company": "cusip:Y9673D101"
+    },
+    {
+      "name": "Super Micro Computer, Inc.",
+      "ticker": "SMCI",
+      "asset_type": "Equity",
+      "weight": 0.0123,
+      "cusip": "86800U302",
+      "company": "cusip:86800U302"
     },
     {
       "name": "F5, Inc.",
@@ -270,34 +310,26 @@
       "company": "cusip:315616102"
     },
     {
-      "name": "Taiwan Semiconductor Manufacturing Company Limited (ADR)",
-      "ticker": "TSM",
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA",
       "asset_type": "Equity",
       "weight": 0.0121,
-      "cusip": "874039100",
-      "company": "cusip:874039100"
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
     },
     {
-      "name": "Elisa Oyj",
-      "ticker": "ELISA.FH",
+      "name": "SBA Communications Corporation",
+      "ticker": "SBAC",
       "asset_type": "Equity",
-      "weight": 0.0119,
-      "cusip": "X1949T102",
-      "company": "cusip:X1949T102"
-    },
-    {
-      "name": "ASE Technology Holding Co., Ltd.",
-      "ticker": "3711.TT",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "cusip": "Y0249T100",
-      "company": "cusip:Y0249T100"
+      "weight": 0.0121,
+      "cusip": "78410G104",
+      "company": "cusip:78410G104"
     },
     {
       "name": "Cisco Systems, Inc.",
       "ticker": "CSCO",
       "asset_type": "Equity",
-      "weight": 0.0118,
+      "weight": 0.012,
       "cusip": "17275R102",
       "company": "cusip:17275R102"
     },
@@ -305,7 +337,7 @@
       "name": "Mitsubishi Electric Corporation",
       "ticker": "6503.JP",
       "asset_type": "Equity",
-      "weight": 0.0118,
+      "weight": 0.012,
       "cusip": "J43873116",
       "company": "cusip:J43873116"
     },
@@ -313,111 +345,87 @@
       "name": "Kyocera Corporation",
       "ticker": "6971.JP",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0117,
       "cusip": "J37479110",
       "company": "cusip:J37479110"
-    },
-    {
-      "name": "Super Micro Computer, Inc.",
-      "ticker": "SMCI",
-      "asset_type": "Equity",
-      "weight": 0.0115,
-      "cusip": "86800U302",
-      "company": "cusip:86800U302"
-    },
-    {
-      "name": "MediaTek Inc.",
-      "ticker": "2454.TT",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "cusip": "Y5945U103",
-      "company": "cusip:Y5945U103"
-    },
-    {
-      "name": "Wiwynn Corporation",
-      "ticker": "6669.TT",
-      "asset_type": "Equity",
-      "weight": 0.0108,
-      "cusip": "Y9673D101",
-      "company": "cusip:Y9673D101"
-    },
-    {
-      "name": "Prysmian SpA",
-      "ticker": "PRY.IM",
-      "asset_type": "Equity",
-      "weight": 0.0107,
-      "cusip": "T7630L105",
-      "company": "cusip:T7630L105"
-    },
-    {
-      "name": "Lenovo Group Limited",
-      "ticker": "992.HK",
-      "asset_type": "Equity",
-      "weight": 0.0104,
-      "cusip": "Y5257Y107",
-      "company": "cusip:Y5257Y107"
     },
     {
       "name": "Micron Technology, Inc.",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0117,
       "cusip": "595112103",
       "company": "cusip:595112103"
-    },
-    {
-      "name": "ZTE Corporation (Class H)",
-      "ticker": "763.HK",
-      "asset_type": "Equity",
-      "weight": 0.0103,
-      "cusip": "Y0004F105",
-      "company": "cusip:Y0004F105"
-    },
-    {
-      "name": "Microchip Technology Incorporated",
-      "ticker": "MCHP",
-      "asset_type": "Equity",
-      "weight": 0.0098,
-      "cusip": "595017104",
-      "company": "cusip:595017104"
     },
     {
       "name": "United Microelectronics Corporation",
       "ticker": "2303.TT",
       "asset_type": "Equity",
-      "weight": 0.0098,
+      "weight": 0.0114,
       "cusip": "Y92370108",
       "company": "cusip:Y92370108"
     },
     {
-      "name": "NVIDIA Corporation",
-      "ticker": "NVDA",
+      "name": "Elisa Oyj",
+      "ticker": "ELISA.FH",
       "asset_type": "Equity",
-      "weight": 0.0097,
-      "cusip": "67066G104",
-      "company": "cusip:67066G104"
+      "weight": 0.0109,
+      "cusip": "X1949T102",
+      "company": "cusip:X1949T102"
+    },
+    {
+      "name": "Prysmian SpA",
+      "ticker": "PRY.IM",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "cusip": "T7630L105",
+      "company": "cusip:T7630L105"
     },
     {
       "name": "Samsung Electronics Co., Ltd.",
       "ticker": "005930.KS",
       "asset_type": "Equity",
-      "weight": 0.0097,
+      "weight": 0.0104,
       "cusip": "Y74718100",
       "company": "cusip:Y74718100"
+    },
+    {
+      "name": "Microchip Technology Incorporated",
+      "ticker": "MCHP",
+      "asset_type": "Equity",
+      "weight": 0.0102,
+      "cusip": "595017104",
+      "company": "cusip:595017104"
+    },
+    {
+      "name": "ZTE Corporation (Class H)",
+      "ticker": "763.HK",
+      "asset_type": "Equity",
+      "weight": 0.01,
+      "cusip": "Y0004F105",
+      "company": "cusip:Y0004F105"
     },
     {
       "name": "LG Electronics Inc.",
       "ticker": "066570.KS",
       "asset_type": "Equity",
-      "weight": 0.0096,
+      "weight": 0.0098,
       "cusip": "Y5275H177",
       "company": "cusip:Y5275H177"
+    },
+    {
+      "name": "Ciena Corporation",
+      "ticker": "CIEN",
+      "asset_type": "Equity",
+      "weight": 0.009,
+      "cusip": "171779309",
+      "company": "cusip:171779309"
     },
     {
       "name": "Infineon Technologies AG",
       "ticker": "IFX.GY",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.009,
       "cusip": "D35415104",
       "company": "cusip:D35415104"
     },
@@ -425,79 +433,79 @@
       "name": "STMicroelectronics NV",
       "ticker": "STMMI.IM",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.009,
       "cusip": "N83574108",
       "company": "cusip:861012102"
-    },
-    {
-      "name": "Ciena Corporation",
-      "ticker": "CIEN",
-      "asset_type": "Equity",
-      "weight": 0.0084,
-      "cusip": "171779309",
-      "company": "cusip:171779309"
     },
     {
       "name": "Renesas Electronics Corporation",
       "ticker": "6723.JP",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.0089,
       "cusip": "J4881V107",
       "company": "cusip:J4881V107"
-    },
-    {
-      "name": "Nokia Corporation (ADR)",
-      "ticker": "NOK",
-      "asset_type": "Equity",
-      "weight": 0.008,
-      "cusip": "654902204",
-      "company": "cusip:654902204"
     },
     {
       "name": "Fujikura Ltd.",
       "ticker": "5803.JP",
       "asset_type": "Equity",
-      "weight": 0.0079,
+      "weight": 0.0085,
       "cusip": "J14784128",
       "company": "cusip:J14784128"
-    },
-    {
-      "name": "Bharti Airtel Ltd.",
-      "ticker": "BHARTI.IS",
-      "asset_type": "Equity",
-      "weight": 0.0076,
-      "cusip": "Y0885K108",
-      "company": "cusip:Y0885K108"
-    },
-    {
-      "name": "Emirates Telecommunications Group Company PJSC",
-      "ticker": "ETISALAT.UH",
-      "asset_type": "Equity",
-      "weight": 0.0075,
-      "cusip": "M4040L103",
-      "company": "cusip:M4040L103"
     },
     {
       "name": "Marvell Technology, Inc.",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0084,
       "cusip": "573874104",
       "company": "cusip:573874104"
+    },
+    {
+      "name": "Nokia Corporation (ADR)",
+      "ticker": "NOK",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "cusip": "654902204",
+      "company": "cusip:654902204"
     },
     {
       "name": "Intel Corporation",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0082,
       "cusip": "458140100",
       "company": "cusip:458140100"
+    },
+    {
+      "name": "Emirates Telecommunications Group Company PJSC",
+      "ticker": "ETISALAT.UH",
+      "asset_type": "Equity",
+      "weight": 0.0073,
+      "cusip": "M4040L103",
+      "company": "cusip:M4040L103"
+    },
+    {
+      "name": "Delta Electronics Inc.",
+      "ticker": "2308.TT",
+      "asset_type": "Equity",
+      "weight": 0.0072,
+      "cusip": "Y20263102",
+      "company": "cusip:Y20263102"
+    },
+    {
+      "name": "Bharti Airtel Ltd.",
+      "ticker": "BHARTI.IS",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "cusip": "Y0885K108",
+      "company": "cusip:Y0885K108"
     },
     {
       "name": "Vodacom Group Limited",
       "ticker": "VOD.SJ",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0068,
       "cusip": "S9453B108",
       "company": "cusip:S9453B108"
     },
@@ -505,7 +513,7 @@
       "name": "SoftBank Corp.",
       "ticker": "9434.JP",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0066,
       "cusip": "J75963132",
       "company": "cusip:J75963132"
     },
@@ -513,7 +521,7 @@
       "name": "Chunghwa Telecom Co., Ltd.",
       "ticker": "2412.TT",
       "asset_type": "Equity",
-      "weight": 0.0066,
+      "weight": 0.0064,
       "cusip": "Y1613J108",
       "company": "cusip:Y1613J108"
     },
@@ -521,7 +529,7 @@
       "name": "KDDI Corporation",
       "ticker": "9433.JP",
       "asset_type": "Equity",
-      "weight": 0.0064,
+      "weight": 0.006,
       "cusip": "J31843105",
       "company": "cusip:J31843105"
     },
@@ -529,7 +537,7 @@
       "name": "Swisscom AG",
       "ticker": "SCMN.SW",
       "asset_type": "Equity",
-      "weight": 0.0062,
+      "weight": 0.0058,
       "cusip": "H8398N104",
       "company": "cusip:H8398N104"
     },
@@ -537,15 +545,23 @@
       "name": "Taiwan Mobile Co., Ltd.",
       "ticker": "3045.TT",
       "asset_type": "Equity",
-      "weight": 0.006,
+      "weight": 0.0058,
       "cusip": "Y84153215",
       "company": "cusip:Y84153215"
+    },
+    {
+      "name": "MTN Group Limited",
+      "ticker": "MTN.SJ",
+      "asset_type": "Equity",
+      "weight": 0.0057,
+      "cusip": "S8039R108",
+      "company": "cusip:S8039R108"
     },
     {
       "name": "Verizon Communications Inc.",
       "ticker": "VZ",
       "asset_type": "Equity",
-      "weight": 0.006,
+      "weight": 0.0057,
       "cusip": "92343V104",
       "company": "cusip:92343V104"
     },
@@ -553,23 +569,15 @@
       "name": "America Movil, S.A.B. de C.V. (Class B)",
       "ticker": "AMXB.MM",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0056,
       "cusip": "P0280A192",
       "company": "cusip:P0280A192"
-    },
-    {
-      "name": "MTN Group Limited",
-      "ticker": "MTN.SJ",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "cusip": "S8039R108",
-      "company": "cusip:S8039R108"
     },
     {
       "name": "Singapore Telecommunications Limited",
       "ticker": "ST.SP",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0056,
       "cusip": "Y79985209",
       "company": "cusip:Y79985209"
     },
@@ -577,55 +585,39 @@
       "name": "AT&T Inc.",
       "ticker": "T",
       "asset_type": "Equity",
-      "weight": 0.0058,
+      "weight": 0.0055,
       "cusip": "00206R102",
       "company": "cusip:00206R102"
-    },
-    {
-      "name": "Telstra Group Ltd",
-      "ticker": "TLS.AU",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "cusip": "Q8975N105",
-      "company": "cusip:Q8975N105"
-    },
-    {
-      "name": "Vodafone Group Plc",
-      "ticker": "VOD.LN",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "cusip": "G93882192",
-      "company": "cusip:G93882192"
-    },
-    {
-      "name": "Delta Electronics Inc.",
-      "ticker": "2308.TT",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "cusip": "Y20263102",
-      "company": "cusip:Y20263102"
     },
     {
       "name": "Far EasTone Telecommunications Co., Ltd.",
       "ticker": "4904.TT",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0054,
       "cusip": "Y7540C108",
       "company": "cusip:Y7540C108"
     },
     {
-      "name": "Koninklijke (Royal) KPN N.V.",
-      "ticker": "KPN.NA",
+      "name": "Telstra Group Ltd",
+      "ticker": "TLS.AU",
       "asset_type": "Equity",
-      "weight": 0.0056,
-      "cusip": "N4297B146",
-      "company": "cusip:N4297B146"
+      "weight": 0.0054,
+      "cusip": "Q8975N105",
+      "company": "cusip:Q8975N105"
+    },
+    {
+      "name": "Advanced Info Service Pcl",
+      "ticker": "ADVANC.TB",
+      "asset_type": "Equity",
+      "weight": 0.0053,
+      "cusip": "Y0014U191",
+      "company": "cusip:Y0014U175"
     },
     {
       "name": "Ooredoo Q.P.S.C.",
       "ticker": "ORDS.QD",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0053,
       "cusip": "M8180V102",
       "company": "cusip:M8180V102"
     },
@@ -633,31 +625,15 @@
       "name": "Rogers Communications Inc. (Class B)",
       "ticker": "RCI/B.CN",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0053,
       "cusip": "775109200",
       "company": "cusip:775109200"
-    },
-    {
-      "name": "TELUS Corporation",
-      "ticker": "T.CN",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "cusip": "87971M103",
-      "company": "cusip:87971M103"
-    },
-    {
-      "name": "Advanced Info Service Pcl",
-      "ticker": "ADVANC.TB",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "cusip": "Y0014U191",
-      "company": "cusip:Y0014U175"
     },
     {
       "name": "Telefonica Brasil, S.A. (ADR)",
       "ticker": "VIV",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0053,
       "cusip": "87936R205",
       "company": "cusip:87936R205"
     },
@@ -665,89 +641,81 @@
       "name": "Telia Company AB",
       "ticker": "TELIA.SS",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0053,
       "cusip": "W95890104",
       "company": "cusip:W95890104"
     },
     {
-      "name": "BCE Inc.",
-      "ticker": "BCE.CN",
+      "name": "Koninklijke (Royal) KPN N.V.",
+      "ticker": "KPN.NA",
       "asset_type": "Equity",
-      "weight": 0.0054,
-      "cusip": "05534B760",
-      "company": "cusip:05534B760"
+      "weight": 0.0052,
+      "cusip": "N4297B146",
+      "company": "cusip:N4297B146"
     },
     {
       "name": "T-Mobile US, Inc.",
       "ticker": "TMUS",
       "asset_type": "Equity",
-      "weight": 0.0054,
+      "weight": 0.0052,
       "cusip": "872590104",
       "company": "cusip:872590104"
     },
     {
-      "name": "Deutsche Telekom AG",
-      "ticker": "DTE.GY",
+      "name": "BCE Inc.",
+      "ticker": "BCE.CN",
       "asset_type": "Equity",
-      "weight": 0.0053,
-      "cusip": "D2035M136",
-      "company": "cusip:D2035M136"
+      "weight": 0.0051,
+      "cusip": "05534B760",
+      "company": "cusip:05534B760"
     },
     {
       "name": "KT Corporation (ADR)",
       "ticker": "KT",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0051,
       "cusip": "48268K101",
       "company": "cusip:48268K101"
     },
     {
-      "name": "Telenor ASA",
-      "ticker": "TEL.NO",
+      "name": "TELUS Corporation",
+      "ticker": "T.CN",
       "asset_type": "Equity",
-      "weight": 0.0052,
-      "cusip": "R89923107",
-      "company": "cusip:R89923107"
+      "weight": 0.0051,
+      "cusip": "87971M103",
+      "company": "cusip:87971M103"
+    },
+    {
+      "name": "Vodafone Group Plc",
+      "ticker": "VOD.LN",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "cusip": "G93882192",
+      "company": "cusip:G93882192"
+    },
+    {
+      "name": "Deutsche Telekom AG",
+      "ticker": "DTE.GY",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "cusip": "D2035M136",
+      "company": "cusip:D2035M136"
     },
     {
       "name": "Celcomdigi Bhd",
       "ticker": "CDB.MK",
       "asset_type": "Equity",
-      "weight": 0.0051,
+      "weight": 0.0048,
       "cusip": "Y2070F100",
       "company": "cusip:Y2070F100"
-    },
-    {
-      "name": "Tele2 AB (Class B)",
-      "ticker": "TEL2B.SS",
-      "asset_type": "Equity",
-      "weight": 0.0051,
-      "cusip": "W95878166",
-      "company": "cusip:W95878166"
     },
     {
       "name": "Cellnex Telecom, S.A.",
       "ticker": "CLNX.SM",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0048,
       "cusip": "E2R41M104",
       "company": "cusip:E2R41M104"
-    },
-    {
-      "name": "Telefonica, S.A.",
-      "ticker": "TEF.SM",
-      "asset_type": "Equity",
-      "weight": 0.0049,
-      "cusip": "879382109",
-      "company": "cusip:879382109"
-    },
-    {
-      "name": "Orange",
-      "ticker": "ORA.FP",
-      "asset_type": "Equity",
-      "weight": 0.0048,
-      "cusip": "F6866T100",
-      "company": "cusip:F6866T100"
     },
     {
       "name": "Space Exploration Technologies Corp. (Class A)",
@@ -758,10 +726,42 @@
       "company": "cusip:84615Q103"
     },
     {
+      "name": "Telenor ASA",
+      "ticker": "TEL.NO",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "cusip": "R89923107",
+      "company": "cusip:R89923107"
+    },
+    {
+      "name": "Tele2 AB (Class B)",
+      "ticker": "TEL2B.SS",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "cusip": "W95878166",
+      "company": "cusip:W95878166"
+    },
+    {
+      "name": "Telefonica, S.A.",
+      "ticker": "TEF.SM",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "cusip": "879382109",
+      "company": "cusip:879382109"
+    },
+    {
+      "name": "Orange",
+      "ticker": "ORA.FP",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "cusip": "F6866T100",
+      "company": "cusip:F6866T100"
+    },
+    {
       "name": "Airtel Africa Plc",
       "ticker": "AAF.LN",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0044,
       "cusip": "G01415101",
       "company": "cusip:G01415101"
     },
@@ -774,33 +774,33 @@
       "company": "cusip:278768106"
     },
     {
-      "name": "PT Telekomunikasi Indonesia (Persero) Tbk",
-      "ticker": "TLKM.IJ",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "cusip": "Y71474145",
-      "company": "cusip:Y71474145"
-    },
-    {
       "name": "SK Telecom Co., Ltd.",
       "ticker": "017670.KS",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0042,
       "cusip": "Y4935N104",
       "company": "cusip:78440P306"
+    },
+    {
+      "name": "PT Telekomunikasi Indonesia (Persero) Tbk",
+      "ticker": "TLKM.IJ",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "cusip": "Y71474145",
+      "company": "cusip:Y71474145"
     },
     {
       "name": "US Dollar",
       "ticker": "$USD",
       "asset_type": "Cash",
-      "weight": 0.0034,
+      "weight": 0.0033,
       "company": null
     },
     {
       "name": "Japanese Yen",
       "ticker": "$JPY",
       "asset_type": "Cash",
-      "weight": 0.0011,
+      "weight": 0.001,
       "company": null
     },
     {

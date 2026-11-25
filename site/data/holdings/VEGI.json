@@ -1,7 +1,7 @@
 {
   "ticker": "VEGI",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-24T06:23:12.582870+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-25T05:04:18.676062+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239652/ishares-msci-agriculture-producers-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "DEERE",
       "ticker": "DE",
       "asset_type": "Equity",
-      "weight": 0.2982,
+      "weight": 0.3056,
       "location": "United States",
       "company": "cusip:244199105"
     },
@@ -17,7 +17,7 @@
       "name": "VYLOR",
       "ticker": "VYLR",
       "asset_type": "Equity",
-      "weight": 0.0918,
+      "weight": 0.0904,
       "location": "United States",
       "company": "cusip:92892R108"
     },
@@ -25,7 +25,7 @@
       "name": "ARCHER DANIELS MIDLAND",
       "ticker": "ADM",
       "asset_type": "Equity",
-      "weight": 0.065,
+      "weight": 0.0646,
       "location": "United States",
       "company": "cusip:039483102"
     },
@@ -33,7 +33,7 @@
       "name": "NUTRIEN LTD",
       "ticker": "NTR",
       "asset_type": "Equity",
-      "weight": 0.0619,
+      "weight": 0.0618,
       "location": "Canada",
       "company": "cusip:67077M108"
     },
@@ -41,7 +41,7 @@
       "name": "CF INDUSTRIES HOLDINGS INC",
       "ticker": "CF",
       "asset_type": "Equity",
-      "weight": 0.0358,
+      "weight": 0.0354,
       "location": "United States",
       "company": "name:cf industries holdings@united states"
     },
@@ -49,7 +49,7 @@
       "name": "KUBOTA",
       "ticker": "6326",
       "asset_type": "Equity",
-      "weight": 0.0259,
+      "weight": 0.0255,
       "location": "Japan",
       "company": "name:kubota@japan"
     },
@@ -57,7 +57,7 @@
       "name": "BUNGE GLOBAL SA",
       "ticker": "BG",
       "asset_type": "Equity",
-      "weight": 0.0231,
+      "weight": 0.023,
       "location": "United States",
       "company": "name:bunge global@united states"
     },
@@ -65,7 +65,7 @@
       "name": "MOWI",
       "ticker": "MOWI",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.0201,
       "location": "Norway",
       "company": "name:mowi@norway"
     },
@@ -73,7 +73,7 @@
       "name": "TORO",
       "ticker": "TTC",
       "asset_type": "Equity",
-      "weight": 0.0193,
+      "weight": 0.0197,
       "location": "United States",
       "company": "name:toro@united states"
     },
@@ -81,7 +81,7 @@
       "name": "CNH INDUSTRIAL N.V.",
       "ticker": "CNH",
       "asset_type": "Equity",
-      "weight": 0.0188,
+      "weight": 0.0195,
       "location": "United States",
       "company": "cusip:N20944109"
     },
@@ -89,7 +89,7 @@
       "name": "DARLING INGREDIENTS",
       "ticker": "DAR",
       "asset_type": "Equity",
-      "weight": 0.0162,
+      "weight": 0.016,
       "location": "United States",
       "company": "cusip:237266101"
     },
@@ -97,15 +97,23 @@
       "name": "SABIC AGRI-NUTRIENTS",
       "ticker": "2020",
       "asset_type": "Equity",
-      "weight": 0.0142,
+      "weight": 0.014,
       "location": "Saudi Arabia",
       "company": "name:sabic agri nutrients@saudi arabia"
+    },
+    {
+      "name": "LAMB WESTON HOLDINGS",
+      "ticker": "LW",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "location": "United States",
+      "company": "name:lamb weston holdings@united states"
     },
     {
       "name": "WH GROUP",
       "ticker": "288",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0133,
       "location": "Hong Kong",
       "company": "name:wh group@hong kong"
     },
@@ -113,47 +121,39 @@
       "name": "TATA CONSUMER PRODUCTS LTD",
       "ticker": "TATACONSUM",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0132,
       "location": "India",
       "company": "name:tata consumer products@india"
-    },
-    {
-      "name": "LAMB WESTON HOLDINGS",
-      "ticker": "LW",
-      "asset_type": "Equity",
-      "weight": 0.0137,
-      "location": "United States",
-      "company": "name:lamb weston holdings@united states"
-    },
-    {
-      "name": "YARA INTERNATIONAL",
-      "ticker": "YAR",
-      "asset_type": "Equity",
-      "weight": 0.0126,
-      "location": "Norway",
-      "company": "name:yara international@norway"
-    },
-    {
-      "name": "AGCO",
-      "ticker": "AGCO",
-      "asset_type": "Equity",
-      "weight": 0.0121,
-      "location": "United States",
-      "company": "cusip:001084102"
     },
     {
       "name": "MOSAIC",
       "ticker": "MOS",
       "asset_type": "Equity",
-      "weight": 0.012,
+      "weight": 0.0127,
       "location": "United States",
       "company": "cusip:61945C103"
+    },
+    {
+      "name": "AGCO",
+      "ticker": "AGCO",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "location": "United States",
+      "company": "cusip:001084102"
+    },
+    {
+      "name": "YARA INTERNATIONAL",
+      "ticker": "YAR",
+      "asset_type": "Equity",
+      "weight": 0.0121,
+      "location": "Norway",
+      "company": "name:yara international@norway"
     },
     {
       "name": "INGREDION INC",
       "ticker": "INGR",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0112,
       "location": "United States",
       "company": "name:ingredion@united states"
     },
@@ -161,7 +161,7 @@
       "name": "CORTEVA",
       "ticker": "CTVA",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0108,
       "location": "United States",
       "company": "cusip:22052L104"
     },
@@ -169,7 +169,7 @@
       "name": "ALMARAI",
       "ticker": "2280",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0102,
       "location": "Saudi Arabia",
       "company": "name:almarai@saudi arabia"
     },
@@ -177,7 +177,7 @@
       "name": "SALMAR",
       "ticker": "SALM",
       "asset_type": "Equity",
-      "weight": 0.0082,
+      "weight": 0.0083,
       "location": "Norway",
       "company": "name:salmar@norway"
     },
@@ -185,7 +185,7 @@
       "name": "CRANSWICK PLC",
       "ticker": "CWK",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.0074,
       "location": "United Kingdom",
       "company": "name:cranswick@united kingdom"
     },
@@ -193,7 +193,7 @@
       "name": "WILMAR INTERNATIONAL",
       "ticker": "F34",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.007,
       "location": "Singapore",
       "company": "name:wilmar international@singapore"
     },
@@ -201,7 +201,7 @@
       "name": "SD GUTHRIE",
       "ticker": "SDG",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0068,
       "location": "Malaysia",
       "company": "name:sd guthrie@malaysia"
     },
@@ -209,31 +209,31 @@
       "name": "UPL",
       "ticker": "UPL",
       "asset_type": "Equity",
-      "weight": 0.0063,
+      "weight": 0.0061,
       "location": "India",
       "company": "name:upl@india"
-    },
-    {
-      "name": "CAL MAINE FOODS",
-      "ticker": "CALM",
-      "asset_type": "Equity",
-      "weight": 0.0062,
-      "location": "United States",
-      "company": "name:cal maine foods@united states"
     },
     {
       "name": "NH FOODS",
       "ticker": "2282",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.006,
       "location": "Japan",
       "company": "name:nh foods@japan"
+    },
+    {
+      "name": "CAL MAINE FOODS",
+      "ticker": "CALM",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "location": "United States",
+      "company": "name:cal maine foods@united states"
     },
     {
       "name": "ICL GROUP",
       "ticker": "ICL",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "location": "Israel",
       "company": "cusip:M53213100"
     },
@@ -241,7 +241,7 @@
       "name": "SCOTTS MIRACLE GRO",
       "ticker": "SMG",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0055,
       "location": "United States",
       "company": "cusip:810186106"
     },
@@ -249,7 +249,7 @@
       "name": "COROMANDEL INTERNATIONAL LTD",
       "ticker": "COROMANDEL",
       "asset_type": "Equity",
-      "weight": 0.0051,
+      "weight": 0.005,
       "location": "India",
       "company": "name:coromandel international@india"
     },
@@ -257,7 +257,7 @@
       "name": "IOI CORPORATION",
       "ticker": "IOICORP",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0049,
       "location": "Malaysia",
       "company": "name:ioi@malaysia"
     },
@@ -265,17 +265,9 @@
       "name": "KUALA LUMPUR KEPONG",
       "ticker": "KLK",
       "asset_type": "Equity",
-      "weight": 0.0049,
+      "weight": 0.0047,
       "location": "Malaysia",
       "company": "name:kuala lumpur kepong@malaysia"
-    },
-    {
-      "name": "BAKKAFROST",
-      "ticker": "BAKKA",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "location": "Norway",
-      "company": "name:bakkafrost@norway"
     },
     {
       "name": "MUYUAN FOODS GROUP LTD A",
@@ -286,10 +278,18 @@
       "company": "name:muyuan foods group@china"
     },
     {
+      "name": "BAKKAFROST",
+      "ticker": "BAKKA",
+      "asset_type": "Equity",
+      "weight": 0.0044,
+      "location": "Norway",
+      "company": "name:bakkafrost@norway"
+    },
+    {
       "name": "K+S N AG",
       "ticker": "SDF",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0041,
       "location": "Germany",
       "company": "name:k@germany"
     },
@@ -297,7 +297,7 @@
       "name": "CHAROEN POKPHAND FOODS NON-VOTING",
       "ticker": "CPF.R",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0039,
       "location": "Thailand",
       "company": "name:charoen pokphand foods non voting@thailand"
     },
@@ -305,7 +305,7 @@
       "name": "INNER MONGOLIA YILI INDUSTRIAL GRO",
       "ticker": "600887",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.0037,
       "location": "China",
       "company": "name:inner mongolia yili industrial gro@china"
     },
@@ -326,26 +326,26 @@
       "company": "name:ql resources@malaysia"
     },
     {
-      "name": "GOLDEN AGRI RESOURCES LTD",
-      "ticker": "E5H",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "location": "Singapore",
-      "company": "name:golden agri resources@singapore"
-    },
-    {
       "name": "ALAMO GROUP",
       "ticker": "ALG",
       "asset_type": "Equity",
-      "weight": 0.0026,
+      "weight": 0.0027,
       "location": "United States",
       "company": "name:alamo group@united states"
+    },
+    {
+      "name": "GOLDEN AGRI RESOURCES LTD",
+      "ticker": "E5H",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "location": "Singapore",
+      "company": "name:golden agri resources@singapore"
     },
     {
       "name": "PILGRIMS PRIDE CORP",
       "ticker": "PPC",
       "asset_type": "Equity",
-      "weight": 0.0025,
+      "weight": 0.0024,
       "location": "United States",
       "company": "name:pilgrims pride@united states"
     },
@@ -361,7 +361,7 @@
       "name": "P.I. INDUSTRIES",
       "ticker": "PIIND",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0023,
       "location": "India",
       "company": "name:pi industries@india"
     },
@@ -377,7 +377,7 @@
       "name": "HUSQVARNA",
       "ticker": "HUSQ B",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0021,
       "location": "Sweden",
       "company": "name:husqvarna@sweden"
     },
@@ -390,10 +390,18 @@
       "company": "name:qinghai salt lake industry@china"
     },
     {
+      "name": "LINDSAY",
+      "ticker": "LNN",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "location": "United States",
+      "company": "cusip:535555106"
+    },
+    {
       "name": "DEL MONTE",
       "ticker": "DMC",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0019,
       "location": "United States",
       "company": "name:del monte@united states"
     },
@@ -401,7 +409,7 @@
       "name": "DEEPAK FERTILISERS AND PETROCHEMIC",
       "ticker": "DEEPAKFERT",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0019,
       "location": "India",
       "company": "name:deepak fertilisers and petrochemic@india"
     },
@@ -409,25 +417,9 @@
       "name": "GRAINCORP CLASS A",
       "ticker": "GNC",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0019,
       "location": "Australia",
       "company": "name:graincorp@australia"
-    },
-    {
-      "name": "FIRST RESOURCES LTD",
-      "ticker": "EB5",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "location": "Singapore",
-      "company": "name:first resources@singapore"
-    },
-    {
-      "name": "LINDSAY",
-      "ticker": "LNN",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "location": "United States",
-      "company": "cusip:535555106"
     },
     {
       "name": "DOLE PLC",
@@ -436,6 +428,14 @@
       "weight": 0.0019,
       "location": "United States",
       "company": "name:dole@united states"
+    },
+    {
+      "name": "FIRST RESOURCES LTD",
+      "ticker": "EB5",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "location": "Singapore",
+      "company": "name:first resources@singapore"
     },
     {
       "name": "ELDERS",
@@ -457,17 +457,9 @@
       "name": "ZANGGE MINING LTD A",
       "ticker": "000408",
       "asset_type": "Equity",
-      "weight": 0.0017,
+      "weight": 0.0018,
       "location": "China",
       "company": "name:zangge mining@china"
-    },
-    {
-      "name": "ISRAEL CORPORATION LTD",
-      "ticker": "ILCO",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "location": "Israel",
-      "company": "name:israel@israel"
     },
     {
       "name": "CHINA YOURAN DAIRY GROUP LTD",
@@ -478,10 +470,18 @@
       "company": "name:china youran dairy group@china"
     },
     {
+      "name": "ISRAEL CORPORATION LTD",
+      "ticker": "ILCO",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "Israel",
+      "company": "name:israel@israel"
+    },
+    {
       "name": "M. P. EVANS GROUP PLC",
       "ticker": "MPE",
       "asset_type": "Equity",
-      "weight": 0.0017,
+      "weight": 0.0016,
       "location": "United Kingdom",
       "company": "name:m p evans group@united kingdom"
     },
@@ -497,7 +497,7 @@
       "name": "CHAROEN POKPHAND INDONESIA",
       "ticker": "CPIN",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "location": "Indonesia",
       "company": "name:charoen pokphand indonesia@indonesia"
     },
@@ -513,7 +513,7 @@
       "name": "HENAN SHUANGHUI INVESTMENT & DEVEL",
       "ticker": "000895",
       "asset_type": "Equity",
-      "weight": 0.0015,
+      "weight": 0.0014,
       "location": "China",
       "company": "name:henan shuanghui investment devel@china"
     },
@@ -521,7 +521,7 @@
       "name": "AUSTEVOLL SEAFOOD",
       "ticker": "AUSS",
       "asset_type": "Equity",
-      "weight": 0.0015,
+      "weight": 0.0014,
       "location": "Norway",
       "company": "name:austevoll seafood@norway"
     },
@@ -537,7 +537,7 @@
       "name": "KWS SAAT",
       "ticker": "KWS",
       "asset_type": "Equity",
-      "weight": 0.0014,
+      "weight": 0.0013,
       "location": "Germany",
       "company": "name:kws saat@germany"
     },
@@ -550,12 +550,12 @@
       "company": "name:taiwan fertilizer@taiwan"
     },
     {
-      "name": "YAMABIKO CORP",
-      "ticker": "6250",
+      "name": "CHINA XLX FERTILISER LTD",
+      "ticker": "1866",
       "asset_type": "Equity",
       "weight": 0.0013,
-      "location": "Japan",
-      "company": "name:yamabiko@japan"
+      "location": "China",
+      "company": "name:china xlx fertiliser@china"
     },
     {
       "name": "NUFARM",
@@ -566,20 +566,20 @@
       "company": "name:nufarm@australia"
     },
     {
+      "name": "YAMABIKO CORP",
+      "ticker": "6250",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "location": "Japan",
+      "company": "name:yamabiko@japan"
+    },
+    {
       "name": "PARADEEP PHOSPHATES LTD",
       "ticker": "PARADEEP",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "India",
       "company": "name:paradeep phosphates@india"
-    },
-    {
-      "name": "CHINA XLX FERTILISER LTD",
-      "ticker": "1866",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "location": "China",
-      "company": "name:china xlx fertiliser@china"
     },
     {
       "name": "EID PARRY INDIA LTD",
@@ -590,19 +590,11 @@
       "company": "name:eid parry india@india"
     },
     {
-      "name": "COBRAM ESTATE OLIVES",
-      "ticker": "CBO",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "location": "Australia",
-      "company": "name:cobram estate olives@australia"
-    },
-    {
-      "name": "EUR CASH",
-      "ticker": "EUR",
+      "name": "USD CASH",
+      "ticker": "USD",
       "asset_type": "Cash",
       "weight": 0.0012,
-      "location": "European Union",
+      "location": "United States",
       "company": null
     },
     {
@@ -622,18 +614,26 @@
       "company": "name:suedzucker@germany"
     },
     {
-      "name": "USD CASH",
-      "ticker": "USD",
+      "name": "COBRAM ESTATE OLIVES",
+      "ticker": "CBO",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "Australia",
+      "company": "name:cobram estate olives@australia"
+    },
+    {
+      "name": "EUR CASH",
+      "ticker": "EUR",
       "asset_type": "Cash",
       "weight": 0.0012,
-      "location": "United States",
+      "location": "European Union",
       "company": null
     },
     {
       "name": "SLC AGRICOLA SA",
       "ticker": "SLCE3",
       "asset_type": "Equity",
-      "weight": 0.0012,
+      "weight": 0.0011,
       "location": "Brazil",
       "company": "name:slc agricola@brazil"
     },
@@ -662,20 +662,20 @@
       "company": "name:charoen pokphand enterprise taiwan@taiwan"
     },
     {
+      "name": "FMC CORP",
+      "ticker": "FMC",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "location": "United States",
+      "company": "cusip:302491303"
+    },
+    {
       "name": "NATIONAL AGRICULTURE DEVELOPMENT",
       "ticker": "6010",
       "asset_type": "Equity",
       "weight": 0.0009,
       "location": "Saudi Arabia",
       "company": "name:national agriculture development@saudi arabia"
-    },
-    {
-      "name": "FMC CORP",
-      "ticker": "FMC",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "location": "United States",
-      "company": "cusip:302491303"
     },
     {
       "name": "FARM FRESH",
@@ -686,30 +686,6 @@
       "company": "name:farm fresh@malaysia"
     },
     {
-      "name": "SAO MARTINHO SA",
-      "ticker": "SMTO3",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "location": "Brazil",
-      "company": "name:sao martinho@brazil"
-    },
-    {
-      "name": "SCANDI STANDARD",
-      "ticker": "SCST",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "location": "Sweden",
-      "company": "name:scandi standard@sweden"
-    },
-    {
-      "name": "SUMITOMO CHEMICAL INDIA LTD",
-      "ticker": "SUMICHEM",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "India",
-      "company": "name:sumitomo chemical india@india"
-    },
-    {
       "name": "SINOFERT HOLDINGS LTD",
       "ticker": "297",
       "asset_type": "Equity",
@@ -718,20 +694,12 @@
       "company": "name:sinofert holdings@china"
     },
     {
-      "name": "JOHOR PLANTATIONS GROUP",
-      "ticker": "JPG",
+      "name": "SAO MARTINHO SA",
+      "ticker": "SMTO3",
       "asset_type": "Equity",
       "weight": 0.0008,
-      "location": "Malaysia",
-      "company": "name:johor plantations group@malaysia"
-    },
-    {
-      "name": "BETAGRO NON-VOTING DR PCL",
-      "ticker": "BTG.R",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "Thailand",
-      "company": "name:betagro non voting dr pcl@thailand"
+      "location": "Brazil",
+      "company": "name:sao martinho@brazil"
     },
     {
       "name": "COFCO JOYCOME FOODS LTD",
@@ -742,12 +710,20 @@
       "company": "name:cofco joycome foods@china"
     },
     {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
+      "name": "BETAGRO NON-VOTING DR PCL",
+      "ticker": "BTG.R",
+      "asset_type": "Equity",
       "weight": 0.0008,
-      "location": "United States",
-      "company": null
+      "location": "Thailand",
+      "company": "name:betagro non voting dr pcl@thailand"
+    },
+    {
+      "name": "SCANDI STANDARD",
+      "ticker": "SCST",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "Sweden",
+      "company": "name:scandi standard@sweden"
     },
     {
       "name": "YUNNAN YUNTIANHUA LTD A",
@@ -756,6 +732,30 @@
       "weight": 0.0008,
       "location": "China",
       "company": "name:yunnan yuntianhua@china"
+    },
+    {
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0008,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "JOHOR PLANTATIONS GROUP",
+      "ticker": "JPG",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "Malaysia",
+      "company": "name:johor plantations group@malaysia"
+    },
+    {
+      "name": "SUMITOMO CHEMICAL INDIA LTD",
+      "ticker": "SUMICHEM",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "India",
+      "company": "name:sumitomo chemical india@india"
     },
     {
       "name": "BAYER CROPSCIENCE",
@@ -774,20 +774,20 @@
       "company": "name:first tractor@china"
     },
     {
-      "name": "ABU QIR FERTILIZERS AND CHEMICAL I",
-      "ticker": "ABUK",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "Egypt",
-      "company": "name:abu qir fertilizers and chemical@egypt"
-    },
-    {
       "name": "GUBRE FABRIKALARI A",
       "ticker": "GUBRF.E",
       "asset_type": "Equity",
       "weight": 0.0008,
       "location": "Turkey",
       "company": "name:gubre fabrikalari@turkey"
+    },
+    {
+      "name": "ABU QIR FERTILIZERS AND CHEMICAL I",
+      "ticker": "ABUK",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "location": "Egypt",
+      "company": "name:abu qir fertilizers and chemical@egypt"
     },
     {
       "name": "THAI FOODS GROUP PCL NON-VOTING DR",
@@ -798,12 +798,12 @@
       "company": "name:thai foods group pcl non voting dr@thailand"
     },
     {
-      "name": "PRIMA MEAT PACKERS LTD",
-      "ticker": "2281",
+      "name": "DEKON FOOD AND AGRICULTURE GROUP H",
+      "ticker": "2419",
       "asset_type": "Equity",
       "weight": 0.0007,
-      "location": "Japan",
-      "company": "name:prima meat packers@japan"
+      "location": "China",
+      "company": "name:dekon food and agriculture group@china"
     },
     {
       "name": "CHINA BLUECHEMICAL LTD H",
@@ -812,6 +812,14 @@
       "weight": 0.0007,
       "location": "China",
       "company": "name:china bluechemical@china"
+    },
+    {
+      "name": "PRIMA MEAT PACKERS LTD",
+      "ticker": "2281",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "location": "Japan",
+      "company": "name:prima meat packers@japan"
     },
     {
       "name": "GUJARAT STATE FERTILIZERS AND CHEM",
@@ -828,14 +836,6 @@
       "weight": 0.0007,
       "location": "United Kingdom",
       "company": "name:aep plantations@united kingdom"
-    },
-    {
-      "name": "DEKON FOOD AND AGRICULTURE GROUP H",
-      "ticker": "2419",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "location": "China",
-      "company": "name:dekon food and agriculture group@china"
     },
     {
       "name": "BALADNA COMPANY",
@@ -870,22 +870,6 @@
       "company": "name:genting plantations@malaysia"
     },
     {
-      "name": "HARIM HOLDINGS LTD",
-      "ticker": "003380",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "location": "Korea (South)",
-      "company": "name:harim holdings@south korea"
-    },
-    {
-      "name": "JAPFA COMFEED INDONESIA",
-      "ticker": "JPFA",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "location": "Indonesia",
-      "company": "name:japfa comfeed indonesia@indonesia"
-    },
-    {
       "name": "NEW HOPE LIUHE LTD A",
       "ticker": "000876",
       "asset_type": "Equity",
@@ -894,12 +878,28 @@
       "company": "name:new hope liuhe@china"
     },
     {
+      "name": "HARIM HOLDINGS LTD",
+      "ticker": "003380",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "location": "Korea (South)",
+      "company": "name:harim holdings@south korea"
+    },
+    {
       "name": "VITAL FARMS INC",
       "ticker": "VITL",
       "asset_type": "Equity",
       "weight": 0.0006,
       "location": "United States",
       "company": "name:vital farms@united states"
+    },
+    {
+      "name": "JAPFA COMFEED INDONESIA",
+      "ticker": "JPFA",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "location": "Indonesia",
+      "company": "name:japfa comfeed indonesia@indonesia"
     },
     {
       "name": "KUMIAI CHEMICAL INDUSTRY LTD",
@@ -926,14 +926,6 @@
       "company": "name:hextar global@malaysia"
     },
     {
-      "name": "DONGWON INDUSTRIES LTD",
-      "ticker": "006040",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "location": "Korea (South)",
-      "company": "name:dongwon industries@south korea"
-    },
-    {
       "name": "TRES TENTOS AGROINDUSTRIAL SA",
       "ticker": "TTEN3",
       "asset_type": "Equity",
@@ -942,20 +934,12 @@
       "company": "name:tres tentos agroindustrial@brazil"
     },
     {
-      "name": "TRIVENI ENGINEERING AND INDUSTRIES",
-      "ticker": "TRIVENI",
+      "name": "DONGWON INDUSTRIES LTD",
+      "ticker": "006040",
       "asset_type": "Equity",
-      "weight": 0.0003,
-      "location": "India",
-      "company": "name:triveni engineering and industries@india"
-    },
-    {
-      "name": "TURK TRAKTOR VE ZIRAAT MAKINELERI",
-      "ticker": "TTRAK.E",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "location": "Turkey",
-      "company": "name:turk traktor ve ziraat makineleri@turkey"
+      "weight": 0.0004,
+      "location": "Korea (South)",
+      "company": "name:dongwon industries@south korea"
     },
     {
       "name": "CASH COLLATERAL EUR HBCFT",
@@ -977,9 +961,25 @@
       "name": "NOK CASH",
       "ticker": "NOK",
       "asset_type": "Cash",
-      "weight": 0.0003,
+      "weight": 0.0002,
       "location": "Norway",
       "company": null
+    },
+    {
+      "name": "TURK TRAKTOR VE ZIRAAT MAKINELERI",
+      "ticker": "TTRAK.E",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "location": "Turkey",
+      "company": "name:turk traktor ve ziraat makineleri@turkey"
+    },
+    {
+      "name": "TRIVENI ENGINEERING AND INDUSTRIES",
+      "ticker": "TRIVENI",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "location": "India",
+      "company": "name:triveni engineering and industries@india"
     },
     {
       "name": "MYR CASH",
@@ -987,6 +987,14 @@
       "asset_type": "Cash",
       "weight": 0.0002,
       "location": "Malaysia",
+      "company": null
+    },
+    {
+      "name": "TRY CASH",
+      "ticker": "TRY",
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "location": "Turkey",
       "company": null
     },
     {
@@ -1019,14 +1027,6 @@
       "asset_type": "Cash",
       "weight": 0.0001,
       "location": "Singapore",
-      "company": null
-    },
-    {
-      "name": "TRY CASH",
-      "ticker": "TRY",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "Turkey",
       "company": null
     },
     {
@@ -1174,6 +1174,14 @@
       "company": null
     },
     {
+      "name": "INR/USD",
+      "ticker": "INR",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "CNY CASH",
       "ticker": "CNY",
       "asset_type": "Cash",
@@ -1235,14 +1243,6 @@
       "asset_type": "Futures",
       "weight": 0.0,
       "location": "European Union",
-      "company": null
-    },
-    {
-      "name": "INR/USD",
-      "ticker": "INR",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
       "company": null
     }
   ]

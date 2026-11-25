@@ -1,7 +1,7 @@
 {
   "ticker": "GRID",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-24T06:22:54.707828+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-25T05:03:58.731041+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=GRID",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Quanta Services, Inc.",
       "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.0894,
+      "weight": 0.0919,
       "cusip": "74762E102",
       "company": "cusip:74762E102"
     },
@@ -22,26 +22,26 @@
       "company": "cusip:G51502105"
     },
     {
-      "name": "ABB Ltd",
-      "ticker": "ABBN.SW",
-      "asset_type": "Equity",
-      "weight": 0.0764,
-      "cusip": "H0010V101",
-      "company": "cusip:H0010V101"
-    },
-    {
       "name": "Eaton Corporation Plc",
       "ticker": "ETN",
       "asset_type": "Equity",
-      "weight": 0.0752,
+      "weight": 0.0766,
       "cusip": "G29183103",
       "company": "cusip:G29183103"
+    },
+    {
+      "name": "ABB Ltd",
+      "ticker": "ABBN.SW",
+      "asset_type": "Equity",
+      "weight": 0.0759,
+      "cusip": "H0010V101",
+      "company": "cusip:H0010V101"
     },
     {
       "name": "Schneider Electric SE",
       "ticker": "SU.FP",
       "asset_type": "Equity",
-      "weight": 0.07,
+      "weight": 0.0688,
       "cusip": "F86921107",
       "company": "cusip:F86921107"
     },
@@ -49,7 +49,7 @@
       "name": "National Grid Plc",
       "ticker": "NG/.LN",
       "asset_type": "Equity",
-      "weight": 0.0488,
+      "weight": 0.0465,
       "cusip": "G6S9A7120",
       "company": "cusip:BDR05C901"
     },
@@ -57,7 +57,7 @@
       "name": "E.ON SE",
       "ticker": "EOAN.GY",
       "asset_type": "Equity",
-      "weight": 0.0476,
+      "weight": 0.0453,
       "cusip": "D24914133",
       "company": "cusip:494290901"
     },
@@ -65,7 +65,7 @@
       "name": "Prysmian SpA",
       "ticker": "PRY.IM",
       "asset_type": "Equity",
-      "weight": 0.0379,
+      "weight": 0.0383,
       "cusip": "T7630L105",
       "company": "cusip:T7630L105"
     },
@@ -73,7 +73,7 @@
       "name": "Hubbell Incorporated",
       "ticker": "HUBB",
       "asset_type": "Equity",
-      "weight": 0.0267,
+      "weight": 0.0271,
       "cusip": "443510607",
       "company": "cusip:443510607"
     },
@@ -81,7 +81,7 @@
       "name": "Tesla, Inc.",
       "ticker": "TSLA",
       "asset_type": "Equity",
-      "weight": 0.0228,
+      "weight": 0.024,
       "cusip": "88160R101",
       "company": "cusip:88160R101"
     },
@@ -89,7 +89,7 @@
       "name": "nVent Electric plc",
       "ticker": "NVT",
       "asset_type": "Equity",
-      "weight": 0.0226,
+      "weight": 0.0234,
       "cusip": "G6700G107",
       "company": "cusip:G6700G107"
     },
@@ -97,49 +97,49 @@
       "name": "TERNA - Rete Elettrica Nazionale SpA",
       "ticker": "TRN.IM",
       "asset_type": "Equity",
-      "weight": 0.0219,
+      "weight": 0.0205,
       "cusip": "T9471R100",
       "company": "cusip:T9471R100"
-    },
-    {
-      "name": "Hydro One Limited",
-      "ticker": "H.CT",
-      "asset_type": "Equity",
-      "weight": 0.0192,
-      "cusip": "448811208",
-      "company": "cusip:448811208"
     },
     {
       "name": "Cisco Systems, Inc.",
       "ticker": "CSCO",
       "asset_type": "Equity",
-      "weight": 0.0186,
+      "weight": 0.0187,
       "cusip": "17275R102",
       "company": "cusip:17275R102"
+    },
+    {
+      "name": "Hydro One Limited",
+      "ticker": "H.CT",
+      "asset_type": "Equity",
+      "weight": 0.018,
+      "cusip": "448811208",
+      "company": "cusip:448811208"
     },
     {
       "name": "NVIDIA Corporation",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.0138,
+      "weight": 0.0171,
       "cusip": "67066G104",
       "company": "cusip:67066G104"
-    },
-    {
-      "name": "SAP SE",
-      "ticker": "SAP.GY",
-      "asset_type": "Equity",
-      "weight": 0.0127,
-      "cusip": "D66992104",
-      "company": "cusip:803054204"
     },
     {
       "name": "Texas Instruments Incorporated",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0125,
+      "weight": 0.013,
       "cusip": "882508104",
       "company": "cusip:882508104"
+    },
+    {
+      "name": "SAP SE",
+      "ticker": "SAP.GY",
+      "asset_type": "Equity",
+      "weight": 0.0122,
+      "cusip": "D66992104",
+      "company": "cusip:803054204"
     },
     {
       "name": "Belimo Holding AG",
@@ -153,15 +153,23 @@
       "name": "Siemens AG",
       "ticker": "SIE.GY",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0112,
       "cusip": "D69671218",
       "company": "cusip:D69671218"
+    },
+    {
+      "name": "Oracle Corporation",
+      "ticker": "ORCL",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "cusip": "68389X105",
+      "company": "cusip:68389X105"
     },
     {
       "name": "SPIE S.A.",
       "ticker": "SPIE.FP",
       "asset_type": "Equity",
-      "weight": 0.0112,
+      "weight": 0.0109,
       "cusip": "F8691R101",
       "company": "cusip:F8691R101"
     },
@@ -169,7 +177,7 @@
       "name": "International Business Machines Corporation",
       "ticker": "IBM",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0108,
       "cusip": "459200101",
       "company": "cusip:459200101"
     },
@@ -177,7 +185,7 @@
       "name": "Red Electrica Corporacion S.A.",
       "ticker": "RED.SM",
       "asset_type": "Equity",
-      "weight": 0.0109,
+      "weight": 0.0103,
       "cusip": "E42807110",
       "company": "cusip:E42807110"
     },
@@ -185,31 +193,15 @@
       "name": "Elia Group SA/NV",
       "ticker": "ELI.BB",
       "asset_type": "Equity",
-      "weight": 0.0104,
+      "weight": 0.01,
       "cusip": "B35656105",
       "company": "cusip:B35656105"
-    },
-    {
-      "name": "Oracle Corporation",
-      "ticker": "ORCL",
-      "asset_type": "Equity",
-      "weight": 0.0103,
-      "cusip": "68389X105",
-      "company": "cusip:68389X105"
-    },
-    {
-      "name": "Equatorial Energia SA",
-      "ticker": "EQTL3.BZ",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "cusip": "P3773H104",
-      "company": "cusip:P3773H104"
     },
     {
       "name": "GE Vernova Inc.",
       "ticker": "GEV",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0093,
       "cusip": "36828A101",
       "company": "cusip:36828A101"
     },
@@ -217,15 +209,31 @@
       "name": "Analog Devices, Inc.",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0089,
       "cusip": "032654105",
       "company": "cusip:032654105"
+    },
+    {
+      "name": "Equatorial Energia SA",
+      "ticker": "EQTL3.BZ",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "cusip": "P3773H104",
+      "company": "cusip:P3773H104"
+    },
+    {
+      "name": "HD Hyundai Electric Co., Ltd.",
+      "ticker": "267260.KS",
+      "asset_type": "Equity",
+      "weight": 0.0087,
+      "cusip": "Y3R1DD103",
+      "company": "cusip:Y3R1DD103"
     },
     {
       "name": "NKT A/S",
       "ticker": "NKT.DC",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0084,
       "cusip": "K7037A107",
       "company": "cusip:K7037A107"
     },
@@ -233,23 +241,23 @@
       "name": "Iberdrola S.A.",
       "ticker": "IBE.SM",
       "asset_type": "Equity",
-      "weight": 0.0085,
+      "weight": 0.008,
       "cusip": "E6165F166",
       "company": "cusip:B288C9908"
     },
     {
-      "name": "HD Hyundai Electric Co., Ltd.",
-      "ticker": "267260.KS",
+      "name": "LS Electric Co., Ltd.",
+      "ticker": "010120.KS",
       "asset_type": "Equity",
-      "weight": 0.0083,
-      "cusip": "Y3R1DD103",
-      "company": "cusip:Y3R1DD103"
+      "weight": 0.0078,
+      "cusip": "Y5355Q105",
+      "company": "cusip:Y5355Q105"
     },
     {
       "name": "Hitachi, Ltd.",
       "ticker": "6501.JP",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.0077,
       "cusip": "J20454112",
       "company": "cusip:J20454112"
     },
@@ -257,7 +265,7 @@
       "name": "Nexans S.A.",
       "ticker": "NEX.FP",
       "asset_type": "Equity",
-      "weight": 0.0076,
+      "weight": 0.0075,
       "cusip": "F65277109",
       "company": "cusip:F65277109"
     },
@@ -265,65 +273,41 @@
       "name": "Companhia Paranaense de Energia-Copel",
       "ticker": "CPLE3.BZ",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0069,
       "cusip": "P30557105",
       "company": "cusip:P30557105"
-    },
-    {
-      "name": "LS Electric Co., Ltd.",
-      "ticker": "010120.KS",
-      "asset_type": "Equity",
-      "weight": 0.0071,
-      "cusip": "Y5355Q105",
-      "company": "cusip:Y5355Q105"
-    },
-    {
-      "name": "Fortune Electric Co., Ltd.",
-      "ticker": "1519.TT",
-      "asset_type": "Equity",
-      "weight": 0.0053,
-      "cusip": "Y26168107",
-      "company": "cusip:Y26168107"
     },
     {
       "name": "Forgent Power Solutions, Inc. (Class A)",
       "ticker": "FPS",
       "asset_type": "Equity",
-      "weight": 0.0052,
+      "weight": 0.0055,
       "cusip": "34631F102",
       "company": "cusip:34631F102"
     },
     {
-      "name": "Itron, Inc.",
-      "ticker": "ITRI",
+      "name": "Fortune Electric Co., Ltd.",
+      "ticker": "1519.TT",
       "asset_type": "Equity",
-      "weight": 0.0049,
-      "cusip": "465741106",
-      "company": "cusip:465741106"
-    },
-    {
-      "name": "Enel SpA",
-      "ticker": "ENEL.IM",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "cusip": "T3679P115",
-      "company": "cusip:714456902"
-    },
-    {
-      "name": "Energisa SA (Units)",
-      "ticker": "ENGI11.BZ",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "cusip": "P3769S114",
-      "company": "cusip:P3769S114"
+      "weight": 0.0055,
+      "cusip": "Y26168107",
+      "company": "cusip:Y26168107"
     },
     {
       "name": "MYR Group Inc.",
       "ticker": "MYRG",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0049,
       "cusip": "55405W104",
       "company": "cusip:55405W104"
+    },
+    {
+      "name": "Itron, Inc.",
+      "ticker": "ITRI",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "cusip": "465741106",
+      "company": "cusip:465741106"
     },
     {
       "name": "Emerson Electric Co.",
@@ -332,6 +316,22 @@
       "weight": 0.0046,
       "cusip": "291011104",
       "company": "cusip:291011104"
+    },
+    {
+      "name": "Enel SpA",
+      "ticker": "ENEL.IM",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "cusip": "T3679P115",
+      "company": "cusip:714456902"
+    },
+    {
+      "name": "Energisa SA (Units)",
+      "ticker": "ENGI11.BZ",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "cusip": "P3769S114",
+      "company": "cusip:P3769S114"
     },
     {
       "name": "Honeywell International Inc.",
@@ -345,25 +345,25 @@
       "name": "Infineon Technologies AG",
       "ticker": "IFX.GY",
       "asset_type": "Equity",
-      "weight": 0.0035,
+      "weight": 0.0036,
       "cusip": "D35415104",
       "company": "cusip:D35415104"
-    },
-    {
-      "name": "Transmissora Alianca de Energia Electrica S.A. (Unit)",
-      "ticker": "TAEE11.BZ",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "cusip": "P9T5CD126",
-      "company": "cusip:P9T5CD126"
     },
     {
       "name": "Mitsubishi Electric Corporation",
       "ticker": "6503.JP",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0034,
       "cusip": "J43873116",
       "company": "cusip:J43873116"
+    },
+    {
+      "name": "Transmissora Alianca de Energia Electrica S.A. (Unit)",
+      "ticker": "TAEE11.BZ",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "cusip": "P9T5CD126",
+      "company": "cusip:P9T5CD126"
     },
     {
       "name": "Enphase Energy, Inc.",
@@ -377,7 +377,7 @@
       "name": "NXP Semiconductors N.V.",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "cusip": "N6596X109",
       "company": "cusip:N6596X109"
     },
@@ -385,7 +385,7 @@
       "name": "Sigenergy Technology Co., Ltd. (Class H)",
       "ticker": "6656.HK",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "cusip": "Y7T3Q2108",
       "company": "cusip:Y7T3Q2108"
     },
@@ -393,7 +393,7 @@
       "name": "Alupar Investimento S.A (Unit)",
       "ticker": "ALUP11.BZ",
       "asset_type": "Equity",
-      "weight": 0.0028,
+      "weight": 0.0026,
       "cusip": "P0R676126",
       "company": "cusip:P0R676126"
     },
@@ -401,31 +401,31 @@
       "name": "Stella-Jones Inc.",
       "ticker": "SJ.CT",
       "asset_type": "Equity",
-      "weight": 0.0028,
+      "weight": 0.0026,
       "cusip": "85853F105",
       "company": "cusip:85853F105"
-    },
-    {
-      "name": "Engie S.A.",
-      "ticker": "ENGI.FP",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "cusip": "F7629A107",
-      "company": "cusip:B0C2CQ902"
     },
     {
       "name": "Voltronic Power Technology Corp.",
       "ticker": "6409.TT",
       "asset_type": "Equity",
-      "weight": 0.0025,
+      "weight": 0.0026,
       "cusip": "Y937BE103",
       "company": "cusip:Y937BE103"
+    },
+    {
+      "name": "Engie S.A.",
+      "ticker": "ENGI.FP",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "cusip": "F7629A107",
+      "company": "cusip:B0C2CQ902"
     },
     {
       "name": "Meidensha Corporation",
       "ticker": "6508.JP",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "cusip": "J41594102",
       "company": "cusip:J41594102"
     },
@@ -433,7 +433,7 @@
       "name": "Panasonic Holdings Corporation",
       "ticker": "6752.JP",
       "asset_type": "Equity",
-      "weight": 0.0023,
+      "weight": 0.0025,
       "cusip": "J6354Y104",
       "company": "cusip:J6354Y104"
     },
@@ -449,7 +449,7 @@
       "name": "Isa Energia Brasil SA (Preference)",
       "ticker": "ISAE4.BZ",
       "asset_type": "Equity",
-      "weight": 0.0022,
+      "weight": 0.0021,
       "cusip": "P30576113",
       "company": "cusip:P30576113"
     },
@@ -457,7 +457,7 @@
       "name": "Landis+Gyr Group AG",
       "ticker": "LAND.SE",
       "asset_type": "Equity",
-      "weight": 0.0022,
+      "weight": 0.0021,
       "cusip": "H893NZ107",
       "company": "cusip:H893NZ107"
     },
@@ -465,25 +465,9 @@
       "name": "Legrand S.A.",
       "ticker": "LR.FP",
       "asset_type": "Equity",
-      "weight": 0.0022,
+      "weight": 0.0021,
       "cusip": "F56196185",
       "company": "cusip:F56196185"
-    },
-    {
-      "name": "SSE Plc",
-      "ticker": "SSE.LN",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "cusip": "G8842P102",
-      "company": "cusip:079087003"
-    },
-    {
-      "name": "REN - Redes Energeticas Nacionais, SGPS, S.A.",
-      "ticker": "RENE.PL",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "cusip": "X70955103",
-      "company": "cusip:X70955103"
     },
     {
       "name": "Shihlin Electric & Engineering Corporation",
@@ -494,10 +478,18 @@
       "company": "cusip:Y7745Q100"
     },
     {
+      "name": "SSE Plc",
+      "ticker": "SSE.LN",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "cusip": "G8842P102",
+      "company": "cusip:079087003"
+    },
+    {
       "name": "Daihen Corporation",
       "ticker": "6622.JP",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "cusip": "J09114109",
       "company": "cusip:J09114109"
     },
@@ -505,33 +497,49 @@
       "name": "Taihan Cable & Solution Co., Ltd.",
       "ticker": "001440.KS",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "cusip": "Y8373R105",
       "company": "cusip:Y8373R105"
+    },
+    {
+      "name": "REN - Redes Energeticas Nacionais, SGPS, S.A.",
+      "ticker": "RENE.PL",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "cusip": "X70955103",
+      "company": "cusip:X70955103"
     },
     {
       "name": "Fortis Inc.",
       "ticker": "FTS.CN",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0017,
       "cusip": "349553107",
       "company": "cusip:349553107"
-    },
-    {
-      "name": "BYD Company Limited (Class H)",
-      "ticker": "1211.HK",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "cusip": "Y1023R104",
-      "company": "cusip:05606L100"
     },
     {
       "name": "Hammond Power Solutions Inc.",
       "ticker": "HPS/A.CT",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0017,
       "cusip": "408549103",
       "company": "cusip:408549103"
+    },
+    {
+      "name": "BYD Company Limited (Class H)",
+      "ticker": "1211.HK",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "cusip": "Y1023R104",
+      "company": "cusip:05606L100"
+    },
+    {
+      "name": "Renesas Electronics Corporation",
+      "ticker": "6723.JP",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "cusip": "J4881V107",
+      "company": "cusip:J4881V107"
     },
     {
       "name": "Sanil Electric Co., Ltd.",
@@ -542,44 +550,36 @@
       "company": "cusip:Y7T0PL103"
     },
     {
+      "name": "Fujikura Ltd.",
+      "ticker": "5803.JP",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "cusip": "J14784128",
+      "company": "cusip:J14784128"
+    },
+    {
+      "name": "American Superconductor Corporation",
+      "ticker": "AMSC",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "cusip": "030111207",
+      "company": "cusip:030111207"
+    },
+    {
       "name": "Astor Enerji A.S.",
       "ticker": "ASTOR.TI",
       "asset_type": "Equity",
-      "weight": 0.0015,
+      "weight": 0.0014,
       "cusip": "M1505L115",
       "company": "cusip:M1505L115"
     },
     {
-      "name": "Renesas Electronics Corporation",
-      "ticker": "6723.JP",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "cusip": "J4881V107",
-      "company": "cusip:J4881V107"
-    },
-    {
-      "name": "SolarEdge Technologies, Inc.",
-      "ticker": "SEDG",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "cusip": "83417M104",
-      "company": "cusip:83417M104"
-    },
-    {
-      "name": "Willdan Group, Inc.",
-      "ticker": "WLDN",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "cusip": "96924N100",
-      "company": "cusip:96924N100"
-    },
-    {
-      "name": "Fujikura Ltd.",
-      "ticker": "5803.JP",
+      "name": "Iljin Electric Co., Ltd.",
+      "ticker": "103590.KS",
       "asset_type": "Equity",
       "weight": 0.0014,
-      "cusip": "J14784128",
-      "company": "cusip:J14784128"
+      "cusip": "Y3878F102",
+      "company": "cusip:Y3878F102"
     },
     {
       "name": "PowerX, Inc.",
@@ -590,20 +590,28 @@
       "company": "cusip:J6391R104"
     },
     {
-      "name": "American Superconductor Corporation",
-      "ticker": "AMSC",
+      "name": "SolarEdge Technologies, Inc.",
+      "ticker": "SEDG",
       "asset_type": "Equity",
-      "weight": 0.0013,
-      "cusip": "030111207",
-      "company": "cusip:030111207"
+      "weight": 0.0014,
+      "cusip": "83417M104",
+      "company": "cusip:83417M104"
     },
     {
-      "name": "Iljin Electric Co., Ltd.",
-      "ticker": "103590.KS",
+      "name": "Sumitomo Electric Industries, Ltd.",
+      "ticker": "5802.JP",
       "asset_type": "Equity",
-      "weight": 0.0013,
-      "cusip": "Y3878F102",
-      "company": "cusip:Y3878F102"
+      "weight": 0.0014,
+      "cusip": "J77411114",
+      "company": "cusip:J77411114"
+    },
+    {
+      "name": "Willdan Group, Inc.",
+      "ticker": "WLDN",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "cusip": "96924N100",
+      "company": "cusip:96924N100"
     },
     {
       "name": "SMA Solar Technology AG",
@@ -614,27 +622,11 @@
       "company": "cusip:D7008K108"
     },
     {
-      "name": "Sumitomo Electric Industries, Ltd.",
-      "ticker": "5802.JP",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "cusip": "J77411114",
-      "company": "cusip:J77411114"
-    },
-    {
       "name": "US Dollar",
       "ticker": "$USD",
       "asset_type": "Cash",
-      "weight": 0.0011,
+      "weight": 0.0013,
       "company": null
-    },
-    {
-      "name": "WEG S.A.",
-      "ticker": "WEGE3.BZ",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "cusip": "P9832B129",
-      "company": "cusip:P9832B129"
     },
     {
       "name": "R&S Group Holding AG",
@@ -653,12 +645,20 @@
       "company": "cusip:Y74866107"
     },
     {
-      "name": "EDP - Energias de Portugal, S.A.",
-      "ticker": "EDP.PL",
+      "name": "WEG S.A.",
+      "ticker": "WEGE3.BZ",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "cusip": "P9832B129",
+      "company": "cusip:P9832B129"
+    },
+    {
+      "name": "Allis Electric Co., Ltd.",
+      "ticker": "1514.TT",
       "asset_type": "Equity",
       "weight": 0.0009,
-      "cusip": "X67925119",
-      "company": "cusip:X67925119"
+      "cusip": "Y0089Q109",
+      "company": "cusip:Y0089Q109"
     },
     {
       "name": "Ta Ya Electric Wire & Cable Co., Ltd.",
@@ -669,26 +669,26 @@
       "company": "cusip:Y8548S103"
     },
     {
+      "name": "EDP - Energias de Portugal, S.A.",
+      "ticker": "EDP.PL",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "cusip": "X67925119",
+      "company": "cusip:X67925119"
+    },
+    {
       "name": "Wasion Holdings Limited",
       "ticker": "3393.HK",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.0008,
       "cusip": "G9463P108",
       "company": "cusip:G9463P108"
-    },
-    {
-      "name": "Allis Electric Co., Ltd.",
-      "ticker": "1514.TT",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "cusip": "Y0089Q109",
-      "company": "cusip:Y0089Q109"
     },
     {
       "name": "AXIA Energia SA",
       "ticker": "AXIA3.BZ",
       "asset_type": "Equity",
-      "weight": 0.0008,
+      "weight": 0.0007,
       "cusip": "P22835113",
       "company": "cusip:P22835113"
     },
@@ -701,27 +701,12 @@
       "company": "cusip:D6S83H113"
     },
     {
-      "name": "Pound Sterling",
-      "ticker": "$GBP",
-      "asset_type": "Cash",
-      "weight": 0.0007,
-      "company": null
-    },
-    {
       "name": "WESCO International, Inc.",
       "ticker": "WCC",
       "asset_type": "Equity",
       "weight": 0.0007,
       "cusip": "95082P105",
       "company": "cusip:95082P105"
-    },
-    {
-      "name": "Energy Vault Holdings, Inc.",
-      "ticker": "NRGV",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "cusip": "29280W109",
-      "company": "cusip:29280W109"
     },
     {
       "name": "Generac Holdings Inc.",
@@ -732,20 +717,19 @@
       "company": "cusip:368736104"
     },
     {
+      "name": "Pound Sterling",
+      "ticker": "$GBP",
+      "asset_type": "Cash",
+      "weight": 0.0006,
+      "company": null
+    },
+    {
       "name": "Preformed Line Products Company",
       "ticker": "PLPC",
       "asset_type": "Equity",
       "weight": 0.0006,
       "cusip": "740444104",
       "company": "cusip:740444104"
-    },
-    {
-      "name": "The AES Corporation",
-      "ticker": "AES",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "cusip": "00130H105",
-      "company": "cusip:00130H105"
     },
     {
       "name": "Trimble Inc.",
@@ -770,6 +754,14 @@
       "weight": 0.0005,
       "cusip": "Y1R48E113",
       "company": "cusip:Y1R48E113"
+    },
+    {
+      "name": "Energy Vault Holdings, Inc.",
+      "ticker": "NRGV",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "cusip": "29280W109",
+      "company": "cusip:29280W109"
     },
     {
       "name": "Fluence Energy, Inc. (Class A)",
@@ -802,6 +794,22 @@
       "weight": 0.0005,
       "cusip": "576323109",
       "company": "cusip:576323109"
+    },
+    {
+      "name": "STMicroelectronics N.V.",
+      "ticker": "STM",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "cusip": "861012102",
+      "company": "cusip:861012102"
+    },
+    {
+      "name": "The AES Corporation",
+      "ticker": "AES",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "cusip": "00130H105",
+      "company": "cusip:00130H105"
     },
     {
       "name": "Verbund AG",
@@ -852,14 +860,6 @@
       "company": "cusip:J62965116"
     },
     {
-      "name": "STMicroelectronics N.V.",
-      "ticker": "STM",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "cusip": "861012102",
-      "company": "cusip:861012102"
-    },
-    {
       "name": "Takaoka Toko Co., Ltd.",
       "ticker": "6617.JP",
       "asset_type": "Equity",
@@ -884,27 +884,12 @@
       "company": "cusip:N0227W101"
     },
     {
-      "name": "Brazilian Real",
-      "ticker": "$BRL",
-      "asset_type": "Cash",
-      "weight": 0.0003,
-      "company": null
-    },
-    {
       "name": "ESCO Technologies Inc.",
       "ticker": "ESE",
       "asset_type": "Equity",
       "weight": 0.0003,
       "cusip": "296315104",
       "company": "cusip:296315104"
-    },
-    {
-      "name": "Europower Enerji ve Otomasyon Teknolojileri Sanayi ve Ticaret AS",
-      "ticker": "EUPWR.TI",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "cusip": "M4117J114",
-      "company": "cusip:M4117J114"
     },
     {
       "name": "Hyosung Heavy Industries Corporation",
@@ -946,12 +931,34 @@
       "company": "cusip:H10053108"
     },
     {
+      "name": "Brazilian Real",
+      "ticker": "$BRL",
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
       "name": "EnerSys",
       "ticker": "ENS",
       "asset_type": "Equity",
       "weight": 0.0002,
       "cusip": "29275Y102",
       "company": "cusip:29275Y102"
+    },
+    {
+      "name": "Euro",
+      "ticker": "$EUR",
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
+      "name": "Europower Enerji ve Otomasyon Teknolojileri Sanayi ve Ticaret AS",
+      "ticker": "EUPWR.TI",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "cusip": "M4117J114",
+      "company": "cusip:M4117J114"
     },
     {
       "name": "Tantalus Systems Holding Inc.",
@@ -1019,13 +1026,6 @@
     {
       "name": "Canadian Dollar",
       "ticker": "$CAD",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "Euro",
-      "ticker": "$EUR",
       "asset_type": "Cash",
       "weight": 0.0,
       "company": null

@@ -1,7 +1,7 @@
 {
   "ticker": "SOXX",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-24T06:23:10.379175+00:00",
+  "as_of": "2026-11-23",
+  "fetched_at": "2026-11-25T05:04:16.350634+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.099,
+      "weight": 0.093,
       "location": "United States",
       "company": "cusip:007903107"
     },
@@ -17,15 +17,23 @@
       "name": "BROADCOM INC",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0903,
+      "weight": 0.0817,
       "location": "United States",
       "company": "cusip:11135F101"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0722,
+      "location": "United States",
+      "company": "cusip:67066G104"
     },
     {
       "name": "MICRON TECHNOLOGY",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0681,
+      "weight": 0.0712,
       "location": "United States",
       "company": "cusip:595112103"
     },
@@ -33,23 +41,15 @@
       "name": "INTEL CORPORATION",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0629,
+      "weight": 0.0643,
       "location": "United States",
       "company": "cusip:458140100"
-    },
-    {
-      "name": "NVIDIA",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0625,
-      "location": "United States",
-      "company": "cusip:67066G104"
     },
     {
       "name": "TEXAS INSTRUMENT",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0555,
+      "weight": 0.0539,
       "location": "United States",
       "company": "name:texas instrument@united states"
     },
@@ -57,7 +57,7 @@
       "name": "ANALOG DEVICES",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.0525,
+      "weight": 0.0505,
       "location": "United States",
       "company": "cusip:032654105"
     },
@@ -65,7 +65,7 @@
       "name": "QUALCOMM",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.0483,
+      "weight": 0.0468,
       "location": "United States",
       "company": "cusip:747525103"
     },
@@ -73,7 +73,7 @@
       "name": "NXP SEMICONDUCTORS NV",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.045,
+      "weight": 0.043,
       "location": "United States",
       "company": "cusip:N6596X109"
     },
@@ -81,7 +81,7 @@
       "name": "MONOLITHIC POWER SYSTEMS INC",
       "ticker": "MPWR",
       "asset_type": "Equity",
-      "weight": 0.0411,
+      "weight": 0.0422,
       "location": "United States",
       "company": "cusip:609839105"
     },
@@ -89,7 +89,7 @@
       "name": "KLA",
       "ticker": "KLAC",
       "asset_type": "Equity",
-      "weight": 0.0397,
+      "weight": 0.0401,
       "location": "United States",
       "company": "cusip:482480100"
     },
@@ -97,7 +97,7 @@
       "name": "APPLIED MATERIAL INC",
       "ticker": "AMAT",
       "asset_type": "Equity",
-      "weight": 0.0362,
+      "weight": 0.0365,
       "location": "United States",
       "company": "name:applied material@united states"
     },
@@ -105,9 +105,17 @@
       "name": "LAM RESEARCH",
       "ticker": "LRCX",
       "asset_type": "Equity",
-      "weight": 0.0334,
+      "weight": 0.0336,
       "location": "United States",
       "company": "cusip:512807306"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.033,
+      "location": "United States",
+      "company": "cusip:573874104"
     },
     {
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
@@ -118,18 +126,10 @@
       "company": "cusip:874039100"
     },
     {
-      "name": "MARVELL TECHNOLOGY",
-      "ticker": "MRVL",
-      "asset_type": "Equity",
-      "weight": 0.0317,
-      "location": "United States",
-      "company": "cusip:573874104"
-    },
-    {
       "name": "SK HYNIX AMERICAN DEPOSITARY SHARE",
       "ticker": "SKHY",
       "asset_type": "Equity",
-      "weight": 0.0264,
+      "weight": 0.0279,
       "location": "Korea (South)",
       "company": "name:sk hynix american depositary@south korea"
     },
@@ -137,7 +137,7 @@
       "name": "TERADYNE",
       "ticker": "TER",
       "asset_type": "Equity",
-      "weight": 0.0241,
+      "weight": 0.0242,
       "location": "United States",
       "company": "cusip:880770102"
     },
@@ -145,7 +145,7 @@
       "name": "MICROCHIP TECHNOLOGY INC",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.0225,
+      "weight": 0.0218,
       "location": "United States",
       "company": "cusip:595017104"
     },
@@ -153,7 +153,7 @@
       "name": "ASTERA LABS",
       "ticker": "ALAB",
       "asset_type": "Equity",
-      "weight": 0.0195,
+      "weight": 0.0211,
       "location": "United States",
       "company": "cusip:04626A103"
     },
@@ -161,7 +161,7 @@
       "name": "ON SEMICONDUCTOR CORP",
       "ticker": "ON",
       "asset_type": "Equity",
-      "weight": 0.018,
+      "weight": 0.0173,
       "location": "United States",
       "company": "cusip:682189105"
     },
@@ -169,7 +169,7 @@
       "name": "ASML HOLDING ADR REPRESENTING",
       "ticker": "ASML",
       "asset_type": "Equity",
-      "weight": 0.0157,
+      "weight": 0.0151,
       "location": "Netherlands",
       "company": "name:asml holding adr representing@netherlands"
     },
@@ -185,7 +185,7 @@
       "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
       "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0128,
+      "weight": 0.0138,
       "location": "United States",
       "company": "cusip:G25457105"
     },
@@ -193,7 +193,7 @@
       "name": "MACOM TECHNOLOGY SOLUTIONS",
       "ticker": "MTSI",
       "asset_type": "Equity",
-      "weight": 0.0105,
+      "weight": 0.011,
       "location": "United States",
       "company": "cusip:55405Y100"
     },
@@ -201,7 +201,7 @@
       "name": "TOWER SEMICONDUCTOR",
       "ticker": "TSEM",
       "asset_type": "Equity",
-      "weight": 0.0092,
+      "weight": 0.0096,
       "location": "Israel",
       "company": "cusip:M87915274"
     },
@@ -209,7 +209,7 @@
       "name": "ASE TECHNOLOGY HOLDING ADR REPRESE",
       "ticker": "ASX",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.0086,
       "location": "Taiwan",
       "company": "name:ase technology holding adr represe@taiwan"
     },
@@ -217,7 +217,7 @@
       "name": "CEREBRAS SYSTEMS INC CLASS A",
       "ticker": "CBRS",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.0064,
       "location": "United States",
       "company": "cusip:15675D103"
     },
@@ -225,7 +225,7 @@
       "name": "UNITED MICRO ELECTRONICS ADR REP",
       "ticker": "UMC",
       "asset_type": "Equity",
-      "weight": 0.0051,
+      "weight": 0.0054,
       "location": "Taiwan",
       "company": "name:united micro electronics adr rep@taiwan"
     },
@@ -233,7 +233,7 @@
       "name": "STMICROELECTRONICS ADR",
       "ticker": "STM",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0046,
       "location": "France",
       "company": "name:stmicroelectronics@france"
     },
@@ -241,7 +241,7 @@
       "name": "ARM HOLDINGS AMERICAN DEPOSITARY S",
       "ticker": "ARM",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0041,
       "location": "United Kingdom",
       "company": "name:arm holdings american depositary@united kingdom"
     },
@@ -249,7 +249,7 @@
       "name": "BLK CSH FND TREASURY SL AGENCY",
       "ticker": "XTSLA",
       "asset_type": "Money Market",
-      "weight": 0.0005,
+      "weight": 0.0006,
       "location": "United States",
       "company": null
     },
@@ -272,7 +272,7 @@
       "name": "USD CASH",
       "ticker": "USD",
       "asset_type": "Cash",
-      "weight": -0.0001,
+      "weight": 0.0,
       "location": "United States",
       "company": null
     }
