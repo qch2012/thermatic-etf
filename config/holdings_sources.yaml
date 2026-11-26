@@ -126,3 +126,5 @@ BAI: {parser: ishares, url: "https://www.ishares.com/us/products/339081/ishares-
 IHAK: {parser: ishares, url: "https://www.ishares.com/us/products/307352/ishares-cybersecurity-and-tech-etf/latest-holdings.csv"}
 AIBF: {parser: ishares, url: "https://www.ishares.com/us/products/353593/ishares-future-ai-beneficiaries-etf/latest-holdings.csv"}
 BILT: {parser: ishares, url: "https://www.ishares.com/us/products/345073/ishares-infrastructure-active-etf/latest-holdings.csv"}
+# VistaShares: the fund page's "Download holdings" CSV, checked 2026-11-23.
+AIS: {parser: vistashares, url: "https://www.vistashares.com/etf/ais/holdings.csv"}

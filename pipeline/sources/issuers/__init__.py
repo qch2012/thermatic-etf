@@ -17,11 +17,12 @@ from .ssga import parse_ssga
 from .tema import parse_tema
 from .themes import parse_themes
 from .vaneck import parse_vaneck
+from .vistashares import parse_vistashares
 
 PARSERS = {"ishares": parse_ishares, "themes": parse_themes, "select": parse_select, "globalx": parse_globalx, "firsttrust": parse_firsttrust,
            "ark": parse_ark, "invesco": parse_invesco, "tema": parse_tema,
            "roundhill": parse_roundhill, "defiance": parse_defiance, "sprott": parse_sprott,
-           "vaneck": parse_vaneck, "ssga": parse_ssga}
+           "vaneck": parse_vaneck, "ssga": parse_ssga, "vistashares": parse_vistashares}
 BINARY = {"vaneck", "ssga"}  # .xlsx files: parsers take bytes
 
 
