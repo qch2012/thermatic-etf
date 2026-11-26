@@ -50,10 +50,10 @@ WDEF,WisdomTree Trust,Physical world,Aerospace & defense,2025-07-17,No net-asset
 WDGF,WisdomTree Global Defense Fund,Physical world,Aerospace & defense,2025-09-12,Under $25M (emerging minimum)
 XAR,State Street SPDR S&P Aerospace & Defense ETF,Physical world,Aerospace & defense,2011-09-29,Eligible
 XDEF,Xtrackers Europe Defense Technologies ETF,Physical world,Aerospace & defense,2026-02-12,Under $25M (emerging minimum)
-FTAG,First Trust Indxx Global Agriculture ETF,Physical world,Agriculture & food innovation,2010-03-31,Under $100M (established minimum)
-KROP,Global X AgTech & Food Innovation ETF,Physical world,Agriculture & food innovation,2021-07-14,Under $100M (established minimum)
-MOO,VanEck Agribusiness ETF,Physical world,Agriculture & food innovation,2007-09-05,Eligible
-VEGI,iShares MSCI Agriculture Producers ETF,Physical world,Agriculture & food innovation,2012-02-02,Eligible
+FTAG,First Trust Indxx Global Agriculture ETF,Physical world,Agri-food tech,2010-03-31,Under $100M (established minimum)
+KROP,Global X AgTech & Food Innovation ETF,Physical world,Agri-food tech,2021-07-14,Under $100M (established minimum)
+MOO,VanEck Agribusiness ETF,Physical world,Agri-food tech,2007-09-05,Eligible
+VEGI,iShares MSCI Agriculture Producers ETF,Physical world,Agri-food tech,2012-02-02,Eligible
 ACES,ALPS Clean Energy ETF,Physical world,Clean energy & climate tech,2018-06-29,Under $100M (established minimum)
 CNRG,State Street SPDR S&P Kensho Clean Power ETF,Physical world,Clean energy & climate tech,2018-10-23,Eligible
 CSEN,Cohen & Steers Future of Energy Active ETF,Physical world,Clean energy & climate tech,2026-06-15,Eligible
@@ -157,18 +157,18 @@ GNOM,Global X Genomics & Biotechnology ETF,Social,Genomics & gene editing,2019-0
 HELX,Franklin Genomic Advancements ETF,Social,Genomics & gene editing,2020-02-27,Under $100M (established minimum)
 IDNA,iShares Genomics Immunology and Healthcare ETF,Social,Genomics & gene editing,2019-06-14,Eligible
 PBE,Invesco Biotechnology & Genome ETF,Social,Genomics & gene editing,2005-06-23,Eligible
-BMED,iShares Health Innovation Active ETF,Social,"Healthcare innovation, medtech & health AI",2020-10-02,Under $100M (established minimum)
-EKG,First Trust Nasdaq Lux Digital Health Solutions ETF,Social,"Healthcare innovation, medtech & health AI",2022-03-23,Under $100M (established minimum)
-FMED,Fidelity Disruptive Medicine ETF,Social,"Healthcare innovation, medtech & health AI",2023-06-12,Under $100M (established minimum)
-GDOC,Goldman Sachs Future Health Care Equity ETF,Social,"Healthcare innovation, medtech & health AI",2021-11-11,Under $100M (established minimum)
-HEAL,Global X HealthTech ETF,Social,"Healthcare innovation, medtech & health AI",2020-07-30,Under $100M (established minimum)
-HLTH,Tema Healthcare AI ETF,Social,"Healthcare innovation, medtech & health AI",2026-07-21,No net-asset data
-HTEC,Robo Global Healthcare Technology and Innovation ETF,Social,"Healthcare innovation, medtech & health AI",2019-06-25,Under $100M (established minimum)
-IHI,iShares U.S. Medical Devices ETF,Social,"Healthcare innovation, medtech & health AI",2006-05-05,Eligible
-LFSC,F/m Emerald Life Sciences Innovation ETF,Social,"Healthcare innovation, medtech & health AI",2024-10-31,Under $0.5M avg daily $ volume
-LGHT,Langar Global Healthtech ETF,Social,"Healthcare innovation, medtech & health AI",2024-01-10,Under $25M (emerging minimum)
-MDEV,First Trust Indxx Global Medical Devices ETF,Social,"Healthcare innovation, medtech & health AI",2021-06-24,Under $100M (established minimum)
-XHE,State Street SPDR S&P Health Care Equipment ETF,Social,"Healthcare innovation, medtech & health AI",2011-01-27,Eligible
+BMED,iShares Health Innovation Active ETF,Social,"Health tech & AI",2020-10-02,Under $100M (established minimum)
+EKG,First Trust Nasdaq Lux Digital Health Solutions ETF,Social,"Health tech & AI",2022-03-23,Under $100M (established minimum)
+FMED,Fidelity Disruptive Medicine ETF,Social,"Health tech & AI",2023-06-12,Under $100M (established minimum)
+GDOC,Goldman Sachs Future Health Care Equity ETF,Social,"Health tech & AI",2021-11-11,Under $100M (established minimum)
+HEAL,Global X HealthTech ETF,Social,"Health tech & AI",2020-07-30,Under $100M (established minimum)
+HLTH,Tema Healthcare AI ETF,Social,"Health tech & AI",2026-07-21,No net-asset data
+HTEC,Robo Global Healthcare Technology and Innovation ETF,Social,"Health tech & AI",2019-06-25,Under $100M (established minimum)
+IHI,iShares U.S. Medical Devices ETF,Social,"Health tech & AI",2006-05-05,Eligible
+LFSC,F/m Emerald Life Sciences Innovation ETF,Social,"Health tech & AI",2024-10-31,Under $0.5M avg daily $ volume
+LGHT,Langar Global Healthtech ETF,Social,"Health tech & AI",2024-01-10,Under $25M (emerging minimum)
+MDEV,First Trust Indxx Global Medical Devices ETF,Social,"Health tech & AI",2021-06-24,Under $100M (established minimum)
+XHE,State Street SPDR S&P Health Care Equipment ETF,Social,"Health tech & AI",2011-01-27,Eligible
 AWAY,Amplify Travel Tech ETF,Social,"Next-gen consumer (millennial, Gen Z, luxury, pets)",2020-02-13,Under $100M (established minimum)
 MILN,Global X Millennials Consumer ETF,Social,"Next-gen consumer (millennial, Gen Z, luxury, pets)",2016-05-06,Under $100M (established minimum)
 PAWZ,ProShares Pet Care ETF,Social,"Next-gen consumer (millennial, Gen Z, luxury, pets)",2018-11-09,Under $100M (established minimum)
@@ -247,11 +247,11 @@ PSWD,Xtrackers Cybersecurity Select Equity ETF,Technology,Cybersecurity,2023-07-
 SPAM,Themes Cybersecurity ETF,Technology,Cybersecurity,2023-12-08,Under $25M (emerging minimum)
 WCBR,WisdomTree Cybersecurity Fund,Technology,Cybersecurity,2021-01-28,Eligible
 XA,Corgi AI Cybersecurity ETF,Technology,Cybersecurity,2026-05-06,Under $25M (emerging minimum)
-DTCR,Global X Data Center & Digital Infrastructure ETF,Technology,Data centers & digital infrastructure,2020-10-29,Eligible
-HUMM,800VDC AI Datacenter Ecosystem ETF,Technology,Data centers & digital infrastructure,2026-09-17,Under $25M (emerging minimum)
-IDGT,iShares U.S. Digital Infrastructure and Real Estate ETF,Technology,Data centers & digital infrastructure,2001-08-27,Eligible
-RACK,Vaneck Data Center Supply Chain ETF,Technology,Data centers & digital infrastructure,2026-06-02,Eligible
-SRVR,Pacer Data & Infrastructure Real Estate ETF,Technology,Data centers & digital infrastructure,2018-05-16,Eligible
+DTCR,Global X Data Center & Digital Infrastructure ETF,Technology,Data centers,2020-10-29,Eligible
+HUMM,800VDC AI Datacenter Ecosystem ETF,Technology,Data centers,2026-09-17,Under $25M (emerging minimum)
+IDGT,iShares U.S. Digital Infrastructure and Real Estate ETF,Technology,Data centers,2001-08-27,Eligible
+RACK,Vaneck Data Center Supply Chain ETF,Technology,Data centers,2026-06-02,Eligible
+SRVR,Pacer Data & Infrastructure Real Estate ETF,Technology,Data centers,2018-05-16,Eligible
 BZZ,Corgi Drones & Urban Air Mobility ETF,Technology,Drones & modern warfare,2026-05-06,Under $25M (emerging minimum)
 DRNZ,REX Drone ETF,Technology,Drones & modern warfare,2025-10-29,Eligible
 JEDI,Defiance Drone and Modern Warfare ETF,Technology,Drones & modern warfare,2025-09-26,Eligible
@@ -272,28 +272,28 @@ FDFF,Fidelity Disruptive Finance ETF,Technology,Fintech & digital payments,2023-
 FINX,Global X FinTech ETF,Technology,Fintech & digital payments,2016-09-13,Eligible
 IPAY,Amplify Digital Payments ETF,Technology,Fintech & digital payments,2015-07-16,Eligible
 KYC,Corgi Digital Banking & Fintech Infrastructure ETF,Technology,Fintech & digital payments,2026-05-06,Under $25M (emerging minimum)
-BOTT,Themes Humanoid Robotics ETF,Technology,Humanoid robotics & physical AI,2024-04-22,Eligible
-CBOT,Corgi Robots & Humanoids ETF,Technology,Humanoid robotics & physical AI,2026-05-06,Under $25M (emerging minimum)
-HUMN,Roundhill Humanoid Robotics ETF,Technology,Humanoid robotics & physical AI,2025-06-26,Eligible
-KOID,KraneShares Global Humanoid Robotics and Physical AI Index ETF,Technology,Humanoid robotics & physical AI,2025-06-05,Eligible
-WDRN,"WisdomTree Physical AI, Humanoids, and Drones Fund",Technology,Humanoid robotics & physical AI,2026-05-14,Under $25M (emerging minimum)
-ARKW,ARK Next Generation Technology ETF,Technology,"Internet, e-commerce & social media",2014-09-30,Eligible
-BUYZ,Franklin Disruptive Commerce ETF,Technology,"Internet, e-commerce & social media",2020-02-27,Under $100M (established minimum)
-CQQQ,Invesco China Technology ETF,Technology,"Internet, e-commerce & social media",2010-01-22,Eligible
-EBIZ,Global X E-commerce ETF,Technology,"Internet, e-commerce & social media",2018-11-30,Under $100M (established minimum)
-EMQQ,EMQQ The Emerging Markets Internet ETF,Technology,"Internet, e-commerce & social media",2014-11-17,Eligible
-FDN,First Trust Dow Jones Internet Index Fund,Technology,"Internet, e-commerce & social media",2006-06-23,Eligible
-FDNI,First Trust Dow Jones International Internet ETF,Technology,"Internet, e-commerce & social media",2018-11-09,Under $100M (established minimum)
-FMQQ,FMQQ The Next Frontier Internet ETF,Technology,"Internet, e-commerce & social media",2021-09-28,Under $100M (established minimum)
-IBUY,Amplify Online Retail ETF,Technology,"Internet, e-commerce & social media",2016-04-20,Eligible
-INQQ,INQQ The India Internet ETF,Technology,"Internet, e-commerce & social media",2022-04-06,Under $100M (established minimum)
-ISHP,First Trust S-Network Global E-Commerce ETF,Technology,"Internet, e-commerce & social media",2016-10-11,Under $100M (established minimum)
-KEMQ,KraneShares Public-Private Emerging Markets Internet and Technology ETF,Technology,"Internet, e-commerce & social media",2017-10-12,Under $100M (established minimum)
-KWEB,KraneShares CSI China Internet ETF,Technology,"Internet, e-commerce & social media",2013-08-01,Eligible
-OGIG,ALPS O'Shares Global Internet Giants ETF Shares,Technology,"Internet, e-commerce & social media",2018-06-05,Under $0.5M avg daily $ volume
-ONLN,ProShares Online Retail ETF,Technology,"Internet, e-commerce & social media",2018-10-18,Under $100M (established minimum)
-PNQI,Invesco NASDAQ Internet ETF,Technology,"Internet, e-commerce & social media",2008-06-13,Eligible
-SOCL,Global X Social Media ETF,Technology,"Internet, e-commerce & social media",2011-11-15,Under $100M (established minimum)
+BOTT,Themes Humanoid Robotics ETF,Technology,Humanoid robotics,2024-04-22,Eligible
+CBOT,Corgi Robots & Humanoids ETF,Technology,Humanoid robotics,2026-05-06,Under $25M (emerging minimum)
+HUMN,Roundhill Humanoid Robotics ETF,Technology,Humanoid robotics,2025-06-26,Eligible
+KOID,KraneShares Global Humanoid Robotics and Physical AI Index ETF,Technology,Humanoid robotics,2025-06-05,Eligible
+WDRN,"WisdomTree Physical AI, Humanoids, and Drones Fund",Technology,Humanoid robotics,2026-05-14,Under $25M (emerging minimum)
+ARKW,ARK Next Generation Technology ETF,Technology,"Internet & e-commerce",2014-09-30,Eligible
+BUYZ,Franklin Disruptive Commerce ETF,Technology,"Internet & e-commerce",2020-02-27,Under $100M (established minimum)
+CQQQ,Invesco China Technology ETF,Technology,"Internet & e-commerce",2010-01-22,Eligible
+EBIZ,Global X E-commerce ETF,Technology,"Internet & e-commerce",2018-11-30,Under $100M (established minimum)
+EMQQ,EMQQ The Emerging Markets Internet ETF,Technology,"Internet & e-commerce",2014-11-17,Eligible
+FDN,First Trust Dow Jones Internet Index Fund,Technology,"Internet & e-commerce",2006-06-23,Eligible
+FDNI,First Trust Dow Jones International Internet ETF,Technology,"Internet & e-commerce",2018-11-09,Under $100M (established minimum)
+FMQQ,FMQQ The Next Frontier Internet ETF,Technology,"Internet & e-commerce",2021-09-28,Under $100M (established minimum)
+IBUY,Amplify Online Retail ETF,Technology,"Internet & e-commerce",2016-04-20,Eligible
+INQQ,INQQ The India Internet ETF,Technology,"Internet & e-commerce",2022-04-06,Under $100M (established minimum)
+ISHP,First Trust S-Network Global E-Commerce ETF,Technology,"Internet & e-commerce",2016-10-11,Under $100M (established minimum)
+KEMQ,KraneShares Public-Private Emerging Markets Internet and Technology ETF,Technology,"Internet & e-commerce",2017-10-12,Under $100M (established minimum)
+KWEB,KraneShares CSI China Internet ETF,Technology,"Internet & e-commerce",2013-08-01,Eligible
+OGIG,ALPS O'Shares Global Internet Giants ETF Shares,Technology,"Internet & e-commerce",2018-06-05,Under $0.5M avg daily $ volume
+ONLN,ProShares Online Retail ETF,Technology,"Internet & e-commerce",2018-10-18,Under $100M (established minimum)
+PNQI,Invesco NASDAQ Internet ETF,Technology,"Internet & e-commerce",2008-06-13,Eligible
+SOCL,Global X Social Media ETF,Technology,"Internet & e-commerce",2011-11-15,Under $100M (established minimum)
 AHBM,Amplify Top 10 Asia Memory ETF,Technology,Memory & storage,2026-08-19,No net-asset data
 CRAM,Defiance China Memory ETF,Technology,Memory & storage,2026-09-10,Under $25M (emerging minimum)
 DISK,Tema Memory ETF,Technology,Memory & storage,2026-06-30,Eligible
@@ -353,13 +353,13 @@ WARP,VanEck Space ETF,Technology,Space,2026-05-07,Eligible
 WSPC,WisdomTree Space Economy Fund,Technology,Space,2026-07-09,No net-asset data
 XSPC,VegaShares Space & AI ETF,Technology,Space,2026-06-16,No net-asset data
 XWNG,Amplify Top 10 Space ETF,Technology,Space,2026-08-19,No net-asset data
-ARVR,First Trust Indxx Metaverse ETF,Technology,"Video games, esports & metaverse",2022-04-20,Under $100M (established minimum)
-BNGE,First Trust S-Network Streaming & Gaming ETF,Technology,"Video games, esports & metaverse",2022-02-04,Under $100M (established minimum)
-ESPO,VanEck Video Gaming and eSports ETF,Technology,"Video games, esports & metaverse",2018-10-17,Eligible
-FMET,Fidelity Metaverse ETF,Technology,"Video games, esports & metaverse",2022-04-21,Under $100M (established minimum)
-GAMR,Amplify Video Game Leaders ETF,Technology,"Video games, esports & metaverse",2016-03-10,Under $100M (established minimum)
-GGME,Invesco Next Gen Media and Gaming ETF,Technology,"Video games, esports & metaverse",2005-06-23,Under $100M (established minimum)
-HERO,Global X Video Games & Esports ETF,Technology,"Video games, esports & metaverse",2019-10-31,Under $100M (established minimum)
-METV,Roundhill Ball Metaverse ETF,Technology,"Video games, esports & metaverse",2021-06-30,Eligible
-NERD,Roundhill Video Games ETF,Technology,"Video games, esports & metaverse",2019-06-04,Under $100M (established minimum)
-VERS,ProShares Metaverse ETF,Technology,"Video games, esports & metaverse",2022-03-17,Under $100M (established minimum)
+ARVR,First Trust Indxx Metaverse ETF,Technology,"Video games & esports",2022-04-20,Under $100M (established minimum)
+BNGE,First Trust S-Network Streaming & Gaming ETF,Technology,"Video games & esports",2022-02-04,Under $100M (established minimum)
+ESPO,VanEck Video Gaming and eSports ETF,Technology,"Video games & esports",2018-10-17,Eligible
+FMET,Fidelity Metaverse ETF,Technology,"Video games & esports",2022-04-21,Under $100M (established minimum)
+GAMR,Amplify Video Game Leaders ETF,Technology,"Video games & esports",2016-03-10,Under $100M (established minimum)
+GGME,Invesco Next Gen Media and Gaming ETF,Technology,"Video games & esports",2005-06-23,Under $100M (established minimum)
+HERO,Global X Video Games & Esports ETF,Technology,"Video games & esports",2019-10-31,Under $100M (established minimum)
+METV,Roundhill Ball Metaverse ETF,Technology,"Video games & esports",2021-06-30,Eligible
+NERD,Roundhill Video Games ETF,Technology,"Video games & esports",2019-06-04,Under $100M (established minimum)
+VERS,ProShares Metaverse ETF,Technology,"Video games & esports",2022-03-17,Under $100M (established minimum)

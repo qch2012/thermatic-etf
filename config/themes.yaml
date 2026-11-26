@@ -4,7 +4,7 @@ exclude_name_regex: \b\d(\.\d+)?x\b|ultra|leverag|inverse|\bbull\b|\bbear\b|\bsh
   pay|enhanced|hedge equity|bitcoin etf|\bether|futures|strategy etf|long/short|tail risk|protect|max |-1x|2x|3x|\bpay\b|blue ?chip
 themes:
 - group: Technology
-  theme: Humanoid robotics & physical AI
+  theme: Humanoid robotics
   match: humanoid|physical ai
 - group: Technology
   theme: Neocloud & AI compute
@@ -37,7 +37,7 @@ themes:
   theme: Cloud computing
   match: \bcloud
 - group: Technology
-  theme: Data centers & digital infrastructure
+  theme: Data centers
   match: data cent|digital infra|\btower
 - group: Technology
   theme: 5G, IoT & connectivity
@@ -52,10 +52,10 @@ themes:
   theme: Fintech & digital payments
   match: fintech|payment|digital financ
 - group: Technology
-  theme: Internet, e-commerce & social media
+  theme: Internet & e-commerce
   match: internet|e-commerce|ecommerce|online retail|social media
 - group: Technology
-  theme: Video games, esports & metaverse
+  theme: Video games & esports
   match: video game|esports|metaverse|gaming(?!.*bet)
 - group: Social
   theme: Sports betting & prediction markets
@@ -103,7 +103,7 @@ themes:
   theme: Water
   match: \bwater
 - group: Physical world
-  theme: Agriculture & food innovation
+  theme: Agri-food tech
   match: agri|agtech|\bfood|farm
 - group: Physical world
   theme: US reshoring & manufacturing
@@ -124,7 +124,7 @@ themes:
   theme: Aging & longevity
   match: aging|longevity|senior
 - group: Social
-  theme: Healthcare innovation, medtech & health AI
+  theme: Health tech & AI
   match: health(care)? ?(innovation|tech|ai)|medical device|medtech|telehealth|digital health|health innovation|healthcare ai|medical (equipment|technology)|health care equipment
 - group: Social
   theme: Cannabis
@@ -139,25 +139,25 @@ overrides:
   ARKF: Fintech & digital payments
   BETZ: Sports betting & prediction markets
   BOTZ: Robotics & automation
-  BUYZ: Internet, e-commerce & social media
+  BUYZ: Internet & e-commerce
   CABZ: Electric & autonomous vehicles
   CARZ: Electric & autonomous vehicles
-  CQQQ: Internet, e-commerce & social media
+  CQQQ: Internet & e-commerce
   CSEN: Clean energy & climate tech
   DAPP: Blockchain & crypto equities
   EMET: Critical minerals & rare earths
   FDFF: Fintech & digital payments
-  ARKW: Internet, e-commerce & social media  # name matches \bgene (Generation); issuer describes an internet fund
-  FMED: Healthcare innovation, medtech & health AI
+  ARKW: Internet & e-commerce  # name matches \bgene (Generation); issuer describes an internet fund
+  FMED: Health tech & AI
   FOWF: Aerospace & defense
-  GDOC: Healthcare innovation, medtech & health AI
-  HLTH: Healthcare innovation, medtech & health AI
-  HUMM: Data centers & digital infrastructure
+  GDOC: Health tech & AI
+  HLTH: Health tech & AI
+  HUMM: Data centers
   LEGR: Blockchain & crypto equities
-  LFSC: Healthcare innovation, medtech & health AI
+  LFSC: Health tech & AI
   MJ: Cannabis
   NXTG: 5G, IoT & connectivity
-  SRVR: Data centers & digital infrastructure
+  SRVR: Data centers
   STCE: Blockchain & crypto equities
   TSSD: Aerospace & defense
   WDEF: Aerospace & defense
