@@ -71,16 +71,17 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     }
   };
 
-  // Last-year chart (or since the top 3's first shared date, if one is younger) of a theme's top 3 eligible funds plus the benchmark (dashed), each labelled at its end; no other lines.
+  // Last-year chart (or since the funds' first shared date, if one is younger) of some funds plus the benchmark (dashed),
+  // each labelled at its end; no other lines. Used for a theme's top 3 and for the defensive sectors.
   // Drawing, price loading and live ranks are the Funds tab's (app.js loadPrices / chartSvg / rankOf, shared globals),
   // so the top 3 follow the score-weight sliders.
   const BENCHMARK_COLOR = '#18232c';
-  let benchmark = null;  // screen.json `benchmark` (QQQ): price file only
-  const renderChart = async (box, funds, benchmark) => {
+  const LINE_COLORS = [...SERIES_COLORS, '#1a7f5a'];  // 4th line for the four defensive sectors
+  let benchmark = null, benchmarkTrend = null;  // screen.json `benchmark` (QQQ) and its `benchmark_trend`
+  const renderChart = async (box, funds, benchmark, label) => {
     const token = box.dataset.token = String(Math.random());  // a later click wins over a slow load
     box.replaceChildren(el('p', 'Loading chart…', 'note'));
-    funds = funds.slice(0, 3);
-    const tickers = funds.map(f => f.ticker).concat(benchmark ? [benchmark] : []);
+    const tickers = funds.concat(benchmark ? [benchmark] : []);
     const files = (await Promise.allSettled(tickers.map(loadPrices))).map(r => r.status === 'fulfilled' ? r.value : null);
     if (box.dataset.token !== token) return;
     const end = files.filter(Boolean).map(f => f.dates.at(-1)).sort().at(-1);
@@ -90,10 +91,10 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
       const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end, start);
       if (!line) return notes.push(`${ticker}: ${files[i] ? `no price on ${start}, not drawn` : 'no price file'}`);
       const isBenchmark = i === funds.length;
-      series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : SERIES_COLORS[i], dash: isBenchmark });
+      series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : LINE_COLORS[i], dash: isBenchmark });
     });
     if (!series.length) return box.replaceChildren(el('p', `No chart: ${notes.join('; ')}.`, 'note'));
-    const summary = `Top 3 by score and ${benchmark ?? 'no benchmark'}, ${start === yearBefore(end) ? 'last year' : `from ${start} (first date all top 3 share, since one is under a year old)`} to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
+    const summary = `${label} and ${benchmark ?? 'no benchmark'}, ${start === yearBefore(end) ? 'last year' : `from ${start} (first date all of them share, since one is under a year old)`} to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
     // Legend carries each line's end value, since the lines have no labels of their own.
     const legend = series.map(s => `<li><i style="${s.dash ? `border-top:2px dashed ${s.color};height:0` : `background:${s.color}`}"></i>`
       + `${esc(s.ticker)} <b>${s.values.at(-1).toFixed(0)}</b>${s.dash ? ' (benchmark)' : ''}</li>`).join('');
@@ -158,7 +159,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     const snapshot = el('div', null, 'snapshot-box');
     snapshot.append(el('p', 'Click a fund name above for its snapshot.', 'note'));
     detail.replaceChildren(table, chart, snapshot);
-    renderChart(chart, all, benchmark);
+    renderChart(chart, all.slice(0, 3).map(f => f.ticker), benchmark, 'Top 3 by score');
   };
 
   // Defensive sector funds (config/settings.yaml `reference`): compared against the themes, never scored.
@@ -175,7 +176,15 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
       returnCells(row, r.trend);
       body.append(row);
     }
-    document.getElementById('trend-detail').replaceChildren(table);
+    if (benchmarkTrend) {  // the growth benchmark, to compare against
+      const row = el('tr', null, 'benchmark');
+      row.append(el('td', 'Benchmark'), el('td', benchmark));
+      returnCells(row, benchmarkTrend);
+      body.append(row);
+    }
+    const chart = el('div', null, 'trend-chart');
+    document.getElementById('trend-detail').replaceChildren(table, chart);
+    renderChart(chart, reference.map(r => r.ticker), benchmark, 'Defensive sectors');
   };
 
   // One clickable tile; `onClick` fills the detail table below the board.
@@ -239,6 +248,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
 
   fetch('data/screen.json').then(r => r.json()).then(data => {
     benchmark = data.benchmark ?? null;
+    benchmarkTrend = data.benchmark_trend ?? null;
     render(data.funds, data.themes.map(t => t.theme), data.reference ?? []);
   }).catch(error => {
     document.getElementById('trend-body').textContent = `Cannot load trend: ${error.message}`;

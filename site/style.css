@@ -274,3 +274,4 @@ td.via-etf { color: var(--color-banner-ink); font-weight: 600; }
   .controls label, .controls select, .controls input[type=search] { max-width: 100%; }
 }
 .trend-chart svg.chart text { font-size: 12px; }
+.heatmap tr.benchmark td { border-top: 2px solid currentColor; font-weight: 600; }

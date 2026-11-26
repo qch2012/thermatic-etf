@@ -139,21 +139,26 @@ def run(settings, output, cache_dir, directory_text=None):
             prices = [p for p in prices if p["date"] >= start]
             price_files[fund["ticker"]] = {"ticker": fund["ticker"], "dates": [p["date"] for p in prices],
                                            "adjusted_close": [p["adjusted_close"] for p in prices]}
+    def display_prices(ticker):
+        """SPEC 6.8 display-only fund: writes its last 3 years' price file and returns its trend."""
+        prices = [p for p in source.history(ticker)["prices"] if p["adjusted_close"] is not None]
+        start = three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat()
+        kept = [p for p in prices if p["date"] >= start]
+        price_files[ticker] = {"ticker": ticker, "dates": [p["date"] for p in kept],
+                               "adjusted_close": [p["adjusted_close"] for p in kept]}
+        return trend(prices)
+
     reference = []  # SPEC 6.8: display only; a failed reference fund never blocks publishing
     for ticker, label in settings.get("reference", {}).items():
         try:
-            prices = [p for p in source.history(ticker)["prices"] if p["adjusted_close"] is not None]
-            reference.append({"ticker": ticker, "label": label, "trend": trend(prices)})
+            reference.append({"ticker": ticker, "label": label, "trend": display_prices(ticker)})
         except Exception as error:
             logging.warning("reference %s: %s", ticker, error)
-    benchmark = settings.get("benchmark")  # SPEC 6.8: price file only, for the momentum chart; never blocks publishing
+    benchmark = settings.get("benchmark")  # SPEC 6.8: for the momentum charts; never blocks publishing
+    benchmark_trend = None
     if benchmark:
         try:
-            prices = [p for p in source.history(benchmark)["prices"] if p["adjusted_close"] is not None]
-            start = three_years_before(date.fromisoformat(prices[-1]["date"])).isoformat()
-            prices = [p for p in prices if p["date"] >= start]
-            price_files[benchmark] = {"ticker": benchmark, "dates": [p["date"] for p in prices],
-                                      "adjusted_close": [p["adjusted_close"] for p in prices]}
+            benchmark_trend = display_prices(benchmark)
         except Exception as error:
             logging.warning("benchmark %s: %s", benchmark, error)
             benchmark = None
@@ -172,7 +177,7 @@ def run(settings, output, cache_dir, directory_text=None):
               "no_eligible_themes": no_eligible,
               "funds": sorted(funds, key=lambda f: (order[f["theme"]], f["rank"] is None, f["rank"] or 0, f["ticker"])),
               "failed_fetches": failures, "missing_issuer_links": [f["ticker"] for f in funds if not f["issuer_url"]],
-              "reference": reference, "benchmark": benchmark}
+              "reference": reference, "benchmark": benchmark, "benchmark_trend": benchmark_trend}
     previous = json.loads(output.read_text()) if output.exists() else None
     errors, notes = check(result, previous)
     for note in notes:
@@ -191,7 +196,7 @@ def run(settings, output, cache_dir, directory_text=None):
         write_json(output.parent / "prices" / f"{ticker}.json", prices)
     for path, data in holdings_files:
         write_json(path, data)
-    tickers = {f["ticker"] for f in funds} | set(price_files)  # keeps the benchmark's file too
+    tickers = {f["ticker"] for f in funds} | set(price_files)  # keeps benchmark and reference files too
     for old in (output.parent / "prices").glob("*.json"):
         if old.stem not in tickers:
             old.unlink()
