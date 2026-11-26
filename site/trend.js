@@ -35,9 +35,22 @@ function bucket(trend) {
   return short ? (long ? 'Rising' : 'Recovering') : (long ? 'Fading' : 'Falling');
 }
 
-// One year of a price file ending `end`, rebased to 100 at the last close on or before end − 365 days. null if younger.
-function rebaseYear(dates, closes, end) {
-  const start = new Date(Date.parse(end) - 365 * 864e5).toISOString().slice(0, 10);
+// Chart periods: [key, button text, calendar days]. Days match the pipeline's trend (TREND_DAYS).
+// YTD starts at the previous year's last close (Dec 31 or the last trading day before it).
+const CHART_PERIODS = [['1m', '1M', 30], ['3m', '3M', 91], ['6m', '6M', 182], ['ytd', 'YTD', null], ['1y', '1Y', 365]];
+const periodStart = (end, period) => {
+  const days = CHART_PERIODS.find(p => p[0] === period)[2];
+  return days ? new Date(Date.parse(end) - days * 864e5).toISOString().slice(0, 10) : `${end.slice(0, 4) - 1}-12-31`;
+};
+
+// Chart start: the period's start before `end`, or the first date all funds share when any of them is younger than that.
+function chartStart(firstDates, end, period = '1y') {
+  return [periodStart(end, period), ...firstDates].sort().at(-1);
+}
+
+// A price file from `start` (default one year before `end`) to `end`, rebased to 100 at the last close on or before start.
+// null if it begins after start.
+function rebaseYear(dates, closes, end, start = periodStart(end, '1y')) {
   let i = -1;
   while (i + 1 < dates.length && dates[i + 1] <= start) i++;
   if (i < 0 || !(closes[i] > 0)) return null;
@@ -45,7 +58,7 @@ function rebaseYear(dates, closes, end) {
   return { dates: dates.slice(i, last + 1), values: closes.slice(i, last + 1).map(v => v / closes[i] * 100) };
 }
 
-if (typeof module !== 'undefined') module.exports = { trendShade, themeTrend, bucket, rebaseYear, TREND_PERIODS };
+if (typeof module !== 'undefined') module.exports = { trendShade, themeTrend, bucket, rebaseYear, chartStart, TREND_PERIODS };
 
 if (typeof document !== 'undefined' && document.getElementById('trend')) {
   const el = (tag, text, className) => {
@@ -64,32 +77,46 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     }
   };
 
-  // Last-year chart of a theme's top 3 eligible funds plus the benchmark (dashed), each labelled at its end; no other lines.
+  // Chart over the chosen period (1M, 3M, 6M, YTD or 1Y) (or since the funds' first shared date, if one is younger), of some funds plus
+  // the benchmark (dashed), each labelled at its end; no other lines. Used for a theme's top 3 and for the defensive sectors.
+  // The period buttons redraw it; the choice carries over to the next chart opened.
   // Drawing, price loading and live ranks are the Funds tab's (app.js loadPrices / chartSvg / rankOf, shared globals),
   // so the top 3 follow the score-weight sliders.
   const BENCHMARK_COLOR = '#18232c';
-  let benchmark = null;  // screen.json `benchmark` (QQQ): price file only
-  const renderChart = async (box, funds, benchmark) => {
+  const LINE_COLORS = [...SERIES_COLORS, '#1a7f5a'];  // 4th line for the four defensive sectors
+  let benchmark = null, benchmarkTrend = null;  // screen.json `benchmark` (QQQ) and its `benchmark_trend`
+  let period = '1y';
+  const renderChart = async (box, funds, benchmark, label) => {
     const token = box.dataset.token = String(Math.random());  // a later click wins over a slow load
     box.replaceChildren(el('p', 'Loading chart…', 'note'));
-    funds = funds.slice(0, 3);
-    const tickers = funds.map(f => f.ticker).concat(benchmark ? [benchmark] : []);
+    const tickers = funds.concat(benchmark ? [benchmark] : []);
     const files = (await Promise.allSettled(tickers.map(loadPrices))).map(r => r.status === 'fulfilled' ? r.value : null);
     if (box.dataset.token !== token) return;
     const end = files.filter(Boolean).map(f => f.dates.at(-1)).sort().at(-1);
+    const start = chartStart(files.slice(0, funds.length).filter(Boolean).map(f => f.dates[0]), end, period);
     const series = [], notes = [];
     tickers.forEach((ticker, i) => {
-      const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end);
-      if (!line) return notes.push(`${ticker}: ${files[i] ? 'younger than a year, not drawn' : 'no price file'}`);
+      const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end, start);
+      if (!line) return notes.push(`${ticker}: ${files[i] ? `no price on ${start}, not drawn` : 'no price file'}`);
       const isBenchmark = i === funds.length;
-      series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : SERIES_COLORS[i], dash: isBenchmark });
+      series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : LINE_COLORS[i], dash: isBenchmark });
     });
     if (!series.length) return box.replaceChildren(el('p', `No chart: ${notes.join('; ')}.`, 'note'));
-    const summary = `Top 3 by score and ${benchmark ?? 'no benchmark'}, last year to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
+    const name = CHART_PERIODS.find(p => p[0] === period)[1];
+    const summary = `${label} and ${benchmark ?? 'no benchmark'}, ${start === periodStart(end, period) ? (period === 'ytd' ? 'year to date' : `last ${name}`) : `from ${start} (first date all of them share, since one is younger than ${name})`} to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
     // Legend carries each line's end value, since the lines have no labels of their own.
     const legend = series.map(s => `<li><i style="${s.dash ? `border-top:2px dashed ${s.color};height:0` : `background:${s.color}`}"></i>`
       + `${esc(s.ticker)} <b>${s.values.at(-1).toFixed(0)}</b>${s.dash ? ' (benchmark)' : ''}</li>`).join('');
+    const buttons = el('div', null, 'periods');
+    for (const [key, text] of CHART_PERIODS) {
+      const button = el('button', text);
+      button.type = 'button';
+      button.setAttribute('aria-pressed', String(key === period));
+      button.addEventListener('click', () => { period = key; renderChart(box, funds, benchmark, label); });
+      buttons.append(button);
+    }
     box.innerHTML = `<ul class="legend">${legend}</ul>${chartSvg(series, null, 100, summary)}`;
+    box.prepend(buttons);
     box.append(el('p', summary, 'note'));
   };
 
@@ -150,7 +177,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     const snapshot = el('div', null, 'snapshot-box');
     snapshot.append(el('p', 'Click a fund name above for its snapshot.', 'note'));
     detail.replaceChildren(table, chart, snapshot);
-    renderChart(chart, all, benchmark);
+    renderChart(chart, all.slice(0, 3).map(f => f.ticker), benchmark, 'Top 3 by score');
   };
 
   // Defensive sector funds (config/settings.yaml `reference`): compared against the themes, never scored.
@@ -167,7 +194,15 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
       returnCells(row, r.trend);
       body.append(row);
     }
-    document.getElementById('trend-detail').replaceChildren(table);
+    if (benchmarkTrend) {  // the growth benchmark, to compare against
+      const row = el('tr', null, 'benchmark');
+      row.append(el('td', 'Benchmark'), el('td', benchmark));
+      returnCells(row, benchmarkTrend);
+      body.append(row);
+    }
+    const chart = el('div', null, 'trend-chart');
+    document.getElementById('trend-detail').replaceChildren(table, chart);
+    renderChart(chart, reference.map(r => r.ticker), benchmark, 'Defensive sectors');
   };
 
   // One clickable tile; `onClick` fills the detail table below the board.
@@ -231,6 +266,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
 
   fetch('data/screen.json').then(r => r.json()).then(data => {
     benchmark = data.benchmark ?? null;
+    benchmarkTrend = data.benchmark_trend ?? null;
     render(data.funds, data.themes.map(t => t.theme), data.reference ?? []);
   }).catch(error => {
     document.getElementById('trend-body').textContent = `Cannot load trend: ${error.message}`;

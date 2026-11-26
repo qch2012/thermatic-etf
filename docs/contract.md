@@ -19,7 +19,8 @@ Fractions are fractions (0.0035 = 0.35%), money is USD.
 | `failed_fetches` | array of `{ticker: string, error: string}` | Funds whose fetch failed this run. They use last good data (`stale: true`), or, with none, are published with `status: "No price data"` (see "Fund with no data"). |
 | `missing_issuer_links` | array of string | Tickers with no entry in `config/issuer_links.json`. |
 | `benchmark` | string or `null` | Ticker from `config/settings.yaml` `benchmark` (QQQ) whose price file `prices/<TICKER>.json` was written this run, for the momentum chart (SPEC 6.8). `null` if unset or its fetch failed. Never classified, gated or scored. Optional: older files lack it. |
-| `reference` | array of `{ticker, label, trend}` | Defensive sector funds from `config/settings.yaml` `reference`, for the momentum board only (SPEC 6.8). `trend` as on Fund. Never classified, gated or scored; a fund whose fetch fails is left out. Optional: older files lack it. |
+| `benchmark_trend` | `{1m, 3m, 6m, 1y}` or `null` | The benchmark's `trend` (as on Fund), for the defensive-sectors comparison (SPEC 6.8). `null` when `benchmark` is. Optional: older files lack it. |
+| `reference` | array of `{ticker, label, trend}` | Defensive sector funds from `config/settings.yaml` `reference`, for the momentum board only (SPEC 6.8). `trend` as on Fund. Each also gets a price file `prices/<TICKER>.json` (last 3 years) for the comparison chart. Never classified, gated or scored; a fund whose fetch fails is left out. Optional: older files lack it. |
 
 Theme order: groups in the fixed order Technology, Physical world, Social, Broad thematic (a pipeline choice; SPEC 5.6 does not order groups); inside a group, themes by `largest_net_assets` (descending), then name.
 
@@ -88,7 +89,7 @@ How `pipeline/method.py` computes them, so the browser can reproduce them exactl
 
 ## Price files (for charts, #6)
 
-Path: `site/data/prices/<TICKER>.json`, one per fund that has at least one adjusted close.
+Path: `site/data/prices/<TICKER>.json`, one per fund that has at least one adjusted close, plus the benchmark and each reference fund.
 
 `{"ticker": string, "dates": [date, ...], "adjusted_close": [number, ...]}`
 

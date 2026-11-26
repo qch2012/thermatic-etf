@@ -25,6 +25,7 @@
       "properties": {"ticker": {"type": "string"}, "error": {"type": "string"}}}},
     "missing_issuer_links": {"type": "array", "items": {"type": "string"}},
     "benchmark": {"type": ["string", "null"]},
+    "benchmark_trend": {"type": ["object", "null"], "required": ["1m", "3m", "6m", "1y"]},
     "reference": {"type": "array", "items": {"type": "object", "required": ["ticker", "label", "trend"],
       "properties": {"ticker": {"type": "string"}, "label": {"type": "string"},
         "trend": {"type": "object", "required": ["1m", "3m", "6m", "1y"],
