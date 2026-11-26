@@ -275,3 +275,6 @@ td.via-etf { color: var(--color-banner-ink); font-weight: 600; }
 }
 .trend-chart svg.chart text { font-size: 12px; }
 .heatmap tr.benchmark td { border-top: 2px solid currentColor; font-weight: 600; }
+.periods { display: flex; gap: var(--space-2xs); margin-bottom: var(--space-2xs); }
+.periods button { font: inherit; cursor: pointer; border: 1px solid var(--color-rule); border-radius: var(--radius-md); padding: 0 var(--space-sm); background: var(--color-surface); }
+.periods button[aria-pressed=true] { border-color: var(--color-ink); box-shadow: 0 0 0 1px var(--color-ink); font-weight: 700; }
