@@ -16,7 +16,7 @@ themes:
   theme: Photonics & optics
   match: photonic|\boptic
 - group: Technology
-  theme: Electronic components (MLCC, PCB, power semis)
+  theme: Electronic components
   match: \bmlcc\b|\bpcb\b|electronic component|powersemi|power semi
 - group: Technology
   theme: Semiconductors
@@ -25,10 +25,10 @@ themes:
   theme: Quantum computing
   match: quantum
 - group: Physical world
-  theme: AI power & energy infrastructure
+  theme: AI power & energy
   match: (ai|artificial intelligence).*(power|energy)|power.*(ai|artificial)
 - group: Technology
-  theme: Artificial intelligence & big data
+  theme: AI & big data
   match: artificial intelligence|\ba\.i\.|\bai\b|generative|big data|machine learning|\bllm\b|natural language
 - group: Technology
   theme: Cybersecurity
@@ -58,7 +58,7 @@ themes:
   theme: Video games & esports
   match: video game|esports|metaverse|gaming(?!.*bet)
 - group: Social
-  theme: Sports betting & prediction markets
+  theme: Sports betting
   match: betting|igaming|prediction market
 - group: Technology
   theme: Space
@@ -70,7 +70,7 @@ themes:
   theme: Aerospace & defense
   match: defense|defence|aerospace
 - group: Technology
-  theme: Electric & autonomous vehicles
+  theme: EVs & self-driving
   match: electric vehicle|autonomous|self-driving|future mobility|smart mobility|\bev\b|electric & future
 - group: Physical world
   theme: Uranium & nuclear
@@ -97,7 +97,7 @@ themes:
   theme: Copper miners
   match: copper min|copper
 - group: Physical world
-  theme: Critical minerals & rare earths
+  theme: Critical minerals
   match: rare earth|critical (mineral|metal|material)|strategic metal|battery metal|energy transition metal
 - group: Physical world
   theme: Water
@@ -115,7 +115,7 @@ themes:
   theme: Genomics & gene editing
   match: genom|\bgenes?\b|genetic|crispr
 - group: Social
-  theme: GLP-1, obesity & heart health
+  theme: GLP-1 & obesity
   match: glp|obesity|weight loss|heart
 - group: Social
   theme: Oncology
@@ -130,22 +130,22 @@ themes:
   theme: Cannabis
   match: cannabis|marijuana
 - group: Social
-  theme: Next-gen consumer (millennial, Gen Z, luxury, pets)
+  theme: Next-gen consumer
   match: millennial|gen z|luxury|pet care|petcare|travel tech|consumer brands|next gen consumer
 - group: Broad thematic
-  theme: Disruptive innovation & multi-theme
+  theme: Disruptive innovation
   match: innovation|disrupt|exponential|thematic|megatrend|transformational|future\b|next ?gen|new econom|frontier tech
 overrides:
   ARKF: Fintech & digital payments
-  BETZ: Sports betting & prediction markets
+  BETZ: Sports betting
   BOTZ: Robotics & automation
   BUYZ: Internet & e-commerce
-  CABZ: Electric & autonomous vehicles
-  CARZ: Electric & autonomous vehicles
+  CABZ: EVs & self-driving
+  CARZ: EVs & self-driving
   CQQQ: Internet & e-commerce
   CSEN: Clean energy & climate tech
   DAPP: Blockchain & crypto equities
-  EMET: Critical minerals & rare earths
+  EMET: Critical minerals
   FDFF: Fintech & digital payments
   ARKW: Internet & e-commerce  # name matches \bgene (Generation); issuer describes an internet fund
   FMED: Health tech & AI
