@@ -201,6 +201,18 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(rows["CASH & CASH EQUIVALENTS"]["asset_type"], "Cash")
         self.assertAlmostEqual(sum(r["weight"] for r in parsed["holdings"]), 1.0, places=3)
 
+    def test_vistashares_csv(self):
+        # Real AIS file (vistashares.com/etf/ais/holdings.csv). No asset class or ids: cash, money market and currency told apart by ticker.
+        parsed = PARSERS["vistashares"]((FIXTURES / "vistashares_AIS_2026-11-20.csv").read_text(encoding="utf-8-sig"))
+        self.assertEqual(parsed["as_of"], "2026-11-20")
+        rows = {r["name"]: r for r in parsed["holdings"]}
+        self.assertEqual(rows["SK hynix Inc"], {"name": "SK hynix Inc", "ticker": "000660 KS", "asset_type": "Equity", "weight": 0.0818})
+        self.assertEqual(rows["Cash & Other"]["asset_type"], "Cash")
+        self.assertEqual(rows["NEW TAIWAN DOLLAR"]["asset_type"], "Cash")
+        self.assertEqual(rows["First American Government Obligations Fund 12/01/2031"]["asset_type"], "Money Market")
+        self.assertEqual(sum(r["asset_type"] != "Equity" for r in parsed["holdings"]), 3)
+        self.assertAlmostEqual(sum(r["weight"] for r in parsed["holdings"]), 1.0, places=2)
+
     def test_roundhill_shared_file_picks_one_fund(self):
         # Real Roundhill file for 2026-10-16 (rows of DRAM and METV kept). Dated with the next trade date, 10/19, so as_of is Friday.
         text = (FIXTURES / "roundhill_DRAM_METV_2026-10-16.csv").read_text(encoding="utf-8-sig")
