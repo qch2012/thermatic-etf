@@ -1,7 +1,7 @@
 {
   "ticker": "IFRA",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:04:00.608900+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:36.091709+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/294315/ishares-u-s-infrastructure-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "NEXTERA ENERGY",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.0422,
+      "weight": 0.0426,
       "location": "United States",
       "company": "cusip:65339F101"
     },
@@ -17,7 +17,7 @@
       "name": "UNION PACIFIC",
       "ticker": "UNP",
       "asset_type": "Equity",
-      "weight": 0.0418,
+      "weight": 0.0422,
       "location": "United States",
       "company": "name:union pacific@united states"
     },
@@ -25,7 +25,7 @@
       "name": "CSX",
       "ticker": "CSX",
       "asset_type": "Equity",
-      "weight": 0.0372,
+      "weight": 0.0375,
       "location": "United States",
       "company": "name:csx@united states"
     },
@@ -33,7 +33,7 @@
       "name": "QUANTA SERVICES INC",
       "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.0365,
+      "weight": 0.0354,
       "location": "United States",
       "company": "cusip:74762E102"
     },
@@ -41,7 +41,7 @@
       "name": "SOUTHERN",
       "ticker": "SO",
       "asset_type": "Equity",
-      "weight": 0.0318,
+      "weight": 0.0322,
       "location": "United States",
       "company": "cusip:842587107"
     },
@@ -49,7 +49,7 @@
       "name": "DUKE ENERGY CORP",
       "ticker": "DUK",
       "asset_type": "Equity",
-      "weight": 0.03,
+      "weight": 0.0304,
       "location": "United States",
       "company": "cusip:26441C204"
     },
@@ -57,7 +57,7 @@
       "name": "NORFOLK SOUTHERN CORP",
       "ticker": "NSC",
       "asset_type": "Equity",
-      "weight": 0.0287,
+      "weight": 0.0289,
       "location": "United States",
       "company": "name:norfolk southern@united states"
     },
@@ -65,7 +65,7 @@
       "name": "CATERPILLAR INC",
       "ticker": "CAT",
       "asset_type": "Equity",
-      "weight": 0.0282,
+      "weight": 0.0279,
       "location": "United States",
       "company": "cusip:149123101"
     },
@@ -73,31 +73,31 @@
       "name": "UNITED RENTALS",
       "ticker": "URI",
       "asset_type": "Equity",
-      "weight": 0.026,
+      "weight": 0.0258,
       "location": "United States",
       "company": "cusip:911363109"
-    },
-    {
-      "name": "CONSTELLATION ENERGY CORP",
-      "ticker": "CEG",
-      "asset_type": "Equity",
-      "weight": 0.0254,
-      "location": "United States",
-      "company": "cusip:21037T109"
     },
     {
       "name": "CRH PUBLIC LIMITED PLC",
       "ticker": "CRH",
       "asset_type": "Equity",
-      "weight": 0.0247,
+      "weight": 0.0251,
       "location": "United States",
       "company": "name:crh public@united states"
+    },
+    {
+      "name": "CONSTELLATION ENERGY CORP",
+      "ticker": "CEG",
+      "asset_type": "Equity",
+      "weight": 0.0247,
+      "location": "United States",
+      "company": "cusip:21037T109"
     },
     {
       "name": "WILLIAMS",
       "ticker": "WMB",
       "asset_type": "Equity",
-      "weight": 0.0237,
+      "weight": 0.024,
       "location": "United States",
       "company": "name:williams@united states"
     },
@@ -121,7 +121,7 @@
       "name": "TC ENERGY",
       "ticker": "TRP",
       "asset_type": "Equity",
-      "weight": 0.0184,
+      "weight": 0.0185,
       "location": "Canada",
       "company": "cusip:87807B909"
     },
@@ -129,7 +129,7 @@
       "name": "KINDER MORGAN",
       "ticker": "KMI",
       "asset_type": "Equity",
-      "weight": 0.0177,
+      "weight": 0.018,
       "location": "United States",
       "company": "cusip:49456B101"
     },
@@ -137,31 +137,31 @@
       "name": "DOMINION ENERGY",
       "ticker": "D",
       "asset_type": "Equity",
-      "weight": 0.0175,
+      "weight": 0.0176,
       "location": "United States",
       "company": "cusip:25746U109"
-    },
-    {
-      "name": "COMFORT SYSTEMS USA",
-      "ticker": "FIX",
-      "asset_type": "Equity",
-      "weight": 0.0163,
-      "location": "United States",
-      "company": "name:comfort systems usa@united states"
     },
     {
       "name": "ONEOK",
       "ticker": "OKE",
       "asset_type": "Equity",
-      "weight": 0.0157,
+      "weight": 0.0159,
       "location": "United States",
       "company": "cusip:30609A109"
+    },
+    {
+      "name": "COMFORT SYSTEMS USA",
+      "ticker": "FIX",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "location": "United States",
+      "company": "name:comfort systems usa@united states"
     },
     {
       "name": "SEMPRA",
       "ticker": "SRE",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0153,
       "location": "United States",
       "company": "cusip:816851109"
     },
@@ -169,31 +169,31 @@
       "name": "XCEL ENERGY INC",
       "ticker": "XEL",
       "asset_type": "Equity",
-      "weight": 0.0149,
+      "weight": 0.015,
       "location": "United States",
       "company": "cusip:98389B100"
-    },
-    {
-      "name": "ENTERGY CORP",
-      "ticker": "ETR",
-      "asset_type": "Equity",
-      "weight": 0.0149,
-      "location": "United States",
-      "company": "cusip:29364G103"
     },
     {
       "name": "VULCAN MATERIALS",
       "ticker": "VMC",
       "asset_type": "Equity",
-      "weight": 0.0147,
+      "weight": 0.0149,
       "location": "United States",
       "company": "name:vulcan materials@united states"
+    },
+    {
+      "name": "ENTERGY CORP",
+      "ticker": "ETR",
+      "asset_type": "Equity",
+      "weight": 0.0147,
+      "location": "United States",
+      "company": "cusip:29364G103"
     },
     {
       "name": "EXELON CORP",
       "ticker": "EXC",
       "asset_type": "Equity",
-      "weight": 0.0141,
+      "weight": 0.0142,
       "location": "United States",
       "company": "cusip:30161N101"
     },
@@ -201,25 +201,25 @@
       "name": "CONSOLIDATED EDISON",
       "ticker": "ED",
       "asset_type": "Equity",
-      "weight": 0.013,
+      "weight": 0.0131,
       "location": "United States",
       "company": "cusip:209115104"
-    },
-    {
-      "name": "VISTRA",
-      "ticker": "VST",
-      "asset_type": "Equity",
-      "weight": 0.0123,
-      "location": "United States",
-      "company": "cusip:92840M102"
     },
     {
       "name": "MARTIN MARIETTA MATERIALS",
       "ticker": "MLM",
       "asset_type": "Equity",
-      "weight": 0.0121,
+      "weight": 0.0122,
       "location": "United States",
       "company": "name:martin marietta materials@united states"
+    },
+    {
+      "name": "VISTRA",
+      "ticker": "VST",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "location": "United States",
+      "company": "cusip:92840M102"
     },
     {
       "name": "STEEL DYNAMICS INC",
@@ -230,36 +230,28 @@
       "company": "name:steel dynamics@united states"
     },
     {
-      "name": "EMCOR GROUP",
-      "ticker": "EME",
-      "asset_type": "Equity",
-      "weight": 0.0115,
-      "location": "United States",
-      "company": "name:emcor group@united states"
-    },
-    {
       "name": "WEC ENERGY GROUP",
       "ticker": "WEC",
       "asset_type": "Equity",
-      "weight": 0.0114,
+      "weight": 0.0115,
       "location": "United States",
       "company": "name:wec energy group@united states"
+    },
+    {
+      "name": "EMCOR GROUP",
+      "ticker": "EME",
+      "asset_type": "Equity",
+      "weight": 0.0112,
+      "location": "United States",
+      "company": "name:emcor group@united states"
     },
     {
       "name": "PUBLIC SERVICE ENTERPRISE GROUP",
       "ticker": "PEG",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0111,
       "location": "United States",
       "company": "cusip:744573106"
-    },
-    {
-      "name": "ATI",
-      "ticker": "ATI",
-      "asset_type": "Equity",
-      "weight": 0.0097,
-      "location": "United States",
-      "company": "cusip:01741R102"
     },
     {
       "name": "AMEREN",
@@ -273,15 +265,23 @@
       "name": "PG&E CORP",
       "ticker": "PCG",
       "asset_type": "Equity",
-      "weight": 0.0092,
+      "weight": 0.0093,
       "location": "United States",
       "company": "cusip:69331C108"
+    },
+    {
+      "name": "ATI",
+      "ticker": "ATI",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "location": "United States",
+      "company": "cusip:01741R102"
     },
     {
       "name": "FORTIS",
       "ticker": "FTS",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.009,
       "location": "Canada",
       "company": "cusip:349553107"
     },
@@ -289,7 +289,7 @@
       "name": "AMERICAN WATER WORKS",
       "ticker": "AWK",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0089,
       "location": "United States",
       "company": "cusip:030420103"
     },
@@ -297,17 +297,9 @@
       "name": "ATMOS ENERGY",
       "ticker": "ATO",
       "asset_type": "Equity",
-      "weight": 0.0085,
+      "weight": 0.0086,
       "location": "United States",
       "company": "name:atmos energy@united states"
-    },
-    {
-      "name": "RELIANCE STEEL & ALUMINUM",
-      "ticker": "RS",
-      "asset_type": "Equity",
-      "weight": 0.0085,
-      "location": "United States",
-      "company": "name:reliance steel aluminum@united states"
     },
     {
       "name": "DTE ENERGY",
@@ -318,6 +310,22 @@
       "company": "name:dte energy@united states"
     },
     {
+      "name": "RELIANCE STEEL & ALUMINUM",
+      "ticker": "RS",
+      "asset_type": "Equity",
+      "weight": 0.0085,
+      "location": "United States",
+      "company": "name:reliance steel aluminum@united states"
+    },
+    {
+      "name": "AMRIZE AG",
+      "ticker": "AMRZ",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "location": "United States",
+      "company": "name:amrize@united states"
+    },
+    {
       "name": "FIRSTENERGY CORP",
       "ticker": "FE",
       "asset_type": "Equity",
@@ -326,20 +334,20 @@
       "company": "name:firstenergy@united states"
     },
     {
-      "name": "AMRIZE AG",
-      "ticker": "AMRZ",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "location": "United States",
-      "company": "name:amrize@united states"
-    },
-    {
       "name": "EVERSOURCE ENERGY",
       "ticker": "ES",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0081,
       "location": "United States",
       "company": "name:eversource energy@united states"
+    },
+    {
+      "name": "CENTERPOINT ENERGY",
+      "ticker": "CNP",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "location": "United States",
+      "company": "name:centerpoint energy@united states"
     },
     {
       "name": "PPL CORP",
@@ -350,18 +358,10 @@
       "company": "name:ppl@united states"
     },
     {
-      "name": "CENTERPOINT ENERGY",
-      "ticker": "CNP",
-      "asset_type": "Equity",
-      "weight": 0.0078,
-      "location": "United States",
-      "company": "name:centerpoint energy@united states"
-    },
-    {
       "name": "JACOBS SOLUTIONS INC",
       "ticker": "J",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0071,
       "location": "United States",
       "company": "cusip:46982L108"
     },
@@ -385,7 +385,7 @@
       "name": "CMS ENERGY",
       "ticker": "CMS",
       "asset_type": "Equity",
-      "weight": 0.0065,
+      "weight": 0.0066,
       "location": "United States",
       "company": "name:cms energy@united states"
     },
@@ -393,7 +393,7 @@
       "name": "JAMES HARDIE INDUSTRIES PLC",
       "ticker": "JHX",
       "asset_type": "Equity",
-      "weight": 0.0065,
+      "weight": 0.0066,
       "location": "Australia",
       "company": "name:james hardie industries@australia"
     },
@@ -409,7 +409,7 @@
       "name": "CARLISLE COMPANIES",
       "ticker": "CSL",
       "asset_type": "Equity",
-      "weight": 0.0062,
+      "weight": 0.0063,
       "location": "United States",
       "company": "name:carlisle companies@united states"
     },
@@ -422,14 +422,6 @@
       "company": "cusip:30034W106"
     },
     {
-      "name": "NRG ENERGY INC",
-      "ticker": "NRG",
-      "asset_type": "Equity",
-      "weight": 0.0058,
-      "location": "United States",
-      "company": "cusip:629377508"
-    },
-    {
       "name": "ALLIANT ENERGY CORP",
       "ticker": "LNT",
       "asset_type": "Equity",
@@ -438,10 +430,18 @@
       "company": "cusip:018802108"
     },
     {
+      "name": "NRG ENERGY INC",
+      "ticker": "NRG",
+      "asset_type": "Equity",
+      "weight": 0.0054,
+      "location": "United States",
+      "company": "cusip:629377508"
+    },
+    {
       "name": "CARPENTER TECHNOLOGY",
       "ticker": "CRS",
       "asset_type": "Equity",
-      "weight": 0.0054,
+      "weight": 0.0051,
       "location": "United States",
       "company": "cusip:144285103"
     },
@@ -473,17 +473,9 @@
       "name": "SOLSTICE ADVANCED MATERIALS INC",
       "ticker": "SOLS",
       "asset_type": "Equity",
-      "weight": 0.0041,
+      "weight": 0.004,
       "location": "United States",
       "company": "name:solstice advanced materials@united states"
-    },
-    {
-      "name": "MASTEC",
-      "ticker": "MTZ",
-      "asset_type": "Equity",
-      "weight": 0.0041,
-      "location": "United States",
-      "company": "cusip:576323109"
     },
     {
       "name": "STANTEC",
@@ -494,20 +486,28 @@
       "company": "cusip:85472N109"
     },
     {
+      "name": "MASTEC",
+      "ticker": "MTZ",
+      "asset_type": "Equity",
+      "weight": 0.0039,
+      "location": "United States",
+      "company": "cusip:576323109"
+    },
+    {
+      "name": "ESSENTIAL UTILITIES INC",
+      "ticker": "WTRG",
+      "asset_type": "Equity",
+      "weight": 0.0038,
+      "location": "United States",
+      "company": "cusip:29670G102"
+    },
+    {
       "name": "TETRA TECH",
       "ticker": "TTEK",
       "asset_type": "Equity",
       "weight": 0.0038,
       "location": "United States",
       "company": "cusip:88162G103"
-    },
-    {
-      "name": "ESSENTIAL UTILITIES INC",
-      "ticker": "WTRG",
-      "asset_type": "Equity",
-      "weight": 0.0037,
-      "location": "United States",
-      "company": "cusip:29670G102"
     },
     {
       "name": "PINNACLE WEST",
@@ -521,33 +521,25 @@
       "name": "OWENS CORNING",
       "ticker": "OC",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0037,
       "location": "United States",
       "company": "cusip:690742101"
-    },
-    {
-      "name": "OSHKOSH CORP",
-      "ticker": "OSK",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "location": "United States",
-      "company": "cusip:688239201"
     },
     {
       "name": "DT MIDSTREAM",
       "ticker": "DTM",
       "asset_type": "Equity",
-      "weight": 0.0034,
+      "weight": 0.0035,
       "location": "United States",
       "company": "cusip:23345M107"
     },
     {
-      "name": "STERLING INFRASTRUCTURE",
-      "ticker": "STRL",
+      "name": "OSHKOSH CORP",
+      "ticker": "OSK",
       "asset_type": "Equity",
       "weight": 0.0034,
       "location": "United States",
-      "company": "cusip:859241101"
+      "company": "cusip:688239201"
     },
     {
       "name": "ADVANCED DRAINAGE SYSTEMS INC",
@@ -561,7 +553,7 @@
       "name": "BRIGHT HORIZON ENERGY CORP",
       "ticker": "HZN",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0033,
       "location": "United States",
       "company": "name:bright horizon energy@united states"
     },
@@ -577,7 +569,7 @@
       "name": "OGE ENERGY",
       "ticker": "OGE",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0031,
       "location": "United States",
       "company": "cusip:670837103"
     },
@@ -588,6 +580,14 @@
       "weight": 0.0031,
       "location": "United States",
       "company": "name:valmont inds@united states"
+    },
+    {
+      "name": "STERLING INFRASTRUCTURE",
+      "ticker": "STRL",
+      "asset_type": "Equity",
+      "weight": 0.0031,
+      "location": "United States",
+      "company": "cusip:859241101"
     },
     {
       "name": "POOL",
@@ -601,7 +601,7 @@
       "name": "ARMSTRONG WORLD INDUSTRIES",
       "ticker": "AWI",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "location": "United States",
       "company": "name:armstrong world industries@united states"
     },
@@ -614,10 +614,18 @@
       "company": "name:eastman chemical@united states"
     },
     {
+      "name": "TEREX",
+      "ticker": "TEX",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "location": "United States",
+      "company": "cusip:880779103"
+    },
+    {
       "name": "IES INC",
       "ticker": "IESC",
       "asset_type": "Equity",
-      "weight": 0.0027,
+      "weight": 0.0026,
       "location": "United States",
       "company": "name:ies@united states"
     },
@@ -638,26 +646,10 @@
       "company": "name:cleveland cliffs@united states"
     },
     {
-      "name": "FLUOR CORP",
-      "ticker": "FLR",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "location": "United States",
-      "company": "name:fluor@united states"
-    },
-    {
-      "name": "TEREX",
-      "ticker": "TEX",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "location": "United States",
-      "company": "cusip:880779103"
-    },
-    {
       "name": "IDACORP",
       "ticker": "IDA",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "location": "United States",
       "company": "cusip:451107106"
     },
@@ -665,9 +657,17 @@
       "name": "BUILDERS FIRSTSOURCE INC",
       "ticker": "BLDR",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "location": "United States",
       "company": "name:builders firstsource@united states"
+    },
+    {
+      "name": "FLUOR CORP",
+      "ticker": "FLR",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "location": "United States",
+      "company": "name:fluor@united states"
     },
     {
       "name": "EAGLE MATERIALS INC",
@@ -676,14 +676,6 @@
       "weight": 0.0022,
       "location": "United States",
       "company": "name:eagle materials@united states"
-    },
-    {
-      "name": "GRANITE CONSTRUCTION",
-      "ticker": "GVA",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "location": "United States",
-      "company": "name:granite construction@united states"
     },
     {
       "name": "TREX",
@@ -702,20 +694,20 @@
       "company": "name:louisiana pacific@united states"
     },
     {
+      "name": "GRANITE CONSTRUCTION",
+      "ticker": "GVA",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "location": "United States",
+      "company": "name:granite construction@united states"
+    },
+    {
       "name": "ANTERO MIDSTREAM",
       "ticker": "AM",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "location": "United States",
       "company": "cusip:03676B102"
-    },
-    {
-      "name": "TXNM ENERGY INC",
-      "ticker": "TXNM",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "location": "United States",
-      "company": "cusip:69349H107"
     },
     {
       "name": "SOUTHWEST GAS HOLDINGS",
@@ -726,12 +718,12 @@
       "company": "name:southwest gas holdings@united states"
     },
     {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
+      "name": "TXNM ENERGY INC",
+      "ticker": "TXNM",
+      "asset_type": "Equity",
       "weight": 0.0019,
       "location": "United States",
-      "company": null
+      "company": "cusip:69349H107"
     },
     {
       "name": "VENTURE GLOBAL CLASS A",
@@ -745,17 +737,9 @@
       "name": "TUTOR PERINI",
       "ticker": "TPC",
       "asset_type": "Equity",
-      "weight": 0.0018,
-      "location": "United States",
-      "company": "cusip:901109108"
-    },
-    {
-      "name": "EVERUS CONSTRUCTION GROUP",
-      "ticker": "ECG",
-      "asset_type": "Equity",
       "weight": 0.0017,
       "location": "United States",
-      "company": "cusip:300426103"
+      "company": "cusip:901109108"
     },
     {
       "name": "NEW JERSEY RESOURCES CORP",
@@ -766,28 +750,28 @@
       "company": "name:new jersey resources@united states"
     },
     {
-      "name": "MYR GROUP INC",
-      "ticker": "MYRG",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "location": "United States",
-      "company": "cusip:55405W104"
-    },
-    {
-      "name": "ARGAN",
-      "ticker": "AGX",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "United States",
-      "company": "cusip:04010E109"
-    },
-    {
       "name": "PORTLAND GENERAL ELECTRIC",
       "ticker": "POR",
       "asset_type": "Equity",
       "weight": 0.0016,
       "location": "United States",
       "company": "cusip:736508847"
+    },
+    {
+      "name": "EVERUS CONSTRUCTION GROUP",
+      "ticker": "ECG",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "United States",
+      "company": "cusip:300426103"
+    },
+    {
+      "name": "MYR GROUP INC",
+      "ticker": "MYRG",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "United States",
+      "company": "cusip:55405W104"
     },
     {
       "name": "ONE GAS",
@@ -806,27 +790,28 @@
       "company": "name:spire@united states"
     },
     {
-      "name": "S&P MID 400 EMINI DEC 26",
-      "ticker": "FAZ6",
-      "asset_type": "Futures",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CONSTRUCTION PARTNERS CLASS A",
-      "ticker": "ROAD",
+      "name": "ARGAN",
+      "ticker": "AGX",
       "asset_type": "Equity",
-      "weight": 0.0014,
+      "weight": 0.0015,
       "location": "United States",
-      "company": "cusip:21044C107"
+      "company": "cusip:04010E109"
     },
     {
       "name": "WEST FRASER TIMBER",
       "ticker": "WFG",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0014,
       "location": "Canada",
       "company": "name:west fraser timber@canada"
+    },
+    {
+      "name": "CONSTRUCTION PARTNERS CLASS A",
+      "ticker": "ROAD",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "location": "United States",
+      "company": "cusip:21044C107"
     },
     {
       "name": "ALGONQUIN POWER UTILITIES",
@@ -837,18 +822,11 @@
       "company": "cusip:015857105"
     },
     {
-      "name": "PRIMORIS SERVICES",
-      "ticker": "PRIM",
-      "asset_type": "Equity",
-      "weight": 0.0013,
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0012,
       "location": "United States",
-      "company": "cusip:74164F103"
-    },
-    {
-      "name": "E-MINI UTILITIES SELECT SECTOR DEC",
-      "ticker": "IXSZ6",
-      "asset_type": "Futures",
-      "weight": 0.0,
       "company": null
     },
     {
@@ -858,6 +836,21 @@
       "weight": 0.0012,
       "location": "United States",
       "company": "cusip:420261109"
+    },
+    {
+      "name": "PRIMORIS SERVICES",
+      "ticker": "PRIM",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "United States",
+      "company": "cusip:74164F103"
+    },
+    {
+      "name": "S&P MID 400 EMINI DEC 26",
+      "ticker": "FAZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
+      "company": null
     },
     {
       "name": "MDU RESOURCES GROUP",
@@ -876,20 +869,19 @@
       "company": "name:knife river@united states"
     },
     {
+      "name": "E-MINI UTILITIES SELECT SECTOR DEC",
+      "ticker": "IXSZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
+      "company": null
+    },
+    {
       "name": "AMERICAN STATES WATER",
       "ticker": "AWR",
       "asset_type": "Equity",
       "weight": 0.001,
       "location": "United States",
       "company": "cusip:029899101"
-    },
-    {
-      "name": "AVISTA",
-      "ticker": "AVA",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "location": "United States",
-      "company": "cusip:05379B107"
     },
     {
       "name": "CHESAPEAKE UTILITIES",
@@ -900,12 +892,28 @@
       "company": "name:chesapeake utilities@united states"
     },
     {
+      "name": "AVISTA",
+      "ticker": "AVA",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "location": "United States",
+      "company": "cusip:05379B107"
+    },
+    {
       "name": "KINETIK HOLDINGS CLASS A",
       "ticker": "KNTK",
       "asset_type": "Equity",
       "weight": 0.001,
       "location": "United States",
       "company": "name:kinetik holdings@united states"
+    },
+    {
+      "name": "CALIFORNIA WATER SERVICE GROUP S",
+      "ticker": "CWT",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "location": "United States",
+      "company": "cusip:130788102"
     },
     {
       "name": "TRINITY INDUSTRIES INC",
@@ -924,14 +932,6 @@
       "company": "name:mge energy@united states"
     },
     {
-      "name": "CALIFORNIA WATER SERVICE GROUP S",
-      "ticker": "CWT",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "location": "United States",
-      "company": "cusip:130788102"
-    },
-    {
       "name": "BOISE CASCADE",
       "ticker": "BCC",
       "asset_type": "Equity",
@@ -940,28 +940,12 @@
       "company": "name:boise cascade@united states"
     },
     {
-      "name": "CENTURY ALUMINUM",
-      "ticker": "CENX",
-      "asset_type": "Equity",
-      "weight": 0.0008,
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0009,
       "location": "United States",
-      "company": "name:century aluminum@united states"
-    },
-    {
-      "name": "LEGENCE CLASS A",
-      "ticker": "LGN",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "United States",
-      "company": "cusip:52476L109"
-    },
-    {
-      "name": "TREKOR METALS",
-      "ticker": "TGB",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "Canada",
-      "company": "name:trekor metals@canada"
+      "company": null
     },
     {
       "name": "WESTLAKE CORP",
@@ -972,6 +956,22 @@
       "company": "name:westlake@united states"
     },
     {
+      "name": "CENTURY ALUMINUM",
+      "ticker": "CENX",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "United States",
+      "company": "name:century aluminum@united states"
+    },
+    {
+      "name": "TREKOR METALS",
+      "ticker": "TGB",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "Canada",
+      "company": "name:trekor metals@canada"
+    },
+    {
       "name": "INGEVITY",
       "ticker": "NGVT",
       "asset_type": "Equity",
@@ -980,20 +980,12 @@
       "company": "name:ingevity@united states"
     },
     {
-      "name": "CENTURI HOLDINGS INC",
-      "ticker": "CTRI",
+      "name": "LEGENCE CLASS A",
+      "ticker": "LGN",
       "asset_type": "Equity",
       "weight": 0.0008,
       "location": "United States",
-      "company": "name:centuri holdings@united states"
-    },
-    {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
-      "weight": 0.0007,
-      "location": "United States",
-      "company": null
+      "company": "cusip:52476L109"
     },
     {
       "name": "OLIN CORP",
@@ -1002,6 +994,14 @@
       "weight": 0.0007,
       "location": "United States",
       "company": "name:olin@united states"
+    },
+    {
+      "name": "CENTURI HOLDINGS INC",
+      "ticker": "CTRI",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "location": "United States",
+      "company": "name:centuri holdings@united states"
     },
     {
       "name": "H2O AMERICA",
@@ -1015,7 +1015,7 @@
       "name": "NORTHWEST NATURAL HOLDING COMPANY",
       "ticker": "NWN",
       "asset_type": "Equity",
-      "weight": 0.0006,
+      "weight": 0.0007,
       "location": "United States",
       "company": "name:northwest natural holding@united states"
     },
@@ -1060,20 +1060,20 @@
       "company": "name:united states lime and minerals in@united states"
     },
     {
-      "name": "HAWAIIAN ELECTRIC INDUSTRIES",
-      "ticker": "HE",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "location": "United States",
-      "company": "name:hawaiian electric industries@united states"
-    },
-    {
       "name": "GREENBRIER",
       "ticker": "GBX",
       "asset_type": "Equity",
       "weight": 0.0004,
       "location": "United States",
       "company": "name:greenbrier@united states"
+    },
+    {
+      "name": "HAWAIIAN ELECTRIC INDUSTRIES",
+      "ticker": "HE",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "location": "United States",
+      "company": "name:hawaiian electric industries@united states"
     },
     {
       "name": "ECOVYST",
@@ -1108,14 +1108,6 @@
       "company": "name:astec industries@united states"
     },
     {
-      "name": "NWPX INFRASTRUCTURE",
-      "ticker": "NWPX",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "location": "United States",
-      "company": "cusip:667746101"
-    },
-    {
       "name": "GIBRALTAR INDUSTRIES",
       "ticker": "ROCK",
       "asset_type": "Equity",
@@ -1124,12 +1116,28 @@
       "company": "name:gibraltar industries@united states"
     },
     {
+      "name": "NWPX INFRASTRUCTURE",
+      "ticker": "NWPX",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "location": "United States",
+      "company": "cusip:667746101"
+    },
+    {
       "name": "MIDDLESEX WATER",
       "ticker": "MSEX",
       "asset_type": "Equity",
       "weight": 0.0003,
       "location": "United States",
       "company": "cusip:596680108"
+    },
+    {
+      "name": "COMPASS MINERALS INTERNATIONAL",
+      "ticker": "CMP",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "location": "United States",
+      "company": "name:compass minerals international@united states"
     },
     {
       "name": "MANITOWOC INC",
@@ -1164,14 +1172,6 @@
       "company": "name:kornit digital@israel"
     },
     {
-      "name": "COMPASS MINERALS INTERNATIONAL",
-      "ticker": "CMP",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "location": "United States",
-      "company": "name:compass minerals international@united states"
-    },
-    {
       "name": "LIMBACH HOLDINGS INC",
       "ticker": "LMB",
       "asset_type": "Equity",
@@ -1196,6 +1196,14 @@
       "company": "name:koppers holdings@united states"
     },
     {
+      "name": "CASH COLLATERAL USD WFFUT",
+      "ticker": "WFFUT",
+      "asset_type": "Cash Collateral and Margins",
+      "weight": 0.0002,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "LSB INDUSTRIES",
       "ticker": "LXU",
       "asset_type": "Equity",
@@ -1210,14 +1218,6 @@
       "weight": 0.0002,
       "location": "United States",
       "company": "name:insteel industries@united states"
-    },
-    {
-      "name": "CASH COLLATERAL USD WFFUT",
-      "ticker": "WFFUT",
-      "asset_type": "Cash Collateral and Margins",
-      "weight": 0.0002,
-      "location": "United States",
-      "company": null
     },
     {
       "name": "BLUELINX HOLDINGS",
@@ -1236,17 +1236,10 @@
       "company": "name:algoma steel group@canada"
     },
     {
-      "name": "EMINI ENERGY SELECT SECTOR DEC 26",
-      "ticker": "IXPZ6",
-      "asset_type": "Futures",
-      "weight": 0.0,
-      "company": null
-    },
-    {
       "name": "YORK WATER",
       "ticker": "YORW",
       "asset_type": "Equity",
-      "weight": 0.0001,
+      "weight": 0.0002,
       "location": "United States",
       "company": "cusip:987184108"
     },
@@ -1259,20 +1252,27 @@
       "company": "name:advansix@united states"
     },
     {
-      "name": "UNITED STATES ANTIMONY CORP",
-      "ticker": "UAMY",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "location": "United States",
-      "company": "name:united states antimony@united states"
-    },
-    {
       "name": "INTREPID POTASH INC",
       "ticker": "IPI",
       "asset_type": "Equity",
       "weight": 0.0001,
       "location": "United States",
       "company": "name:intrepid potash@united states"
+    },
+    {
+      "name": "EMINI ENERGY SELECT SECTOR DEC 26",
+      "ticker": "IXPZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "UNITED STATES ANTIMONY CORP",
+      "ticker": "UAMY",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "location": "United States",
+      "company": "name:united states antimony@united states"
     },
     {
       "name": "ORION GROUP INC",
@@ -1283,12 +1283,12 @@
       "company": "name:orion group@united states"
     },
     {
-      "name": "MATRIX SERVICE",
-      "ticker": "MTRX",
+      "name": "ARTESIAN RESOURCES CORP CLASS A",
+      "ticker": "ARTNA",
       "asset_type": "Equity",
       "weight": 0.0001,
       "location": "United States",
-      "company": "name:matrix service@united states"
+      "company": "name:artesian resources@united states"
     },
     {
       "name": "SUMMIT MIDSTREAM CORP",
@@ -1299,20 +1299,12 @@
       "company": "name:summit midstream@united states"
     },
     {
-      "name": "ARTESIAN RESOURCES CORP CLASS A",
-      "ticker": "ARTNA",
+      "name": "MATRIX SERVICE",
+      "ticker": "MTRX",
       "asset_type": "Equity",
       "weight": 0.0001,
       "location": "United States",
-      "company": "name:artesian resources@united states"
-    },
-    {
-      "name": "ASP ISOTOPES",
-      "ticker": "ASPI",
-      "asset_type": "Equity",
-      "weight": 0.0001,
-      "location": "United States",
-      "company": "name:asp isotopes@united states"
+      "company": "name:matrix service@united states"
     },
     {
       "name": "CAD CASH",
@@ -1321,6 +1313,14 @@
       "weight": 0.0001,
       "location": "Canada",
       "company": null
+    },
+    {
+      "name": "ASP ISOTOPES",
+      "ticker": "ASPI",
+      "asset_type": "Equity",
+      "weight": 0.0001,
+      "location": "United States",
+      "company": "name:asp isotopes@united states"
     }
   ]
 }

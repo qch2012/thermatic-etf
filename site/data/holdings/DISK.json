@@ -1,7 +1,7 @@
 {
   "ticker": "DISK",
   "as_of": "2026-11-24",
-  "fetched_at": "2026-11-25T05:03:51.476221+00:00",
+  "fetched_at": "2026-11-26T04:22:28.395455+00:00",
   "stale": false,
   "source": "https://temaetfs.com/hubfs/Website/Holdings/DISK-holdings-{mdy}.csv",
   "holdings": [
@@ -9,48 +9,40 @@
       "name": "SK HYNIX INC",
       "ticker": "000660 KS",
       "asset_type": "Equity",
-      "weight": 0.201,
+      "weight": 0.1907,
       "location": "South Korea",
       "company": "cusip:78392B206"
-    },
-    {
-      "name": "KIOXIA HOLDINGS CORP",
-      "ticker": "285A JP",
-      "asset_type": "Equity",
-      "weight": 0.1314,
-      "location": "Japan",
-      "company": "cusip:J3343A107"
-    },
-    {
-      "name": "SANDISK CORP",
-      "ticker": "SNDK",
-      "asset_type": "Equity",
-      "weight": 0.1274,
-      "cusip": "80004C200",
-      "location": "United States",
-      "company": "cusip:80004C200"
     },
     {
       "name": "MICRON TECHNOLOGY INC",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0865,
+      "weight": 0.1419,
       "cusip": "595112103",
       "location": "United States",
       "company": "cusip:595112103"
     },
     {
+      "name": "SANDISK CORP",
+      "ticker": "SNDK",
+      "asset_type": "Equity",
+      "weight": 0.1311,
+      "cusip": "80004C200",
+      "location": "United States",
+      "company": "cusip:80004C200"
+    },
+    {
       "name": "CHANGXIN MEMORY TECHNOLOGIES-SWAP-MREX-L",
       "ticker": "BTMTQT8-TRS-07/27/29-L-MREX",
       "asset_type": "Swap",
-      "weight": 0.0639,
+      "weight": 0.062,
       "company": null
     },
     {
       "name": "SAMSUNG ELECTRONICS CO LTD",
       "ticker": "005930 KS",
       "asset_type": "Equity",
-      "weight": 0.0497,
+      "weight": 0.0458,
       "location": "South Korea",
       "company": "cusip:Y74718100"
     },
@@ -58,23 +50,23 @@
       "name": "SK SQUARE CO LTD",
       "ticker": "402340 KS",
       "asset_type": "Equity",
-      "weight": 0.049,
+      "weight": 0.045,
       "location": "South Korea",
       "company": "name:sk square@south korea"
     },
     {
-      "name": "NANYA TECHNOLOGY CORP",
-      "ticker": "2408 TT",
+      "name": "KIOXIA HOLDINGS CORP",
+      "ticker": "285A JP",
       "asset_type": "Equity",
-      "weight": 0.0428,
-      "location": "Taiwan",
-      "company": "cusip:Y62066108"
+      "weight": 0.0449,
+      "location": "Japan",
+      "company": "cusip:J3343A107"
     },
     {
       "name": "WESTERN DIGITAL CORP",
       "ticker": "WDC",
       "asset_type": "Equity",
-      "weight": 0.0409,
+      "weight": 0.0443,
       "cusip": "958102105",
       "location": "United States",
       "company": "cusip:958102105"
@@ -83,16 +75,24 @@
       "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
       "ticker": "STX",
       "asset_type": "Equity",
-      "weight": 0.0403,
+      "weight": 0.0429,
       "cusip": "G7997R103",
       "location": "Ireland",
       "company": "cusip:G7997R103"
     },
     {
+      "name": "NANYA TECHNOLOGY CORP",
+      "ticker": "2408 TT",
+      "asset_type": "Equity",
+      "weight": 0.0418,
+      "location": "Taiwan",
+      "company": "cusip:Y62066108"
+    },
+    {
       "name": "AEHR TEST SYSTEMS",
       "ticker": "AEHR",
       "asset_type": "Equity",
-      "weight": 0.0372,
+      "weight": 0.0401,
       "cusip": "00760J108",
       "location": "United States",
       "company": "cusip:00760J108"
@@ -101,54 +101,54 @@
       "name": "WINBOND ELECTRONICS CORP",
       "ticker": "2344 TT",
       "asset_type": "Equity",
-      "weight": 0.0355,
+      "weight": 0.0346,
       "location": "Taiwan",
       "company": "cusip:Y95873108"
-    },
-    {
-      "name": "CASH & CASH EQUIVALENTS",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0209,
-      "company": null
-    },
-    {
-      "name": "BIWIN STORAGE TECHNOLOGY CO LTD",
-      "ticker": "688525 C1",
-      "asset_type": "Equity",
-      "weight": 0.0199,
-      "location": "China",
-      "company": "name:biwin storage technology@china"
-    },
-    {
-      "name": "SHENZHEN TECHWINSEMI TECHNOLOGY CO LTD",
-      "ticker": "001309 C2",
-      "asset_type": "Equity",
-      "weight": 0.0193,
-      "location": "China",
-      "company": "name:shenzhen techwinsemi technology@china"
-    },
-    {
-      "name": "INNODISK CORP",
-      "ticker": "5289 TT",
-      "asset_type": "Equity",
-      "weight": 0.0141,
-      "location": "Taiwan",
-      "company": "name:innodisk@taiwan"
     },
     {
       "name": "MACRONIX INTERNATIONAL CO LTD",
       "ticker": "2337 TT",
       "asset_type": "Equity",
-      "weight": 0.0121,
+      "weight": 0.0279,
       "location": "Taiwan",
       "company": "cusip:Y5369A104"
+    },
+    {
+      "name": "BIWIN STORAGE TECHNOLOGY CO LTD",
+      "ticker": "688525 C1",
+      "asset_type": "Equity",
+      "weight": 0.0278,
+      "location": "China",
+      "company": "name:biwin storage technology@china"
+    },
+    {
+      "name": "INNODISK CORP",
+      "ticker": "5289 TT",
+      "asset_type": "Equity",
+      "weight": 0.0277,
+      "location": "Taiwan",
+      "company": "name:innodisk@taiwan"
+    },
+    {
+      "name": "SHENZHEN TECHWINSEMI TECHNOLOGY CO LTD",
+      "ticker": "001309 C2",
+      "asset_type": "Equity",
+      "weight": 0.0276,
+      "location": "China",
+      "company": "name:shenzhen techwinsemi technology@china"
+    },
+    {
+      "name": "CASH & CASH EQUIVALENTS",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0158,
+      "company": null
     },
     {
       "name": "SK HYNIX INC",
       "ticker": "SKHY",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0086,
       "cusip": "78392B206",
       "location": "South Korea",
       "company": "cusip:78392B206"

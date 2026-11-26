@@ -1,7 +1,7 @@
 {
   "ticker": "POWR",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:04:10.391098+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:46.569696+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239653/ishares-u-s-power-infrastructure-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "NEXTERA ENERGY",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.0652,
+      "weight": 0.0663,
       "location": "United States",
       "company": "cusip:65339F101"
     },
@@ -17,7 +17,7 @@
       "name": "QUANTA SERVICES INC",
       "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.0623,
+      "weight": 0.0609,
       "location": "United States",
       "company": "cusip:74762E102"
     },
@@ -25,7 +25,7 @@
       "name": "EATON PLC",
       "ticker": "ETN",
       "asset_type": "Equity",
-      "weight": 0.052,
+      "weight": 0.0498,
       "location": "United States",
       "company": "name:eaton@united states"
     },
@@ -33,7 +33,7 @@
       "name": "GE VERNOVA",
       "ticker": "GEV",
       "asset_type": "Equity",
-      "weight": 0.051,
+      "weight": 0.0491,
       "location": "United States",
       "company": "cusip:36828A101"
     },
@@ -41,7 +41,7 @@
       "name": "SOUTHERN",
       "ticker": "SO",
       "asset_type": "Equity",
-      "weight": 0.0457,
+      "weight": 0.0466,
       "location": "United States",
       "company": "cusip:842587107"
     },
@@ -49,7 +49,7 @@
       "name": "EQT",
       "ticker": "EQT",
       "asset_type": "Equity",
-      "weight": 0.0449,
+      "weight": 0.0462,
       "location": "United States",
       "company": "name:eqt@united states"
     },
@@ -57,7 +57,7 @@
       "name": "DUKE ENERGY CORP",
       "ticker": "DUK",
       "asset_type": "Equity",
-      "weight": 0.043,
+      "weight": 0.044,
       "location": "United States",
       "company": "cusip:26441C204"
     },
@@ -65,7 +65,7 @@
       "name": "CONSTELLATION ENERGY CORP",
       "ticker": "CEG",
       "asset_type": "Equity",
-      "weight": 0.0354,
+      "weight": 0.0347,
       "location": "United States",
       "company": "cusip:21037T109"
     },
@@ -73,7 +73,7 @@
       "name": "HUBBELL INC",
       "ticker": "HUBB",
       "asset_type": "Equity",
-      "weight": 0.0341,
+      "weight": 0.0334,
       "location": "United States",
       "company": "cusip:443510607"
     },
@@ -81,7 +81,7 @@
       "name": "AMERICAN ELECTRIC POWER INC",
       "ticker": "AEP",
       "asset_type": "Equity",
-      "weight": 0.0295,
+      "weight": 0.0298,
       "location": "United States",
       "company": "cusip:025537101"
     },
@@ -89,31 +89,31 @@
       "name": "EXPAND ENERGY",
       "ticker": "EXE",
       "asset_type": "Equity",
-      "weight": 0.0277,
+      "weight": 0.0284,
       "location": "United States",
       "company": "cusip:165167735"
-    },
-    {
-      "name": "NVENT ELECTRIC PLC",
-      "ticker": "NVT",
-      "asset_type": "Equity",
-      "weight": 0.0269,
-      "location": "United States",
-      "company": "name:nvent electric@united states"
     },
     {
       "name": "DOMINION ENERGY",
       "ticker": "D",
       "asset_type": "Equity",
-      "weight": 0.025,
+      "weight": 0.0255,
       "location": "United States",
       "company": "cusip:25746U109"
+    },
+    {
+      "name": "NVENT ELECTRIC PLC",
+      "ticker": "NVT",
+      "asset_type": "Equity",
+      "weight": 0.0253,
+      "location": "United States",
+      "company": "name:nvent electric@united states"
     },
     {
       "name": "FIRST SOLAR",
       "ticker": "FSLR",
       "asset_type": "Equity",
-      "weight": 0.0233,
+      "weight": 0.0238,
       "location": "United States",
       "company": "cusip:336433107"
     },
@@ -121,7 +121,7 @@
       "name": "XCEL ENERGY INC",
       "ticker": "XEL",
       "asset_type": "Equity",
-      "weight": 0.0214,
+      "weight": 0.0217,
       "location": "United States",
       "company": "cusip:98389B100"
     },
@@ -137,7 +137,7 @@
       "name": "EXELON CORP",
       "ticker": "EXC",
       "asset_type": "Equity",
-      "weight": 0.0203,
+      "weight": 0.0205,
       "location": "United States",
       "company": "cusip:30161N101"
     },
@@ -145,7 +145,7 @@
       "name": "CONSOLIDATED EDISON",
       "ticker": "ED",
       "asset_type": "Equity",
-      "weight": 0.0187,
+      "weight": 0.019,
       "location": "United States",
       "company": "cusip:209115104"
     },
@@ -153,23 +153,15 @@
       "name": "GENERAC HOLDINGS",
       "ticker": "GNRC",
       "asset_type": "Equity",
-      "weight": 0.0179,
+      "weight": 0.0175,
       "location": "United States",
       "company": "cusip:368736104"
-    },
-    {
-      "name": "VISTRA",
-      "ticker": "VST",
-      "asset_type": "Equity",
-      "weight": 0.0167,
-      "location": "United States",
-      "company": "cusip:92840M102"
     },
     {
       "name": "RANGE RESOURCES",
       "ticker": "RRC",
       "asset_type": "Equity",
-      "weight": 0.0165,
+      "weight": 0.017,
       "location": "United States",
       "company": "name:range resources@united states"
     },
@@ -177,39 +169,47 @@
       "name": "WEC ENERGY GROUP",
       "ticker": "WEC",
       "asset_type": "Equity",
-      "weight": 0.0163,
+      "weight": 0.0166,
       "location": "United States",
       "company": "name:wec energy group@united states"
-    },
-    {
-      "name": "NEXTPOWER INC",
-      "ticker": "NXT",
-      "asset_type": "Equity",
-      "weight": 0.0159,
-      "location": "United States",
-      "company": "cusip:65290E101"
-    },
-    {
-      "name": "PUBLIC SERVICE ENTERPRISE GROUP",
-      "ticker": "PEG",
-      "asset_type": "Equity",
-      "weight": 0.0158,
-      "location": "United States",
-      "company": "cusip:744573106"
     },
     {
       "name": "ANTERO RESOURCES",
       "ticker": "AR",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0164,
       "location": "United States",
       "company": "name:antero resources@united states"
+    },
+    {
+      "name": "VISTRA",
+      "ticker": "VST",
+      "asset_type": "Equity",
+      "weight": 0.0164,
+      "location": "United States",
+      "company": "cusip:92840M102"
+    },
+    {
+      "name": "PUBLIC SERVICE ENTERPRISE GROUP",
+      "ticker": "PEG",
+      "asset_type": "Equity",
+      "weight": 0.0161,
+      "location": "United States",
+      "company": "cusip:744573106"
+    },
+    {
+      "name": "NEXTPOWER INC",
+      "ticker": "NXT",
+      "asset_type": "Equity",
+      "weight": 0.0149,
+      "location": "United States",
+      "company": "cusip:65290E101"
     },
     {
       "name": "AMEREN",
       "ticker": "AEE",
       "asset_type": "Equity",
-      "weight": 0.0133,
+      "weight": 0.0135,
       "location": "United States",
       "company": "name:ameren@united states"
     },
@@ -217,7 +217,7 @@
       "name": "PG&E CORP",
       "ticker": "PCG",
       "asset_type": "Equity",
-      "weight": 0.0132,
+      "weight": 0.0135,
       "location": "United States",
       "company": "cusip:69331C108"
     },
@@ -225,7 +225,7 @@
       "name": "DTE ENERGY",
       "ticker": "DTE",
       "asset_type": "Equity",
-      "weight": 0.0122,
+      "weight": 0.0123,
       "location": "United States",
       "company": "name:dte energy@united states"
     },
@@ -233,7 +233,7 @@
       "name": "VALMONT INDS",
       "ticker": "VMI",
       "asset_type": "Equity",
-      "weight": 0.0117,
+      "weight": 0.0118,
       "location": "United States",
       "company": "name:valmont inds@united states"
     },
@@ -241,25 +241,25 @@
       "name": "EVERSOURCE ENERGY",
       "ticker": "ES",
       "asset_type": "Equity",
-      "weight": 0.0115,
+      "weight": 0.0118,
       "location": "United States",
       "company": "name:eversource energy@united states"
-    },
-    {
-      "name": "PPL CORP",
-      "ticker": "PPL",
-      "asset_type": "Equity",
-      "weight": 0.0113,
-      "location": "United States",
-      "company": "name:ppl@united states"
     },
     {
       "name": "CENTERPOINT ENERGY",
       "ticker": "CNP",
       "asset_type": "Equity",
-      "weight": 0.0112,
+      "weight": 0.0114,
       "location": "United States",
       "company": "name:centerpoint energy@united states"
+    },
+    {
+      "name": "PPL CORP",
+      "ticker": "PPL",
+      "asset_type": "Equity",
+      "weight": 0.0114,
+      "location": "United States",
+      "company": "name:ppl@united states"
     },
     {
       "name": "FIRSTENERGY CORP",
@@ -273,7 +273,7 @@
       "name": "EDISON INTERNATIONAL",
       "ticker": "EIX",
       "asset_type": "Equity",
-      "weight": 0.0102,
+      "weight": 0.0103,
       "location": "United States",
       "company": "name:edison international@united states"
     },
@@ -281,31 +281,31 @@
       "name": "CMS ENERGY",
       "ticker": "CMS",
       "asset_type": "Equity",
-      "weight": 0.0094,
+      "weight": 0.0096,
       "location": "United States",
       "company": "name:cms energy@united states"
-    },
-    {
-      "name": "NRG ENERGY INC",
-      "ticker": "NRG",
-      "asset_type": "Equity",
-      "weight": 0.0088,
-      "location": "United States",
-      "company": "cusip:629377508"
     },
     {
       "name": "EVERGY",
       "ticker": "EVRG",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0087,
       "location": "United States",
       "company": "cusip:30034W106"
+    },
+    {
+      "name": "NRG ENERGY INC",
+      "ticker": "NRG",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "location": "United States",
+      "company": "cusip:629377508"
     },
     {
       "name": "ALLIANT ENERGY CORP",
       "ticker": "LNT",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0081,
       "location": "United States",
       "company": "cusip:018802108"
     },
@@ -313,7 +313,7 @@
       "name": "CNX RESOURCES",
       "ticker": "CNX",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0076,
       "location": "United States",
       "company": "name:cnx resources@united states"
     },
@@ -321,7 +321,7 @@
       "name": "ENERSYS",
       "ticker": "ENS",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.0069,
       "location": "United States",
       "company": "cusip:29275Y102"
     },
@@ -329,7 +329,7 @@
       "name": "TALEN ENERGY",
       "ticker": "TLN",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0067,
       "location": "United States",
       "company": "cusip:87422Q109"
     },
@@ -337,7 +337,7 @@
       "name": "POWELL INDUSTRIES INC",
       "ticker": "POWL",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0066,
       "location": "United States",
       "company": "cusip:739128106"
     },
@@ -350,20 +350,20 @@
       "company": "cusip:465741106"
     },
     {
-      "name": "MYR GROUP INC",
-      "ticker": "MYRG",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "location": "United States",
-      "company": "cusip:55405W104"
-    },
-    {
       "name": "WARRIOR MET COAL INC",
       "ticker": "HCC",
       "asset_type": "Equity",
-      "weight": 0.0062,
+      "weight": 0.0063,
       "location": "United States",
       "company": "name:warrior met coal@united states"
+    },
+    {
+      "name": "MYR GROUP INC",
+      "ticker": "MYRG",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "location": "United States",
+      "company": "cusip:55405W104"
     },
     {
       "name": "CORE NATURAL RESOURCES",
@@ -393,7 +393,7 @@
       "name": "OGE ENERGY",
       "ticker": "OGE",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0046,
       "location": "United States",
       "company": "cusip:670837103"
     },
@@ -401,7 +401,7 @@
       "name": "ENPHASE ENERGY",
       "ticker": "ENPH",
       "asset_type": "Equity",
-      "weight": 0.0041,
+      "weight": 0.004,
       "location": "United States",
       "company": "cusip:29355A107"
     },
@@ -409,7 +409,7 @@
       "name": "IDACORP",
       "ticker": "IDA",
       "asset_type": "Equity",
-      "weight": 0.0035,
+      "weight": 0.0036,
       "location": "United States",
       "company": "cusip:451107106"
     },
@@ -430,14 +430,6 @@
       "company": "cusip:736508847"
     },
     {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": 0.0022,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "ORMAT TECH INC",
       "ticker": "ORA",
       "asset_type": "Equity",
@@ -452,6 +444,14 @@
       "weight": 0.0021,
       "location": "United States",
       "company": "name:alpha metallurgical resource@united states"
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.002,
+      "location": "United States",
+      "company": null
     },
     {
       "name": "SOLAREDGE TECHNOLOGIES",
@@ -481,7 +481,7 @@
       "name": "COMSTOCK RESOURCES",
       "ticker": "CRK",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0014,
       "location": "United States",
       "company": "name:comstock resources@united states"
     },

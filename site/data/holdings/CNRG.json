@@ -1,42 +1,42 @@
 {
   "ticker": "CNRG",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:03:48.754712+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:24.414391+00:00",
   "stale": false,
   "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-cnrg.xlsx",
   "holdings": [
     {
-      "name": "CONSTELLATION ENERGY",
-      "ticker": "CEG",
-      "asset_type": "Equity",
-      "weight": 0.04725282,
-      "cusip": "21037T109",
-      "sedol": "BMH4FS1",
-      "company": "cusip:21037T109"
-    },
-    {
-      "name": "AES CORP",
-      "ticker": "AES",
-      "asset_type": "Equity",
-      "weight": 0.04670958,
-      "cusip": "00130H105",
-      "sedol": "2002479",
-      "company": "cusip:00130H105"
-    },
-    {
       "name": "TRANSALTA CORP",
       "ticker": "TAC",
       "asset_type": "Equity",
-      "weight": 0.04590936,
+      "weight": 0.04769026,
       "cusip": "89346D107",
       "sedol": "2786096",
       "company": "cusip:89346D107"
     },
     {
+      "name": "AES CORP",
+      "ticker": "AES",
+      "asset_type": "Equity",
+      "weight": 0.04757578,
+      "cusip": "00130H105",
+      "sedol": "2002479",
+      "company": "cusip:00130H105"
+    },
+    {
+      "name": "CONSTELLATION ENERGY",
+      "ticker": "CEG",
+      "asset_type": "Equity",
+      "weight": 0.04684481,
+      "cusip": "21037T109",
+      "sedol": "BMH4FS1",
+      "company": "cusip:21037T109"
+    },
+    {
       "name": "NEXTERA ENERGY INC",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.04483515,
+      "weight": 0.04602896,
       "cusip": "65339F101",
       "sedol": "2328915",
       "company": "cusip:65339F101"
@@ -45,34 +45,34 @@
       "name": "AVISTA CORP",
       "ticker": "AVA",
       "asset_type": "Equity",
-      "weight": 0.04253737,
+      "weight": 0.04388253,
       "cusip": "05379B107",
       "sedol": "2942605",
       "company": "cusip:05379B107"
     },
     {
-      "name": "GE VERNOVA INC",
-      "ticker": "GEV",
-      "asset_type": "Equity",
-      "weight": 0.03961986,
-      "cusip": "36828A101",
-      "sedol": "BP6H4Y1",
-      "company": "cusip:36828A101"
-    },
-    {
       "name": "CIA ENERGETICA DE SPON ADR",
       "ticker": "CIG",
       "asset_type": "Equity",
-      "weight": 0.03925558,
+      "weight": 0.04046227,
       "cusip": "204409601",
       "sedol": "2178938",
       "company": "cusip:204409601"
     },
     {
+      "name": "GE VERNOVA INC",
+      "ticker": "GEV",
+      "asset_type": "Equity",
+      "weight": 0.03845713,
+      "cusip": "36828A101",
+      "sedol": "BP6H4Y1",
+      "company": "cusip:36828A101"
+    },
+    {
       "name": "GENERAC HOLDINGS INC",
       "ticker": "GNRC",
       "asset_type": "Equity",
-      "weight": 0.03893648,
+      "weight": 0.03844642,
       "cusip": "368736104",
       "sedol": "B6197Q2",
       "company": "cusip:368736104"
@@ -81,7 +81,7 @@
       "name": "AMERESCO INC CL A",
       "ticker": "AMRC",
       "asset_type": "Equity",
-      "weight": 0.03883206,
+      "weight": 0.03814125,
       "cusip": "02361E108",
       "sedol": "B3SWPT2",
       "company": "cusip:02361E108"
@@ -90,106 +90,106 @@
       "name": "TESLA INC",
       "ticker": "TSLA",
       "asset_type": "Equity",
-      "weight": 0.03637254,
+      "weight": 0.0369967,
       "cusip": "88160R101",
       "sedol": "B616C79",
       "company": "cusip:88160R101"
     },
     {
-      "name": "BLOOM ENERGY CORP  A",
-      "ticker": "BE",
-      "asset_type": "Equity",
-      "weight": 0.03264859,
-      "cusip": "093712107",
-      "sedol": "BDD1BB8",
-      "company": "cusip:093712107"
-    },
-    {
       "name": "SHOALS TECHNOLOGIES GROUP  A",
       "ticker": "SHLS",
       "asset_type": "Equity",
-      "weight": 0.03214507,
+      "weight": 0.0325626,
       "cusip": "82489W107",
       "sedol": "BMDJ085",
       "company": "cusip:82489W107"
     },
     {
-      "name": "ENLIGHT RENEWABLE ENERGY LTD",
-      "ticker": "ENLT",
-      "asset_type": "Equity",
-      "weight": 0.03168648,
-      "cusip": "M4056D110",
-      "sedol": "BJ9MC47",
-      "company": "cusip:M4056D110"
-    },
-    {
       "name": "TENARIS SA ADR",
       "ticker": "TS",
       "asset_type": "Equity",
-      "weight": 0.03143155,
+      "weight": 0.03229237,
       "cusip": "88031M109",
       "sedol": "2167367",
       "company": "cusip:88031M109"
     },
     {
-      "name": "DAQO NEW ENERGY CORP ADR",
-      "ticker": "DQ",
+      "name": "ENLIGHT RENEWABLE ENERGY LTD",
+      "ticker": "ENLT",
       "asset_type": "Equity",
-      "weight": 0.02902253,
-      "cusip": "23703Q203",
-      "sedol": "B953PM3",
-      "company": "cusip:23703Q203"
+      "weight": 0.03138374,
+      "cusip": "M4056D110",
+      "sedol": "BJ9MC47",
+      "company": "cusip:M4056D110"
     },
     {
-      "name": "VALMONT INDUSTRIES",
-      "ticker": "VMI",
+      "name": "BLOOM ENERGY CORP  A",
+      "ticker": "BE",
       "asset_type": "Equity",
-      "weight": 0.0286518,
-      "cusip": "920253101",
-      "sedol": "2926825",
-      "company": "cusip:920253101"
-    },
-    {
-      "name": "NEXTPOWER INC",
-      "ticker": "NXT",
-      "asset_type": "Equity",
-      "weight": 0.02864673,
-      "cusip": "65290E101",
-      "sedol": "BR1GTS6",
-      "company": "cusip:65290E101"
-    },
-    {
-      "name": "ORMAT TECHNOLOGIES INC",
-      "ticker": "ORA",
-      "asset_type": "Equity",
-      "weight": 0.02827876,
-      "cusip": "686688102",
-      "sedol": "B03L311",
-      "company": "cusip:686688102"
+      "weight": 0.03095289,
+      "cusip": "093712107",
+      "sedol": "BDD1BB8",
+      "company": "cusip:093712107"
     },
     {
       "name": "ENERGY VAULT HOLDINGS INC",
       "ticker": "NRGV",
       "asset_type": "Equity",
-      "weight": 0.02708916,
+      "weight": 0.02975018,
       "cusip": "29280W109",
       "sedol": "BNYF0L2",
       "company": "cusip:29280W109"
     },
     {
+      "name": "VALMONT INDUSTRIES",
+      "ticker": "VMI",
+      "asset_type": "Equity",
+      "weight": 0.0292334,
+      "cusip": "920253101",
+      "sedol": "2926825",
+      "company": "cusip:920253101"
+    },
+    {
+      "name": "ORMAT TECHNOLOGIES INC",
+      "ticker": "ORA",
+      "asset_type": "Equity",
+      "weight": 0.02845314,
+      "cusip": "686688102",
+      "sedol": "B03L311",
+      "company": "cusip:686688102"
+    },
+    {
+      "name": "DAQO NEW ENERGY CORP ADR",
+      "ticker": "DQ",
+      "asset_type": "Equity",
+      "weight": 0.02807416,
+      "cusip": "23703Q203",
+      "sedol": "B953PM3",
+      "company": "cusip:23703Q203"
+    },
+    {
       "name": "FIRST SOLAR INC",
       "ticker": "FSLR",
       "asset_type": "Equity",
-      "weight": 0.02673684,
+      "weight": 0.02752417,
       "cusip": "336433107",
       "sedol": "B1HMF22",
       "company": "cusip:336433107"
     },
     {
+      "name": "NEXTPOWER INC",
+      "ticker": "NXT",
+      "asset_type": "Equity",
+      "weight": 0.02720539,
+      "cusip": "65290E101",
+      "sedol": "BR1GTS6",
+      "company": "cusip:65290E101"
+    },
+    {
       "name": "SUNRUN INC",
       "ticker": "RUN",
       "asset_type": "Equity",
-      "weight": 0.02659314,
+      "weight": 0.02624758,
       "cusip": "86771W105",
       "sedol": "BYXB1Y8",
       "company": "cusip:86771W105"
@@ -198,34 +198,34 @@
       "name": "ARRAY TECHNOLOGIES INC",
       "ticker": "ARRY",
       "asset_type": "Equity",
-      "weight": 0.02524472,
+      "weight": 0.02583168,
       "cusip": "04271T100",
       "sedol": "BLBLMD5",
       "company": "cusip:04271T100"
     },
     {
-      "name": "CORNING INC",
-      "ticker": "GLW",
-      "asset_type": "Equity",
-      "weight": 0.02318379,
-      "cusip": "219350105",
-      "sedol": "2224701",
-      "company": "cusip:219350105"
-    },
-    {
       "name": "RENEW ENERGY GLOBAL PLC A",
       "ticker": "RNW",
       "asset_type": "Equity",
-      "weight": 0.02306949,
+      "weight": 0.02347897,
       "cusip": "G7500M104",
       "sedol": "BNQMPN8",
       "company": "cusip:G7500M104"
     },
     {
+      "name": "CORNING INC",
+      "ticker": "GLW",
+      "asset_type": "Equity",
+      "weight": 0.02222446,
+      "cusip": "219350105",
+      "sedol": "2224701",
+      "company": "cusip:219350105"
+    },
+    {
       "name": "FUELCELL ENERGY INC",
       "ticker": "FCEL",
       "asset_type": "Equity",
-      "weight": 0.02182224,
+      "weight": 0.02029771,
       "cusip": "35952H700",
       "sedol": "BSPS0J3",
       "company": "cusip:35952H700"
@@ -234,61 +234,61 @@
       "name": "AMERICAN SUPERCONDUCTOR CORP",
       "ticker": "AMSC",
       "asset_type": "Equity",
-      "weight": 0.0208188,
+      "weight": 0.02007282,
       "cusip": "030111207",
       "sedol": "BWH64F7",
       "company": "cusip:030111207"
     },
     {
-      "name": "ENPHASE ENERGY INC",
-      "ticker": "ENPH",
-      "asset_type": "Equity",
-      "weight": 0.018763,
-      "cusip": "29355A107",
-      "sedol": "B65SQW4",
-      "company": "cusip:29355A107"
-    },
-    {
       "name": "JINKO HOLDINGS LTD",
       "ticker": "JKS",
       "asset_type": "Equity",
-      "weight": 0.01875008,
+      "weight": 0.01905742,
       "cusip": "47759T100",
       "sedol": "B64H9N4",
       "company": "cusip:47759T100"
     },
     {
-      "name": "CANADIAN SOLAR INC",
-      "ticker": "CSIQ",
+      "name": "ENPHASE ENERGY INC",
+      "ticker": "ENPH",
       "asset_type": "Equity",
-      "weight": 0.01697546,
-      "cusip": "136635109",
-      "sedol": "B1GKCH1",
-      "company": "cusip:136635109"
-    },
-    {
-      "name": "PLUG POWER INC",
-      "ticker": "PLUG",
-      "asset_type": "Equity",
-      "weight": 0.01579531,
-      "cusip": "72919P202",
-      "sedol": "2508386",
-      "company": "cusip:72919P202"
+      "weight": 0.01866551,
+      "cusip": "29355A107",
+      "sedol": "B65SQW4",
+      "company": "cusip:29355A107"
     },
     {
       "name": "SOLAREDGE TECHNOLOGIES INC",
       "ticker": "SEDG",
       "asset_type": "Equity",
-      "weight": 0.01533229,
+      "weight": 0.01546565,
       "cusip": "83417M104",
       "sedol": "BWC52Q6",
       "company": "cusip:83417M104"
     },
     {
+      "name": "PLUG POWER INC",
+      "ticker": "PLUG",
+      "asset_type": "Equity",
+      "weight": 0.01509113,
+      "cusip": "72919P202",
+      "sedol": "2508386",
+      "company": "cusip:72919P202"
+    },
+    {
+      "name": "CANADIAN SOLAR INC",
+      "ticker": "CSIQ",
+      "asset_type": "Equity",
+      "weight": 0.01471715,
+      "cusip": "136635109",
+      "sedol": "B1GKCH1",
+      "company": "cusip:136635109"
+    },
+    {
       "name": "ENEL CHILE SA ADR",
       "ticker": "ENIC",
       "asset_type": "Equity",
-      "weight": 0.01135022,
+      "weight": 0.01122648,
       "cusip": "29278D105",
       "sedol": "BYYHKR1",
       "company": "cusip:29278D105"
@@ -297,7 +297,7 @@
       "name": "BALLARD POWER SYSTEMS INC",
       "ticker": "BLDP",
       "asset_type": "Equity",
-      "weight": 0.01100293,
+      "weight": 0.01084415,
       "cusip": "058586108",
       "sedol": "2120371",
       "company": "cusip:058586108"
@@ -306,34 +306,34 @@
       "name": "EOS ENERGY ENTERPRISES INC",
       "ticker": "EOSE",
       "asset_type": "Equity",
-      "weight": 0.00951264,
+      "weight": 0.00946647,
       "cusip": "29415C101",
       "sedol": "BN7KCQ3",
       "company": "cusip:29415C101"
     },
     {
-      "name": "T1 ENERGY INC",
-      "ticker": "TE",
-      "asset_type": "Equity",
-      "weight": 0.00705774,
-      "cusip": "35834F104",
-      "sedol": "BSKPBK7",
-      "company": "cusip:35834F104"
-    },
-    {
       "name": "FLUENCE ENERGY INC",
       "ticker": "FLNC",
       "asset_type": "Equity",
-      "weight": 0.00632309,
+      "weight": 0.00695342,
       "cusip": "34379V103",
       "sedol": "BMXC0N9",
       "company": "cusip:34379V103"
     },
     {
+      "name": "T1 ENERGY INC",
+      "ticker": "TE",
+      "asset_type": "Equity",
+      "weight": 0.00653401,
+      "cusip": "35834F104",
+      "sedol": "BSKPBK7",
+      "company": "cusip:35834F104"
+    },
+    {
       "name": "HYSTER YALE INC",
       "ticker": "HY",
       "asset_type": "Equity",
-      "weight": 0.00617735,
+      "weight": 0.00613947,
       "cusip": "449172105",
       "sedol": "B7LG306",
       "company": "cusip:449172105"
@@ -342,7 +342,7 @@
       "name": "TIGO ENERGY INC",
       "ticker": "TYGO",
       "asset_type": "Equity",
-      "weight": 0.00158736,
+      "weight": 0.0016125,
       "cusip": "88675P103",
       "sedol": "BR1XTQ5",
       "company": "cusip:88675P103"
@@ -351,14 +351,7 @@
       "name": "SSI US GOV MONEY MARKET CLASS",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.00050425,
-      "company": null
-    },
-    {
-      "name": "US DOLLAR",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 2.567e-05,
+      "weight": 0.00054006,
       "company": null
     }
   ]

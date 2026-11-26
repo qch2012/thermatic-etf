@@ -1,31 +1,31 @@
 {
   "ticker": "BAI",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:03:42.604981+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:17.833544+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/latest-holdings.csv",
   "holdings": [
     {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0611,
-      "location": "United States",
-      "company": "cusip:007903107"
-    },
-    {
       "name": "BROADCOM INC",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0607,
+      "weight": 0.0605,
       "location": "United States",
       "company": "cusip:11135F101"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0578,
+      "location": "United States",
+      "company": "cusip:007903107"
     },
     {
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
       "ticker": "TSM",
       "asset_type": "Equity",
-      "weight": 0.0557,
+      "weight": 0.0555,
       "location": "Taiwan",
       "company": "cusip:874039100"
     },
@@ -33,7 +33,7 @@
       "name": "MICRON TECHNOLOGY",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0537,
+      "weight": 0.0496,
       "location": "United States",
       "company": "cusip:595112103"
     },
@@ -41,7 +41,7 @@
       "name": "ANTHROPIC CLASS A",
       "ticker": "ANT",
       "asset_type": "Equity",
-      "weight": 0.0476,
+      "weight": 0.0462,
       "location": "United States",
       "company": "name:anthropic@united states"
     },
@@ -49,7 +49,7 @@
       "name": "SPACE EXPLORATION TECHNOLOGIES COR",
       "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.0424,
+      "weight": 0.0416,
       "location": "United States",
       "company": "name:space exploration technologies cor@united states"
     },
@@ -57,7 +57,7 @@
       "name": "SNOWFLAKE",
       "ticker": "SNOW",
       "asset_type": "Equity",
-      "weight": 0.0328,
+      "weight": 0.0341,
       "location": "United States",
       "company": "cusip:833445109"
     },
@@ -65,7 +65,7 @@
       "name": "MICROSOFT",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0321,
+      "weight": 0.0336,
       "location": "United States",
       "company": "cusip:594918104"
     },
@@ -73,7 +73,7 @@
       "name": "AMAZON.COM INC",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0305,
+      "weight": 0.0313,
       "location": "United States",
       "company": "cusip:023135106"
     },
@@ -81,39 +81,55 @@
       "name": "NVIDIA",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.03,
+      "weight": 0.0311,
       "location": "United States",
       "company": "cusip:67066G104"
-    },
-    {
-      "name": "LAM RESEARCH",
-      "ticker": "LRCX",
-      "asset_type": "Equity",
-      "weight": 0.0279,
-      "location": "United States",
-      "company": "cusip:512807306"
     },
     {
       "name": "ARISTA NETWORKS",
       "ticker": "ANET",
       "asset_type": "Equity",
-      "weight": 0.0278,
+      "weight": 0.0273,
       "location": "United States",
       "company": "cusip:040413205"
+    },
+    {
+      "name": "LAM RESEARCH",
+      "ticker": "LRCX",
+      "asset_type": "Equity",
+      "weight": 0.0271,
+      "location": "United States",
+      "company": "cusip:512807306"
     },
     {
       "name": "CROWDSTRIKE HOLDINGS CLASS A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0248,
+      "weight": 0.0252,
       "location": "United States",
       "company": "cusip:22788C105"
+    },
+    {
+      "name": "ASIA VITAL COMPONENTS",
+      "ticker": "3017",
+      "asset_type": "Equity",
+      "weight": 0.0238,
+      "location": "Taiwan",
+      "company": "name:asia vital components@taiwan"
+    },
+    {
+      "name": "PALO ALTO NETWORKS",
+      "ticker": "PANW",
+      "asset_type": "Equity",
+      "weight": 0.0227,
+      "location": "United States",
+      "company": "cusip:697435105"
     },
     {
       "name": "WESTERN DIGITAL CORP",
       "ticker": "WDC",
       "asset_type": "Equity",
-      "weight": 0.0225,
+      "weight": 0.0215,
       "location": "United States",
       "company": "cusip:958102105"
     },
@@ -121,31 +137,15 @@
       "name": "MARVELL TECHNOLOGY",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0225,
+      "weight": 0.0212,
       "location": "United States",
       "company": "cusip:573874104"
-    },
-    {
-      "name": "PALO ALTO NETWORKS",
-      "ticker": "PANW",
-      "asset_type": "Equity",
-      "weight": 0.0219,
-      "location": "United States",
-      "company": "cusip:697435105"
-    },
-    {
-      "name": "ASIA VITAL COMPONENTS",
-      "ticker": "3017",
-      "asset_type": "Equity",
-      "weight": 0.0208,
-      "location": "Taiwan",
-      "company": "name:asia vital components@taiwan"
     },
     {
       "name": "ELITE MATERIAL",
       "ticker": "2383",
       "asset_type": "Equity",
-      "weight": 0.0181,
+      "weight": 0.0207,
       "location": "Taiwan",
       "company": "name:elite material@taiwan"
     },
@@ -153,71 +153,87 @@
       "name": "ASE TECHNOLOGY HOLDING",
       "ticker": "3711",
       "asset_type": "Equity",
-      "weight": 0.0172,
+      "weight": 0.0196,
       "location": "Taiwan",
       "company": "cusip:Y0249T100"
-    },
-    {
-      "name": "OKTA CLASS A",
-      "ticker": "OKTA",
-      "asset_type": "Equity",
-      "weight": 0.0164,
-      "location": "United States",
-      "company": "cusip:679295105"
-    },
-    {
-      "name": "LUMENTUM HOLDINGS",
-      "ticker": "LITE",
-      "asset_type": "Equity",
-      "weight": 0.0162,
-      "location": "United States",
-      "company": "cusip:55024U109"
-    },
-    {
-      "name": "MACOM TECHNOLOGY SOLUTIONS",
-      "ticker": "MTSI",
-      "asset_type": "Equity",
-      "weight": 0.0158,
-      "location": "United States",
-      "company": "cusip:55405Y100"
-    },
-    {
-      "name": "TESLA INC",
-      "ticker": "TSLA",
-      "asset_type": "Equity",
-      "weight": 0.0152,
-      "location": "United States",
-      "company": "cusip:88160R101"
     },
     {
       "name": "GLOBAL UNICHIP",
       "ticker": "3443",
       "asset_type": "Equity",
-      "weight": 0.0147,
+      "weight": 0.0168,
       "location": "Taiwan",
       "company": "cusip:Y2724H114"
+    },
+    {
+      "name": "OKTA CLASS A",
+      "ticker": "OKTA",
+      "asset_type": "Equity",
+      "weight": 0.0165,
+      "location": "United States",
+      "company": "cusip:679295105"
     },
     {
       "name": "UNIMICRON TECHNOLOGY",
       "ticker": "3037",
       "asset_type": "Equity",
-      "weight": 0.0139,
+      "weight": 0.0159,
       "location": "Taiwan",
       "company": "name:unimicron technology@taiwan"
+    },
+    {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.0158,
+      "location": "United States",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "SK HYNIX",
+      "ticker": "000660",
+      "asset_type": "Equity",
+      "weight": 0.0151,
+      "location": "Korea (South)",
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "LUMENTUM HOLDINGS",
+      "ticker": "LITE",
+      "asset_type": "Equity",
+      "weight": 0.015,
+      "location": "United States",
+      "company": "cusip:55024U109"
+    },
+    {
+      "name": "ACCTON TECHNOLOGY",
+      "ticker": "2345",
+      "asset_type": "Equity",
+      "weight": 0.015,
+      "location": "Taiwan",
+      "company": "cusip:Y0002S109"
     },
     {
       "name": "BLK CSH FND TREASURY SL AGENCY",
       "ticker": "XTSLA",
       "asset_type": "Money Market",
-      "weight": 0.0139,
+      "weight": 0.0145,
       "location": "United States",
       "company": null
+    },
+    {
+      "name": "MACOM TECHNOLOGY SOLUTIONS",
+      "ticker": "MTSI",
+      "asset_type": "Equity",
+      "weight": 0.0142,
+      "location": "United States",
+      "company": "cusip:55405Y100"
     },
     {
       "name": "COREWEAVE CLASS A",
       "ticker": "CRWV",
       "asset_type": "Equity",
-      "weight": 0.0138,
+      "weight": 0.0127,
       "location": "United States",
       "company": "cusip:21873S108"
     },
@@ -225,55 +241,55 @@
       "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
       "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0124,
       "location": "United States",
       "company": "cusip:G25457105"
-    },
-    {
-      "name": "SK HYNIX",
-      "ticker": "000660",
-      "asset_type": "Equity",
-      "weight": 0.0136,
-      "location": "Korea (South)",
-      "company": "cusip:78392B206"
-    },
-    {
-      "name": "ACCTON TECHNOLOGY",
-      "ticker": "2345",
-      "asset_type": "Equity",
-      "weight": 0.0131,
-      "location": "Taiwan",
-      "company": "cusip:Y0002S109"
     },
     {
       "name": "FLEX LTD",
       "ticker": "FLEX",
       "asset_type": "Equity",
-      "weight": 0.0126,
+      "weight": 0.0117,
       "location": "United States",
       "company": "name:flex@united states"
-    },
-    {
-      "name": "INTEL CORPORATION",
-      "ticker": "INTC",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "location": "United States",
-      "company": "cusip:458140100"
     },
     {
       "name": "BLOOM ENERGY CLASS A",
       "ticker": "BE",
       "asset_type": "Equity",
-      "weight": 0.0117,
+      "weight": 0.0113,
       "location": "United States",
       "company": "cusip:093712107"
+    },
+    {
+      "name": "INTEL CORPORATION",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "location": "United States",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "AKAMAI TECHNOLOGIES INC",
+      "ticker": "AKAM",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "location": "United States",
+      "company": "cusip:00971T101"
+    },
+    {
+      "name": "ELASTIC",
+      "ticker": "ESTC",
+      "asset_type": "Equity",
+      "weight": 0.0107,
+      "location": "United States",
+      "company": "cusip:N14506104"
     },
     {
       "name": "TOWER SEMICONDUCTOR",
       "ticker": "TSEM",
       "asset_type": "Equity",
-      "weight": 0.0112,
+      "weight": 0.0105,
       "location": "Israel",
       "company": "cusip:M87915274"
     },
@@ -281,63 +297,47 @@
       "name": "ENTEGRIS INC",
       "ticker": "ENTG",
       "asset_type": "Equity",
-      "weight": 0.0111,
+      "weight": 0.0104,
       "location": "United States",
       "company": "cusip:29362U104"
-    },
-    {
-      "name": "AKAMAI TECHNOLOGIES INC",
-      "ticker": "AKAM",
-      "asset_type": "Equity",
-      "weight": 0.0108,
-      "location": "United States",
-      "company": "cusip:00971T101"
     },
     {
       "name": "CELESTICA",
       "ticker": "CLS",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0101,
       "location": "Canada",
       "company": "cusip:15101Q207"
-    },
-    {
-      "name": "ELASTIC",
-      "ticker": "ESTC",
-      "asset_type": "Equity",
-      "weight": 0.0102,
-      "location": "United States",
-      "company": "cusip:N14506104"
     },
     {
       "name": "SUPER MICRO COMPUTER INC",
       "ticker": "SMCI",
       "asset_type": "Equity",
-      "weight": 0.0097,
+      "weight": 0.0093,
       "location": "United States",
       "company": "cusip:86800U302"
-    },
-    {
-      "name": "ONTO INNOVATION",
-      "ticker": "ONTO",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "location": "United States",
-      "company": "cusip:683344105"
     },
     {
       "name": "RESONAC HOLDINGS",
       "ticker": "4004",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.0092,
       "location": "Japan",
       "company": "name:resonac holdings@japan"
+    },
+    {
+      "name": "ONTO INNOVATION",
+      "ticker": "ONTO",
+      "asset_type": "Equity",
+      "weight": 0.0089,
+      "location": "United States",
+      "company": "cusip:683344105"
     },
     {
       "name": "CLOUDFLARE CLASS A",
       "ticker": "NET",
       "asset_type": "Equity",
-      "weight": 0.0076,
+      "weight": 0.008,
       "location": "United States",
       "company": "cusip:18915M107"
     },
@@ -345,55 +345,47 @@
       "name": "IQVIA HOLDINGS INC",
       "ticker": "IQV",
       "asset_type": "Equity",
-      "weight": 0.0065,
+      "weight": 0.0068,
       "location": "United States",
       "company": "name:iqvia holdings@united states"
-    },
-    {
-      "name": "MONOLITHIC POWER SYSTEMS INC",
-      "ticker": "MPWR",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "location": "United States",
-      "company": "cusip:609839105"
-    },
-    {
-      "name": "OPENAI SERIES C PREF EQ Prvt",
-      "ticker": "OPNAI",
-      "asset_type": "Equity",
-      "weight": 0.0061,
-      "location": "United States",
-      "company": "name:openai series c pref eq prvt@united states"
-    },
-    {
-      "name": "SANDISK",
-      "ticker": "SNDK",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "location": "United States",
-      "company": "cusip:80004C200"
-    },
-    {
-      "name": "WORKDAY CLASS A",
-      "ticker": "WDAY",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "location": "United States",
-      "company": "cusip:98138H101"
     },
     {
       "name": "ADVANTEST",
       "ticker": "6857",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0064,
       "location": "Japan",
       "company": "name:advantest@japan"
+    },
+    {
+      "name": "OPENAI SERIES C PREF EQ Prvt",
+      "ticker": "OPNAI",
+      "asset_type": "Equity",
+      "weight": 0.0063,
+      "location": "United States",
+      "company": "name:openai series c pref eq prvt@united states"
+    },
+    {
+      "name": "WORKDAY CLASS A",
+      "ticker": "WDAY",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "location": "United States",
+      "company": "cusip:98138H101"
+    },
+    {
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "ticker": "MPWR",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "location": "United States",
+      "company": "cusip:609839105"
     },
     {
       "name": "TWILIO CLASS A",
       "ticker": "TWLO",
       "asset_type": "Equity",
-      "weight": 0.0054,
+      "weight": 0.0055,
       "location": "United States",
       "company": "cusip:90138F102"
     },
@@ -406,10 +398,18 @@
       "company": "cusip:90184D100"
     },
     {
+      "name": "SANDISK",
+      "ticker": "SNDK",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "location": "United States",
+      "company": "cusip:80004C200"
+    },
+    {
       "name": "OPENAI SERIES D Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0042,
       "location": "United States",
       "company": "name:openai series d prvt@united states"
     },
@@ -417,7 +417,7 @@
       "name": "TEMPUS AI CLASS A",
       "ticker": "TEM",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.003,
       "location": "United States",
       "company": "cusip:88023B103"
     },
@@ -425,7 +425,7 @@
       "name": "TWD CASH",
       "ticker": "TWD",
       "asset_type": "Cash",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "location": "Taiwan",
       "company": null
     },
@@ -449,7 +449,7 @@
       "name": "ANTHROPIC LKUP 6 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:anthropic lkup 6 prvt@united states"
     },
@@ -457,7 +457,7 @@
       "name": "ANTHROPIC LKUP 7 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:anthropic lkup 7 prvt@united states"
     },
@@ -465,7 +465,7 @@
       "name": "ANTHROPIC LKUP 8 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:anthropic lkup 8 prvt@united states"
     },
@@ -473,7 +473,7 @@
       "name": "ANTHROPIC LKUP 9 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:anthropic lkup 9 prvt@united states"
     },
@@ -481,7 +481,7 @@
       "name": "ANTHROPIC LKUP 10 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:anthropic lkup 10 prvt@united states"
     },
@@ -489,7 +489,7 @@
       "name": "ANTHROPIC LKUP 3 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.001,
+      "weight": 0.0009,
       "location": "United States",
       "company": "name:anthropic lkup 3 prvt@united states"
     },
@@ -497,7 +497,7 @@
       "name": "ANTHROPIC LKUP 4 Prvt",
       "ticker": "-",
       "asset_type": "Equity",
-      "weight": 0.001,
+      "weight": 0.0009,
       "location": "United States",
       "company": "name:anthropic lkup 4 prvt@united states"
     },
@@ -518,6 +518,14 @@
       "company": "name:anthropic lkup 2 prvt@united states"
     },
     {
+      "name": "JPY CASH",
+      "ticker": "JPY",
+      "asset_type": "Cash",
+      "weight": 0.0003,
+      "location": "Japan",
+      "company": null
+    },
+    {
       "name": "KRW CASH",
       "ticker": "KRW",
       "asset_type": "Cash",
@@ -526,11 +534,115 @@
       "company": null
     },
     {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "AUD CASH",
       "ticker": "AUD",
       "asset_type": "Cash",
       "weight": 0.0,
       "location": "Australia",
+      "company": null
+    },
+    {
+      "name": "JPY/USD",
+      "ticker": "JPY",
+      "asset_type": "FX",
+      "weight": 0.0,
+      "location": "United States",
       "company": null
     },
     {
@@ -545,7 +657,7 @@
       "name": "USD CASH",
       "ticker": "USD",
       "asset_type": "Cash",
-      "weight": -0.0045,
+      "weight": -0.0073,
       "location": "United States",
       "company": null
     }

@@ -1,7 +1,7 @@
 {
   "ticker": "IHI",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:04:01.870225+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:37.481521+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239516/ishares-u-s-medical-devices-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ABBOTT LABORATORIES",
       "ticker": "ABT",
       "asset_type": "Equity",
-      "weight": 0.1704,
+      "weight": 0.1709,
       "location": "United States",
       "company": "cusip:002824100"
     },
@@ -17,7 +17,7 @@
       "name": "INTUITIVE SURGICAL",
       "ticker": "ISRG",
       "asset_type": "Equity",
-      "weight": 0.1401,
+      "weight": 0.1438,
       "location": "United States",
       "company": "cusip:46120E602"
     },
@@ -25,7 +25,7 @@
       "name": "MEDTRONIC PLC",
       "ticker": "MDT",
       "asset_type": "Equity",
-      "weight": 0.1175,
+      "weight": 0.1102,
       "location": "United States",
       "company": "cusip:G5960L103"
     },
@@ -33,7 +33,7 @@
       "name": "IDEXX LABORATORIES",
       "ticker": "IDXX",
       "asset_type": "Equity",
-      "weight": 0.0552,
+      "weight": 0.0563,
       "location": "United States",
       "company": "cusip:45168D104"
     },
@@ -41,7 +41,7 @@
       "name": "EDWARDS LIFESCIENCES",
       "ticker": "EW",
       "asset_type": "Equity",
-      "weight": 0.0505,
+      "weight": 0.0501,
       "location": "United States",
       "company": "cusip:28176E108"
     },
@@ -49,7 +49,7 @@
       "name": "BECTON DICKINSON",
       "ticker": "BDX",
       "asset_type": "Equity",
-      "weight": 0.0496,
+      "weight": 0.0498,
       "location": "United States",
       "company": "name:becton dickinson@united states"
     },
@@ -57,7 +57,7 @@
       "name": "STRYKER",
       "ticker": "SYK",
       "asset_type": "Equity",
-      "weight": 0.0475,
+      "weight": 0.0479,
       "location": "United States",
       "company": "cusip:863667101"
     },
@@ -65,7 +65,7 @@
       "name": "GE HEALTHCARE TECHNOLOGIES",
       "ticker": "GEHC",
       "asset_type": "Equity",
-      "weight": 0.0471,
+      "weight": 0.047,
       "location": "United States",
       "company": "name:ge healthcare technologies@united states"
     },
@@ -81,7 +81,7 @@
       "name": "DEXCOM INC",
       "ticker": "DXCM",
       "asset_type": "Equity",
-      "weight": 0.0399,
+      "weight": 0.0403,
       "location": "United States",
       "company": "cusip:252131107"
     },
@@ -89,7 +89,7 @@
       "name": "BOSTON SCIENTIFIC",
       "ticker": "BSX",
       "asset_type": "Equity",
-      "weight": 0.039,
+      "weight": 0.04,
       "location": "United States",
       "company": "cusip:101137107"
     },
@@ -97,7 +97,7 @@
       "name": "STERIS",
       "ticker": "STE",
       "asset_type": "Equity",
-      "weight": 0.0321,
+      "weight": 0.0319,
       "location": "United States",
       "company": "cusip:G8473T100"
     },
@@ -105,7 +105,7 @@
       "name": "ZIMMER BIOMET HOLDINGS",
       "ticker": "ZBH",
       "asset_type": "Equity",
-      "weight": 0.0259,
+      "weight": 0.0262,
       "location": "United States",
       "company": "cusip:98956P102"
     },
@@ -113,7 +113,7 @@
       "name": "GLAUKOS",
       "ticker": "GKOS",
       "asset_type": "Equity",
-      "weight": 0.0189,
+      "weight": 0.0191,
       "location": "United States",
       "company": "cusip:377322102"
     },
@@ -129,7 +129,7 @@
       "name": "PENUMBRA",
       "ticker": "PEN",
       "asset_type": "Equity",
-      "weight": 0.0162,
+      "weight": 0.016,
       "location": "United States",
       "company": "cusip:70975L107"
     },
@@ -137,7 +137,7 @@
       "name": "INSULET",
       "ticker": "PODD",
       "asset_type": "Equity",
-      "weight": 0.0119,
+      "weight": 0.0123,
       "location": "United States",
       "company": "cusip:45784P101"
     },
@@ -164,14 +164,6 @@
       "weight": 0.0065,
       "location": "United States",
       "company": "cusip:G5509L101"
-    },
-    {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
-      "weight": 0.0057,
-      "location": "United States",
-      "company": null
     },
     {
       "name": "ENVISTA HOLDINGS",
@@ -209,7 +201,7 @@
       "name": "ATRICURE",
       "ticker": "ATRC",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0036,
       "location": "United States",
       "company": "cusip:04963C209"
     },
@@ -217,9 +209,17 @@
       "name": "LEMAITRE VASCULAR",
       "ticker": "LMAT",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0021,
       "location": "United States",
       "company": "cusip:525558201"
+    },
+    {
+      "name": "ENOVIS CORP",
+      "ticker": "ENOV",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "location": "United States",
+      "company": "cusip:194014502"
     },
     {
       "name": "INSPIRE MEDICAL SYSTEMS",
@@ -230,28 +230,12 @@
       "company": "cusip:457730109"
     },
     {
-      "name": "ENOVIS CORP",
-      "ticker": "ENOV",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "location": "United States",
-      "company": "cusip:194014502"
-    },
-    {
       "name": "OMNICELL INC",
       "ticker": "OMCL",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "location": "United States",
       "company": "cusip:68213N109"
-    },
-    {
-      "name": "CONMED CORP",
-      "ticker": "CNMD",
-      "asset_type": "Equity",
-      "weight": 0.0018,
-      "location": "United States",
-      "company": "cusip:207410101"
     },
     {
       "name": "PROCEPT BIOROBOTICS",
@@ -262,20 +246,20 @@
       "company": "cusip:74276L105"
     },
     {
+      "name": "CONMED CORP",
+      "ticker": "CNMD",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "location": "United States",
+      "company": "cusip:207410101"
+    },
+    {
       "name": "TANDEM DIABETES CARE",
       "ticker": "TNDM",
       "asset_type": "Equity",
       "weight": 0.0016,
       "location": "United States",
       "company": "cusip:875372203"
-    },
-    {
-      "name": "BUTTERFLY NETWORK CLASS A",
-      "ticker": "BFLY",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "location": "United States",
-      "company": "cusip:124155102"
     },
     {
       "name": "NOVOCURE",
@@ -286,6 +270,14 @@
       "company": "cusip:G6674U108"
     },
     {
+      "name": "BUTTERFLY NETWORK CLASS A",
+      "ticker": "BFLY",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "location": "United States",
+      "company": "cusip:124155102"
+    },
+    {
       "name": "SI BONE",
       "ticker": "SIBN",
       "asset_type": "Equity",
@@ -294,20 +286,20 @@
       "company": "cusip:825704109"
     },
     {
-      "name": "PULSE BIOSCIENCES",
-      "ticker": "PLSE",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "location": "United States",
-      "company": "cusip:74587B101"
-    },
-    {
       "name": "ARTIVION",
       "ticker": "AORT",
       "asset_type": "Equity",
       "weight": 0.0012,
       "location": "United States",
       "company": "cusip:228903100"
+    },
+    {
+      "name": "PULSE BIOSCIENCES",
+      "ticker": "PLSE",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "United States",
+      "company": "cusip:74587B101"
     },
     {
       "name": "INTEGRA LIFESCIENCES HOLDINGS",
@@ -321,7 +313,7 @@
       "name": "ALPHATEC HOLDNGS",
       "ticker": "ATEC",
       "asset_type": "Equity",
-      "weight": 0.0011,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:alphatec holdngs@united states"
     },
@@ -329,17 +321,9 @@
       "name": "KESTRA MEDICAL TECHNOLOGIES",
       "ticker": "KMTS",
       "asset_type": "Equity",
-      "weight": 0.001,
+      "weight": 0.0011,
       "location": "United States",
       "company": "cusip:G52441105"
-    },
-    {
-      "name": "VAREX IMAGING",
-      "ticker": "VREX",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "location": "United States",
-      "company": "cusip:92214X106"
     },
     {
       "name": "CERIBELL",
@@ -348,6 +332,14 @@
       "weight": 0.001,
       "location": "United States",
       "company": "cusip:15678C102"
+    },
+    {
+      "name": "VAREX IMAGING",
+      "ticker": "VREX",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "location": "United States",
+      "company": "cusip:92214X106"
     },
     {
       "name": "IRADIMED",
@@ -361,15 +353,23 @@
       "name": "BETA BIONICS",
       "ticker": "BBNX",
       "asset_type": "Equity",
-      "weight": 0.0008,
+      "weight": 0.0009,
       "location": "United States",
       "company": "cusip:08659B102"
+    },
+    {
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0008,
+      "location": "United States",
+      "company": null
     },
     {
       "name": "QUIDELORTHO CORP",
       "ticker": "QDEL",
       "asset_type": "Equity",
-      "weight": 0.0008,
+      "weight": 0.0007,
       "location": "United States",
       "company": "cusip:219798105"
     },
@@ -423,7 +423,7 @@
       "name": "USD CASH",
       "ticker": "USD",
       "asset_type": "Cash",
-      "weight": -0.005,
+      "weight": -0.0001,
       "location": "United States",
       "company": null
     }

@@ -1,7 +1,7 @@
 {
   "ticker": "PBW",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:04:09.541933+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:45.623202+00:00",
   "stale": false,
   "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V134/holdings/fund?idType=cusip&productType=ETF",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Cadeler A/S",
       "ticker": "2899999D",
       "asset_type": "Equity",
-      "weight": 0.02549664,
+      "weight": 0.02590282,
       "cusip": "12738K109",
       "company": "cusip:12738K109"
     },
@@ -17,7 +17,7 @@
       "name": "Array Technologies Inc",
       "ticker": "ARRY",
       "asset_type": "Equity",
-      "weight": 0.02300809,
+      "weight": 0.02396304,
       "cusip": "04271T100",
       "company": "cusip:04271T100"
     },
@@ -25,399 +25,399 @@
       "name": "Cadeler PLC",
       "ticker": "CDLR",
       "asset_type": "Equity",
-      "weight": 0.0221267,
+      "weight": 0.02248586,
       "cusip": "G17445100",
       "company": "cusip:12738K109"
-    },
-    {
-      "name": "Gevo Inc",
-      "ticker": "GEVO",
-      "asset_type": "Equity",
-      "weight": 0.02130163,
-      "cusip": "374396406",
-      "company": "cusip:374396406"
     },
     {
       "name": "Ormat Technologies Inc",
       "ticker": "ORA",
       "asset_type": "Equity",
-      "weight": 0.0210287,
+      "weight": 0.02153432,
       "cusip": "686688102",
       "company": "cusip:686688102"
     },
     {
-      "name": "Nextpower Inc",
-      "ticker": "NXT",
+      "name": "Gevo Inc",
+      "ticker": "GEVO",
       "asset_type": "Equity",
-      "weight": 0.02053091,
-      "cusip": "65290E101",
-      "company": "cusip:65290E101"
+      "weight": 0.02135491,
+      "cusip": "374396406",
+      "company": "cusip:374396406"
     },
     {
       "name": "Itron Inc",
       "ticker": "ITRI",
       "asset_type": "Equity",
-      "weight": 0.02050504,
+      "weight": 0.02102938,
       "cusip": "465741106",
       "company": "cusip:465741106"
-    },
-    {
-      "name": "Universal Display Corp",
-      "ticker": "OLED",
-      "asset_type": "Equity",
-      "weight": 0.02037647,
-      "cusip": "91347P105",
-      "company": "cusip:91347P105"
-    },
-    {
-      "name": "Solv Energy Inc",
-      "ticker": "MWH",
-      "asset_type": "Equity",
-      "weight": 0.02018179,
-      "cusip": "78475V103",
-      "company": "cusip:78475V103"
-    },
-    {
-      "name": "Lifezone Metals Ltd",
-      "ticker": "LZM",
-      "asset_type": "Equity",
-      "weight": 0.0200773,
-      "cusip": "G5568L109",
-      "company": "cusip:G5568L109"
-    },
-    {
-      "name": "Tesla Inc",
-      "ticker": "TSLA",
-      "asset_type": "Equity",
-      "weight": 0.02001796,
-      "cusip": "88160R101",
-      "company": "cusip:88160R101"
     },
     {
       "name": "Brookfield Renewable Corp",
       "ticker": "BEPC",
       "asset_type": "Equity",
-      "weight": 0.01978523,
+      "weight": 0.02094835,
       "cusip": "11285B108",
       "company": "cusip:11285B108"
+    },
+    {
+      "name": "Universal Display Corp",
+      "ticker": "OLED",
+      "asset_type": "Equity",
+      "weight": 0.02084958,
+      "cusip": "91347P105",
+      "company": "cusip:91347P105"
+    },
+    {
+      "name": "Tesla Inc",
+      "ticker": "TSLA",
+      "asset_type": "Equity",
+      "weight": 0.02073923,
+      "cusip": "88160R101",
+      "company": "cusip:88160R101"
+    },
+    {
+      "name": "Lifezone Metals Ltd",
+      "ticker": "LZM",
+      "asset_type": "Equity",
+      "weight": 0.02046908,
+      "cusip": "G5568L109",
+      "company": "cusip:G5568L109"
     },
     {
       "name": "EVgo Inc",
       "ticker": "EVGO",
       "asset_type": "Equity",
-      "weight": 0.01878301,
+      "weight": 0.02016681,
       "cusip": "30052F100",
       "company": "cusip:30052F100"
     },
     {
-      "name": "Monolithic Power Systems Inc",
-      "ticker": "MPWR",
+      "name": "Nextpower Inc",
+      "ticker": "NXT",
       "asset_type": "Equity",
-      "weight": 0.01868093,
-      "cusip": "609839105",
-      "company": "cusip:609839105"
+      "weight": 0.01984563,
+      "cusip": "65290E101",
+      "company": "cusip:65290E101"
+    },
+    {
+      "name": "Solv Energy Inc",
+      "ticker": "MWH",
+      "asset_type": "Equity",
+      "weight": 0.01980877,
+      "cusip": "78475V103",
+      "company": "cusip:78475V103"
     },
     {
       "name": "Quanta Services Inc",
       "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.01865065,
+      "weight": 0.01874199,
       "cusip": "74762E102",
       "company": "cusip:74762E102"
-    },
-    {
-      "name": "MYR Group Inc",
-      "ticker": "MYRG",
-      "asset_type": "Equity",
-      "weight": 0.01821372,
-      "cusip": "55405W104",
-      "company": "cusip:55405W104"
-    },
-    {
-      "name": "Bel Fuse Inc",
-      "ticker": "BELFB",
-      "asset_type": "Equity",
-      "weight": 0.01779734,
-      "cusip": "077347300",
-      "company": "cusip:077347300"
-    },
-    {
-      "name": "Gentherm Inc",
-      "ticker": "THRM",
-      "asset_type": "Equity",
-      "weight": 0.01764237,
-      "cusip": "37253A103",
-      "company": "cusip:37253A103"
-    },
-    {
-      "name": "Ameresco Inc",
-      "ticker": "AMRC",
-      "asset_type": "Equity",
-      "weight": 0.01756333,
-      "cusip": "02361E108",
-      "company": "cusip:02361E108"
     },
     {
       "name": "First Solar Inc",
       "ticker": "FSLR",
       "asset_type": "Equity",
-      "weight": 0.01751373,
+      "weight": 0.01835518,
       "cusip": "336433107",
       "company": "cusip:336433107"
+    },
+    {
+      "name": "Gentherm Inc",
+      "ticker": "THRM",
+      "asset_type": "Equity",
+      "weight": 0.01803964,
+      "cusip": "37253A103",
+      "company": "cusip:37253A103"
+    },
+    {
+      "name": "MYR Group Inc",
+      "ticker": "MYRG",
+      "asset_type": "Equity",
+      "weight": 0.0179512,
+      "cusip": "55405W104",
+      "company": "cusip:55405W104"
+    },
+    {
+      "name": "Ameresco Inc",
+      "ticker": "AMRC",
+      "asset_type": "Equity",
+      "weight": 0.01755826,
+      "cusip": "02361E108",
+      "company": "cusip:02361E108"
     },
     {
       "name": "ESCO Technologies Inc",
       "ticker": "ESE",
       "asset_type": "Equity",
-      "weight": 0.01732492,
+      "weight": 0.01739338,
       "cusip": "296315104",
       "company": "cusip:296315104"
     },
     {
-      "name": "Darling Ingredients Inc",
-      "ticker": "DAR",
+      "name": "Monolithic Power Systems Inc",
+      "ticker": "MPWR",
       "asset_type": "Equity",
-      "weight": 0.01667033,
-      "cusip": "237266101",
-      "company": "cusip:237266101"
-    },
-    {
-      "name": "Powell Industries Inc",
-      "ticker": "POWL",
-      "asset_type": "Equity",
-      "weight": 0.01663357,
-      "cusip": "739128106",
-      "company": "cusip:739128106"
-    },
-    {
-      "name": "Jinko Holdings Ltd",
-      "ticker": "JKS",
-      "asset_type": "Equity",
-      "weight": 0.0164943,
-      "cusip": "47759T100",
-      "company": "cusip:47759T100"
-    },
-    {
-      "name": "Aspen Aerogels Inc",
-      "ticker": "ASPN",
-      "asset_type": "Equity",
-      "weight": 0.01603163,
-      "cusip": "04523Y105",
-      "company": "cusip:04523Y105"
+      "weight": 0.01727673,
+      "cusip": "609839105",
+      "company": "cusip:609839105"
     },
     {
       "name": "XPeng Inc",
       "ticker": "XPEV",
       "asset_type": "Equity",
-      "weight": 0.01599217,
+      "weight": 0.0172404,
       "cusip": "98422D105",
       "company": "cusip:98422D105"
     },
     {
-      "name": "Advanced Energy Industries Inc",
-      "ticker": "AEIS",
+      "name": "Bel Fuse Inc",
+      "ticker": "BELFB",
       "asset_type": "Equity",
-      "weight": 0.01590602,
-      "cusip": "007973100",
-      "company": "cusip:007973100"
+      "weight": 0.0170782,
+      "cusip": "077347300",
+      "company": "cusip:077347300"
+    },
+    {
+      "name": "Jinko Holdings Ltd",
+      "ticker": "JKS",
+      "asset_type": "Equity",
+      "weight": 0.01706373,
+      "cusip": "47759T100",
+      "company": "cusip:47759T100"
+    },
+    {
+      "name": "Powell Industries Inc",
+      "ticker": "POWL",
+      "asset_type": "Equity",
+      "weight": 0.01639405,
+      "cusip": "739128106",
+      "company": "cusip:739128106"
+    },
+    {
+      "name": "Aspen Aerogels Inc",
+      "ticker": "ASPN",
+      "asset_type": "Equity",
+      "weight": 0.01630211,
+      "cusip": "04523Y105",
+      "company": "cusip:04523Y105"
     },
     {
       "name": "REX American Resources Corp",
       "ticker": "REX",
       "asset_type": "Equity",
-      "weight": 0.0157556,
+      "weight": 0.01626026,
       "cusip": "761624105",
       "company": "cusip:761624105"
     },
     {
-      "name": "Sunrun Inc",
-      "ticker": "RUN",
+      "name": "Darling Ingredients Inc",
+      "ticker": "DAR",
       "asset_type": "Equity",
-      "weight": 0.01559801,
-      "cusip": "86771W105",
-      "company": "cusip:86771W105"
+      "weight": 0.01610435,
+      "cusip": "237266101",
+      "company": "cusip:237266101"
     },
     {
       "name": "Shoals Technologies Group Inc",
       "ticker": "SHLS",
       "asset_type": "Equity",
-      "weight": 0.01549436,
+      "weight": 0.0159753,
       "cusip": "82489W107",
       "company": "cusip:82489W107"
     },
     {
-      "name": "Beta Technologies Inc",
-      "ticker": "BETA",
+      "name": "Sunrun Inc",
+      "ticker": "RUN",
       "asset_type": "Equity",
-      "weight": 0.01448428,
-      "cusip": "086921103",
-      "company": "cusip:086921103"
+      "weight": 0.01567004,
+      "cusip": "86771W105",
+      "company": "cusip:86771W105"
+    },
+    {
+      "name": "Advanced Energy Industries Inc",
+      "ticker": "AEIS",
+      "asset_type": "Equity",
+      "weight": 0.01536513,
+      "cusip": "007973100",
+      "company": "cusip:007973100"
     },
     {
       "name": "Rivian Automotive Inc",
       "ticker": "RIVN",
       "asset_type": "Equity",
-      "weight": 0.01430921,
+      "weight": 0.0150164,
       "cusip": "76954A103",
       "company": "cusip:76954A103"
-    },
-    {
-      "name": "Wolfspeed Inc",
-      "ticker": "WOLF",
-      "asset_type": "Equity",
-      "weight": 0.01425816,
-      "cusip": "97785W106",
-      "company": "cusip:97785W106"
     },
     {
       "name": "MP Materials Corp",
       "ticker": "MP",
       "asset_type": "Equity",
-      "weight": 0.01415157,
+      "weight": 0.01483377,
       "cusip": "553368101",
       "company": "cusip:553368101"
     },
     {
-      "name": "ioneer Ltd",
-      "ticker": "IONR",
+      "name": "Beta Technologies Inc",
+      "ticker": "BETA",
       "asset_type": "Equity",
-      "weight": 0.01406207,
-      "cusip": "46211L101",
-      "company": "cusip:46211L101"
+      "weight": 0.01418353,
+      "cusip": "086921103",
+      "company": "cusip:086921103"
     },
     {
       "name": "Albemarle Corp",
       "ticker": "ALB",
       "asset_type": "Equity",
-      "weight": 0.01392283,
+      "weight": 0.01410501,
       "cusip": "012653101",
       "company": "cusip:012653101"
-    },
-    {
-      "name": "Sociedad Quimica y Minera de Chile SA",
-      "ticker": "SQM",
-      "asset_type": "Equity",
-      "weight": 0.01367568,
-      "cusip": "833635105",
-      "company": "cusip:833635105"
-    },
-    {
-      "name": "American Superconductor Corp",
-      "ticker": "AMSC",
-      "asset_type": "Equity",
-      "weight": 0.01342568,
-      "cusip": "030111207",
-      "company": "cusip:030111207"
     },
     {
       "name": "NIO Inc",
       "ticker": "NIO",
       "asset_type": "Equity",
-      "weight": 0.01333925,
+      "weight": 0.01389203,
       "cusip": "62914V106",
       "company": "cusip:62914V106"
     },
     {
-      "name": "Fervo Energy Co",
-      "ticker": "FRVO",
+      "name": "Sociedad Quimica y Minera de Chile SA",
+      "ticker": "SQM",
       "asset_type": "Equity",
-      "weight": 0.01291691,
-      "cusip": "31556C106",
-      "company": "cusip:31556C106"
+      "weight": 0.01365259,
+      "cusip": "833635105",
+      "company": "cusip:833635105"
     },
     {
-      "name": "Preformed Line Products Co",
-      "ticker": "PLPC",
+      "name": "ioneer Ltd",
+      "ticker": "IONR",
       "asset_type": "Equity",
-      "weight": 0.01254668,
-      "cusip": "740444104",
-      "company": "cusip:740444104"
+      "weight": 0.01364472,
+      "cusip": "46211L101",
+      "company": "cusip:46211L101"
     },
     {
-      "name": "Bloom Energy Corp",
-      "ticker": "BE",
+      "name": "American Superconductor Corp",
+      "ticker": "AMSC",
       "asset_type": "Equity",
-      "weight": 0.01236789,
-      "cusip": "093712107",
-      "company": "cusip:093712107"
+      "weight": 0.01317565,
+      "cusip": "030111207",
+      "company": "cusip:030111207"
+    },
+    {
+      "name": "Wolfspeed Inc",
+      "ticker": "WOLF",
+      "asset_type": "Equity",
+      "weight": 0.01302365,
+      "cusip": "97785W106",
+      "company": "cusip:97785W106"
     },
     {
       "name": "Enphase Energy Inc",
       "ticker": "ENPH",
       "asset_type": "Equity",
-      "weight": 0.01232422,
+      "weight": 0.01247893,
       "cusip": "29355A107",
       "company": "cusip:29355A107"
     },
     {
-      "name": "Joby Aviation Inc",
-      "ticker": "JOBY",
+      "name": "Preformed Line Products Co",
+      "ticker": "PLPC",
       "asset_type": "Equity",
-      "weight": 0.01215049,
-      "cusip": "G65163100",
-      "company": "cusip:G65163100"
-    },
-    {
-      "name": "Amprius Technologies Inc",
-      "ticker": "AMPX",
-      "asset_type": "Equity",
-      "weight": 0.01213964,
-      "cusip": "03214Q108",
-      "company": "cusip:03214Q108"
-    },
-    {
-      "name": "OPAL Fuels Inc",
-      "ticker": "OPAL",
-      "asset_type": "Equity",
-      "weight": 0.01213249,
-      "cusip": "68347P103",
-      "company": "cusip:68347P103"
+      "weight": 0.01222656,
+      "cusip": "740444104",
+      "company": "cusip:740444104"
     },
     {
       "name": "Factorial Energy Inc",
       "ticker": "FAC",
       "asset_type": "Equity",
-      "weight": 0.01169148,
+      "weight": 0.01216206,
       "cusip": "30347G103",
       "company": "cusip:30347G103"
     },
     {
-      "name": "Canadian Solar Inc",
-      "ticker": "CSIQ",
+      "name": "Bloom Energy Corp",
+      "ticker": "BE",
       "asset_type": "Equity",
-      "weight": 0.01160638,
-      "cusip": "136635109",
-      "company": "cusip:136635109"
+      "weight": 0.0119281,
+      "cusip": "093712107",
+      "company": "cusip:093712107"
+    },
+    {
+      "name": "Energy Vault Holdings Inc",
+      "ticker": "NRGV",
+      "asset_type": "Equity",
+      "weight": 0.01191025,
+      "cusip": "29280W109",
+      "company": "cusip:29280W109"
+    },
+    {
+      "name": "Amprius Technologies Inc",
+      "ticker": "AMPX",
+      "asset_type": "Equity",
+      "weight": 0.01171309,
+      "cusip": "03214Q108",
+      "company": "cusip:03214Q108"
+    },
+    {
+      "name": "Fervo Energy Co",
+      "ticker": "FRVO",
+      "asset_type": "Equity",
+      "weight": 0.01164755,
+      "cusip": "31556C106",
+      "company": "cusip:31556C106"
+    },
+    {
+      "name": "Fluence Energy Inc",
+      "ticker": "FLNC",
+      "asset_type": "Equity",
+      "weight": 0.01152489,
+      "cusip": "34379V103",
+      "company": "cusip:34379V103"
+    },
+    {
+      "name": "Joby Aviation Inc",
+      "ticker": "JOBY",
+      "asset_type": "Equity",
+      "weight": 0.01149169,
+      "cusip": "G65163100",
+      "company": "cusip:G65163100"
     },
     {
       "name": "QuantumScape Corp",
       "ticker": "QS",
       "asset_type": "Equity",
-      "weight": 0.01142932,
+      "weight": 0.01124987,
       "cusip": "74767V109",
       "company": "cusip:74767V109"
-    },
-    {
-      "name": "Navitas Semiconductor Corp",
-      "ticker": "NVTS",
-      "asset_type": "Equity",
-      "weight": 0.01135874,
-      "cusip": "63942X106",
-      "company": "cusip:63942X106"
     },
     {
       "name": "IonQ Inc",
       "ticker": "IONQ",
       "asset_type": "Equity",
-      "weight": 0.01128469,
+      "weight": 0.01123518,
       "cusip": "46222L108",
       "company": "cusip:46222L108"
+    },
+    {
+      "name": "Lithium Argentina AG",
+      "ticker": "LAR",
+      "asset_type": "Equity",
+      "weight": 0.01100889,
+      "cusip": "H5012F103",
+      "company": "cusip:H5012F103"
     },
     {
       "name": "Solid Power Inc",
       "ticker": "SLDP",
       "asset_type": "Equity",
-      "weight": 0.01119457,
+      "weight": 0.01083359,
       "cusip": "83422N105",
       "company": "cusip:83422N105"
     },
@@ -425,95 +425,95 @@
       "name": "Archer Aviation Inc",
       "ticker": "ACHR",
       "asset_type": "Equity",
-      "weight": 0.01096611,
+      "weight": 0.01067213,
       "cusip": "03945R102",
       "company": "cusip:03945R102"
-    },
-    {
-      "name": "Energy Vault Holdings Inc",
-      "ticker": "NRGV",
-      "asset_type": "Equity",
-      "weight": 0.01065485,
-      "cusip": "29280W109",
-      "company": "cusip:29280W109"
     },
     {
       "name": "SolarEdge Technologies Inc",
       "ticker": "SEDG",
       "asset_type": "Equity",
-      "weight": 0.01036568,
+      "weight": 0.01064252,
       "cusip": "83417M104",
       "company": "cusip:83417M104"
     },
     {
-      "name": "Lithium Argentina AG",
-      "ticker": "LAR",
+      "name": "Navitas Semiconductor Corp",
+      "ticker": "NVTS",
       "asset_type": "Equity",
-      "weight": 0.01035243,
-      "cusip": "H5012F103",
-      "company": "cusip:H5012F103"
+      "weight": 0.01046518,
+      "cusip": "63942X106",
+      "company": "cusip:63942X106"
     },
     {
-      "name": "Fluence Energy Inc",
-      "ticker": "FLNC",
+      "name": "Canadian Solar Inc",
+      "ticker": "CSIQ",
       "asset_type": "Equity",
-      "weight": 0.01029669,
-      "cusip": "34379V103",
-      "company": "cusip:34379V103"
+      "weight": 0.01024189,
+      "cusip": "136635109",
+      "company": "cusip:136635109"
     },
     {
       "name": "Ballard Power Systems Inc",
       "ticker": "BLDP",
       "asset_type": "Equity",
-      "weight": 0.0096179,
+      "weight": 0.00964811,
       "cusip": "058586108",
       "company": "cusip:058586108"
-    },
-    {
-      "name": "Plug Power Inc",
-      "ticker": "PLUG",
-      "asset_type": "Equity",
-      "weight": 0.00957084,
-      "cusip": "72919P202",
-      "company": "cusip:72919P202"
     },
     {
       "name": "Standard Lithium Ltd",
       "ticker": "SLI",
       "asset_type": "Equity",
-      "weight": 0.00918105,
+      "weight": 0.00961691,
       "cusip": "853606101",
       "company": "cusip:853606101"
     },
     {
-      "name": "FuelCell Energy Inc",
-      "ticker": "FCEL",
+      "name": "Plug Power Inc",
+      "ticker": "PLUG",
       "asset_type": "Equity",
-      "weight": 0.00885373,
-      "cusip": "35952H700",
-      "company": "cusip:35952H700"
-    },
-    {
-      "name": "Lithium Americas Corp",
-      "ticker": "LAC",
-      "asset_type": "Equity",
-      "weight": 0.00873334,
-      "cusip": "53681J103",
-      "company": "cusip:53681J103"
+      "weight": 0.0093072,
+      "cusip": "72919P202",
+      "company": "cusip:72919P202"
     },
     {
       "name": "Hyliion Holdings Corp",
       "ticker": "HYLN",
       "asset_type": "Equity",
-      "weight": 0.00841181,
+      "weight": 0.00891509,
       "cusip": "449109107",
       "company": "cusip:449109107"
+    },
+    {
+      "name": "Lithium Americas Corp",
+      "ticker": "LAC",
+      "asset_type": "Equity",
+      "weight": 0.00885558,
+      "cusip": "53681J103",
+      "company": "cusip:53681J103"
+    },
+    {
+      "name": "OPAL Fuels Inc",
+      "ticker": "OPAL",
+      "asset_type": "Equity",
+      "weight": 0.00838222,
+      "cusip": "68347P103",
+      "company": "cusip:68347P103"
+    },
+    {
+      "name": "FuelCell Energy Inc",
+      "ticker": "FCEL",
+      "asset_type": "Equity",
+      "weight": 0.00838187,
+      "cusip": "35952H700",
+      "company": "cusip:35952H700"
     },
     {
       "name": "USA Rare Earth Inc",
       "ticker": "USAR",
       "asset_type": "Equity",
-      "weight": 0.00839789,
+      "weight": 0.00828982,
       "cusip": "91733P107",
       "company": "cusip:91733P107"
     },
@@ -521,7 +521,7 @@
       "name": "D-Wave Quantum Inc",
       "ticker": "QBTS",
       "asset_type": "Equity",
-      "weight": 0.00820044,
+      "weight": 0.007844,
       "cusip": "26740W109",
       "company": "cusip:26740W109"
     },
@@ -529,7 +529,7 @@
       "name": "Sigma Lithium Corp",
       "ticker": "SGML",
       "asset_type": "Equity",
-      "weight": 0.00785709,
+      "weight": 0.00768737,
       "cusip": "826599102",
       "company": "cusip:826599102"
     },
@@ -537,7 +537,7 @@
       "name": "Enovix Corp",
       "ticker": "ENVX",
       "asset_type": "Equity",
-      "weight": 0.0074903,
+      "weight": 0.00756412,
       "cusip": "293594107",
       "company": "cusip:293594107"
     },
@@ -545,15 +545,23 @@
       "name": "Xanadu Quantum Technologies Ltd",
       "ticker": "XNDU",
       "asset_type": "Equity",
-      "weight": 0.00685041,
+      "weight": 0.00700044,
       "cusip": "98390R102",
       "company": "cusip:98390R102"
+    },
+    {
+      "name": "Eos Energy Enterprises Inc",
+      "ticker": "EOSE",
+      "asset_type": "Equity",
+      "weight": 0.00624154,
+      "cusip": "29415C101",
+      "company": "cusip:29415C101"
     },
     {
       "name": "T1 Energy Inc",
       "ticker": "TE",
       "asset_type": "Equity",
-      "weight": 0.0066078,
+      "weight": 0.00622652,
       "cusip": "35834F104",
       "company": "cusip:35834F104"
     },
@@ -561,23 +569,15 @@
       "name": "Toyo Co Ltd",
       "ticker": "TOYO",
       "asset_type": "Equity",
-      "weight": 0.00620831,
+      "weight": 0.00602877,
       "cusip": "G8976D107",
       "company": "cusip:G8976D107"
-    },
-    {
-      "name": "Eos Energy Enterprises Inc",
-      "ticker": "EOSE",
-      "asset_type": "Equity",
-      "weight": 0.0061621,
-      "cusip": "29415C101",
-      "company": "cusip:29415C101"
     },
     {
       "name": "Niu Technologies",
       "ticker": "NIU",
       "asset_type": "Equity",
-      "weight": 0.00483253,
+      "weight": 0.0052236,
       "cusip": "65481N100",
       "company": "cusip:65481N100"
     },
@@ -585,23 +585,16 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "CAD",
       "asset_type": "Currency",
-      "weight": 0.00405838,
+      "weight": 0.00413902,
       "company": null
     },
     {
       "name": "Tigo Energy Inc",
       "ticker": "TYGO",
       "asset_type": "Equity",
-      "weight": 0.00351632,
+      "weight": 0.00363571,
       "cusip": "88675P103",
       "company": "cusip:88675P103"
-    },
-    {
-      "name": "Enovix Corp",
-      "ticker": "ENVXW",
-      "asset_type": "Equity Warrant",
-      "weight": 0.00017572,
-      "company": null
     },
     {
       "name": "SECURITIES LENDING - BNYM",
@@ -614,7 +607,7 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "USD",
       "asset_type": "Currency",
-      "weight": -0.01914067,
+      "weight": -0.01981533,
       "company": null
     },
     {

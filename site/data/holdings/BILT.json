@@ -1,7 +1,7 @@
 {
   "ticker": "BILT",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:03:42.915821+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:18.223368+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/345073/ishares-infrastructure-active-etf/latest-holdings.csv",
   "holdings": [
@@ -17,7 +17,7 @@
       "name": "AENA SME SA",
       "ticker": "AENA",
       "asset_type": "Equity",
-      "weight": 0.0558,
+      "weight": 0.056,
       "location": "Spain",
       "company": "cusip:ACI2XYWJ4"
     },
@@ -25,7 +25,7 @@
       "name": "AMERICAN ELECTRIC POWER INC",
       "ticker": "AEP",
       "asset_type": "Equity",
-      "weight": 0.0437,
+      "weight": 0.0435,
       "location": "United States",
       "company": "cusip:025537101"
     },
@@ -33,7 +33,7 @@
       "name": "TC ENERGY",
       "ticker": "TRP",
       "asset_type": "Equity",
-      "weight": 0.0429,
+      "weight": 0.0427,
       "location": "Canada",
       "company": "cusip:87807B909"
     },
@@ -41,7 +41,7 @@
       "name": "XCEL ENERGY INC",
       "ticker": "XEL",
       "asset_type": "Equity",
-      "weight": 0.0427,
+      "weight": 0.0426,
       "location": "United States",
       "company": "cusip:98389B100"
     },
@@ -49,7 +49,7 @@
       "name": "ENTERGY CORP",
       "ticker": "ETR",
       "asset_type": "Equity",
-      "weight": 0.0425,
+      "weight": 0.0417,
       "location": "United States",
       "company": "cusip:29364G103"
     },
@@ -57,7 +57,7 @@
       "name": "WILLIAMS",
       "ticker": "WMB",
       "asset_type": "Equity",
-      "weight": 0.0345,
+      "weight": 0.0346,
       "location": "United States",
       "company": "name:williams@united states"
     },
@@ -65,7 +65,7 @@
       "name": "CANADIAN PACIFIC KANSAS CITY",
       "ticker": "CP",
       "asset_type": "Equity",
-      "weight": 0.0328,
+      "weight": 0.0333,
       "location": "Canada",
       "company": "name:canadian pacific kansas city@canada"
     },
@@ -73,7 +73,7 @@
       "name": "NEXTERA ENERGY",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.032,
+      "weight": 0.0321,
       "location": "United States",
       "company": "cusip:65339F101"
     },
@@ -81,7 +81,7 @@
       "name": "TRANSURBAN GROUP STAPLED UNITS",
       "ticker": "TCL",
       "asset_type": "Equity",
-      "weight": 0.0289,
+      "weight": 0.0294,
       "location": "Australia",
       "company": "name:transurban group stapled units@australia"
     },
@@ -89,7 +89,7 @@
       "name": "DOMINION ENERGY",
       "ticker": "D",
       "asset_type": "Equity",
-      "weight": 0.0286,
+      "weight": 0.0287,
       "location": "United States",
       "company": "cusip:25746U109"
     },
@@ -97,7 +97,7 @@
       "name": "PPL CORP",
       "ticker": "PPL",
       "asset_type": "Equity",
-      "weight": 0.0285,
+      "weight": 0.0283,
       "location": "United States",
       "company": "name:ppl@united states"
     },
@@ -105,7 +105,7 @@
       "name": "EVERGY",
       "ticker": "EVRG",
       "asset_type": "Equity",
-      "weight": 0.0279,
+      "weight": 0.0278,
       "location": "United States",
       "company": "cusip:30034W106"
     },
@@ -113,7 +113,7 @@
       "name": "ALLIANT ENERGY CORP",
       "ticker": "LNT",
       "asset_type": "Equity",
-      "weight": 0.026,
+      "weight": 0.0259,
       "location": "United States",
       "company": "cusip:018802108"
     },
@@ -121,9 +121,17 @@
       "name": "TARGA RESOURCES",
       "ticker": "TRGP",
       "asset_type": "Equity",
-      "weight": 0.026,
+      "weight": 0.0257,
       "location": "United States",
       "company": "cusip:87612G101"
+    },
+    {
+      "name": "CROWN CASTLE",
+      "ticker": "CCI",
+      "asset_type": "Equity",
+      "weight": 0.023,
+      "location": "United States",
+      "company": "cusip:22822V101"
     },
     {
       "name": "NISOURCE",
@@ -134,18 +142,10 @@
       "company": "cusip:65473P105"
     },
     {
-      "name": "CROWN CASTLE",
-      "ticker": "CCI",
-      "asset_type": "Equity",
-      "weight": 0.0227,
-      "location": "United States",
-      "company": "cusip:22822V101"
-    },
-    {
       "name": "OGE ENERGY",
       "ticker": "OGE",
       "asset_type": "Equity",
-      "weight": 0.0219,
+      "weight": 0.0217,
       "location": "United States",
       "company": "cusip:670837103"
     },
@@ -153,7 +153,7 @@
       "name": "SEMPRA",
       "ticker": "SRE",
       "asset_type": "Equity",
-      "weight": 0.021,
+      "weight": 0.0211,
       "location": "United States",
       "company": "cusip:816851109"
     },
@@ -161,7 +161,7 @@
       "name": "AEROPORTS DE PARIS SA",
       "ticker": "ADP",
       "asset_type": "Equity",
-      "weight": 0.0194,
+      "weight": 0.0198,
       "location": "France",
       "company": "name:aeroports de paris@france"
     },
@@ -169,7 +169,7 @@
       "name": "NATIONAL GRID PLC",
       "ticker": "NG.",
       "asset_type": "Equity",
-      "weight": 0.0187,
+      "weight": 0.019,
       "location": "United Kingdom",
       "company": "cusip:BDR05C901"
     },
@@ -177,7 +177,7 @@
       "name": "AUCKLAND INTERNATIONAL AIRPORT",
       "ticker": "AIA",
       "asset_type": "Equity",
-      "weight": 0.0176,
+      "weight": 0.0178,
       "location": "New Zealand",
       "company": "name:auckland international airport@new zealand"
     },
@@ -185,7 +185,7 @@
       "name": "PG&E CORP",
       "ticker": "PCG",
       "asset_type": "Equity",
-      "weight": 0.0173,
+      "weight": 0.0174,
       "location": "United States",
       "company": "cusip:69331C108"
     },
@@ -201,7 +201,7 @@
       "name": "DT MIDSTREAM",
       "ticker": "DTM",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0152,
       "location": "United States",
       "company": "cusip:23345M107"
     },
@@ -209,7 +209,7 @@
       "name": "SSE PLC",
       "ticker": "SSE",
       "asset_type": "Equity",
-      "weight": 0.0148,
+      "weight": 0.015,
       "location": "United Kingdom",
       "company": "cusip:079087003"
     },
@@ -217,7 +217,7 @@
       "name": "SOLARIS ENERGY INFRASTRUCTURE INC",
       "ticker": "SEI",
       "asset_type": "Equity",
-      "weight": 0.0122,
+      "weight": 0.0125,
       "location": "United States",
       "company": "cusip:83418M103"
     },
@@ -225,17 +225,9 @@
       "name": "FRAPORT AG",
       "ticker": "FRA",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0117,
       "location": "Germany",
       "company": "name:fraport@germany"
-    },
-    {
-      "name": "EAST JAPAN RAILWAY",
-      "ticker": "9020",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "location": "Japan",
-      "company": "name:east japan railway@japan"
     },
     {
       "name": "CSX",
@@ -254,44 +246,44 @@
       "company": "cusip:16411R208"
     },
     {
-      "name": "GUANGDONG INVESTMENT LTD",
-      "ticker": "270",
+      "name": "EAST JAPAN RAILWAY",
+      "ticker": "9020",
       "asset_type": "Equity",
-      "weight": 0.0103,
-      "location": "China",
-      "company": "cusip:691316004"
+      "weight": 0.0111,
+      "location": "Japan",
+      "company": "name:east japan railway@japan"
     },
     {
       "name": "REN REDES ENERGETICAS NACIONAIS SA",
       "ticker": "RENE",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0105,
       "location": "Portugal",
       "company": "name:ren redes energeticas nacionais@portugal"
     },
     {
-      "name": "KEYERA",
-      "ticker": "KEY",
+      "name": "GUANGDONG INVESTMENT LTD",
+      "ticker": "270",
       "asset_type": "Equity",
-      "weight": 0.0098,
-      "location": "Canada",
-      "company": "cusip:493271951"
-    },
-    {
-      "name": "TOKYO GAS LTD",
-      "ticker": "9531",
-      "asset_type": "Equity",
-      "weight": 0.0092,
-      "location": "Japan",
-      "company": "name:tokyo gas@japan"
+      "weight": 0.0102,
+      "location": "China",
+      "company": "cusip:691316004"
     },
     {
       "name": "ALGONQUIN POWER UTILITIES",
       "ticker": "AQN",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0093,
       "location": "Canada",
       "company": "cusip:015857105"
+    },
+    {
+      "name": "TOKYO GAS LTD",
+      "ticker": "9531",
+      "asset_type": "Equity",
+      "weight": 0.0091,
+      "location": "Japan",
+      "company": "name:tokyo gas@japan"
     },
     {
       "name": "DALRYMPLE BAY INFRASTRUCTURE STAPL",
@@ -313,7 +305,7 @@
       "name": "SBA COMMUNICATIONS REIT CORP CLASS",
       "ticker": "SBAC",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0089,
       "location": "United States",
       "company": "name:sba communications reit corp class@united states"
     },
@@ -321,7 +313,7 @@
       "name": "OSAKA GAS",
       "ticker": "9532",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0086,
       "location": "Japan",
       "company": "name:osaka gas@japan"
     },
@@ -334,10 +326,18 @@
       "company": "name:atlas arteria stapled units@australia"
     },
     {
+      "name": "KEYERA",
+      "ticker": "KEY",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "location": "Canada",
+      "company": "cusip:493271951"
+    },
+    {
       "name": "ENAV SPA",
       "ticker": "ENAV",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.0076,
       "location": "Italy",
       "company": "cusip:ACI0NKS62"
     },
@@ -345,25 +345,9 @@
       "name": "E.ON N",
       "ticker": "EOAN",
       "asset_type": "Equity",
-      "weight": 0.0077,
+      "weight": 0.0076,
       "location": "Germany",
       "company": "cusip:494290901"
-    },
-    {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
-      "weight": 0.0074,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CK HUTCHISON HOLDINGS",
-      "ticker": "1",
-      "asset_type": "Equity",
-      "weight": 0.0074,
-      "location": "Hong Kong",
-      "company": "name:ck hutchison holdings@hong kong"
     },
     {
       "name": "KANSAI ELECTRIC POWER",
@@ -372,6 +356,14 @@
       "weight": 0.0074,
       "location": "Japan",
       "company": "name:kansai electric power@japan"
+    },
+    {
+      "name": "CK HUTCHISON HOLDINGS",
+      "ticker": "1",
+      "asset_type": "Equity",
+      "weight": 0.0073,
+      "location": "Hong Kong",
+      "company": "name:ck hutchison holdings@hong kong"
     },
     {
       "name": "PUBLIC POWER CORPORATION SA",
@@ -393,15 +385,23 @@
       "name": "DUKE ENERGY CORP",
       "ticker": "DUK",
       "asset_type": "Equity",
-      "weight": 0.0064,
+      "weight": 0.0065,
       "location": "United States",
       "company": "cusip:26441C204"
+    },
+    {
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
+      "weight": 0.0064,
+      "location": "United States",
+      "company": null
     },
     {
       "name": "HELIOS TOWERS PLC",
       "ticker": "HTWS",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "location": "United Kingdom",
       "company": "name:helios towers@united kingdom"
     },
@@ -409,7 +409,7 @@
       "name": "NRG ENERGY INC",
       "ticker": "NRG",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0049,
       "location": "United States",
       "company": "cusip:629377508"
     },
@@ -425,7 +425,7 @@
       "name": "SKY PERFECT JSAT",
       "ticker": "9412",
       "asset_type": "Equity",
-      "weight": 0.0047,
+      "weight": 0.0046,
       "location": "Japan",
       "company": "name:sky perfect jsat@japan"
     },
@@ -446,20 +446,20 @@
       "company": "cusip:92552V100"
     },
     {
-      "name": "KOREA ELECTRIC POWER ADR REP",
-      "ticker": "KEP",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "location": "Korea (South)",
-      "company": "name:korea electric power adr rep@south korea"
-    },
-    {
       "name": "ENGIE SA",
       "ticker": "ENGI",
       "asset_type": "Equity",
       "weight": 0.0025,
       "location": "France",
       "company": "cusip:B0C2CQ902"
+    },
+    {
+      "name": "KOREA ELECTRIC POWER ADR REP",
+      "ticker": "KEP",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "location": "Korea (South)",
+      "company": "name:korea electric power adr rep@south korea"
     },
     {
       "name": "SACYR",
@@ -470,6 +470,14 @@
       "company": "name:sacyr@spain"
     },
     {
+      "name": "CAD CASH",
+      "ticker": "CAD",
+      "asset_type": "Cash",
+      "weight": 0.0023,
+      "location": "Canada",
+      "company": null
+    },
+    {
       "name": "NATIONAL GRID PLC",
       "ticker": "NG.",
       "asset_type": "Equity",
@@ -478,11 +486,11 @@
       "company": "cusip:BDR05C901"
     },
     {
-      "name": "GBP CASH",
-      "ticker": "GBP",
+      "name": "EUR CASH",
+      "ticker": "EUR",
       "asset_type": "Cash",
       "weight": 0.0005,
-      "location": "United Kingdom",
+      "location": "European Union",
       "company": null
     },
     {
@@ -502,6 +510,14 @@
       "company": null
     },
     {
+      "name": "GBP CASH",
+      "ticker": "GBP",
+      "asset_type": "Cash",
+      "weight": 0.0003,
+      "location": "United Kingdom",
+      "company": null
+    },
+    {
       "name": "EUR/USD",
       "ticker": "EUR",
       "asset_type": "Forwards",
@@ -513,7 +529,7 @@
       "name": "NZD/USD",
       "ticker": "NZD",
       "asset_type": "Forwards",
-      "weight": 0.0002,
+      "weight": 0.0001,
       "location": "United States",
       "company": null
     },
@@ -534,40 +550,8 @@
       "company": null
     },
     {
-      "name": "EUR CASH",
-      "ticker": "EUR",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "European Union",
-      "company": null
-    },
-    {
       "name": "AUD/USD",
       "ticker": "AUD",
-      "asset_type": "Forwards",
-      "weight": 0.0001,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "GBP/USD",
-      "ticker": "GBP",
-      "asset_type": "Forwards",
-      "weight": 0.0001,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
-      "asset_type": "Forwards",
-      "weight": 0.0001,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "GBP/USD",
-      "ticker": "GBP",
       "asset_type": "Forwards",
       "weight": 0.0001,
       "location": "United States",
@@ -590,8 +574,8 @@
       "company": null
     },
     {
-      "name": "CAD/USD",
-      "ticker": "CAD",
+      "name": "GBP/USD",
+      "ticker": "GBP",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -606,8 +590,8 @@
       "company": null
     },
     {
-      "name": "EUR/USD",
-      "ticker": "EUR",
+      "name": "GBP/USD",
+      "ticker": "GBP",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -616,6 +600,14 @@
     {
       "name": "CAD/USD",
       "ticker": "CAD",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -678,8 +670,8 @@
       "company": null
     },
     {
-      "name": "EUR/USD",
-      "ticker": "EUR",
+      "name": "CAD/USD",
+      "ticker": "CAD",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -710,6 +702,22 @@
       "company": null
     },
     {
+      "name": "EUR/USD",
+      "ticker": "EUR",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EUR",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "CAD/USD",
       "ticker": "CAD",
       "asset_type": "Forwards",
@@ -720,14 +728,6 @@
     {
       "name": "JPY/USD",
       "ticker": "JPY",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -742,14 +742,6 @@
       "company": null
     },
     {
-      "name": "JPY/USD",
-      "ticker": "JPY",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "NZD CASH",
       "ticker": "NZD",
       "asset_type": "Cash",
@@ -758,8 +750,16 @@
       "company": null
     },
     {
-      "name": "HKD/USD",
-      "ticker": "HKD",
+      "name": "JPY/USD",
+      "ticker": "JPY",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "CAD/USD",
+      "ticker": "CAD",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -774,48 +774,8 @@
       "company": null
     },
     {
-      "name": "EUR/USD",
-      "ticker": "EUR",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "AUD/USD",
       "ticker": "AUD",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "JPY/USD",
-      "ticker": "JPY",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "GBP/USD",
-      "ticker": "GBP",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -832,6 +792,22 @@
     {
       "name": "EUR/USD",
       "ticker": "EUR",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EUR",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBP",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -846,6 +822,22 @@
       "company": null
     },
     {
+      "name": "HKD/USD",
+      "ticker": "HKD",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBP",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "EUR/USD",
       "ticker": "EUR",
       "asset_type": "Forwards",
@@ -854,11 +846,11 @@
       "company": null
     },
     {
-      "name": "CAD CASH",
-      "ticker": "CAD",
-      "asset_type": "Cash",
+      "name": "EUR/USD",
+      "ticker": "EUR",
+      "asset_type": "Forwards",
       "weight": 0.0,
-      "location": "Canada",
+      "location": "United States",
       "company": null
     },
     {
@@ -872,6 +864,14 @@
     {
       "name": "HKD/USD",
       "ticker": "HKD",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -886,16 +886,16 @@
       "company": null
     },
     {
-      "name": "HKD/USD",
-      "ticker": "HKD",
+      "name": "EUR/USD",
+      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
       "company": null
     },
     {
-      "name": "GBP/USD",
-      "ticker": "GBP",
+      "name": "HKD/USD",
+      "ticker": "HKD",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -934,6 +934,54 @@
       "company": null
     },
     {
+      "name": "CAD/USD",
+      "ticker": "CAD",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "EUR/USD",
+      "ticker": "EUR",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "JPY/USD",
+      "ticker": "JPY",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBP",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBP",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "HKD/USD",
+      "ticker": "HKD",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "GBP/USD",
       "ticker": "GBP",
       "asset_type": "Forwards",
@@ -944,14 +992,6 @@
     {
       "name": "CAD/USD",
       "ticker": "CAD",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "HKD/USD",
-      "ticker": "HKD",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -998,40 +1038,8 @@
       "company": null
     },
     {
-      "name": "CAD/USD",
-      "ticker": "CAD",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "GBP/USD",
       "ticker": "GBP",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "GBP/USD",
-      "ticker": "GBP",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "GBP/USD",
-      "ticker": "GBP",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CAD/USD",
-      "ticker": "CAD",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -1054,24 +1062,8 @@
       "company": null
     },
     {
-      "name": "GBP/USD",
-      "ticker": "GBP",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "CAD/USD",
       "ticker": "CAD",
-      "asset_type": "Forwards",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -1086,8 +1078,8 @@
       "company": null
     },
     {
-      "name": "GBP/USD",
-      "ticker": "GBP",
+      "name": "EUR/USD",
+      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -1096,6 +1088,22 @@
     {
       "name": "CAD/USD",
       "ticker": "CAD",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "GBP/USD",
+      "ticker": "GBP",
+      "asset_type": "Forwards",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
+      "name": "CHF/USD",
+      "ticker": "CHF",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -1118,16 +1126,16 @@
       "company": null
     },
     {
-      "name": "AUD/USD",
-      "ticker": "AUD",
+      "name": "EUR/USD",
+      "ticker": "EUR",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
       "company": null
     },
     {
-      "name": "EUR/USD",
-      "ticker": "EUR",
+      "name": "AUD/USD",
+      "ticker": "AUD",
       "asset_type": "Forwards",
       "weight": 0.0,
       "location": "United States",
@@ -1182,8 +1190,8 @@
       "company": null
     },
     {
-      "name": "CHF/USD",
-      "ticker": "CHF",
+      "name": "CAD/USD",
+      "ticker": "CAD",
       "asset_type": "Forwards",
       "weight": -0.0001,
       "location": "United States",
@@ -1192,14 +1200,6 @@
     {
       "name": "AUD/USD",
       "ticker": "AUD",
-      "asset_type": "Forwards",
-      "weight": -0.0002,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CAD/USD",
-      "ticker": "CAD",
       "asset_type": "Forwards",
       "weight": -0.0002,
       "location": "United States",
@@ -1217,7 +1217,7 @@
       "name": "NZD/USD",
       "ticker": "NZD",
       "asset_type": "Forwards",
-      "weight": -0.0003,
+      "weight": -0.0002,
       "location": "United States",
       "company": null
     },
@@ -1225,7 +1225,7 @@
       "name": "USD CASH",
       "ticker": "USD",
       "asset_type": "Cash",
-      "weight": -0.0028,
+      "weight": -0.0026,
       "location": "United States",
       "company": null
     }

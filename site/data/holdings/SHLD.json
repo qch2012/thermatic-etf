@@ -1,39 +1,170 @@
 {
   "ticker": "SHLD",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-25T05:04:14.243806+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-26T04:22:50.699595+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/shld_full-holdings_{date}.csv",
   "holdings": [
     {
+      "name": "BITTIUM OYJ",
+      "ticker": "BITTI FH",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "sedol": "5792982",
+      "company": "name:bittium"
+    },
+    {
+      "name": "VOYAGER TECHNOLOGIES INC-A",
+      "ticker": "VOYG",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "sedol": "BQMJ1G9",
+      "company": "cusip:92892B103"
+    },
+    {
+      "name": "BIGBEAR.AI HOLDINGS INC",
+      "ticker": "BBAI",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "BM92RJ8",
+      "company": "cusip:08975B109"
+    },
+    {
+      "name": "ELECTRO OPTIC SYSTEMS HOLDIN",
+      "ticker": "EOS AU",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "6293990",
+      "company": "name:electro optic systems holdin"
+    },
+    {
+      "name": "AUSTAL LTD",
+      "ticker": "ASB AU",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "6137162",
+      "company": "name:austal"
+    },
+    {
+      "name": "DRONESHIELD LTD",
+      "ticker": "DRO AU",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "BYV1JW4",
+      "company": "name:droneshield@australia"
+    },
+    {
+      "name": "KRAKEN ROBOTICS INC",
+      "ticker": "PNG CN",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "sedol": "BD6NK36",
+      "company": "name:kraken robotics@canada"
+    },
+    {
+      "name": "BLACKSKY TECHNOLOGY INC",
+      "ticker": "BKSY",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "BSQNQM2",
+      "company": "cusip:09263B207"
+    },
+    {
+      "name": "YORK SPACE SYSTEMS INC",
+      "ticker": "YSS",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BV4MN09",
+      "company": "cusip:987084100"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0006,
+      "company": null
+    },
+    {
+      "name": "RED CAT HOLDINGS INC",
+      "ticker": "RCAT",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BJBLT85",
+      "company": "cusip:75644T100"
+    },
+    {
+      "name": "ARYT INDUSTRIES LTD",
+      "ticker": "ARYT IT",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "sedol": "6049740",
+      "company": "name:aryt industries"
+    },
+    {
+      "name": "ELSIGHT LTD",
+      "ticker": "ELS AU",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "sedol": "BD36ZB1",
+      "company": "name:elsight"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
+      "name": "EURO",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "TURKISH LIRA",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "ISRAELI SHEKEL",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
       "name": "PALANTIR TECHNOLOGIES INC-A",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.106,
+      "weight": 0.1068,
       "sedol": "BN78DQ4",
       "company": "cusip:69608A108"
-    },
-    {
-      "name": "RTX CORPORATION",
-      "ticker": "RTX",
-      "asset_type": "Equity",
-      "weight": 0.0992,
-      "sedol": "BM5M5Y3",
-      "company": "cusip:75513E101"
     },
     {
       "name": "LOCKHEED MARTIN CORP",
       "ticker": "LMT",
       "asset_type": "Equity",
-      "weight": 0.0991,
+      "weight": 0.1005,
       "sedol": "2522096",
       "company": "cusip:539830109"
+    },
+    {
+      "name": "RTX CORPORATION",
+      "ticker": "RTX",
+      "asset_type": "Equity",
+      "weight": 0.0989,
+      "sedol": "BM5M5Y3",
+      "company": "cusip:75513E101"
     },
     {
       "name": "GENERAL DYNAMICS CORP",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.0921,
+      "weight": 0.0937,
       "sedol": "2365161",
       "company": "cusip:369550108"
     },
@@ -41,7 +172,7 @@
       "name": "NORTHROP GRUMMAN CORP",
       "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0892,
+      "weight": 0.0894,
       "sedol": "2648806",
       "company": "cusip:666807102"
     },
@@ -49,7 +180,7 @@
       "name": "BAE SYSTEMS PLC",
       "ticker": "BA/ LN",
       "asset_type": "Equity",
-      "weight": 0.0459,
+      "weight": 0.045,
       "sedol": "0263494",
       "company": "cusip:05523R107"
     },
@@ -57,7 +188,7 @@
       "name": "L3HARRIS TECHNOLOGIES INC",
       "ticker": "LHX",
       "asset_type": "Equity",
-      "weight": 0.0417,
+      "weight": 0.042,
       "sedol": "BK9DTN5",
       "company": "cusip:502431109"
     },
@@ -65,7 +196,7 @@
       "name": "THALES SA",
       "ticker": "HO FP",
       "asset_type": "Equity",
-      "weight": 0.0375,
+      "weight": 0.0369,
       "sedol": "4162791",
       "company": "cusip:883219206"
     },
@@ -73,7 +204,7 @@
       "name": "SAAB AB-B",
       "ticker": "SAABB SS",
       "asset_type": "Equity",
-      "weight": 0.0368,
+      "weight": 0.036,
       "sedol": "BPXZH27",
       "company": "cusip:W72838175"
     },
@@ -81,7 +212,7 @@
       "name": "LEONARDO SPA",
       "ticker": "LDO IM",
       "asset_type": "Equity",
-      "weight": 0.036,
+      "weight": 0.0355,
       "sedol": "B0DJNG0",
       "company": "cusip:52660W101"
     },
@@ -89,7 +220,7 @@
       "name": "ELBIT SYSTEMS LTD",
       "ticker": "ESLT IT",
       "asset_type": "Equity",
-      "weight": 0.0304,
+      "weight": 0.0297,
       "sedol": "6308913",
       "company": "cusip:M3760D101"
     },
@@ -97,7 +228,7 @@
       "name": "RHEINMETALL AG",
       "ticker": "RHM GR",
       "asset_type": "Equity",
-      "weight": 0.0285,
+      "weight": 0.0283,
       "sedol": "5334588",
       "company": "cusip:76206K107"
     },
@@ -105,7 +236,7 @@
       "name": "LEIDOS HOLDINGS INC",
       "ticker": "LDOS",
       "asset_type": "Equity",
-      "weight": 0.0266,
+      "weight": 0.0268,
       "sedol": "BDV82B8",
       "company": "cusip:525327102"
     },
@@ -121,7 +252,7 @@
       "name": "KONGSBERG GRUPPEN ASA",
       "ticker": "KOG NO",
       "asset_type": "Equity",
-      "weight": 0.0231,
+      "weight": 0.0228,
       "sedol": "BSTRB82",
       "company": "name:kongsberg gruppen@norway"
     },
@@ -129,7 +260,7 @@
       "name": "HUNTINGTON INGALLS INDUSTRIE",
       "ticker": "HII",
       "asset_type": "Equity",
-      "weight": 0.019,
+      "weight": 0.0192,
       "sedol": "B40SSC9",
       "company": "cusip:446413106"
     },
@@ -145,7 +276,7 @@
       "name": "MOOG INC-CLASS A",
       "ticker": "MOG/A",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0153,
       "sedol": "2601218",
       "company": "cusip:615394202"
     },
@@ -153,31 +284,31 @@
       "name": "BABCOCK INTL GROUP PLC",
       "ticker": "BAB LN",
       "asset_type": "Equity",
-      "weight": 0.0104,
+      "weight": 0.0102,
       "sedol": "0969703",
       "company": "name:babcock intl group"
-    },
-    {
-      "name": "DASSAULT AVIATION SA",
-      "ticker": "AM FP",
-      "asset_type": "Equity",
-      "weight": 0.0093,
-      "sedol": "BMT9L19",
-      "company": "cusip:F24539102"
     },
     {
       "name": "PARSONS CORP",
       "ticker": "PSN",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0093,
       "sedol": "BJN4N02",
       "company": "cusip:70202L102"
+    },
+    {
+      "name": "DASSAULT AVIATION SA",
+      "ticker": "AM FP",
+      "asset_type": "Equity",
+      "weight": 0.009,
+      "sedol": "BMT9L19",
+      "company": "cusip:F24539102"
     },
     {
       "name": "KRATOS DEFENSE & SECURITY",
       "ticker": "KTOS",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0088,
       "sedol": "2512149",
       "company": "cusip:50077B207"
     },
@@ -185,7 +316,7 @@
       "name": "HENSOLDT AG",
       "ticker": "HAG GR",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0085,
       "sedol": "BN0SDX8",
       "company": "cusip:42701C107"
     },
@@ -193,7 +324,7 @@
       "name": "AMENTUM HOLDINGS INC",
       "ticker": "AMTM",
       "asset_type": "Equity",
-      "weight": 0.0082,
+      "weight": 0.0081,
       "sedol": "BMZLFJ5",
       "company": "cusip:023939101"
     },
@@ -201,7 +332,7 @@
       "name": "KOREA AEROSPACE INDUSTRIES",
       "ticker": "047810 KS",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.0079,
       "sedol": "B3N3363",
       "company": "name:korea aerospace industries@south korea"
     },
@@ -214,34 +345,34 @@
       "company": "cusip:589378108"
     },
     {
-      "name": "ASELSAN ELEKTRONIK SANAYI",
-      "ticker": "ASELS TI",
+      "name": "LIG DEFENSE&AEROSPACE CO LTD",
+      "ticker": "079550 KS",
       "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "B03MP41",
-      "company": "name:aselsan elektronik sanayi"
+      "weight": 0.0058,
+      "sedol": "BZ0RDZ1",
+      "company": "name:lig defense aerospace@south korea"
     },
     {
       "name": "AEROVIRONMENT INC",
       "ticker": "AVAV",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0057,
       "sedol": "B1P5YY8",
       "company": "cusip:008073108"
     },
     {
-      "name": "LIG DEFENSE&AEROSPACE CO LTD",
-      "ticker": "079550 KS",
+      "name": "ASELSAN ELEKTRONIK SANAYI",
+      "ticker": "ASELS TI",
       "asset_type": "Equity",
-      "weight": 0.0056,
-      "sedol": "BZ0RDZ1",
-      "company": "name:lig defense aerospace@south korea"
+      "weight": 0.0057,
+      "sedol": "B03MP41",
+      "company": "name:aselsan elektronik sanayi"
     },
     {
       "name": "OSI SYSTEMS INC",
       "ticker": "OSIS",
       "asset_type": "Equity",
-      "weight": 0.0049,
+      "weight": 0.005,
       "sedol": "2111579",
       "company": "cusip:671044105"
     },
@@ -265,7 +396,7 @@
       "name": "HANWHA SYSTEMS CO LTD",
       "ticker": "272210 KS",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0043,
       "sedol": "BJN3H96",
       "company": "name:hanwha systems@south korea"
     },
@@ -273,7 +404,7 @@
       "name": "QINETIQ GROUP PLC",
       "ticker": "QQ/ LN",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0036,
       "sedol": "B0WMWD0",
       "company": "cusip:G7303P106"
     },
@@ -308,144 +439,6 @@
       "weight": 0.002,
       "sedol": "B06BGH5",
       "company": "cusip:F4606F100"
-    },
-    {
-      "name": "RED CAT HOLDINGS INC",
-      "ticker": "RCAT",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BJBLT85",
-      "company": "cusip:75644T100"
-    },
-    {
-      "name": "ARYT INDUSTRIES LTD",
-      "ticker": "ARYT IT",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "6049740",
-      "company": "name:aryt industries"
-    },
-    {
-      "name": "ELSIGHT LTD",
-      "ticker": "ELS AU",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BD36ZB1",
-      "company": "name:elsight"
-    },
-    {
-      "name": "EURO",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "TURKISH LIRA",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "ISRAELI SHEKEL",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0009,
-      "company": null
-    },
-    {
-      "name": "BITTIUM OYJ",
-      "ticker": "BITTI FH",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "sedol": "5792982",
-      "company": "name:bittium"
-    },
-    {
-      "name": "VOYAGER TECHNOLOGIES INC-A",
-      "ticker": "VOYG",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "sedol": "BQMJ1G9",
-      "company": "cusip:92892B103"
-    },
-    {
-      "name": "ELECTRO OPTIC SYSTEMS HOLDIN",
-      "ticker": "EOS AU",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "6293990",
-      "company": "name:electro optic systems holdin"
-    },
-    {
-      "name": "BIGBEAR.AI HOLDINGS INC",
-      "ticker": "BBAI",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "BM92RJ8",
-      "company": "cusip:08975B109"
-    },
-    {
-      "name": "KOREAN WON",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0011,
-      "company": null
-    },
-    {
-      "name": "AUSTAL LTD",
-      "ticker": "ASB AU",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "sedol": "6137162",
-      "company": "name:austal"
-    },
-    {
-      "name": "DRONESHIELD LTD",
-      "ticker": "DRO AU",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "sedol": "BYV1JW4",
-      "company": "name:droneshield@australia"
-    },
-    {
-      "name": "BLACKSKY TECHNOLOGY INC",
-      "ticker": "BKSY",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BSQNQM2",
-      "company": "cusip:09263B207"
-    },
-    {
-      "name": "KRAKEN ROBOTICS INC",
-      "ticker": "PNG CN",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BD6NK36",
-      "company": "name:kraken robotics@canada"
-    },
-    {
-      "name": "YORK SPACE SYSTEMS INC",
-      "ticker": "YSS",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BV4MN09",
-      "company": "cusip:987084100"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0006,
-      "company": null
     }
   ]
 }

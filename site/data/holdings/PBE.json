@@ -1,7 +1,7 @@
 {
   "ticker": "PBE",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:04:09.203017+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:45.541348+00:00",
   "stale": false,
   "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46137V787/holdings/fund?idType=cusip&productType=ETF",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Biogen Inc",
       "ticker": "BIIB",
       "asset_type": "Equity",
-      "weight": 0.05987351,
+      "weight": 0.06032343,
       "cusip": "09062X103",
       "company": "cusip:09062X103"
     },
@@ -17,7 +17,7 @@
       "name": "Gilead Sciences Inc",
       "ticker": "GILD",
       "asset_type": "Equity",
-      "weight": 0.05903955,
+      "weight": 0.05930355,
       "cusip": "375558103",
       "company": "cusip:375558103"
     },
@@ -25,7 +25,7 @@
       "name": "Regeneron Pharmaceuticals Inc",
       "ticker": "REGN",
       "asset_type": "Equity",
-      "weight": 0.05825416,
+      "weight": 0.05864982,
       "cusip": "75886F107",
       "company": "cusip:75886F107"
     },
@@ -33,7 +33,7 @@
       "name": "Royalty Pharma PLC",
       "ticker": "RPRX",
       "asset_type": "Equity",
-      "weight": 0.05791256,
+      "weight": 0.05703841,
       "cusip": "G7709Q104",
       "company": "cusip:G7709Q104"
     },
@@ -41,7 +41,7 @@
       "name": "Amgen Inc",
       "ticker": "AMGN",
       "asset_type": "Equity",
-      "weight": 0.05257537,
+      "weight": 0.05331544,
       "cusip": "031162100",
       "company": "cusip:031162100"
     },
@@ -49,7 +49,7 @@
       "name": "Vertex Pharmaceuticals Inc",
       "ticker": "VRTX",
       "asset_type": "Equity",
-      "weight": 0.05015259,
+      "weight": 0.05047277,
       "cusip": "92532F100",
       "company": "cusip:92532F100"
     },
@@ -57,7 +57,7 @@
       "name": "Illumina Inc",
       "ticker": "ILMN",
       "asset_type": "Equity",
-      "weight": 0.04697591,
+      "weight": 0.04498095,
       "cusip": "452327109",
       "company": "cusip:452327109"
     },
@@ -65,47 +65,47 @@
       "name": "Natera Inc",
       "ticker": "NTRA",
       "asset_type": "Equity",
-      "weight": 0.04471205,
+      "weight": 0.04391881,
       "cusip": "632307104",
       "company": "cusip:632307104"
-    },
-    {
-      "name": "Vericel Corp",
-      "ticker": "VCEL",
-      "asset_type": "Equity",
-      "weight": 0.03833788,
-      "cusip": "92346J108",
-      "company": "cusip:92346J108"
     },
     {
       "name": "Moderna Inc",
       "ticker": "MRNA",
       "asset_type": "Equity",
-      "weight": 0.03750001,
+      "weight": 0.03864098,
       "cusip": "60770K107",
       "company": "cusip:60770K107"
     },
     {
-      "name": "Exelixis Inc",
-      "ticker": "EXEL",
+      "name": "Vericel Corp",
+      "ticker": "VCEL",
       "asset_type": "Equity",
-      "weight": 0.03308574,
-      "cusip": "30161Q104",
-      "company": "cusip:30161Q104"
+      "weight": 0.03820761,
+      "cusip": "92346J108",
+      "company": "cusip:92346J108"
     },
     {
       "name": "TG Therapeutics Inc",
       "ticker": "TGTX",
       "asset_type": "Equity",
-      "weight": 0.03242712,
+      "weight": 0.0341558,
       "cusip": "88322Q108",
       "company": "cusip:88322Q108"
+    },
+    {
+      "name": "Exelixis Inc",
+      "ticker": "EXEL",
+      "asset_type": "Equity",
+      "weight": 0.03209819,
+      "cusip": "30161Q104",
+      "company": "cusip:30161Q104"
     },
     {
       "name": "QIAGEN NV",
       "ticker": "QGEN",
       "asset_type": "Equity",
-      "weight": 0.03171939,
+      "weight": 0.03057177,
       "cusip": "N72482156",
       "company": "cusip:N72482156"
     },
@@ -113,7 +113,7 @@
       "name": "United Therapeutics Corp",
       "ticker": "UTHR",
       "asset_type": "Equity",
-      "weight": 0.03029507,
+      "weight": 0.03046613,
       "cusip": "91307C102",
       "company": "cusip:91307C102"
     },
@@ -121,7 +121,7 @@
       "name": "Neurocrine Biosciences Inc",
       "ticker": "NBIX",
       "asset_type": "Equity",
-      "weight": 0.02894554,
+      "weight": 0.02876783,
       "cusip": "64125C109",
       "company": "cusip:64125C109"
     },
@@ -129,55 +129,71 @@
       "name": "BioMarin Pharmaceutical Inc",
       "ticker": "BMRN",
       "asset_type": "Equity",
-      "weight": 0.02658028,
+      "weight": 0.0270891,
       "cusip": "09061G101",
       "company": "cusip:09061G101"
-    },
-    {
-      "name": "Repligen Corp",
-      "ticker": "RGEN",
-      "asset_type": "Equity",
-      "weight": 0.02606968,
-      "cusip": "759916109",
-      "company": "cusip:759916109"
     },
     {
       "name": "Incyte Corp",
       "ticker": "INCY",
       "asset_type": "Equity",
-      "weight": 0.02540496,
+      "weight": 0.02571896,
       "cusip": "45337C102",
       "company": "cusip:45337C102"
+    },
+    {
+      "name": "Repligen Corp",
+      "ticker": "RGEN",
+      "asset_type": "Equity",
+      "weight": 0.02501818,
+      "cusip": "759916109",
+      "company": "cusip:759916109"
     },
     {
       "name": "Collegium Pharmaceutical Inc",
       "ticker": "COLL",
       "asset_type": "Equity",
-      "weight": 0.02522142,
+      "weight": 0.02464292,
       "cusip": "19459J104",
       "company": "cusip:19459J104"
-    },
-    {
-      "name": "Halozyme Therapeutics Inc",
-      "ticker": "HALO",
-      "asset_type": "Equity",
-      "weight": 0.02416603,
-      "cusip": "40637H109",
-      "company": "cusip:40637H109"
     },
     {
       "name": "Protagonist Therapeutics Inc",
       "ticker": "PTGX",
       "asset_type": "Equity",
-      "weight": 0.02337927,
+      "weight": 0.02429068,
       "cusip": "74366E102",
       "company": "cusip:74366E102"
+    },
+    {
+      "name": "Halozyme Therapeutics Inc",
+      "ticker": "HALO",
+      "asset_type": "Equity",
+      "weight": 0.02345289,
+      "cusip": "40637H109",
+      "company": "cusip:40637H109"
+    },
+    {
+      "name": "AnaptysBio Inc",
+      "ticker": "ANAB",
+      "asset_type": "Equity",
+      "weight": 0.02318538,
+      "cusip": "032724106",
+      "company": "cusip:032724106"
+    },
+    {
+      "name": "PTC Therapeutics Inc",
+      "ticker": "PTCT",
+      "asset_type": "Equity",
+      "weight": 0.02309307,
+      "cusip": "69366J200",
+      "company": "cusip:69366J200"
     },
     {
       "name": "Novavax Inc",
       "ticker": "NVAX",
       "asset_type": "Equity",
-      "weight": 0.02326443,
+      "weight": 0.02275952,
       "cusip": "670002401",
       "company": "cusip:670002401"
     },
@@ -185,31 +201,23 @@
       "name": "Ardelyx Inc",
       "ticker": "ARDX",
       "asset_type": "Equity",
-      "weight": 0.02295749,
+      "weight": 0.02256406,
       "cusip": "039697107",
       "company": "cusip:039697107"
     },
     {
-      "name": "PTC Therapeutics Inc",
-      "ticker": "PTCT",
+      "name": "Legend Biotech Corp",
+      "ticker": "LEGN",
       "asset_type": "Equity",
-      "weight": 0.022736,
-      "cusip": "69366J200",
-      "company": "cusip:69366J200"
-    },
-    {
-      "name": "AnaptysBio Inc",
-      "ticker": "ANAB",
-      "asset_type": "Equity",
-      "weight": 0.0223679,
-      "cusip": "032724106",
-      "company": "cusip:032724106"
+      "weight": 0.02240404,
+      "cusip": "52490G102",
+      "company": "cusip:52490G102"
     },
     {
       "name": "Sarepta Therapeutics Inc",
       "ticker": "SRPT",
       "asset_type": "Equity",
-      "weight": 0.02131548,
+      "weight": 0.02152753,
       "cusip": "803607100",
       "company": "cusip:803607100"
     },
@@ -217,23 +225,15 @@
       "name": "BioCryst Pharmaceuticals Inc",
       "ticker": "BCRX",
       "asset_type": "Equity",
-      "weight": 0.02122723,
+      "weight": 0.02100536,
       "cusip": "09058V103",
       "company": "cusip:09058V103"
-    },
-    {
-      "name": "Legend Biotech Corp",
-      "ticker": "LEGN",
-      "asset_type": "Equity",
-      "weight": 0.02083229,
-      "cusip": "52490G102",
-      "company": "cusip:52490G102"
     },
     {
       "name": "Veracyte Inc",
       "ticker": "VCYT",
       "asset_type": "Equity",
-      "weight": 0.01654164,
+      "weight": 0.01629638,
       "cusip": "92337F107",
       "company": "cusip:92337F107"
     },
@@ -241,7 +241,7 @@
       "name": "ACADIA Pharmaceuticals Inc",
       "ticker": "ACAD",
       "asset_type": "Equity",
-      "weight": 0.0162329,
+      "weight": 0.01613986,
       "cusip": "004225108",
       "company": "cusip:004225108"
     },
@@ -256,7 +256,7 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "USD",
       "asset_type": "Currency",
-      "weight": -0.00010344,
+      "weight": -9.942e-05,
       "company": null
     },
     {

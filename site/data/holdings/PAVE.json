@@ -1,10 +1,32 @@
 {
   "ticker": "PAVE",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-25T05:04:08.923080+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-26T04:22:44.932638+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/pave_full-holdings_{date}.csv",
   "holdings": [
+    {
+      "name": "LEGENCE CORP-CL A",
+      "ticker": "LGN",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "sedol": "BT6CC17",
+      "company": "cusip:52476L109"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0006,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0004,
+      "company": null
+    },
     {
       "name": "FASTENAL CO",
       "ticker": "FAST",
@@ -17,71 +39,71 @@
       "name": "EMERSON ELECTRIC CO",
       "ticker": "EMR",
       "asset_type": "Equity",
-      "weight": 0.0371,
+      "weight": 0.0367,
       "sedol": "2313405",
       "company": "cusip:291011104"
-    },
-    {
-      "name": "NUCOR CORP",
-      "ticker": "NUE",
-      "asset_type": "Equity",
-      "weight": 0.0352,
-      "sedol": "2651086",
-      "company": "name:nucor@united states"
     },
     {
       "name": "DEERE & CO",
       "ticker": "DE",
       "asset_type": "Equity",
-      "weight": 0.0345,
+      "weight": 0.0356,
       "sedol": "2261203",
       "company": "cusip:244199105"
     },
     {
-      "name": "UNION PACIFIC CORP",
-      "ticker": "UNP",
+      "name": "NUCOR CORP",
+      "ticker": "NUE",
       "asset_type": "Equity",
-      "weight": 0.0327,
-      "sedol": "2914734",
-      "company": "name:union pacific@united states"
+      "weight": 0.0349,
+      "sedol": "2651086",
+      "company": "name:nucor@united states"
     },
     {
       "name": "CRH PLC",
       "ticker": "CRH",
       "asset_type": "Equity",
-      "weight": 0.0327,
+      "weight": 0.0336,
       "sedol": "B01ZKD6",
       "company": "name:crh"
+    },
+    {
+      "name": "UNION PACIFIC CORP",
+      "ticker": "UNP",
+      "asset_type": "Equity",
+      "weight": 0.0332,
+      "sedol": "2914734",
+      "company": "name:union pacific@united states"
     },
     {
       "name": "CSX CORP",
       "ticker": "CSX",
       "asset_type": "Equity",
-      "weight": 0.0325,
+      "weight": 0.0328,
       "sedol": "2160753",
       "company": "name:csx@united states"
-    },
-    {
-      "name": "PARKER HANNIFIN CORP",
-      "ticker": "PH",
-      "asset_type": "Equity",
-      "weight": 0.0315,
-      "sedol": "2671501",
-      "company": "cusip:701094104"
     },
     {
       "name": "NORFOLK SOUTHERN CORP",
       "ticker": "NSC",
       "asset_type": "Equity",
-      "weight": 0.0313,
+      "weight": 0.0317,
       "sedol": "2641894",
       "company": "name:norfolk southern@united states"
+    },
+    {
+      "name": "PARKER HANNIFIN CORP",
+      "ticker": "PH",
+      "asset_type": "Equity",
+      "weight": 0.0308,
+      "sedol": "2671501",
+      "company": "cusip:701094104"
     },
     {
       "name": "UNITED RENTALS INC",
       "ticker": "URI",
       "asset_type": "Equity",
-      "weight": 0.031,
+      "weight": 0.0302,
       "sedol": "2134781",
       "company": "cusip:911363109"
     },
@@ -89,31 +111,31 @@
       "name": "QUANTA SERVICES INC",
       "ticker": "PWR",
       "asset_type": "Equity",
-      "weight": 0.0309,
+      "weight": 0.0293,
       "sedol": "2150204",
       "company": "cusip:74762E102"
-    },
-    {
-      "name": "TRANE TECHNOLOGIES PLC",
-      "ticker": "TT",
-      "asset_type": "Equity",
-      "weight": 0.0289,
-      "sedol": "BK9ZQ96",
-      "company": "name:trane technologies"
     },
     {
       "name": "SEMPRA",
       "ticker": "SRE",
       "asset_type": "Equity",
-      "weight": 0.0289,
+      "weight": 0.0287,
       "sedol": "2138158",
       "company": "cusip:816851109"
+    },
+    {
+      "name": "TRANE TECHNOLOGIES PLC",
+      "ticker": "TT",
+      "asset_type": "Equity",
+      "weight": 0.0285,
+      "sedol": "BK9ZQ96",
+      "company": "name:trane technologies"
     },
     {
       "name": "ROCKWELL AUTOMATION INC",
       "ticker": "ROK",
       "asset_type": "Equity",
-      "weight": 0.0284,
+      "weight": 0.0283,
       "sedol": "2754060",
       "company": "cusip:773903109"
     },
@@ -121,7 +143,7 @@
       "name": "EATON CORP PLC",
       "ticker": "ETN",
       "asset_type": "Equity",
-      "weight": 0.0263,
+      "weight": 0.0259,
       "sedol": "B8KQN82",
       "company": "cusip:G29183103"
     },
@@ -129,7 +151,7 @@
       "name": "HOWMET AEROSPACE INC",
       "ticker": "HWM",
       "asset_type": "Equity",
-      "weight": 0.0252,
+      "weight": 0.0249,
       "sedol": "BKLJ8V2",
       "company": "cusip:443201108"
     },
@@ -137,7 +159,7 @@
       "name": "VULCAN MATERIALS CO",
       "ticker": "VMC",
       "asset_type": "Equity",
-      "weight": 0.0237,
+      "weight": 0.0239,
       "sedol": "2931205",
       "company": "name:vulcan materials@united states"
     },
@@ -145,7 +167,7 @@
       "name": "MARTIN MARIETTA MATERIALS",
       "ticker": "MLM",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.0204,
       "sedol": "2572079",
       "company": "name:martin marietta materials@united states"
     },
@@ -153,7 +175,7 @@
       "name": "STEEL DYNAMICS INC",
       "ticker": "STLD",
       "asset_type": "Equity",
-      "weight": 0.0199,
+      "weight": 0.0198,
       "sedol": "2849472",
       "company": "name:steel dynamics@united states"
     },
@@ -161,31 +183,31 @@
       "name": "EMCOR GROUP INC",
       "ticker": "EME",
       "asset_type": "Equity",
-      "weight": 0.018,
+      "weight": 0.0177,
       "sedol": "2474164",
       "company": "name:emcor group@united states"
-    },
-    {
-      "name": "ATI INC",
-      "ticker": "ATI",
-      "asset_type": "Equity",
-      "weight": 0.0148,
-      "sedol": "2526117",
-      "company": "cusip:01741R102"
     },
     {
       "name": "AMRIZE LTD",
       "ticker": "AMRZ",
       "asset_type": "Equity",
-      "weight": 0.0146,
+      "weight": 0.0152,
       "sedol": "BV5F675",
       "company": "name:amrize@united states"
+    },
+    {
+      "name": "ATI INC",
+      "ticker": "ATI",
+      "asset_type": "Equity",
+      "weight": 0.0152,
+      "sedol": "2526117",
+      "company": "cusip:01741R102"
     },
     {
       "name": "HUBBELL INC",
       "ticker": "HUBB",
       "asset_type": "Equity",
-      "weight": 0.0143,
+      "weight": 0.0144,
       "sedol": "BDFG6S3",
       "company": "cusip:443510607"
     },
@@ -193,7 +215,7 @@
       "name": "RELIANCE INC",
       "ticker": "RS",
       "asset_type": "Equity",
-      "weight": 0.0135,
+      "weight": 0.0134,
       "sedol": "2729068",
       "company": "name:reliance"
     },
@@ -201,7 +223,7 @@
       "name": "WOODWARD INC",
       "ticker": "WWD",
       "asset_type": "Equity",
-      "weight": 0.0129,
+      "weight": 0.013,
       "sedol": "2948089",
       "company": "cusip:980745103"
     },
@@ -209,7 +231,7 @@
       "name": "FORTIVE CORP",
       "ticker": "FTV",
       "asset_type": "Equity",
-      "weight": 0.0129,
+      "weight": 0.0128,
       "sedol": "BYT3MK1",
       "company": "cusip:34959J108"
     },
@@ -217,7 +239,7 @@
       "name": "JACOBS SOLUTIONS INC",
       "ticker": "J",
       "asset_type": "Equity",
-      "weight": 0.0115,
+      "weight": 0.0109,
       "sedol": "BNGC0D3",
       "company": "cusip:46982L108"
     },
@@ -225,7 +247,7 @@
       "name": "IDEX CORP",
       "ticker": "IEX",
       "asset_type": "Equity",
-      "weight": 0.0107,
+      "weight": 0.0106,
       "sedol": "2456612",
       "company": "cusip:45167R104"
     },
@@ -233,7 +255,7 @@
       "name": "CARLISLE COS INC",
       "ticker": "CSL",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0106,
       "sedol": "2176318",
       "company": "name:carlisle cos"
     },
@@ -257,7 +279,7 @@
       "name": "LINCOLN ELECTRIC HOLDINGS",
       "ticker": "LECO",
       "asset_type": "Equity",
-      "weight": 0.009,
+      "weight": 0.0089,
       "sedol": "2516851",
       "company": "cusip:533900106"
     },
@@ -265,17 +287,9 @@
       "name": "RPM INTERNATIONAL INC",
       "ticker": "RPM",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0087,
       "sedol": "2756174",
       "company": "name:rpm international"
-    },
-    {
-      "name": "CARPENTER TECHNOLOGY",
-      "ticker": "CRS",
-      "asset_type": "Equity",
-      "weight": 0.0083,
-      "sedol": "2177504",
-      "company": "cusip:144285103"
     },
     {
       "name": "TRIMBLE INC",
@@ -284,6 +298,14 @@
       "weight": 0.0082,
       "sedol": "2903958",
       "company": "cusip:896239100"
+    },
+    {
+      "name": "CARPENTER TECHNOLOGY",
+      "ticker": "CRS",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "sedol": "2177504",
+      "company": "cusip:144285103"
     },
     {
       "name": "CRANE CO",
@@ -302,14 +324,6 @@
       "company": "cusip:576323109"
     },
     {
-      "name": "GRACO INC",
-      "ticker": "GGG",
-      "asset_type": "Equity",
-      "weight": 0.0075,
-      "sedol": "2380443",
-      "company": "name:graco"
-    },
-    {
       "name": "MUELLER INDUSTRIES INC",
       "ticker": "MLI",
       "asset_type": "Equity",
@@ -321,31 +335,39 @@
       "name": "PENTAIR PLC",
       "ticker": "PNR",
       "asset_type": "Equity",
-      "weight": 0.0074,
+      "weight": 0.0075,
       "sedol": "BLS09M3",
       "company": "cusip:G7S00T104"
     },
     {
-      "name": "REGAL REXNORD CORP",
-      "ticker": "RRX",
+      "name": "GRACO INC",
+      "ticker": "GGG",
       "asset_type": "Equity",
-      "weight": 0.0067,
-      "sedol": "2730082",
-      "company": "name:regal rexnord"
+      "weight": 0.0074,
+      "sedol": "2380443",
+      "company": "name:graco"
     },
     {
       "name": "AECOM",
       "ticker": "ACM",
       "asset_type": "Equity",
-      "weight": 0.0067,
+      "weight": 0.0068,
       "sedol": "B1VZ431",
       "company": "cusip:00766T100"
+    },
+    {
+      "name": "REGAL REXNORD CORP",
+      "ticker": "RRX",
+      "asset_type": "Equity",
+      "weight": 0.0068,
+      "sedol": "2730082",
+      "company": "name:regal rexnord"
     },
     {
       "name": "TETRA TECH INC",
       "ticker": "TTEK",
       "asset_type": "Equity",
-      "weight": 0.0062,
+      "weight": 0.0063,
       "sedol": "2883890",
       "company": "cusip:88162G103"
     },
@@ -353,25 +375,25 @@
       "name": "ACUITY INC",
       "ticker": "AYI",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.006,
       "sedol": "2818461",
       "company": "cusip:00508Y102"
-    },
-    {
-      "name": "ALCOA CORP",
-      "ticker": "AA",
-      "asset_type": "Equity",
-      "weight": 0.0058,
-      "sedol": "BYNF418",
-      "company": "name:alcoa"
     },
     {
       "name": "ADVANCED DRAINAGE SYSTEMS IN",
       "ticker": "WMS",
       "asset_type": "Equity",
-      "weight": 0.0057,
+      "weight": 0.0059,
       "sedol": "BP7RS59",
       "company": "name:advanced drainage systems in"
+    },
+    {
+      "name": "ALCOA CORP",
+      "ticker": "AA",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "sedol": "BYNF418",
+      "company": "name:alcoa"
     },
     {
       "name": "EXPONENT INC",
@@ -390,20 +412,20 @@
       "company": "cusip:920253101"
     },
     {
-      "name": "STERLING INFRASTRUCTURE INC",
-      "ticker": "STRL",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "sedol": "2632876",
-      "company": "cusip:859241101"
-    },
-    {
       "name": "WESTLAKE CORPORATION",
       "ticker": "WLK",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0051,
       "sedol": "B01ZP20",
       "company": "name:westlake@united states"
+    },
+    {
+      "name": "STERLING INFRASTRUCTURE INC",
+      "ticker": "STRL",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "2632876",
+      "company": "cusip:859241101"
     },
     {
       "name": "ZURN ELKAY WATER SOLUTIONS CORPORATION",
@@ -417,7 +439,7 @@
       "name": "BADGER METER INC",
       "ticker": "BMI",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0047,
       "sedol": "2069128",
       "company": "cusip:056525108"
     },
@@ -441,9 +463,17 @@
       "name": "BUILDERS FIRSTSOURCE INC",
       "ticker": "BLDR",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0042,
       "sedol": "B0BV2M7",
       "company": "name:builders firstsource@united states"
+    },
+    {
+      "name": "CLEVELAND-CLIFFS INC",
+      "ticker": "CLF",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "BYVZ186",
+      "company": "name:cleveland cliffs@united states"
     },
     {
       "name": "COLUMBUS MCKINNON CORP/NY",
@@ -454,28 +484,12 @@
       "company": "name:columbus mckinnon corp ny"
     },
     {
-      "name": "CLEVELAND-CLIFFS INC",
-      "ticker": "CLF",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "sedol": "BYVZ186",
-      "company": "name:cleveland cliffs@united states"
-    },
-    {
       "name": "COMMERCIAL METALS CO",
       "ticker": "CMC",
       "asset_type": "Equity",
       "weight": 0.004,
       "sedol": "2213260",
       "company": "name:commercial metals@united states"
-    },
-    {
-      "name": "TITAN MACHINERY INC",
-      "ticker": "TITN",
-      "asset_type": "Equity",
-      "weight": 0.0037,
-      "sedol": "B29H3T5",
-      "company": "name:titan machinery"
     },
     {
       "name": "LOUISIANA-PACIFIC CORP",
@@ -486,20 +500,28 @@
       "company": "name:louisiana pacific@united states"
     },
     {
+      "name": "TITAN MACHINERY INC",
+      "ticker": "TITN",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "sedol": "B29H3T5",
+      "company": "name:titan machinery"
+    },
+    {
+      "name": "EAGLE MATERIALS INC",
+      "ticker": "EXP",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "sedol": "2191399",
+      "company": "name:eagle materials@united states"
+    },
+    {
       "name": "POWELL INDUSTRIES INC",
       "ticker": "POWL",
       "asset_type": "Equity",
       "weight": 0.0036,
       "sedol": "2697422",
       "company": "cusip:739128106"
-    },
-    {
-      "name": "EAGLE MATERIALS INC",
-      "ticker": "EXP",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "sedol": "2191399",
-      "company": "name:eagle materials@united states"
     },
     {
       "name": "TUTOR PERINI CORP",
@@ -510,6 +532,14 @@
       "company": "cusip:901109108"
     },
     {
+      "name": "GRANITE CONSTRUCTION INC",
+      "ticker": "GVA",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "2381189",
+      "company": "name:granite construction@united states"
+    },
+    {
       "name": "DYCOM INDUSTRIES INC",
       "ticker": "DY",
       "asset_type": "Equity",
@@ -518,12 +548,12 @@
       "company": "cusip:267475101"
     },
     {
-      "name": "GRANITE CONSTRUCTION INC",
-      "ticker": "GVA",
+      "name": "CSW INDUSTRIALS INC",
+      "ticker": "CSW",
       "asset_type": "Equity",
       "weight": 0.0034,
-      "sedol": "2381189",
-      "company": "name:granite construction@united states"
+      "sedol": "BYQD1J6",
+      "company": "cusip:126402106"
     },
     {
       "name": "UNITED STATES LIME & MINERAL",
@@ -540,14 +570,6 @@
       "weight": 0.0033,
       "sedol": "B15RZR4",
       "company": "cusip:624758108"
-    },
-    {
-      "name": "CSW INDUSTRIALS INC",
-      "ticker": "CSW",
-      "asset_type": "Equity",
-      "weight": 0.0033,
-      "sedol": "BYQD1J6",
-      "company": "cusip:126402106"
     },
     {
       "name": "FORGENT POWER SOLUTIONS-CL A",
@@ -569,7 +591,7 @@
       "name": "RYERSON HOLDING CORP",
       "ticker": "RYZ",
       "asset_type": "Equity",
-      "weight": 0.0031,
+      "weight": 0.0032,
       "sedol": "B3TPPZ6",
       "company": "name:ryerson holding@united states"
     },
@@ -598,12 +620,12 @@
       "company": "cusip:78475V103"
     },
     {
-      "name": "DXP ENTERPRISES INC",
-      "ticker": "DXPE",
+      "name": "GORMAN-RUPP CO",
+      "ticker": "GRC",
       "asset_type": "Equity",
       "weight": 0.0029,
-      "sedol": "2276627",
-      "company": "cusip:233377407"
+      "sedol": "2379281",
+      "company": "cusip:383082104"
     },
     {
       "name": "HERC HOLDINGS INC",
@@ -614,20 +636,28 @@
       "company": "cusip:42704L104"
     },
     {
-      "name": "GORMAN-RUPP CO",
-      "ticker": "GRC",
+      "name": "DXP ENTERPRISES INC",
+      "ticker": "DXPE",
       "asset_type": "Equity",
       "weight": 0.0029,
-      "sedol": "2379281",
-      "company": "cusip:383082104"
+      "sedol": "2276627",
+      "company": "cusip:233377407"
     },
     {
       "name": "CUSTOM TRUCK ONE SOURCE INC",
       "ticker": "CTOS",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.0028,
       "sedol": "BL66YS4",
       "company": "name:custom truck one source"
+    },
+    {
+      "name": "TRINITY INDUSTRIES INC",
+      "ticker": "TRN",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "2904627",
+      "company": "name:trinity industries@united states"
     },
     {
       "name": "MINERALS TECHNOLOGIES INC",
@@ -638,12 +668,12 @@
       "company": "name:minerals technologies"
     },
     {
-      "name": "INSTEEL INDUSTRIES INC",
-      "ticker": "IIIN",
+      "name": "WABASH NATIONAL CORP",
+      "ticker": "WNC",
       "asset_type": "Equity",
       "weight": 0.0028,
-      "sedol": "2325875",
-      "company": "name:insteel industries@united states"
+      "sedol": "2932048",
+      "company": "name:wabash national"
     },
     {
       "name": "PREFORMED LINE PRODUCTS CO",
@@ -654,12 +684,12 @@
       "company": "cusip:740444104"
     },
     {
-      "name": "TRINITY INDUSTRIES INC",
-      "ticker": "TRN",
+      "name": "INSTEEL INDUSTRIES INC",
+      "ticker": "IIIN",
       "asset_type": "Equity",
       "weight": 0.0027,
-      "sedol": "2904627",
-      "company": "name:trinity industries@united states"
+      "sedol": "2325875",
+      "company": "name:insteel industries@united states"
     },
     {
       "name": "METALLUS INC",
@@ -670,12 +700,12 @@
       "company": "name:metallus@united states"
     },
     {
-      "name": "WABASH NATIONAL CORP",
-      "ticker": "WNC",
+      "name": "CENTURI HOLDINGS INC",
+      "ticker": "CTRI",
       "asset_type": "Equity",
       "weight": 0.0027,
-      "sedol": "2932048",
-      "company": "name:wabash national"
+      "sedol": "BMDPVF7",
+      "company": "name:centuri holdings@united states"
     },
     {
       "name": "MYR GROUP INC/DELAWARE",
@@ -684,14 +714,6 @@
       "weight": 0.0026,
       "sedol": "B3CLS18",
       "company": "name:myr group inc delaware"
-    },
-    {
-      "name": "CENTURI HOLDINGS INC",
-      "ticker": "CTRI",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "sedol": "BMDPVF7",
-      "company": "name:centuri holdings@united states"
     },
     {
       "name": "EVERUS CONSTRUCTION GROUP",
@@ -705,7 +727,7 @@
       "name": "GREENBRIER COMPANIES INC",
       "ticker": "GBX",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "sedol": "2387530",
       "company": "name:greenbrier companies"
     },
@@ -713,7 +735,7 @@
       "name": "ARGAN INC",
       "ticker": "AGX",
       "asset_type": "Equity",
-      "weight": 0.0024,
+      "weight": 0.0025,
       "sedol": "2804501",
       "company": "cusip:04010E109"
     },
@@ -726,20 +748,12 @@
       "company": "cusip:21044C107"
     },
     {
-      "name": "ASTEC INDUSTRIES INC",
-      "ticker": "ASTE",
+      "name": "KNIFE RIVER CORP",
+      "ticker": "KNF",
       "asset_type": "Equity",
       "weight": 0.0023,
-      "sedol": "2060370",
-      "company": "name:astec industries@united states"
-    },
-    {
-      "name": "NWPX INFRASTRUCTURE INC",
-      "ticker": "NWPX",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "sedol": "2035925",
-      "company": "cusip:667746101"
+      "sedol": "BPLL4V5",
+      "company": "name:knife river@united states"
     },
     {
       "name": "GIBRALTAR INDUSTRIES INC",
@@ -750,12 +764,12 @@
       "company": "name:gibraltar industries@united states"
     },
     {
-      "name": "KNIFE RIVER CORP",
-      "ticker": "KNF",
+      "name": "ASTEC INDUSTRIES INC",
+      "ticker": "ASTE",
       "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "BPLL4V5",
-      "company": "name:knife river@united states"
+      "weight": 0.0023,
+      "sedol": "2060370",
+      "company": "name:astec industries@united states"
     },
     {
       "name": "TITAN AMERICA SA",
@@ -766,10 +780,18 @@
       "company": "name:titan america"
     },
     {
+      "name": "NWPX INFRASTRUCTURE INC",
+      "ticker": "NWPX",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "2035925",
+      "company": "cusip:667746101"
+    },
+    {
       "name": "CENTURY ALUMINUM COMPANY",
       "ticker": "CENX",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.0022,
       "sedol": "2186254",
       "company": "name:century aluminum@united states"
     },
@@ -780,28 +802,6 @@
       "weight": 0.0021,
       "sedol": "B1GC200",
       "company": "cusip:74164F103"
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "company": null
-    },
-    {
-      "name": "LEGENCE CORP-CL A",
-      "ticker": "LGN",
-      "asset_type": "Equity",
-      "weight": 0.0017,
-      "sedol": "BT6CC17",
-      "company": "cusip:52476L109"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0007,
-      "company": null
     }
   ]
 }

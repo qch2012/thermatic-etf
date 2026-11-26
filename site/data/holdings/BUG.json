@@ -1,31 +1,52 @@
 {
   "ticker": "BUG",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-25T05:03:45.027791+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-26T04:22:20.257646+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/bug_full-holdings_{date}.csv",
   "holdings": [
     {
-      "name": "CLOUDFLARE INC - CLASS A",
-      "ticker": "NET",
-      "asset_type": "Equity",
-      "weight": 0.0651,
-      "sedol": "BJXC5M2",
-      "company": "cusip:18915M107"
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.001,
+      "company": null
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
+    },
+    {
+      "name": "KOREAN WON",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0001,
+      "company": null
     },
     {
       "name": "OKTA INC",
       "ticker": "OKTA",
       "asset_type": "Equity",
-      "weight": 0.0642,
+      "weight": 0.0646,
       "sedol": "BDFZSP1",
       "company": "cusip:679295105"
+    },
+    {
+      "name": "CLOUDFLARE INC - CLASS A",
+      "ticker": "NET",
+      "asset_type": "Equity",
+      "weight": 0.0635,
+      "sedol": "BJXC5M2",
+      "company": "cusip:18915M107"
     },
     {
       "name": "ZSCALER INC",
       "ticker": "ZS",
       "asset_type": "Equity",
-      "weight": 0.0629,
+      "weight": 0.062,
       "sedol": "BZ00V34",
       "company": "cusip:98980G102"
     },
@@ -33,7 +54,7 @@
       "name": "PALO ALTO NETWORKS INC",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.0621,
+      "weight": 0.062,
       "sedol": "B87ZMX0",
       "company": "cusip:697435105"
     },
@@ -41,7 +62,7 @@
       "name": "FORTINET INC",
       "ticker": "FTNT",
       "asset_type": "Equity",
-      "weight": 0.0599,
+      "weight": 0.0604,
       "sedol": "B5B2106",
       "company": "cusip:34959E109"
     },
@@ -49,7 +70,7 @@
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0538,
+      "weight": 0.0528,
       "sedol": "BJJP138",
       "company": "cusip:22788C105"
     },
@@ -57,15 +78,23 @@
       "name": "SAILPOINT INC",
       "ticker": "SAIL",
       "asset_type": "Equity",
-      "weight": 0.0497,
+      "weight": 0.0511,
       "sedol": "BRXZ3P6",
       "company": "cusip:78781J109"
+    },
+    {
+      "name": "NETSKOPE INC-CL A",
+      "ticker": "NTSK",
+      "asset_type": "Equity",
+      "weight": 0.0474,
+      "sedol": "BQT3J26",
+      "company": "cusip:64119N608"
     },
     {
       "name": "AKAMAI TECHNOLOGIES INC",
       "ticker": "AKAM",
       "asset_type": "Equity",
-      "weight": 0.0477,
+      "weight": 0.0468,
       "sedol": "2507457",
       "company": "cusip:00971T101"
     },
@@ -73,23 +102,15 @@
       "name": "SENTINELONE INC -CLASS A",
       "ticker": "S",
       "asset_type": "Equity",
-      "weight": 0.0466,
+      "weight": 0.0462,
       "sedol": "BP7L1B8",
       "company": "cusip:81730H109"
-    },
-    {
-      "name": "NETSKOPE INC-CL A",
-      "ticker": "NTSK",
-      "asset_type": "Equity",
-      "weight": 0.0463,
-      "sedol": "BQT3J26",
-      "company": "cusip:64119N608"
     },
     {
       "name": "CHECK POINT SOFTWARE TECH",
       "ticker": "CHKP",
       "asset_type": "Equity",
-      "weight": 0.0447,
+      "weight": 0.0454,
       "sedol": "2181334",
       "company": "cusip:M22465104"
     },
@@ -97,7 +118,7 @@
       "name": "RUBRIK INC-A",
       "ticker": "RBRK",
       "asset_type": "Equity",
-      "weight": 0.0435,
+      "weight": 0.042,
       "sedol": "BSLQK57",
       "company": "cusip:781154109"
     },
@@ -105,7 +126,7 @@
       "name": "F5 INC",
       "ticker": "FFIV",
       "asset_type": "Equity",
-      "weight": 0.0422,
+      "weight": 0.0418,
       "sedol": "2427599",
       "company": "cusip:315616102"
     },
@@ -113,31 +134,31 @@
       "name": "TREND MICRO INC",
       "ticker": "4704 JP",
       "asset_type": "Equity",
-      "weight": 0.0412,
+      "weight": 0.0416,
       "sedol": "6125286",
       "company": "name:trend micro@japan"
-    },
-    {
-      "name": "GEN DIGITAL INC",
-      "ticker": "GEN",
-      "asset_type": "Equity",
-      "weight": 0.0407,
-      "sedol": "BJN4XN5",
-      "company": "cusip:668771108"
     },
     {
       "name": "COMMVAULT SYSTEMS INC",
       "ticker": "CVLT",
       "asset_type": "Equity",
-      "weight": 0.0405,
+      "weight": 0.041,
       "sedol": "B142B38",
       "company": "cusip:204166102"
+    },
+    {
+      "name": "GEN DIGITAL INC",
+      "ticker": "GEN",
+      "asset_type": "Equity",
+      "weight": 0.0405,
+      "sedol": "BJN4XN5",
+      "company": "cusip:668771108"
     },
     {
       "name": "QUALYS INC",
       "ticker": "QLYS",
       "asset_type": "Equity",
-      "weight": 0.04,
+      "weight": 0.0404,
       "sedol": "B7XJTN8",
       "company": "cusip:74758T303"
     },
@@ -145,7 +166,7 @@
       "name": "VARONIS SYSTEMS INC",
       "ticker": "VRNS",
       "asset_type": "Equity",
-      "weight": 0.0385,
+      "weight": 0.0383,
       "sedol": "BJZ2ZR5",
       "company": "cusip:922280102"
     },
@@ -169,7 +190,7 @@
       "name": "RADWARE LTD",
       "ticker": "RDWR",
       "asset_type": "Equity",
-      "weight": 0.0104,
+      "weight": 0.0105,
       "sedol": "2494548",
       "company": "cusip:M81873107"
     },
@@ -177,9 +198,17 @@
       "name": "RAPID7 INC",
       "ticker": "RPD",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.0072,
       "sedol": "BZ22CY6",
       "company": "cusip:753422104"
+    },
+    {
+      "name": "AHNLAB INC",
+      "ticker": "053800 KS",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "6406271",
+      "company": "name:ahnlab"
     },
     {
       "name": "ONESPAN INC",
@@ -188,14 +217,6 @@
       "weight": 0.0058,
       "sedol": "BFNSSD4",
       "company": "cusip:68287N100"
-    },
-    {
-      "name": "AHNLAB INC",
-      "ticker": "053800 KS",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "6406271",
-      "company": "name:ahnlab"
     },
     {
       "name": "MITEK SYSTEMS INC",
@@ -209,7 +230,7 @@
       "name": "TELOS CORPORATION",
       "ticker": "TLS",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0045,
       "sedol": "BLDDYL1",
       "company": "cusip:87969B101"
     },
@@ -217,7 +238,7 @@
       "name": "HENNGE KK",
       "ticker": "4475 JP",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0038,
       "sedol": "BKWBPS3",
       "company": "name:hennge kk"
     },
@@ -246,14 +267,6 @@
       "company": "name:amiya"
     },
     {
-      "name": "NCC GROUP PLC",
-      "ticker": "NCC LN",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "B01QGK8",
-      "company": "name:ncc group@united kingdom"
-    },
-    {
       "name": "FFRI SECURITY INC",
       "ticker": "3692 JP",
       "asset_type": "Equity",
@@ -265,9 +278,17 @@
       "name": "ARQIT QUANTUM INC",
       "ticker": "ARQQ",
       "asset_type": "Equity",
-      "weight": 0.0022,
+      "weight": 0.0025,
       "sedol": "BP092J4",
       "company": "cusip:G0567U127"
+    },
+    {
+      "name": "NCC GROUP PLC",
+      "ticker": "NCC LN",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "sedol": "B01QGK8",
+      "company": "name:ncc group@united kingdom"
     },
     {
       "name": "CYBER SECURITY CLOUD INC",
@@ -276,20 +297,6 @@
       "weight": 0.0018,
       "sedol": "BLH7KW2",
       "company": "name:cyber security cloud"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0007,
-      "company": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "IDEF",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:03:59.410351+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:34.900920+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/343529/ishares-defense-industrials-and-tech-active-etf/latest-holdings.csv",
   "holdings": [
@@ -17,7 +17,7 @@
       "name": "LOCKHEED MARTIN",
       "ticker": "LMT",
       "asset_type": "Equity",
-      "weight": 0.0523,
+      "weight": 0.0535,
       "location": "United States",
       "company": "cusip:539830109"
     },
@@ -25,7 +25,7 @@
       "name": "GENERAL DYNAMICS CORP",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.0439,
+      "weight": 0.0443,
       "location": "United States",
       "company": "cusip:369550108"
     },
@@ -33,7 +33,7 @@
       "name": "NORTHROP GRUMMAN CORP",
       "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0417,
+      "weight": 0.0423,
       "location": "United States",
       "company": "cusip:666807102"
     },
@@ -41,31 +41,31 @@
       "name": "THALES SA",
       "ticker": "HO",
       "asset_type": "Equity",
-      "weight": 0.0389,
+      "weight": 0.0395,
       "location": "France",
       "company": "cusip:883219206"
-    },
-    {
-      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
-      "ticker": "SPCX",
-      "asset_type": "Equity",
-      "weight": 0.0282,
-      "location": "United States",
-      "company": "name:space exploration technologies cor@united states"
     },
     {
       "name": "PALANTIR TECHNOLOGIES CLASS A",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0265,
+      "weight": 0.0267,
       "location": "United States",
       "company": "cusip:69608A108"
+    },
+    {
+      "name": "SPACE EXPLORATION TECHNOLOGIES COR",
+      "ticker": "SPCX",
+      "asset_type": "Equity",
+      "weight": 0.0265,
+      "location": "United States",
+      "company": "name:space exploration technologies cor@united states"
     },
     {
       "name": "ROLLS-ROYCE HOLDINGS PLC",
       "ticker": "RR.",
       "asset_type": "Equity",
-      "weight": 0.0222,
+      "weight": 0.0217,
       "location": "United Kingdom",
       "company": "cusip:775781206"
     },
@@ -73,7 +73,7 @@
       "name": "PALO ALTO NETWORKS",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.0191,
+      "weight": 0.019,
       "location": "United States",
       "company": "cusip:697435105"
     },
@@ -81,7 +81,7 @@
       "name": "SAAB CLASS B",
       "ticker": "SAAB B",
       "asset_type": "Equity",
-      "weight": 0.018,
+      "weight": 0.0185,
       "location": "Sweden",
       "company": "cusip:W72838175"
     },
@@ -89,7 +89,7 @@
       "name": "LEONARDO FINMECCANICA SPA",
       "ticker": "LDO",
       "asset_type": "Equity",
-      "weight": 0.0169,
+      "weight": 0.0174,
       "location": "Italy",
       "company": "cusip:52660W101"
     },
@@ -97,7 +97,7 @@
       "name": "AIRBUS GROUP",
       "ticker": "AIR",
       "asset_type": "Equity",
-      "weight": 0.0163,
+      "weight": 0.0162,
       "location": "France",
       "company": "cusip:N0280G100"
     },
@@ -105,7 +105,7 @@
       "name": "KONGSBERG GRUPPEN",
       "ticker": "KOG",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0153,
       "location": "Norway",
       "company": "name:kongsberg gruppen@norway"
     },
@@ -113,25 +113,33 @@
       "name": "CROWDSTRIKE HOLDINGS CLASS A",
       "ticker": "CRWD",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0152,
       "location": "United States",
       "company": "cusip:22788C105"
-    },
-    {
-      "name": "RHEINMETALL AG",
-      "ticker": "RHM",
-      "asset_type": "Equity",
-      "weight": 0.0136,
-      "location": "Germany",
-      "company": "cusip:76206K107"
     },
     {
       "name": "HANWHA AEROSPACE LTD",
       "ticker": "012450",
       "asset_type": "Equity",
-      "weight": 0.0136,
+      "weight": 0.015,
       "location": "Korea (South)",
       "company": "name:hanwha aerospace@south korea"
+    },
+    {
+      "name": "RHEINMETALL AG",
+      "ticker": "RHM",
+      "asset_type": "Equity",
+      "weight": 0.0138,
+      "location": "Germany",
+      "company": "cusip:76206K107"
+    },
+    {
+      "name": "KOREA AEROSPACE INDUSTRIES",
+      "ticker": "047810",
+      "asset_type": "Equity",
+      "weight": 0.0138,
+      "location": "Korea (South)",
+      "company": "name:korea aerospace industries@south korea"
     },
     {
       "name": "MICROSOFT",
@@ -142,34 +150,26 @@
       "company": "cusip:594918104"
     },
     {
-      "name": "KOREA AEROSPACE INDUSTRIES",
-      "ticker": "047810",
+      "name": "HANWHA SYSTEMS LTD",
+      "ticker": "272210",
       "asset_type": "Equity",
-      "weight": 0.0128,
+      "weight": 0.0121,
       "location": "Korea (South)",
-      "company": "name:korea aerospace industries@south korea"
+      "company": "name:hanwha systems@south korea"
     },
     {
       "name": "BOEING",
       "ticker": "BA",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0117,
       "location": "United States",
       "company": "cusip:097023105"
-    },
-    {
-      "name": "AMPHENOL CORP CLASS A",
-      "ticker": "APH",
-      "asset_type": "Equity",
-      "weight": 0.0114,
-      "location": "United States",
-      "company": "cusip:032095101"
     },
     {
       "name": "TRANSDIGM GROUP",
       "ticker": "TDG",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0111,
       "location": "United States",
       "company": "cusip:893641100"
     },
@@ -177,49 +177,33 @@
       "name": "ELBIT SYSTEMS",
       "ticker": "ESLT",
       "asset_type": "Equity",
-      "weight": 0.0112,
+      "weight": 0.011,
       "location": "Israel",
       "company": "cusip:M3760D101"
-    },
-    {
-      "name": "HANWHA SYSTEMS LTD",
-      "ticker": "272210",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "location": "Korea (South)",
-      "company": "name:hanwha systems@south korea"
     },
     {
       "name": "BABCOCK INTERNATIONAL GROUP PLC",
       "ticker": "BAB",
       "asset_type": "Equity",
-      "weight": 0.0111,
+      "weight": 0.011,
       "location": "United Kingdom",
       "company": "name:babcock international group@united kingdom"
     },
     {
-      "name": "KRW CASH",
-      "ticker": "KRW",
-      "asset_type": "Cash",
-      "weight": 0.0104,
-      "location": "Korea (South)",
-      "company": null
+      "name": "AMPHENOL CORP CLASS A",
+      "ticker": "APH",
+      "asset_type": "Equity",
+      "weight": 0.0108,
+      "location": "United States",
+      "company": "cusip:032095101"
     },
     {
       "name": "AMAZON.COM INC",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0099,
+      "weight": 0.0098,
       "location": "United States",
       "company": "cusip:023135106"
-    },
-    {
-      "name": "HOWMET AEROSPACE",
-      "ticker": "HWM",
-      "asset_type": "Equity",
-      "weight": 0.0092,
-      "location": "United States",
-      "company": "cusip:443201108"
     },
     {
       "name": "FORTINET",
@@ -230,10 +214,18 @@
       "company": "cusip:34959E109"
     },
     {
+      "name": "HOWMET AEROSPACE",
+      "ticker": "HWM",
+      "asset_type": "Equity",
+      "weight": 0.0089,
+      "location": "United States",
+      "company": "cusip:443201108"
+    },
+    {
       "name": "BAE SYSTEMS PLC",
       "ticker": "BA.",
       "asset_type": "Equity",
-      "weight": 0.0086,
+      "weight": 0.0088,
       "location": "United Kingdom",
       "company": "cusip:05523R107"
     },
@@ -241,7 +233,7 @@
       "name": "CAE",
       "ticker": "CAE",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0079,
       "location": "Canada",
       "company": "cusip:124765108"
     },
@@ -257,15 +249,23 @@
       "name": "SINGAPORE TECHNOLOGIES ENGINEERING",
       "ticker": "S63",
       "asset_type": "Equity",
-      "weight": 0.0077,
+      "weight": 0.0078,
       "location": "Singapore",
       "company": "name:singapore technologies engineering@singapore"
+    },
+    {
+      "name": "MITSUBISHI HEAVY INDUSTRIES",
+      "ticker": "7011",
+      "asset_type": "Equity",
+      "weight": 0.0077,
+      "location": "Japan",
+      "company": "name:mitsubishi heavy industries@japan"
     },
     {
       "name": "HENSOLDT AG",
       "ticker": "HAG",
       "asset_type": "Equity",
-      "weight": 0.0076,
+      "weight": 0.0077,
       "location": "Germany",
       "company": "cusip:42701C107"
     },
@@ -278,18 +278,10 @@
       "company": "cusip:502431109"
     },
     {
-      "name": "MITSUBISHI HEAVY INDUSTRIES",
-      "ticker": "7011",
-      "asset_type": "Equity",
-      "weight": 0.0075,
-      "location": "Japan",
-      "company": "name:mitsubishi heavy industries@japan"
-    },
-    {
       "name": "MITSUBISHI ELECTRIC",
       "ticker": "6503",
       "asset_type": "Equity",
-      "weight": 0.0071,
+      "weight": 0.0076,
       "location": "Japan",
       "company": "cusip:J43873116"
     },
@@ -297,7 +289,7 @@
       "name": "ZSCALER",
       "ticker": "ZS",
       "asset_type": "Equity",
-      "weight": 0.0068,
+      "weight": 0.0069,
       "location": "United States",
       "company": "cusip:98980G102"
     },
@@ -305,7 +297,7 @@
       "name": "ITT INC",
       "ticker": "ITT",
       "asset_type": "Equity",
-      "weight": 0.0068,
+      "weight": 0.0067,
       "location": "United States",
       "company": "name:itt@united states"
     },
@@ -313,9 +305,17 @@
       "name": "GE AEROSPACE",
       "ticker": "GE",
       "asset_type": "Equity",
-      "weight": 0.0066,
+      "weight": 0.0065,
       "location": "United States",
       "company": "cusip:369604301"
+    },
+    {
+      "name": "TKMS AG",
+      "ticker": "TKMS",
+      "asset_type": "Equity",
+      "weight": 0.0064,
+      "location": "Germany",
+      "company": "cusip:D8T5DP107"
     },
     {
       "name": "PARSONS CORP",
@@ -334,28 +334,28 @@
       "company": "cusip:43849R105"
     },
     {
-      "name": "TKMS AG",
-      "ticker": "TKMS",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "location": "Germany",
-      "company": "cusip:D8T5DP107"
-    },
-    {
       "name": "DASSAULT AVIATION SA",
       "ticker": "AM",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.0062,
       "location": "France",
       "company": "cusip:F24539102"
     },
     {
-      "name": "WOODWARD",
-      "ticker": "WWD",
+      "name": "RAINBOW ROBOTICS",
+      "ticker": "277810",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "location": "Korea (South)",
+      "company": "cusip:Y7S740108"
+    },
+    {
+      "name": "LEIDOS HOLDINGS",
+      "ticker": "LDOS",
       "asset_type": "Equity",
       "weight": 0.0059,
       "location": "United States",
-      "company": "cusip:980745103"
+      "company": "cusip:525327102"
     },
     {
       "name": "SCIENCE APPLICATIONS INTERNATIONAL",
@@ -366,20 +366,12 @@
       "company": "cusip:808625107"
     },
     {
-      "name": "ROCKET LAB CORP",
-      "ticker": "RKLB",
+      "name": "WOODWARD",
+      "ticker": "WWD",
       "asset_type": "Equity",
       "weight": 0.0057,
       "location": "United States",
-      "company": "cusip:773121108"
-    },
-    {
-      "name": "LEIDOS HOLDINGS",
-      "ticker": "LDOS",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "location": "United States",
-      "company": "cusip:525327102"
+      "company": "cusip:980745103"
     },
     {
       "name": "HEICO",
@@ -390,28 +382,28 @@
       "company": "cusip:422806109"
     },
     {
+      "name": "IHI",
+      "ticker": "7013",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "location": "Japan",
+      "company": "name:ihi@japan"
+    },
+    {
       "name": "MERCURY SYSTEMS INC",
       "ticker": "MRCY",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0053,
       "location": "United States",
       "company": "cusip:589378108"
     },
     {
-      "name": "BROADCOM INC",
-      "ticker": "AVGO",
-      "asset_type": "Equity",
-      "weight": 0.0054,
-      "location": "United States",
-      "company": "cusip:11135F101"
-    },
-    {
-      "name": "IHI",
-      "ticker": "7013",
+      "name": "ROCKET LAB CORP",
+      "ticker": "RKLB",
       "asset_type": "Equity",
       "weight": 0.0053,
-      "location": "Japan",
-      "company": "name:ihi@japan"
+      "location": "United States",
+      "company": "cusip:773121108"
     },
     {
       "name": "TEXTRON INC",
@@ -422,20 +414,20 @@
       "company": "cusip:883203101"
     },
     {
-      "name": "TELEDYNE TECHNOLOGIES",
-      "ticker": "TDY",
+      "name": "BROADCOM INC",
+      "ticker": "AVGO",
       "asset_type": "Equity",
       "weight": 0.0052,
       "location": "United States",
-      "company": "cusip:879360105"
+      "company": "cusip:11135F101"
     },
     {
-      "name": "RAINBOW ROBOTICS",
-      "ticker": "277810",
+      "name": "TELEDYNE TECHNOLOGIES",
+      "ticker": "TDY",
       "asset_type": "Equity",
       "weight": 0.0051,
-      "location": "Korea (South)",
-      "company": "cusip:Y7S740108"
+      "location": "United States",
+      "company": "cusip:879360105"
     },
     {
       "name": "MTU AERO ENGINES HOLDING AG",
@@ -449,31 +441,15 @@
       "name": "AAR",
       "ticker": "AIR",
       "asset_type": "Equity",
-      "weight": 0.0049,
+      "weight": 0.0048,
       "location": "United States",
       "company": "cusip:000361105"
-    },
-    {
-      "name": "ATI",
-      "ticker": "ATI",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "location": "United States",
-      "company": "cusip:01741R102"
-    },
-    {
-      "name": "VSE CORP",
-      "ticker": "VSEC",
-      "asset_type": "Equity",
-      "weight": 0.0047,
-      "location": "United States",
-      "company": "cusip:918284100"
     },
     {
       "name": "EXOSENS SA",
       "ticker": "EXENS",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0047,
       "location": "France",
       "company": "name:exosens@france"
     },
@@ -481,15 +457,31 @@
       "name": "CURTISS WRIGHT",
       "ticker": "CW",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0045,
       "location": "United States",
       "company": "cusip:231561101"
+    },
+    {
+      "name": "VSE CORP",
+      "ticker": "VSEC",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "location": "United States",
+      "company": "cusip:918284100"
+    },
+    {
+      "name": "ATI",
+      "ticker": "ATI",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "location": "United States",
+      "company": "cusip:01741R102"
     },
     {
       "name": "CSG CLASS A NV",
       "ticker": "CSG",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0044,
       "location": "Netherlands",
       "company": "name:csg@netherlands"
     },
@@ -497,7 +489,7 @@
       "name": "BOMBARDIER CLASS B",
       "ticker": "BBD.B",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0042,
       "location": "Canada",
       "company": "name:bombardier@canada"
     },
@@ -505,25 +497,25 @@
       "name": "CRANE",
       "ticker": "CR",
       "asset_type": "Equity",
-      "weight": 0.0042,
+      "weight": 0.0041,
       "location": "United States",
       "company": "cusip:224408104"
     },
     {
-      "name": "MOOG INC CLASS A",
-      "ticker": "MOG A",
+      "name": "RENK GROUP AG",
+      "ticker": "R3NK",
       "asset_type": "Equity",
       "weight": 0.0041,
-      "location": "United States",
-      "company": "cusip:615394202"
+      "location": "Germany",
+      "company": "cusip:75974A101"
     },
     {
-      "name": "KARMAN HOLDINGS INC",
-      "ticker": "KRMN",
+      "name": "KAWASAKI HEAVY INDUSTRIES",
+      "ticker": "7012",
       "asset_type": "Equity",
       "weight": 0.0041,
-      "location": "United States",
-      "company": "cusip:485924104"
+      "location": "Japan",
+      "company": "cusip:J31502131"
     },
     {
       "name": "EMBRAER ADS",
@@ -534,44 +526,20 @@
       "company": "cusip:29082A107"
     },
     {
-      "name": "RENK GROUP AG",
-      "ticker": "R3NK",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "location": "Germany",
-      "company": "cusip:75974A101"
-    },
-    {
-      "name": "RBC BEARINGS",
-      "ticker": "RBC",
+      "name": "HUNTINGTON INGALLS INDUSTRIES",
+      "ticker": "HII",
       "asset_type": "Equity",
       "weight": 0.004,
       "location": "United States",
-      "company": "name:rbc bearings@united states"
+      "company": "cusip:446413106"
     },
     {
-      "name": "KAWASAKI HEAVY INDUSTRIES",
-      "ticker": "7012",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "location": "Japan",
-      "company": "cusip:J31502131"
-    },
-    {
-      "name": "MACOM TECHNOLOGY SOLUTIONS",
-      "ticker": "MTSI",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "location": "United States",
-      "company": "cusip:55405Y100"
-    },
-    {
-      "name": "V2X",
-      "ticker": "VVX",
+      "name": "KARMAN HOLDINGS INC",
+      "ticker": "KRMN",
       "asset_type": "Equity",
       "weight": 0.0039,
       "location": "United States",
-      "company": "cusip:92242T101"
+      "company": "cusip:485924104"
     },
     {
       "name": "KRATOS DEFENSE AND SECURITY SOLUTI",
@@ -582,20 +550,20 @@
       "company": "name:kratos defense and security soluti@united states"
     },
     {
-      "name": "TUTOR PERINI",
-      "ticker": "TPC",
+      "name": "RBC BEARINGS",
+      "ticker": "RBC",
       "asset_type": "Equity",
       "weight": 0.0039,
       "location": "United States",
-      "company": "cusip:901109108"
+      "company": "name:rbc bearings@united states"
     },
     {
-      "name": "HUNTINGTON INGALLS INDUSTRIES",
-      "ticker": "HII",
+      "name": "MOOG INC CLASS A",
+      "ticker": "MOG A",
       "asset_type": "Equity",
       "weight": 0.0039,
       "location": "United States",
-      "company": "cusip:446413106"
+      "company": "cusip:615394202"
     },
     {
       "name": "HEXCEL",
@@ -606,12 +574,20 @@
       "company": "cusip:428291108"
     },
     {
-      "name": "VIASAT INC",
-      "ticker": "VSAT",
+      "name": "KRW CASH",
+      "ticker": "KRW",
+      "asset_type": "Cash",
+      "weight": 0.0038,
+      "location": "Korea (South)",
+      "company": null
+    },
+    {
+      "name": "V2X",
+      "ticker": "VVX",
       "asset_type": "Equity",
       "weight": 0.0038,
       "location": "United States",
-      "company": "cusip:92552V100"
+      "company": "cusip:92242T101"
     },
     {
       "name": "SAFRAN SA",
@@ -622,6 +598,22 @@
       "company": "cusip:786584102"
     },
     {
+      "name": "VIASAT INC",
+      "ticker": "VSAT",
+      "asset_type": "Equity",
+      "weight": 0.0038,
+      "location": "United States",
+      "company": "cusip:92552V100"
+    },
+    {
+      "name": "TUTOR PERINI",
+      "ticker": "TPC",
+      "asset_type": "Equity",
+      "weight": 0.0038,
+      "location": "United States",
+      "company": "cusip:901109108"
+    },
+    {
       "name": "AEROVIRONMENT",
       "ticker": "AVAV",
       "asset_type": "Equity",
@@ -630,76 +622,92 @@
       "company": "cusip:008073108"
     },
     {
-      "name": "MILDEF GROUP",
-      "ticker": "MILDEF",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "location": "Sweden",
-      "company": "name:mildef group@sweden"
-    },
-    {
       "name": "KBR INC",
       "ticker": "KBR",
       "asset_type": "Equity",
-      "weight": 0.0035,
+      "weight": 0.0036,
       "location": "United States",
       "company": "cusip:48242W106"
+    },
+    {
+      "name": "MILDEF GROUP",
+      "ticker": "MILDEF",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "location": "Sweden",
+      "company": "name:mildef group@sweden"
     },
     {
       "name": "HYUNDAI-ROTEM",
       "ticker": "064350",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0035,
       "location": "Korea (South)",
       "company": "name:hyundai rotem@south korea"
+    },
+    {
+      "name": "MACOM TECHNOLOGY SOLUTIONS",
+      "ticker": "MTSI",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "location": "United States",
+      "company": "cusip:55405Y100"
+    },
+    {
+      "name": "HD HYUNDAI HEAVY INDUSTRIES LTD",
+      "ticker": "329180",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "location": "Korea (South)",
+      "company": "name:hd hyundai heavy industries@south korea"
     },
     {
       "name": "CARPENTER TECHNOLOGY",
       "ticker": "CRS",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.003,
       "location": "United States",
       "company": "cusip:144285103"
-    },
-    {
-      "name": "KEYSIGHT TECHNOLOGIES",
-      "ticker": "KEYS",
-      "asset_type": "Equity",
-      "weight": 0.0031,
-      "location": "United States",
-      "company": "cusip:49338L103"
     },
     {
       "name": "LINCOLN ELECTRIC HOLDINGS",
       "ticker": "LECO",
       "asset_type": "Equity",
-      "weight": 0.0031,
+      "weight": 0.003,
       "location": "United States",
       "company": "cusip:533900106"
     },
     {
-      "name": "RALLIANT",
-      "ticker": "RAL",
+      "name": "RADWARE",
+      "ticker": "RDWR",
       "asset_type": "Equity",
       "weight": 0.003,
-      "location": "United States",
-      "company": "cusip:750940108"
+      "location": "Israel",
+      "company": "cusip:M81873107"
     },
     {
-      "name": "KITRON",
-      "ticker": "KIT",
-      "asset_type": "Equity",
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
       "weight": 0.0029,
-      "location": "Norway",
-      "company": "name:kitron@norway"
+      "location": "United States",
+      "company": null
     },
     {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
+      "name": "LYNAS RARE EARTHS",
+      "ticker": "LYC",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "location": "Australia",
+      "company": "name:lynas rare earths@australia"
+    },
+    {
+      "name": "KEYSIGHT TECHNOLOGIES",
+      "ticker": "KEYS",
       "asset_type": "Equity",
       "weight": 0.0029,
       "location": "United States",
-      "company": "cusip:007903107"
+      "company": "cusip:49338L103"
     },
     {
       "name": "NATIONAL PRESTO INDUSTRIES INC",
@@ -710,36 +718,28 @@
       "company": "cusip:637215104"
     },
     {
-      "name": "RADWARE",
-      "ticker": "RDWR",
-      "asset_type": "Equity",
-      "weight": 0.0029,
-      "location": "Israel",
-      "company": "cusip:M81873107"
-    },
-    {
-      "name": "HD HYUNDAI HEAVY INDUSTRIES LTD",
-      "ticker": "329180",
+      "name": "KITRON",
+      "ticker": "KIT",
       "asset_type": "Equity",
       "weight": 0.0028,
-      "location": "Korea (South)",
-      "company": "name:hd hyundai heavy industries@south korea"
+      "location": "Norway",
+      "company": "name:kitron@norway"
     },
     {
-      "name": "LYNAS RARE EARTHS",
-      "ticker": "LYC",
+      "name": "RALLIANT",
+      "ticker": "RAL",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "location": "United States",
+      "company": "cusip:750940108"
+    },
+    {
+      "name": "CODAN",
+      "ticker": "CDA",
       "asset_type": "Equity",
       "weight": 0.0028,
       "location": "Australia",
-      "company": "name:lynas rare earths@australia"
-    },
-    {
-      "name": "EUR CASH",
-      "ticker": "EUR",
-      "asset_type": "Cash",
-      "weight": 0.0028,
-      "location": "European Union",
-      "company": null
+      "company": "name:codan@australia"
     },
     {
       "name": "ELECTRO OPTIC SYSTEMS HOLDINGS",
@@ -750,28 +750,36 @@
       "company": "name:electro optic systems holdin"
     },
     {
-      "name": "CEREBRAS SYSTEMS INC CLASS A",
-      "ticker": "CBRS",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "location": "United States",
-      "company": "cusip:15675D103"
-    },
-    {
-      "name": "CODAN",
-      "ticker": "CDA",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "location": "Australia",
-      "company": "name:codan@australia"
-    },
-    {
       "name": "SUMITOMO HEAVY INDUSTRIES LTD",
       "ticker": "6302",
       "asset_type": "Equity",
-      "weight": 0.0026,
+      "weight": 0.0028,
       "location": "Japan",
       "company": "name:sumitomo heavy industries@japan"
+    },
+    {
+      "name": "SNT DYNAMICS LTD",
+      "ticker": "003570",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "location": "Korea (South)",
+      "company": "name:snt dynamics@south korea"
+    },
+    {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "location": "United States",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "HD KOREA SHIPBUILDING & OFFSHORE E",
+      "ticker": "009540",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "location": "Korea (South)",
+      "company": "name:hd korea shipbuilding offshore@south korea"
     },
     {
       "name": "OSI SYSTEMS",
@@ -782,30 +790,6 @@
       "company": "cusip:671044105"
     },
     {
-      "name": "SANMINA",
-      "ticker": "SANM",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "location": "United States",
-      "company": "cusip:801056102"
-    },
-    {
-      "name": "SNT DYNAMICS LTD",
-      "ticker": "003570",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "location": "Korea (South)",
-      "company": "name:snt dynamics@south korea"
-    },
-    {
-      "name": "IRIDIUM COMMUNICATIONS",
-      "ticker": "IRDM",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "location": "United States",
-      "company": "cusip:46269C102"
-    },
-    {
       "name": "HAWKEYE INC",
       "ticker": "HAWK",
       "asset_type": "Equity",
@@ -814,44 +798,44 @@
       "company": "name:hawkeye@united states"
     },
     {
-      "name": "PLANET LABS CLASS A",
-      "ticker": "PL",
+      "name": "LIG DEFENSE&AEROSPACE LTD",
+      "ticker": "079550",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "location": "Korea (South)",
+      "company": "name:lig defense aerospace@south korea"
+    },
+    {
+      "name": "IRIDIUM COMMUNICATIONS",
+      "ticker": "IRDM",
       "asset_type": "Equity",
       "weight": 0.0025,
       "location": "United States",
-      "company": "name:planet labs@united states"
+      "company": "cusip:46269C102"
     },
     {
-      "name": "TTM TECHNOLOGIES INC",
-      "ticker": "TTMI",
+      "name": "HANWHA OCEAN LTD",
+      "ticker": "042660",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "location": "Korea (South)",
+      "company": "name:hanwha ocean@south korea"
+    },
+    {
+      "name": "CEREBRAS SYSTEMS INC CLASS A",
+      "ticker": "CBRS",
       "asset_type": "Equity",
       "weight": 0.0025,
       "location": "United States",
-      "company": "cusip:87305R109"
+      "company": "cusip:15675D103"
     },
     {
-      "name": "DUCOMMUN",
-      "ticker": "DCO",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "location": "United States",
-      "company": "cusip:264147109"
-    },
-    {
-      "name": "HD KOREA SHIPBUILDING & OFFSHORE E",
-      "ticker": "009540",
+      "name": "SAMSUNG HEAVY INDUSTRIES LTD",
+      "ticker": "010140",
       "asset_type": "Equity",
       "weight": 0.0024,
       "location": "Korea (South)",
-      "company": "name:hd korea shipbuilding offshore@south korea"
-    },
-    {
-      "name": "NLIGHT",
-      "ticker": "LASR",
-      "asset_type": "Equity",
-      "weight": 0.0024,
-      "location": "United States",
-      "company": "cusip:65487K100"
+      "company": "name:samsung heavy industries@south korea"
     },
     {
       "name": "EVERFORTH",
@@ -862,44 +846,44 @@
       "company": "name:everforth@united states"
     },
     {
-      "name": "LEONARDO DRS INC",
-      "ticker": "DRS",
+      "name": "PLANET LABS CLASS A",
+      "ticker": "PL",
       "asset_type": "Equity",
       "weight": 0.0024,
       "location": "United States",
-      "company": "cusip:52661A108"
+      "company": "name:planet labs@united states"
+    },
+    {
+      "name": "DUCOMMUN",
+      "ticker": "DCO",
+      "asset_type": "Equity",
+      "weight": 0.0024,
+      "location": "United States",
+      "company": "cusip:264147109"
     },
     {
       "name": "CHEMRING GROUP PLC",
       "ticker": "CHG",
       "asset_type": "Equity",
-      "weight": 0.0023,
+      "weight": 0.0024,
       "location": "United Kingdom",
       "company": "cusip:163867104"
     },
     {
-      "name": "SAMSUNG HEAVY INDUSTRIES LTD",
-      "ticker": "010140",
+      "name": "SANMINA",
+      "ticker": "SANM",
       "asset_type": "Equity",
-      "weight": 0.0023,
-      "location": "Korea (South)",
-      "company": "name:samsung heavy industries@south korea"
+      "weight": 0.0024,
+      "location": "United States",
+      "company": "cusip:801056102"
     },
     {
-      "name": "LIG DEFENSE&AEROSPACE LTD",
-      "ticker": "079550",
+      "name": "LEONARDO DRS INC",
+      "ticker": "DRS",
       "asset_type": "Equity",
       "weight": 0.0023,
-      "location": "Korea (South)",
-      "company": "name:lig defense aerospace@south korea"
-    },
-    {
-      "name": "HANWHA OCEAN LTD",
-      "ticker": "042660",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "location": "Korea (South)",
-      "company": "name:hanwha ocean@south korea"
+      "location": "United States",
+      "company": "cusip:52661A108"
     },
     {
       "name": "MP MATERIALS CLASS A",
@@ -910,6 +894,22 @@
       "company": "cusip:553368101"
     },
     {
+      "name": "AEROSPACE INDUSTRIAL DEVELOPMENT",
+      "ticker": "2634",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "location": "Taiwan",
+      "company": "name:aerospace industrial development@taiwan"
+    },
+    {
+      "name": "TTM TECHNOLOGIES INC",
+      "ticker": "TTMI",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "location": "United States",
+      "company": "cusip:87305R109"
+    },
+    {
       "name": "ALBANY INTERNATIONAL CORP CLASS A",
       "ticker": "AIN",
       "asset_type": "Equity",
@@ -918,98 +918,106 @@
       "company": "name:albany international@united states"
     },
     {
-      "name": "AEVEX CORP CLASS A",
-      "ticker": "AVEX",
+      "name": "NLIGHT",
+      "ticker": "LASR",
       "asset_type": "Equity",
       "weight": 0.0022,
       "location": "United States",
+      "company": "cusip:65487K100"
+    },
+    {
+      "name": "AEVEX CORP CLASS A",
+      "ticker": "AVEX",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "location": "United States",
       "company": "cusip:00835T107"
-    },
-    {
-      "name": "VOYAGER TECHNOLOGIES CLASS A",
-      "ticker": "VOYG",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "location": "United States",
-      "company": "cusip:92892B103"
-    },
-    {
-      "name": "AEROSPACE INDUSTRIAL DEVELOPMENT",
-      "ticker": "2634",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "location": "Taiwan",
-      "company": "name:aerospace industrial development@taiwan"
-    },
-    {
-      "name": "ONDAS INC",
-      "ticker": "ONDS",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "location": "United States",
-      "company": "cusip:68236H204"
     },
     {
       "name": "NEXT VISION STABILIZED SYSTEMS LTD",
       "ticker": "NXSN",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.002,
       "location": "Israel",
       "company": "name:next vision stabilized systems@israel"
-    },
-    {
-      "name": "REDWIRE",
-      "ticker": "RDW",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "location": "United States",
-      "company": "cusip:75776W103"
     },
     {
       "name": "KONGSBERG MARITIME",
       "ticker": "KMAR",
       "asset_type": "Equity",
-      "weight": 0.0021,
+      "weight": 0.002,
       "location": "Norway",
       "company": "name:kongsberg maritime@norway"
     },
     {
-      "name": "MATERION",
-      "ticker": "MTRN",
+      "name": "ONDAS INC",
+      "ticker": "ONDS",
       "asset_type": "Equity",
       "weight": 0.002,
       "location": "United States",
-      "company": "name:materion@united states"
-    },
-    {
-      "name": "NEWMARKET",
-      "ticker": "NEU",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "location": "United States",
-      "company": "name:newmarket@united states"
+      "company": "cusip:68236H204"
     },
     {
       "name": "SAMSUNG ELECTRONICS LTD",
       "ticker": "005930",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "location": "Korea (South)",
       "company": "cusip:Y74718100"
+    },
+    {
+      "name": "NEWMARKET",
+      "ticker": "NEU",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "location": "United States",
+      "company": "name:newmarket@united states"
+    },
+    {
+      "name": "VOYAGER TECHNOLOGIES CLASS A",
+      "ticker": "VOYG",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "location": "United States",
+      "company": "cusip:92892B103"
+    },
+    {
+      "name": "REDWIRE",
+      "ticker": "RDW",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "location": "United States",
+      "company": "cusip:75776W103"
     },
     {
       "name": "DRONESHIELD",
       "ticker": "DRO",
       "asset_type": "Equity",
-      "weight": 0.0018,
+      "weight": 0.0019,
       "location": "Australia",
       "company": "name:droneshield@australia"
+    },
+    {
+      "name": "MATERION",
+      "ticker": "MTRN",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "location": "United States",
+      "company": "name:materion@united states"
+    },
+    {
+      "name": "POONGSANORATION CORP",
+      "ticker": "103140",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "location": "Korea (South)",
+      "company": "name:poongsanoration@south korea"
     },
     {
       "name": "BET SHEMESH ENGINES HOLDINGS LTD",
       "ticker": "BSEN",
       "asset_type": "Equity",
-      "weight": 0.0017,
+      "weight": 0.0016,
       "location": "Israel",
       "company": "name:bet shemesh engines holdings@israel"
     },
@@ -1017,25 +1025,17 @@
       "name": "BLACKSKY TECHNOLOGY CLASS A",
       "ticker": "BKSY",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "location": "United States",
       "company": "cusip:09263B207"
     },
     {
-      "name": "POONGSANORATION CORP",
-      "ticker": "103140",
-      "asset_type": "Equity",
-      "weight": 0.0015,
-      "location": "Korea (South)",
-      "company": "name:poongsanoration@south korea"
-    },
-    {
-      "name": "OCEANEERING INTERNATIONAL INC",
-      "ticker": "OII",
+      "name": "NIPPON AVIONICS LTD",
+      "ticker": "6946",
       "asset_type": "Equity",
       "weight": 0.0014,
-      "location": "United States",
-      "company": "name:oceaneering international@united states"
+      "location": "Japan",
+      "company": "name:nippon avionics@japan"
     },
     {
       "name": "ILUKA RESOURCES",
@@ -1046,20 +1046,12 @@
       "company": "name:iluka resources@australia"
     },
     {
-      "name": "NIPPON AVIONICS LTD",
-      "ticker": "6946",
+      "name": "OCEANEERING INTERNATIONAL INC",
+      "ticker": "OII",
       "asset_type": "Equity",
-      "weight": 0.0013,
-      "location": "Japan",
-      "company": "name:nippon avionics@japan"
-    },
-    {
-      "name": "INTEL CORPORATION",
-      "ticker": "INTC",
-      "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0014,
       "location": "United States",
-      "company": "cusip:458140100"
+      "company": "name:oceaneering international@united states"
     },
     {
       "name": "INTERNATIONAL BUSINESS MACHINES CO",
@@ -1070,34 +1062,34 @@
       "company": "cusip:459200101"
     },
     {
-      "name": "USA RARE EARTH CLASS A",
-      "ticker": "USAR",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "location": "United States",
-      "company": "cusip:91733P107"
-    },
-    {
       "name": "HJ SHIPBUILDING & CONSTRUCTION LTD",
       "ticker": "097230",
       "asset_type": "Equity",
-      "weight": 0.0012,
+      "weight": 0.0013,
       "location": "Korea (South)",
       "company": "name:hj shipbuilding construction@south korea"
     },
     {
-      "name": "JPY CASH",
-      "ticker": "JPY",
-      "asset_type": "Cash",
+      "name": "INTEL CORPORATION",
+      "ticker": "INTC",
+      "asset_type": "Equity",
       "weight": 0.0012,
-      "location": "Japan",
-      "company": null
+      "location": "United States",
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "USA RARE EARTH CLASS A",
+      "ticker": "USAR",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "location": "United States",
+      "company": "cusip:91733P107"
     },
     {
       "name": "ALMONTY INDUSTRIES",
       "ticker": "ALM",
       "asset_type": "Equity",
-      "weight": 0.0012,
+      "weight": 0.0011,
       "location": "Canada",
       "company": "name:almonty industries@canada"
     },
@@ -1105,7 +1097,7 @@
       "name": "KOPIN CORP",
       "ticker": "KOPN",
       "asset_type": "Equity",
-      "weight": 0.0011,
+      "weight": 0.001,
       "location": "United States",
       "company": "cusip:500600101"
     },
@@ -1113,7 +1105,7 @@
       "name": "PARK AEROSPACE CORP",
       "ticker": "PKE",
       "asset_type": "Equity",
-      "weight": 0.0011,
+      "weight": 0.001,
       "location": "United States",
       "company": "cusip:70014A104"
     },
@@ -1121,25 +1113,9 @@
       "name": "LIGHTPATH TECHNOLOGIES INC CLASS A",
       "ticker": "LPTH",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.0008,
       "location": "United States",
       "company": "cusip:532257805"
-    },
-    {
-      "name": "RED CAT HOLDINGS INC",
-      "ticker": "RCAT",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "location": "United States",
-      "company": "cusip:75644T100"
-    },
-    {
-      "name": "KRAKEN ROBOTICS",
-      "ticker": "PNG",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "Canada",
-      "company": "name:kraken robotics@canada"
     },
     {
       "name": "ARAFURA RARE EARTHS LTD",
@@ -1150,12 +1126,12 @@
       "company": "name:arafura rare earths@australia"
     },
     {
-      "name": "MARVELL TECHNOLOGY",
-      "ticker": "MRVL",
+      "name": "RED CAT HOLDINGS INC",
+      "ticker": "RCAT",
       "asset_type": "Equity",
-      "weight": 0.0007,
+      "weight": 0.0008,
       "location": "United States",
-      "company": "cusip:573874104"
+      "company": "cusip:75644T100"
     },
     {
       "name": "BWX TECHNOLOGIES INC",
@@ -1166,12 +1142,28 @@
       "company": "cusip:05605H100"
     },
     {
+      "name": "MARVELL TECHNOLOGY",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "location": "United States",
+      "company": "cusip:573874104"
+    },
+    {
       "name": "UNUSUAL MACHINES INC",
       "ticker": "UMAC",
       "asset_type": "Equity",
       "weight": 0.0007,
       "location": "United States",
       "company": "name:unusual machines@united states"
+    },
+    {
+      "name": "KRAKEN ROBOTICS",
+      "ticker": "PNG",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "location": "Canada",
+      "company": "name:kraken robotics@canada"
     },
     {
       "name": "SERVICENOW",
@@ -1182,12 +1174,12 @@
       "company": "cusip:81762P102"
     },
     {
-      "name": "CAMECO",
-      "ticker": "CCJ",
-      "asset_type": "Equity",
+      "name": "CASH COLLATERAL USD HBCFT",
+      "ticker": "HBCFT",
+      "asset_type": "Cash Collateral and Margins",
       "weight": 0.0005,
-      "location": "Canada",
-      "company": "cusip:13321L108"
+      "location": "United Kingdom",
+      "company": null
     },
     {
       "name": "AVIO",
@@ -1198,20 +1190,28 @@
       "company": "cusip:T0R27R125"
     },
     {
-      "name": "CASH COLLATERAL USD HBCFT",
-      "ticker": "HBCFT",
-      "asset_type": "Cash Collateral and Margins",
+      "name": "CAMECO",
+      "ticker": "CCJ",
+      "asset_type": "Equity",
       "weight": 0.0005,
-      "location": "United Kingdom",
+      "location": "Canada",
+      "company": "cusip:13321L108"
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0005,
+      "location": "United States",
       "company": null
     },
     {
-      "name": "HEWLETT PACKARD ENTERPRISE",
-      "ticker": "HPE",
-      "asset_type": "Equity",
+      "name": "JPY CASH",
+      "ticker": "JPY",
+      "asset_type": "Cash",
       "weight": 0.0004,
-      "location": "United States",
-      "company": "cusip:42824C109"
+      "location": "Japan",
+      "company": null
     },
     {
       "name": "MOTOROLA SOLUTIONS INC",
@@ -1222,20 +1222,12 @@
       "company": "cusip:620076307"
     },
     {
-      "name": "TWD CASH",
-      "ticker": "TWD",
-      "asset_type": "Cash",
-      "weight": 0.0003,
-      "location": "Taiwan",
-      "company": null
-    },
-    {
-      "name": "OKLO CLASS A",
-      "ticker": "OKLO",
+      "name": "HEWLETT PACKARD ENTERPRISE",
+      "ticker": "HPE",
       "asset_type": "Equity",
-      "weight": 0.0002,
+      "weight": 0.0004,
       "location": "United States",
-      "company": "cusip:02156V109"
+      "company": "cusip:42824C109"
     },
     {
       "name": "GLOBALFOUNDRIES",
@@ -1244,6 +1236,14 @@
       "weight": 0.0002,
       "location": "United States",
       "company": "cusip:G39387108"
+    },
+    {
+      "name": "OKLO CLASS A",
+      "ticker": "OKLO",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "location": "United States",
+      "company": "cusip:02156V109"
     },
     {
       "name": "CENTRUS ENERGY CLASS A",
@@ -1270,14 +1270,6 @@
       "company": "cusip:60471A101"
     },
     {
-      "name": "CAD CASH",
-      "ticker": "CAD",
-      "asset_type": "Cash",
-      "weight": 0.0002,
-      "location": "Canada",
-      "company": null
-    },
-    {
       "name": "MICROCHIP TECHNOLOGY INC",
       "ticker": "MCHP",
       "asset_type": "Equity",
@@ -1294,11 +1286,11 @@
       "company": null
     },
     {
-      "name": "SEK CASH",
-      "ticker": "SEK",
+      "name": "TWD CASH",
+      "ticker": "TWD",
       "asset_type": "Cash",
       "weight": 0.0001,
-      "location": "Sweden",
+      "location": "Taiwan",
       "company": null
     },
     {
@@ -1310,14 +1302,6 @@
       "company": null
     },
     {
-      "name": "ILS CASH",
-      "ticker": "ILS",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "Israel",
-      "company": null
-    },
-    {
       "name": "AUD CASH",
       "ticker": "AUD",
       "asset_type": "Cash",
@@ -1326,40 +1310,40 @@
       "company": null
     },
     {
-      "name": "EUR/USD",
-      "ticker": "EUR",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
+      "name": "ILS CASH",
+      "ticker": "ILS",
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "location": "Israel",
       "company": null
     },
     {
-      "name": "KRW/USD",
-      "ticker": "KRW",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "JPY/USD",
-      "ticker": "JPY",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "SEK/USD",
-      "ticker": "SEK",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CAD/USD",
+      "name": "CAD CASH",
       "ticker": "CAD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Canada",
+      "company": null
+    },
+    {
+      "name": "SEK CASH",
+      "ticker": "SEK",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Sweden",
+      "company": null
+    },
+    {
+      "name": "EUR CASH",
+      "ticker": "EUR",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "European Union",
+      "company": null
+    },
+    {
+      "name": "TWD/USD",
+      "ticker": "TWD",
       "asset_type": "FX",
       "weight": 0.0,
       "location": "United States",
@@ -1373,42 +1357,10 @@
       "company": null
     },
     {
-      "name": "TWD/USD",
-      "ticker": "TWD",
+      "name": "KRW/USD",
+      "ticker": "KRW",
       "asset_type": "FX",
       "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "TWD/USD",
-      "ticker": "TWD",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "JPY/USD",
-      "ticker": "JPY",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": -0.006,
       "location": "United States",
       "company": null
     }

@@ -1,7 +1,7 @@
 {
   "ticker": "LYTE",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-25T05:04:04.890592+00:00",
+  "as_of": "2026-11-26",
+  "fetched_at": "2026-11-26T04:22:41.368971+00:00",
   "stale": false,
   "source": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{mdy}.csv",
   "holdings": [
@@ -9,14 +9,14 @@
       "name": "CIENA CORPORATION-SWAP-NMRA-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0791,
+      "weight": 0.0807,
       "company": null
     },
     {
       "name": "LandMark Optoelectronics Corp",
       "ticker": "3081 TT",
       "asset_type": "Equity",
-      "weight": 0.0227,
+      "weight": 0.0222,
       "sedol": "BL951P4",
       "company": "name:landmark optoelectronics@taiwan"
     },
@@ -24,7 +24,7 @@
       "name": "FOCI Fiber Optic Communications Inc",
       "ticker": "3363 TT",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0041,
       "sedol": "B02SCD8",
       "company": "name:foci fiber optic communications"
     },
@@ -32,14 +32,14 @@
       "name": "United States Treasury Bill 12/03/2026",
       "ticker": "912797VA2",
       "asset_type": "Treasury",
-      "weight": 0.6899,
+      "weight": 0.694,
       "company": null
     },
     {
       "name": "Applied Optoelectronics Inc",
       "ticker": "AAOI",
       "asset_type": "Equity",
-      "weight": 0.0203,
+      "weight": 0.0197,
       "cusip": "03823U102",
       "company": "cusip:03823U102"
     },
@@ -47,7 +47,7 @@
       "name": "AXT Inc",
       "ticker": "AXTI",
       "asset_type": "Equity",
-      "weight": 0.0107,
+      "weight": 0.0109,
       "cusip": "00246W103",
       "company": "cusip:00246W103"
     },
@@ -55,49 +55,49 @@
       "name": "ACCELINK TECHNOLOGIES CO,LTD.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0209,
+      "weight": 0.0203,
       "company": null
     },
     {
       "name": "EOPTOLINK TECHNOLOGY INC., LTD.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0814,
+      "weight": 0.0824,
       "company": null
     },
     {
       "name": "ZHONGJI INNOLIGHT CO., LTD.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.1557,
+      "weight": 0.1534,
       "company": null
     },
     {
       "name": "SUZHOU TFC OPTICAL COMMUNICATION CO., LTD.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0458,
+      "weight": 0.0495,
       "company": null
     },
     {
       "name": "T AND S COMMUNICAT-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0077,
+      "weight": 0.0074,
       "company": null
     },
     {
       "name": "YUANJIE SEMICONDUCTOR TECHNOLOGY CO., LTD.-SWAP-GOLD-L",
       "ticker": null,
       "asset_type": "Swap",
-      "weight": 0.0247,
+      "weight": 0.0236,
       "company": null
     },
     {
       "name": "Ciena Corp",
       "ticker": "CIEN",
       "asset_type": "Equity",
-      "weight": 0.1023,
+      "weight": 0.1044,
       "cusip": "171779309",
       "company": "cusip:171779309"
     },
@@ -112,7 +112,7 @@
       "name": "Coherent Corp",
       "ticker": "COHR",
       "asset_type": "Equity",
-      "weight": 0.2212,
+      "weight": 0.2224,
       "cusip": "19247G107",
       "company": "cusip:19247G107"
     },
@@ -120,14 +120,14 @@
       "name": "First American Government Obligations Fund 12/01/2031",
       "ticker": "FGXXX",
       "asset_type": "Money Market",
-      "weight": 0.0133,
+      "weight": 0.0234,
       "company": null
     },
     {
       "name": "Fabrinet",
       "ticker": "FN",
       "asset_type": "Equity",
-      "weight": 0.0592,
+      "weight": 0.0594,
       "cusip": "G3323L100",
       "company": "cusip:G3323L100"
     },
@@ -135,7 +135,7 @@
       "name": "Lumentum Holdings Inc",
       "ticker": "LITE",
       "asset_type": "Equity",
-      "weight": 0.1834,
+      "weight": 0.1805,
       "cusip": "55024U109",
       "company": "cusip:55024U109"
     },
@@ -150,7 +150,7 @@
       "name": "Cash & Other",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.7427,
+      "weight": -0.7586,
       "company": null
     }
   ]

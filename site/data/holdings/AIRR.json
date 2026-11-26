@@ -1,7 +1,7 @@
 {
   "ticker": "AIRR",
-  "as_of": "2026-11-23",
-  "fetched_at": "2026-11-25T05:03:40.459260+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:15.693864+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=AIRR",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "C.H. Robinson Worldwide, Inc.",
       "ticker": "CHRW",
       "asset_type": "Equity",
-      "weight": 0.0397,
+      "weight": 0.0417,
       "cusip": "12541W209",
       "company": "cusip:12541W209"
     },
@@ -17,47 +17,47 @@
       "name": "Huntington Ingalls Industries, Inc.",
       "ticker": "HII",
       "asset_type": "Equity",
-      "weight": 0.0346,
+      "weight": 0.0363,
       "cusip": "446413106",
       "company": "cusip:446413106"
-    },
-    {
-      "name": "RBC Bearings Incorporated",
-      "ticker": "RBC",
-      "asset_type": "Equity",
-      "weight": 0.0346,
-      "cusip": "75524B104",
-      "company": "cusip:75524B104"
     },
     {
       "name": "Owens Corning",
       "ticker": "OC",
       "asset_type": "Equity",
-      "weight": 0.034,
+      "weight": 0.0355,
       "cusip": "690742101",
       "company": "cusip:690742101"
     },
     {
-      "name": "Dycom Industries, Inc.",
-      "ticker": "DY",
+      "name": "RBC Bearings Incorporated",
+      "ticker": "RBC",
       "asset_type": "Equity",
-      "weight": 0.0322,
-      "cusip": "267475101",
-      "company": "cusip:267475101"
+      "weight": 0.0348,
+      "cusip": "75524B104",
+      "company": "cusip:75524B104"
     },
     {
       "name": "Herc Holdings, Inc.",
       "ticker": "HRI",
       "asset_type": "Equity",
-      "weight": 0.0322,
+      "weight": 0.0319,
       "cusip": "42704L104",
       "company": "cusip:42704L104"
+    },
+    {
+      "name": "Core & Main, Inc. (Class A)",
+      "ticker": "CNM",
+      "asset_type": "Equity",
+      "weight": 0.0318,
+      "cusip": "21874C102",
+      "company": "cusip:21874C102"
     },
     {
       "name": "BWX Technologies, Inc.",
       "ticker": "BWXT",
       "asset_type": "Equity",
-      "weight": 0.0312,
+      "weight": 0.0313,
       "cusip": "05605H100",
       "company": "cusip:05605H100"
     },
@@ -65,65 +65,81 @@
       "name": "Karman Holdings Inc.",
       "ticker": "KRMN",
       "asset_type": "Equity",
-      "weight": 0.0306,
+      "weight": 0.03,
       "cusip": "485924104",
       "company": "cusip:485924104"
-    },
-    {
-      "name": "Core & Main, Inc. (Class A)",
-      "ticker": "CNM",
-      "asset_type": "Equity",
-      "weight": 0.0303,
-      "cusip": "21874C102",
-      "company": "cusip:21874C102"
     },
     {
       "name": "Nextpower Inc. (Class A)",
       "ticker": "NXT",
       "asset_type": "Equity",
-      "weight": 0.03,
+      "weight": 0.0287,
       "cusip": "65290E101",
       "company": "cusip:65290E101"
     },
     {
-      "name": "Argan, Inc.",
-      "ticker": "AGX",
+      "name": "Dycom Industries, Inc.",
+      "ticker": "DY",
       "asset_type": "Equity",
-      "weight": 0.0279,
-      "cusip": "04010E109",
-      "company": "cusip:04010E109"
-    },
-    {
-      "name": "Saia, Inc.",
-      "ticker": "SAIA",
-      "asset_type": "Equity",
-      "weight": 0.0265,
-      "cusip": "78709Y105",
-      "company": "cusip:78709Y105"
+      "weight": 0.0271,
+      "cusip": "267475101",
+      "company": "cusip:267475101"
     },
     {
       "name": "Clean Harbors, Inc.",
       "ticker": "CLH",
       "asset_type": "Equity",
-      "weight": 0.0263,
+      "weight": 0.027,
       "cusip": "184496107",
       "company": "cusip:184496107"
+    },
+    {
+      "name": "Saia, Inc.",
+      "ticker": "SAIA",
+      "asset_type": "Equity",
+      "weight": 0.0267,
+      "cusip": "78709Y105",
+      "company": "cusip:78709Y105"
     },
     {
       "name": "Kratos Defense & Security Solutions, Inc.",
       "ticker": "KTOS",
       "asset_type": "Equity",
-      "weight": 0.026,
+      "weight": 0.0264,
       "cusip": "50077B207",
       "company": "cusip:50077B207"
+    },
+    {
+      "name": "Argan, Inc.",
+      "ticker": "AGX",
+      "asset_type": "Equity",
+      "weight": 0.0263,
+      "cusip": "04010E109",
+      "company": "cusip:04010E109"
     },
     {
       "name": "Old National Bancorp",
       "ticker": "ONB",
       "asset_type": "Equity",
-      "weight": 0.0252,
+      "weight": 0.026,
       "cusip": "680033107",
       "company": "cusip:680033107"
+    },
+    {
+      "name": "Mueller Industries, Inc.",
+      "ticker": "MLI",
+      "asset_type": "Equity",
+      "weight": 0.0234,
+      "cusip": "624756102",
+      "company": "cusip:624756102"
+    },
+    {
+      "name": "Advanced Drainage Systems, Inc.",
+      "ticker": "WMS",
+      "asset_type": "Equity",
+      "weight": 0.0232,
+      "cusip": "00790R104",
+      "company": "cusip:00790R104"
     },
     {
       "name": "Oshkosh Corporation",
@@ -137,41 +153,17 @@
       "name": "Sterling Infrastructure, Inc.",
       "ticker": "STRL",
       "asset_type": "Equity",
-      "weight": 0.0229,
+      "weight": 0.0216,
       "cusip": "859241101",
       "company": "cusip:859241101"
-    },
-    {
-      "name": "Advanced Drainage Systems, Inc.",
-      "ticker": "WMS",
-      "asset_type": "Equity",
-      "weight": 0.0228,
-      "cusip": "00790R104",
-      "company": "cusip:00790R104"
     },
     {
       "name": "Forgent Power Solutions, Inc. (Class A)",
       "ticker": "FPS",
       "asset_type": "Equity",
-      "weight": 0.0228,
+      "weight": 0.0215,
       "cusip": "34631F102",
       "company": "cusip:34631F102"
-    },
-    {
-      "name": "Mueller Industries, Inc.",
-      "ticker": "MLI",
-      "asset_type": "Equity",
-      "weight": 0.0226,
-      "cusip": "624756102",
-      "company": "cusip:624756102"
-    },
-    {
-      "name": "AAON, Inc.",
-      "ticker": "AAON",
-      "asset_type": "Equity",
-      "weight": 0.0216,
-      "cusip": "000360206",
-      "company": "cusip:000360206"
     },
     {
       "name": "SPX Technologies",
@@ -182,66 +174,66 @@
       "company": "cusip:78473E103"
     },
     {
+      "name": "AAON, Inc.",
+      "ticker": "AAON",
+      "asset_type": "Equity",
+      "weight": 0.0207,
+      "cusip": "000360206",
+      "company": "cusip:000360206"
+    },
+    {
       "name": "Powell Industries, Inc.",
       "ticker": "POWL",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.0197,
       "cusip": "739128106",
       "company": "cusip:739128106"
-    },
-    {
-      "name": "Applied Industrial Technologies, Inc.",
-      "ticker": "AIT",
-      "asset_type": "Equity",
-      "weight": 0.0192,
-      "cusip": "03820C105",
-      "company": "cusip:03820C105"
     },
     {
       "name": "F.N.B. Corporation",
       "ticker": "FNB",
       "asset_type": "Equity",
-      "weight": 0.019,
+      "weight": 0.0196,
       "cusip": "302520101",
       "company": "cusip:302520101"
+    },
+    {
+      "name": "Applied Industrial Technologies, Inc.",
+      "ticker": "AIT",
+      "asset_type": "Equity",
+      "weight": 0.0194,
+      "cusip": "03820C105",
+      "company": "cusip:03820C105"
     },
     {
       "name": "Xometry, Inc. (Class A)",
       "ticker": "XMTR",
       "asset_type": "Equity",
-      "weight": 0.0189,
+      "weight": 0.0188,
       "cusip": "98423F109",
       "company": "cusip:98423F109"
-    },
-    {
-      "name": "Primoris Services Corporation",
-      "ticker": "PRIM",
-      "asset_type": "Equity",
-      "weight": 0.017,
-      "cusip": "74164F103",
-      "company": "cusip:74164F103"
-    },
-    {
-      "name": "Ryder System, Inc.",
-      "ticker": "R",
-      "asset_type": "Equity",
-      "weight": 0.017,
-      "cusip": "783549108",
-      "company": "cusip:783549108"
     },
     {
       "name": "Granite Construction Incorporated",
       "ticker": "GVA",
       "asset_type": "Equity",
-      "weight": 0.0169,
+      "weight": 0.0172,
       "cusip": "387328107",
       "company": "cusip:387328107"
+    },
+    {
+      "name": "Ryder System, Inc.",
+      "ticker": "R",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "cusip": "783549108",
+      "company": "cusip:783549108"
     },
     {
       "name": "MSC Industrial Direct Co., Inc. (Class A)",
       "ticker": "MSM",
       "asset_type": "Equity",
-      "weight": 0.0165,
+      "weight": 0.0171,
       "cusip": "553530106",
       "company": "cusip:553530106"
     },
@@ -249,7 +241,7 @@
       "name": "Associated Banc-Corp",
       "ticker": "ASB",
       "asset_type": "Equity",
-      "weight": 0.016,
+      "weight": 0.0164,
       "cusip": "045487105",
       "company": "cusip:045487105"
     },
@@ -257,15 +249,23 @@
       "name": "Wintrust Financial Corporation",
       "ticker": "WTFC",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0163,
       "cusip": "97650W108",
       "company": "cusip:97650W108"
+    },
+    {
+      "name": "Primoris Services Corporation",
+      "ticker": "PRIM",
+      "asset_type": "Equity",
+      "weight": 0.0161,
+      "cusip": "74164F103",
+      "company": "cusip:74164F103"
     },
     {
       "name": "Mercury Systems, Inc.",
       "ticker": "MRCY",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0133,
       "cusip": "589378108",
       "company": "cusip:589378108"
     },
@@ -273,7 +273,7 @@
       "name": "Kirby Corporation",
       "ticker": "KEX",
       "asset_type": "Equity",
-      "weight": 0.0131,
+      "weight": 0.0132,
       "cusip": "497266106",
       "company": "cusip:497266106"
     },
@@ -281,7 +281,7 @@
       "name": "Landstar System, Inc.",
       "ticker": "LSTR",
       "asset_type": "Equity",
-      "weight": 0.0122,
+      "weight": 0.0124,
       "cusip": "515098101",
       "company": "cusip:515098101"
     },
@@ -297,7 +297,7 @@
       "name": "Federal Signal Corporation",
       "ticker": "FSS",
       "asset_type": "Equity",
-      "weight": 0.0117,
+      "weight": 0.0119,
       "cusip": "313855108",
       "company": "cusip:313855108"
     },
@@ -305,7 +305,7 @@
       "name": "Construction Partners, Inc. (Class A)",
       "ticker": "ROAD",
       "asset_type": "Equity",
-      "weight": 0.0108,
+      "weight": 0.0109,
       "cusip": "21044C107",
       "company": "cusip:21044C107"
     },
@@ -313,9 +313,17 @@
       "name": "Fulton Financial Corporation",
       "ticker": "FULT",
       "asset_type": "Equity",
-      "weight": 0.01,
+      "weight": 0.0103,
       "cusip": "360271100",
       "company": "cusip:360271100"
+    },
+    {
+      "name": "Zurn Elkay Water Solutions Corp.",
+      "ticker": "ZWS",
+      "asset_type": "Equity",
+      "weight": 0.0097,
+      "cusip": "98983L108",
+      "company": "cusip:98983L108"
     },
     {
       "name": "Tutor Perini Corporation",
@@ -326,18 +334,10 @@
       "company": "cusip:901109108"
     },
     {
-      "name": "Zurn Elkay Water Solutions Corp.",
-      "ticker": "ZWS",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "cusip": "98983L108",
-      "company": "cusip:98983L108"
-    },
-    {
       "name": "CSW Industrials, Inc.",
       "ticker": "CSW",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.009,
       "cusip": "126402106",
       "company": "cusip:126402106"
     },
@@ -345,7 +345,7 @@
       "name": "Mueller Water Products, Inc.",
       "ticker": "MWA",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0089,
       "cusip": "624758108",
       "company": "cusip:624758108"
     },
@@ -353,17 +353,9 @@
       "name": "SOLV Energy, Inc. (Class A)",
       "ticker": "MWH",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0085,
       "cusip": "78475V103",
       "company": "cusip:78475V103"
-    },
-    {
-      "name": "Legence Corp. (Class A)",
-      "ticker": "LGN",
-      "asset_type": "Equity",
-      "weight": 0.0085,
-      "cusip": "52476L109",
-      "company": "cusip:52476L109"
     },
     {
       "name": "Ducommun Incorporated",
@@ -377,47 +369,55 @@
       "name": "Blue Bird Corporation",
       "ticker": "BLBD",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0081,
       "cusip": "095306106",
       "company": "cusip:095306106"
     },
     {
-      "name": "Everus Construction Group, Inc.",
-      "ticker": "ECG",
+      "name": "Legence Corp. (Class A)",
+      "ticker": "LGN",
       "asset_type": "Equity",
-      "weight": 0.0078,
-      "cusip": "300426103",
-      "company": "cusip:300426103"
+      "weight": 0.008,
+      "cusip": "52476L109",
+      "company": "cusip:52476L109"
     },
     {
       "name": "Leonardo DRS, Inc.",
       "ticker": "DRS",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.008,
       "cusip": "52661A108",
       "company": "cusip:52661A108"
     },
     {
-      "name": "DNOW Inc.",
-      "ticker": "DNOW",
+      "name": "Everus Construction Group, Inc.",
+      "ticker": "ECG",
       "asset_type": "Equity",
-      "weight": 0.0073,
-      "cusip": "67011P100",
-      "company": "cusip:67011P100"
+      "weight": 0.0075,
+      "cusip": "300426103",
+      "company": "cusip:300426103"
     },
     {
       "name": "First Financial Bancorp.",
       "ticker": "FFBC",
       "asset_type": "Equity",
-      "weight": 0.0073,
+      "weight": 0.0075,
       "cusip": "320209109",
       "company": "cusip:320209109"
+    },
+    {
+      "name": "DNOW Inc.",
+      "ticker": "DNOW",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "cusip": "67011P100",
+      "company": "cusip:67011P100"
     },
     {
       "name": "Werner Enterprises, Inc.",
       "ticker": "WERN",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.006,
       "cusip": "950755108",
       "company": "cusip:950755108"
     },
@@ -425,7 +425,7 @@
       "name": "Shoals Technologies Group, Inc. (Class A)",
       "ticker": "SHLS",
       "asset_type": "Equity",
-      "weight": 0.0058,
+      "weight": 0.0059,
       "cusip": "82489W107",
       "company": "cusip:82489W107"
     },

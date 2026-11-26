@@ -1,15 +1,51 @@
 {
   "ticker": "DTCR",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-25T05:03:52.730137+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-26T04:22:29.367660+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/dtcr_full-holdings_{date}.csv",
   "holdings": [
     {
+      "name": "TAIWAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0015,
+      "company": null
+    },
+    {
+      "name": "WHITEFIBER INC",
+      "ticker": "WYFI",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "BQTYCT7",
+      "company": "cusip:G96115103"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0012,
+      "company": null
+    },
+    {
+      "name": "KOREAN WON",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0005,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0011,
+      "company": null
+    },
+    {
       "name": "AMERICAN TOWER CORP",
       "ticker": "AMT",
       "asset_type": "Equity",
-      "weight": 0.1608,
+      "weight": 0.1623,
       "sedol": "B7FBFL2",
       "company": "cusip:03027X100"
     },
@@ -17,7 +53,7 @@
       "name": "EQUINIX INC",
       "ticker": "EQIX",
       "asset_type": "Equity",
-      "weight": 0.1425,
+      "weight": 0.1418,
       "sedol": "BVLZX12",
       "company": "cusip:29444U700"
     },
@@ -25,7 +61,7 @@
       "name": "DIGITAL REALTY TRUST INC",
       "ticker": "DLR",
       "asset_type": "Equity",
-      "weight": 0.1392,
+      "weight": 0.1401,
       "sedol": "B03GQS4",
       "company": "cusip:253868103"
     },
@@ -33,7 +69,7 @@
       "name": "CROWN CASTLE INC",
       "ticker": "CCI",
       "asset_type": "Equity",
-      "weight": 0.1157,
+      "weight": 0.1171,
       "sedol": "BTGQCX1",
       "company": "cusip:22822V101"
     },
@@ -41,7 +77,7 @@
       "name": "SBA COMMUNICATIONS CORP",
       "ticker": "SBAC",
       "asset_type": "Equity",
-      "weight": 0.0512,
+      "weight": 0.0519,
       "sedol": "BZ6TS23",
       "company": "cusip:78410G104"
     },
@@ -49,7 +85,7 @@
       "name": "KEPPEL DC REIT",
       "ticker": "KDCREIT SP",
       "asset_type": "Equity",
-      "weight": 0.0494,
+      "weight": 0.0493,
       "sedol": "BT9Q186",
       "company": "cusip:Y47230100"
     },
@@ -57,7 +93,7 @@
       "name": "NEXTDC LTD",
       "ticker": "NXT AU",
       "asset_type": "Equity",
-      "weight": 0.0352,
+      "weight": 0.0346,
       "sedol": "B5LMKP4",
       "company": "cusip:Q6750Y106"
     },
@@ -65,7 +101,7 @@
       "name": "CHINA TOWER CORP LTD-H",
       "ticker": "788 HK",
       "asset_type": "Equity",
-      "weight": 0.0263,
+      "weight": 0.0259,
       "sedol": "BTVMCY5",
       "company": "cusip:Y15076121"
     },
@@ -73,7 +109,7 @@
       "name": "APPLIED DIGITAL CORP",
       "ticker": "APLD",
       "asset_type": "Equity",
-      "weight": 0.0234,
+      "weight": 0.0235,
       "sedol": "BMCNFN8",
       "company": "cusip:038169207"
     },
@@ -86,36 +122,28 @@
       "company": "cusip:36165L108"
     },
     {
-      "name": "TAIWAN SEMICONDUCTOR MANUFAC",
-      "ticker": "2330 TT",
+      "name": "SUPER MICRO COMPUTER INC",
+      "ticker": "SMCI",
       "asset_type": "Equity",
-      "weight": 0.0211,
-      "sedol": "6889106",
-      "company": "cusip:874039100"
+      "weight": 0.0214,
+      "sedol": "BRC3N73",
+      "company": "cusip:86800U302"
     },
     {
       "name": "HEWLETT PACKARD ENTERPRISE",
       "ticker": "HPE",
       "asset_type": "Equity",
-      "weight": 0.021,
+      "weight": 0.0213,
       "sedol": "BYVYWS0",
       "company": "cusip:42824C109"
     },
     {
-      "name": "SUPER MICRO COMPUTER INC",
-      "ticker": "SMCI",
+      "name": "TAIWAN SEMICONDUCTOR MANUFAC",
+      "ticker": "2330 TT",
       "asset_type": "Equity",
-      "weight": 0.0208,
-      "sedol": "BRC3N73",
-      "company": "cusip:86800U302"
-    },
-    {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0192,
-      "sedol": "2007849",
-      "company": "cusip:007903107"
+      "weight": 0.0202,
+      "sedol": "6889106",
+      "company": "cusip:874039100"
     },
     {
       "name": "BROADCOM INC",
@@ -126,42 +154,50 @@
       "company": "cusip:11135F101"
     },
     {
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA",
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0181,
-      "sedol": "2379504",
-      "company": "cusip:67066G104"
+      "weight": 0.0189,
+      "sedol": "2007849",
+      "company": "cusip:007903107"
     },
     {
       "name": "UNITI GROUP INC",
       "ticker": "UNIT",
       "asset_type": "Equity",
-      "weight": 0.0173,
+      "weight": 0.0174,
       "sedol": "BSNMCG8",
       "company": "name:uniti group@united states"
     },
     {
-      "name": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.0173,
-      "sedol": "2588184",
-      "company": "cusip:595112103"
+      "weight": 0.0174,
+      "sedol": "2379504",
+      "company": "cusip:67066G104"
     },
     {
       "name": "MICROCHIP TECHNOLOGY INC",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0165,
       "sedol": "2592174",
       "company": "cusip:595017104"
+    },
+    {
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0165,
+      "sedol": "2588184",
+      "company": "cusip:595112103"
     },
     {
       "name": "MARVELL TECHNOLOGY INC",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0157,
       "sedol": "BNKJSM5",
       "company": "cusip:573874104"
     },
@@ -169,7 +205,7 @@
       "name": "SK HYNIX INC",
       "ticker": "000660 KS",
       "asset_type": "Equity",
-      "weight": 0.0152,
+      "weight": 0.0133,
       "sedol": "6450267",
       "company": "cusip:78392B206"
     },
@@ -185,7 +221,7 @@
       "name": "VNET GROUP INCORPORATION",
       "ticker": "VNET",
       "asset_type": "Equity",
-      "weight": 0.0102,
+      "weight": 0.0106,
       "sedol": "B3Q0VS9",
       "company": "name:vnet group incorporation"
     },
@@ -193,45 +229,9 @@
       "name": "SUNEVISION HOLDINGS",
       "ticker": "1686 HK",
       "asset_type": "Equity",
-      "weight": 0.006,
+      "weight": 0.0058,
       "sedol": "6222217",
       "company": "name:sunevision holdings"
-    },
-    {
-      "name": "KOREAN WON",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0004,
-      "company": null
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0001,
-      "company": null
-    },
-    {
-      "name": "WHITEFIBER INC",
-      "ticker": "WYFI",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "BQTYCT7",
-      "company": "cusip:G96115103"
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.001,
-      "company": null
-    },
-    {
-      "name": "TAIWAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0007,
-      "company": null
     }
   ]
 }
