@@ -1,31 +1,31 @@
 {
   "ticker": "FAN",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:03.843584+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:30.623186+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FAN",
   "holdings": [
     {
-      "name": "Nordex SE",
-      "ticker": "NDX1.GY",
-      "asset_type": "Equity",
-      "weight": 0.0835,
-      "cusip": "D5736K135",
-      "company": "cusip:D5736K135"
-    },
-    {
       "name": "Orsted A/S",
       "ticker": "ORSTED.DC",
       "asset_type": "Equity",
-      "weight": 0.0827,
+      "weight": 0.0846,
       "cusip": "K7653Q105",
       "company": "cusip:K7653Q105"
+    },
+    {
+      "name": "Nordex SE",
+      "ticker": "NDX1.GY",
+      "asset_type": "Equity",
+      "weight": 0.0802,
+      "cusip": "D5736K135",
+      "company": "cusip:D5736K135"
     },
     {
       "name": "EDP Renewables SA",
       "ticker": "EDPR.PL",
       "asset_type": "Equity",
-      "weight": 0.0786,
+      "weight": 0.0797,
       "cusip": "E3847K101",
       "company": "cusip:E3847K101"
     },
@@ -33,7 +33,7 @@
       "name": "Vestas Wind Systems A/S",
       "ticker": "VWS.DC",
       "asset_type": "Equity",
-      "weight": 0.0686,
+      "weight": 0.0666,
       "cusip": "K9773J201",
       "company": "cusip:K9773J201"
     },
@@ -41,7 +41,7 @@
       "name": "China Longyuan Power Group Corporation Limited (Class H)",
       "ticker": "916.HK",
       "asset_type": "Equity",
-      "weight": 0.0597,
+      "weight": 0.0595,
       "cusip": "Y1501T101",
       "company": "cusip:B4Q2TX906"
     },
@@ -49,14 +49,14 @@
       "name": "Norwegian Krone",
       "ticker": "$NOK",
       "asset_type": "Cash",
-      "weight": 0.0438,
+      "weight": 0.0452,
       "company": null
     },
     {
       "name": "Cadeler Plc",
       "ticker": "CDLR.NO",
       "asset_type": "Equity",
-      "weight": 0.0428,
+      "weight": 0.0416,
       "cusip": "G17445100",
       "company": "cusip:12738K109"
     },
@@ -64,7 +64,7 @@
       "name": "ERG SpA",
       "ticker": "ERG.IM",
       "asset_type": "Equity",
-      "weight": 0.041,
+      "weight": 0.0405,
       "cusip": "T3707Z101",
       "company": "cusip:T3707Z101"
     },
@@ -72,7 +72,7 @@
       "name": "CS Wind Corp.",
       "ticker": "112610.KS",
       "asset_type": "Equity",
-      "weight": 0.0293,
+      "weight": 0.0295,
       "cusip": "Y1R23X102",
       "company": "cusip:Y1R23X102"
     },
@@ -80,7 +80,7 @@
       "name": "Goldwind Science & Technology Co., Ltd. (Class H)",
       "ticker": "2208.HK",
       "asset_type": "Equity",
-      "weight": 0.0258,
+      "weight": 0.0254,
       "cusip": "Y97237112",
       "company": "cusip:Y97237112"
     },
@@ -88,7 +88,7 @@
       "name": "Iberdrola S.A.",
       "ticker": "IBE.SM",
       "asset_type": "Equity",
-      "weight": 0.0228,
+      "weight": 0.0239,
       "cusip": "E6165F166",
       "company": "cusip:B288C9908"
     },
@@ -96,7 +96,7 @@
       "name": "Alliant Energy Corporation",
       "ticker": "LNT",
       "asset_type": "Equity",
-      "weight": 0.0226,
+      "weight": 0.0237,
       "cusip": "018802108",
       "company": "cusip:018802108"
     },
@@ -104,7 +104,7 @@
       "name": "Toray Industries, Inc.",
       "ticker": "3402.JP",
       "asset_type": "Equity",
-      "weight": 0.0221,
+      "weight": 0.0229,
       "cusip": "J89494116",
       "company": "cusip:J89494116"
     },
@@ -112,7 +112,7 @@
       "name": "NextEra Energy, Inc.",
       "ticker": "NEE",
       "asset_type": "Equity",
-      "weight": 0.022,
+      "weight": 0.0228,
       "cusip": "65339F101",
       "company": "cusip:65339F101"
     },
@@ -120,7 +120,7 @@
       "name": "Northland Power Inc.",
       "ticker": "NPI.CN",
       "asset_type": "Equity",
-      "weight": 0.0217,
+      "weight": 0.0223,
       "cusip": "666511100",
       "company": "cusip:666511100"
     },
@@ -128,7 +128,7 @@
       "name": "Enel SpA",
       "ticker": "ENEL.IM",
       "asset_type": "Equity",
-      "weight": 0.0204,
+      "weight": 0.021,
       "cusip": "T3679P115",
       "company": "cusip:714456902"
     },
@@ -136,15 +136,23 @@
       "name": "Engie S.A.",
       "ticker": "ENGI.FP",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.021,
       "cusip": "F7629A107",
       "company": "cusip:B0C2CQ902"
+    },
+    {
+      "name": "Hitachi, Ltd.",
+      "ticker": "6501.JP",
+      "asset_type": "Equity",
+      "weight": 0.0204,
+      "cusip": "J20454112",
+      "company": "cusip:J20454112"
     },
     {
       "name": "RWE AG",
       "ticker": "RWE.GY",
       "asset_type": "Equity",
-      "weight": 0.0198,
+      "weight": 0.0204,
       "cusip": "D6629K109",
       "company": "cusip:476896907"
     },
@@ -152,79 +160,63 @@
       "name": "AB SKF (Class B)",
       "ticker": "SKFB.SS",
       "asset_type": "Equity",
-      "weight": 0.0196,
+      "weight": 0.0195,
       "cusip": "W84237143",
       "company": "cusip:W84237143"
-    },
-    {
-      "name": "Hitachi, Ltd.",
-      "ticker": "6501.JP",
-      "asset_type": "Equity",
-      "weight": 0.0192,
-      "cusip": "J20454112",
-      "company": "cusip:J20454112"
-    },
-    {
-      "name": "Acciona, S.A.",
-      "ticker": "ANA.SM",
-      "asset_type": "Equity",
-      "weight": 0.019,
-      "cusip": "E0008Z109",
-      "company": "cusip:E0008Z109"
     },
     {
       "name": "The Timken Company",
       "ticker": "TKR",
       "asset_type": "Equity",
-      "weight": 0.0185,
+      "weight": 0.0188,
       "cusip": "887389104",
       "company": "cusip:887389104"
+    },
+    {
+      "name": "Acciona, S.A.",
+      "ticker": "ANA.SM",
+      "asset_type": "Equity",
+      "weight": 0.0185,
+      "cusip": "E0008Z109",
+      "company": "cusip:E0008Z109"
     },
     {
       "name": "GE Vernova Inc.",
       "ticker": "GEV",
       "asset_type": "Equity",
-      "weight": 0.0183,
+      "weight": 0.0178,
       "cusip": "36828A101",
       "company": "cusip:36828A101"
-    },
-    {
-      "name": "Prysmian SpA",
-      "ticker": "PRY.IM",
-      "asset_type": "Equity",
-      "weight": 0.0181,
-      "cusip": "T7630L105",
-      "company": "cusip:T7630L105"
-    },
-    {
-      "name": "Siemens Energy AG",
-      "ticker": "ENR.GR",
-      "asset_type": "Equity",
-      "weight": 0.0179,
-      "cusip": "D6T47E106",
-      "company": "cusip:D6T47E106"
     },
     {
       "name": "Enlight Renewable Energy Ltd.",
       "ticker": "ENLT.IT",
       "asset_type": "Equity",
-      "weight": 0.0178,
+      "weight": 0.0174,
       "cusip": "M4056D110",
       "company": "cusip:M4056D110"
     },
     {
-      "name": "Century Iron & Steel Industrial Co., Ltd.",
-      "ticker": "9958.TT",
+      "name": "Siemens Energy AG",
+      "ticker": "ENR.GR",
       "asset_type": "Equity",
-      "weight": 0.0159,
-      "cusip": "Y1248T109",
-      "company": "cusip:Y1248T109"
+      "weight": 0.0174,
+      "cusip": "D6T47E106",
+      "company": "cusip:D6T47E106"
+    },
+    {
+      "name": "Prysmian SpA",
+      "ticker": "PRY.IM",
+      "asset_type": "Equity",
+      "weight": 0.0172,
+      "cusip": "T7630L105",
+      "company": "cusip:T7630L105"
     },
     {
       "name": "Clearway Energy, Inc. (Class C)",
       "ticker": "CWEN",
       "asset_type": "Equity",
-      "weight": 0.0157,
+      "weight": 0.015,
       "cusip": "18539C204",
       "company": "cusip:18539C204"
     },
@@ -232,15 +224,23 @@
       "name": "BKW AG",
       "ticker": "BKW.SW",
       "asset_type": "Equity",
-      "weight": 0.0142,
+      "weight": 0.0149,
       "cusip": "H10053108",
       "company": "cusip:H10053108"
+    },
+    {
+      "name": "Century Iron & Steel Industrial Co., Ltd.",
+      "ticker": "9958.TT",
+      "asset_type": "Equity",
+      "weight": 0.0149,
+      "cusip": "Y1248T109",
+      "company": "cusip:Y1248T109"
     },
     {
       "name": "China Datang Corp Renewable Power Co., Ltd. (Class H)",
       "ticker": "1798.HK",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.0077,
       "cusip": "Y1456S108",
       "company": "cusip:Y1456S108"
     },
@@ -253,26 +253,26 @@
       "company": "cusip:G2345T109"
     },
     {
-      "name": "Energiekontor AG",
-      "ticker": "EKT.GY",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "cusip": "D1336N108",
-      "company": "cusip:D1336N108"
-    },
-    {
       "name": "DEME Group NV",
       "ticker": "DEME.BB",
       "asset_type": "Equity",
-      "weight": 0.0057,
+      "weight": 0.0058,
       "cusip": "B3S09H105",
       "company": "cusip:B3S09H105"
+    },
+    {
+      "name": "Energiekontor AG",
+      "ticker": "EKT.GY",
+      "asset_type": "Equity",
+      "weight": 0.0058,
+      "cusip": "D1336N108",
+      "company": "cusip:D1336N108"
     },
     {
       "name": "Gurit Holding AG",
       "ticker": "GURN.SW",
       "asset_type": "Equity",
-      "weight": 0.0052,
+      "weight": 0.0055,
       "cusip": "H3420V182",
       "company": "cusip:H3420V182"
     },
@@ -280,7 +280,7 @@
       "name": "Unison Co., Ltd.",
       "ticker": "018000.KS",
       "asset_type": "Equity",
-      "weight": 0.0051,
+      "weight": 0.0054,
       "cusip": "Y9158V105",
       "company": "cusip:Y9158V105"
     },
@@ -288,7 +288,7 @@
       "name": "American Superconductor Corporation",
       "ticker": "AMSC",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0047,
       "cusip": "030111207",
       "company": "cusip:030111207"
     },
@@ -296,7 +296,7 @@
       "name": "Energix-Renewable Energies Ltd.",
       "ticker": "ENRG.IT",
       "asset_type": "Equity",
-      "weight": 0.0048,
+      "weight": 0.0047,
       "cusip": "M4047G115",
       "company": "cusip:M4047G115"
     },
@@ -309,26 +309,26 @@
       "company": "cusip:N3385Q312"
     },
     {
-      "name": "Orron Energy AB",
-      "ticker": "ORRON.SS",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "cusip": "W64566107",
-      "company": "cusip:W64566107"
-    },
-    {
       "name": "Akfen Yenilenebilir Enerji AS",
       "ticker": "AKFYE.TI",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0043,
       "cusip": "M0378F114",
       "company": "cusip:M0378F114"
+    },
+    {
+      "name": "Orron Energy AB",
+      "ticker": "ORRON.SS",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "cusip": "W64566107",
+      "company": "cusip:W64566107"
     },
     {
       "name": "Dongfang Electric Corporation Limited (Class H)",
       "ticker": "1072.HK",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0039,
       "cusip": "Y20958107",
       "company": "cusip:Y20958107"
     },
@@ -336,7 +336,7 @@
       "name": "PNE AG",
       "ticker": "PNE3.GY",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0037,
       "cusip": "D6S45C137",
       "company": "cusip:D6S45C137"
     },
@@ -344,7 +344,7 @@
       "name": "Renew Energy Global Plc (Class A)",
       "ticker": "RNW",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0033,
       "cusip": "G7500M104",
       "company": "cusip:G7500M104"
     },
@@ -352,7 +352,7 @@
       "name": "China Suntien Green Energy Corporation Limited (Class H)",
       "ticker": "956.HK",
       "asset_type": "Equity",
-      "weight": 0.0025,
+      "weight": 0.0024,
       "cusip": "Y15207106",
       "company": "cusip:Y15207106"
     },
@@ -365,25 +365,18 @@
       "company": "cusip:M47213109"
     },
     {
-      "name": "South Korean Won",
-      "ticker": "$KRW",
-      "asset_type": "Cash",
-      "weight": 0.0016,
-      "company": null
-    },
-    {
       "name": "SIF Holding NV",
       "ticker": "SIFG.NA",
       "asset_type": "Equity",
-      "weight": 0.0009,
+      "weight": 0.001,
       "cusip": "N79954108",
       "company": "cusip:N79954108"
     },
     {
-      "name": "New Taiwan Dollar",
-      "ticker": "$TWD",
+      "name": "US Dollar",
+      "ticker": "$USD",
       "asset_type": "Cash",
-      "weight": 0.0007,
+      "weight": 0.0004,
       "company": null
     },
     {
@@ -401,31 +394,17 @@
       "company": null
     },
     {
+      "name": "New Israeli Shekel",
+      "ticker": "$ILS",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
       "name": "Pound Sterling",
       "ticker": "$GBP",
       "asset_type": "Cash",
       "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "Swedish Krona",
-      "ticker": "$SEK",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "Swiss Franc",
-      "ticker": "$CHF",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "US Dollar",
-      "ticker": "$USD",
-      "asset_type": "Cash",
-      "weight": -0.002,
       "company": null
     }
   ]

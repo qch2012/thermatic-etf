@@ -1,7 +1,7 @@
 {
   "ticker": "XSD",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-19T11:10:34.072692+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:58.146422+00:00",
   "stale": false,
   "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xsd.xlsx",
   "holdings": [
@@ -9,25 +9,16 @@
       "name": "SYNAPTICS INC",
       "ticker": "SYNA",
       "asset_type": "Equity",
-      "weight": 0.03753251,
+      "weight": 0.04109395,
       "cusip": "87157D109",
       "sedol": "2839268",
       "company": "cusip:87157D109"
     },
     {
-      "name": "TEXAS INSTRUMENTS INC",
-      "ticker": "TXN",
-      "asset_type": "Equity",
-      "weight": 0.03397853,
-      "cusip": "882508104",
-      "sedol": "2885409",
-      "company": "cusip:882508104"
-    },
-    {
       "name": "NXP SEMICONDUCTORS NV",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.03396654,
+      "weight": 0.03543696,
       "cusip": "N6596X109",
       "sedol": "B505PN7",
       "company": "cusip:N6596X109"
@@ -36,106 +27,106 @@
       "name": "SKYWORKS SOLUTIONS INC",
       "ticker": "SWKS",
       "asset_type": "Equity",
-      "weight": 0.03372581,
+      "weight": 0.03496174,
       "cusip": "83088M102",
       "sedol": "2961053",
       "company": "cusip:83088M102"
     },
     {
-      "name": "MONOLITHIC POWER SYSTEMS INC",
-      "ticker": "MPWR",
-      "asset_type": "Equity",
-      "weight": 0.03288008,
-      "cusip": "609839105",
-      "sedol": "B01Z7J1",
-      "company": "cusip:609839105"
-    },
-    {
-      "name": "UNIVERSAL DISPLAY CORP",
-      "ticker": "OLED",
-      "asset_type": "Equity",
-      "weight": 0.0319599,
-      "cusip": "91347P105",
-      "sedol": "2277880",
-      "company": "cusip:91347P105"
-    },
-    {
-      "name": "ANALOG DEVICES INC",
-      "ticker": "ADI",
-      "asset_type": "Equity",
-      "weight": 0.03156722,
-      "cusip": "032654105",
-      "sedol": "2032067",
-      "company": "cusip:032654105"
-    },
-    {
       "name": "CIRRUS LOGIC INC",
       "ticker": "CRUS",
       "asset_type": "Equity",
-      "weight": 0.03147653,
+      "weight": 0.03455085,
       "cusip": "172755100",
       "sedol": "2197308",
       "company": "cusip:172755100"
     },
     {
+      "name": "UNIVERSAL DISPLAY CORP",
+      "ticker": "OLED",
+      "asset_type": "Equity",
+      "weight": 0.03363882,
+      "cusip": "91347P105",
+      "sedol": "2277880",
+      "company": "cusip:91347P105"
+    },
+    {
       "name": "SILICON LABORATORIES INC",
       "ticker": "SLAB",
       "asset_type": "Equity",
-      "weight": 0.0302675,
+      "weight": 0.03321828,
       "cusip": "826919102",
       "sedol": "2568131",
       "company": "cusip:826919102"
     },
     {
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "ticker": "MPWR",
+      "asset_type": "Equity",
+      "weight": 0.03268755,
+      "cusip": "609839105",
+      "sedol": "B01Z7J1",
+      "company": "cusip:609839105"
+    },
+    {
+      "name": "TEXAS INSTRUMENTS INC",
+      "ticker": "TXN",
+      "asset_type": "Equity",
+      "weight": 0.03266144,
+      "cusip": "882508104",
+      "sedol": "2885409",
+      "company": "cusip:882508104"
+    },
+    {
       "name": "IMPINJ INC",
       "ticker": "PI",
       "asset_type": "Equity",
-      "weight": 0.02957076,
+      "weight": 0.03224724,
       "cusip": "453204109",
       "sedol": "BYYGJZ9",
       "company": "cusip:453204109"
     },
     {
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.02901788,
-      "cusip": "007903107",
-      "sedol": "2007849",
-      "company": "cusip:007903107"
-    },
-    {
-      "name": "ON SEMICONDUCTOR",
-      "ticker": "ON",
-      "asset_type": "Equity",
-      "weight": 0.02874876,
-      "cusip": "682189105",
-      "sedol": "2583576",
-      "company": "cusip:682189105"
-    },
-    {
-      "name": "LATTICE SEMICONDUCTOR CORP",
-      "ticker": "LSCC",
-      "asset_type": "Equity",
-      "weight": 0.02856914,
-      "cusip": "518415104",
-      "sedol": "2506658",
-      "company": "cusip:518415104"
-    },
-    {
       "name": "QUALCOMM INC",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.02838361,
+      "weight": 0.03091344,
       "cusip": "747525103",
       "sedol": "2714923",
       "company": "cusip:747525103"
     },
     {
+      "name": "LATTICE SEMICONDUCTOR CORP",
+      "ticker": "LSCC",
+      "asset_type": "Equity",
+      "weight": 0.02873809,
+      "cusip": "518415104",
+      "sedol": "2506658",
+      "company": "cusip:518415104"
+    },
+    {
+      "name": "ON SEMICONDUCTOR",
+      "ticker": "ON",
+      "asset_type": "Equity",
+      "weight": 0.02863656,
+      "cusip": "682189105",
+      "sedol": "2583576",
+      "company": "cusip:682189105"
+    },
+    {
+      "name": "ANALOG DEVICES INC",
+      "ticker": "ADI",
+      "asset_type": "Equity",
+      "weight": 0.0283344,
+      "cusip": "032654105",
+      "sedol": "2032067",
+      "company": "cusip:032654105"
+    },
+    {
       "name": "BROADCOM INC",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.02816148,
+      "weight": 0.02731347,
       "cusip": "11135F101",
       "sedol": "BDZ78H9",
       "company": "cusip:11135F101"
@@ -144,61 +135,88 @@
       "name": "DIODES INC",
       "ticker": "DIOD",
       "asset_type": "Equity",
-      "weight": 0.02790325,
+      "weight": 0.02661298,
       "cusip": "254543101",
       "sedol": "2270500",
       "company": "cusip:254543101"
     },
     {
-      "name": "RAMBUS INC",
-      "ticker": "RMBS",
-      "asset_type": "Equity",
-      "weight": 0.0269793,
-      "cusip": "750917106",
-      "sedol": "2721967",
-      "company": "cusip:750917106"
-    },
-    {
       "name": "POWER INTEGRATIONS INC",
       "ticker": "POWI",
       "asset_type": "Equity",
-      "weight": 0.02571424,
+      "weight": 0.02642114,
       "cusip": "739276103",
       "sedol": "2133045",
       "company": "cusip:739276103"
     },
     {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.02621438,
+      "cusip": "007903107",
+      "sedol": "2007849",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "RAMBUS INC",
+      "ticker": "RMBS",
+      "asset_type": "Equity",
+      "weight": 0.02593225,
+      "cusip": "750917106",
+      "sedol": "2721967",
+      "company": "cusip:750917106"
+    },
+    {
       "name": "MICROCHIP TECHNOLOGY INC",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.02445273,
+      "weight": 0.02551827,
       "cusip": "595017104",
       "sedol": "2592174",
       "company": "cusip:595017104"
     },
     {
-      "name": "MACOM TECHNOLOGY SOLUTIONS H",
-      "ticker": "MTSI",
-      "asset_type": "Equity",
-      "weight": 0.02386625,
-      "cusip": "55405Y100",
-      "sedol": "B5B15Y5",
-      "company": "cusip:55405Y100"
-    },
-    {
       "name": "ALLEGRO MICROSYSTEMS INC",
       "ticker": "ALGM",
       "asset_type": "Equity",
-      "weight": 0.02366157,
+      "weight": 0.02472795,
       "cusip": "01749D105",
       "sedol": "BN4LSB6",
       "company": "cusip:01749D105"
     },
     {
+      "name": "FIRST SOLAR INC",
+      "ticker": "FSLR",
+      "asset_type": "Equity",
+      "weight": 0.02409013,
+      "cusip": "336433107",
+      "sedol": "B1HMF22",
+      "company": "cusip:336433107"
+    },
+    {
+      "name": "MACOM TECHNOLOGY SOLUTIONS H",
+      "ticker": "MTSI",
+      "asset_type": "Equity",
+      "weight": 0.02312571,
+      "cusip": "55405Y100",
+      "sedol": "B5B15Y5",
+      "company": "cusip:55405Y100"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.02296071,
+      "cusip": "67066G104",
+      "sedol": "2379504",
+      "company": "cusip:67066G104"
+    },
+    {
       "name": "PENGUIN SOLUTIONS INC",
       "ticker": "PENG",
       "asset_type": "Equity",
-      "weight": 0.0236269,
+      "weight": 0.02228617,
       "cusip": "706915105",
       "sedol": "BRJHSZ1",
       "company": "cusip:706915105"
@@ -207,43 +225,16 @@
       "name": "AMBARELLA INC",
       "ticker": "AMBA",
       "asset_type": "Equity",
-      "weight": 0.02337634,
+      "weight": 0.02136605,
       "cusip": "G037AX101",
       "sedol": "B7KH3G6",
       "company": "cusip:G037AX101"
     },
     {
-      "name": "FIRST SOLAR INC",
-      "ticker": "FSLR",
-      "asset_type": "Equity",
-      "weight": 0.0226269,
-      "cusip": "336433107",
-      "sedol": "B1HMF22",
-      "company": "cusip:336433107"
-    },
-    {
-      "name": "CREDO TECHNOLOGY GROUP HOLDI",
-      "ticker": "CRDO",
-      "asset_type": "Equity",
-      "weight": 0.0221739,
-      "cusip": "G25457105",
-      "sedol": "BLD13F2",
-      "company": "cusip:G25457105"
-    },
-    {
-      "name": "MAXLINEAR INC",
-      "ticker": "MXL",
-      "asset_type": "Equity",
-      "weight": 0.02160096,
-      "cusip": "57776J100",
-      "sedol": "B3RDWC8",
-      "company": "cusip:57776J100"
-    },
-    {
       "name": "SITIME CORP",
       "ticker": "SITM",
       "asset_type": "Equity",
-      "weight": 0.0215033,
+      "weight": 0.02119804,
       "cusip": "82982T106",
       "sedol": "BKS48R6",
       "company": "cusip:82982T106"
@@ -252,70 +243,88 @@
       "name": "ASTERA LABS INC",
       "ticker": "ALAB",
       "asset_type": "Equity",
-      "weight": 0.02115027,
+      "weight": 0.02104135,
       "cusip": "04626A103",
       "sedol": "BMTQ7V2",
       "company": "cusip:04626A103"
     },
     {
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA",
+      "name": "CREDO TECHNOLOGY GROUP HOLDI",
+      "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.02087611,
-      "cusip": "67066G104",
-      "sedol": "2379504",
-      "company": "cusip:67066G104"
+      "weight": 0.02095758,
+      "cusip": "G25457105",
+      "sedol": "BLD13F2",
+      "company": "cusip:G25457105"
     },
     {
       "name": "MICRON TECHNOLOGY INC",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.02082056,
+      "weight": 0.02025402,
       "cusip": "595112103",
       "sedol": "2588184",
       "company": "cusip:595112103"
     },
     {
-      "name": "NAVITAS SEMICONDUCTOR CORP",
-      "ticker": "NVTS",
-      "asset_type": "Equity",
-      "weight": 0.01968159,
-      "cusip": "63942X106",
-      "sedol": "BMGMH68",
-      "company": "cusip:63942X106"
-    },
-    {
       "name": "IONQ INC",
       "ticker": "IONQ",
       "asset_type": "Equity",
-      "weight": 0.01956495,
+      "weight": 0.01941483,
       "cusip": "46222L108",
       "sedol": "BP484B3",
       "company": "cusip:46222L108"
     },
     {
-      "name": "SEMTECH CORP",
-      "ticker": "SMTC",
+      "name": "MAXLINEAR INC",
+      "ticker": "MXL",
       "asset_type": "Equity",
-      "weight": 0.01956401,
-      "cusip": "816850101",
-      "sedol": "2795542",
-      "company": "cusip:816850101"
+      "weight": 0.01936466,
+      "cusip": "57776J100",
+      "sedol": "B3RDWC8",
+      "company": "cusip:57776J100"
+    },
+    {
+      "name": "NAVITAS SEMICONDUCTOR CORP",
+      "ticker": "NVTS",
+      "asset_type": "Equity",
+      "weight": 0.01855181,
+      "cusip": "63942X106",
+      "sedol": "BMGMH68",
+      "company": "cusip:63942X106"
     },
     {
       "name": "MARVELL TECHNOLOGY INC",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.01901506,
+      "weight": 0.01850911,
       "cusip": "573874104",
       "sedol": "BNKJSM5",
       "company": "cusip:573874104"
     },
     {
+      "name": "SEMTECH CORP",
+      "ticker": "SMTC",
+      "asset_type": "Equity",
+      "weight": 0.01743341,
+      "cusip": "816850101",
+      "sedol": "2795542",
+      "company": "cusip:816850101"
+    },
+    {
+      "name": "INTEL CORP",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0170499,
+      "cusip": "458140100",
+      "sedol": "2463247",
+      "company": "cusip:458140100"
+    },
+    {
       "name": "RIGETTI COMPUTING INC",
       "ticker": "RGTI",
       "asset_type": "Equity",
-      "weight": 0.01667592,
+      "weight": 0.01646342,
       "cusip": "76655K103",
       "sedol": "BN45WL6",
       "company": "cusip:76655K103"
@@ -324,25 +333,16 @@
       "name": "CEREBRAS SYSTEMS INC   A",
       "ticker": "CBRS",
       "asset_type": "Equity",
-      "weight": 0.01595327,
+      "weight": 0.01496026,
       "cusip": "15675D103",
       "sedol": "BQ732F2",
       "company": "cusip:15675D103"
     },
     {
-      "name": "INTEL CORP",
-      "ticker": "INTC",
-      "asset_type": "Equity",
-      "weight": 0.01559857,
-      "cusip": "458140100",
-      "sedol": "2463247",
-      "company": "cusip:458140100"
-    },
-    {
       "name": "AMBIQ MICRO INC",
       "ticker": "AMBQ",
       "asset_type": "Equity",
-      "weight": 0.01003233,
+      "weight": 0.00975038,
       "cusip": "023193105",
       "sedol": "BV2D081",
       "company": "cusip:023193105"
@@ -351,7 +351,7 @@
       "name": "WOLFSPEED INC",
       "ticker": "WOLF",
       "asset_type": "Equity",
-      "weight": 0.00886126,
+      "weight": 0.0076661,
       "cusip": "97785W106",
       "sedol": "BVBFJH0",
       "company": "cusip:97785W106"
@@ -360,7 +360,7 @@
       "name": "CEVA INC",
       "ticker": "CEVA",
       "asset_type": "Equity",
-      "weight": 0.00733478,
+      "weight": 0.00751977,
       "cusip": "157210105",
       "sedol": "2986937",
       "company": "cusip:157210105"
@@ -369,7 +369,7 @@
       "name": "ALPHA + OMEGA SEMICONDUCTOR",
       "ticker": "AOSL",
       "asset_type": "Equity",
-      "weight": 0.00673923,
+      "weight": 0.00616554,
       "cusip": "G6331P104",
       "sedol": "B5Q3KZ2",
       "company": "cusip:G6331P104"
@@ -378,7 +378,7 @@
       "name": "KOPIN CORP",
       "ticker": "KOPN",
       "asset_type": "Equity",
-      "weight": 0.00642421,
+      "weight": 0.00601944,
       "cusip": "500600101",
       "sedol": "2492412",
       "company": "cusip:500600101"
@@ -387,7 +387,7 @@
       "name": "INDIE SEMICONDUCTOR INC A",
       "ticker": "INDI",
       "asset_type": "Equity",
-      "weight": 0.00497053,
+      "weight": 0.00457788,
       "cusip": "45569U101",
       "sedol": "BP4W0C8",
       "company": "cusip:45569U101"
@@ -396,7 +396,7 @@
       "name": "NVE CORP",
       "ticker": "NVEC",
       "asset_type": "Equity",
-      "weight": 0.0041457,
+      "weight": 0.00430818,
       "cusip": "629445206",
       "sedol": "2072126",
       "company": "cusip:629445206"
@@ -405,7 +405,7 @@
       "name": "T1 ENERGY INC",
       "ticker": "TE",
       "asset_type": "Equity",
-      "weight": 0.0028752,
+      "weight": 0.002593,
       "cusip": "35834F104",
       "sedol": "BSKPBK7",
       "company": "cusip:35834F104"
@@ -414,7 +414,7 @@
       "name": "EVERSPIN TECHNOLOGIES INC",
       "ticker": "MRAM",
       "asset_type": "Equity",
-      "weight": 0.00243046,
+      "weight": 0.00237655,
       "cusip": "30041T104",
       "sedol": "BDBBW73",
       "company": "cusip:30041T104"
@@ -423,14 +423,14 @@
       "name": "SSI US GOV MONEY MARKET CLASS",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 8.923e-05,
+      "weight": 9.865e-05,
       "company": null
     },
     {
       "name": "US DOLLAR",
       "ticker": null,
       "asset_type": "Other",
-      "weight": -4.9e-07,
+      "weight": 2.4e-07,
       "company": null
     }
   ]

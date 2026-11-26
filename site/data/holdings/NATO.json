@@ -1,0 +1,817 @@
+{
+  "ticker": "NATO",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-21T03:28:51.223933+00:00",
+  "stale": true,
+  "source": "https://themesetfs.com/storage/holdings/Holdings-NATO.csv",
+  "holdings": [
+    {
+      "name": "Cirrus Aircraft Ltd",
+      "ticker": "2507 HK",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "BSMW270",
+      "location": "Hong Kong",
+      "company": "name:cirrus aircraft@hong kong"
+    },
+    {
+      "name": "Applied Aerospace & Defense Inc",
+      "ticker": "AADX",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "cusip": "03815J107",
+      "location": "United States",
+      "company": "cusip:03815J107"
+    },
+    {
+      "name": "Archer Aviation Inc",
+      "ticker": "ACHR",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "cusip": "03945R102",
+      "location": "United States",
+      "company": "cusip:03945R102"
+    },
+    {
+      "name": "AAR Corp",
+      "ticker": "AIR",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "cusip": "000361105",
+      "location": "United States",
+      "company": "cusip:000361105"
+    },
+    {
+      "name": "AIRBUS GROUP SE",
+      "ticker": "AIR FP",
+      "asset_type": "Equity",
+      "weight": 0.0668,
+      "sedol": "4012250",
+      "location": "France",
+      "company": "cusip:N0280G100"
+    },
+    {
+      "name": "AIRO Group Holdings Inc",
+      "ticker": "AIRO",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "cusip": "009422106",
+      "location": "United States",
+      "company": "cusip:009422106"
+    },
+    {
+      "name": "Altinay Savunma Teknolojileri AS",
+      "ticker": "ALTNY TI",
+      "asset_type": "Equity",
+      "weight": 0.0003,
+      "sedol": "BSD3PY0",
+      "location": "Turkey",
+      "company": "name:altinay savunma teknolojileri@turkey"
+    },
+    {
+      "name": "Dassault Aviation SA",
+      "ticker": "AM FP",
+      "asset_type": "Equity",
+      "weight": 0.0031,
+      "sedol": "BMT9L19",
+      "location": "France",
+      "company": "cusip:F24539102"
+    },
+    {
+      "name": "Amentum Holdings Inc",
+      "ticker": "AMTM",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "cusip": "023939101",
+      "location": "United States",
+      "company": "cusip:023939101"
+    },
+    {
+      "name": "Arxis Inc",
+      "ticker": "ARXS",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "cusip": "04339D105",
+      "location": "United States",
+      "company": "cusip:04339D105"
+    },
+    {
+      "name": "Aselsan Elektronik Sanayi Ve Ticaret AS",
+      "ticker": "ASELS TI",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "B03MP41",
+      "location": "Turkey",
+      "company": "name:aselsan elektronik sanayi"
+    },
+    {
+      "name": "Astronics Corp",
+      "ticker": "ATRO",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "cusip": "046433108",
+      "location": "United States",
+      "company": "cusip:046433108"
+    },
+    {
+      "name": "AeroVironment Inc",
+      "ticker": "AVAV",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "cusip": "008073108",
+      "location": "United States",
+      "company": "cusip:008073108"
+    },
+    {
+      "name": "Aevex Corp",
+      "ticker": "AVEX",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "cusip": "00835T107",
+      "location": "United States",
+      "company": "cusip:00835T107"
+    },
+    {
+      "name": "Avio SpA",
+      "ticker": "AVIO IM",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "BYWZZF0",
+      "location": "Italy",
+      "company": "cusip:T0R27R125"
+    },
+    {
+      "name": "Avon Technologies PLC",
+      "ticker": "AVON LN",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "sedol": "0066701",
+      "location": "United Kingdom",
+      "company": "cusip:G06860103"
+    },
+    {
+      "name": "Axon Enterprise Inc",
+      "ticker": "AXON",
+      "asset_type": "Equity",
+      "weight": 0.0126,
+      "cusip": "05464C101",
+      "location": "United States",
+      "company": "cusip:05464C101"
+    },
+    {
+      "name": "Boeing Co/The",
+      "ticker": "BA",
+      "asset_type": "Equity",
+      "weight": 0.0648,
+      "cusip": "097023105",
+      "location": "United States",
+      "company": "cusip:097023105"
+    },
+    {
+      "name": "BAE Systems PLC",
+      "ticker": "BA/ LN",
+      "asset_type": "Equity",
+      "weight": 0.0401,
+      "sedol": "0263494",
+      "location": "United Kingdom",
+      "company": "cusip:05523R107"
+    },
+    {
+      "name": "Bombardier Inc",
+      "ticker": "BBD/B CN",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "sedol": "BN33PL2",
+      "location": "Canada",
+      "company": "name:bombardier@canada"
+    },
+    {
+      "name": "Beta Technologies Inc",
+      "ticker": "BETA",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "cusip": "086921103",
+      "location": "United States",
+      "company": "cusip:086921103"
+    },
+    {
+      "name": "Bodycote PLC",
+      "ticker": "BOY LN",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "sedol": "B3FLWH9",
+      "location": "United Kingdom",
+      "company": "name:bodycote@united kingdom"
+    },
+    {
+      "name": "BWX Technologies Inc",
+      "ticker": "BWXT",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "cusip": "05605H100",
+      "location": "United States",
+      "company": "cusip:05605H100"
+    },
+    {
+      "name": "CANADIAN DOLLAR",
+      "ticker": "CAD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Cadre Holdings Inc",
+      "ticker": "CDRE",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "cusip": "12763L105",
+      "location": "United States",
+      "company": "cusip:12763L105"
+    },
+    {
+      "name": "Chemring Group PLC",
+      "ticker": "CHG LN",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "B45C9X4",
+      "location": "United Kingdom",
+      "company": "cusip:163867104"
+    },
+    {
+      "name": "Cohort PLC",
+      "ticker": "CHRT LN",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "B0YD2B9",
+      "location": "United Kingdom",
+      "company": "name:cohort@united kingdom"
+    },
+    {
+      "name": "Colt CZ Group SE",
+      "ticker": "COLT CP",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BMYGDM0",
+      "location": "Czech Republic",
+      "company": "name:colt cz group@czech republic"
+    },
+    {
+      "name": "Crane Co",
+      "ticker": "CR",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "cusip": "224408104",
+      "location": "United States",
+      "company": "cusip:224408104"
+    },
+    {
+      "name": "CSG NV",
+      "ticker": "CSG CP",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "sedol": "BLC88P9",
+      "location": "Czech Republic",
+      "company": "name:csg@czech republic"
+    },
+    {
+      "name": "Curtiss-Wright Corp",
+      "ticker": "CW",
+      "asset_type": "Equity",
+      "weight": 0.0091,
+      "cusip": "231561101",
+      "location": "United States",
+      "company": "cusip:231561101"
+    },
+    {
+      "name": "CZECH KORUNA",
+      "ticker": "CZK",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Ducommun Inc",
+      "ticker": "DCO",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "cusip": "264147109",
+      "location": "United States",
+      "company": "cusip:264147109"
+    },
+    {
+      "name": "Leonardo DRS Inc",
+      "ticker": "DRS",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "cusip": "52661A108",
+      "location": "United States",
+      "company": "cusip:52661A108"
+    },
+    {
+      "name": "EURO",
+      "ticker": "EUR",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Exail Technologies SA",
+      "ticker": "EXA FP",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "sedol": "B06BGH5",
+      "location": "France",
+      "company": "cusip:F4606F100"
+    },
+    {
+      "name": "LISI SA",
+      "ticker": "FII FP",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "5489916",
+      "location": "France",
+      "company": "cusip:F5754P105"
+    },
+    {
+      "name": "Firefly Aerospace Inc",
+      "ticker": "FLY",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "cusip": "31816X106",
+      "location": "United States",
+      "company": "cusip:31816X106"
+    },
+    {
+      "name": "FTAI Aviation Ltd",
+      "ticker": "FTAI",
+      "asset_type": "Equity",
+      "weight": 0.0086,
+      "cusip": "G3730V105",
+      "location": "United States",
+      "company": "cusip:G3730V105"
+    },
+    {
+      "name": "First American Treasury Obligations Fund 01/01/2040",
+      "ticker": "FXFXX",
+      "asset_type": "Money Market",
+      "weight": 0.0035,
+      "company": null
+    },
+    {
+      "name": "BRITISH POUNDS",
+      "ticker": "GBP",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "General Dynamics Corp",
+      "ticker": "GD",
+      "asset_type": "Equity",
+      "weight": 0.0441,
+      "cusip": "369550108",
+      "location": "United States",
+      "company": "cusip:369550108"
+    },
+    {
+      "name": "GE AEROSPACE",
+      "ticker": "GE",
+      "asset_type": "Equity",
+      "weight": 0.0854,
+      "cusip": "369604301",
+      "location": "United States",
+      "company": "cusip:369604301"
+    },
+    {
+      "name": "Hensoldt AG",
+      "ticker": "HAG GR",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "BN0SDX8",
+      "location": "Germany",
+      "company": "cusip:42701C107"
+    },
+    {
+      "name": "HEICO Corp",
+      "ticker": "HEI",
+      "asset_type": "Equity",
+      "weight": 0.0075,
+      "cusip": "422806109",
+      "location": "United States",
+      "company": "cusip:422806109"
+    },
+    {
+      "name": "Huntington Ingalls Industries Inc",
+      "ticker": "HII",
+      "asset_type": "Equity",
+      "weight": 0.0062,
+      "cusip": "446413106",
+      "location": "United States",
+      "company": "cusip:446413106"
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": "HKD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Thales SA",
+      "ticker": "HO FP",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "sedol": "4162791",
+      "location": "France",
+      "company": "cusip:883219206"
+    },
+    {
+      "name": "Honeywell Aerospace Inc",
+      "ticker": "HONA",
+      "asset_type": "Equity",
+      "weight": 0.0271,
+      "cusip": "43849R105",
+      "location": "United States",
+      "company": "cusip:43849R105"
+    },
+    {
+      "name": "Howmet Aerospace Inc",
+      "ticker": "HWM",
+      "asset_type": "Equity",
+      "weight": 0.0442,
+      "cusip": "443201108",
+      "location": "United States",
+      "company": "cusip:443201108"
+    },
+    {
+      "name": "Hexcel Corp",
+      "ticker": "HXL",
+      "asset_type": "Equity",
+      "weight": 0.0031,
+      "cusip": "428291108",
+      "location": "United States",
+      "company": "cusip:428291108"
+    },
+    {
+      "name": "Innovative Solutions and Support Inc",
+      "ticker": "IA",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "cusip": "45769N105",
+      "location": "United States",
+      "company": "cusip:45769N105"
+    },
+    {
+      "name": "Joby Aviation Inc",
+      "ticker": "JOBY",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "cusip": "G65163100",
+      "location": "United States",
+      "company": "cusip:G65163100"
+    },
+    {
+      "name": "Kongsberg Gruppen ASA",
+      "ticker": "KOG NO",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "sedol": "BSTRB82",
+      "location": "Norway",
+      "company": "name:kongsberg gruppen@norway"
+    },
+    {
+      "name": "Karman Holdings Inc",
+      "ticker": "KRMN",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "cusip": "485924104",
+      "location": "United States",
+      "company": "cusip:485924104"
+    },
+    {
+      "name": "Kratos Defense & Security Solutions Inc",
+      "ticker": "KTOS",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "cusip": "50077B207",
+      "location": "United States",
+      "company": "cusip:50077B207"
+    },
+    {
+      "name": "LEONARDO-FINMECCANICA SPA",
+      "ticker": "LDO IM",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "sedol": "B0DJNG0",
+      "location": "Italy",
+      "company": "cusip:52660W101"
+    },
+    {
+      "name": "L3Harris Technologies Inc",
+      "ticker": "LHX",
+      "asset_type": "Equity",
+      "weight": 0.0262,
+      "cusip": "502431109",
+      "location": "United States",
+      "company": "cusip:502431109"
+    },
+    {
+      "name": "Lockheed Martin Corp",
+      "ticker": "LMT",
+      "asset_type": "Equity",
+      "weight": 0.0533,
+      "cusip": "539830109",
+      "location": "United States",
+      "company": "cusip:539830109"
+    },
+    {
+      "name": "Loar Holdings Inc",
+      "ticker": "LOAR",
+      "asset_type": "Equity",
+      "weight": 0.0014,
+      "cusip": "53947R105",
+      "location": "United States",
+      "company": "cusip:53947R105"
+    },
+    {
+      "name": "Intuitive Machines Inc",
+      "ticker": "LUNR",
+      "asset_type": "Equity",
+      "weight": 0.0006,
+      "cusip": "46125A100",
+      "location": "United States",
+      "company": "cusip:46125A100"
+    },
+    {
+      "name": "Mirion Technologies Inc",
+      "ticker": "MIR",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "cusip": "60471A101",
+      "location": "United States",
+      "company": "cusip:60471A101"
+    },
+    {
+      "name": "Moog Inc",
+      "ticker": "MOG/A",
+      "asset_type": "Equity",
+      "weight": 0.0053,
+      "cusip": "615394202",
+      "location": "United States",
+      "company": "cusip:615394202"
+    },
+    {
+      "name": "Mercury Systems Inc",
+      "ticker": "MRCY",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "cusip": "589378108",
+      "location": "United States",
+      "company": "cusip:589378108"
+    },
+    {
+      "name": "Melrose Industries PLC",
+      "ticker": "MRO LN",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "sedol": "BNGDN82",
+      "location": "United Kingdom",
+      "company": "cusip:G5973J210"
+    },
+    {
+      "name": "MTU Aero Engines AG",
+      "ticker": "MTX GR",
+      "asset_type": "Equity",
+      "weight": 0.0111,
+      "sedol": "B09DHL9",
+      "location": "Germany",
+      "company": "cusip:62473G102"
+    },
+    {
+      "name": "Northrop Grumman Corp",
+      "ticker": "NOC",
+      "asset_type": "Equity",
+      "weight": 0.0428,
+      "cusip": "666807102",
+      "location": "United States",
+      "company": "cusip:666807102"
+    },
+    {
+      "name": "NORWEGIAN KRONE",
+      "ticker": "NOK",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "National Presto Industries Inc",
+      "ticker": "NPK",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "cusip": "637215104",
+      "location": "United States",
+      "company": "cusip:637215104"
+    },
+    {
+      "name": "OSI Systems Inc",
+      "ticker": "OSIS",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "cusip": "671044105",
+      "location": "United States",
+      "company": "cusip:671044105"
+    },
+    {
+      "name": "Park Aerospace Corp",
+      "ticker": "PKE",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "cusip": "70014A104",
+      "location": "United States",
+      "company": "cusip:70014A104"
+    },
+    {
+      "name": "QinetiQ Group PLC",
+      "ticker": "QQ/ LN",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "sedol": "B0WMWD0",
+      "location": "United Kingdom",
+      "company": "cusip:G7303P106"
+    },
+    {
+      "name": "RENK Group AG",
+      "ticker": "R3NK GR",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "sedol": "BMD6RR4",
+      "location": "Germany",
+      "company": "cusip:75974A101"
+    },
+    {
+      "name": "Redwire Corp",
+      "ticker": "RDW",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "cusip": "75776W103",
+      "location": "United States",
+      "company": "cusip:75776W103"
+    },
+    {
+      "name": "Rheinmetall AG",
+      "ticker": "RHM GR",
+      "asset_type": "Equity",
+      "weight": 0.02,
+      "sedol": "5334588",
+      "location": "Germany",
+      "company": "cusip:76206K107"
+    },
+    {
+      "name": "Rocket Lab Corp",
+      "ticker": "RKLB",
+      "asset_type": "Equity",
+      "weight": 0.0151,
+      "cusip": "773121108",
+      "location": "United States",
+      "company": "cusip:773121108"
+    },
+    {
+      "name": "Rolls-Royce Holdings PLC",
+      "ticker": "RR/ LN",
+      "asset_type": "Equity",
+      "weight": 0.075,
+      "sedol": "B63H849",
+      "location": "United Kingdom",
+      "company": "cusip:775781206"
+    },
+    {
+      "name": "RTX Corp",
+      "ticker": "RTX",
+      "asset_type": "Equity",
+      "weight": 0.0883,
+      "cusip": "75513E101",
+      "location": "United States",
+      "company": "cusip:75513E101"
+    },
+    {
+      "name": "Saab AB",
+      "ticker": "SAABB SS",
+      "asset_type": "Equity",
+      "weight": 0.01,
+      "sedol": "BPXZH27",
+      "location": "Sweden",
+      "company": "cusip:W72838175"
+    },
+    {
+      "name": "Safran SA",
+      "ticker": "SAF FP",
+      "asset_type": "Equity",
+      "weight": 0.0608,
+      "sedol": "B058TZ6",
+      "location": "France",
+      "company": "cusip:786584102"
+    },
+    {
+      "name": "Satellogic Inc",
+      "ticker": "SATL",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "cusip": "80401C100",
+      "location": "United States",
+      "company": "cusip:80401C100"
+    },
+    {
+      "name": "SDT Uzay VE Savunma Teknolojileri AS",
+      "ticker": "SDTTR TI",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "sedol": "BMF8WG2",
+      "location": "Turkey",
+      "company": "name:sdt uzay ve savunma teknolojileri@turkey"
+    },
+    {
+      "name": "SWEDISH KRONA",
+      "ticker": "SEK",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Virgin Galactic Holdings Inc",
+      "ticker": "SPCE",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "cusip": "92766K403",
+      "location": "United States",
+      "company": "cusip:92766K403"
+    },
+    {
+      "name": "Smith & Wesson Brands Inc",
+      "ticker": "SWBI",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "cusip": "831754106",
+      "location": "United States",
+      "company": "cusip:831754106"
+    },
+    {
+      "name": "TransDigm Group Inc",
+      "ticker": "TDG",
+      "asset_type": "Equity",
+      "weight": 0.0344,
+      "cusip": "893641100",
+      "location": "United States",
+      "company": "cusip:893641100"
+    },
+    {
+      "name": "Teledyne Technologies Inc",
+      "ticker": "TDY",
+      "asset_type": "Equity",
+      "weight": 0.0155,
+      "cusip": "879360105",
+      "location": "United States",
+      "company": "cusip:879360105"
+    },
+    {
+      "name": "TURKISH LIRA",
+      "ticker": "TRY",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "Textron Inc",
+      "ticker": "TXT",
+      "asset_type": "Equity",
+      "weight": 0.0078,
+      "cusip": "883203101",
+      "location": "United States",
+      "company": "cusip:883203101"
+    },
+    {
+      "name": "Vincorion SE",
+      "ticker": "V1NC GR",
+      "asset_type": "Equity",
+      "weight": 0.0005,
+      "sedol": "BW5VWD8",
+      "location": "Germany",
+      "company": "name:vincorion@germany"
+    },
+    {
+      "name": "York Space Systems Inc",
+      "ticker": "YSS",
+      "asset_type": "Equity",
+      "weight": 0.0002,
+      "cusip": "987084100",
+      "location": "United States",
+      "company": "cusip:987084100"
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": "Cash&Other",
+      "asset_type": "Cash",
+      "weight": 0.0008,
+      "company": null
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "IDGT",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-19T11:10:10.298491+00:00",
+  "as_of": "2026-11-24",
+  "fetched_at": "2026-11-26T04:22:35.307678+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239770/ishares-u-s-digital-infrastructure-and-real-estate-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "AMERICAN TOWER REIT",
       "ticker": "AMT",
       "asset_type": "Equity",
-      "weight": 0.1073,
+      "weight": 0.1112,
       "location": "United States",
       "company": "name:american tower reit@united states"
     },
@@ -17,7 +17,7 @@
       "name": "EQUINIX REIT",
       "ticker": "EQIX",
       "asset_type": "Equity",
-      "weight": 0.1032,
+      "weight": 0.1018,
       "location": "United States",
       "company": "name:equinix reit@united states"
     },
@@ -25,15 +25,15 @@
       "name": "SBA COMMUNICATIONS REIT CORP CLASS",
       "ticker": "SBAC",
       "asset_type": "Equity",
-      "weight": 0.0802,
+      "weight": 0.0823,
       "location": "United States",
       "company": "name:sba communications reit corp class@united states"
     },
     {
-      "name": "CROWN CASTLE INC",
+      "name": "CROWN CASTLE",
       "ticker": "CCI",
       "asset_type": "Equity",
-      "weight": 0.0715,
+      "weight": 0.073,
       "location": "United States",
       "company": "cusip:22822V101"
     },
@@ -41,7 +41,7 @@
       "name": "EXTREME NETWORKS",
       "ticker": "EXTR",
       "asset_type": "Equity",
-      "weight": 0.0624,
+      "weight": 0.0605,
       "location": "United States",
       "company": "cusip:30226D106"
     },
@@ -49,31 +49,31 @@
       "name": "FASTLY CLASS A",
       "ticker": "FSLY",
       "asset_type": "Equity",
-      "weight": 0.0567,
+      "weight": 0.0579,
       "location": "United States",
       "company": "cusip:31188V100"
-    },
-    {
-      "name": "ARISTA NETWORKS",
-      "ticker": "ANET",
-      "asset_type": "Equity",
-      "weight": 0.0484,
-      "location": "United States",
-      "company": "cusip:040413205"
     },
     {
       "name": "DIGITAL REALTY TRUST REIT",
       "ticker": "DLR",
       "asset_type": "Equity",
-      "weight": 0.0477,
+      "weight": 0.0464,
       "location": "United States",
       "company": "name:digital realty trust reit@united states"
+    },
+    {
+      "name": "ARISTA NETWORKS",
+      "ticker": "ANET",
+      "asset_type": "Equity",
+      "weight": 0.0455,
+      "location": "United States",
+      "company": "cusip:040413205"
     },
     {
       "name": "NETAPP INC",
       "ticker": "NTAP",
       "asset_type": "Equity",
-      "weight": 0.0456,
+      "weight": 0.0446,
       "location": "United States",
       "company": "cusip:64110D104"
     },
@@ -81,7 +81,7 @@
       "name": "QUALCOMM",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.0408,
+      "weight": 0.042,
       "location": "United States",
       "company": "cusip:747525103"
     },
@@ -89,63 +89,55 @@
       "name": "CISCO SYSTEMS INC",
       "ticker": "CSCO",
       "asset_type": "Equity",
-      "weight": 0.039,
+      "weight": 0.0401,
       "location": "United States",
       "company": "cusip:17275R102"
-    },
-    {
-      "name": "CIENA",
-      "ticker": "CIEN",
-      "asset_type": "Equity",
-      "weight": 0.0371,
-      "location": "United States",
-      "company": "cusip:171779309"
     },
     {
       "name": "NOKIA ADR REPRESENTING ONE SER",
       "ticker": "NOK",
       "asset_type": "Equity",
-      "weight": 0.036,
+      "weight": 0.0361,
       "location": "Finland",
       "company": "name:nokia adr representing one ser@finland"
     },
     {
-      "name": "SUPER MICRO COMPUTER INC",
-      "ticker": "SMCI",
+      "name": "CIENA",
+      "ticker": "CIEN",
       "asset_type": "Equity",
-      "weight": 0.0313,
+      "weight": 0.0348,
       "location": "United States",
-      "company": "cusip:86800U302"
+      "company": "cusip:171779309"
     },
     {
       "name": "CALIX NETWORKS",
       "ticker": "CALX",
       "asset_type": "Equity",
-      "weight": 0.0311,
+      "weight": 0.0335,
       "location": "United States",
       "company": "name:calix networks@united states"
+    },
+    {
+      "name": "SUPER MICRO COMPUTER INC",
+      "ticker": "SMCI",
+      "asset_type": "Equity",
+      "weight": 0.0305,
+      "location": "United States",
+      "company": "cusip:86800U302"
     },
     {
       "name": "UNITI GROUP INC",
       "ticker": "UNIT",
       "asset_type": "Equity",
-      "weight": 0.0302,
+      "weight": 0.0292,
       "location": "United States",
       "company": "name:uniti group@united states"
-    },
-    {
-      "name": "COREWEAVE CLASS A",
-      "ticker": "CRWV",
-      "asset_type": "Equity",
-      "weight": 0.0272,
-      "location": "United States",
-      "company": "cusip:21873S108"
     },
     {
       "name": "A10 NETWORKS",
       "ticker": "ATEN",
       "asset_type": "Equity",
-      "weight": 0.0251,
+      "weight": 0.0276,
       "location": "United States",
       "company": "cusip:002121101"
     },
@@ -153,15 +145,23 @@
       "name": "ERICSSON SPONSORED ADR REPRESENTIN",
       "ticker": "ERIC",
       "asset_type": "Equity",
-      "weight": 0.0245,
+      "weight": 0.0252,
       "location": "Sweden",
       "company": "name:ericsson sponsored adr representin@sweden"
+    },
+    {
+      "name": "COREWEAVE CLASS A",
+      "ticker": "CRWV",
+      "asset_type": "Equity",
+      "weight": 0.0241,
+      "location": "United States",
+      "company": "cusip:21873S108"
     },
     {
       "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
       "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0208,
+      "weight": 0.0186,
       "location": "United States",
       "company": "cusip:G25457105"
     },
@@ -169,47 +169,47 @@
       "name": "VISTANCE NETWORKS INC",
       "ticker": "VISN",
       "asset_type": "Equity",
-      "weight": 0.0178,
+      "weight": 0.0185,
       "location": "United States",
       "company": "cusip:20337X109"
-    },
-    {
-      "name": "CLEARFIELD INC",
-      "ticker": "CLFD",
-      "asset_type": "Equity",
-      "weight": 0.0054,
-      "location": "United States",
-      "company": "name:clearfield@united states"
     },
     {
       "name": "ADTRAN HOLDINGS INC",
       "ticker": "ADTN",
       "asset_type": "Equity",
-      "weight": 0.0053,
+      "weight": 0.0052,
       "location": "United States",
       "company": "name:adtran holdings@united states"
     },
     {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
-      "weight": 0.0038,
+      "name": "CLEARFIELD INC",
+      "ticker": "CLFD",
+      "asset_type": "Equity",
+      "weight": 0.0051,
       "location": "United States",
-      "company": null
+      "company": "name:clearfield@united states"
     },
     {
       "name": "MOTOROLA SOLUTIONS INC",
       "ticker": "MSI",
       "asset_type": "Equity",
-      "weight": 0.0026,
+      "weight": 0.0027,
       "location": "United States",
       "company": "cusip:620076307"
+    },
+    {
+      "name": "USD CASH",
+      "ticker": "USD",
+      "asset_type": "Cash",
+      "weight": 0.0022,
+      "location": "United States",
+      "company": null
     },
     {
       "name": "UBIQUITI",
       "ticker": "UI",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "United States",
       "company": "name:ubiquiti@united states"
     },
@@ -217,8 +217,15 @@
       "name": "CASH COLLATERAL USD WFFUT",
       "ticker": "WFFUT",
       "asset_type": "Cash Collateral and Margins",
-      "weight": 0.0001,
+      "weight": 0.0002,
       "location": "United States",
+      "company": null
+    },
+    {
+      "name": "DOW JONES US REAL ESTATE DEC 26",
+      "ticker": "DJEZ6",
+      "asset_type": "Futures",
+      "weight": 0.0,
       "company": null
     },
     {
@@ -233,14 +240,6 @@
       "ticker": "HWAZ6",
       "asset_type": "Futures",
       "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "USD CASH",
-      "ticker": "USD",
-      "asset_type": "Cash",
-      "weight": -0.0025,
-      "location": "United States",
       "company": null
     }
   ]

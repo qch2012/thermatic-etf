@@ -1,7 +1,7 @@
 {
   "ticker": "ARKK",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-19T11:09:47.666397+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-26T04:22:16.327363+00:00",
   "stale": false,
   "source": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "TESLA INC",
       "ticker": "TSLA",
       "asset_type": "Equity",
-      "weight": 0.1263,
+      "weight": 0.125,
       "cusip": "88160R101",
       "company": "cusip:88160R101"
     },
@@ -17,7 +17,7 @@
       "name": "SPACE EXPLORATION TECHN-CL A",
       "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.0934,
+      "weight": 0.0829,
       "cusip": "84615Q103",
       "company": "cusip:84615Q103"
     },
@@ -25,38 +25,37 @@
       "name": "TEMPUS AI INC-CL A",
       "ticker": "TEM",
       "asset_type": "Equity",
-      "weight": 0.0563,
+      "weight": 0.0479,
       "cusip": "88023B103",
       "company": "cusip:88023B103"
+    },
+    {
+      "name": "OPENAI GROUP PBC SERIES C",
+      "ticker": null,
+      "asset_type": "Other",
+      "weight": 0.0436,
+      "company": null
     },
     {
       "name": "GOLDMAN FS TRSY OBLIG INST 468",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0557,
+      "weight": 0.0428,
       "company": null
     },
     {
       "name": "CIRCLE INTERNET GROUP INC",
       "ticker": "CRCL",
       "asset_type": "Equity",
-      "weight": 0.0399,
+      "weight": 0.0353,
       "cusip": "172573107",
       "company": "cusip:172573107"
-    },
-    {
-      "name": "COINBASE GLOBAL INC -CLASS A",
-      "ticker": "COIN",
-      "asset_type": "Equity",
-      "weight": 0.0349,
-      "cusip": "19260Q107",
-      "company": "cusip:19260Q107"
     },
     {
       "name": "SHOPIFY INC - CLASS A",
       "ticker": "SHOP",
       "asset_type": "Equity",
-      "weight": 0.0348,
+      "weight": 0.0326,
       "cusip": "82509L107",
       "company": "cusip:82509L107"
     },
@@ -64,63 +63,95 @@
       "name": "TWIST BIOSCIENCE CORP",
       "ticker": "TWST",
       "asset_type": "Equity",
-      "weight": 0.0327,
+      "weight": 0.0324,
       "cusip": "90184D100",
       "company": "cusip:90184D100"
+    },
+    {
+      "name": "COINBASE GLOBAL INC -CLASS A",
+      "ticker": "COIN",
+      "asset_type": "Equity",
+      "weight": 0.0319,
+      "cusip": "19260Q107",
+      "company": "cusip:19260Q107"
     },
     {
       "name": "BLOCK INC",
       "ticker": "XYZ",
       "asset_type": "Equity",
-      "weight": 0.0295,
+      "weight": 0.0274,
       "cusip": "852234103",
       "company": "cusip:852234103"
-    },
-    {
-      "name": "AMAZON.COM INC",
-      "ticker": "AMZN",
-      "asset_type": "Equity",
-      "weight": 0.0285,
-      "cusip": "023135106",
-      "company": "cusip:023135106"
-    },
-    {
-      "name": "CRISPR THERAPEUTICS AG",
-      "ticker": "CRSP",
-      "asset_type": "Equity",
-      "weight": 0.0278,
-      "cusip": "H17182108",
-      "company": "cusip:H17182108"
-    },
-    {
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.027,
-      "cusip": "67066G104",
-      "company": "cusip:67066G104"
-    },
-    {
-      "name": "ROBINHOOD MARKETS INC - A",
-      "ticker": "HOOD",
-      "asset_type": "Equity",
-      "weight": 0.027,
-      "cusip": "770700102",
-      "company": "cusip:770700102"
     },
     {
       "name": "PALANTIR TECHNOLOGIES INC-A",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0258,
+      "weight": 0.0259,
       "cusip": "69608A108",
       "company": "cusip:69608A108"
+    },
+    {
+      "name": "INTELLIA THERAPEUTICS INC",
+      "ticker": "NTLA",
+      "asset_type": "Equity",
+      "weight": 0.0256,
+      "cusip": "45826J105",
+      "company": "cusip:45826J105"
+    },
+    {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0256,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "AMAZON.COM INC",
+      "ticker": "AMZN",
+      "asset_type": "Equity",
+      "weight": 0.0254,
+      "cusip": "023135106",
+      "company": "cusip:023135106"
+    },
+    {
+      "name": "ROBINHOOD MARKETS INC - A",
+      "ticker": "HOOD",
+      "asset_type": "Equity",
+      "weight": 0.0251,
+      "cusip": "770700102",
+      "company": "cusip:770700102"
+    },
+    {
+      "name": "10X GENOMICS INC-CLASS A",
+      "ticker": "TXG",
+      "asset_type": "Equity",
+      "weight": 0.0247,
+      "cusip": "88025U109",
+      "company": "cusip:88025U109"
+    },
+    {
+      "name": "CRISPR THERAPEUTICS AG",
+      "ticker": "CRSP",
+      "asset_type": "Equity",
+      "weight": 0.0246,
+      "cusip": "H17182108",
+      "company": "cusip:H17182108"
+    },
+    {
+      "name": "COREWEAVE INC-CL A",
+      "ticker": "CRWV",
+      "asset_type": "Equity",
+      "weight": 0.0222,
+      "cusip": "21873S108",
+      "company": "cusip:21873S108"
     },
     {
       "name": "META PLATFORMS INC-CLASS A",
       "ticker": "META",
       "asset_type": "Equity",
-      "weight": 0.0255,
+      "weight": 0.0217,
       "cusip": "30303M102",
       "company": "cusip:30303M102"
     },
@@ -128,205 +159,181 @@
       "name": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0253,
+      "weight": 0.0214,
       "cusip": "007903107",
       "company": "cusip:007903107"
-    },
-    {
-      "name": "10X GENOMICS INC-CLASS A",
-      "ticker": "TXG",
-      "asset_type": "Equity",
-      "weight": 0.0249,
-      "cusip": "88025U109",
-      "company": "cusip:88025U109"
-    },
-    {
-      "name": "COREWEAVE INC-CL A",
-      "ticker": "CRWV",
-      "asset_type": "Equity",
-      "weight": 0.0227,
-      "cusip": "21873S108",
-      "company": "cusip:21873S108"
     },
     {
       "name": "CEREBRAS SYSTEMS INC - A",
       "ticker": "CBRS",
       "asset_type": "Equity",
-      "weight": 0.0208,
+      "weight": 0.0214,
       "cusip": "15675D103",
       "company": "cusip:15675D103"
     },
     {
-      "name": "OPENAI GROUP PBC SERIES C",
+      "name": "ANTHROPIC PBC-CL A",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0175,
+      "weight": 0.0199,
       "company": null
-    },
-    {
-      "name": "ROCKET LAB CORP",
-      "ticker": "RKLB",
-      "asset_type": "Equity",
-      "weight": 0.0168,
-      "cusip": "773121108",
-      "company": "cusip:773121108"
-    },
-    {
-      "name": "BEAM THERAPEUTICS INC",
-      "ticker": "BEAM",
-      "asset_type": "Equity",
-      "weight": 0.0167,
-      "cusip": "07373V105",
-      "company": "cusip:07373V105"
-    },
-    {
-      "name": "BITMINE IMMERSION TECHNOLOGI",
-      "ticker": "BMNR",
-      "asset_type": "Equity",
-      "weight": 0.0149,
-      "cusip": "09175A206",
-      "company": "cusip:09175A206"
-    },
-    {
-      "name": "BULLISH",
-      "ticker": "BLSH",
-      "asset_type": "Equity",
-      "weight": 0.0138,
-      "cusip": "G16910120",
-      "company": "cusip:G16910120"
-    },
-    {
-      "name": "CLOUDFLARE INC - CLASS A",
-      "ticker": "NET",
-      "asset_type": "Equity",
-      "weight": 0.0135,
-      "cusip": "18915M107",
-      "company": "cusip:18915M107"
-    },
-    {
-      "name": "NATERA INC",
-      "ticker": "NTRA",
-      "asset_type": "Equity",
-      "weight": 0.0125,
-      "cusip": "632307104",
-      "company": "cusip:632307104"
-    },
-    {
-      "name": "RECURSION PHARMACEUTICALS-A",
-      "ticker": "RXRX",
-      "asset_type": "Equity",
-      "weight": 0.0111,
-      "cusip": "75629V104",
-      "company": "cusip:75629V104"
-    },
-    {
-      "name": "BWX TECHNOLOGIES INC",
-      "ticker": "BWXT",
-      "asset_type": "Equity",
-      "weight": 0.011,
-      "cusip": "05605H100",
-      "company": "cusip:05605H100"
-    },
-    {
-      "name": "KRATOS DEFENSE & SECURITY",
-      "ticker": "KTOS",
-      "asset_type": "Equity",
-      "weight": 0.0107,
-      "cusip": "50077B207",
-      "company": "cusip:50077B207"
-    },
-    {
-      "name": "ILLUMINA INC",
-      "ticker": "ILMN",
-      "asset_type": "Equity",
-      "weight": 0.0106,
-      "cusip": "452327109",
-      "company": "cusip:452327109"
-    },
-    {
-      "name": "ALPHABET INC-CL C",
-      "ticker": "GOOG",
-      "asset_type": "Equity",
-      "weight": 0.0105,
-      "cusip": "02079K107",
-      "company": "cusip:02079K107"
-    },
-    {
-      "name": "ARCHER AVIATION INC-A",
-      "ticker": "ACHR",
-      "asset_type": "Equity",
-      "weight": 0.0104,
-      "cusip": "03945R102",
-      "company": "cusip:03945R102"
-    },
-    {
-      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM",
-      "asset_type": "Equity",
-      "weight": 0.0104,
-      "cusip": "874039100",
-      "company": "cusip:874039100"
-    },
-    {
-      "name": "INTELLIA THERAPEUTICS INC",
-      "ticker": "NTLA",
-      "asset_type": "Equity",
-      "weight": 0.0095,
-      "cusip": "45826J105",
-      "company": "cusip:45826J105"
-    },
-    {
-      "name": "GENEDX HOLDINGS CORP",
-      "ticker": "WGS",
-      "asset_type": "Equity",
-      "weight": 0.0092,
-      "cusip": "81663L200",
-      "company": "cusip:81663L200"
-    },
-    {
-      "name": "X-ENERGY INC",
-      "ticker": "XE",
-      "asset_type": "Equity",
-      "weight": 0.0091,
-      "cusip": "98386P102",
-      "company": "cusip:98386P102"
-    },
-    {
-      "name": "VERACYTE INC",
-      "ticker": "VCYT",
-      "asset_type": "Equity",
-      "weight": 0.009,
-      "cusip": "92337F107",
-      "company": "cusip:92337F107"
-    },
-    {
-      "name": "SOFI TECHNOLOGIES INC",
-      "ticker": "SOFI",
-      "asset_type": "Equity",
-      "weight": 0.0068,
-      "cusip": "83406F102",
-      "company": "cusip:83406F102"
     },
     {
       "name": "KALSHI INC.",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0066,
+      "weight": 0.0166,
       "company": null
+    },
+    {
+      "name": "BEAM THERAPEUTICS INC",
+      "ticker": "BEAM",
+      "asset_type": "Equity",
+      "weight": 0.0156,
+      "cusip": "07373V105",
+      "company": "cusip:07373V105"
+    },
+    {
+      "name": "ROCKET LAB CORP",
+      "ticker": "RKLB",
+      "asset_type": "Equity",
+      "weight": 0.0144,
+      "cusip": "773121108",
+      "company": "cusip:773121108"
+    },
+    {
+      "name": "ALPHABET INC-CL C",
+      "ticker": "GOOG",
+      "asset_type": "Equity",
+      "weight": 0.0127,
+      "cusip": "02079K107",
+      "company": "cusip:02079K107"
+    },
+    {
+      "name": "CLOUDFLARE INC - CLASS A",
+      "ticker": "NET",
+      "asset_type": "Equity",
+      "weight": 0.0127,
+      "cusip": "18915M107",
+      "company": "cusip:18915M107"
+    },
+    {
+      "name": "BULLISH",
+      "ticker": "BLSH",
+      "asset_type": "Equity",
+      "weight": 0.0126,
+      "cusip": "G16910120",
+      "company": "cusip:G16910120"
+    },
+    {
+      "name": "BITMINE IMMERSION TECHNOLOGI",
+      "ticker": "BMNR",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "cusip": "09175A206",
+      "company": "cusip:09175A206"
     },
     {
       "name": "ARK ACTIVE AUTOCALL INC ETF",
       "ticker": "ARKY",
       "asset_type": "Equity",
-      "weight": 0.0049,
+      "weight": 0.0119,
       "cusip": "00214Q724",
       "company": "cusip:00214Q724"
+    },
+    {
+      "name": "NATERA INC",
+      "ticker": "NTRA",
+      "asset_type": "Equity",
+      "weight": 0.0112,
+      "cusip": "632307104",
+      "company": "cusip:632307104"
+    },
+    {
+      "name": "BWX TECHNOLOGIES INC",
+      "ticker": "BWXT",
+      "asset_type": "Equity",
+      "weight": 0.0104,
+      "cusip": "05605H100",
+      "company": "cusip:05605H100"
+    },
+    {
+      "name": "ILLUMINA INC",
+      "ticker": "ILMN",
+      "asset_type": "Equity",
+      "weight": 0.0102,
+      "cusip": "452327109",
+      "company": "cusip:452327109"
+    },
+    {
+      "name": "KRATOS DEFENSE & SECURITY",
+      "ticker": "KTOS",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "cusip": "50077B207",
+      "company": "cusip:50077B207"
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "cusip": "874039100",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "GENEDX HOLDINGS CORP",
+      "ticker": "WGS",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "cusip": "81663L200",
+      "company": "cusip:81663L200"
+    },
+    {
+      "name": "VERACYTE INC",
+      "ticker": "VCYT",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "cusip": "92337F107",
+      "company": "cusip:92337F107"
+    },
+    {
+      "name": "ARCHER AVIATION INC-A",
+      "ticker": "ACHR",
+      "asset_type": "Equity",
+      "weight": 0.0091,
+      "cusip": "03945R102",
+      "company": "cusip:03945R102"
+    },
+    {
+      "name": "RECURSION PHARMACEUTICALS-A",
+      "ticker": "RXRX",
+      "asset_type": "Equity",
+      "weight": 0.0085,
+      "cusip": "75629V104",
+      "company": "cusip:75629V104"
+    },
+    {
+      "name": "X-ENERGY INC",
+      "ticker": "XE",
+      "asset_type": "Equity",
+      "weight": 0.0077,
+      "cusip": "98386P102",
+      "company": "cusip:98386P102"
+    },
+    {
+      "name": "SOFI TECHNOLOGIES INC",
+      "ticker": "SOFI",
+      "asset_type": "Equity",
+      "weight": 0.0061,
+      "cusip": "83406F102",
+      "company": "cusip:83406F102"
     },
     {
       "name": "PACIFIC BIOSCIENCES OF CALIF",
       "ticker": "PACB",
       "asset_type": "Equity",
-      "weight": 0.0034,
+      "weight": 0.0023,
       "cusip": "69404D108",
       "company": "cusip:69404D108"
     },
@@ -334,7 +341,7 @@
       "name": "CERUS CORP",
       "ticker": "CERS",
       "asset_type": "Equity",
-      "weight": 0.0022,
+      "weight": 0.0017,
       "cusip": "157085101",
       "company": "cusip:157085101"
     },
@@ -342,7 +349,7 @@
       "name": "BRERA HOLDINGS PLC WTS",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0,
+      "weight": 0.0001,
       "company": null
     }
   ]

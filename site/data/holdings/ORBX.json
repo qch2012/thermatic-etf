@@ -1,7 +1,7 @@
 {
   "ticker": "ORBX",
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T11:10:20.216074+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-26T04:22:44.371578+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/orbx_full-holdings_{date}.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "AXELSPACE HOLDINGS CORP",
       "ticker": "402A JP",
       "asset_type": "Equity",
-      "weight": 0.0011,
+      "weight": 0.001,
       "sedol": "BVQYZN0",
       "company": "name:axelspace holdings"
     },
@@ -21,74 +21,233 @@
       "company": null
     },
     {
-      "name": "SYNSPECTIVE INC",
-      "ticker": "290A JP",
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0004,
+      "company": null
+    },
+    {
+      "name": "SPACE EXPLORATION TECHN-CL A",
+      "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "BM9WB85",
-      "company": "name:synspective@japan"
+      "weight": 0.2534,
+      "sedol": "BXCVG25",
+      "company": "cusip:84615Q103"
+    },
+    {
+      "name": "ROCKET LAB CORP",
+      "ticker": "RKLB",
+      "asset_type": "Equity",
+      "weight": 0.0923,
+      "sedol": "BT6C8Z3",
+      "company": "cusip:773121108"
+    },
+    {
+      "name": "GLOBALSTAR INC",
+      "ticker": "GSAT",
+      "asset_type": "Equity",
+      "weight": 0.0632,
+      "sedol": "BRJMM32",
+      "company": "cusip:378973507"
+    },
+    {
+      "name": "AST SPACEMOBILE INC",
+      "ticker": "ASTS",
+      "asset_type": "Equity",
+      "weight": 0.056,
+      "sedol": "BNLZ3X8",
+      "company": "cusip:00217D100"
+    },
+    {
+      "name": "MDA SPACE LTD",
+      "ticker": "MDA CN",
+      "asset_type": "Equity",
+      "weight": 0.0553,
+      "sedol": "BMZ0WL3",
+      "company": "cusip:55293N109"
+    },
+    {
+      "name": "IRIDIUM COMMUNICATIONS INC",
+      "ticker": "IRDM",
+      "asset_type": "Equity",
+      "weight": 0.0549,
+      "sedol": "B2QH310",
+      "company": "cusip:46269C102"
+    },
+    {
+      "name": "VIASAT INC",
+      "ticker": "VSAT",
+      "asset_type": "Equity",
+      "weight": 0.0509,
+      "sedol": "2946243",
+      "company": "cusip:92552V100"
+    },
+    {
+      "name": "FIREFLY AEROSPACE INC",
+      "ticker": "FLY",
+      "asset_type": "Equity",
+      "weight": 0.0449,
+      "sedol": "BPK4SR9",
+      "company": "cusip:31816X106"
+    },
+    {
+      "name": "AVIO SPA",
+      "ticker": "AVIO IM",
+      "asset_type": "Equity",
+      "weight": 0.0367,
+      "sedol": "BYWZZF0",
+      "company": "cusip:T0R27R125"
+    },
+    {
+      "name": "SES",
+      "ticker": "SESG FP",
+      "asset_type": "Equity",
+      "weight": 0.034,
+      "sedol": "B00ZQQ2",
+      "company": "name:ses"
+    },
+    {
+      "name": "INTUITIVE MACHINES INC",
+      "ticker": "LUNR",
+      "asset_type": "Equity",
+      "weight": 0.0331,
+      "sedol": "BNHTR54",
+      "company": "cusip:46125A100"
+    },
+    {
+      "name": "REDWIRE CORP",
+      "ticker": "RDW",
+      "asset_type": "Equity",
+      "weight": 0.0312,
+      "sedol": "BL5FDV8",
+      "company": "cusip:75776W103"
+    },
+    {
+      "name": "PLANET LABS PBC",
+      "ticker": "PL",
+      "asset_type": "Equity",
+      "weight": 0.0297,
+      "sedol": "BM8JV32",
+      "company": "cusip:72703X106"
+    },
+    {
+      "name": "EUTELSAT COMMUNICATIONS",
+      "ticker": "ETL FP",
+      "asset_type": "Equity",
+      "weight": 0.0237,
+      "sedol": "B0M7KJ7",
+      "company": "name:eutelsat communications"
+    },
+    {
+      "name": "BLACKSKY TECHNOLOGY INC",
+      "ticker": "BKSY",
+      "asset_type": "Equity",
+      "weight": 0.0141,
+      "sedol": "BSQNQM2",
+      "company": "cusip:09263B207"
+    },
+    {
+      "name": "OHB SE",
+      "ticker": "OHB GR",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "sedol": "7058228",
+      "company": "name:ohb@germany"
+    },
+    {
+      "name": "FILTRONIC PLC",
+      "ticker": "FTC LN",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "sedol": "0336299",
+      "company": "name:filtronic@united kingdom"
+    },
+    {
+      "name": "ASTROSCALE HOLDINGS INC",
+      "ticker": "186A JP",
+      "asset_type": "Equity",
+      "weight": 0.01,
+      "sedol": "BSMRM19",
+      "company": "name:astroscale holdings@japan"
     },
     {
       "name": "YORK SPACE SYSTEMS INC",
       "ticker": "YSS",
       "asset_type": "Equity",
-      "weight": 0.0073,
+      "weight": 0.0078,
       "sedol": "BV4MN09",
       "company": "cusip:987084100"
-    },
-    {
-      "name": "SATELLOGIC INC-A",
-      "ticker": "SATL",
-      "asset_type": "Equity",
-      "weight": 0.0072,
-      "sedol": "BT8QHD4",
-      "company": "cusip:80401C100"
-    },
-    {
-      "name": "GILAT SATELLITE NETWORKS LTD",
-      "ticker": "GILT",
-      "asset_type": "Equity",
-      "weight": 0.0071,
-      "sedol": "2598075",
-      "company": "cusip:M51474118"
-    },
-    {
-      "name": "CREOTECH INSTRUMENTS SA",
-      "ticker": "CRI PW",
-      "asset_type": "Equity",
-      "weight": 0.007,
-      "sedol": "BLR7GY6",
-      "company": "name:creotech instruments@poland"
     },
     {
       "name": "OVZON AB",
       "ticker": "OVZON SS",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0075,
       "sedol": "BD21M27",
       "company": "name:ovzon"
+    },
+    {
+      "name": "GILAT SATELLITE NETWORKS LTD",
+      "ticker": "GILT",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "sedol": "2598075",
+      "company": "cusip:M51474118"
     },
     {
       "name": "SATREC INITIATIVE CO LTD",
       "ticker": "099320 KS",
       "asset_type": "Equity",
-      "weight": 0.0063,
+      "weight": 0.0071,
       "sedol": "B39WTL1",
       "company": "name:satrec initiative"
+    },
+    {
+      "name": "SATELLOGIC INC-A",
+      "ticker": "SATL",
+      "asset_type": "Equity",
+      "weight": 0.0068,
+      "sedol": "BT8QHD4",
+      "company": "cusip:80401C100"
+    },
+    {
+      "name": "CREOTECH INSTRUMENTS SA",
+      "ticker": "CRI PW",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "sedol": "BLR7GY6",
+      "company": "name:creotech instruments@poland"
+    },
+    {
+      "name": "SYNSPECTIVE INC",
+      "ticker": "290A JP",
+      "asset_type": "Equity",
+      "weight": 0.0066,
+      "sedol": "BM9WB85",
+      "company": "name:synspective@japan"
     },
     {
       "name": "SPIRE GLOBAL INC",
       "ticker": "SPIR",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "sedol": "BRC45W5",
       "company": "cusip:848560306"
+    },
+    {
+      "name": "INTELLIAN TECHNOLOGIES INC",
+      "ticker": "189300 KS",
+      "asset_type": "Equity",
+      "weight": 0.0057,
+      "sedol": "BYX4V69",
+      "company": "name:intellian technologies"
     },
     {
       "name": "QPS HOLDINGS INC",
       "ticker": "464A JP",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0056,
       "sedol": "BN6NH91",
       "company": "name:qps holdings@japan"
     },
@@ -96,31 +255,23 @@
       "name": "TELESAT CORP",
       "ticker": "TSAT",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0054,
       "sedol": "BLD1BD6",
-      "company": "name:telesat"
+      "company": "cusip:879512309"
     },
     {
       "name": "ISPACE INC/JAPAN",
       "ticker": "9348 JP",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0052,
       "sedol": "BMF7MM5",
       "company": "name:ispace inc japan"
-    },
-    {
-      "name": "INTELLIAN TECHNOLOGIES INC",
-      "ticker": "189300 KS",
-      "asset_type": "Equity",
-      "weight": 0.0054,
-      "sedol": "BYX4V69",
-      "company": "name:intellian technologies"
     },
     {
       "name": "ADDVALUE TECHNOLOGIES LTD",
       "ticker": "ADDV SP",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0041,
       "sedol": "6260336",
       "company": "name:addvalue technologies"
     },
@@ -144,7 +295,7 @@
       "name": "SIDUS SPACE INC-CL A",
       "ticker": "SIDU",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.002,
       "sedol": "BR1G3H3",
       "company": "name:sidus space"
     },
@@ -155,164 +306,6 @@
       "weight": 0.0019,
       "sedol": "6039644",
       "company": "name:apt satellite holdings"
-    },
-    {
-      "name": "SPACE EXPLORATION TECHN-CL A",
-      "ticker": "SPCX",
-      "asset_type": "Equity",
-      "weight": 0.2623,
-      "sedol": "BXCVG25",
-      "company": "cusip:84615Q103"
-    },
-    {
-      "name": "ROCKET LAB CORP",
-      "ticker": "RKLB",
-      "asset_type": "Equity",
-      "weight": 0.0958,
-      "sedol": "BT6C8Z3",
-      "company": "cusip:773121108"
-    },
-    {
-      "name": "GLOBALSTAR INC",
-      "ticker": "GSAT",
-      "asset_type": "Equity",
-      "weight": 0.0587,
-      "sedol": "BRJMM32",
-      "company": "cusip:378973507"
-    },
-    {
-      "name": "IRIDIUM COMMUNICATIONS INC",
-      "ticker": "IRDM",
-      "asset_type": "Equity",
-      "weight": 0.0521,
-      "sedol": "B2QH310",
-      "company": "cusip:46269C102"
-    },
-    {
-      "name": "MDA SPACE LTD",
-      "ticker": "MDA CN",
-      "asset_type": "Equity",
-      "weight": 0.0521,
-      "sedol": "BMZ0WL3",
-      "company": "cusip:55293N109"
-    },
-    {
-      "name": "VIASAT INC",
-      "ticker": "VSAT",
-      "asset_type": "Equity",
-      "weight": 0.0504,
-      "sedol": "2946243",
-      "company": "cusip:92552V100"
-    },
-    {
-      "name": "AST SPACEMOBILE INC",
-      "ticker": "ASTS",
-      "asset_type": "Equity",
-      "weight": 0.0504,
-      "sedol": "BNLZ3X8",
-      "company": "cusip:00217D100"
-    },
-    {
-      "name": "FIREFLY AEROSPACE INC",
-      "ticker": "FLY",
-      "asset_type": "Equity",
-      "weight": 0.0466,
-      "sedol": "BPK4SR9",
-      "company": "cusip:31816X106"
-    },
-    {
-      "name": "AVIO SPA",
-      "ticker": "AVIO IM",
-      "asset_type": "Equity",
-      "weight": 0.0345,
-      "sedol": "BYWZZF0",
-      "company": "cusip:T0R27R125"
-    },
-    {
-      "name": "INTUITIVE MACHINES INC",
-      "ticker": "LUNR",
-      "asset_type": "Equity",
-      "weight": 0.0337,
-      "sedol": "BNHTR54",
-      "company": "cusip:46125A100"
-    },
-    {
-      "name": "REDWIRE CORP",
-      "ticker": "RDW",
-      "asset_type": "Equity",
-      "weight": 0.0333,
-      "sedol": "BL5FDV8",
-      "company": "cusip:75776W103"
-    },
-    {
-      "name": "SES",
-      "ticker": "SESG FP",
-      "asset_type": "Equity",
-      "weight": 0.0317,
-      "sedol": "B00ZQQ2",
-      "company": "name:ses"
-    },
-    {
-      "name": "PLANET LABS PBC",
-      "ticker": "PL",
-      "asset_type": "Equity",
-      "weight": 0.031,
-      "sedol": "BM8JV32",
-      "company": "cusip:72703X106"
-    },
-    {
-      "name": "EUTELSAT COMMUNICATIONS",
-      "ticker": "ETL FP",
-      "asset_type": "Equity",
-      "weight": 0.0242,
-      "sedol": "B0M7KJ7",
-      "company": "name:eutelsat communications"
-    },
-    {
-      "name": "BLACKSKY TECHNOLOGY INC",
-      "ticker": "BKSY",
-      "asset_type": "Equity",
-      "weight": 0.0168,
-      "sedol": "BSQNQM2",
-      "company": "cusip:09263B207"
-    },
-    {
-      "name": "FILTRONIC PLC",
-      "ticker": "FTC LN",
-      "asset_type": "Equity",
-      "weight": 0.0112,
-      "sedol": "0336299",
-      "company": "name:filtronic@united kingdom"
-    },
-    {
-      "name": "ASTROSCALE HOLDINGS INC",
-      "ticker": "186A JP",
-      "asset_type": "Equity",
-      "weight": 0.0106,
-      "sedol": "BSMRM19",
-      "company": "name:astroscale holdings@japan"
-    },
-    {
-      "name": "OHB SE",
-      "ticker": "OHB GR",
-      "asset_type": "Equity",
-      "weight": 0.0103,
-      "sedol": "7058228",
-      "company": "name:ohb@germany"
-    },
-    {
-      "name": "EURO",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0003,
-      "company": null
     }
   ]
 }
