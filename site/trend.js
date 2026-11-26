@@ -35,18 +35,22 @@ function bucket(trend) {
   return short ? (long ? 'Rising' : 'Recovering') : (long ? 'Fading' : 'Falling');
 }
 
-// Chart periods in calendar days, the same as the pipeline's trend (TREND_DAYS).
-const PERIOD_DAYS = { '1m': 30, '3m': 91, '6m': 182, '1y': 365 };
-const periodStart = (end, days) => new Date(Date.parse(end) - days * 864e5).toISOString().slice(0, 10);
+// Chart periods: [key, button text, calendar days]. Days match the pipeline's trend (TREND_DAYS).
+// YTD starts at the previous year's last close (Dec 31 or the last trading day before it).
+const CHART_PERIODS = [['1m', '1M', 30], ['3m', '3M', 91], ['6m', '6M', 182], ['ytd', 'YTD', null], ['1y', '1Y', 365]];
+const periodStart = (end, period) => {
+  const days = CHART_PERIODS.find(p => p[0] === period)[2];
+  return days ? new Date(Date.parse(end) - days * 864e5).toISOString().slice(0, 10) : `${end.slice(0, 4) - 1}-12-31`;
+};
 
-// Chart start: `days` before `end`, or the first date all funds share when any of them is younger than that.
-function chartStart(firstDates, end, days = 365) {
-  return [periodStart(end, days), ...firstDates].sort().at(-1);
+// Chart start: the period's start before `end`, or the first date all funds share when any of them is younger than that.
+function chartStart(firstDates, end, period = '1y') {
+  return [periodStart(end, period), ...firstDates].sort().at(-1);
 }
 
 // A price file from `start` (default one year before `end`) to `end`, rebased to 100 at the last close on or before start.
 // null if it begins after start.
-function rebaseYear(dates, closes, end, start = periodStart(end, 365)) {
+function rebaseYear(dates, closes, end, start = periodStart(end, '1y')) {
   let i = -1;
   while (i + 1 < dates.length && dates[i + 1] <= start) i++;
   if (i < 0 || !(closes[i] > 0)) return null;
@@ -73,7 +77,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     }
   };
 
-  // Chart over the chosen period, 1M to 1Y (or since the funds' first shared date, if one is younger), of some funds plus
+  // Chart over the chosen period (1M, 3M, 6M, YTD or 1Y) (or since the funds' first shared date, if one is younger), of some funds plus
   // the benchmark (dashed), each labelled at its end; no other lines. Used for a theme's top 3 and for the defensive sectors.
   // The period buttons redraw it; the choice carries over to the next chart opened.
   // Drawing, price loading and live ranks are the Funds tab's (app.js loadPrices / chartSvg / rankOf, shared globals),
@@ -89,8 +93,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     const files = (await Promise.allSettled(tickers.map(loadPrices))).map(r => r.status === 'fulfilled' ? r.value : null);
     if (box.dataset.token !== token) return;
     const end = files.filter(Boolean).map(f => f.dates.at(-1)).sort().at(-1);
-    const days = PERIOD_DAYS[period];
-    const start = chartStart(files.slice(0, funds.length).filter(Boolean).map(f => f.dates[0]), end, days);
+    const start = chartStart(files.slice(0, funds.length).filter(Boolean).map(f => f.dates[0]), end, period);
     const series = [], notes = [];
     tickers.forEach((ticker, i) => {
       const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end, start);
@@ -99,13 +102,13 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
       series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : LINE_COLORS[i], dash: isBenchmark });
     });
     if (!series.length) return box.replaceChildren(el('p', `No chart: ${notes.join('; ')}.`, 'note'));
-    const name = TREND_PERIODS.find(p => p[0] === period)[1];
-    const summary = `${label} and ${benchmark ?? 'no benchmark'}, ${start === periodStart(end, days) ? `last ${name}` : `from ${start} (first date all of them share, since one is younger than ${name})`} to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
+    const name = CHART_PERIODS.find(p => p[0] === period)[1];
+    const summary = `${label} and ${benchmark ?? 'no benchmark'}, ${start === periodStart(end, period) ? (period === 'ytd' ? 'year to date' : `last ${name}`) : `from ${start} (first date all of them share, since one is younger than ${name})`} to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
     // Legend carries each line's end value, since the lines have no labels of their own.
     const legend = series.map(s => `<li><i style="${s.dash ? `border-top:2px dashed ${s.color};height:0` : `background:${s.color}`}"></i>`
       + `${esc(s.ticker)} <b>${s.values.at(-1).toFixed(0)}</b>${s.dash ? ' (benchmark)' : ''}</li>`).join('');
     const buttons = el('div', null, 'periods');
-    for (const [key, text] of TREND_PERIODS) {
+    for (const [key, text] of CHART_PERIODS) {
       const button = el('button', text);
       button.type = 'button';
       button.setAttribute('aria-pressed', String(key === period));

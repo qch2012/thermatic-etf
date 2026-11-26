@@ -33,8 +33,10 @@ test('rebaseYear: starts at the last close on or before one year back, null when
 test('chartStart: one year back, or the first date all funds share when one is younger', () => {
   assert.equal(chartStart(['2020-01-02', '2024-05-01'], '2026-11-19'), '2025-11-19');
   assert.equal(chartStart(['2020-01-02', '2026-03-10', '2026-01-05'], '2026-11-19'), '2026-03-10');
-  assert.equal(chartStart(['2020-01-02'], '2026-11-19', 30), '2026-10-20');  // 1M period
-  assert.equal(chartStart(['2026-11-01'], '2026-11-19', 30), '2026-11-01');
+  assert.equal(chartStart(['2020-01-02'], '2026-11-19', '1m'), '2026-10-20');
+  assert.equal(chartStart(['2026-11-01'], '2026-11-19', '1m'), '2026-11-01');
+  assert.equal(chartStart(['2020-01-02'], '2026-11-19', 'ytd'), '2025-12-31');  // rebased at the last close of 2025
+  assert.equal(chartStart(['2026-02-02'], '2026-11-19', 'ytd'), '2026-02-02');
   const dates = ['2025-01-02', '2026-03-09', '2026-03-11', '2026-11-19'];
   assert.deepEqual(rebaseYear(dates, [10, 50, 60, 100], '2026-11-19', '2026-03-10'), { dates: dates.slice(1), values: [100, 120, 200] });
 });
