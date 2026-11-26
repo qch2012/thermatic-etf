@@ -35,9 +35,16 @@ function bucket(trend) {
   return short ? (long ? 'Rising' : 'Recovering') : (long ? 'Fading' : 'Falling');
 }
 
-// One year of a price file ending `end`, rebased to 100 at the last close on or before end − 365 days. null if younger.
-function rebaseYear(dates, closes, end) {
-  const start = new Date(Date.parse(end) - 365 * 864e5).toISOString().slice(0, 10);
+const yearBefore = end => new Date(Date.parse(end) - 365 * 864e5).toISOString().slice(0, 10);
+
+// Chart start: one year before `end`, or the first date all funds share when any of them is younger than that.
+function chartStart(firstDates, end) {
+  return [yearBefore(end), ...firstDates].sort().at(-1);
+}
+
+// A price file from `start` (default one year before `end`) to `end`, rebased to 100 at the last close on or before start.
+// null if it begins after start.
+function rebaseYear(dates, closes, end, start = yearBefore(end)) {
   let i = -1;
   while (i + 1 < dates.length && dates[i + 1] <= start) i++;
   if (i < 0 || !(closes[i] > 0)) return null;
@@ -45,7 +52,7 @@ function rebaseYear(dates, closes, end) {
   return { dates: dates.slice(i, last + 1), values: closes.slice(i, last + 1).map(v => v / closes[i] * 100) };
 }
 
-if (typeof module !== 'undefined') module.exports = { trendShade, themeTrend, bucket, rebaseYear, TREND_PERIODS };
+if (typeof module !== 'undefined') module.exports = { trendShade, themeTrend, bucket, rebaseYear, chartStart, TREND_PERIODS };
 
 if (typeof document !== 'undefined' && document.getElementById('trend')) {
   const el = (tag, text, className) => {
@@ -64,7 +71,7 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     }
   };
 
-  // Last-year chart of a theme's top 3 eligible funds plus the benchmark (dashed), each labelled at its end; no other lines.
+  // Last-year chart (or since the top 3's first shared date, if one is younger) of a theme's top 3 eligible funds plus the benchmark (dashed), each labelled at its end; no other lines.
   // Drawing, price loading and live ranks are the Funds tab's (app.js loadPrices / chartSvg / rankOf, shared globals),
   // so the top 3 follow the score-weight sliders.
   const BENCHMARK_COLOR = '#18232c';
@@ -77,15 +84,16 @@ if (typeof document !== 'undefined' && document.getElementById('trend')) {
     const files = (await Promise.allSettled(tickers.map(loadPrices))).map(r => r.status === 'fulfilled' ? r.value : null);
     if (box.dataset.token !== token) return;
     const end = files.filter(Boolean).map(f => f.dates.at(-1)).sort().at(-1);
+    const start = chartStart(files.slice(0, funds.length).filter(Boolean).map(f => f.dates[0]), end);
     const series = [], notes = [];
     tickers.forEach((ticker, i) => {
-      const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end);
-      if (!line) return notes.push(`${ticker}: ${files[i] ? 'younger than a year, not drawn' : 'no price file'}`);
+      const line = files[i] && rebaseYear(files[i].dates, files[i].adjusted_close, end, start);
+      if (!line) return notes.push(`${ticker}: ${files[i] ? `no price on ${start}, not drawn` : 'no price file'}`);
       const isBenchmark = i === funds.length;
       series.push({ ticker, ...line, color: isBenchmark ? BENCHMARK_COLOR : SERIES_COLORS[i], dash: isBenchmark });
     });
     if (!series.length) return box.replaceChildren(el('p', `No chart: ${notes.join('; ')}.`, 'note'));
-    const summary = `Top 3 by score and ${benchmark ?? 'no benchmark'}, last year to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
+    const summary = `Top 3 by score and ${benchmark ?? 'no benchmark'}, ${start === yearBefore(end) ? 'last year' : `from ${start} (first date all top 3 share, since one is under a year old)`} to ${end}, rebased to 100.${notes.length ? ` ${notes.join('; ')}.` : ''}`;
     // Legend carries each line's end value, since the lines have no labels of their own.
     const legend = series.map(s => `<li><i style="${s.dash ? `border-top:2px dashed ${s.color};height:0` : `background:${s.color}`}"></i>`
       + `${esc(s.ticker)} <b>${s.values.at(-1).toFixed(0)}</b>${s.dash ? ' (benchmark)' : ''}</li>`).join('');
