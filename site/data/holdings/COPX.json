@@ -1,7 +1,7 @@
 {
   "ticker": "COPX",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:25.474490+00:00",
+  "fetched_at": "2026-11-27T04:32:07.177654+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/copx_full-holdings_{date}.csv",
   "holdings": [
@@ -18,49 +18,6 @@
       "ticker": null,
       "asset_type": "Cash",
       "weight": 0.0008,
-      "company": null
-    },
-    {
-      "name": "VALIENTE RESOURCES INC",
-      "ticker": "VALX CN",
-      "asset_type": "Equity",
-      "weight": 0.0004,
-      "sedol": "BXM4CG0",
-      "company": "name:valiente resources@canada"
-    },
-    {
-      "name": "SAUDI RIYAL",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "company": null
-    },
-    {
-      "name": "CANADIAN DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "JAPANESE YEN",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0002,
-      "company": null
-    },
-    {
-      "name": "HONG KONG DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0004,
       "company": null
     },
     {
@@ -294,6 +251,49 @@
       "weight": 0.0086,
       "sedol": "BYZTVM8",
       "company": "name:atalaya mining copper@united kingdom"
+    },
+    {
+      "name": "VALIENTE RESOURCES INC",
+      "ticker": "VALX CN",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BXM4CG0",
+      "company": "name:valiente resources@canada"
+    },
+    {
+      "name": "SAUDI RIYAL",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0001,
+      "company": null
+    },
+    {
+      "name": "CANADIAN DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "JAPANESE YEN",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0002,
+      "company": null
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0004,
+      "company": null
     },
     {
       "name": "AL MASANE AL KOBRA MINING CO",

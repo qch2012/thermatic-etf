@@ -1,7 +1,7 @@
 {
   "ticker": "CQQQ",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-26T04:22:26.755080+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-27T04:32:07.479895+00:00",
   "stale": false,
   "source": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138E800/holdings/fund?idType=cusip&productType=ETF",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "PDD Holdings Inc",
       "ticker": "PDD",
       "asset_type": "Equity",
-      "weight": 0.14984418,
+      "weight": 0.14932178,
       "cusip": "722304102",
       "company": "cusip:722304102"
     },
@@ -17,7 +17,7 @@
       "name": "Meituan",
       "ticker": "3690",
       "asset_type": "Equity",
-      "weight": 0.11568788,
+      "weight": 0.11031866,
       "cusip": "G59669104",
       "company": "cusip:G59669104"
     },
@@ -25,7 +25,7 @@
       "name": "Tencent Holdings Ltd",
       "ticker": "700",
       "asset_type": "Equity",
-      "weight": 0.10670326,
+      "weight": 0.10586689,
       "cusip": "G87572163",
       "company": "cusip:G87572163"
     },
@@ -33,7 +33,7 @@
       "name": "Baidu Inc",
       "ticker": "9888",
       "asset_type": "Equity",
-      "weight": 0.06162167,
+      "weight": 0.06112138,
       "cusip": "G07034104",
       "company": "cusip:056752108"
     },
@@ -41,30 +41,30 @@
       "name": "Kuaishou Technology",
       "ticker": "1024",
       "asset_type": "Equity",
-      "weight": 0.03228916,
+      "weight": 0.0321044,
       "cusip": "G53263102",
       "company": "cusip:G53263102"
-    },
-    {
-      "name": "Hua Hong Grace Semiconductor Ltd",
-      "ticker": "1347",
-      "asset_type": "Equity",
-      "weight": 0.02511678,
-      "cusip": "Y372A7109",
-      "company": "cusip:Y372A7109"
     },
     {
       "name": "CAMBRICON TECH A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.0233058,
+      "weight": 0.02242619,
       "company": "name:cambricon tech a hk"
+    },
+    {
+      "name": "Hua Hong Grace Semiconductor Ltd",
+      "ticker": "1347",
+      "asset_type": "Equity",
+      "weight": 0.02157343,
+      "cusip": "Y372A7109",
+      "company": "cusip:Y372A7109"
     },
     {
       "name": "Sunny Optical Technology Group Co Ltd",
       "ticker": "2382",
       "asset_type": "Equity",
-      "weight": 0.01957647,
+      "weight": 0.01902727,
       "cusip": "G8586D109",
       "company": "cusip:G8586D109"
     },
@@ -72,7 +72,7 @@
       "name": "Tencent Music Entertainment Group",
       "ticker": "1698",
       "asset_type": "Equity",
-      "weight": 0.01710398,
+      "weight": 0.01748266,
       "cusip": "G87577113",
       "company": "cusip:G87577113"
     },
@@ -80,29 +80,37 @@
       "name": "SenseTime Group Inc",
       "ticker": "20",
       "asset_type": "Equity",
-      "weight": 0.01530036,
+      "weight": 0.01455494,
       "cusip": "G8062L104",
       "company": "cusip:G8062L104"
-    },
-    {
-      "name": "NAURA TECH GRP A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.01518185,
-      "company": "name:naura tech grp a hk"
     },
     {
       "name": "HYGON INFO TECH A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.01444271,
+      "weight": 0.01437578,
       "company": "name:hygon info tech a hk"
+    },
+    {
+      "name": "NAURA TECH GRP A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.01402723,
+      "company": "name:naura tech grp a hk"
+    },
+    {
+      "name": "Bilibili Inc",
+      "ticker": "9626",
+      "asset_type": "Equity",
+      "weight": 0.01295299,
+      "cusip": "G1098A101",
+      "company": "cusip:090040106"
     },
     {
       "name": "Horizon Robotics",
       "ticker": "9660",
       "asset_type": "Equity",
-      "weight": 0.01278245,
+      "weight": 0.01235015,
       "cusip": "G4602S105",
       "company": "cusip:G4602S105"
     },
@@ -110,63 +118,47 @@
       "name": "Kingboard Laminates Holdings Ltd",
       "ticker": "1888",
       "asset_type": "Equity",
-      "weight": 0.01264255,
+      "weight": 0.0117685,
       "cusip": "G5257K107",
       "company": "cusip:G5257K107"
-    },
-    {
-      "name": "Bilibili Inc",
-      "ticker": "9626",
-      "asset_type": "Equity",
-      "weight": 0.01247887,
-      "cusip": "G1098A101",
-      "company": "cusip:090040106"
     },
     {
       "name": "Kingdee International Software Group Co Ltd",
       "ticker": "268",
       "asset_type": "Equity",
-      "weight": 0.01008715,
+      "weight": 0.01020387,
       "cusip": "G52568147",
       "company": "cusip:G52568147"
-    },
-    {
-      "name": "Advanced Micro-Fabrication Equipment Inc China",
-      "ticker": "688012",
-      "asset_type": "Equity",
-      "weight": 0.00949893,
-      "cusip": "Y001DM108",
-      "company": "cusip:Y001DM108"
     },
     {
       "name": "Kingsoft Corp Ltd",
       "ticker": "3888",
       "asset_type": "Equity",
-      "weight": 0.00927395,
+      "weight": 0.00923212,
       "cusip": "G5264Y108",
       "company": "cusip:G5264Y108"
+    },
+    {
+      "name": "Advanced Micro-Fabrication Equipment Inc China",
+      "ticker": "688012",
+      "asset_type": "Equity",
+      "weight": 0.00900893,
+      "cusip": "Y001DM108",
+      "company": "cusip:Y001DM108"
     },
     {
       "name": "JOYY Inc",
       "ticker": "JOYY",
       "asset_type": "Equity",
-      "weight": 0.0074494,
+      "weight": 0.00741307,
       "cusip": "46591M109",
       "company": "cusip:46591M109"
-    },
-    {
-      "name": "Minimax Group Inc",
-      "ticker": "100",
-      "asset_type": "Equity",
-      "weight": 0.00640765,
-      "cusip": "G6181S109",
-      "company": "cusip:G6181S109"
     },
     {
       "name": "BOE Technology Group Co Ltd",
       "ticker": "000725",
       "asset_type": "Equity",
-      "weight": 0.0061686,
+      "weight": 0.00631287,
       "cusip": "Y0920M101",
       "company": "cusip:Y0920M101"
     },
@@ -174,66 +166,74 @@
       "name": "WUS PRINTED A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00616133,
+      "weight": 0.0060188,
       "company": "name:wus printed a hk"
     },
     {
       "name": "GDS Holdings Ltd",
       "ticker": "9698",
       "asset_type": "Equity",
-      "weight": 0.00606085,
+      "weight": 0.00593379,
       "company": "cusip:36165L108"
     },
     {
       "name": "Montage Technology Co Ltd",
       "ticker": "688008",
       "asset_type": "Equity",
-      "weight": 0.00576944,
+      "weight": 0.00580039,
       "cusip": "Y6S3M5108",
       "company": "cusip:Y6S3M5108"
-    },
-    {
-      "name": "Piotech Inc",
-      "ticker": "688072",
-      "asset_type": "Equity",
-      "weight": 0.00572523,
-      "company": "name:piotech"
     },
     {
       "name": "Hithink RoyalFlush Information Network Co Ltd",
       "ticker": "300033",
       "asset_type": "Equity",
-      "weight": 0.00571875,
+      "weight": 0.00564942,
       "cusip": "Y3181P102",
       "company": "cusip:Y3181P102"
+    },
+    {
+      "name": "Minimax Group Inc",
+      "ticker": "100",
+      "asset_type": "Equity",
+      "weight": 0.00564222,
+      "cusip": "G6181S109",
+      "company": "cusip:G6181S109"
     },
     {
       "name": "Guangdong Shengyi Science Technology (A) (SC SH)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00567943,
+      "weight": 0.00560331,
       "company": "name:guangdong shengyi science technology a sc sh"
+    },
+    {
+      "name": "Piotech Inc",
+      "ticker": "688072",
+      "asset_type": "Equity",
+      "weight": 0.0053418,
+      "company": "name:piotech"
+    },
+    {
+      "name": "Gigadevice Semiconductor Beijing (A) (SC SH)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.0052627,
+      "company": "name:gigadevice semiconductor beijing a sc sh"
     },
     {
       "name": "Shennan Circuits Co Ltd",
       "ticker": "002916",
       "asset_type": "Equity",
-      "weight": 0.00539716,
+      "weight": 0.00526174,
       "cusip": "Y774D3102",
       "company": "cusip:Y774D3102"
-    },
-    {
-      "name": "GIGA DEVICE SC A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.0053794,
-      "company": "name:giga device sc a hk"
     },
     {
       "name": "Meitu Inc",
       "ticker": "1357",
       "asset_type": "Equity",
-      "weight": 0.00528663,
+      "weight": 0.00520268,
       "cusip": "G5966D105",
       "company": "cusip:G5966D105"
     },
@@ -241,7 +241,7 @@
       "name": "Suzhou Dongshan Precision Manufacturing Co Ltd",
       "ticker": "002384",
       "asset_type": "Equity",
-      "weight": 0.00505299,
+      "weight": 0.00509213,
       "cusip": "Y8318L106",
       "company": "cusip:Y8318L106"
     },
@@ -249,122 +249,122 @@
       "name": "Chaozhou Three-Circle Group Co Ltd",
       "ticker": "300408",
       "asset_type": "Equity",
-      "weight": 0.00479956,
+      "weight": 0.0047562,
       "cusip": "Y1R99A101",
       "company": "cusip:Y1R99A101"
-    },
-    {
-      "name": "Lens Technology Co Ltd",
-      "ticker": "300433",
-      "asset_type": "Equity",
-      "weight": 0.00456203,
-      "cusip": "Y5227A106",
-      "company": "cusip:Y5227A106"
     },
     {
       "name": "Autohome Inc",
       "ticker": "ATHM",
       "asset_type": "Equity",
-      "weight": 0.00450767,
+      "weight": 0.00456276,
       "cusip": "05278C107",
       "company": "cusip:05278C107"
     },
     {
-      "name": "Hangzhou Chang Chuan Technology Co Ltd",
-      "ticker": "300604",
+      "name": "Lens Technology Co Ltd",
+      "ticker": "300433",
       "asset_type": "Equity",
-      "weight": 0.00445243,
-      "cusip": "Y3032N108",
-      "company": "cusip:Y3032N108"
-    },
-    {
-      "name": "China Literature Ltd",
-      "ticker": "772",
-      "asset_type": "Equity",
-      "weight": 0.00415861,
-      "cusip": "G2121R103",
-      "company": "cusip:G2121R103"
-    },
-    {
-      "name": "TravelSky Technology Ltd",
-      "ticker": "696",
-      "asset_type": "Equity",
-      "weight": 0.00408213,
-      "cusip": "Y8972V101",
-      "company": "cusip:Y8972V101"
+      "weight": 0.00434173,
+      "cusip": "Y5227A106",
+      "company": "cusip:Y5227A106"
     },
     {
       "name": "VICTORY GIANT A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00405435,
+      "weight": 0.00418635,
       "company": "name:victory giant a hk"
     },
     {
-      "name": "WILL SC A (HK-C)",
+      "name": "AVARY HOLDING A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00402619,
-      "company": "name:will sc a hk"
+      "weight": 0.00414809,
+      "company": "name:avary holding a hk"
     },
     {
-      "name": "AVARY HOLDING SHENZHEN (A) (SC SZ)",
-      "ticker": null,
+      "name": "Hangzhou Chang Chuan Technology Co Ltd",
+      "ticker": "300604",
       "asset_type": "Equity",
-      "weight": 0.00401148,
-      "company": "name:avary holding shenzhen a sc sz"
+      "weight": 0.00412587,
+      "cusip": "Y3032N108",
+      "company": "cusip:Y3032N108"
     },
     {
       "name": "Beijing Kingsoft Office Software Inc",
       "ticker": "688111",
       "asset_type": "Equity",
-      "weight": 0.0039129,
+      "weight": 0.00401666,
       "cusip": "Y0R9YP102",
       "company": "cusip:Y0R9YP102"
+    },
+    {
+      "name": "TravelSky Technology Ltd",
+      "ticker": "696",
+      "asset_type": "Equity",
+      "weight": 0.00401122,
+      "cusip": "Y8972V101",
+      "company": "cusip:Y8972V101"
+    },
+    {
+      "name": "China Literature Ltd",
+      "ticker": "772",
+      "asset_type": "Equity",
+      "weight": 0.00400648,
+      "cusip": "G2121R103",
+      "company": "cusip:G2121R103"
     },
     {
       "name": "TCL Technology Group Corp",
       "ticker": "000100",
       "asset_type": "Equity",
-      "weight": 0.00389723,
+      "weight": 0.0039834,
       "cusip": "Y8549C107",
       "company": "cusip:Y8549C107"
+    },
+    {
+      "name": "WILL SC A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00395473,
+      "company": "name:will sc a hk"
     },
     {
       "name": "Hwatsing Technology Co Ltd",
       "ticker": "688120",
       "asset_type": "Equity",
-      "weight": 0.00387315,
+      "weight": 0.00375049,
       "company": "name:hwatsing technology"
-    },
-    {
-      "name": "Shanghai Biren Technology Co Ltd",
-      "ticker": "6082",
-      "asset_type": "Equity",
-      "weight": 0.00386197,
-      "cusip": "Y768WN109",
-      "company": "cusip:Y768WN109"
-    },
-    {
-      "name": "GigaDevice Semiconductor Inc",
-      "ticker": "3986",
-      "asset_type": "Equity",
-      "weight": 0.00365427,
-      "cusip": "Y270MV109",
-      "company": "cusip:Y270MV109"
     },
     {
       "name": "JCET GROUP CO A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00348817,
+      "weight": 0.0033306,
       "company": "name:jcet group co a hk"
+    },
+    {
+      "name": "GigaDevice Semiconductor Inc",
+      "ticker": "3986",
+      "asset_type": "Equity",
+      "weight": 0.00327845,
+      "cusip": "Y270MV109",
+      "company": "cusip:Y270MV109"
+    },
+    {
+      "name": "Iflytek Co Ltd",
+      "ticker": "002230",
+      "asset_type": "Equity",
+      "weight": 0.00324029,
+      "cusip": "Y013A6101",
+      "company": "cusip:Y013A6101"
     },
     {
       "name": "InnoScience Suzhou Technology Holding Co Ltd",
       "ticker": "2577",
       "asset_type": "Equity",
-      "weight": 0.00348694,
+      "weight": 0.00321157,
       "cusip": "Y408LP109",
       "company": "cusip:Y408LP109"
     },
@@ -372,38 +372,15 @@
       "name": "Rockchip Electronics Co Ltd",
       "ticker": "603893",
       "asset_type": "Equity",
-      "weight": 0.00334811,
+      "weight": 0.00316633,
       "cusip": "Y267F4103",
       "company": "cusip:Y267F4103"
-    },
-    {
-      "name": "Iflytek Co Ltd",
-      "ticker": "002230",
-      "asset_type": "Equity",
-      "weight": 0.003276,
-      "cusip": "Y013A6101",
-      "company": "cusip:Y013A6101"
-    },
-    {
-      "name": "Hua Hong Grace Semiconductor Ltd",
-      "ticker": "688347",
-      "asset_type": "Equity",
-      "weight": 0.00325754,
-      "company": "cusip:Y372A7109"
-    },
-    {
-      "name": "Skyverse Technology Co Ltd",
-      "ticker": "688361",
-      "asset_type": "Equity",
-      "weight": 0.00319986,
-      "cusip": "Y806WC101",
-      "company": "cusip:Y806WC101"
     },
     {
       "name": "Pony AI Inc",
       "ticker": "2026",
       "asset_type": "Equity",
-      "weight": 0.0031293,
+      "weight": 0.00312939,
       "cusip": "G7171B106",
       "company": "cusip:732908108"
     },
@@ -411,45 +388,67 @@
       "name": "HUAQIN TECH A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00309889,
+      "weight": 0.00306543,
       "company": "name:huaqin tech a hk"
     },
     {
-      "name": "Legend Holdings Corp",
-      "ticker": "3396",
+      "name": "Shanghai Biren Technology Co Ltd",
+      "ticker": "6082",
       "asset_type": "Equity",
-      "weight": 0.00309311,
-      "cusip": "Y52237107",
-      "company": "cusip:Y52237107"
+      "weight": 0.00301553,
+      "cusip": "Y768WN109",
+      "company": "cusip:Y768WN109"
+    },
+    {
+      "name": "Skyverse Technology Co Ltd",
+      "ticker": "688361",
+      "asset_type": "Equity",
+      "weight": 0.00299672,
+      "cusip": "Y806WC101",
+      "company": "cusip:Y806WC101"
     },
     {
       "name": "Shenzhen Longsys Electronics Co Ltd",
       "ticker": "301308",
       "asset_type": "Equity",
-      "weight": 0.00303681,
+      "weight": 0.00296379,
       "company": "name:shenzhen longsys electronics"
+    },
+    {
+      "name": "Legend Holdings Corp",
+      "ticker": "3396",
+      "asset_type": "Equity",
+      "weight": 0.0029329,
+      "cusip": "Y52237107",
+      "company": "cusip:Y52237107"
+    },
+    {
+      "name": "Hua Hong Grace Semiconductor Ltd",
+      "ticker": "688347",
+      "asset_type": "Equity",
+      "weight": 0.00289938,
+      "company": "cusip:Y372A7109"
+    },
+    {
+      "name": "Yuanjie Semiconductor Technology Co Ltd Class A Shares",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00287386,
+      "company": "name:yuanjie semiconductor technology@china"
     },
     {
       "name": "Lingyi iTech Guangdong Co",
       "ticker": "002600",
       "asset_type": "Equity",
-      "weight": 0.00298414,
+      "weight": 0.00283821,
       "cusip": "Y446BS104",
       "company": "cusip:Y446BS104"
-    },
-    {
-      "name": "Shanghai Iluvatar CoreX Semiconductor Co Ltd",
-      "ticker": "9903",
-      "asset_type": "Equity",
-      "weight": 0.00292595,
-      "cusip": "Y768WQ102",
-      "company": "cusip:Y768WQ102"
     },
     {
       "name": "Range Intelligent Computing Technology Group Co Ltd",
       "ticker": "300442",
       "asset_type": "Equity",
-      "weight": 0.00290261,
+      "weight": 0.00283648,
       "cusip": "Y768A5102",
       "company": "cusip:Y768A5102"
     },
@@ -457,53 +456,54 @@
       "name": "ACM Research Shanghai Inc",
       "ticker": "688082",
       "asset_type": "Equity",
-      "weight": 0.00289067,
+      "weight": 0.00274938,
       "cusip": "Y002HF107",
       "company": "cusip:Y002HF107"
-    },
-    {
-      "name": "Yuanjie Semiconductor Technology Co Ltd Class A Shares",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00285174,
-      "company": "name:yuanjie semiconductor technology@china"
-    },
-    {
-      "name": "Montage Technology Co Ltd",
-      "ticker": "6809",
-      "asset_type": "Equity",
-      "weight": 0.00272167,
-      "cusip": "Y6S3M5116",
-      "company": "cusip:Y6S3M5108"
-    },
-    {
-      "name": "Shanghai Fudan Microelectronics Group Co Ltd",
-      "ticker": "1385",
-      "asset_type": "Equity",
-      "weight": 0.00263608,
-      "cusip": "Y7682H105",
-      "company": "cusip:Y7682H105"
     },
     {
       "name": "National Silicon Industry Group Co Ltd",
       "ticker": "688126",
       "asset_type": "Equity",
-      "weight": 0.00258554,
+      "weight": 0.00258059,
       "cusip": "Y6S9KH101",
       "company": "cusip:Y6S9KH101"
+    },
+    {
+      "name": "Montage Technology Co Ltd",
+      "ticker": "6809",
+      "asset_type": "Equity",
+      "weight": 0.00255842,
+      "cusip": "Y6S3M5116",
+      "company": "cusip:Y6S3M5108"
+    },
+    {
+      "name": "Shanghai Iluvatar CoreX Semiconductor Co Ltd",
+      "ticker": "9903",
+      "asset_type": "Equity",
+      "weight": 0.00250528,
+      "cusip": "Y768WQ102",
+      "company": "cusip:Y768WQ102"
     },
     {
       "name": "INSPUR ELECTRS A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.0024734,
+      "weight": 0.00244587,
       "company": "name:inspur electrs a hk"
+    },
+    {
+      "name": "Shanghai Fudan Microelectronics Group Co Ltd",
+      "ticker": "1385",
+      "asset_type": "Equity",
+      "weight": 0.00239019,
+      "cusip": "Y7682H105",
+      "company": "cusip:Y7682H105"
     },
     {
       "name": "Unisplendour Corp Ltd",
       "ticker": "000938",
       "asset_type": "Equity",
-      "weight": 0.00244281,
+      "weight": 0.00232288,
       "cusip": "Y8997B106",
       "company": "cusip:Y8997B106"
     },
@@ -511,163 +511,156 @@
       "name": "China Resources Microelectronics Ltd",
       "ticker": "688396",
       "asset_type": "Equity",
-      "weight": 0.00239231,
+      "weight": 0.00231715,
       "cusip": "E100003S9",
       "company": "cusip:E100003S9"
     },
     {
-      "name": "Suzhou Centec Communications Co Ltd",
-      "ticker": "688702",
-      "asset_type": "Equity",
-      "weight": 0.00235717,
-      "cusip": "Y831RS100",
-      "company": "cusip:Y831RS100"
-    },
-    {
-      "name": "Huagong Tech (A) (SC SZ)",
+      "name": "HUAGONG TECH A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00235431,
-      "company": "name:huagong tech a sc sz"
-    },
-    {
-      "name": "TongFu Microelectronics Co Ltd",
-      "ticker": "002156",
-      "asset_type": "Equity",
-      "weight": 0.00226598,
-      "cusip": "Y6199W100",
-      "company": "cusip:Y6199W100"
-    },
-    {
-      "name": "Sharetronic Data Technology Co Ltd",
-      "ticker": "300857",
-      "asset_type": "Equity",
-      "weight": 0.00226533,
-      "cusip": "Y7T0JR107",
-      "company": "cusip:Y7T0JR107"
+      "weight": 0.002307,
+      "company": "name:huagong tech a hk"
     },
     {
       "name": "Shengyi Electronics Co Ltd",
       "ticker": "688183",
       "asset_type": "Equity",
-      "weight": 0.0021984,
+      "weight": 0.00229505,
       "cusip": "Y774JL106",
       "company": "cusip:Y774JL106"
     },
     {
-      "name": "United Nova Technology Co Ltd",
-      "ticker": "688469",
+      "name": "Sharetronic Data Technology Co Ltd",
+      "ticker": "300857",
       "asset_type": "Equity",
-      "weight": 0.00219571,
-      "cusip": "Y7T7U2104",
-      "company": "cusip:Y7T7U2104"
+      "weight": 0.00226208,
+      "cusip": "Y7T0JR107",
+      "company": "cusip:Y7T0JR107"
     },
     {
       "name": "SHENZHEN KINWONG ELECTRONIC (A) (SC SH)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00219368,
+      "weight": 0.00224964,
       "company": "name:shenzhen kinwong electronic a sc sh"
+    },
+    {
+      "name": "Suzhou Centec Communications Co Ltd",
+      "ticker": "688702",
+      "asset_type": "Equity",
+      "weight": 0.00223694,
+      "cusip": "Y831RS100",
+      "company": "cusip:Y831RS100"
     },
     {
       "name": "Raytron Technology Co Ltd",
       "ticker": "688002",
       "asset_type": "Equity",
-      "weight": 0.00218925,
+      "weight": 0.00218699,
       "cusip": "Y7S9BW106",
       "company": "cusip:Y7S9BW106"
+    },
+    {
+      "name": "United Nova Technology Co Ltd",
+      "ticker": "688469",
+      "asset_type": "Equity",
+      "weight": 0.00216088,
+      "cusip": "Y7T7U2104",
+      "company": "cusip:Y7T7U2104"
+    },
+    {
+      "name": "TongFu Microelectronics Co Ltd",
+      "ticker": "002156",
+      "asset_type": "Equity",
+      "weight": 0.00215886,
+      "cusip": "Y6199W100",
+      "company": "cusip:Y6199W100"
     },
     {
       "name": "Biwin Storage Technology Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00218545,
+      "weight": 0.00215635,
       "company": "name:biwin storage technology@china"
     },
     {
       "name": "Nexchip Semiconductor Corp",
       "ticker": "688249",
       "asset_type": "Equity",
-      "weight": 0.00212229,
+      "weight": 0.00209062,
       "company": "name:nexchip semiconductor"
-    },
-    {
-      "name": "Konfoong Materials International Co Ltd",
-      "ticker": "300666",
-      "asset_type": "Equity",
-      "weight": 0.00206997,
-      "cusip": "Y613F4108",
-      "company": "cusip:Y613F4108"
     },
     {
       "name": "Shenzhen Techwinsemi Technology Co Ltd",
       "ticker": "001309",
       "asset_type": "Equity",
-      "weight": 0.00205245,
+      "weight": 0.00199169,
       "company": "name:shenzhen techwinsemi technology@china"
-    },
-    {
-      "name": "CHINA XD ELEC A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00203485,
-      "company": "name:china xd elec a hk"
     },
     {
       "name": "360 Security Technology Inc",
       "ticker": "601360",
       "asset_type": "Equity",
-      "weight": 0.0020069,
+      "weight": 0.00197557,
       "cusip": "Y444T7106",
       "company": "cusip:Y444T7106"
     },
     {
-      "name": "Empyrean Technology Co Ltd",
-      "ticker": "301269",
-      "asset_type": "Equity",
-      "weight": 0.0019563,
-      "company": "name:empyrean technology"
-    },
-    {
-      "name": "Anji Microelectronics Technology (Shanghai) Co Ltd Ordinary Shares Class A",
+      "name": "CHINA XD ELEC A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00189334,
-      "company": "name:anji microelectronics technology shanghai"
+      "weight": 0.00194387,
+      "company": "name:china xd elec a hk"
     },
     {
-      "name": "Kingsemi Co Ltd Ordinary Shares Class A",
-      "ticker": null,
+      "name": "Konfoong Materials International Co Ltd",
+      "ticker": "300666",
       "asset_type": "Equity",
-      "weight": 0.00188754,
-      "company": "name:kingsemi"
+      "weight": 0.00187068,
+      "cusip": "Y613F4108",
+      "company": "cusip:Y613F4108"
     },
     {
       "name": "Shanghai Baosight Software Co Ltd",
       "ticker": "900926",
       "asset_type": "Equity",
-      "weight": 0.00187886,
+      "weight": 0.0018652,
       "company": "name:shanghai baosight software"
+    },
+    {
+      "name": "Empyrean Technology Co Ltd",
+      "ticker": "301269",
+      "asset_type": "Equity",
+      "weight": 0.00183105,
+      "company": "name:empyrean technology"
+    },
+    {
+      "name": "Kingsemi Co Ltd Ordinary Shares Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00179743,
+      "company": "name:kingsemi"
     },
     {
       "name": "SANGFOR TECH A(HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00179985,
+      "weight": 0.00176333,
       "company": "name:sangfor tech a hk"
     },
     {
-      "name": "SG MICRO A (HK-C)",
+      "name": "Anji Microelectronics Technology (Shanghai) Co Ltd Ordinary Shares Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00179382,
-      "company": "name:sg micro a hk"
+      "weight": 0.00175288,
+      "company": "name:anji microelectronics technology shanghai"
     },
     {
       "name": "Weibo Corp",
       "ticker": "9898",
       "asset_type": "Equity",
-      "weight": 0.00179162,
+      "weight": 0.00175119,
       "cusip": "G9515T108",
       "company": "cusip:948596101"
     },
@@ -675,30 +668,30 @@
       "name": "Zhejiang Dahua Technology Co Ltd",
       "ticker": "002236",
       "asset_type": "Equity",
-      "weight": 0.00178178,
+      "weight": 0.00174651,
       "cusip": "Y988AP102",
       "company": "cusip:Y988AP102"
+    },
+    {
+      "name": "SG MICRO A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00173735,
+      "company": "name:sg micro a hk"
     },
     {
       "name": "Tianshui Huatian Technology Co Ltd",
       "ticker": "002185",
       "asset_type": "Equity",
-      "weight": 0.00173871,
+      "weight": 0.00166736,
       "cusip": "Y8817B104",
       "company": "cusip:Y8817B104"
-    },
-    {
-      "name": "Sichuan Huafeng Technology Co Ltd Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00172214,
-      "company": "name:sichuan huafeng technology"
     },
     {
       "name": "Kunlun Tech Co Ltd",
       "ticker": "300418",
       "asset_type": "Equity",
-      "weight": 0.00166123,
+      "weight": 0.00162525,
       "cusip": "Y0R7Z5109",
       "company": "cusip:Y0R7Z5109"
     },
@@ -706,29 +699,36 @@
       "name": "VERISILICON MIC A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00166091,
+      "weight": 0.00157282,
       "company": "name:verisilicon mic a hk"
-    },
-    {
-      "name": "Beijing YanDong MicroElectronic Co Ltd Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00164181,
-      "company": "name:beijing yandong microelectronic"
     },
     {
       "name": "Ingenic Semiconductor Co Ltd",
       "ticker": "300223",
       "asset_type": "Equity",
-      "weight": 0.00163215,
+      "weight": 0.00157032,
       "cusip": "Y4088K105",
       "company": "cusip:Y4088K105"
+    },
+    {
+      "name": "Sichuan Huafeng Technology Co Ltd Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00153938,
+      "company": "name:sichuan huafeng technology"
+    },
+    {
+      "name": "Shenzhen Fastprint Circuit Tech Co Ltd Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00153703,
+      "company": "name:shenzhen fastprint circuit tech"
     },
     {
       "name": "Lens Technology Co Ltd",
       "ticker": "6613",
       "asset_type": "Equity",
-      "weight": 0.00162784,
+      "weight": 0.00153442,
       "cusip": "Y5227A114",
       "company": "cusip:Y5227A106"
     },
@@ -736,145 +736,130 @@
       "name": "Unigroup Guoxin Microelectronics Co Ltd",
       "ticker": "002049",
       "asset_type": "Equity",
-      "weight": 0.00158472,
+      "weight": 0.00153277,
       "cusip": "Y8488J105",
       "company": "cusip:Y8488J105"
-    },
-    {
-      "name": "Shenzhen Fastprint Circuit Tech Co Ltd Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00156757,
-      "company": "name:shenzhen fastprint circuit tech"
-    },
-    {
-      "name": "Beijing Huafeng Test & Control Technology Co Ltd Shs A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00154893,
-      "company": "name:beijing huafeng test control technology"
-    },
-    {
-      "name": "BOE Technology Group Co Ltd",
-      "ticker": "200725",
-      "asset_type": "Equity",
-      "weight": 0.00154885,
-      "company": "cusip:Y0920M101"
-    },
-    {
-      "name": "SMARTSENS TECHNOLOGY (SHANGHAI) (A) (SC SH)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00154848,
-      "company": "name:smartsens technology shanghai a sc sh"
     },
     {
       "name": "Universal Scientific Industrial (Shanghai) (A) (SC SH)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00153744,
+      "weight": 0.00150402,
       "company": "name:universal scientific industrial shanghai a sc sh"
     },
     {
-      "name": "SANAN OPTOELEC A (HK-C)",
+      "name": "SMARTSENS TECHNOLOGY (SHANGHAI) (A) (SC SH)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00153172,
-      "company": "name:sanan optoelec a hk"
+      "weight": 0.00150351,
+      "company": "name:smartsens technology shanghai a sc sh"
     },
     {
       "name": "Zhejiang Jingsheng Mechanical & Electrical Co Ltd",
       "ticker": "300316",
       "asset_type": "Equity",
-      "weight": 0.00151394,
+      "weight": 0.00146084,
       "cusip": "Y9803K108",
       "company": "cusip:Y9803K108"
+    },
+    {
+      "name": "Beijing YanDong MicroElectronic Co Ltd Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.0014608,
+      "company": "name:beijing yandong microelectronic"
     },
     {
       "name": "Shenzhen Kaifa Technology (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00150795,
+      "weight": 0.00145584,
       "company": "name:shenzhen kaifa technology a sc sz"
     },
     {
       "name": "Shanghai BOCHU Electronic Technology Corp Ltd",
       "ticker": "688188",
       "asset_type": "Equity",
-      "weight": 0.00146969,
+      "weight": 0.00144838,
       "cusip": "Y7T83N106",
       "company": "cusip:Y7T83N106"
     },
     {
-      "name": "Guangdong Dtech Technology Co Ltd",
-      "ticker": "301377",
+      "name": "SANAN OPTOELEC A (HK-C)",
+      "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00146893,
-      "company": "name:guangdong dtech technology"
+      "weight": 0.00144573,
+      "company": "name:sanan optoelec a hk"
     },
     {
       "name": "Loongson Technology Corp Ltd",
       "ticker": "688047",
       "asset_type": "Equity",
-      "weight": 0.00145393,
+      "weight": 0.0014222,
       "company": "name:loongson technology"
+    },
+    {
+      "name": "Guangdong Dtech Technology Co Ltd",
+      "ticker": "301377",
+      "asset_type": "Equity",
+      "weight": 0.00142216,
+      "company": "name:guangdong dtech technology"
     },
     {
       "name": "Grace Fabric Technology Co Ltd Ordinary Shares Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00143512,
+      "weight": 0.00142205,
       "company": "name:grace fabric technology"
     },
     {
-      "name": "AMLOGIC SHANGHAI A(HK-C)",
+      "name": "Beijing Huafeng Test & Control Technology Co Ltd Shs A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00142791,
-      "company": "name:amlogic shanghai a hk"
+      "weight": 0.0014209,
+      "company": "name:beijing huafeng test control technology"
     },
     {
-      "name": "SHANNON SEMI A (HK-C)",
-      "ticker": null,
+      "name": "BOE Technology Group Co Ltd",
+      "ticker": "200725",
       "asset_type": "Equity",
-      "weight": 0.00142079,
-      "company": "name:shannon semi a hk"
+      "weight": 0.00141482,
+      "company": "cusip:Y0920M101"
     },
     {
       "name": "Hundsun Technologies Inc",
       "ticker": "600570",
       "asset_type": "Equity",
-      "weight": 0.00141428,
+      "weight": 0.00139439,
       "cusip": "Y3041V109",
       "company": "cusip:Y3041V109"
+    },
+    {
+      "name": "SHANNON SEMI A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00139012,
+      "company": "name:shannon semi a hk"
+    },
+    {
+      "name": "AMLOGIC SHANGHAI A(HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00136004,
+      "company": "name:amlogic shanghai a hk"
     },
     {
       "name": "HANGZHOU SILAN A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00141003,
+      "weight": 0.00135538,
       "company": "name:hangzhou silan a hk"
-    },
-    {
-      "name": "Goldenmax International Group Ltd",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00140983,
-      "cusip": "Y2751A107",
-      "company": "cusip:Y2751A107"
-    },
-    {
-      "name": "WANGSU SCIENCE A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00135087,
-      "company": "name:wangsu science a hk"
     },
     {
       "name": "China Greatwall Technology Group Co Ltd",
       "ticker": "000066",
       "asset_type": "Equity",
-      "weight": 0.00134999,
+      "weight": 0.00133596,
       "cusip": "Y14392107",
       "company": "cusip:Y14392107"
     },
@@ -882,173 +867,181 @@
       "name": "Henan Shijia Photons Technology Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00133646,
+      "weight": 0.00131881,
       "company": "name:henan shijia photons technology"
+    },
+    {
+      "name": "WANGSU SCIENCE A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00131791,
+      "company": "name:wangsu science a hk"
     },
     {
       "name": "Founder Technology Group Co Ltd Shs A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00132392,
+      "weight": 0.00131682,
       "company": "name:founder technology group"
     },
     {
-      "name": "Shenyang Fortune Precision Equipment Co Ltd",
-      "ticker": "688409",
+      "name": "Goldenmax International Group Ltd",
+      "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00132057,
-      "company": "name:shenyang fortune precision equipment"
+      "weight": 0.00131627,
+      "cusip": "Y2751A107",
+      "company": "cusip:Y2751A107"
     },
     {
       "name": "SHANGHAI BAOSIG A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00131589,
+      "weight": 0.00129409,
       "company": "name:shanghai baosig a hk"
     },
     {
       "name": "Nanya New Material Technology Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00129172,
+      "weight": 0.00127382,
       "company": "name:nanya new material technology"
-    },
-    {
-      "name": "SHENZHEN EVERWIN PRECISION TECHNOLOGY (A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00126389,
-      "company": "name:shenzhen everwin precision technology a sc sz"
     },
     {
       "name": "Delton Technology (Guangzhou) Inc Ordinary Shares - Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00125358,
+      "weight": 0.00124135,
       "company": "name:delton technology guangzhou"
-    },
-    {
-      "name": "ISOFTSTONE INFO A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00124742,
-      "company": "name:isoftstone info a hk"
-    },
-    {
-      "name": "Zhejiang Quartz Crystal Optoelectronic Tech (A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00121593,
-      "company": "name:zhejiang quartz crystal optoelectronic tech a sc sz"
     },
     {
       "name": "GALAXYCORE A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00120413,
+      "weight": 0.00120713,
       "company": "name:galaxycore a hk"
     },
     {
-      "name": "SICC Co Ltd",
-      "ticker": "688234",
+      "name": "ISOFTSTONE INFO A (HK-C)",
+      "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00119849,
-      "company": "name:sicc"
+      "weight": 0.00119888,
+      "company": "name:isoftstone info a hk"
+    },
+    {
+      "name": "SHENZHEN EVERWIN PRECISION TECHNOLOGY (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.0011809,
+      "company": "name:shenzhen everwin precision technology a sc sz"
+    },
+    {
+      "name": "Shenyang Fortune Precision Equipment Co Ltd",
+      "ticker": "688409",
+      "asset_type": "Equity",
+      "weight": 0.00117829,
+      "company": "name:shenyang fortune precision equipment"
+    },
+    {
+      "name": "Zhejiang Quartz Crystal Optoelectronic Tech (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00117126,
+      "company": "name:zhejiang quartz crystal optoelectronic tech a sc sz"
     },
     {
       "name": "GRINM Semiconductor Materials Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00119588,
+      "weight": 0.00112742,
       "company": "name:grinm semiconductor materials"
-    },
-    {
-      "name": "QINGDAO TGOOD ELECTRIC (A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00117273,
-      "company": "name:qingdao tgood electric a sc sz"
-    },
-    {
-      "name": "Dosilicon Co Ltd Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00115555,
-      "company": "name:dosilicon"
-    },
-    {
-      "name": "ASR MICROELEC A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00115523,
-      "company": "name:asr microelec a hk"
-    },
-    {
-      "name": "3peak Inc",
-      "ticker": "688536",
-      "asset_type": "Equity",
-      "weight": 0.00113692,
-      "cusip": "Y4454Q108",
-      "company": "cusip:Y4454Q108"
     },
     {
       "name": "Shenzhen Sunlord Electronics Co Ltd",
       "ticker": "002138",
       "asset_type": "Equity",
-      "weight": 0.00113207,
+      "weight": 0.00112641,
       "cusip": "Y77435108",
       "company": "cusip:Y77435108"
+    },
+    {
+      "name": "SICC Co Ltd",
+      "ticker": "688234",
+      "asset_type": "Equity",
+      "weight": 0.00111565,
+      "company": "name:sicc"
+    },
+    {
+      "name": "QINGDAO TGOOD ELECTRIC (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00110322,
+      "company": "name:qingdao tgood electric a sc sz"
+    },
+    {
+      "name": "ASR MICROELEC A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.0010885,
+      "company": "name:asr microelec a hk"
+    },
+    {
+      "name": "Dosilicon Co Ltd Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00108758,
+      "company": "name:dosilicon"
+    },
+    {
+      "name": "3peak Inc",
+      "ticker": "688536",
+      "asset_type": "Equity",
+      "weight": 0.00108138,
+      "cusip": "Y4454Q108",
+      "company": "cusip:Y4454Q108"
     },
     {
       "name": "Maxscend Microelectronics Co Ltd",
       "ticker": "300782",
       "asset_type": "Equity",
-      "weight": 0.00111806,
+      "weight": 0.00106462,
       "cusip": "Y5840E105",
       "company": "cusip:Y5840E105"
-    },
-    {
-      "name": "Circuit Fabology Microelectronics Equipment Co Ltd Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.0011069,
-      "company": "name:circuit fabology microelectronics equipment"
-    },
-    {
-      "name": "Guangdong Kingshine Electronic Technology Co Ltd",
-      "ticker": "300903",
-      "asset_type": "Equity",
-      "weight": 0.00107979,
-      "cusip": "Y29385104",
-      "company": "cusip:Y29385104"
-    },
-    {
-      "name": "Sigmastar Technology Ltd",
-      "ticker": "301536",
-      "asset_type": "Equity",
-      "weight": 0.00107834,
-      "company": "name:sigmastar technology"
     },
     {
       "name": "SHANGHAI 2345 A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00107741,
+      "weight": 0.00105886,
       "company": "name:shanghai 2345 a hk"
     },
     {
       "name": "Yonyou Network Technology Co Ltd",
       "ticker": "600588",
       "asset_type": "Equity",
-      "weight": 0.00106786,
+      "weight": 0.00105844,
       "cusip": "Y9042R104",
       "company": "cusip:Y9042R104"
+    },
+    {
+      "name": "Circuit Fabology Microelectronics Equipment Co Ltd Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00105597,
+      "company": "name:circuit fabology microelectronics equipment"
+    },
+    {
+      "name": "Guangdong Kingshine Electronic Technology Co Ltd",
+      "ticker": "300903",
+      "asset_type": "Equity",
+      "weight": 0.00104942,
+      "cusip": "Y29385104",
+      "company": "cusip:Y29385104"
     },
     {
       "name": "Guangzhou Shiyuan Electronic Technology Co Ltd",
       "ticker": "002841",
       "asset_type": "Equity",
-      "weight": 0.00105977,
+      "weight": 0.00103662,
       "cusip": "Y29355107",
       "company": "cusip:Y29355107"
     },
@@ -1056,58 +1049,36 @@
       "name": "Puya Semiconductor (Shanghai) Co Ltd Shs A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.0010427,
+      "weight": 0.00102729,
       "cusip": "Y716F7102",
       "company": "cusip:Y716F7102"
     },
     {
-      "name": "Bestechnic Shanghai Co Ltd",
-      "ticker": "688608",
+      "name": "Sigmastar Technology Ltd",
+      "ticker": "301536",
       "asset_type": "Equity",
-      "weight": 0.00103667,
-      "company": "name:bestechnic shanghai"
-    },
-    {
-      "name": "JoulWatt Technology Co Ltd Class A Shares",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00102044,
-      "company": "name:joulwatt technology"
+      "weight": 0.00102542,
+      "company": "name:sigmastar technology"
     },
     {
       "name": "Everdisplay Optronics Shanghai Co Ltd",
       "ticker": "688538",
       "asset_type": "Equity",
-      "weight": 0.00100187,
+      "weight": 0.00100139,
       "company": "name:everdisplay optronics shanghai"
     },
     {
-      "name": "ALL WINNER TECHNOLOGY (A) (SC SZ)",
-      "ticker": null,
+      "name": "Bestechnic Shanghai Co Ltd",
+      "ticker": "688608",
       "asset_type": "Equity",
-      "weight": 0.0009899,
-      "company": "name:all winner technology a sc sz"
-    },
-    {
-      "name": "Wuhan Jingce Electronic Group Co Ltd",
-      "ticker": "300567",
-      "asset_type": "Equity",
-      "weight": 0.00098356,
-      "cusip": "Y970AF102",
-      "company": "cusip:Y970AF102"
-    },
-    {
-      "name": "SHENZHEN GOODIX TECHNOLOGY (A) (SC SH)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00098131,
-      "company": "name:shenzhen goodix technology a sc sh"
+      "weight": 0.00098129,
+      "company": "name:bestechnic shanghai"
     },
     {
       "name": "Shenzhen Han's CNC Technology Co Ltd",
       "ticker": "301200",
       "asset_type": "Equity",
-      "weight": 0.00098,
+      "weight": 0.00096539,
       "cusip": "Y774JT109",
       "company": "cusip:Y774JT109"
     },
@@ -1115,36 +1086,73 @@
       "name": "Nantong Jianghai Capacitor Co Ltd Common Stock A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00097906,
+      "weight": 0.00095032,
       "company": "name:nantong jianghai capacitor co ltd common stock"
     },
     {
       "name": "CHINA NATIONAL SOFTWARE & SERVICE (A) (SC SH)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00097129,
+      "weight": 0.00094662,
       "company": "name:china national software service a sc sh"
+    },
+    {
+      "name": "JoulWatt Technology Co Ltd Class A Shares",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00094373,
+      "company": "name:joulwatt technology"
     },
     {
       "name": "Hunan Talkweb Information System Co.,Ltd. TWXX",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00096711,
+      "weight": 0.00093917,
       "company": "name:hunan talkweb information system co ltd twxx"
+    },
+    {
+      "name": "ALL WINNER TECHNOLOGY (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.0009253,
+      "company": "name:all winner technology a sc sz"
+    },
+    {
+      "name": "Shenzhen JPT Opto-Electronics Co Ltd",
+      "ticker": "688025",
+      "asset_type": "Equity",
+      "weight": 0.00092446,
+      "cusip": "Y774KS109",
+      "company": "cusip:Y774KS109"
     },
     {
       "name": "Xiamen Faratronic Co Ltd",
       "ticker": "600563",
       "asset_type": "Equity",
-      "weight": 0.00095362,
+      "weight": 0.00092369,
       "cusip": "Y9721Z104",
       "company": "cusip:Y9721Z104"
+    },
+    {
+      "name": "SHENZHEN GOODIX TECHNOLOGY (A) (SC SH)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00092098,
+      "company": "name:shenzhen goodix technology a sc sh"
+    },
+    {
+      "name": "Wuhan Jingce Electronic Group Co Ltd",
+      "ticker": "300567",
+      "asset_type": "Equity",
+      "weight": 0.00091411,
+      "cusip": "Y970AF102",
+      "company": "cusip:Y970AF102"
     },
     {
       "name": "Thunder Software Technology Co Ltd",
       "ticker": "300496",
       "asset_type": "Equity",
-      "weight": 0.00093323,
+      "weight": 0.0009082,
       "cusip": "Y444KZ103",
       "company": "cusip:Y444KZ103"
     },
@@ -1152,183 +1160,168 @@
       "name": "Hengdian Group DMEGC Magnetics (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00093052,
+      "weight": 0.00089242,
       "company": "name:hengdian group dmegc magnetics a sc sz"
-    },
-    {
-      "name": "SHANGHAI FUDAN MICROELECTRONICS GROUP (A) (SC SH)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00091288,
-      "company": "name:shanghai fudan microelectronics group a sc sh"
-    },
-    {
-      "name": "Goke Microelectronics Co Ltd",
-      "ticker": "300672",
-      "asset_type": "Equity",
-      "weight": 0.00089891,
-      "cusip": "Y3R607109",
-      "company": "cusip:Y3R607109"
     },
     {
       "name": "JIANGSU HOPERUN A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00088163,
+      "weight": 0.00086416,
       "company": "name:jiangsu hoperun a hk"
     },
     {
-      "name": "SHANGHAI SINYANG SEMICONDUCTOR MATERIALS (A) (SC SZ)",
-      "ticker": null,
+      "name": "Goke Microelectronics Co Ltd",
+      "ticker": "300672",
       "asset_type": "Equity",
-      "weight": 0.00087081,
-      "company": "name:shanghai sinyang semiconductor materials a sc sz"
+      "weight": 0.00084644,
+      "cusip": "Y3R607109",
+      "company": "cusip:Y3R607109"
     },
     {
       "name": "IRICO Display Devices Co Ltd",
       "ticker": "600707",
       "asset_type": "Equity",
-      "weight": 0.00086538,
+      "weight": 0.00084637,
       "cusip": "Y77010109",
       "company": "cusip:Y77010109"
-    },
-    {
-      "name": "Castech Inc.",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00086441,
-      "company": "name:castech"
-    },
-    {
-      "name": "Guobo Electronics Co Ltd",
-      "ticker": "688375",
-      "asset_type": "Equity",
-      "weight": 0.00085826,
-      "cusip": "Y2R5GT108",
-      "company": "cusip:Y2R5GT108"
-    },
-    {
-      "name": "Shenzhen JPT Opto-Electronics Co Ltd",
-      "ticker": "688025",
-      "asset_type": "Equity",
-      "weight": 0.00085687,
-      "cusip": "Y774KS109",
-      "company": "cusip:Y774KS109"
-    },
-    {
-      "name": "SHIJIAZHUANG CHANGSHAN BEIMING TECHNOLOGY (A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00085686,
-      "company": "name:shijiazhuang changshan beiming technology a sc sz"
     },
     {
       "name": "Geovis Technology Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00085342,
+      "weight": 0.00084364,
       "company": "name:geovis technology"
+    },
+    {
+      "name": "SHANGHAI FUDAN MICROELECTRONICS GROUP (A) (SC SH)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00084298,
+      "company": "name:shanghai fudan microelectronics group a sc sh"
     },
     {
       "name": "Jiangsu Lettall Electronic Co Ltd shs A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00085039,
+      "weight": 0.00082767,
       "cusip": "Y4456W103",
       "company": "cusip:Y4456W103"
+    },
+    {
+      "name": "Guobo Electronics Co Ltd",
+      "ticker": "688375",
+      "asset_type": "Equity",
+      "weight": 0.00082404,
+      "cusip": "Y2R5GT108",
+      "company": "cusip:Y2R5GT108"
+    },
+    {
+      "name": "Castech Inc.",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00080961,
+      "company": "name:castech"
+    },
+    {
+      "name": "SHANGHAI SINYANG SEMICONDUCTOR MATERIALS (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00080946,
+      "company": "name:shanghai sinyang semiconductor materials a sc sz"
+    },
+    {
+      "name": "SHIJIAZHUANG CHANGSHAN BEIMING TECHNOLOGY (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00078721,
+      "company": "name:shijiazhuang changshan beiming technology a sc sz"
     },
     {
       "name": "Suzhou Novosense Microelectronics Co Ltd",
       "ticker": "688052",
       "asset_type": "Equity",
-      "weight": 0.00082385,
+      "weight": 0.00077559,
       "company": "name:suzhou novosense microelectronics"
-    },
-    {
-      "name": "HANGZHOU LION A (HK-C)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00079935,
-      "company": "name:hangzhou lion a hk"
     },
     {
       "name": "Pantum Technology Co Ltd",
       "ticker": "002180",
       "asset_type": "Equity",
-      "weight": 0.00079222,
+      "weight": 0.00076196,
       "cusip": "Y9892Z107",
       "company": "cusip:Y9892Z107"
     },
     {
-      "name": "Suzhou Tianmai Thermal Technology Co Ltd",
-      "ticker": "301626",
-      "asset_type": "Equity",
-      "weight": 0.00078887,
-      "company": "name:suzhou tianmai thermal technology"
-    },
-    {
-      "name": "Jiangsu Leadmicro Nano Technology Co Ltd Class A Shares",
+      "name": "HANGZHOU LION A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00076973,
-      "company": "name:jiangsu leadmicro nano technology"
-    },
-    {
-      "name": "SHENZHEN INFOGEM TECHNOLOGIES (A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00076973,
-      "company": "name:shenzhen infogem technologies a sc sz"
+      "weight": 0.00075859,
+      "company": "name:hangzhou lion a hk"
     },
     {
       "name": "GRG Banking Equipment Co Ltd",
       "ticker": "002152",
       "asset_type": "Equity",
-      "weight": 0.00076558,
+      "weight": 0.0007558,
       "cusip": "Y2889S103",
       "company": "cusip:Y2889S103"
     },
     {
-      "name": "Glory View Technology Co Ltd",
-      "ticker": "301396",
+      "name": "Suzhou Tianmai Thermal Technology Co Ltd",
+      "ticker": "301626",
       "asset_type": "Equity",
-      "weight": 0.00075088,
-      "company": "name:glory view technology"
+      "weight": 0.00074685,
+      "company": "name:suzhou tianmai thermal technology"
     },
     {
       "name": "SUZHOU A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00074282,
+      "weight": 0.00073412,
       "company": "name:suzhou a hk"
+    },
+    {
+      "name": "SHENZHEN INFOGEM TECHNOLOGIES (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00072315,
+      "company": "name:shenzhen infogem technologies a sc sz"
     },
     {
       "name": "Tsinghua Tongfang Co Ltd",
       "ticker": "600100",
       "asset_type": "Equity",
-      "weight": 0.0007353,
+      "weight": 0.00072109,
       "cusip": "Y8997R119",
       "company": "cusip:Y8997R119"
+    },
+    {
+      "name": "Glory View Technology Co Ltd",
+      "ticker": "301396",
+      "asset_type": "Equity",
+      "weight": 0.00070723,
+      "company": "name:glory view technology"
+    },
+    {
+      "name": "Jiangsu Leadmicro Nano Technology Co Ltd Class A Shares",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00070405,
+      "company": "name:jiangsu leadmicro nano technology"
     },
     {
       "name": "WUHAN DR LASER A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00070755,
+      "weight": 0.00068428,
       "company": "name:wuhan dr laser a hk"
-    },
-    {
-      "name": "SHENZHEN HUAQIANG INDUSTRY(A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00070497,
-      "company": "name:shenzhen huaqiang industry a sc sz"
     },
     {
       "name": "China Zhenhua Group Science & Technology Co Ltd",
       "ticker": "000733",
       "asset_type": "Equity",
-      "weight": 0.00070133,
+      "weight": 0.00068006,
       "cusip": "Y1516T104",
       "company": "cusip:Y1516T104"
     },
@@ -1336,45 +1329,51 @@
       "name": "DHC Software Co Ltd",
       "ticker": "002065",
       "asset_type": "Equity",
-      "weight": 0.00068434,
+      "weight": 0.00067546,
       "cusip": "Y2080B107",
       "company": "cusip:Y2080B107"
     },
     {
-      "name": "JHT Design Co Ltd",
-      "ticker": "603061",
-      "asset_type": "Equity",
-      "weight": 0.00064486,
-      "company": "name:jht design"
-    },
-    {
-      "name": "JIANGSU PACIFIC A (HK-C)",
+      "name": "SHENZHEN HUAQIANG INDUSTRY(A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00063193,
-      "company": "name:jiangsu pacific a hk"
-    },
-    {
-      "name": "Forehope Electronic (Ningbo) Co Ltd Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00062722,
-      "cusip": "Y257A4109",
-      "company": "cusip:Y257A4109"
+      "weight": 0.00067204,
+      "company": "name:shenzhen huaqiang industry a sc sz"
     },
     {
       "name": "People.cn Co Ltd",
       "ticker": "603000",
       "asset_type": "Equity",
-      "weight": 0.00062042,
+      "weight": 0.00061112,
       "cusip": "Y6788E107",
       "company": "cusip:Y6788E107"
+    },
+    {
+      "name": "JHT Design Co Ltd",
+      "ticker": "603061",
+      "asset_type": "Equity",
+      "weight": 0.0006084,
+      "company": "name:jht design"
+    },
+    {
+      "name": "Linktel Technologies Co Ltd",
+      "ticker": "301205",
+      "asset_type": "Equity",
+      "weight": 0.00060532,
+      "company": "name:linktel technologies"
+    },
+    {
+      "name": "JIANGSU PACIFIC A (HK-C)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00060401,
+      "company": "name:jiangsu pacific a hk"
     },
     {
       "name": "Sai Micro Electronics Inc",
       "ticker": "300456",
       "asset_type": "Equity",
-      "weight": 0.00061738,
+      "weight": 0.00060251,
       "cusip": "Y62124105",
       "company": "cusip:Y62124105"
     },
@@ -1382,207 +1381,201 @@
       "name": "Newland Digital Technology (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00061301,
+      "weight": 0.00059133,
       "company": "name:newland digital technology a sc sz"
-    },
-    {
-      "name": "Linktel Technologies Co Ltd",
-      "ticker": "301205",
-      "asset_type": "Equity",
-      "weight": 0.00060824,
-      "company": "name:linktel technologies"
     },
     {
       "name": "Zhejiang Jiemei Electronic & Technology Co Ltd Regs Shs A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00060821,
+      "weight": 0.00058666,
       "company": "name:zhejiang jiemei electronic technology co ltd regs"
     },
     {
       "name": "BEIJING SINNET A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00060153,
+      "weight": 0.00058421,
       "company": "name:beijing sinnet a hk"
-    },
-    {
-      "name": "StarPower Semiconductor Ltd",
-      "ticker": "603290",
-      "asset_type": "Equity",
-      "weight": 0.00059078,
-      "cusip": "Y8156L101",
-      "company": "cusip:Y8156L101"
     },
     {
       "name": "QI AN XIN TECH A (HK-C)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00058212,
+      "weight": 0.00057794,
       "company": "name:qi an xin tech a hk"
+    },
+    {
+      "name": "Focuslight Technologies Inc Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00057469,
+      "cusip": "Y257A6104",
+      "company": "cusip:Y257A6104"
+    },
+    {
+      "name": "Forehope Electronic (Ningbo) Co Ltd Class A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00057303,
+      "cusip": "Y257A4109",
+      "company": "cusip:Y257A4109"
+    },
+    {
+      "name": "StarPower Semiconductor Ltd",
+      "ticker": "603290",
+      "asset_type": "Equity",
+      "weight": 0.00055435,
+      "cusip": "Y8156L101",
+      "company": "cusip:Y8156L101"
     },
     {
       "name": "Zhuzhou Hongda Electronics Corp Ltd",
       "ticker": "300726",
       "asset_type": "Equity",
-      "weight": 0.0005706,
+      "weight": 0.00054614,
       "cusip": "Y989F0100",
       "company": "cusip:Y989F0100"
+    },
+    {
+      "name": "Beijing Shiji Information Technology Co Ltd",
+      "ticker": "002153",
+      "asset_type": "Equity",
+      "weight": 0.00054266,
+      "cusip": "Y0772L102",
+      "company": "cusip:Y0772L102"
     },
     {
       "name": "CSG Digital Power Grid Research Institute Co Ltd",
       "ticker": "301638",
       "asset_type": "Equity",
-      "weight": 0.00055719,
+      "weight": 0.00052321,
       "company": "name:csg digital power grid research institute"
     },
     {
       "name": "Wuxi NCE Power Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00054893,
+      "weight": 0.00051715,
       "company": "name:wuxi nce power"
     },
     {
-      "name": "Shanghai Awinic Technology Co Ltd",
-      "ticker": "688798",
+      "name": "Tianma Microelectronics Co Ltd",
+      "ticker": "000050",
       "asset_type": "Equity",
-      "weight": 0.00054865,
-      "company": "name:shanghai awinic technology"
-    },
-    {
-      "name": "Focuslight Technologies Inc Class A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00054779,
-      "cusip": "Y257A6104",
-      "company": "cusip:Y257A6104"
-    },
-    {
-      "name": "Beijing Shiji Information Technology Co Ltd",
-      "ticker": "002153",
-      "asset_type": "Equity",
-      "weight": 0.00054546,
-      "cusip": "Y0772L102",
-      "company": "cusip:Y0772L102"
-    },
-    {
-      "name": "Maxio Technology Hangzhou Co Ltd",
-      "ticker": "688449",
-      "asset_type": "Equity",
-      "weight": 0.00051949,
-      "company": "name:maxio technology hangzhou"
+      "weight": 0.00050839,
+      "cusip": "Y77427105",
+      "company": "cusip:Y77427105"
     },
     {
       "name": "LEYARD OPTOELECTRONIC (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00051826,
+      "weight": 0.0005007,
       "company": "name:leyard optoelectronic a sc sz"
     },
     {
       "name": "Suzhou HYC Technology Co Ltd Ordinary Shares Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00051664,
+      "weight": 0.00049238,
       "company": "name:suzhou hyc technology"
     },
     {
       "name": "NavInfo Co Ltd",
       "ticker": "002405",
       "asset_type": "Equity",
-      "weight": 0.00050995,
+      "weight": 0.00049001,
       "cusip": "Y62121101",
       "company": "cusip:Y62121101"
+    },
+    {
+      "name": "Maxio Technology Hangzhou Co Ltd",
+      "ticker": "688449",
+      "asset_type": "Equity",
+      "weight": 0.00048582,
+      "company": "name:maxio technology hangzhou"
     },
     {
       "name": "Union Semiconductor (Hefei) Co Ltd Class A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00050833,
+      "weight": 0.00048112,
       "company": "name:union semiconductor hefei"
     },
     {
-      "name": "Tianma Microelectronics Co Ltd",
-      "ticker": "000050",
+      "name": "Shanghai Awinic Technology Co Ltd",
+      "ticker": "688798",
       "asset_type": "Equity",
-      "weight": 0.00049713,
-      "cusip": "Y77427105",
-      "company": "cusip:Y77427105"
-    },
-    {
-      "name": "Shanghai Bright Power Semiconductor Co Ltd shs A",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00045356,
-      "cusip": "Y768FY104",
-      "company": "cusip:Y768FY104"
+      "weight": 0.00044546,
+      "company": "name:shanghai awinic technology"
     },
     {
       "name": "Dongguan Dingtong Precision Metal Co Ltd shs A",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00044598,
+      "weight": 0.00043538,
       "cusip": "Y2104U107",
       "company": "cusip:Y2104U107"
-    },
-    {
-      "name": "Beijing United Information Technology Co Ltd",
-      "ticker": "603613",
-      "asset_type": "Equity",
-      "weight": 0.00043982,
-      "cusip": "Y077BP103",
-      "company": "cusip:Y077BP103"
     },
     {
       "name": "China TransInfo Technology (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00043603,
+      "weight": 0.00042994,
       "company": "name:china transinfo technology a sc sz"
+    },
+    {
+      "name": "Beijing United Information Technology Co Ltd",
+      "ticker": "603613",
+      "asset_type": "Equity",
+      "weight": 0.00042264,
+      "cusip": "Y077BP103",
+      "company": "cusip:Y077BP103"
+    },
+    {
+      "name": "Shanghai Bright Power Semiconductor Co Ltd shs A",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.00042107,
+      "cusip": "Y768FY104",
+      "company": "cusip:Y768FY104"
+    },
+    {
+      "name": "Sinosoft Co Ltd",
+      "ticker": "603927",
+      "asset_type": "Equity",
+      "weight": 0.00039008,
+      "cusip": "Y8T129119",
+      "company": "cusip:Y8T129119"
     },
     {
       "name": "Beijing Orient National Communication Science an (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.0004034,
+      "weight": 0.00038742,
       "company": "name:beijing orient national communication science an a sc sz"
     },
     {
       "name": "Wuxi Autowell Technology Co Ltd",
       "ticker": "688516",
       "asset_type": "Equity",
-      "weight": 0.00040118,
+      "weight": 0.00037934,
       "cusip": "Y971DP105",
       "company": "cusip:Y971DP105"
-    },
-    {
-      "name": "Sinosoft Co Ltd",
-      "ticker": "603927",
-      "asset_type": "Equity",
-      "weight": 0.00039553,
-      "cusip": "Y8T129119",
-      "company": "cusip:Y8T129119"
-    },
-    {
-      "name": "CASH & EQUIVALENTS",
-      "ticker": "CNH",
-      "asset_type": "Currency",
-      "weight": 0.00038873,
-      "company": null
     },
     {
       "name": "FAR EAST INDUSTRIAL STOCK (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00036952,
+      "weight": 0.00035752,
       "company": "name:far east industrial stock a sc sz"
     },
     {
       "name": "Neusoft Corp",
       "ticker": "600718",
       "asset_type": "Equity",
-      "weight": 0.00035522,
+      "weight": 0.00035031,
       "cusip": "Y6280M102",
       "company": "cusip:Y6280M102"
     },
@@ -1590,66 +1583,73 @@
       "name": "HANGZHOU SHUNWANG TECHNOLOGY (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.0003517,
+      "weight": 0.00034308,
       "company": "name:hangzhou shunwang technology a sc sz"
-    },
-    {
-      "name": "Vanchip Tianjin Technology Co Ltd",
-      "ticker": "688153",
-      "asset_type": "Equity",
-      "weight": 0.00031462,
-      "company": "name:vanchip tianjin technology"
-    },
-    {
-      "name": "SUZHOU ANJIE TECHNOLOGY (A) (SC SZ)",
-      "ticker": null,
-      "asset_type": "Equity",
-      "weight": 0.00031456,
-      "company": "name:suzhou anjie technology a sc sz"
     },
     {
       "name": "Shenzhen Kingdom Sci-Tech (A) (SC SH)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00031362,
+      "weight": 0.00030622,
       "company": "name:shenzhen kingdom sci tech a sc sh"
-    },
-    {
-      "name": "Longshine Technology Group Co Ltd",
-      "ticker": "300682",
-      "asset_type": "Equity",
-      "weight": 0.00031138,
-      "cusip": "Y5324Y106",
-      "company": "cusip:Y5324Y106"
     },
     {
       "name": "DIGITAL CHINA INFORMATION SERVICE (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00031071,
+      "weight": 0.00030213,
       "company": "name:digital china information service a sc sz"
     },
     {
-      "name": "Beijing Yuanliu Hongyuan Electronic Technology Co Ltd",
-      "ticker": "603267",
+      "name": "Longshine Technology Group Co Ltd",
+      "ticker": "300682",
       "asset_type": "Equity",
-      "weight": 0.00028967,
-      "cusip": "Y0R9T3107",
-      "company": "cusip:Y0R9T3107"
+      "weight": 0.00030033,
+      "cusip": "Y5324Y106",
+      "company": "cusip:Y5324Y106"
+    },
+    {
+      "name": "SUZHOU ANJIE TECHNOLOGY (A) (SC SZ)",
+      "ticker": null,
+      "asset_type": "Equity",
+      "weight": 0.0002994,
+      "company": "name:suzhou anjie technology a sc sz"
+    },
+    {
+      "name": "Vanchip Tianjin Technology Co Ltd",
+      "ticker": "688153",
+      "asset_type": "Equity",
+      "weight": 0.00029472,
+      "company": "name:vanchip tianjin technology"
     },
     {
       "name": "Hongyuan Green Energy Co Ltd",
       "ticker": "603185",
       "asset_type": "Equity",
-      "weight": 0.00028752,
+      "weight": 0.00027955,
       "company": "name:hongyuan green energy"
+    },
+    {
+      "name": "Beijing Yuanliu Hongyuan Electronic Technology Co Ltd",
+      "ticker": "603267",
+      "asset_type": "Equity",
+      "weight": 0.00027677,
+      "cusip": "Y0R9T3107",
+      "company": "cusip:Y0R9T3107"
     },
     {
       "name": "Taiji Computer (A) (SC SZ)",
       "ticker": null,
       "asset_type": "Equity",
-      "weight": 0.00024983,
+      "weight": 0.00024238,
       "company": "name:taiji computer a sc sz"
+    },
+    {
+      "name": "CASH & EQUIVALENTS",
+      "ticker": "CNH",
+      "asset_type": "Currency",
+      "weight": 3.62e-06,
+      "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
@@ -1669,14 +1669,14 @@
       "name": "CASH & EQUIVALENTS",
       "ticker": "CNY",
       "asset_type": "Currency",
-      "weight": -3.97e-06,
+      "weight": -3.96e-06,
       "company": null
     },
     {
       "name": "CASH & EQUIVALENTS",
       "ticker": "USD",
       "asset_type": "Currency",
-      "weight": -0.0280803,
+      "weight": -0.00015849,
       "company": null
     },
     {

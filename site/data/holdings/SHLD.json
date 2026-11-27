@@ -1,7 +1,7 @@
 {
   "ticker": "SHLD",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:50.699595+00:00",
+  "fetched_at": "2026-11-27T04:32:34.749890+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/shld_full-holdings_{date}.csv",
   "holdings": [
@@ -135,6 +135,126 @@
       "asset_type": "Cash",
       "weight": 0.0,
       "company": null
+    },
+    {
+      "name": "AMENTUM HOLDINGS INC",
+      "ticker": "AMTM",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "sedol": "BMZLFJ5",
+      "company": "cusip:023939101"
+    },
+    {
+      "name": "KOREA AEROSPACE INDUSTRIES",
+      "ticker": "047810 KS",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "sedol": "B3N3363",
+      "company": "name:korea aerospace industries@south korea"
+    },
+    {
+      "name": "MERCURY SYSTEMS INC",
+      "ticker": "MRCY",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "sedol": "2144047",
+      "company": "cusip:589378108"
+    },
+    {
+      "name": "LIG DEFENSE&AEROSPACE CO LTD",
+      "ticker": "079550 KS",
+      "asset_type": "Equity",
+      "weight": 0.0058,
+      "sedol": "BZ0RDZ1",
+      "company": "name:lig defense aerospace@south korea"
+    },
+    {
+      "name": "AEROVIRONMENT INC",
+      "ticker": "AVAV",
+      "asset_type": "Equity",
+      "weight": 0.0057,
+      "sedol": "B1P5YY8",
+      "company": "cusip:008073108"
+    },
+    {
+      "name": "ASELSAN ELEKTRONIK SANAYI",
+      "ticker": "ASELS TI",
+      "asset_type": "Equity",
+      "weight": 0.0057,
+      "sedol": "B03MP41",
+      "company": "name:aselsan elektronik sanayi"
+    },
+    {
+      "name": "OSI SYSTEMS INC",
+      "ticker": "OSIS",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "sedol": "2111579",
+      "company": "cusip:671044105"
+    },
+    {
+      "name": "PLANET LABS PBC",
+      "ticker": "PL",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "sedol": "BM8JV32",
+      "company": "cusip:72703X106"
+    },
+    {
+      "name": "KARMAN HOLDINGS INC",
+      "ticker": "KRMN",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "BTRFVH4",
+      "company": "cusip:485924104"
+    },
+    {
+      "name": "HANWHA SYSTEMS CO LTD",
+      "ticker": "272210 KS",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "BJN3H96",
+      "company": "name:hanwha systems@south korea"
+    },
+    {
+      "name": "QINETIQ GROUP PLC",
+      "ticker": "QQ/ LN",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "B0WMWD0",
+      "company": "cusip:G7303P106"
+    },
+    {
+      "name": "TKMS AG& CO KGAA",
+      "ticker": "TKMS GR",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "BS801X7",
+      "company": "cusip:D8T5DP107"
+    },
+    {
+      "name": "CHEMRING GROUP PLC",
+      "ticker": "CHG LN",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "sedol": "B45C9X4",
+      "company": "cusip:163867104"
+    },
+    {
+      "name": "CSG NV",
+      "ticker": "CSG NA",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "BTQKW99",
+      "company": "name:csg"
+    },
+    {
+      "name": "EXAIL TECHNOLOGIES",
+      "ticker": "EXA FP",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "sedol": "B06BGH5",
+      "company": "cusip:F4606F100"
     },
     {
       "name": "PALANTIR TECHNOLOGIES INC-A",
@@ -319,126 +439,6 @@
       "weight": 0.0085,
       "sedol": "BN0SDX8",
       "company": "cusip:42701C107"
-    },
-    {
-      "name": "AMENTUM HOLDINGS INC",
-      "ticker": "AMTM",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "sedol": "BMZLFJ5",
-      "company": "cusip:023939101"
-    },
-    {
-      "name": "KOREA AEROSPACE INDUSTRIES",
-      "ticker": "047810 KS",
-      "asset_type": "Equity",
-      "weight": 0.0079,
-      "sedol": "B3N3363",
-      "company": "name:korea aerospace industries@south korea"
-    },
-    {
-      "name": "MERCURY SYSTEMS INC",
-      "ticker": "MRCY",
-      "asset_type": "Equity",
-      "weight": 0.0071,
-      "sedol": "2144047",
-      "company": "cusip:589378108"
-    },
-    {
-      "name": "LIG DEFENSE&AEROSPACE CO LTD",
-      "ticker": "079550 KS",
-      "asset_type": "Equity",
-      "weight": 0.0058,
-      "sedol": "BZ0RDZ1",
-      "company": "name:lig defense aerospace@south korea"
-    },
-    {
-      "name": "AEROVIRONMENT INC",
-      "ticker": "AVAV",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "sedol": "B1P5YY8",
-      "company": "cusip:008073108"
-    },
-    {
-      "name": "ASELSAN ELEKTRONIK SANAYI",
-      "ticker": "ASELS TI",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "sedol": "B03MP41",
-      "company": "name:aselsan elektronik sanayi"
-    },
-    {
-      "name": "OSI SYSTEMS INC",
-      "ticker": "OSIS",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "sedol": "2111579",
-      "company": "cusip:671044105"
-    },
-    {
-      "name": "PLANET LABS PBC",
-      "ticker": "PL",
-      "asset_type": "Equity",
-      "weight": 0.0048,
-      "sedol": "BM8JV32",
-      "company": "cusip:72703X106"
-    },
-    {
-      "name": "KARMAN HOLDINGS INC",
-      "ticker": "KRMN",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "sedol": "BTRFVH4",
-      "company": "cusip:485924104"
-    },
-    {
-      "name": "HANWHA SYSTEMS CO LTD",
-      "ticker": "272210 KS",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "BJN3H96",
-      "company": "name:hanwha systems@south korea"
-    },
-    {
-      "name": "QINETIQ GROUP PLC",
-      "ticker": "QQ/ LN",
-      "asset_type": "Equity",
-      "weight": 0.0036,
-      "sedol": "B0WMWD0",
-      "company": "cusip:G7303P106"
-    },
-    {
-      "name": "TKMS AG& CO KGAA",
-      "ticker": "TKMS GR",
-      "asset_type": "Equity",
-      "weight": 0.0033,
-      "sedol": "BS801X7",
-      "company": "cusip:D8T5DP107"
-    },
-    {
-      "name": "CHEMRING GROUP PLC",
-      "ticker": "CHG LN",
-      "asset_type": "Equity",
-      "weight": 0.003,
-      "sedol": "B45C9X4",
-      "company": "cusip:163867104"
-    },
-    {
-      "name": "CSG NV",
-      "ticker": "CSG NA",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "BTQKW99",
-      "company": "name:csg"
-    },
-    {
-      "name": "EXAIL TECHNOLOGIES",
-      "ticker": "EXA FP",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "sedol": "B06BGH5",
-      "company": "cusip:F4606F100"
     }
   ]
 }

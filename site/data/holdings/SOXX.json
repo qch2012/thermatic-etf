@@ -1,7 +1,7 @@
 {
   "ticker": "SOXX",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-26T04:22:52.565637+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-27T04:32:36.800896+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "ADVANCED MICRO DEVICES",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0924,
+      "weight": 0.0912,
       "location": "United States",
       "company": "cusip:007903107"
     },
@@ -17,7 +17,7 @@
       "name": "BROADCOM INC",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0856,
+      "weight": 0.0859,
       "location": "United States",
       "company": "cusip:11135F101"
     },
@@ -25,7 +25,7 @@
       "name": "NVIDIA",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.0741,
+      "weight": 0.0715,
       "location": "United States",
       "company": "cusip:67066G104"
     },
@@ -33,7 +33,7 @@
       "name": "MICRON TECHNOLOGY",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0691,
+      "weight": 0.0663,
       "location": "United States",
       "company": "cusip:595112103"
     },
@@ -41,7 +41,7 @@
       "name": "INTEL CORPORATION",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0644,
+      "weight": 0.0643,
       "location": "United States",
       "company": "cusip:458140100"
     },
@@ -49,7 +49,7 @@
       "name": "TEXAS INSTRUMENT",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0521,
+      "weight": 0.0548,
       "location": "United States",
       "company": "name:texas instrument@united states"
     },
@@ -57,7 +57,7 @@
       "name": "QUALCOMM",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.0509,
+      "weight": 0.0523,
       "location": "United States",
       "company": "cusip:747525103"
     },
@@ -65,7 +65,7 @@
       "name": "ANALOG DEVICES",
       "ticker": "ADI",
       "asset_type": "Equity",
-      "weight": 0.0455,
+      "weight": 0.0486,
       "location": "United States",
       "company": "cusip:032654105"
     },
@@ -73,7 +73,7 @@
       "name": "NXP SEMICONDUCTORS NV",
       "ticker": "NXPI",
       "asset_type": "Equity",
-      "weight": 0.045,
+      "weight": 0.0457,
       "location": "United States",
       "company": "cusip:N6596X109"
     },
@@ -81,7 +81,7 @@
       "name": "MONOLITHIC POWER SYSTEMS INC",
       "ticker": "MPWR",
       "asset_type": "Equity",
-      "weight": 0.0411,
+      "weight": 0.0414,
       "location": "United States",
       "company": "cusip:609839105"
     },
@@ -89,7 +89,7 @@
       "name": "KLA",
       "ticker": "KLAC",
       "asset_type": "Equity",
-      "weight": 0.0401,
+      "weight": 0.0405,
       "location": "United States",
       "company": "cusip:482480100"
     },
@@ -97,23 +97,15 @@
       "name": "APPLIED MATERIAL INC",
       "ticker": "AMAT",
       "asset_type": "Equity",
-      "weight": 0.0372,
+      "weight": 0.0359,
       "location": "United States",
       "company": "name:applied material@united states"
-    },
-    {
-      "name": "LAM RESEARCH",
-      "ticker": "LRCX",
-      "asset_type": "Equity",
-      "weight": 0.0342,
-      "location": "United States",
-      "company": "cusip:512807306"
     },
     {
       "name": "TAIWAN SEMICONDUCTOR MANUFACTURING",
       "ticker": "TSM",
       "asset_type": "Equity",
-      "weight": 0.0339,
+      "weight": 0.0334,
       "location": "Taiwan",
       "company": "cusip:874039100"
     },
@@ -126,10 +118,18 @@
       "company": "cusip:573874104"
     },
     {
+      "name": "LAM RESEARCH",
+      "ticker": "LRCX",
+      "asset_type": "Equity",
+      "weight": 0.0324,
+      "location": "United States",
+      "company": "cusip:512807306"
+    },
+    {
       "name": "SK HYNIX AMERICAN DEPOSITARY SHARE",
       "ticker": "SKHY",
       "asset_type": "Equity",
-      "weight": 0.0274,
+      "weight": 0.0273,
       "location": "Korea (South)",
       "company": "name:sk hynix american depositary@south korea"
     },
@@ -145,7 +145,7 @@
       "name": "MICROCHIP TECHNOLOGY INC",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.0219,
+      "weight": 0.0225,
       "location": "United States",
       "company": "cusip:595017104"
     },
@@ -161,7 +161,7 @@
       "name": "ON SEMICONDUCTOR CORP",
       "ticker": "ON",
       "asset_type": "Equity",
-      "weight": 0.0174,
+      "weight": 0.0178,
       "location": "United States",
       "company": "cusip:682189105"
     },
@@ -169,7 +169,7 @@
       "name": "ASML HOLDING ADR REPRESENTING",
       "ticker": "ASML",
       "asset_type": "Equity",
-      "weight": 0.0159,
+      "weight": 0.0155,
       "location": "Netherlands",
       "company": "name:asml holding adr representing@netherlands"
     },
@@ -177,7 +177,7 @@
       "name": "ENTEGRIS INC",
       "ticker": "ENTG",
       "asset_type": "Equity",
-      "weight": 0.0141,
+      "weight": 0.0143,
       "location": "United States",
       "company": "cusip:29362U104"
     },
@@ -185,7 +185,7 @@
       "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
       "ticker": "CRDO",
       "asset_type": "Equity",
-      "weight": 0.0131,
+      "weight": 0.0132,
       "location": "United States",
       "company": "cusip:G25457105"
     },
@@ -201,7 +201,7 @@
       "name": "TOWER SEMICONDUCTOR",
       "ticker": "TSEM",
       "asset_type": "Equity",
-      "weight": 0.0094,
+      "weight": 0.0093,
       "location": "Israel",
       "company": "cusip:M87915274"
     },
@@ -209,7 +209,7 @@
       "name": "ASE TECHNOLOGY HOLDING ADR REPRESE",
       "ticker": "ASX",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0088,
       "location": "Taiwan",
       "company": "name:ase technology holding adr represe@taiwan"
     },
@@ -217,7 +217,7 @@
       "name": "CEREBRAS SYSTEMS INC CLASS A",
       "ticker": "CBRS",
       "asset_type": "Equity",
-      "weight": 0.0063,
+      "weight": 0.0064,
       "location": "United States",
       "company": "cusip:15675D103"
     },
@@ -225,7 +225,7 @@
       "name": "UNITED MICRO ELECTRONICS ADR REP",
       "ticker": "UMC",
       "asset_type": "Equity",
-      "weight": 0.0055,
+      "weight": 0.0054,
       "location": "Taiwan",
       "company": "name:united micro electronics adr rep@taiwan"
     },
@@ -269,10 +269,18 @@
       "company": null
     },
     {
+      "name": "ETD USD BALANCE WITH R97871",
+      "ticker": "ETD_USD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "United States",
+      "company": null
+    },
+    {
       "name": "USD CASH",
       "ticker": "USD",
       "asset_type": "Cash",
-      "weight": -0.0011,
+      "weight": -0.001,
       "location": "United States",
       "company": null
     }

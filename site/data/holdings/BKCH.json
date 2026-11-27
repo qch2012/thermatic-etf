@@ -1,7 +1,7 @@
 {
   "ticker": "BKCH",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:18.764724+00:00",
+  "fetched_at": "2026-11-27T04:31:56.774045+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/bkch_full-holdings_{date}.csv",
   "holdings": [
@@ -40,6 +40,102 @@
       "asset_type": "Cash",
       "weight": -0.0003,
       "company": null
+    },
+    {
+      "name": "CANGO INC/KY-CLASS A",
+      "ticker": "CANG",
+      "asset_type": "Equity",
+      "weight": 0.0049,
+      "sedol": "BXWTPD3",
+      "company": "name:cango inc ky"
+    },
+    {
+      "name": "INDOKRIPTO KOIN SEMESTA TBK",
+      "ticker": "COIN IJ",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "sedol": "BV6GGR7",
+      "company": "name:indokripto koin semesta tbk"
+    },
+    {
+      "name": "PHOENIX GROUP PLC",
+      "ticker": "PHX UH",
+      "asset_type": "Equity",
+      "weight": 0.0046,
+      "sedol": "BQ759B3",
+      "company": "name:phoenix group"
+    },
+    {
+      "name": "CANAAN INC",
+      "ticker": "CAN",
+      "asset_type": "Equity",
+      "weight": 0.0035,
+      "sedol": "BL4PZ46",
+      "company": "name:canaan"
+    },
+    {
+      "name": "AMERICAN BITCOIN CORP-A",
+      "ticker": "ABTC",
+      "asset_type": "Equity",
+      "weight": 0.0035,
+      "sedol": "BTCL713",
+      "company": "name:american bitcoin"
+    },
+    {
+      "name": "OSL GROUP LTD",
+      "ticker": "863 HK",
+      "asset_type": "Equity",
+      "weight": 0.0033,
+      "sedol": "BKPSJS9",
+      "company": "name:osl group"
+    },
+    {
+      "name": "BITCOIN GROUP SE",
+      "ticker": "ADE GR",
+      "asset_type": "Equity",
+      "weight": 0.0031,
+      "sedol": "BBCR986",
+      "company": "name:bitcoin group"
+    },
+    {
+      "name": "EXODUS MOVEMENT INC - A",
+      "ticker": "EXOD",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "BNZJKK2",
+      "company": "name:exodus movement"
+    },
+    {
+      "name": "GEMINI SPACE STATION INC-A",
+      "ticker": "GEMI",
+      "asset_type": "Equity",
+      "weight": 0.0026,
+      "sedol": "BT6CC06",
+      "company": "name:gemini space station"
+    },
+    {
+      "name": "BAKKT INC",
+      "ticker": "BKKT",
+      "asset_type": "Equity",
+      "weight": 0.0025,
+      "sedol": "BMDLW29",
+      "company": "cusip:05759B305"
+    },
+    {
+      "name": "BTCS INC",
+      "ticker": "BTCS",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "sedol": "BKSH7V2",
+      "company": "name:btcs"
+    },
+    {
+      "name": "SOLUNA HOLDINGS INC",
+      "ticker": "SLNH",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "BRBR235",
+      "company": "name:soluna holdings"
     },
     {
       "name": "COINBASE GLOBAL INC -CLASS A",
@@ -192,102 +288,6 @@
       "weight": 0.0092,
       "sedol": "BTY39L1",
       "company": "cusip:091947101"
-    },
-    {
-      "name": "CANGO INC/KY-CLASS A",
-      "ticker": "CANG",
-      "asset_type": "Equity",
-      "weight": 0.0049,
-      "sedol": "BXWTPD3",
-      "company": "name:cango inc ky"
-    },
-    {
-      "name": "INDOKRIPTO KOIN SEMESTA TBK",
-      "ticker": "COIN IJ",
-      "asset_type": "Equity",
-      "weight": 0.0048,
-      "sedol": "BV6GGR7",
-      "company": "name:indokripto koin semesta tbk"
-    },
-    {
-      "name": "PHOENIX GROUP PLC",
-      "ticker": "PHX UH",
-      "asset_type": "Equity",
-      "weight": 0.0046,
-      "sedol": "BQ759B3",
-      "company": "name:phoenix group"
-    },
-    {
-      "name": "CANAAN INC",
-      "ticker": "CAN",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "sedol": "BL4PZ46",
-      "company": "name:canaan"
-    },
-    {
-      "name": "AMERICAN BITCOIN CORP-A",
-      "ticker": "ABTC",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "sedol": "BTCL713",
-      "company": "name:american bitcoin"
-    },
-    {
-      "name": "OSL GROUP LTD",
-      "ticker": "863 HK",
-      "asset_type": "Equity",
-      "weight": 0.0033,
-      "sedol": "BKPSJS9",
-      "company": "name:osl group"
-    },
-    {
-      "name": "BITCOIN GROUP SE",
-      "ticker": "ADE GR",
-      "asset_type": "Equity",
-      "weight": 0.0031,
-      "sedol": "BBCR986",
-      "company": "name:bitcoin group"
-    },
-    {
-      "name": "EXODUS MOVEMENT INC - A",
-      "ticker": "EXOD",
-      "asset_type": "Equity",
-      "weight": 0.0028,
-      "sedol": "BNZJKK2",
-      "company": "name:exodus movement"
-    },
-    {
-      "name": "GEMINI SPACE STATION INC-A",
-      "ticker": "GEMI",
-      "asset_type": "Equity",
-      "weight": 0.0026,
-      "sedol": "BT6CC06",
-      "company": "name:gemini space station"
-    },
-    {
-      "name": "BAKKT INC",
-      "ticker": "BKKT",
-      "asset_type": "Equity",
-      "weight": 0.0025,
-      "sedol": "BMDLW29",
-      "company": "cusip:05759B305"
-    },
-    {
-      "name": "BTCS INC",
-      "ticker": "BTCS",
-      "asset_type": "Equity",
-      "weight": 0.0022,
-      "sedol": "BKSH7V2",
-      "company": "name:btcs"
-    },
-    {
-      "name": "SOLUNA HOLDINGS INC",
-      "ticker": "SLNH",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "sedol": "BRBR235",
-      "company": "name:soluna holdings"
     }
   ]
 }

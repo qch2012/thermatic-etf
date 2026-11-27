@@ -1,7 +1,7 @@
 {
   "ticker": "ZAP",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:59.103254+00:00",
+  "fetched_at": "2026-11-27T04:32:44.573097+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/zap_full-holdings_{date}.csv",
   "holdings": [
@@ -46,35 +46,83 @@
       "company": "cusip:29415C101"
     },
     {
-      "name": "CHARGEPOINT HOLDINGS INC",
-      "ticker": "CHPT",
+      "name": "TXNM ENERGY INC",
+      "ticker": "TXNM",
       "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BVN2B39",
-      "company": "name:chargepoint holdings"
+      "weight": 0.0073,
+      "sedol": "2707826",
+      "company": "cusip:69349H107"
     },
     {
-      "name": "EVGO INC",
-      "ticker": "EVGO",
+      "name": "PORTLAND GENERAL ELECTRIC CO",
+      "ticker": "POR",
       "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BP2Q7L0",
-      "company": "cusip:30052F100"
+      "weight": 0.0064,
+      "sedol": "B125XQ6",
+      "company": "cusip:736508847"
     },
     {
-      "name": "EROCK INC-A",
-      "ticker": "EROC",
+      "name": "ORMAT TECHNOLOGIES INC",
+      "ticker": "ORA",
       "asset_type": "Equity",
-      "weight": 0.0002,
-      "sedol": "BM927N2",
-      "company": "name:erock"
+      "weight": 0.0058,
+      "sedol": "B03L311",
+      "company": "cusip:686688102"
     },
     {
-      "name": "CASH",
+      "name": "ENERSYS",
+      "ticker": "ENS",
+      "asset_type": "Equity",
+      "weight": 0.0055,
+      "sedol": "B020GQ5",
+      "company": "cusip:29275Y102"
+    },
+    {
+      "name": "FORGENT POWER SOLUTIONS-CL A",
+      "ticker": "FPS",
+      "asset_type": "Equity",
+      "weight": 0.0051,
+      "sedol": "BV9C843",
+      "company": "cusip:34631F102"
+    },
+    {
+      "name": "CLEARWAY ENERGY INC-C",
+      "ticker": "CWEN",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "sedol": "BGJRH57",
+      "company": "cusip:18539C204"
+    },
+    {
+      "name": "AVISTA CORP",
+      "ticker": "AVA",
+      "asset_type": "Equity",
+      "weight": 0.0037,
+      "sedol": "2942605",
+      "company": "cusip:05379B107"
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0001,
+      "weight": 0.0029,
       "company": null
+    },
+    {
+      "name": "PLUG POWER INC",
+      "ticker": "PLUG",
+      "asset_type": "Equity",
+      "weight": 0.002,
+      "sedol": "2508386",
+      "company": "cusip:72919P202"
+    },
+    {
+      "name": "NUSCALE POWER CORP",
+      "ticker": "SMR",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "sedol": "BNXK803",
+      "company": "cusip:67079K100"
     },
     {
       "name": "DUKE ENERGY CORP",
@@ -317,83 +365,35 @@
       "company": "cusip:451107106"
     },
     {
-      "name": "TXNM ENERGY INC",
-      "ticker": "TXNM",
+      "name": "CHARGEPOINT HOLDINGS INC",
+      "ticker": "CHPT",
       "asset_type": "Equity",
-      "weight": 0.0073,
-      "sedol": "2707826",
-      "company": "cusip:69349H107"
+      "weight": 0.0003,
+      "sedol": "BVN2B39",
+      "company": "name:chargepoint holdings"
     },
     {
-      "name": "PORTLAND GENERAL ELECTRIC CO",
-      "ticker": "POR",
+      "name": "EVGO INC",
+      "ticker": "EVGO",
       "asset_type": "Equity",
-      "weight": 0.0064,
-      "sedol": "B125XQ6",
-      "company": "cusip:736508847"
+      "weight": 0.0003,
+      "sedol": "BP2Q7L0",
+      "company": "cusip:30052F100"
     },
     {
-      "name": "ORMAT TECHNOLOGIES INC",
-      "ticker": "ORA",
+      "name": "EROCK INC-A",
+      "ticker": "EROC",
       "asset_type": "Equity",
-      "weight": 0.0058,
-      "sedol": "B03L311",
-      "company": "cusip:686688102"
+      "weight": 0.0002,
+      "sedol": "BM927N2",
+      "company": "name:erock"
     },
     {
-      "name": "ENERSYS",
-      "ticker": "ENS",
-      "asset_type": "Equity",
-      "weight": 0.0055,
-      "sedol": "B020GQ5",
-      "company": "cusip:29275Y102"
-    },
-    {
-      "name": "FORGENT POWER SOLUTIONS-CL A",
-      "ticker": "FPS",
-      "asset_type": "Equity",
-      "weight": 0.0051,
-      "sedol": "BV9C843",
-      "company": "cusip:34631F102"
-    },
-    {
-      "name": "CLEARWAY ENERGY INC-C",
-      "ticker": "CWEN",
-      "asset_type": "Equity",
-      "weight": 0.0041,
-      "sedol": "BGJRH57",
-      "company": "cusip:18539C204"
-    },
-    {
-      "name": "AVISTA CORP",
-      "ticker": "AVA",
-      "asset_type": "Equity",
-      "weight": 0.0037,
-      "sedol": "2942605",
-      "company": "cusip:05379B107"
-    },
-    {
-      "name": "OTHER PAYABLE & RECEIVABLES",
+      "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0029,
+      "weight": 0.0001,
       "company": null
-    },
-    {
-      "name": "PLUG POWER INC",
-      "ticker": "PLUG",
-      "asset_type": "Equity",
-      "weight": 0.002,
-      "sedol": "2508386",
-      "company": "cusip:72919P202"
-    },
-    {
-      "name": "NUSCALE POWER CORP",
-      "ticker": "SMR",
-      "asset_type": "Equity",
-      "weight": 0.0018,
-      "sedol": "BNXK803",
-      "company": "cusip:67079K100"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "FINX",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:31.337545+00:00",
+  "fetched_at": "2026-11-27T04:32:14.317113+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/finx_full-holdings_{date}.csv",
   "holdings": [
@@ -202,6 +202,222 @@
       "asset_type": "Cash",
       "weight": -0.0001,
       "company": null
+    },
+    {
+      "name": "HUB24 LTD",
+      "ticker": "HUB AU",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "sedol": "BD4T5X1",
+      "company": "name:hub24"
+    },
+    {
+      "name": "SHIFT4 PAYMENTS INC-CLASS A",
+      "ticker": "FOUR",
+      "asset_type": "Equity",
+      "weight": 0.0072,
+      "sedol": "BLF0L75",
+      "company": "cusip:82452J109"
+    },
+    {
+      "name": "KAKAOPAY CORP",
+      "ticker": "377300 KS",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "sedol": "BP8ZCS3",
+      "company": "name:kakaopay"
+    },
+    {
+      "name": "CORE SCIENTIFIC INC",
+      "ticker": "CORZ",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "sedol": "BN70TG2",
+      "company": "cusip:21874A106"
+    },
+    {
+      "name": "BULLISH",
+      "ticker": "BLSH",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "sedol": "BV6KVT6",
+      "company": "cusip:G16910120"
+    },
+    {
+      "name": "LEMONADE INC",
+      "ticker": "LMND",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "sedol": "BMGNTQ5",
+      "company": "cusip:52567D107"
+    },
+    {
+      "name": "FLYWIRE CORP-VOTING",
+      "ticker": "FLYW",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "sedol": "BMBP1Q0",
+      "company": "cusip:302492103"
+    },
+    {
+      "name": "NCINO INC",
+      "ticker": "NCNO",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "sedol": "BMC8TD1",
+      "company": "name:ncino"
+    },
+    {
+      "name": "PAYONEER GLOBAL INC",
+      "ticker": "PAYO",
+      "asset_type": "Equity",
+      "weight": 0.005,
+      "sedol": "BLSPX60",
+      "company": "cusip:70451X104"
+    },
+    {
+      "name": "CIPHER DIGITAL INC",
+      "ticker": "CIFR",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "BMZ8604",
+      "company": "cusip:17253J106"
+    },
+    {
+      "name": "GALAXY DIGITAL INC-A",
+      "ticker": "GLXY",
+      "asset_type": "Equity",
+      "weight": 0.0045,
+      "sedol": "BV97X10",
+      "company": "cusip:36317J209"
+    },
+    {
+      "name": "PAYMENTUS HOLDINGS INC-A",
+      "ticker": "PAY",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "sedol": "BMBP1P9",
+      "company": "cusip:70439P108"
+    },
+    {
+      "name": "DLOCAL LTD",
+      "ticker": "DLO",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "sedol": "BKVF490",
+      "company": "cusip:G29018101"
+    },
+    {
+      "name": "MARA HOLDINGS INC",
+      "ticker": "MARA",
+      "asset_type": "Equity",
+      "weight": 0.0042,
+      "sedol": "BLR7B52",
+      "company": "cusip:565788106"
+    },
+    {
+      "name": "STONECO LTD-A",
+      "ticker": "STNE",
+      "asset_type": "Equity",
+      "weight": 0.004,
+      "sedol": "BGKG6M3",
+      "company": "name:stoneco"
+    },
+    {
+      "name": "HAPPEN INC",
+      "ticker": "HAPN",
+      "asset_type": "Equity",
+      "weight": 0.0035,
+      "sedol": "BK95GR4",
+      "company": "cusip:52603A208"
+    },
+    {
+      "name": "WEBULL CORP",
+      "ticker": "BULL",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BQH7NB7",
+      "company": "cusip:G9572D103"
+    },
+    {
+      "name": "UPSTART HOLDINGS INC",
+      "ticker": "UPST",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BL53QN5",
+      "company": "cusip:91680M107"
+    },
+    {
+      "name": "NAYAX LTD",
+      "ticker": "NYAX IT",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "sedol": "BMXT7N9",
+      "company": "name:nayax"
+    },
+    {
+      "name": "VERTEX INC - CLASS A",
+      "ticker": "VERX",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "sedol": "BMX6DM1",
+      "company": "name:vertex"
+    },
+    {
+      "name": "K BANK CO LTD",
+      "ticker": "279570 KS",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "sedol": "BS2C731",
+      "company": "name:k bank"
+    },
+    {
+      "name": "ZIP CO LTD",
+      "ticker": "ZIPDC AU",
+      "asset_type": "Equity",
+      "weight": 0.0029,
+      "sedol": "C0GX465",
+      "company": "name:zip"
+    },
+    {
+      "name": "HYPERLIQUID STRATEGIES",
+      "ticker": "PURR",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "sedol": "BVLJ392",
+      "company": "name:hyperliquid strategies"
+    },
+    {
+      "name": "PAGSEGURO DIGITAL LTD-CL A",
+      "ticker": "PAGS",
+      "asset_type": "Equity",
+      "weight": 0.0027,
+      "sedol": "BFWK4R7",
+      "company": "cusip:G68707101"
+    },
+    {
+      "name": "PAGAYA TECHNOLOGIES LTD -A",
+      "ticker": "PGY",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "sedol": "BQ5J6B6",
+      "company": "name:pagaya technologies"
+    },
+    {
+      "name": "ETORO GROUP LTD-A",
+      "ticker": "ETOR",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "BS491D8",
+      "company": "cusip:G32089107"
+    },
+    {
+      "name": "OSL GROUP LTD",
+      "ticker": "863 HK",
+      "asset_type": "Equity",
+      "weight": 0.0019,
+      "sedol": "BKPSJS9",
+      "company": "name:osl group"
     },
     {
       "name": "PAYPAL HOLDINGS INC",
@@ -434,222 +650,6 @@
       "weight": 0.0099,
       "sedol": "BWTVWD4",
       "company": "name:virtu financial"
-    },
-    {
-      "name": "HUB24 LTD",
-      "ticker": "HUB AU",
-      "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "BD4T5X1",
-      "company": "name:hub24"
-    },
-    {
-      "name": "SHIFT4 PAYMENTS INC-CLASS A",
-      "ticker": "FOUR",
-      "asset_type": "Equity",
-      "weight": 0.0072,
-      "sedol": "BLF0L75",
-      "company": "cusip:82452J109"
-    },
-    {
-      "name": "KAKAOPAY CORP",
-      "ticker": "377300 KS",
-      "asset_type": "Equity",
-      "weight": 0.0071,
-      "sedol": "BP8ZCS3",
-      "company": "name:kakaopay"
-    },
-    {
-      "name": "CORE SCIENTIFIC INC",
-      "ticker": "CORZ",
-      "asset_type": "Equity",
-      "weight": 0.0069,
-      "sedol": "BN70TG2",
-      "company": "cusip:21874A106"
-    },
-    {
-      "name": "BULLISH",
-      "ticker": "BLSH",
-      "asset_type": "Equity",
-      "weight": 0.006,
-      "sedol": "BV6KVT6",
-      "company": "cusip:G16910120"
-    },
-    {
-      "name": "LEMONADE INC",
-      "ticker": "LMND",
-      "asset_type": "Equity",
-      "weight": 0.0059,
-      "sedol": "BMGNTQ5",
-      "company": "cusip:52567D107"
-    },
-    {
-      "name": "FLYWIRE CORP-VOTING",
-      "ticker": "FLYW",
-      "asset_type": "Equity",
-      "weight": 0.0056,
-      "sedol": "BMBP1Q0",
-      "company": "cusip:302492103"
-    },
-    {
-      "name": "NCINO INC",
-      "ticker": "NCNO",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "sedol": "BMC8TD1",
-      "company": "name:ncino"
-    },
-    {
-      "name": "PAYONEER GLOBAL INC",
-      "ticker": "PAYO",
-      "asset_type": "Equity",
-      "weight": 0.005,
-      "sedol": "BLSPX60",
-      "company": "cusip:70451X104"
-    },
-    {
-      "name": "CIPHER DIGITAL INC",
-      "ticker": "CIFR",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "sedol": "BMZ8604",
-      "company": "cusip:17253J106"
-    },
-    {
-      "name": "GALAXY DIGITAL INC-A",
-      "ticker": "GLXY",
-      "asset_type": "Equity",
-      "weight": 0.0045,
-      "sedol": "BV97X10",
-      "company": "cusip:36317J209"
-    },
-    {
-      "name": "PAYMENTUS HOLDINGS INC-A",
-      "ticker": "PAY",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "sedol": "BMBP1P9",
-      "company": "cusip:70439P108"
-    },
-    {
-      "name": "DLOCAL LTD",
-      "ticker": "DLO",
-      "asset_type": "Equity",
-      "weight": 0.0042,
-      "sedol": "BKVF490",
-      "company": "cusip:G29018101"
-    },
-    {
-      "name": "MARA HOLDINGS INC",
-      "ticker": "MARA",
-      "asset_type": "Equity",
-      "weight": 0.0042,
-      "sedol": "BLR7B52",
-      "company": "cusip:565788106"
-    },
-    {
-      "name": "STONECO LTD-A",
-      "ticker": "STNE",
-      "asset_type": "Equity",
-      "weight": 0.004,
-      "sedol": "BGKG6M3",
-      "company": "name:stoneco"
-    },
-    {
-      "name": "HAPPEN INC",
-      "ticker": "HAPN",
-      "asset_type": "Equity",
-      "weight": 0.0035,
-      "sedol": "BK95GR4",
-      "company": "cusip:52603A208"
-    },
-    {
-      "name": "WEBULL CORP",
-      "ticker": "BULL",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BQH7NB7",
-      "company": "cusip:G9572D103"
-    },
-    {
-      "name": "UPSTART HOLDINGS INC",
-      "ticker": "UPST",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BL53QN5",
-      "company": "cusip:91680M107"
-    },
-    {
-      "name": "NAYAX LTD",
-      "ticker": "NYAX IT",
-      "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BMXT7N9",
-      "company": "name:nayax"
-    },
-    {
-      "name": "VERTEX INC - CLASS A",
-      "ticker": "VERX",
-      "asset_type": "Equity",
-      "weight": 0.003,
-      "sedol": "BMX6DM1",
-      "company": "name:vertex"
-    },
-    {
-      "name": "K BANK CO LTD",
-      "ticker": "279570 KS",
-      "asset_type": "Equity",
-      "weight": 0.0029,
-      "sedol": "BS2C731",
-      "company": "name:k bank"
-    },
-    {
-      "name": "ZIP CO LTD",
-      "ticker": "ZIPDC AU",
-      "asset_type": "Equity",
-      "weight": 0.0029,
-      "sedol": "C0GX465",
-      "company": "name:zip"
-    },
-    {
-      "name": "HYPERLIQUID STRATEGIES",
-      "ticker": "PURR",
-      "asset_type": "Equity",
-      "weight": 0.0028,
-      "sedol": "BVLJ392",
-      "company": "name:hyperliquid strategies"
-    },
-    {
-      "name": "PAGSEGURO DIGITAL LTD-CL A",
-      "ticker": "PAGS",
-      "asset_type": "Equity",
-      "weight": 0.0027,
-      "sedol": "BFWK4R7",
-      "company": "cusip:G68707101"
-    },
-    {
-      "name": "PAGAYA TECHNOLOGIES LTD -A",
-      "ticker": "PGY",
-      "asset_type": "Equity",
-      "weight": 0.0021,
-      "sedol": "BQ5J6B6",
-      "company": "name:pagaya technologies"
-    },
-    {
-      "name": "ETORO GROUP LTD-A",
-      "ticker": "ETOR",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "sedol": "BS491D8",
-      "company": "cusip:G32089107"
-    },
-    {
-      "name": "OSL GROUP LTD",
-      "ticker": "863 HK",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "sedol": "BKPSJS9",
-      "company": "name:osl group"
     }
   ]
 }

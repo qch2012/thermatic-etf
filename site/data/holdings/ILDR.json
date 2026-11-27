@@ -1,7 +1,7 @@
 {
   "ticker": "ILDR",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-26T04:22:38.100752+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-27T04:32:21.529869+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=ILDR",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "NVIDIA Corporation",
       "ticker": "NVDA",
       "asset_type": "Equity",
-      "weight": 0.0818,
+      "weight": 0.0791,
       "cusip": "67066G104",
       "company": "cusip:67066G104"
     },
@@ -17,7 +17,7 @@
       "name": "Amazon.com, Inc.",
       "ticker": "AMZN",
       "asset_type": "Equity",
-      "weight": 0.0689,
+      "weight": 0.0672,
       "cusip": "023135106",
       "company": "cusip:023135106"
     },
@@ -25,7 +25,7 @@
       "name": "Advanced Micro Devices, Inc.",
       "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.0462,
+      "weight": 0.0457,
       "cusip": "007903107",
       "company": "cusip:007903107"
     },
@@ -33,7 +33,7 @@
       "name": "Alphabet Inc. (Class A)",
       "ticker": "GOOGL",
       "asset_type": "Equity",
-      "weight": 0.046,
+      "weight": 0.0453,
       "cusip": "02079K305",
       "company": "cusip:02079K107"
     },
@@ -41,7 +41,7 @@
       "name": "Eli Lilly and Company",
       "ticker": "LLY",
       "asset_type": "Equity",
-      "weight": 0.0441,
+      "weight": 0.0439,
       "cusip": "532457108",
       "company": "cusip:532457108"
     },
@@ -49,7 +49,7 @@
       "name": "Broadcom Inc.",
       "ticker": "AVGO",
       "asset_type": "Equity",
-      "weight": 0.0359,
+      "weight": 0.0361,
       "cusip": "11135F101",
       "company": "cusip:11135F101"
     },
@@ -57,7 +57,7 @@
       "name": "Microsoft Corporation",
       "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0325,
+      "weight": 0.0323,
       "cusip": "594918104",
       "company": "cusip:594918104"
     },
@@ -65,7 +65,7 @@
       "name": "Micron Technology, Inc.",
       "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.0269,
+      "weight": 0.0259,
       "cusip": "595112103",
       "company": "cusip:595112103"
     },
@@ -73,7 +73,7 @@
       "name": "Arista Networks, Inc.",
       "ticker": "ANET",
       "asset_type": "Equity",
-      "weight": 0.0249,
+      "weight": 0.0244,
       "cusip": "040413205",
       "company": "cusip:040413205"
     },
@@ -81,7 +81,7 @@
       "name": "Tesla, Inc.",
       "ticker": "TSLA",
       "asset_type": "Equity",
-      "weight": 0.023,
+      "weight": 0.0229,
       "cusip": "88160R101",
       "company": "cusip:88160R101"
     },
@@ -89,7 +89,7 @@
       "name": "Shopify Inc. (Class A)",
       "ticker": "SHOP",
       "asset_type": "Equity",
-      "weight": 0.0223,
+      "weight": 0.0227,
       "cusip": "82509L107",
       "company": "cusip:82509L107"
     },
@@ -97,7 +97,7 @@
       "name": "Palantir Technologies Inc. (Class A)",
       "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0212,
+      "weight": 0.0217,
       "cusip": "69608A108",
       "company": "cusip:69608A108"
     },
@@ -105,7 +105,7 @@
       "name": "Space Exploration Technologies Corp. (Class A)",
       "ticker": "SPCX",
       "asset_type": "Equity",
-      "weight": 0.0207,
+      "weight": 0.0211,
       "cusip": "84615Q103",
       "company": "cusip:84615Q103"
     },
@@ -113,7 +113,7 @@
       "name": "Marvell Technology, Inc.",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0201,
+      "weight": 0.0202,
       "cusip": "573874104",
       "company": "cusip:573874104"
     },
@@ -121,7 +121,7 @@
       "name": "Schneider Electric SE",
       "ticker": "SU.FP",
       "asset_type": "Equity",
-      "weight": 0.0196,
+      "weight": 0.0189,
       "cusip": "F86921107",
       "company": "cusip:F86921107"
     },
@@ -137,7 +137,7 @@
       "name": "Siemens Energy AG",
       "ticker": "ENR.GR",
       "asset_type": "Equity",
-      "weight": 0.0183,
+      "weight": 0.0176,
       "cusip": "D6T47E106",
       "company": "cusip:D6T47E106"
     },
@@ -145,7 +145,7 @@
       "name": "Neurocrine Biosciences, Inc.",
       "ticker": "NBIX",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.0164,
       "cusip": "64125C109",
       "company": "cusip:64125C109"
     },
@@ -153,15 +153,23 @@
       "name": "Rubrik, Inc. (Class A)",
       "ticker": "RBRK",
       "asset_type": "Equity",
-      "weight": 0.016,
+      "weight": 0.0157,
       "cusip": "781154109",
       "company": "cusip:781154109"
+    },
+    {
+      "name": "BridgeBio Pharma, Inc.",
+      "ticker": "BBIO",
+      "asset_type": "Equity",
+      "weight": 0.0134,
+      "cusip": "10806X102",
+      "company": "cusip:10806X102"
     },
     {
       "name": "Ascendis Pharma A/S",
       "ticker": "ASND",
       "asset_type": "Equity",
-      "weight": 0.0129,
+      "weight": 0.0131,
       "cusip": "K08588103",
       "company": "cusip:K08588103"
     },
@@ -174,34 +182,26 @@
       "company": "cusip:604749101"
     },
     {
-      "name": "BridgeBio Pharma, Inc.",
-      "ticker": "BBIO",
+      "name": "Meta Platforms, Inc. (Class A)",
+      "ticker": "META",
       "asset_type": "Equity",
-      "weight": 0.0128,
-      "cusip": "10806X102",
-      "company": "cusip:10806X102"
+      "weight": 0.0123,
+      "cusip": "30303M102",
+      "company": "cusip:30303M102"
     },
     {
       "name": "GE Vernova Inc.",
       "ticker": "GEV",
       "asset_type": "Equity",
-      "weight": 0.0119,
+      "weight": 0.0118,
       "cusip": "36828A101",
       "company": "cusip:36828A101"
-    },
-    {
-      "name": "Meta Platforms, Inc. (Class A)",
-      "ticker": "META",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "cusip": "30303M102",
-      "company": "cusip:30303M102"
     },
     {
       "name": "Palo Alto Networks, Inc.",
       "ticker": "PANW",
       "asset_type": "Equity",
-      "weight": 0.0116,
+      "weight": 0.0118,
       "cusip": "697435105",
       "company": "cusip:697435105"
     },
@@ -209,7 +209,7 @@
       "name": "Toast, Inc. (Class A)",
       "ticker": "TOST",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0111,
       "cusip": "888787108",
       "company": "cusip:888787108"
     },
@@ -217,9 +217,17 @@
       "name": "argenx SE",
       "ticker": "ARGX.BB",
       "asset_type": "Equity",
-      "weight": 0.0107,
+      "weight": 0.0104,
       "cusip": "N0610Q109",
       "company": "cusip:N0610Q109"
+    },
+    {
+      "name": "ServiceNow, Inc.",
+      "ticker": "NOW",
+      "asset_type": "Equity",
+      "weight": 0.0102,
+      "cusip": "81762P102",
+      "company": "cusip:81762P102"
     },
     {
       "name": "Adyen NV",
@@ -230,18 +238,18 @@
       "company": "cusip:N3501V104"
     },
     {
-      "name": "ServiceNow, Inc.",
-      "ticker": "NOW",
+      "name": "Figure Technology Solutions, Inc. (Class A)",
+      "ticker": "FIGR",
       "asset_type": "Equity",
-      "weight": 0.0101,
-      "cusip": "81762P102",
-      "company": "cusip:81762P102"
+      "weight": 0.0099,
+      "cusip": "349381103",
+      "company": "cusip:349381103"
     },
     {
       "name": "Spotify Technology S.A.",
       "ticker": "SPOT",
       "asset_type": "Equity",
-      "weight": 0.0096,
+      "weight": 0.0099,
       "cusip": "L8681T102",
       "company": "cusip:L8681T102"
     },
@@ -249,47 +257,39 @@
       "name": "Xometry, Inc. (Class A)",
       "ticker": "XMTR",
       "asset_type": "Equity",
-      "weight": 0.0096,
+      "weight": 0.0099,
       "cusip": "98423F109",
       "company": "cusip:98423F109"
-    },
-    {
-      "name": "Madrigal Pharmaceuticals, Inc.",
-      "ticker": "MDGL",
-      "asset_type": "Equity",
-      "weight": 0.0094,
-      "cusip": "558868105",
-      "company": "cusip:558868105"
-    },
-    {
-      "name": "Figure Technology Solutions, Inc. (Class A)",
-      "ticker": "FIGR",
-      "asset_type": "Equity",
-      "weight": 0.0093,
-      "cusip": "349381103",
-      "company": "cusip:349381103"
-    },
-    {
-      "name": "Solaris Energy Infrastructure, Inc. (Class A)",
-      "ticker": "SEI",
-      "asset_type": "Equity",
-      "weight": 0.0093,
-      "cusip": "83418M103",
-      "company": "cusip:83418M103"
     },
     {
       "name": "Viridian Therapeutics, Inc.",
       "ticker": "VRDN",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0097,
       "cusip": "92790C104",
       "company": "cusip:92790C104"
+    },
+    {
+      "name": "Solaris Energy Infrastructure, Inc. (Class A)",
+      "ticker": "SEI",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "cusip": "83418M103",
+      "company": "cusip:83418M103"
+    },
+    {
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "ticker": "MDGL",
+      "asset_type": "Equity",
+      "weight": 0.0095,
+      "cusip": "558868105",
+      "company": "cusip:558868105"
     },
     {
       "name": "Dell Technologies Inc. (Class C)",
       "ticker": "DELL",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0089,
       "cusip": "24703L202",
       "company": "cusip:24703L202"
     },
@@ -297,23 +297,15 @@
       "name": "Kymera Therapeutics, Inc.",
       "ticker": "KYMR",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0089,
       "cusip": "501575104",
       "company": "cusip:501575104"
-    },
-    {
-      "name": "ASML Holding N.V.",
-      "ticker": "ASML.NA",
-      "asset_type": "Equity",
-      "weight": 0.0087,
-      "cusip": "N07059202",
-      "company": "cusip:N07059202"
     },
     {
       "name": "Zscaler, Inc.",
       "ticker": "ZS",
       "asset_type": "Equity",
-      "weight": 0.0084,
+      "weight": 0.0085,
       "cusip": "98980G102",
       "company": "cusip:98980G102"
     },
@@ -321,15 +313,23 @@
       "name": "Block, Inc. (Class A)",
       "ticker": "XYZ",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0083,
       "cusip": "852234103",
       "company": "cusip:852234103"
+    },
+    {
+      "name": "ASML Holding N.V.",
+      "ticker": "ASML.NA",
+      "asset_type": "Equity",
+      "weight": 0.0082,
+      "cusip": "N07059202",
+      "company": "cusip:N07059202"
     },
     {
       "name": "Zebra Technologies Corporation",
       "ticker": "ZBRA",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0082,
       "cusip": "989207105",
       "company": "cusip:989207105"
     },
@@ -337,15 +337,23 @@
       "name": "Alkermes Plc",
       "ticker": "ALKS",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0077,
       "cusip": "G01767105",
       "company": "cusip:G01767105"
+    },
+    {
+      "name": "HP Inc.",
+      "ticker": "HPQ",
+      "asset_type": "Equity",
+      "weight": 0.0074,
+      "cusip": "40434L105",
+      "company": "cusip:40434L105"
     },
     {
       "name": "Halozyme Therapeutics, Inc.",
       "ticker": "HALO",
       "asset_type": "Equity",
-      "weight": 0.0072,
+      "weight": 0.0073,
       "cusip": "40637H109",
       "company": "cusip:40637H109"
     },
@@ -358,6 +366,14 @@
       "company": "cusip:770700102"
     },
     {
+      "name": "NextEra Energy, Inc.",
+      "ticker": "NEE",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "cusip": "65339F101",
+      "company": "cusip:65339F101"
+    },
+    {
       "name": "Airbnb, Inc. (Class A)",
       "ticker": "ABNB",
       "asset_type": "Equity",
@@ -366,12 +382,20 @@
       "company": "cusip:009066101"
     },
     {
-      "name": "NextEra Energy, Inc.",
-      "ticker": "NEE",
+      "name": "Everpure, Inc. (Class A)",
+      "ticker": "P",
       "asset_type": "Equity",
-      "weight": 0.007,
-      "cusip": "65339F101",
-      "company": "cusip:65339F101"
+      "weight": 0.0069,
+      "cusip": "74624M102",
+      "company": "cusip:74624M102"
+    },
+    {
+      "name": "MongoDB, Inc.",
+      "ticker": "MDB",
+      "asset_type": "Equity",
+      "weight": 0.0068,
+      "cusip": "60937P106",
+      "company": "cusip:60937P106"
     },
     {
       "name": "Cloudflare, Inc. (Class A)",
@@ -382,36 +406,12 @@
       "company": "cusip:18915M107"
     },
     {
-      "name": "Everpure, Inc. (Class A)",
-      "ticker": "P",
-      "asset_type": "Equity",
-      "weight": 0.0067,
-      "cusip": "74624M102",
-      "company": "cusip:74624M102"
-    },
-    {
       "name": "CrowdStrike Holdings, Inc. (Class A)",
       "ticker": "CRWD",
       "asset_type": "Equity",
       "weight": 0.0066,
       "cusip": "22788C105",
       "company": "cusip:22788C105"
-    },
-    {
-      "name": "HP Inc.",
-      "ticker": "HPQ",
-      "asset_type": "Equity",
-      "weight": 0.0066,
-      "cusip": "40434L105",
-      "company": "cusip:40434L105"
-    },
-    {
-      "name": "MongoDB, Inc.",
-      "ticker": "MDB",
-      "asset_type": "Equity",
-      "weight": 0.0066,
-      "cusip": "60937P106",
-      "company": "cusip:60937P106"
     },
     {
       "name": "BWX Technologies, Inc.",
@@ -422,20 +422,20 @@
       "company": "cusip:05605H100"
     },
     {
-      "name": "Constellation Energy Corporation",
-      "ticker": "CEG",
-      "asset_type": "Equity",
-      "weight": 0.0057,
-      "cusip": "21037T109",
-      "company": "cusip:21037T109"
-    },
-    {
       "name": "Rambus Inc.",
       "ticker": "RMBS",
       "asset_type": "Equity",
       "weight": 0.0057,
       "cusip": "750917106",
       "company": "cusip:750917106"
+    },
+    {
+      "name": "Constellation Energy Corporation",
+      "ticker": "CEG",
+      "asset_type": "Equity",
+      "weight": 0.0056,
+      "cusip": "21037T109",
+      "company": "cusip:21037T109"
     },
     {
       "name": "IDEAYA Biosciences, Inc.",
@@ -446,26 +446,26 @@
       "company": "cusip:45166A102"
     },
     {
-      "name": "Synopsys, Inc.",
-      "ticker": "SNPS",
-      "asset_type": "Equity",
-      "weight": 0.0053,
-      "cusip": "871607107",
-      "company": "cusip:871607107"
-    },
-    {
       "name": "Modexus Solutions Inc.",
       "ticker": "MOD",
       "asset_type": "Equity",
-      "weight": 0.0051,
+      "weight": 0.0053,
       "cusip": "607828100",
       "company": "cusip:607828100"
+    },
+    {
+      "name": "Synopsys, Inc.",
+      "ticker": "SNPS",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "cusip": "871607107",
+      "company": "cusip:871607107"
     },
     {
       "name": "Cellebrite DI Ltd.",
       "ticker": "CLBT",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0051,
       "cusip": "M2197Q107",
       "company": "cusip:M2197Q107"
     },
@@ -473,7 +473,7 @@
       "name": "Leonardo DRS, Inc.",
       "ticker": "DRS",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0051,
       "cusip": "52661A108",
       "company": "cusip:52661A108"
     },
@@ -481,9 +481,17 @@
       "name": "AeroVironment, Inc.",
       "ticker": "AVAV",
       "asset_type": "Equity",
-      "weight": 0.0046,
+      "weight": 0.0048,
       "cusip": "008073108",
       "company": "cusip:008073108"
+    },
+    {
+      "name": "Semtech Corporation",
+      "ticker": "SMTC",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "cusip": "816850101",
+      "company": "cusip:816850101"
     },
     {
       "name": "Vertiv Holdings Co (Class A)",
@@ -497,23 +505,15 @@
       "name": "Forgent Power Solutions, Inc. (Class A)",
       "ticker": "FPS",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0045,
       "cusip": "34631F102",
       "company": "cusip:34631F102"
-    },
-    {
-      "name": "Semtech Corporation",
-      "ticker": "SMTC",
-      "asset_type": "Equity",
-      "weight": 0.0044,
-      "cusip": "816850101",
-      "company": "cusip:816850101"
     },
     {
       "name": "Ouster, Inc.",
       "ticker": "OUST",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0044,
       "cusip": "68989M202",
       "company": "cusip:68989M202"
     },
@@ -521,7 +521,7 @@
       "name": "Reddit, Inc. (Class A)",
       "ticker": "RDDT",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0044,
       "cusip": "75734B100",
       "company": "cusip:75734B100"
     },
@@ -553,9 +553,16 @@
       "name": "MDA Space Ltd.",
       "ticker": "MDA.CT",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0038,
       "cusip": "55293N109",
       "company": "cusip:55293N109"
+    },
+    {
+      "name": "US Dollar",
+      "ticker": "$USD",
+      "asset_type": "Cash",
+      "weight": 0.0037,
+      "company": null
     },
     {
       "name": "Carpenter Technology Corporation",
@@ -564,13 +571,6 @@
       "weight": 0.0036,
       "cusip": "144285103",
       "company": "cusip:144285103"
-    },
-    {
-      "name": "US Dollar",
-      "ticker": "$USD",
-      "asset_type": "Cash",
-      "weight": 0.0036,
-      "company": null
     },
     {
       "name": "Nurix Therapeutics, Inc.",
@@ -584,7 +584,7 @@
       "name": "Quantinuum Inc. (Class A)",
       "ticker": "QNT",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0034,
       "cusip": "74768A104",
       "company": "cusip:74768A104"
     },
@@ -592,7 +592,7 @@
       "name": "IonQ, Inc.",
       "ticker": "IONQ",
       "asset_type": "Equity",
-      "weight": 0.0029,
+      "weight": 0.0031,
       "cusip": "46222L108",
       "company": "cusip:46222L108"
     },

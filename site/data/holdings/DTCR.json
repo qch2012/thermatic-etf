@@ -1,7 +1,7 @@
 {
   "ticker": "DTCR",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:29.367660+00:00",
+  "fetched_at": "2026-11-27T04:32:11.176231+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/dtcr_full-holdings_{date}.csv",
   "holdings": [
@@ -32,13 +32,6 @@
       "ticker": null,
       "asset_type": "Cash",
       "weight": 0.0005,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0011,
       "company": null
     },
     {
@@ -224,6 +217,13 @@
       "weight": 0.0106,
       "sedol": "B3Q0VS9",
       "company": "name:vnet group incorporation"
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0011,
+      "company": null
     },
     {
       "name": "SUNEVISION HOLDINGS",

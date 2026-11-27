@@ -1,7 +1,7 @@
 {
   "ticker": "LIT",
   "as_of": "2026-11-25",
-  "fetched_at": "2026-11-26T04:22:41.366872+00:00",
+  "fetched_at": "2026-11-27T04:32:24.918807+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/lit_full-holdings_{date}.csv",
   "holdings": [
@@ -43,42 +43,6 @@
       "weight": 0.0008,
       "sedol": "BGYBHZ4",
       "company": "cusip:46211L101"
-    },
-    {
-      "name": "CHINESE YUAN RENMINBI",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "ESG MINERALS LTD",
-      "ticker": "2324825D AU",
-      "asset_type": "Equity",
-      "weight": 0.0,
-      "sedol": "BPGN3K8",
-      "company": "name:esg minerals"
-    },
-    {
-      "name": "HONG KONG DOLLAR",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.0003,
-      "company": null
-    },
-    {
-      "name": "EURO",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": -0.001,
-      "company": null
     },
     {
       "name": "RIO TINTO PLC-SPON ADR",
@@ -295,6 +259,42 @@
       "weight": 0.0087,
       "sedol": "6578608",
       "company": "name:l"
+    },
+    {
+      "name": "CHINESE YUAN RENMINBI",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "ESG MINERALS LTD",
+      "ticker": "2324825D AU",
+      "asset_type": "Equity",
+      "weight": 0.0,
+      "sedol": "BPGN3K8",
+      "company": "name:esg minerals"
+    },
+    {
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "CASH",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.0003,
+      "company": null
+    },
+    {
+      "name": "EURO",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": -0.001,
+      "company": null
     },
     {
       "name": "AMG CRITICAL MATERIALS N.V.",

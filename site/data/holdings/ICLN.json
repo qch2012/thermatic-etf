@@ -1,7 +1,7 @@
 {
   "ticker": "ICLN",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-26T04:22:34.279527+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-27T04:32:17.817872+00:00",
   "stale": false,
   "source": "https://www.ishares.com/us/products/239738/ishares-global-clean-energy-etf/latest-holdings.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "FIRST SOLAR",
       "ticker": "FSLR",
       "asset_type": "Equity",
-      "weight": 0.0796,
+      "weight": 0.0795,
       "location": "United States",
       "company": "cusip:336433107"
     },
@@ -17,7 +17,7 @@
       "name": "IBERDROLA",
       "ticker": "IBE",
       "asset_type": "Equity",
-      "weight": 0.0777,
+      "weight": 0.077,
       "location": "Spain",
       "company": "cusip:B288C9908"
     },
@@ -25,7 +25,7 @@
       "name": "NEXTPOWER INC",
       "ticker": "NXT",
       "asset_type": "Equity",
-      "weight": 0.0726,
+      "weight": 0.0761,
       "location": "United States",
       "company": "cusip:65290E101"
     },
@@ -33,7 +33,7 @@
       "name": "CHINA YANGTZE POWER LTD A",
       "ticker": "600900",
       "asset_type": "Equity",
-      "weight": 0.0676,
+      "weight": 0.0682,
       "location": "China",
       "company": "name:china yangtze power@china"
     },
@@ -41,7 +41,7 @@
       "name": "BLOOM ENERGY CLASS A",
       "ticker": "BE",
       "asset_type": "Equity",
-      "weight": 0.052,
+      "weight": 0.0508,
       "location": "United States",
       "company": "cusip:093712107"
     },
@@ -49,25 +49,25 @@
       "name": "AXIA ENERGIA SA",
       "ticker": "AXIA3",
       "asset_type": "Equity",
-      "weight": 0.0405,
+      "weight": 0.0409,
       "location": "Brazil",
       "company": "cusip:P22835113"
-    },
-    {
-      "name": "VESTAS WIND SYSTEMS",
-      "ticker": "VWS",
-      "asset_type": "Equity",
-      "weight": 0.0319,
-      "location": "Denmark",
-      "company": "cusip:K9773J201"
     },
     {
       "name": "ORMAT TECH INC",
       "ticker": "ORA",
       "asset_type": "Equity",
-      "weight": 0.0314,
+      "weight": 0.0316,
       "location": "United States",
       "company": "name:ormat tech@united states"
+    },
+    {
+      "name": "VESTAS WIND SYSTEMS",
+      "ticker": "VWS",
+      "asset_type": "Equity",
+      "weight": 0.0306,
+      "location": "Denmark",
+      "company": "cusip:K9773J201"
     },
     {
       "name": "CHUBU ELECTRIC POWER INC",
@@ -81,15 +81,23 @@
       "name": "EDP ENERGIAS DE PORTUGAL",
       "ticker": "EDP",
       "asset_type": "Equity",
-      "weight": 0.0255,
+      "weight": 0.0252,
       "location": "Portugal",
       "company": "cusip:X67925119"
+    },
+    {
+      "name": "EQUATORIAL SA",
+      "ticker": "EQTL3",
+      "asset_type": "Equity",
+      "weight": 0.0224,
+      "location": "Brazil",
+      "company": "name:equatorial@brazil"
     },
     {
       "name": "ENPHASE ENERGY",
       "ticker": "ENPH",
       "asset_type": "Equity",
-      "weight": 0.0218,
+      "weight": 0.0223,
       "location": "United States",
       "company": "cusip:29355A107"
     },
@@ -97,33 +105,25 @@
       "name": "CLEARWAY ENERGY INC CLASS C",
       "ticker": "CWEN",
       "asset_type": "Equity",
-      "weight": 0.0216,
+      "weight": 0.0221,
       "location": "United States",
       "company": "cusip:18539C204"
-    },
-    {
-      "name": "EQUATORIAL SA",
-      "ticker": "EQTL3",
-      "asset_type": "Equity",
-      "weight": 0.0215,
-      "location": "Brazil",
-      "company": "name:equatorial@brazil"
-    },
-    {
-      "name": "ENLIGHT RENEWABLE ENERGY",
-      "ticker": "ENLT",
-      "asset_type": "Equity",
-      "weight": 0.0208,
-      "location": "Israel",
-      "company": "cusip:M4056D110"
     },
     {
       "name": "SUZLON ENERGY",
       "ticker": "SUZLON",
       "asset_type": "Equity",
-      "weight": 0.0208,
+      "weight": 0.0211,
       "location": "India",
       "company": "name:suzlon energy@india"
+    },
+    {
+      "name": "ENLIGHT RENEWABLE ENERGY",
+      "ticker": "ENLT",
+      "asset_type": "Equity",
+      "weight": 0.0203,
+      "location": "Israel",
+      "company": "cusip:M4056D110"
     },
     {
       "name": "ORSTED A/S",
@@ -137,31 +137,31 @@
       "name": "WAAREE ENERGIES LTD",
       "ticker": "WAAREEENER",
       "asset_type": "Equity",
-      "weight": 0.0158,
+      "weight": 0.0159,
       "location": "India",
       "company": "name:waaree energies@india"
-    },
-    {
-      "name": "NORDEX",
-      "ticker": "NDX1",
-      "asset_type": "Equity",
-      "weight": 0.0151,
-      "location": "Germany",
-      "company": "cusip:D5736K135"
     },
     {
       "name": "SUNGROW POWER SUPPLY LTD A",
       "ticker": "300274",
       "asset_type": "Equity",
-      "weight": 0.0149,
+      "weight": 0.0142,
       "location": "China",
       "company": "name:sungrow power supply@china"
+    },
+    {
+      "name": "NORDEX",
+      "ticker": "NDX1",
+      "asset_type": "Equity",
+      "weight": 0.014,
+      "location": "Germany",
+      "company": "cusip:D5736K135"
     },
     {
       "name": "HUADIAN NEW ENERGY GROUP CORP LTD",
       "ticker": "600930",
       "asset_type": "Equity",
-      "weight": 0.0141,
+      "weight": 0.0139,
       "location": "China",
       "company": "name:huadian new energy group@china"
     },
@@ -169,7 +169,7 @@
       "name": "HUANENG LANCANG RIVER HYDROPOWER I",
       "ticker": "600025",
       "asset_type": "Equity",
-      "weight": 0.0132,
+      "weight": 0.0131,
       "location": "China",
       "company": "name:huaneng lancang river hydropower@china"
     },
@@ -177,7 +177,7 @@
       "name": "PLUG POWER",
       "ticker": "PLUG",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0121,
       "location": "United States",
       "company": "cusip:72919P202"
     },
@@ -185,7 +185,7 @@
       "name": "CHINA LONGYUAN POWER GROUP H",
       "ticker": "916",
       "asset_type": "Equity",
-      "weight": 0.0103,
+      "weight": 0.0101,
       "location": "China",
       "company": "cusip:B4Q2TX906"
     },
@@ -193,7 +193,7 @@
       "name": "ENERGISA UNITS",
       "ticker": "ENGI11",
       "asset_type": "Equity",
-      "weight": 0.0098,
+      "weight": 0.01,
       "location": "Brazil",
       "company": "name:energisa units@brazil"
     },
@@ -201,31 +201,31 @@
       "name": "SOLAREDGE TECHNOLOGIES",
       "ticker": "SEDG",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0098,
       "location": "United States",
       "company": "cusip:83417M104"
-    },
-    {
-      "name": "SOLARIA ENERGIA Y MEDIO AMBIENTE S",
-      "ticker": "SLR",
-      "asset_type": "Equity",
-      "weight": 0.009,
-      "location": "Spain",
-      "company": "cusip:E8935P110"
     },
     {
       "name": "SHOALS TECHNOLOGIES GROUP CLASS A",
       "ticker": "SHLS",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.0097,
       "location": "United States",
       "company": "cusip:82489W107"
+    },
+    {
+      "name": "SOLARIA ENERGIA Y MEDIO AMBIENTE S",
+      "ticker": "SLR",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "location": "Spain",
+      "company": "cusip:E8935P110"
     },
     {
       "name": "EDP RENEWABLES SA",
       "ticker": "EDPR",
       "asset_type": "Equity",
-      "weight": 0.0089,
+      "weight": 0.0087,
       "location": "Portugal",
       "company": "cusip:E3847K101"
     },
@@ -233,7 +233,7 @@
       "name": "SICHUAN CHUANTOU ENERGY LTD A",
       "ticker": "600674",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0087,
       "location": "China",
       "company": "name:sichuan chuantou energy@china"
     },
@@ -241,7 +241,7 @@
       "name": "CHINA THREE GORGES RENEWABLES(GROU",
       "ticker": "600905",
       "asset_type": "Equity",
-      "weight": 0.0087,
+      "weight": 0.0086,
       "location": "China",
       "company": "name:china three gorges renewables grou@china"
     },
@@ -249,7 +249,7 @@
       "name": "LONGI GREEN ENERGY TECHNOLOGY A",
       "ticker": "601012",
       "asset_type": "Equity",
-      "weight": 0.0081,
+      "weight": 0.008,
       "location": "China",
       "company": "name:longi green energy technology@china"
     },
@@ -257,7 +257,7 @@
       "name": "PREMIER ENERGIES LTD",
       "ticker": "PREMIERENE",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0076,
       "location": "India",
       "company": "name:premier energies@india"
     },
@@ -270,20 +270,20 @@
       "company": "name:nhpc@india"
     },
     {
+      "name": "BROOKFIELD RENEWABLE SUBORDINATE V",
+      "ticker": "BEPC",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "location": "Canada",
+      "company": "name:brookfield renewable subordinate@canada"
+    },
+    {
       "name": "DORAL GROUP RENEWABLE ENERGY RESOU",
       "ticker": "DORL",
       "asset_type": "Equity",
       "weight": 0.0066,
       "location": "Israel",
       "company": "name:doral group renewable energy resou@israel"
-    },
-    {
-      "name": "BROOKFIELD RENEWABLE SUBORDINATE V",
-      "ticker": "BEPC",
-      "asset_type": "Equity",
-      "weight": 0.0066,
-      "location": "Canada",
-      "company": "name:brookfield renewable subordinate@canada"
     },
     {
       "name": "ENGIE BRASIL ENERGIA SA",
@@ -297,17 +297,9 @@
       "name": "CPFL ENERGIA",
       "ticker": "CPFE3",
       "asset_type": "Equity",
-      "weight": 0.0064,
+      "weight": 0.0063,
       "location": "Brazil",
       "company": "name:cpfl energia@brazil"
-    },
-    {
-      "name": "DOOSAN FUEL CELL LTD",
-      "ticker": "336260",
-      "asset_type": "Equity",
-      "weight": 0.0063,
-      "location": "Korea (South)",
-      "company": "name:doosan fuel cell@south korea"
     },
     {
       "name": "GREEN PLAINS",
@@ -321,7 +313,7 @@
       "name": "VERBUND AG",
       "ticker": "VER",
       "asset_type": "Equity",
-      "weight": 0.006,
+      "weight": 0.0059,
       "location": "Austria",
       "company": "cusip:A91460104"
     },
@@ -329,33 +321,33 @@
       "name": "CS WIND",
       "ticker": "112610",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0058,
       "location": "Korea (South)",
       "company": "cusip:Y1R23X102"
     },
     {
-      "name": "XINJIANG GOLDWIND SCIENCE AND TECH",
-      "ticker": "2208",
+      "name": "DOOSAN FUEL CELL LTD",
+      "ticker": "336260",
       "asset_type": "Equity",
-      "weight": 0.0052,
-      "location": "China",
-      "company": "name:xinjiang goldwind science and tech@china"
+      "weight": 0.0058,
+      "location": "Korea (South)",
+      "company": "name:doosan fuel cell@south korea"
     },
     {
       "name": "ARRAY TECHNOLOGIES INC",
       "ticker": "ARRY",
       "asset_type": "Equity",
-      "weight": 0.0048,
+      "weight": 0.0052,
       "location": "United States",
       "company": "cusip:04271T100"
     },
     {
-      "name": "UNITED RENEWABLE ENERGY",
-      "ticker": "3576",
+      "name": "XINJIANG GOLDWIND SCIENCE AND TECH",
+      "ticker": "2208",
       "asset_type": "Equity",
-      "weight": 0.0046,
-      "location": "Taiwan",
-      "company": "name:united renewable energy@taiwan"
+      "weight": 0.0048,
+      "location": "China",
+      "company": "name:xinjiang goldwind science and tech@china"
     },
     {
       "name": "INOX WIND",
@@ -366,10 +358,18 @@
       "company": "name:inox wind@india"
     },
     {
+      "name": "UNITED RENEWABLE ENERGY",
+      "ticker": "3576",
+      "asset_type": "Equity",
+      "weight": 0.0041,
+      "location": "Taiwan",
+      "company": "name:united renewable energy@taiwan"
+    },
+    {
       "name": "CERES POWER HOLDINGS PLC",
       "ticker": "CWR",
       "asset_type": "Equity",
-      "weight": 0.0041,
+      "weight": 0.004,
       "location": "United Kingdom",
       "company": "name:ceres power holdings@united kingdom"
     },
@@ -382,18 +382,10 @@
       "company": "cusip:G7500M104"
     },
     {
-      "name": "BLK CSH FND TREASURY SL AGENCY",
-      "ticker": "XTSLA",
-      "asset_type": "Money Market",
-      "weight": 0.0038,
-      "location": "United States",
-      "company": null
-    },
-    {
       "name": "JINKO SOLAR LTD A",
       "ticker": "688223",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0037,
       "location": "China",
       "company": "name:jinko solar@china"
     },
@@ -401,7 +393,7 @@
       "name": "O.Y. NOFAR ENERGY",
       "ticker": "NOFR",
       "asset_type": "Equity",
-      "weight": 0.0037,
+      "weight": 0.0036,
       "location": "Israel",
       "company": "cusip:M7622L102"
     },
@@ -409,23 +401,23 @@
       "name": "GUANGXI GUIGUAN ELECTRIC POWER LTD",
       "ticker": "600236",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0035,
       "location": "China",
       "company": "name:guangxi guiguan electric power@china"
     },
     {
-      "name": "CENTRAL NEW ENERGY HOLDING GROUP",
+      "name": "CENTRAL AI TECHNOLOGY GROUP",
       "ticker": "1735",
       "asset_type": "Equity",
       "weight": 0.0035,
       "location": "Hong Kong",
-      "company": "name:central new energy holding group@hong kong"
+      "company": "name:central ai technology group@hong kong"
     },
     {
       "name": "REX AMERICAN RESOURCES",
       "ticker": "REX",
       "asset_type": "Equity",
-      "weight": 0.0035,
+      "weight": 0.0034,
       "location": "United States",
       "company": "cusip:761624105"
     },
@@ -438,14 +430,6 @@
       "company": "name:china southern power grid energy@china"
     },
     {
-      "name": "SMA SOLAR TECHNOLOGY AG",
-      "ticker": "S92",
-      "asset_type": "Equity",
-      "weight": 0.0032,
-      "location": "Germany",
-      "company": "cusip:D7008K108"
-    },
-    {
       "name": "ERG",
       "ticker": "ERG",
       "asset_type": "Equity",
@@ -454,20 +438,20 @@
       "company": "cusip:T3707Z101"
     },
     {
+      "name": "SMA SOLAR TECHNOLOGY AG",
+      "ticker": "S92",
+      "asset_type": "Equity",
+      "weight": 0.0032,
+      "location": "Germany",
+      "company": "cusip:D7008K108"
+    },
+    {
       "name": "BARITO RENEWABLES ENERGY",
       "ticker": "BREN",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0031,
       "location": "Indonesia",
       "company": "name:barito renewables energy@indonesia"
-    },
-    {
-      "name": "TSEC CORP",
-      "ticker": "6443",
-      "asset_type": "Equity",
-      "weight": 0.0031,
-      "location": "Taiwan",
-      "company": "cusip:Y89777109"
     },
     {
       "name": "GEVO",
@@ -478,14 +462,6 @@
       "company": "cusip:374396406"
     },
     {
-      "name": "ENERGIX RENEWABLE ENERGIES LTD",
-      "ticker": "ENRG",
-      "asset_type": "Equity",
-      "weight": 0.0031,
-      "location": "Israel",
-      "company": "cusip:M4047G115"
-    },
-    {
       "name": "TCL ZHONGHUAN RENEWABLE ENERGY TEC",
       "ticker": "002129",
       "asset_type": "Equity",
@@ -494,26 +470,42 @@
       "company": "name:tcl zhonghuan renewable energy tec@china"
     },
     {
+      "name": "ENERGIX RENEWABLE ENERGIES LTD",
+      "ticker": "ENRG",
+      "asset_type": "Equity",
+      "weight": 0.003,
+      "location": "Israel",
+      "company": "cusip:M4047G115"
+    },
+    {
       "name": "SUZHOU MAXWELL TECHNOLOGIES LTD A",
       "ticker": "300751",
       "asset_type": "Equity",
-      "weight": 0.003,
+      "weight": 0.0028,
       "location": "China",
       "company": "name:suzhou maxwell technologies@china"
     },
     {
-      "name": "BRL CASH",
-      "ticker": "BRL",
-      "asset_type": "Cash",
+      "name": "TSEC CORP",
+      "ticker": "6443",
+      "asset_type": "Equity",
+      "weight": 0.0028,
+      "location": "Taiwan",
+      "company": "cusip:Y89777109"
+    },
+    {
+      "name": "BLK CSH FND TREASURY SL AGENCY",
+      "ticker": "XTSLA",
+      "asset_type": "Money Market",
       "weight": 0.0027,
-      "location": "Brazil",
+      "location": "United States",
       "company": null
     },
     {
       "name": "AUREN ENERGIA SA",
       "ticker": "AURE3",
       "asset_type": "Equity",
-      "weight": 0.0025,
+      "weight": 0.0026,
       "location": "Brazil",
       "company": "name:auren energia@brazil"
     },
@@ -542,30 +534,6 @@
       "company": "name:corporacion acciona energias renov@spain"
     },
     {
-      "name": "VERBIO",
-      "ticker": "VBK",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "location": "Germany",
-      "company": "name:verbio@germany"
-    },
-    {
-      "name": "SHANGHAI AIKO SOLAR ENERGY LTD A",
-      "ticker": "600732",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "location": "China",
-      "company": "name:shanghai aiko solar energy@china"
-    },
-    {
-      "name": "CENTURY IRON AND STEEL INDUSTRIAL",
-      "ticker": "9958",
-      "asset_type": "Equity",
-      "weight": 0.0023,
-      "location": "Taiwan",
-      "company": "name:century iron and steel industrial@taiwan"
-    },
-    {
       "name": "MSCI EMER MKT INDEX (ICE) DEC 26",
       "ticker": "MESZ6",
       "asset_type": "Futures",
@@ -573,12 +541,20 @@
       "company": null
     },
     {
-      "name": "HD HYUNDAI ENERGY SOLUTIONS LTD",
-      "ticker": "322000",
+      "name": "VERBIO",
+      "ticker": "VBK",
       "asset_type": "Equity",
       "weight": 0.0022,
-      "location": "Korea (South)",
-      "company": "cusip:Y3R1F3103"
+      "location": "Germany",
+      "company": "name:verbio@germany"
+    },
+    {
+      "name": "SHANGHAI AIKO SOLAR ENERGY LTD A",
+      "ticker": "600732",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "location": "China",
+      "company": "name:shanghai aiko solar energy@china"
     },
     {
       "name": "ENERGY ABSOLUTE NON-VOTING DR PCL",
@@ -597,10 +573,34 @@
       "company": "name:enel americas@chile"
     },
     {
+      "name": "HD HYUNDAI ENERGY SOLUTIONS LTD",
+      "ticker": "322000",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "location": "Korea (South)",
+      "company": "cusip:Y3R1F3103"
+    },
+    {
+      "name": "CENTURY IRON AND STEEL INDUSTRIAL",
+      "ticker": "9958",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "location": "Taiwan",
+      "company": "name:century iron and steel industrial@taiwan"
+    },
+    {
+      "name": "CANADIAN SOLAR",
+      "ticker": "CSIQ",
+      "asset_type": "Equity",
+      "weight": 0.0021,
+      "location": "China",
+      "company": "cusip:136635109"
+    },
+    {
       "name": "TRINA SOLAR A",
       "ticker": "688599",
       "asset_type": "Equity",
-      "weight": 0.002,
+      "weight": 0.0019,
       "location": "China",
       "company": "name:trina solar@china"
     },
@@ -613,12 +613,12 @@
       "company": "cusip:35834F104"
     },
     {
-      "name": "CANADIAN SOLAR",
-      "ticker": "CSIQ",
+      "name": "JINKO HOLDINGS ADS REP",
+      "ticker": "JKS",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.0018,
       "location": "China",
-      "company": "cusip:136635109"
+      "company": "name:jinko holdings ads rep@china"
     },
     {
       "name": "CECEP WIND-POWER CORP A",
@@ -629,28 +629,12 @@
       "company": "name:cecep wind power@china"
     },
     {
-      "name": "JINKO HOLDINGS ADS REP",
-      "ticker": "JKS",
-      "asset_type": "Equity",
-      "weight": 0.0018,
-      "location": "China",
-      "company": "name:jinko holdings ads rep@china"
-    },
-    {
       "name": "JA SOLAR TECHNOLOGY LTD A",
       "ticker": "002459",
       "asset_type": "Equity",
-      "weight": 0.0018,
-      "location": "China",
-      "company": "name:ja solar technology@china"
-    },
-    {
-      "name": "SHENZHEN S.C NEW ENERGY TECHNOLOGY",
-      "ticker": "300724",
-      "asset_type": "Equity",
       "weight": 0.0017,
       "location": "China",
-      "company": "name:shenzhen sc new energy technology@china"
+      "company": "name:ja solar technology@china"
     },
     {
       "name": "S&P500 EMINI DEC 26",
@@ -668,12 +652,12 @@
       "company": "name:scatec solar@norway"
     },
     {
-      "name": "GINLONG TECHNOLOGIES A",
-      "ticker": "300763",
+      "name": "SHENZHEN S.C NEW ENERGY TECHNOLOGY",
+      "ticker": "300724",
       "asset_type": "Equity",
       "weight": 0.0016,
       "location": "China",
-      "company": "name:ginlong technologies@china"
+      "company": "name:shenzhen sc new energy technology@china"
     },
     {
       "name": "CECEP SOLAR ENERGY LTD A",
@@ -684,10 +668,18 @@
       "company": "name:cecep solar energy@china"
     },
     {
+      "name": "GINLONG TECHNOLOGIES A",
+      "ticker": "300763",
+      "asset_type": "Equity",
+      "weight": 0.0015,
+      "location": "China",
+      "company": "name:ginlong technologies@china"
+    },
+    {
       "name": "DAJIN HEAVY INDUSTRY LTD A",
       "ticker": "002487",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "location": "China",
       "company": "name:dajin heavy industry@china"
     },
@@ -695,7 +687,7 @@
       "name": "MING YANG SMART ENERGY GROUP LTD A",
       "ticker": "601615",
       "asset_type": "Equity",
-      "weight": 0.0016,
+      "weight": 0.0015,
       "location": "China",
       "company": "name:ming yang smart energy group@china"
     },
@@ -716,10 +708,18 @@
       "company": "name:cecep environmental protection@china"
     },
     {
+      "name": "BRL CASH",
+      "ticker": "BRL",
+      "asset_type": "Cash",
+      "weight": 0.0014,
+      "location": "Brazil",
+      "company": null
+    },
+    {
       "name": "GREEN DEVELOPMENT ELECTRICITY GROU",
       "ticker": "000537",
       "asset_type": "Equity",
-      "weight": 0.0013,
+      "weight": 0.0012,
       "location": "China",
       "company": "name:green development electricity grou@china"
     },
@@ -751,7 +751,7 @@
       "name": "JIANGSU GOODWE POWER SUPPLY TECHNO",
       "ticker": "688390",
       "asset_type": "Equity",
-      "weight": 0.001,
+      "weight": 0.0009,
       "location": "China",
       "company": "name:jiangsu goodwe power supply techno@china"
     },
@@ -780,28 +780,12 @@
       "company": "name:cw enerji muhendislik ticaret ve@turkey"
     },
     {
-      "name": "RISEN ENERGY LTD A",
-      "ticker": "300118",
-      "asset_type": "Equity",
-      "weight": 0.0009,
-      "location": "China",
-      "company": "name:risen energy@china"
-    },
-    {
       "name": "EURO STOXX 50 DEC 26",
       "ticker": "VGZ6",
       "asset_type": "Futures",
       "weight": 0.0,
       "location": "European Union",
       "company": null
-    },
-    {
-      "name": "SHANGHAI ELECTRIC WIND POWER GROUP",
-      "ticker": "688660",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "location": "China",
-      "company": "name:shanghai electric wind power group@china"
     },
     {
       "name": "JIANGSU HAILI WIND POWER EQUIPMENT",
@@ -812,12 +796,20 @@
       "company": "name:jiangsu haili wind power equipment@china"
     },
     {
-      "name": "AKFEN YENILENEBILIR ENERJI A.S.",
-      "ticker": "AKFYE.E",
+      "name": "RISEN ENERGY LTD A",
+      "ticker": "300118",
       "asset_type": "Equity",
       "weight": 0.0008,
-      "location": "Turkey",
-      "company": "cusip:M0378F114"
+      "location": "China",
+      "company": "name:risen energy@china"
+    },
+    {
+      "name": "SHANGHAI ELECTRIC WIND POWER GROUP",
+      "ticker": "688660",
+      "asset_type": "Equity",
+      "weight": 0.0008,
+      "location": "China",
+      "company": "name:shanghai electric wind power group@china"
     },
     {
       "name": "CASH COLLATERAL USD BOASW CFD",
@@ -828,18 +820,18 @@
       "company": null
     },
     {
-      "name": "INR CASH",
-      "ticker": "INR",
-      "asset_type": "Cash",
+      "name": "AKFEN YENILENEBILIR ENERJI A.S.",
+      "ticker": "AKFYE.E",
+      "asset_type": "Equity",
       "weight": 0.0007,
-      "location": "India",
-      "company": null
+      "location": "Turkey",
+      "company": "cusip:M0378F114"
     },
     {
       "name": "HAINAN DRINDA NEW ENERGY TECHNOLOG",
       "ticker": "002865",
       "asset_type": "Equity",
-      "weight": 0.0007,
+      "weight": 0.0006,
       "location": "China",
       "company": "name:hainan drinda new energy technolog@china"
     },
@@ -887,7 +879,7 @@
       "name": "MARGUN ENERJI URETIM SANAYI & TICA",
       "ticker": "MAGEN.E",
       "asset_type": "Equity",
-      "weight": 0.0003,
+      "weight": 0.0002,
       "location": "Turkey",
       "company": "name:margun enerji uretim sanayi tica@turkey"
     },
@@ -897,22 +889,6 @@
       "asset_type": "Cash",
       "weight": 0.0002,
       "location": "Switzerland",
-      "company": null
-    },
-    {
-      "name": "KRW CASH",
-      "ticker": "KRW",
-      "asset_type": "Cash",
-      "weight": 0.0002,
-      "location": "Korea (South)",
-      "company": null
-    },
-    {
-      "name": "TWD CASH",
-      "ticker": "TWD",
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "location": "Taiwan",
       "company": null
     },
     {
@@ -929,14 +905,6 @@
       "asset_type": "Cash",
       "weight": 0.0,
       "location": "Israel",
-      "company": null
-    },
-    {
-      "name": "CLP CASH",
-      "ticker": "CLP",
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "location": "Chile",
       "company": null
     },
     {
@@ -972,11 +940,35 @@
       "company": null
     },
     {
+      "name": "TWD CASH",
+      "ticker": "TWD",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Taiwan",
+      "company": null
+    },
+    {
       "name": "GBP CASH",
       "ticker": "GBP",
       "asset_type": "Cash",
       "weight": 0.0,
       "location": "United Kingdom",
+      "company": null
+    },
+    {
+      "name": "CLP CASH",
+      "ticker": "CLP",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Chile",
+      "company": null
+    },
+    {
+      "name": "KRW CASH",
+      "ticker": "KRW",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "location": "Korea (South)",
       "company": null
     },
     {
@@ -1004,43 +996,11 @@
       "company": null
     },
     {
-      "name": "INR/USD",
+      "name": "INR CASH",
       "ticker": "INR",
-      "asset_type": "FX",
+      "asset_type": "Cash",
       "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "INR/USD",
-      "ticker": "INR",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CLP/USD",
-      "ticker": "CLP",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "TWD/USD",
-      "ticker": "TWD",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CLP/USD",
-      "ticker": "CLP",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
+      "location": "India",
       "company": null
     },
     {
@@ -1052,8 +1012,8 @@
       "company": "name:barito renewables energy@indonesia"
     },
     {
-      "name": "TWD/USD",
-      "ticker": "TWD",
+      "name": "BRL/USD",
+      "ticker": "BRL",
       "asset_type": "FX",
       "weight": 0.0,
       "location": "United States",
@@ -1066,14 +1026,6 @@
       "weight": 0.0,
       "location": "China",
       "company": "name:zhejiang akcome new energy technol@china"
-    },
-    {
-      "name": "BRL/USD",
-      "ticker": "BRL",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
     },
     {
       "name": "IDR CASH",
@@ -1092,97 +1044,9 @@
       "company": null
     },
     {
-      "name": "NZD/USD",
-      "ticker": "NZD",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "DKK/USD",
-      "ticker": "DKK",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "TRY/USD",
-      "ticker": "TRY",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "CNH/USD",
-      "ticker": "CNH",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "JPY/USD",
-      "ticker": "JPY",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "EUR/USD",
-      "ticker": "EUR",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "ILS/USD",
-      "ticker": "ILS",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "KRW/USD",
-      "ticker": "KRW",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "KRW/USD",
-      "ticker": "KRW",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "BRL/USD",
-      "ticker": "BRL",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "BRL/USD",
-      "ticker": "BRL",
-      "asset_type": "FX",
-      "weight": 0.0,
-      "location": "United States",
-      "company": null
-    },
-    {
-      "name": "BRL/USD",
-      "ticker": "BRL",
-      "asset_type": "FX",
+      "name": "ETD USD BALANCE WITH C08544 HBCFT",
+      "ticker": "ETD_USD",
+      "asset_type": "Cash Collateral and Margins",
       "weight": 0.0,
       "location": "United States",
       "company": null
@@ -1191,7 +1055,7 @@
       "name": "USD CASH",
       "ticker": "USD",
       "asset_type": "Cash",
-      "weight": -0.0054,
+      "weight": -0.002,
       "location": "United States",
       "company": null
     }

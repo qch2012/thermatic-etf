@@ -1,7 +1,7 @@
 {
   "ticker": "FIW",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-26T04:22:32.221720+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-27T04:32:15.137376+00:00",
   "stale": false,
   "source": "https://www.ftportfolios.com/retail/etf/EtfHoldings.aspx?Ticker=FIW",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "IDEXX Laboratories, Inc.",
       "ticker": "IDXX",
       "asset_type": "Equity",
-      "weight": 0.0479,
+      "weight": 0.0473,
       "cusip": "45168D104",
       "company": "cusip:45168D104"
     },
@@ -25,7 +25,7 @@
       "name": "Agilent Technologies, Inc.",
       "ticker": "A",
       "asset_type": "Equity",
-      "weight": 0.0447,
+      "weight": 0.0431,
       "cusip": "00846U101",
       "company": "cusip:00846U101"
     },
@@ -33,7 +33,7 @@
       "name": "Ferguson Enterprises Inc.",
       "ticker": "FERG",
       "asset_type": "Equity",
-      "weight": 0.0421,
+      "weight": 0.0424,
       "cusip": "31488V107",
       "company": "cusip:31488V107"
     },
@@ -41,31 +41,31 @@
       "name": "Roper Technologies, Inc.",
       "ticker": "ROP",
       "asset_type": "Equity",
-      "weight": 0.042,
+      "weight": 0.0422,
       "cusip": "776696106",
       "company": "cusip:776696106"
-    },
-    {
-      "name": "Waters Corporation",
-      "ticker": "WAT",
-      "asset_type": "Equity",
-      "weight": 0.0417,
-      "cusip": "941848103",
-      "company": "cusip:941848103"
     },
     {
       "name": "American Water Works Company, Inc.",
       "ticker": "AWK",
       "asset_type": "Equity",
-      "weight": 0.0407,
+      "weight": 0.041,
       "cusip": "030420103",
       "company": "cusip:030420103"
+    },
+    {
+      "name": "Waters Corporation",
+      "ticker": "WAT",
+      "asset_type": "Equity",
+      "weight": 0.0407,
+      "cusip": "941848103",
+      "company": "cusip:941848103"
     },
     {
       "name": "Ecolab Inc.",
       "ticker": "ECL",
       "asset_type": "Equity",
-      "weight": 0.0406,
+      "weight": 0.0404,
       "cusip": "278865100",
       "company": "cusip:278865100"
     },
@@ -73,31 +73,31 @@
       "name": "Masco Corporation",
       "ticker": "MAS",
       "asset_type": "Equity",
-      "weight": 0.0386,
+      "weight": 0.0391,
       "cusip": "574599106",
       "company": "cusip:574599106"
-    },
-    {
-      "name": "Jacobs Solutions Inc.",
-      "ticker": "J",
-      "asset_type": "Equity",
-      "weight": 0.0382,
-      "cusip": "46982L108",
-      "company": "cusip:46982L108"
     },
     {
       "name": "Bentley Systems, Incorporated (Class B)",
       "ticker": "BSY",
       "asset_type": "Equity",
-      "weight": 0.038,
+      "weight": 0.0382,
       "cusip": "08265T208",
       "company": "cusip:08265T208"
+    },
+    {
+      "name": "Jacobs Solutions Inc.",
+      "ticker": "J",
+      "asset_type": "Equity",
+      "weight": 0.0362,
+      "cusip": "46982L108",
+      "company": "cusip:46982L108"
     },
     {
       "name": "AECOM",
       "ticker": "ACM",
       "asset_type": "Equity",
-      "weight": 0.0336,
+      "weight": 0.0344,
       "cusip": "00766T100",
       "company": "cusip:00766T100"
     },
@@ -105,7 +105,7 @@
       "name": "Pentair plc",
       "ticker": "PNR",
       "asset_type": "Equity",
-      "weight": 0.0331,
+      "weight": 0.0335,
       "cusip": "G7S00T104",
       "company": "cusip:G7S00T104"
     },
@@ -113,7 +113,7 @@
       "name": "Xylem Inc.",
       "ticker": "XYL",
       "asset_type": "Equity",
-      "weight": 0.0324,
+      "weight": 0.0325,
       "cusip": "98419M100",
       "company": "cusip:98419M100"
     },
@@ -121,7 +121,7 @@
       "name": "IDEX Corporation",
       "ticker": "IEX",
       "asset_type": "Equity",
-      "weight": 0.0323,
+      "weight": 0.032,
       "cusip": "45167R104",
       "company": "cusip:45167R104"
     },
@@ -129,7 +129,7 @@
       "name": "Tetra Tech, Inc.",
       "ticker": "TTEK",
       "asset_type": "Equity",
-      "weight": 0.0288,
+      "weight": 0.0293,
       "cusip": "88162G103",
       "company": "cusip:88162G103"
     },
@@ -137,7 +137,7 @@
       "name": "Advanced Drainage Systems, Inc.",
       "ticker": "WMS",
       "asset_type": "Equity",
-      "weight": 0.0279,
+      "weight": 0.0289,
       "cusip": "00790R104",
       "company": "cusip:00790R104"
     },
@@ -145,7 +145,7 @@
       "name": "Mueller Industries, Inc.",
       "ticker": "MLI",
       "asset_type": "Equity",
-      "weight": 0.0276,
+      "weight": 0.028,
       "cusip": "624756102",
       "company": "cusip:624756102"
     },
@@ -153,7 +153,7 @@
       "name": "Watts Water Technologies, Inc.",
       "ticker": "WTS",
       "asset_type": "Equity",
-      "weight": 0.0273,
+      "weight": 0.0272,
       "cusip": "942749102",
       "company": "cusip:942749102"
     },
@@ -161,7 +161,7 @@
       "name": "Valmont Industries, Inc.",
       "ticker": "VMI",
       "asset_type": "Equity",
-      "weight": 0.0244,
+      "weight": 0.0246,
       "cusip": "920253101",
       "company": "cusip:920253101"
     },
@@ -169,7 +169,7 @@
       "name": "Badger Meter, Inc.",
       "ticker": "BMI",
       "asset_type": "Equity",
-      "weight": 0.0229,
+      "weight": 0.0231,
       "cusip": "056525108",
       "company": "cusip:056525108"
     },
@@ -185,7 +185,7 @@
       "name": "A.O. Smith Corporation",
       "ticker": "AOS",
       "asset_type": "Equity",
-      "weight": 0.0209,
+      "weight": 0.0211,
       "cusip": "831865209",
       "company": "cusip:831865209"
     },
@@ -193,31 +193,15 @@
       "name": "Fortune Brands Innovations Inc.",
       "ticker": "FBIN",
       "asset_type": "Equity",
-      "weight": 0.0204,
+      "weight": 0.0208,
       "cusip": "34964C106",
       "company": "cusip:34964C106"
-    },
-    {
-      "name": "Primo Brands Corporation (Class A)",
-      "ticker": "PRMB",
-      "asset_type": "Equity",
-      "weight": 0.0193,
-      "cusip": "741623102",
-      "company": "cusip:741623102"
-    },
-    {
-      "name": "Algonquin Power & Utilities Corp.",
-      "ticker": "AQN",
-      "asset_type": "Equity",
-      "weight": 0.0191,
-      "cusip": "015857105",
-      "company": "cusip:015857105"
     },
     {
       "name": "Itron, Inc.",
       "ticker": "ITRI",
       "asset_type": "Equity",
-      "weight": 0.0189,
+      "weight": 0.0193,
       "cusip": "465741106",
       "company": "cusip:465741106"
     },
@@ -225,15 +209,31 @@
       "name": "Core & Main, Inc. (Class A)",
       "ticker": "CNM",
       "asset_type": "Equity",
-      "weight": 0.0186,
+      "weight": 0.0191,
       "cusip": "21874C102",
       "company": "cusip:21874C102"
+    },
+    {
+      "name": "Algonquin Power & Utilities Corp.",
+      "ticker": "AQN",
+      "asset_type": "Equity",
+      "weight": 0.0188,
+      "cusip": "015857105",
+      "company": "cusip:015857105"
+    },
+    {
+      "name": "Primo Brands Corporation (Class A)",
+      "ticker": "PRMB",
+      "asset_type": "Equity",
+      "weight": 0.0188,
+      "cusip": "741623102",
+      "company": "cusip:741623102"
     },
     {
       "name": "Franklin Electric Co., Inc.",
       "ticker": "FELE",
       "asset_type": "Equity",
-      "weight": 0.0184,
+      "weight": 0.0182,
       "cusip": "353514102",
       "company": "cusip:353514102"
     },
@@ -249,7 +249,7 @@
       "name": "Hawkins, Inc.",
       "ticker": "HWKN",
       "asset_type": "Equity",
-      "weight": 0.0148,
+      "weight": 0.0149,
       "cusip": "420261109",
       "company": "cusip:420261109"
     },
@@ -262,10 +262,18 @@
       "company": "cusip:130788102"
     },
     {
+      "name": "Cia. de Saneamento Basico do Estado de Sao Paulo - SABESP (ADR)",
+      "ticker": "SBS",
+      "asset_type": "Equity",
+      "weight": 0.0116,
+      "cusip": "20441A102",
+      "company": "cusip:20441A102"
+    },
+    {
       "name": "Mueller Water Products, Inc.",
       "ticker": "MWA",
       "asset_type": "Equity",
-      "weight": 0.0117,
+      "weight": 0.0116,
       "cusip": "624758108",
       "company": "cusip:624758108"
     },
@@ -276,14 +284,6 @@
       "weight": 0.0115,
       "cusip": "029899101",
       "company": "cusip:029899101"
-    },
-    {
-      "name": "Cia. de Saneamento Basico do Estado de Sao Paulo - SABESP (ADR)",
-      "ticker": "SBS",
-      "asset_type": "Equity",
-      "weight": 0.0113,
-      "cusip": "20441A102",
-      "company": "cusip:20441A102"
     },
     {
       "name": "H2O America",
