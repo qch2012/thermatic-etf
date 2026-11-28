@@ -1,0 +1,457 @@
+{
+  "ticker": "AIS",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-28T04:12:57.378095+00:00",
+  "stale": false,
+  "source": "https://www.vistashares.com/etf/ais/holdings.csv",
+  "holdings": [
+    {
+      "name": "SK hynix Inc",
+      "ticker": "000660 KS",
+      "asset_type": "Equity",
+      "weight": 0.073,
+      "company": "cusip:78392B206"
+    },
+    {
+      "name": "Micron Technology Inc",
+      "ticker": "MU",
+      "asset_type": "Equity",
+      "weight": 0.0674,
+      "company": "cusip:595112103"
+    },
+    {
+      "name": "Advanced Micro Devices Inc",
+      "ticker": "AMD",
+      "asset_type": "Equity",
+      "weight": 0.0633,
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0451,
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "Semtech Corp",
+      "ticker": "SMTC",
+      "asset_type": "Equity",
+      "weight": 0.0372,
+      "company": "cusip:816850101"
+    },
+    {
+      "name": "Vertiv Holdings Co",
+      "ticker": "VRT",
+      "asset_type": "Equity",
+      "weight": 0.0354,
+      "company": "cusip:92537N108"
+    },
+    {
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL",
+      "asset_type": "Equity",
+      "weight": 0.034,
+      "company": "cusip:573874104"
+    },
+    {
+      "name": "GE Vernova Inc",
+      "ticker": "GEV",
+      "asset_type": "Equity",
+      "weight": 0.0313,
+      "company": "cusip:36828A101"
+    },
+    {
+      "name": "Foxconn Industrial Internet Co Ltd",
+      "ticker": "601138 C1",
+      "asset_type": "Equity",
+      "weight": 0.0267,
+      "company": "cusip:Y2620V100"
+    },
+    {
+      "name": "Intel Corp",
+      "ticker": "INTC",
+      "asset_type": "Equity",
+      "weight": 0.0265,
+      "company": "cusip:458140100"
+    },
+    {
+      "name": "Arista Networks Inc",
+      "ticker": "ANET",
+      "asset_type": "Equity",
+      "weight": 0.0254,
+      "company": "cusip:040413205"
+    },
+    {
+      "name": "ASML Holding NV",
+      "ticker": "ASML",
+      "asset_type": "Equity",
+      "weight": 0.0231,
+      "company": "cusip:N07059202"
+    },
+    {
+      "name": "Silicon Motion Technology Corp",
+      "ticker": "SIMO",
+      "asset_type": "Equity",
+      "weight": 0.0229,
+      "company": "name:silicon motion technology"
+    },
+    {
+      "name": "Samsung Electronics Co Ltd",
+      "ticker": "005930 KS",
+      "asset_type": "Equity",
+      "weight": 0.0227,
+      "company": "cusip:Y74718100"
+    },
+    {
+      "name": "Legrand SA",
+      "ticker": "LR FP",
+      "asset_type": "Equity",
+      "weight": 0.0222,
+      "company": "cusip:F56196185"
+    },
+    {
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0216,
+      "company": "cusip:67066G104"
+    },
+    {
+      "name": "Seagate Technology Holdings PLC",
+      "ticker": "STX",
+      "asset_type": "Equity",
+      "weight": 0.0213,
+      "company": "cusip:G7997R103"
+    },
+    {
+      "name": "Corning Inc",
+      "ticker": "GLW",
+      "asset_type": "Equity",
+      "weight": 0.021,
+      "company": "cusip:219350105"
+    },
+    {
+      "name": "Asustek Computer Inc",
+      "ticker": "2357 TT",
+      "asset_type": "Equity",
+      "weight": 0.0198,
+      "company": "name:asustek computer"
+    },
+    {
+      "name": "Nokia Oyj",
+      "ticker": "NOKIA FH",
+      "asset_type": "Equity",
+      "weight": 0.0188,
+      "company": "cusip:654902204"
+    },
+    {
+      "name": "Vicor Corp",
+      "ticker": "VICR",
+      "asset_type": "Equity",
+      "weight": 0.0177,
+      "company": "cusip:925815102"
+    },
+    {
+      "name": "Astera Labs Inc",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.0175,
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "Tower Semiconductor Ltd",
+      "ticker": "TSEM IT",
+      "asset_type": "Equity",
+      "weight": 0.0167,
+      "company": "cusip:M87915274"
+    },
+    {
+      "name": "ARM Holdings PLC",
+      "ticker": "ARM",
+      "asset_type": "Equity",
+      "weight": 0.0159,
+      "company": "cusip:042068205"
+    },
+    {
+      "name": "Navitas Semiconductor Corp",
+      "ticker": "NVTS",
+      "asset_type": "Equity",
+      "weight": 0.0148,
+      "company": "cusip:63942X106"
+    },
+    {
+      "name": "MPI Corp",
+      "ticker": "6223 TT",
+      "asset_type": "Equity",
+      "weight": 0.0148,
+      "company": "name:mpi@taiwan"
+    },
+    {
+      "name": "Unimicron Technology Corp",
+      "ticker": "3037 TT",
+      "asset_type": "Equity",
+      "weight": 0.0139,
+      "company": "name:unimicron technology@taiwan"
+    },
+    {
+      "name": "MediaTek Inc",
+      "ticker": "2454 TT",
+      "asset_type": "Equity",
+      "weight": 0.0137,
+      "company": "cusip:Y5945U103"
+    },
+    {
+      "name": "AIXTRON SE",
+      "ticker": "AIXA GR",
+      "asset_type": "Equity",
+      "weight": 0.0122,
+      "company": "name:aixtron@germany"
+    },
+    {
+      "name": "Nanya Technology Corp",
+      "ticker": "2408 TT",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "company": "cusip:Y62066108"
+    },
+    {
+      "name": "Samsung Electro-Mechanics Co Ltd",
+      "ticker": "009150 KS",
+      "asset_type": "Equity",
+      "weight": 0.0113,
+      "company": "name:samsung electro mechanics"
+    },
+    {
+      "name": "Western Digital Corp",
+      "ticker": "WDC",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "company": "cusip:958102105"
+    },
+    {
+      "name": "Montage Technology Co Ltd",
+      "ticker": "688008 C1",
+      "asset_type": "Equity",
+      "weight": 0.0104,
+      "company": "cusip:Y6S3M5108"
+    },
+    {
+      "name": "Penguin Solutions Inc",
+      "ticker": "PENG",
+      "asset_type": "Equity",
+      "weight": 0.0104,
+      "company": "cusip:706915105"
+    },
+    {
+      "name": "Sandisk Corp",
+      "ticker": "SNDK",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "company": "cusip:80004C200"
+    },
+    {
+      "name": "Broadcom Inc",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "Coherent Corp",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "company": "cusip:19247G107"
+    },
+    {
+      "name": "Cisco Systems Inc",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0087,
+      "company": "cusip:17275R102"
+    },
+    {
+      "name": "Advanced Energy Industries Inc",
+      "ticker": "AEIS",
+      "asset_type": "Equity",
+      "weight": 0.0083,
+      "company": "cusip:007973100"
+    },
+    {
+      "name": "Credo Technology Group Holding Ltd",
+      "ticker": "CRDO",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "company": "cusip:G25457105"
+    },
+    {
+      "name": "Hewlett Packard Enterprise Co",
+      "ticker": "HPE",
+      "asset_type": "Equity",
+      "weight": 0.0076,
+      "company": "cusip:42824C109"
+    },
+    {
+      "name": "Infineon Technologies AG",
+      "ticker": "IFNNY",
+      "asset_type": "Equity",
+      "weight": 0.0073,
+      "company": "cusip:D35415104"
+    },
+    {
+      "name": "IEIT Systems Co Ltd",
+      "ticker": "000977 C2",
+      "asset_type": "Equity",
+      "weight": 0.0071,
+      "company": "name:ieit systems"
+    },
+    {
+      "name": "SIMMTECH Co Ltd",
+      "ticker": "222800 KS",
+      "asset_type": "Equity",
+      "weight": 0.0069,
+      "company": "name:simmtech"
+    },
+    {
+      "name": "AP Memory Technology Corp",
+      "ticker": "6531 TT",
+      "asset_type": "Equity",
+      "weight": 0.0068,
+      "company": "cusip:Y0178L102"
+    },
+    {
+      "name": "Nutanix Inc",
+      "ticker": "NTNX",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "company": "cusip:67059N108"
+    },
+    {
+      "name": "Quanta Computer Inc",
+      "ticker": "2382 TT",
+      "asset_type": "Equity",
+      "weight": 0.0064,
+      "company": "name:quanta computer@taiwan"
+    },
+    {
+      "name": "Transcend Information Inc",
+      "ticker": "2451 TT",
+      "asset_type": "Equity",
+      "weight": 0.0063,
+      "company": "name:transcend information"
+    },
+    {
+      "name": "Super Micro Computer Inc",
+      "ticker": "SMCI",
+      "asset_type": "Equity",
+      "weight": 0.006,
+      "company": "cusip:86800U302"
+    },
+    {
+      "name": "Hygon Information Technology Co Ltd",
+      "ticker": "688041 C1",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "company": "name:hygon information technology"
+    },
+    {
+      "name": "Munters Group AB",
+      "ticker": "MTRS SS",
+      "asset_type": "Equity",
+      "weight": 0.0054,
+      "company": "name:munters group"
+    },
+    {
+      "name": "Rigaku Holdings Corp",
+      "ticker": "268A JP",
+      "asset_type": "Equity",
+      "weight": 0.0052,
+      "company": "name:rigaku holdings"
+    },
+    {
+      "name": "Cash & Other",
+      "ticker": "Cash&Other",
+      "asset_type": "Cash",
+      "weight": 0.0045,
+      "company": null
+    },
+    {
+      "name": "Celestica Inc",
+      "ticker": "CLS CN",
+      "asset_type": "Equity",
+      "weight": 0.0043,
+      "company": "cusip:15101Q207"
+    },
+    {
+      "name": "Ajinomoto Co Inc",
+      "ticker": "2802 JP",
+      "asset_type": "Equity",
+      "weight": 0.0034,
+      "company": "name:ajinomoto"
+    },
+    {
+      "name": "Lumentum Holdings Inc",
+      "ticker": "LITE",
+      "asset_type": "Equity",
+      "weight": 0.0022,
+      "company": "cusip:55024U109"
+    },
+    {
+      "name": "Cerebras Systems Inc",
+      "ticker": "CBRS",
+      "asset_type": "Equity",
+      "weight": 0.0018,
+      "company": "cusip:15675D103"
+    },
+    {
+      "name": "Vistance Networks Inc",
+      "ticker": "VISN",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "company": "cusip:20337X109"
+    },
+    {
+      "name": "NEW TAIWAN DOLLAR",
+      "ticker": "TWD",
+      "asset_type": "Cash",
+      "weight": 0.0011,
+      "company": null
+    },
+    {
+      "name": "First American Government Obligations Fund 12/01/2031",
+      "ticker": "FGXXX",
+      "asset_type": "Money Market",
+      "weight": 0.0002,
+      "company": null
+    },
+    {
+      "name": "CHINESE YUAN",
+      "ticker": "CNY",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "SWEDISH KRONA",
+      "ticker": "SEK",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "EURO",
+      "ticker": "EUR",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    },
+    {
+      "name": "SOUTH KOREA WON",
+      "ticker": "KRW",
+      "asset_type": "Cash",
+      "weight": 0.0,
+      "company": null
+    }
+  ]
+}

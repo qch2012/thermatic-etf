@@ -1,23 +1,15 @@
 {
   "ticker": "QTUM",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-26T04:22:47.977237+00:00",
-  "stale": true,
+  "as_of": "2026-11-27",
+  "fetched_at": "2026-11-28T04:13:38.553843+00:00",
+  "stale": false,
   "source": "https://www.defianceetfs.com/qtum-full-holdings/",
   "holdings": [
-    {
-      "name": "Global Unichip Corp",
-      "ticker": "3443 TT",
-      "asset_type": "Equity",
-      "weight": 0.0202,
-      "sedol": "B056381",
-      "company": "cusip:Y2724H114"
-    },
     {
       "name": "Elastic Nv",
       "ticker": "ESTC",
       "asset_type": "Equity",
-      "weight": 0.0202,
+      "weight": 0.0201,
       "cusip": "N14506104",
       "company": "cusip:N14506104"
     },
@@ -30,42 +22,66 @@
       "company": "cusip:18915M107"
     },
     {
-      "name": "Microsoft Corp",
-      "ticker": "MSFT",
+      "name": "Palantir Technologies Inc",
+      "ticker": "PLTR",
       "asset_type": "Equity",
-      "weight": 0.0187,
-      "cusip": "594918104",
-      "company": "cusip:594918104"
+      "weight": 0.0192,
+      "cusip": "69608A108",
+      "company": "cusip:69608A108"
     },
     {
       "name": "Radnet Inc",
       "ticker": "RDNT",
       "asset_type": "Equity",
-      "weight": 0.0186,
+      "weight": 0.0182,
       "cusip": "750491102",
       "company": "cusip:750491102"
     },
     {
-      "name": "Palantir Technologies Inc",
-      "ticker": "PLTR",
+      "name": "Microsoft Corp",
+      "ticker": "MSFT",
       "asset_type": "Equity",
-      "weight": 0.0185,
-      "cusip": "69608A108",
-      "company": "cusip:69608A108"
+      "weight": 0.018,
+      "cusip": "594918104",
+      "company": "cusip:594918104"
     },
     {
       "name": "Reply Spa",
       "ticker": "REY IM",
       "asset_type": "Equity",
-      "weight": 0.0181,
+      "weight": 0.0178,
       "sedol": "BZ1DZ96",
       "company": "name:reply"
+    },
+    {
+      "name": "Global Unichip Corp",
+      "ticker": "3443 TT",
+      "asset_type": "Equity",
+      "weight": 0.0177,
+      "sedol": "B056381",
+      "company": "cusip:Y2724H114"
+    },
+    {
+      "name": "Nec Corp",
+      "ticker": "6701 JP",
+      "asset_type": "Equity",
+      "weight": 0.017,
+      "sedol": "6640400",
+      "company": "cusip:J48818207"
+    },
+    {
+      "name": "Lockheed Martin Corp",
+      "ticker": "LMT",
+      "asset_type": "Equity",
+      "weight": 0.0168,
+      "cusip": "539830109",
+      "company": "cusip:539830109"
     },
     {
       "name": "Snowflake Inc",
       "ticker": "SNOW",
       "asset_type": "Equity",
-      "weight": 0.0169,
+      "weight": 0.0167,
       "cusip": "833445109",
       "company": "cusip:833445109"
     },
@@ -73,289 +89,249 @@
       "name": "Ntt Inc",
       "ticker": "9432 JT",
       "asset_type": "Equity",
-      "weight": 0.0168,
+      "weight": 0.0165,
       "sedol": "6641373",
       "company": "cusip:J59396101"
-    },
-    {
-      "name": "Lockheed Martin Corp",
-      "ticker": "LMT",
-      "asset_type": "Equity",
-      "weight": 0.0167,
-      "cusip": "539830109",
-      "company": "cusip:539830109"
-    },
-    {
-      "name": "Nutanix Inc",
-      "ticker": "NTNX",
-      "asset_type": "Equity",
-      "weight": 0.0165,
-      "cusip": "67059N108",
-      "company": "cusip:67059N108"
-    },
-    {
-      "name": "Rtx Corp",
-      "ticker": "RTX",
-      "asset_type": "Equity",
-      "weight": 0.0165,
-      "cusip": "75513E101",
-      "company": "cusip:75513E101"
-    },
-    {
-      "name": "Nec Corp",
-      "ticker": "6701 JP",
-      "asset_type": "Equity",
-      "weight": 0.0163,
-      "sedol": "6640400",
-      "company": "cusip:J48818207"
     },
     {
       "name": "Teradata Corp",
       "ticker": "TDC",
       "asset_type": "Equity",
-      "weight": 0.0162,
+      "weight": 0.0165,
       "cusip": "88076W103",
       "company": "cusip:88076W103"
     },
     {
-      "name": "Amazon.com Inc",
-      "ticker": "AMZN",
+      "name": "Rtx Corp",
+      "ticker": "RTX",
       "asset_type": "Equity",
-      "weight": 0.0159,
-      "cusip": "023135106",
-      "company": "cusip:023135106"
+      "weight": 0.0163,
+      "cusip": "75513E101",
+      "company": "cusip:75513E101"
     },
     {
       "name": "Hitachi Ltd",
       "ticker": "6501 JP",
       "asset_type": "Equity",
-      "weight": 0.0157,
+      "weight": 0.0158,
       "sedol": "6429104",
       "company": "cusip:J20454112"
-    },
-    {
-      "name": "Airbus Group Se",
-      "ticker": "AIR FP",
-      "asset_type": "Equity",
-      "weight": 0.0157,
-      "sedol": "4012250",
-      "company": "cusip:N0280G100"
-    },
-    {
-      "name": "Northrop Grumman Corp",
-      "ticker": "NOC",
-      "asset_type": "Equity",
-      "weight": 0.0152,
-      "cusip": "666807102",
-      "company": "cusip:666807102"
     },
     {
       "name": "Fujitsu Ltd",
       "ticker": "6702 JP",
       "asset_type": "Equity",
-      "weight": 0.0151,
+      "weight": 0.0156,
       "sedol": "6356945",
       "company": "cusip:J15708159"
+    },
+    {
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN",
+      "asset_type": "Equity",
+      "weight": 0.0155,
+      "cusip": "023135106",
+      "company": "cusip:023135106"
+    },
+    {
+      "name": "Airbus Group Se",
+      "ticker": "AIR FP",
+      "asset_type": "Equity",
+      "weight": 0.0154,
+      "sedol": "4012250",
+      "company": "cusip:N0280G100"
+    },
+    {
+      "name": "Arqit Quantum Inc",
+      "ticker": "ARQQ",
+      "asset_type": "Equity",
+      "weight": 0.0153,
+      "cusip": "G0567U127",
+      "company": "cusip:G0567U127"
     },
     {
       "name": "Wipro Ltd",
       "ticker": "WIT",
       "asset_type": "Equity",
-      "weight": 0.015,
+      "weight": 0.0153,
       "cusip": "97651M109",
       "company": "cusip:97651M109"
     },
     {
-      "name": "Asustek Computer Inc",
-      "ticker": "2357 TT",
+      "name": "Northrop Grumman Corp",
+      "ticker": "NOC",
       "asset_type": "Equity",
-      "weight": 0.0149,
-      "sedol": "6051046",
-      "company": "name:asustek computer"
-    },
-    {
-      "name": "Mediatek Inc",
-      "ticker": "2454 TT",
-      "asset_type": "Equity",
-      "weight": 0.0141,
-      "sedol": "6372480",
-      "company": "cusip:Y5945U103"
-    },
-    {
-      "name": "Alchip Technologies Ltd",
-      "ticker": "3661 TT",
-      "asset_type": "Equity",
-      "weight": 0.014,
-      "sedol": "B4TPSL0",
-      "company": "cusip:G02242108"
-    },
-    {
-      "name": "Koninklijke Kpn Nv",
-      "ticker": "KPN NA",
-      "asset_type": "Equity",
-      "weight": 0.0139,
-      "sedol": "5956078",
-      "company": "name:koninklijke kpn"
-    },
-    {
-      "name": "Advanced Micro Devices Inc",
-      "ticker": "AMD",
-      "asset_type": "Equity",
-      "weight": 0.0137,
-      "cusip": "007903107",
-      "company": "cusip:007903107"
+      "weight": 0.015,
+      "cusip": "666807102",
+      "company": "cusip:666807102"
     },
     {
       "name": "Texas Instruments Inc",
       "ticker": "TXN",
       "asset_type": "Equity",
-      "weight": 0.0137,
+      "weight": 0.0145,
       "cusip": "882508104",
       "company": "cusip:882508104"
     },
     {
-      "name": "Synopsys Inc",
-      "ticker": "SNPS",
+      "name": "Asustek Computer Inc",
+      "ticker": "2357 TT",
       "asset_type": "Equity",
-      "weight": 0.0135,
-      "cusip": "871607107",
-      "company": "cusip:871607107"
-    },
-    {
-      "name": "Mongodb Inc",
-      "ticker": "MDB",
-      "asset_type": "Equity",
-      "weight": 0.0133,
-      "cusip": "60937P106",
-      "company": "cusip:60937P106"
+      "weight": 0.0141,
+      "sedol": "6051046",
+      "company": "name:asustek computer"
     },
     {
       "name": "Hewlett Packard Enterprise Co",
       "ticker": "HPE",
       "asset_type": "Equity",
-      "weight": 0.0132,
+      "weight": 0.0137,
       "cusip": "42824C109",
       "company": "cusip:42824C109"
     },
     {
-      "name": "International Business Machines Corp",
-      "ticker": "IBM",
+      "name": "Advanced Micro Devices Inc",
+      "ticker": "AMD",
       "asset_type": "Equity",
-      "weight": 0.013,
-      "cusip": "459200101",
-      "company": "cusip:459200101"
+      "weight": 0.0136,
+      "cusip": "007903107",
+      "company": "cusip:007903107"
+    },
+    {
+      "name": "Koninklijke Kpn Nv",
+      "ticker": "KPN NA",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "sedol": "5956078",
+      "company": "name:koninklijke kpn"
+    },
+    {
+      "name": "Nutanix Inc",
+      "ticker": "NTNX",
+      "asset_type": "Equity",
+      "weight": 0.0136,
+      "cusip": "67059N108",
+      "company": "cusip:67059N108"
     },
     {
       "name": "Qualcomm Inc",
       "ticker": "QCOM",
       "asset_type": "Equity",
-      "weight": 0.0129,
+      "weight": 0.0136,
       "cusip": "747525103",
       "company": "cusip:747525103"
-    },
-    {
-      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "ticker": "TSM",
-      "asset_type": "Equity",
-      "weight": 0.0128,
-      "cusip": "874039100",
-      "company": "cusip:874039100"
-    },
-    {
-      "name": "NXP Semiconductors N V",
-      "ticker": "NXPI",
-      "asset_type": "Equity",
-      "weight": 0.0126,
-      "cusip": "N6596X109",
-      "company": "cusip:N6596X109"
-    },
-    {
-      "name": "Mitsubishi Electric Corp",
-      "ticker": "6503 JP",
-      "asset_type": "Equity",
-      "weight": 0.0125,
-      "sedol": "6597045",
-      "company": "cusip:J43873116"
-    },
-    {
-      "name": "Hon Hai Precision Industry Co Ltd",
-      "ticker": "2317 TT",
-      "asset_type": "Equity",
-      "weight": 0.0124,
-      "sedol": "6438564",
-      "company": "name:hon hai precision industry"
-    },
-    {
-      "name": "Broadcom Inc",
-      "ticker": "AVGO",
-      "asset_type": "Equity",
-      "weight": 0.0121,
-      "cusip": "11135F101",
-      "company": "cusip:11135F101"
-    },
-    {
-      "name": "Orange S.a.",
-      "ticker": "ORA FP",
-      "asset_type": "Equity",
-      "weight": 0.0121,
-      "sedol": "5176177",
-      "company": "cusip:F6866T100"
-    },
-    {
-      "name": "Analog Devices Inc",
-      "ticker": "ADI",
-      "asset_type": "Equity",
-      "weight": 0.0119,
-      "cusip": "032654105",
-      "company": "cusip:032654105"
-    },
-    {
-      "name": "Abb Ltd",
-      "ticker": "ABBN SW",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "sedol": "7108899",
-      "company": "cusip:H0010V101"
-    },
-    {
-      "name": "Cisco Systems Inc",
-      "ticker": "CSCO",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "cusip": "17275R102",
-      "company": "cusip:17275R102"
     },
     {
       "name": "Horizon Quantum Holdings Ltd",
       "ticker": "HQ",
       "asset_type": "Equity",
-      "weight": 0.0118,
+      "weight": 0.0135,
       "cusip": "Y4000A102",
       "company": "cusip:Y4000A102"
     },
     {
-      "name": "Alphabet Inc",
-      "ticker": "GOOGL",
+      "name": "Mongodb Inc",
+      "ticker": "MDB",
+      "asset_type": "Equity",
+      "weight": 0.0134,
+      "cusip": "60937P106",
+      "company": "cusip:60937P106"
+    },
+    {
+      "name": "Synopsys Inc",
+      "ticker": "SNPS",
+      "asset_type": "Equity",
+      "weight": 0.0133,
+      "cusip": "871607107",
+      "company": "cusip:871607107"
+    },
+    {
+      "name": "International Business Machines Corp",
+      "ticker": "IBM",
+      "asset_type": "Equity",
+      "weight": 0.0132,
+      "cusip": "459200101",
+      "company": "cusip:459200101"
+    },
+    {
+      "name": "NXP Semiconductors N V",
+      "ticker": "NXPI",
+      "asset_type": "Equity",
+      "weight": 0.0129,
+      "cusip": "N6596X109",
+      "company": "cusip:N6596X109"
+    },
+    {
+      "name": "Analog Devices Inc",
+      "ticker": "ADI",
+      "asset_type": "Equity",
+      "weight": 0.0128,
+      "cusip": "032654105",
+      "company": "cusip:032654105"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "ticker": "TSM",
+      "asset_type": "Equity",
+      "weight": 0.0126,
+      "cusip": "874039100",
+      "company": "cusip:874039100"
+    },
+    {
+      "name": "Alchip Technologies Ltd",
+      "ticker": "3661 TT",
+      "asset_type": "Equity",
+      "weight": 0.0125,
+      "sedol": "B4TPSL0",
+      "company": "cusip:G02242108"
+    },
+    {
+      "name": "Mediatek Inc",
+      "ticker": "2454 TT",
+      "asset_type": "Equity",
+      "weight": 0.0124,
+      "sedol": "6372480",
+      "company": "cusip:Y5945U103"
+    },
+    {
+      "name": "Mitsubishi Electric Corp",
+      "ticker": "6503 JP",
+      "asset_type": "Equity",
+      "weight": 0.0123,
+      "sedol": "6597045",
+      "company": "cusip:J43873116"
+    },
+    {
+      "name": "Broadcom Inc",
+      "ticker": "AVGO",
+      "asset_type": "Equity",
+      "weight": 0.0122,
+      "cusip": "11135F101",
+      "company": "cusip:11135F101"
+    },
+    {
+      "name": "Cisco Systems Inc",
+      "ticker": "CSCO",
+      "asset_type": "Equity",
+      "weight": 0.0119,
+      "cusip": "17275R102",
+      "company": "cusip:17275R102"
+    },
+    {
+      "name": "Orange S.a.",
+      "ticker": "ORA FP",
+      "asset_type": "Equity",
+      "weight": 0.0118,
+      "sedol": "5176177",
+      "company": "cusip:F6866T100"
+    },
+    {
+      "name": "Hon Hai Precision Industry Co Ltd",
+      "ticker": "2317 TT",
       "asset_type": "Equity",
       "weight": 0.0117,
-      "cusip": "02079K305",
-      "company": "cusip:02079K107"
-    },
-    {
-      "name": "Nvidia Corp",
-      "ticker": "NVDA",
-      "asset_type": "Equity",
-      "weight": 0.0116,
-      "cusip": "67066G104",
-      "company": "cusip:67066G104"
-    },
-    {
-      "name": "Asml Holding Nv",
-      "ticker": "ASML",
-      "asset_type": "Equity",
-      "weight": 0.0115,
-      "cusip": "N07059210",
-      "company": "cusip:N07059202"
+      "sedol": "6438564",
+      "company": "name:hon hai precision industry"
     },
     {
       "name": "Cadence Design Systems Inc",
@@ -366,12 +342,12 @@
       "company": "cusip:127387108"
     },
     {
-      "name": "Arqit Quantum Inc",
-      "ticker": "ARQQ",
+      "name": "Abb Ltd",
+      "ticker": "ABBN SW",
       "asset_type": "Equity",
       "weight": 0.0114,
-      "cusip": "G0567U127",
-      "company": "cusip:G0567U127"
+      "sedol": "7108899",
+      "company": "cusip:H0010V101"
     },
     {
       "name": "Lattice Semiconductor Corp",
@@ -385,7 +361,7 @@
       "name": "Alibaba Group Holding Ltd",
       "ticker": "BABA",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0113,
       "cusip": "01609W102",
       "company": "cusip:01609W102"
     },
@@ -393,57 +369,81 @@
       "name": "Cirrus Logic Inc",
       "ticker": "CRUS",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0112,
       "cusip": "172755100",
       "company": "cusip:172755100"
     },
     {
-      "name": "Tokyo Electron Ltd",
-      "ticker": "8035 JT",
+      "name": "Alphabet Inc",
+      "ticker": "GOOGL",
       "asset_type": "Equity",
-      "weight": 0.0109,
-      "sedol": "6895675",
-      "company": "name:tokyo electron"
+      "weight": 0.0112,
+      "cusip": "02079K305",
+      "company": "cusip:02079K107"
     },
     {
-      "name": "Micron Technology Inc",
-      "ticker": "MU",
+      "name": "Asml Holding Nv",
+      "ticker": "ASML",
       "asset_type": "Equity",
-      "weight": 0.0106,
-      "cusip": "595112103",
-      "company": "cusip:595112103"
+      "weight": 0.0111,
+      "cusip": "N07059210",
+      "company": "cusip:N07059202"
+    },
+    {
+      "name": "Nvidia Corp",
+      "ticker": "NVDA",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "cusip": "67066G104",
+      "company": "cusip:67066G104"
     },
     {
       "name": "Nve Corp",
       "ticker": "NVEC",
       "asset_type": "Equity",
-      "weight": 0.0105,
+      "weight": 0.0108,
       "cusip": "629445206",
       "company": "cusip:629445206"
     },
     {
-      "name": "Asm International Nv",
-      "ticker": "ASM NA",
+      "name": "Micron Technology Inc",
+      "ticker": "MU",
       "asset_type": "Equity",
-      "weight": 0.01,
-      "sedol": "5165294",
-      "company": "cusip:N07045201"
-    },
-    {
-      "name": "Applied Materials Inc",
-      "ticker": "AMAT",
-      "asset_type": "Equity",
-      "weight": 0.0098,
-      "cusip": "038222105",
-      "company": "cusip:038222105"
+      "weight": 0.0105,
+      "cusip": "595112103",
+      "company": "cusip:595112103"
     },
     {
       "name": "Microchip Technology Inc",
       "ticker": "MCHP",
       "asset_type": "Equity",
-      "weight": 0.0096,
+      "weight": 0.01,
       "cusip": "595017104",
       "company": "cusip:595017104"
+    },
+    {
+      "name": "Quantinuum Inc",
+      "ticker": "QNT",
+      "asset_type": "Equity",
+      "weight": 0.0099,
+      "cusip": "74768A104",
+      "company": "cusip:74768A104"
+    },
+    {
+      "name": "Tokyo Electron Ltd",
+      "ticker": "8035 JP",
+      "asset_type": "Equity",
+      "weight": 0.0097,
+      "sedol": "6895675",
+      "company": "name:tokyo electron"
+    },
+    {
+      "name": "Kla Corp",
+      "ticker": "KLAC",
+      "asset_type": "Equity",
+      "weight": 0.0096,
+      "cusip": "482480100",
+      "company": "cusip:482480100"
     },
     {
       "name": "Onto Innovation Inc",
@@ -454,34 +454,58 @@
       "company": "cusip:683344105"
     },
     {
-      "name": "Kla Corp",
-      "ticker": "KLAC",
+      "name": "Applied Materials Inc",
+      "ticker": "AMAT",
       "asset_type": "Equity",
       "weight": 0.0094,
-      "cusip": "482480100",
-      "company": "cusip:482480100"
+      "cusip": "038222105",
+      "company": "cusip:038222105"
     },
     {
-      "name": "Renesas Electronics Corp",
-      "ticker": "6723 JP",
+      "name": "Asm International Nv",
+      "ticker": "ASM NA",
       "asset_type": "Equity",
-      "weight": 0.0092,
-      "sedol": "6635677",
-      "company": "cusip:J4881V107"
+      "weight": 0.0094,
+      "sedol": "5165294",
+      "company": "cusip:N07045201"
     },
     {
       "name": "Teradyne Inc",
       "ticker": "TER",
       "asset_type": "Equity",
-      "weight": 0.0092,
+      "weight": 0.0093,
       "cusip": "880770102",
       "company": "cusip:880770102"
+    },
+    {
+      "name": "Coherent Corp",
+      "ticker": "COHR",
+      "asset_type": "Equity",
+      "weight": 0.0092,
+      "cusip": "19247G107",
+      "company": "cusip:19247G107"
+    },
+    {
+      "name": "Astera Labs Inc",
+      "ticker": "ALAB",
+      "asset_type": "Equity",
+      "weight": 0.0091,
+      "cusip": "04626A103",
+      "company": "cusip:04626A103"
+    },
+    {
+      "name": "Renesas Electronics Corp",
+      "ticker": "6723 JP",
+      "asset_type": "Equity",
+      "weight": 0.0088,
+      "sedol": "6635677",
+      "company": "cusip:J4881V107"
     },
     {
       "name": "Lam Research Corp",
       "ticker": "LRCX",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0087,
       "cusip": "512807306",
       "company": "cusip:512807306"
     },
@@ -489,31 +513,15 @@
       "name": "Mks Inc",
       "ticker": "MKSI",
       "asset_type": "Equity",
-      "weight": 0.0091,
+      "weight": 0.0087,
       "cusip": "55306N104",
       "company": "cusip:55306N104"
-    },
-    {
-      "name": "Quantinuum Inc",
-      "ticker": "QNT",
-      "asset_type": "Equity",
-      "weight": 0.0091,
-      "cusip": "74768A104",
-      "company": "cusip:74768A104"
-    },
-    {
-      "name": "Astera Labs Inc",
-      "ticker": "ALAB",
-      "asset_type": "Equity",
-      "weight": 0.0087,
-      "cusip": "04626A103",
-      "company": "cusip:04626A103"
     },
     {
       "name": "ON Semiconductor Corp",
       "ticker": "ON",
       "asset_type": "Equity",
-      "weight": 0.0084,
+      "weight": 0.0087,
       "cusip": "682189105",
       "company": "cusip:682189105"
     },
@@ -526,30 +534,6 @@
       "company": "cusip:861012102"
     },
     {
-      "name": "Coherent Corp",
-      "ticker": "COHR",
-      "asset_type": "Equity",
-      "weight": 0.0083,
-      "cusip": "19247G107",
-      "company": "cusip:19247G107"
-    },
-    {
-      "name": "Infineon Technologies Ag",
-      "ticker": "IFX GR",
-      "asset_type": "Equity",
-      "weight": 0.0083,
-      "sedol": "5889505",
-      "company": "cusip:D35415104"
-    },
-    {
-      "name": "Honeywell International Inc",
-      "ticker": "HON",
-      "asset_type": "Equity",
-      "weight": 0.0082,
-      "cusip": "438516205",
-      "company": "cusip:438516205"
-    },
-    {
       "name": "Nokia Oyj",
       "ticker": "NOK",
       "asset_type": "Equity",
@@ -558,58 +542,74 @@
       "company": "cusip:654902204"
     },
     {
-      "name": "Baidu Inc",
-      "ticker": "BIDU",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "cusip": "056752108",
-      "company": "cusip:056752108"
-    },
-    {
-      "name": "Oracle Corp",
-      "ticker": "ORCL",
-      "asset_type": "Equity",
-      "weight": 0.0081,
-      "cusip": "68389X105",
-      "company": "cusip:68389X105"
-    },
-    {
       "name": "Arm Holdings Plc",
       "ticker": "ARM",
       "asset_type": "Equity",
-      "weight": 0.0079,
+      "weight": 0.0081,
       "cusip": "042068205",
       "company": "cusip:042068205"
     },
     {
-      "name": "Tower Semiconductor Ltd",
-      "ticker": "TSEM",
+      "name": "Honeywell International Inc",
+      "ticker": "HON",
       "asset_type": "Equity",
-      "weight": 0.0079,
-      "cusip": "M87915274",
-      "company": "cusip:M87915274"
+      "weight": 0.0081,
+      "cusip": "438516205",
+      "company": "cusip:438516205"
     },
     {
       "name": "Marvell Technology Inc",
       "ticker": "MRVL",
       "asset_type": "Equity",
-      "weight": 0.0078,
+      "weight": 0.0081,
       "cusip": "573874104",
       "company": "cusip:573874104"
+    },
+    {
+      "name": "Tower Semiconductor Ltd",
+      "ticker": "TSEM",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "cusip": "M87915274",
+      "company": "cusip:M87915274"
+    },
+    {
+      "name": "Infineon Technologies Ag",
+      "ticker": "IFX GR",
+      "asset_type": "Equity",
+      "weight": 0.008,
+      "sedol": "5889505",
+      "company": "cusip:D35415104"
+    },
+    {
+      "name": "Baidu Inc",
+      "ticker": "BIDU",
+      "asset_type": "Equity",
+      "weight": 0.0079,
+      "cusip": "056752108",
+      "company": "cusip:056752108"
     },
     {
       "name": "Intel Corp",
       "ticker": "INTC",
       "asset_type": "Equity",
-      "weight": 0.0077,
+      "weight": 0.0078,
       "cusip": "458140100",
       "company": "cusip:458140100"
+    },
+    {
+      "name": "Oracle Corp",
+      "ticker": "ORCL",
+      "asset_type": "Equity",
+      "weight": 0.0077,
+      "cusip": "68389X105",
+      "company": "cusip:68389X105"
     },
     {
       "name": "Infleqtion Inc",
       "ticker": "INFQ",
       "asset_type": "Equity",
-      "weight": 0.007,
+      "weight": 0.0075,
       "cusip": "45676K103",
       "company": "cusip:45676K103"
     },
@@ -617,7 +617,7 @@
       "name": "Quantum Computing Inc",
       "ticker": "QUBT",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0074,
       "cusip": "74766W108",
       "company": "cusip:74766W108"
     },
@@ -630,18 +630,10 @@
       "company": "cusip:21873S108"
     },
     {
-      "name": "Nebius Group Nv",
-      "ticker": "NBIS",
-      "asset_type": "Equity",
-      "weight": 0.0062,
-      "cusip": "N97284108",
-      "company": "cusip:N97284108"
-    },
-    {
       "name": "Ionq Inc",
       "ticker": "IONQ",
       "asset_type": "Equity",
-      "weight": 0.0059,
+      "weight": 0.0064,
       "cusip": "46222L108",
       "company": "cusip:46222L108"
     },
@@ -649,47 +641,63 @@
       "name": "Rigetti Computing Inc",
       "ticker": "RGTI",
       "asset_type": "Equity",
-      "weight": 0.0058,
+      "weight": 0.0064,
       "cusip": "76655K103",
       "company": "cusip:76655K103"
+    },
+    {
+      "name": "Nebius Group Nv",
+      "ticker": "NBIS",
+      "asset_type": "Equity",
+      "weight": 0.0061,
+      "cusip": "N97284108",
+      "company": "cusip:N97284108"
     },
     {
       "name": "Honeywell Aerospace Inc",
       "ticker": "HONA",
       "asset_type": "Equity",
-      "weight": 0.0056,
+      "weight": 0.0059,
       "cusip": "43849R105",
       "company": "cusip:43849R105"
-    },
-    {
-      "name": "Quantum Emotion Corp",
-      "ticker": "QNC",
-      "asset_type": "Equity",
-      "weight": 0.0044,
-      "cusip": "74767K103",
-      "company": "cusip:74767K103"
-    },
-    {
-      "name": "D-wave Quantum Inc",
-      "ticker": "QBTS",
-      "asset_type": "Equity",
-      "weight": 0.0043,
-      "cusip": "26740W109",
-      "company": "cusip:26740W109"
     },
     {
       "name": "Btq Technologies Corp",
       "ticker": "BTQ",
       "asset_type": "Equity",
-      "weight": 0.0038,
+      "weight": 0.0047,
       "cusip": "055869101",
       "company": "cusip:055869101"
+    },
+    {
+      "name": "D-wave Quantum Inc",
+      "ticker": "QBTS",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "cusip": "26740W109",
+      "company": "cusip:26740W109"
+    },
+    {
+      "name": "Quantum Emotion Corp",
+      "ticker": "QNC",
+      "asset_type": "Equity",
+      "weight": 0.0047,
+      "cusip": "74767K103",
+      "company": "cusip:74767K103"
+    },
+    {
+      "name": "Xanadu Quantum Technologies Ltd",
+      "ticker": "XNDU",
+      "asset_type": "Equity",
+      "weight": 0.0032,
+      "cusip": "98390R102",
+      "company": "cusip:98390R102"
     },
     {
       "name": "First American Government Obligations Fund 12/01/2031",
       "ticker": "FGXXX",
       "asset_type": "Equity",
-      "weight": 0.0022,
+      "weight": 0.0018,
       "cusip": "31846V336",
       "company": "cusip:31846V336"
     },
@@ -697,16 +705,15 @@
       "name": "Cash & Other",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.0022,
+      "weight": 0.0011,
       "company": null
     },
     {
-      "name": "Xanadu Quantum Technologies Ltd",
-      "ticker": "XNDU",
-      "asset_type": "Equity",
-      "weight": 0.0019,
-      "cusip": "98390R102",
-      "company": "cusip:98390R102"
+      "name": "Japanese Yen",
+      "ticker": null,
+      "asset_type": "Cash",
+      "weight": 0.0002,
+      "company": null
     },
     {
       "name": "Euro",

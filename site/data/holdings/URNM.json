@@ -1,7 +1,7 @@
 {
   "ticker": "URNM",
-  "as_of": "2026-11-25",
-  "fetched_at": "2026-11-27T04:32:39.058380+00:00",
+  "as_of": "2026-11-27",
+  "fetched_at": "2026-11-28T04:13:45.131745+00:00",
   "stale": false,
   "source": "https://sprottetfs.com/urnm-sprott-uranium-miners-etf",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "Cameco Corp.",
       "ticker": "CCJ",
       "asset_type": "Equity",
-      "weight": 0.1983,
+      "weight": 0.1944,
       "sedol": "2158684",
       "company": "cusip:13321L108"
     },
@@ -17,7 +17,7 @@
       "name": "Sprott Physical Uranium Trust",
       "ticker": "U-U CN",
       "asset_type": "Equity",
-      "weight": 0.1967,
+      "weight": 0.1902,
       "sedol": "BNZKG52",
       "company": "name:sprott physical uranium tr"
     },
@@ -25,23 +25,15 @@
       "name": "NexGen Energy Ltd.",
       "ticker": "NXE",
       "asset_type": "Equity",
-      "weight": 0.1346,
+      "weight": 0.134,
       "sedol": "BCH0BB4",
       "company": "cusip:65340P106"
-    },
-    {
-      "name": "Yellow Cake PLC",
-      "ticker": "YCA LN",
-      "asset_type": "Equity",
-      "weight": 0.0517,
-      "sedol": "BF50RG4",
-      "company": "name:yellow cake"
     },
     {
       "name": "NAC Kazatomprom JSC",
       "ticker": "KAP LI",
       "asset_type": "Equity",
-      "weight": 0.05,
+      "weight": 0.0531,
       "sedol": "BGXQL36",
       "company": "name:nac kazatomprom jsc"
     },
@@ -49,63 +41,71 @@
       "name": "CGN Mining Co. Ltd.",
       "ticker": "1164 HK",
       "asset_type": "Equity",
-      "weight": 0.0489,
+      "weight": 0.052,
       "sedol": "B755514",
       "company": "name:cgn mining"
+    },
+    {
+      "name": "Yellow Cake PLC",
+      "ticker": "YCA LN",
+      "asset_type": "Equity",
+      "weight": 0.0511,
+      "sedol": "BF50RG4",
+      "company": "name:yellow cake"
     },
     {
       "name": "Denison Mines Corp.",
       "ticker": "DNN",
       "asset_type": "Equity",
-      "weight": 0.0399,
+      "weight": 0.0406,
       "sedol": "B0122F3",
       "company": "cusip:248356107"
-    },
-    {
-      "name": "Uranium Energy Corp.",
-      "ticker": "UEC",
-      "asset_type": "Equity",
-      "weight": 0.0376,
-      "sedol": "B0VLLY2",
-      "company": "cusip:916896103"
     },
     {
       "name": "Paladin Energy Ltd.",
       "ticker": "PDN AU",
       "asset_type": "Equity",
-      "weight": 0.0353,
+      "weight": 0.0381,
       "sedol": "6668468",
       "company": "name:paladin energy"
+    },
+    {
+      "name": "Uranium Energy Corp.",
+      "ticker": "UEC",
+      "asset_type": "Equity",
+      "weight": 0.0373,
+      "sedol": "B0VLLY2",
+      "company": "cusip:916896103"
     },
     {
       "name": "Bannerman Energy Ltd.",
       "ticker": "BMN AU",
       "asset_type": "Equity",
-      "weight": 0.0323,
+      "weight": 0.0327,
       "sedol": "B07DXJ1",
       "company": "name:bannerman energy"
-    },
-    {
-      "name": "Boss Energy Ltd.",
-      "ticker": "BOE AU",
-      "asset_type": "Equity",
-      "weight": 0.0281,
-      "sedol": "B1XLCQ6",
-      "company": "name:boss energy"
     },
     {
       "name": "Energy Fuels Inc.",
       "ticker": "UUUU",
       "asset_type": "Equity",
-      "weight": 0.0275,
+      "weight": 0.0284,
       "sedol": "BFV4XW8",
       "company": "name:energy fuels@canada"
+    },
+    {
+      "name": "Boss Energy Ltd.",
+      "ticker": "BOE AU",
+      "asset_type": "Equity",
+      "weight": 0.0279,
+      "sedol": "B1XLCQ6",
+      "company": "name:boss energy"
     },
     {
       "name": "Deep Yellow Ltd.",
       "ticker": "DYL AU",
       "asset_type": "Equity",
-      "weight": 0.0264,
+      "weight": 0.0272,
       "sedol": "6480275",
       "company": "name:deep yellow"
     },
@@ -113,7 +113,7 @@
       "name": "IsoEnergy Ltd.",
       "ticker": "ISO CN",
       "asset_type": "Equity",
-      "weight": 0.0206,
+      "weight": 0.0214,
       "sedol": "BTTRKM6",
       "company": "name:isoenergy"
     },
@@ -121,7 +121,7 @@
       "name": "Ur-Energy Inc.",
       "ticker": "URG",
       "asset_type": "Equity",
-      "weight": 0.014,
+      "weight": 0.0138,
       "sedol": "B0WW4L2",
       "company": "cusip:91688R108"
     },
@@ -129,23 +129,15 @@
       "name": "Atha Energy Corp.",
       "ticker": "SASK CN",
       "asset_type": "Equity",
-      "weight": 0.0112,
+      "weight": 0.0115,
       "sedol": "BNQNDF9",
       "company": "name:atha energy"
-    },
-    {
-      "name": "Encore Energy Corp.",
-      "ticker": "EU CN",
-      "asset_type": "Equity",
-      "weight": 0.0082,
-      "sedol": "BN48958",
-      "company": "cusip:29259W700"
     },
     {
       "name": "Global Atomic Corp.",
       "ticker": "GLO CN",
       "asset_type": "Equity",
-      "weight": 0.008,
+      "weight": 0.0084,
       "sedol": "BF11BK3",
       "company": "name:global atomic"
     },
@@ -153,15 +145,23 @@
       "name": "Mega Uranium Ltd.",
       "ticker": "MGA CN",
       "asset_type": "Equity",
-      "weight": 0.0075,
+      "weight": 0.0076,
       "sedol": "2817833",
       "company": "name:mega uranium"
+    },
+    {
+      "name": "Encore Energy Corp.",
+      "ticker": "EU CN",
+      "asset_type": "Equity",
+      "weight": 0.0075,
+      "sedol": "BN48958",
+      "company": "cusip:29259W700"
     },
     {
       "name": "Alligator Energy Ltd.",
       "ticker": "AGE AU",
       "asset_type": "Equity",
-      "weight": 0.0067,
+      "weight": 0.0065,
       "sedol": "B55ZH25",
       "company": "name:alligator energy"
     },
@@ -169,7 +169,7 @@
       "name": "Lotus Resources Ltd.",
       "ticker": "LOT AU",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0044,
       "sedol": "BK6XLC1",
       "company": "name:lotus resources"
     },
@@ -177,7 +177,7 @@
       "name": "Laramide Resources Ltd.",
       "ticker": "LAM CN",
       "asset_type": "Equity",
-      "weight": 0.0044,
+      "weight": 0.0043,
       "sedol": "2507952",
       "company": "name:laramide resources"
     },
@@ -185,7 +185,7 @@
       "name": "Peninsula Energy Ltd.",
       "ticker": "PEN AU",
       "asset_type": "Equity",
-      "weight": 0.0039,
+      "weight": 0.0036,
       "sedol": "6486381",
       "company": "name:peninsula energy"
     },
@@ -193,7 +193,7 @@
       "name": "Eagle Nuclear Energy Corp.",
       "ticker": "NUCL",
       "asset_type": "Equity",
-      "weight": 0.0026,
+      "weight": 0.0028,
       "sedol": "BSRFLX3",
       "company": "name:eagle nuclear energy"
     },
@@ -209,7 +209,7 @@
       "name": "Cash Equivalent",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": 0.001,
+      "weight": 0.0011,
       "company": null
     }
   ]

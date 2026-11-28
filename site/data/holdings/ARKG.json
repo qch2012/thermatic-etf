@@ -1,7 +1,7 @@
 {
   "ticker": "ARKG",
-  "as_of": "2026-11-25",
-  "fetched_at": "2026-11-27T04:31:53.686853+00:00",
+  "as_of": "2026-11-27",
+  "fetched_at": "2026-11-28T04:12:57.922131+00:00",
   "stale": false,
   "source": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
   "holdings": [
@@ -9,7 +9,7 @@
       "name": "TWIST BIOSCIENCE CORP",
       "ticker": "TWST",
       "asset_type": "Equity",
-      "weight": 0.0825,
+      "weight": 0.0833,
       "cusip": "90184D100",
       "company": "cusip:90184D100"
     },
@@ -17,7 +17,7 @@
       "name": "TEMPUS AI INC-CL A",
       "ticker": "TEM",
       "asset_type": "Equity",
-      "weight": 0.0798,
+      "weight": 0.0809,
       "cusip": "88023B103",
       "company": "cusip:88023B103"
     },
@@ -25,7 +25,7 @@
       "name": "10X GENOMICS INC-CLASS A",
       "ticker": "TXG",
       "asset_type": "Equity",
-      "weight": 0.076,
+      "weight": 0.075,
       "cusip": "88025U109",
       "company": "cusip:88025U109"
     },
@@ -33,7 +33,7 @@
       "name": "CRISPR THERAPEUTICS AG",
       "ticker": "CRSP",
       "asset_type": "Equity",
-      "weight": 0.0582,
+      "weight": 0.0571,
       "cusip": "H17182108",
       "company": "cusip:H17182108"
     },
@@ -41,7 +41,7 @@
       "name": "ABSCI CORP",
       "ticker": "ABSI",
       "asset_type": "Equity",
-      "weight": 0.0527,
+      "weight": 0.0525,
       "cusip": "00091E109",
       "company": "cusip:00091E109"
     },
@@ -49,7 +49,7 @@
       "name": "GUARDANT HEALTH INC",
       "ticker": "GH",
       "asset_type": "Equity",
-      "weight": 0.0513,
+      "weight": 0.0506,
       "cusip": "40131M109",
       "company": "cusip:40131M109"
     },
@@ -57,25 +57,25 @@
       "name": "ELI LILLY & CO",
       "ticker": "LLY",
       "asset_type": "Equity",
-      "weight": 0.0471,
+      "weight": 0.0473,
       "cusip": "532457108",
       "company": "cusip:532457108"
-    },
-    {
-      "name": "ILLUMINA INC",
-      "ticker": "ILMN",
-      "asset_type": "Equity",
-      "weight": 0.0459,
-      "cusip": "452327109",
-      "company": "cusip:452327109"
     },
     {
       "name": "NATERA INC",
       "ticker": "NTRA",
       "asset_type": "Equity",
-      "weight": 0.0453,
+      "weight": 0.0464,
       "cusip": "632307104",
       "company": "cusip:632307104"
+    },
+    {
+      "name": "ILLUMINA INC",
+      "ticker": "ILMN",
+      "asset_type": "Equity",
+      "weight": 0.0456,
+      "cusip": "452327109",
+      "company": "cusip:452327109"
     },
     {
       "name": "BEAM THERAPEUTICS INC",
@@ -89,7 +89,7 @@
       "name": "CAREDX INC",
       "ticker": "CDNA",
       "asset_type": "Equity",
-      "weight": 0.0343,
+      "weight": 0.034,
       "cusip": "14167L103",
       "company": "cusip:14167L103"
     },
@@ -97,7 +97,7 @@
       "name": "SCHRODINGER INC",
       "ticker": "SDGR",
       "asset_type": "Equity",
-      "weight": 0.0325,
+      "weight": 0.0321,
       "cusip": "80810D103",
       "company": "cusip:80810D103"
     },
@@ -105,7 +105,7 @@
       "name": "COMPASS PATHWAYS PLC",
       "ticker": "CMPS",
       "asset_type": "Equity",
-      "weight": 0.0283,
+      "weight": 0.0286,
       "cusip": "20451W101",
       "company": "cusip:20451W101"
     },
@@ -113,7 +113,7 @@
       "name": "ADAPTIVE BIOTECHNOLOGIES",
       "ticker": "ADPT",
       "asset_type": "Equity",
-      "weight": 0.0273,
+      "weight": 0.0271,
       "cusip": "00650F109",
       "company": "cusip:00650F109"
     },
@@ -121,17 +121,17 @@
       "name": "VERACYTE INC",
       "ticker": "VCYT",
       "asset_type": "Equity",
-      "weight": 0.0263,
+      "weight": 0.0261,
       "cusip": "92337F107",
       "company": "cusip:92337F107"
     },
     {
-      "name": "RECURSION PHARMACEUTICALS-A",
-      "ticker": "RXRX",
+      "name": "NURIX THERAPEUTICS INC",
+      "ticker": "NRIX",
       "asset_type": "Equity",
-      "weight": 0.0223,
-      "cusip": "75629V104",
-      "company": "cusip:75629V104"
+      "weight": 0.0224,
+      "cusip": "67080M103",
+      "company": "cusip:67080M103"
     },
     {
       "name": "PRIME MEDICINE INC",
@@ -142,18 +142,18 @@
       "company": "cusip:74168J101"
     },
     {
-      "name": "NURIX THERAPEUTICS INC",
-      "ticker": "NRIX",
+      "name": "RECURSION PHARMACEUTICALS-A",
+      "ticker": "RXRX",
       "asset_type": "Equity",
-      "weight": 0.0219,
-      "cusip": "67080M103",
-      "company": "cusip:67080M103"
+      "weight": 0.0222,
+      "cusip": "75629V104",
+      "company": "cusip:75629V104"
     },
     {
       "name": "ALAMAR BIOSCIENCES INC",
       "ticker": "ALMR",
       "asset_type": "Equity",
-      "weight": 0.0191,
+      "weight": 0.0187,
       "cusip": "010911105",
       "company": "cusip:010911105"
     },
@@ -161,7 +161,7 @@
       "name": "INTELLIA THERAPEUTICS INC",
       "ticker": "NTLA",
       "asset_type": "Equity",
-      "weight": 0.0189,
+      "weight": 0.0183,
       "cusip": "45826J105",
       "company": "cusip:45826J105"
     },
@@ -169,7 +169,7 @@
       "name": "GENEDX HOLDINGS CORP",
       "ticker": "WGS",
       "asset_type": "Equity",
-      "weight": 0.0161,
+      "weight": 0.016,
       "cusip": "81663L200",
       "company": "cusip:81663L200"
     },
@@ -177,23 +177,15 @@
       "name": "BUTTERFLY NETWORK INC",
       "ticker": "BFLY",
       "asset_type": "Equity",
-      "weight": 0.0159,
+      "weight": 0.0158,
       "cusip": "124155102",
       "company": "cusip:124155102"
-    },
-    {
-      "name": "IAMBIC THERAPEUTICS INC",
-      "ticker": "IAM",
-      "asset_type": "Equity",
-      "weight": 0.0154,
-      "cusip": "45076A101",
-      "company": "cusip:45076A101"
     },
     {
       "name": "IONIS PHARMACEUTICALS INC",
       "ticker": "IONS",
       "asset_type": "Equity",
-      "weight": 0.015,
+      "weight": 0.0153,
       "cusip": "462222100",
       "company": "cusip:462222100"
     },
@@ -201,64 +193,72 @@
       "name": "ARCTURUS THERAPEUTICS HOLDIN",
       "ticker": "ARCT UQ",
       "asset_type": "Equity",
-      "weight": 0.0149,
+      "weight": 0.015,
       "cusip": "03969T109",
       "company": "cusip:03969T109"
     },
     {
-      "name": "SCRIBE THERAPEUTICS INC",
-      "ticker": "SCTX",
+      "name": "IAMBIC THERAPEUTICS INC",
+      "ticker": "IAM",
       "asset_type": "Equity",
-      "weight": 0.0119,
-      "cusip": "811033109",
-      "company": "cusip:811033109"
-    },
-    {
-      "name": "KYMERA THERAPEUTICS INC",
-      "ticker": "KYMR",
-      "asset_type": "Equity",
-      "weight": 0.0118,
-      "cusip": "501575104",
-      "company": "cusip:501575104"
+      "weight": 0.0147,
+      "cusip": "45076A101",
+      "company": "cusip:45076A101"
     },
     {
       "name": "ANTHROPIC PBC-CL A",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.0115,
+      "weight": 0.0132,
       "company": null
+    },
+    {
+      "name": "KYMERA THERAPEUTICS INC",
+      "ticker": "KYMR",
+      "asset_type": "Equity",
+      "weight": 0.012,
+      "cusip": "501575104",
+      "company": "cusip:501575104"
     },
     {
       "name": "PACIFIC BIOSCIENCES OF CALIF",
       "ticker": "PACB",
       "asset_type": "Equity",
-      "weight": 0.0115,
+      "weight": 0.0112,
       "cusip": "69404D108",
       "company": "cusip:69404D108"
+    },
+    {
+      "name": "SCRIBE THERAPEUTICS INC",
+      "ticker": "SCTX",
+      "asset_type": "Equity",
+      "weight": 0.0109,
+      "cusip": "811033109",
+      "company": "cusip:811033109"
     },
     {
       "name": "908 DEVICES INC",
       "ticker": "MASS",
       "asset_type": "Equity",
-      "weight": 0.0104,
+      "weight": 0.0106,
       "cusip": "65443P102",
       "company": "cusip:65443P102"
-    },
-    {
-      "name": "FREENOME INC",
-      "ticker": "FRNM",
-      "asset_type": "Equity",
-      "weight": 0.0099,
-      "cusip": "35661P100",
-      "company": "cusip:35661P100"
     },
     {
       "name": "GENERATE BIOMEDICINES INC",
       "ticker": "GENB",
       "asset_type": "Equity",
-      "weight": 0.0099,
+      "weight": 0.0104,
       "cusip": "370920100",
       "company": "cusip:370920100"
+    },
+    {
+      "name": "FREENOME INC",
+      "ticker": "FRNM",
+      "asset_type": "Equity",
+      "weight": 0.0097,
+      "cusip": "35661P100",
+      "company": "cusip:35661P100"
     },
     {
       "name": "CERUS CORP",
@@ -272,7 +272,7 @@
       "name": "QUANTUM-SI INC",
       "ticker": "QSI",
       "asset_type": "Equity",
-      "weight": 0.0036,
+      "weight": 0.0035,
       "cusip": "74765K105",
       "company": "cusip:74765K105"
     },
@@ -280,7 +280,7 @@
       "name": "GOLDMAN FS TRSY OBLIG INST 468",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.002,
+      "weight": 0.0031,
       "company": null
     }
   ]

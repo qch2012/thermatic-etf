@@ -1,122 +1,10 @@
 {
   "ticker": "FINX",
-  "as_of": "2026-11-25",
-  "fetched_at": "2026-11-27T04:32:14.317113+00:00",
+  "as_of": "2026-11-27",
+  "fetched_at": "2026-11-28T04:13:15.743330+00:00",
   "stale": false,
   "source": "https://assets.globalxetfs.com/funds/holdings/finx_full-holdings_{date}.csv",
   "holdings": [
-    {
-      "name": "KEEL INFRASTRUCTURE CORP",
-      "ticker": "KEEL",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "sedol": "BWFJDH3",
-      "company": "cusip:486917107"
-    },
-    {
-      "name": "MITEK SYSTEMS INC",
-      "ticker": "MITK",
-      "asset_type": "Equity",
-      "weight": 0.0016,
-      "sedol": "2597072",
-      "company": "name:mitek systems"
-    },
-    {
-      "name": "IRESS LTD",
-      "ticker": "IRE AU",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "sedol": "6297497",
-      "company": "name:iress"
-    },
-    {
-      "name": "PRIORITY TECHNOLOGY HOLDINGS",
-      "ticker": "PRTH",
-      "asset_type": "Equity",
-      "weight": 0.0013,
-      "sedol": "BZ9NRB4",
-      "company": "name:priority technology holdings"
-    },
-    {
-      "name": "HYPOPORT SE",
-      "ticker": "HYQ GR",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "B28XLF6",
-      "company": "name:hypoport"
-    },
-    {
-      "name": "LINKLOGIS INC-CLASS B",
-      "ticker": "9959 HK",
-      "asset_type": "Equity",
-      "weight": 0.0012,
-      "sedol": "BKSCMF6",
-      "company": "name:linklogis"
-    },
-    {
-      "name": "LUFAX HOLDING LTD-ADR",
-      "ticker": "LU",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "sedol": "BN4KB14",
-      "company": "name:lufax holding"
-    },
-    {
-      "name": "LINE PAY TAIWAN LTD",
-      "ticker": "7722 TT",
-      "asset_type": "Equity",
-      "weight": 0.0011,
-      "sedol": "BQXRSH2",
-      "company": "name:line pay taiwan"
-    },
-    {
-      "name": "LENDINGTREE INC",
-      "ticker": "TREE",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "sedol": "BV8TD84",
-      "company": "name:lendingtree"
-    },
-    {
-      "name": "COINSHARES PLC",
-      "ticker": "CSHR",
-      "asset_type": "Equity",
-      "weight": 0.001,
-      "sedol": "BS6SC52",
-      "company": "name:coinshares"
-    },
-    {
-      "name": "BITGO HOLDINGS INC-CL A",
-      "ticker": "BTGO",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BTY39L1",
-      "company": "cusip:091947101"
-    },
-    {
-      "name": "CHAINCE DIGITAL HOLDINGS INC",
-      "ticker": "CD",
-      "asset_type": "Equity",
-      "weight": 0.0008,
-      "sedol": "BQMRYT7",
-      "company": "name:chaince digital holdings"
-    },
-    {
-      "name": "NHN KCP CORP",
-      "ticker": "060250 KS",
-      "asset_type": "Equity",
-      "weight": 0.0007,
-      "sedol": "6434562",
-      "company": "name:nhn kcp"
-    },
-    {
-      "name": "REPAY HOLDINGS CORP",
-      "ticker": "RPAY",
-      "asset_type": "Equity",
-      "weight": 0.0006,
-      "sedol": "BK5TLP3",
-      "company": "cusip:76029L100"
-    },
     {
       "name": "BLEND LABS INC-A",
       "ticker": "BLND",
@@ -134,20 +22,20 @@
       "company": "name:yeahka"
     },
     {
+      "name": "PAYSAFE LTD",
+      "ticker": "PSFE",
+      "asset_type": "Equity",
+      "weight": 0.0004,
+      "sedol": "BPCPXY2",
+      "company": "name:paysafe"
+    },
+    {
       "name": "GREEN WORLD FIN TECH SERVICE",
       "ticker": "6763 TT",
       "asset_type": "Equity",
       "weight": 0.0003,
       "sedol": "BK7KCS4",
       "company": "name:green world fin tech service"
-    },
-    {
-      "name": "PAYSAFE LTD",
-      "ticker": "PSFE",
-      "asset_type": "Equity",
-      "weight": 0.0003,
-      "sedol": "BPCPXY2",
-      "company": "name:paysafe"
     },
     {
       "name": "LIANLIAN DIGITECH CO LTD-H",
@@ -174,13 +62,6 @@
       "company": "name:gemini space station"
     },
     {
-      "name": "OTHER PAYABLE & RECEIVABLES",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0001,
-      "company": null
-    },
-    {
       "name": "AMERICAN BITCOIN CORP-A",
       "ticker": "ABTC",
       "asset_type": "Equity",
@@ -200,40 +81,151 @@
       "name": "CASH",
       "ticker": null,
       "asset_type": "Cash",
+      "weight": -0.0,
+      "company": null
+    },
+    {
+      "name": "OTHER PAYABLE & RECEIVABLES",
+      "ticker": null,
+      "asset_type": "Cash",
       "weight": -0.0001,
       "company": null
     },
     {
-      "name": "HUB24 LTD",
-      "ticker": "HUB AU",
+      "name": "MITEK SYSTEMS INC",
+      "ticker": "MITK",
       "asset_type": "Equity",
-      "weight": 0.008,
-      "sedol": "BD4T5X1",
-      "company": "name:hub24"
+      "weight": 0.0016,
+      "sedol": "2597072",
+      "company": "name:mitek systems"
+    },
+    {
+      "name": "KEEL INFRASTRUCTURE CORP",
+      "ticker": "KEEL",
+      "asset_type": "Equity",
+      "weight": 0.0016,
+      "sedol": "BWFJDH3",
+      "company": "cusip:486917107"
+    },
+    {
+      "name": "IRESS LTD",
+      "ticker": "IRE AU",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "sedol": "6297497",
+      "company": "name:iress"
+    },
+    {
+      "name": "PRIORITY TECHNOLOGY HOLDINGS",
+      "ticker": "PRTH",
+      "asset_type": "Equity",
+      "weight": 0.0013,
+      "sedol": "BZ9NRB4",
+      "company": "name:priority technology holdings"
+    },
+    {
+      "name": "LINKLOGIS INC-CLASS B",
+      "ticker": "9959 HK",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "BKSCMF6",
+      "company": "name:linklogis"
+    },
+    {
+      "name": "HYPOPORT SE",
+      "ticker": "HYQ GR",
+      "asset_type": "Equity",
+      "weight": 0.0012,
+      "sedol": "B28XLF6",
+      "company": "name:hypoport"
+    },
+    {
+      "name": "LUFAX HOLDING LTD-ADR",
+      "ticker": "LU",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "sedol": "BN4KB14",
+      "company": "name:lufax holding"
+    },
+    {
+      "name": "LENDINGTREE INC",
+      "ticker": "TREE",
+      "asset_type": "Equity",
+      "weight": 0.0011,
+      "sedol": "BV8TD84",
+      "company": "name:lendingtree"
+    },
+    {
+      "name": "LINE PAY TAIWAN LTD",
+      "ticker": "7722 TT",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "BQXRSH2",
+      "company": "name:line pay taiwan"
+    },
+    {
+      "name": "COINSHARES PLC",
+      "ticker": "CSHR",
+      "asset_type": "Equity",
+      "weight": 0.001,
+      "sedol": "BS6SC52",
+      "company": "name:coinshares"
+    },
+    {
+      "name": "BITGO HOLDINGS INC-CL A",
+      "ticker": "BTGO",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "sedol": "BTY39L1",
+      "company": "cusip:091947101"
+    },
+    {
+      "name": "CHAINCE DIGITAL HOLDINGS INC",
+      "ticker": "CD",
+      "asset_type": "Equity",
+      "weight": 0.0009,
+      "sedol": "BQMRYT7",
+      "company": "name:chaince digital holdings"
+    },
+    {
+      "name": "NHN KCP CORP",
+      "ticker": "060250 KS",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "6434562",
+      "company": "name:nhn kcp"
+    },
+    {
+      "name": "REPAY HOLDINGS CORP",
+      "ticker": "RPAY",
+      "asset_type": "Equity",
+      "weight": 0.0007,
+      "sedol": "BK5TLP3",
+      "company": "cusip:76029L100"
     },
     {
       "name": "SHIFT4 PAYMENTS INC-CLASS A",
       "ticker": "FOUR",
       "asset_type": "Equity",
-      "weight": 0.0072,
+      "weight": 0.0074,
       "sedol": "BLF0L75",
       "company": "cusip:82452J109"
-    },
-    {
-      "name": "KAKAOPAY CORP",
-      "ticker": "377300 KS",
-      "asset_type": "Equity",
-      "weight": 0.0071,
-      "sedol": "BP8ZCS3",
-      "company": "name:kakaopay"
     },
     {
       "name": "CORE SCIENTIFIC INC",
       "ticker": "CORZ",
       "asset_type": "Equity",
-      "weight": 0.0069,
+      "weight": 0.0071,
       "sedol": "BN70TG2",
       "company": "cusip:21874A106"
+    },
+    {
+      "name": "KAKAOPAY CORP",
+      "ticker": "377300 KS",
+      "asset_type": "Equity",
+      "weight": 0.0067,
+      "sedol": "BP8ZCS3",
+      "company": "name:kakaopay"
     },
     {
       "name": "BULLISH",
@@ -271,7 +263,7 @@
       "name": "PAYONEER GLOBAL INC",
       "ticker": "PAYO",
       "asset_type": "Equity",
-      "weight": 0.005,
+      "weight": 0.0049,
       "sedol": "BLSPX60",
       "company": "cusip:70451X104"
     },
@@ -279,7 +271,7 @@
       "name": "CIPHER DIGITAL INC",
       "ticker": "CIFR",
       "asset_type": "Equity",
-      "weight": 0.0045,
+      "weight": 0.0046,
       "sedol": "BMZ8604",
       "company": "cusip:17253J106"
     },
@@ -295,7 +287,7 @@
       "name": "PAYMENTUS HOLDINGS INC-A",
       "ticker": "PAY",
       "asset_type": "Equity",
-      "weight": 0.0043,
+      "weight": 0.0044,
       "sedol": "BMBP1P9",
       "company": "cusip:70439P108"
     },
@@ -319,9 +311,17 @@
       "name": "STONECO LTD-A",
       "ticker": "STNE",
       "asset_type": "Equity",
-      "weight": 0.004,
+      "weight": 0.0041,
       "sedol": "BGKG6M3",
       "company": "name:stoneco"
+    },
+    {
+      "name": "NAYAX LTD",
+      "ticker": "NYAX IT",
+      "asset_type": "Equity",
+      "weight": 0.0036,
+      "sedol": "BMXT7N9",
+      "company": "name:nayax"
     },
     {
       "name": "HAPPEN INC",
@@ -348,20 +348,12 @@
       "company": "cusip:91680M107"
     },
     {
-      "name": "NAYAX LTD",
-      "ticker": "NYAX IT",
+      "name": "ZIP CO LTD",
+      "ticker": "ZIPDC AU",
       "asset_type": "Equity",
-      "weight": 0.0034,
-      "sedol": "BMXT7N9",
-      "company": "name:nayax"
-    },
-    {
-      "name": "VERTEX INC - CLASS A",
-      "ticker": "VERX",
-      "asset_type": "Equity",
-      "weight": 0.003,
-      "sedol": "BMX6DM1",
-      "company": "name:vertex"
+      "weight": 0.0031,
+      "sedol": "C0GX465",
+      "company": "name:zip"
     },
     {
       "name": "K BANK CO LTD",
@@ -372,18 +364,18 @@
       "company": "name:k bank"
     },
     {
-      "name": "ZIP CO LTD",
-      "ticker": "ZIPDC AU",
+      "name": "VERTEX INC - CLASS A",
+      "ticker": "VERX",
       "asset_type": "Equity",
       "weight": 0.0029,
-      "sedol": "C0GX465",
-      "company": "name:zip"
+      "sedol": "BMX6DM1",
+      "company": "name:vertex"
     },
     {
       "name": "HYPERLIQUID STRATEGIES",
       "ticker": "PURR",
       "asset_type": "Equity",
-      "weight": 0.0028,
+      "weight": 0.0029,
       "sedol": "BVLJ392",
       "company": "name:hyperliquid strategies"
     },
@@ -391,7 +383,7 @@
       "name": "PAGSEGURO DIGITAL LTD-CL A",
       "ticker": "PAGS",
       "asset_type": "Equity",
-      "weight": 0.0027,
+      "weight": 0.0028,
       "sedol": "BFWK4R7",
       "company": "cusip:G68707101"
     },
@@ -415,7 +407,7 @@
       "name": "OSL GROUP LTD",
       "ticker": "863 HK",
       "asset_type": "Equity",
-      "weight": 0.0019,
+      "weight": 0.0017,
       "sedol": "BKPSJS9",
       "company": "name:osl group"
     },
@@ -431,7 +423,7 @@
       "name": "BLOCK INC",
       "ticker": "XYZ",
       "asset_type": "Equity",
-      "weight": 0.0756,
+      "weight": 0.0754,
       "sedol": "BYNZGK1",
       "company": "cusip:852234103"
     },
@@ -439,7 +431,7 @@
       "name": "FISERV INC",
       "ticker": "FISV",
       "asset_type": "Equity",
-      "weight": 0.0627,
+      "weight": 0.063,
       "sedol": "2342034",
       "company": "cusip:337738108"
     },
@@ -447,7 +439,7 @@
       "name": "ROBINHOOD MARKETS INC - A",
       "ticker": "HOOD",
       "asset_type": "Equity",
-      "weight": 0.0548,
+      "weight": 0.0552,
       "sedol": "BP0TQN6",
       "company": "cusip:770700102"
     },
@@ -455,7 +447,7 @@
       "name": "GLOBAL PAYMENTS INC",
       "ticker": "GPN",
       "asset_type": "Equity",
-      "weight": 0.0547,
+      "weight": 0.0539,
       "sedol": "2712013",
       "company": "cusip:37940X102"
     },
@@ -463,7 +455,7 @@
       "name": "ADYEN NV",
       "ticker": "ADYEN NA",
       "asset_type": "Equity",
-      "weight": 0.0426,
+      "weight": 0.0441,
       "sedol": "BZ1HM42",
       "company": "cusip:N3501V104"
     },
@@ -471,7 +463,7 @@
       "name": "INTUIT INC",
       "ticker": "INTU",
       "asset_type": "Equity",
-      "weight": 0.039,
+      "weight": 0.0381,
       "sedol": "2459020",
       "company": "cusip:461202103"
     },
@@ -479,9 +471,17 @@
       "name": "SS&C TECHNOLOGIES HOLDINGS",
       "ticker": "SSNC",
       "asset_type": "Equity",
-      "weight": 0.0386,
+      "weight": 0.0377,
       "sedol": "B58YSC6",
       "company": "name:ss c technologies holdings"
+    },
+    {
+      "name": "TOAST INC-CLASS A",
+      "ticker": "TOST",
+      "asset_type": "Equity",
+      "weight": 0.036,
+      "sedol": "BP6D7B7",
+      "company": "cusip:888787108"
     },
     {
       "name": "AFFIRM HOLDINGS INC",
@@ -492,12 +492,12 @@
       "company": "name:affirm holdings"
     },
     {
-      "name": "TOAST INC-CLASS A",
-      "ticker": "TOST",
+      "name": "COINBASE GLOBAL INC -CLASS A",
+      "ticker": "COIN",
       "asset_type": "Equity",
-      "weight": 0.0359,
-      "sedol": "BP6D7B7",
-      "company": "cusip:888787108"
+      "weight": 0.0341,
+      "sedol": "BMC9P69",
+      "company": "cusip:19260Q107"
     },
     {
       "name": "SOFI TECHNOLOGIES INC",
@@ -508,18 +508,10 @@
       "company": "cusip:83406F102"
     },
     {
-      "name": "COINBASE GLOBAL INC -CLASS A",
-      "ticker": "COIN",
-      "asset_type": "Equity",
-      "weight": 0.0338,
-      "sedol": "BMC9P69",
-      "company": "cusip:19260Q107"
-    },
-    {
       "name": "FIDELITY NATIONAL INFO SERVICES",
       "ticker": "FIS",
       "asset_type": "Equity",
-      "weight": 0.0274,
+      "weight": 0.0273,
       "sedol": "2769796",
       "company": "name:fidelity national info services"
     },
@@ -527,7 +519,7 @@
       "name": "JACK HENRY & ASSOCIATES INC",
       "ticker": "JKHY",
       "asset_type": "Equity",
-      "weight": 0.0267,
+      "weight": 0.026,
       "sedol": "2469193",
       "company": "name:jack henry associates"
     },
@@ -535,7 +527,7 @@
       "name": "GUIDEWIRE SOFTWARE INC",
       "ticker": "GWRE",
       "asset_type": "Equity",
-      "weight": 0.0257,
+      "weight": 0.0255,
       "sedol": "B7JYSG3",
       "company": "name:guidewire software@united states"
     },
@@ -543,7 +535,7 @@
       "name": "WISE GROUP PLC-CL A",
       "ticker": "WISE LN",
       "asset_type": "Equity",
-      "weight": 0.0236,
+      "weight": 0.0241,
       "sedol": "BQKY081",
       "company": "name:wise group"
     },
@@ -559,25 +551,25 @@
       "name": "XERO LTD",
       "ticker": "XRO AU",
       "asset_type": "Equity",
-      "weight": 0.0171,
+      "weight": 0.0169,
       "sedol": "B8P4LP4",
       "company": "name:xero"
-    },
-    {
-      "name": "HEALTHEQUITY INC",
-      "ticker": "HQY",
-      "asset_type": "Equity",
-      "weight": 0.017,
-      "sedol": "BP8XZL1",
-      "company": "cusip:42226A107"
     },
     {
       "name": "PAYPAY CORP",
       "ticker": "PAYP",
       "asset_type": "Equity",
-      "weight": 0.0168,
+      "weight": 0.0167,
       "sedol": "BVCHTQ4",
       "company": "cusip:70450C101"
+    },
+    {
+      "name": "HEALTHEQUITY INC",
+      "ticker": "HQY",
+      "asset_type": "Equity",
+      "weight": 0.0164,
+      "sedol": "BP8XZL1",
+      "company": "cusip:42226A107"
     },
     {
       "name": "TEMENOS AG - REG",
@@ -591,7 +583,7 @@
       "name": "RIOT PLATFORMS INC",
       "ticker": "RIOT",
       "asset_type": "Equity",
-      "weight": 0.0128,
+      "weight": 0.0133,
       "sedol": "BD9F675",
       "company": "cusip:767292105"
     },
@@ -599,7 +591,7 @@
       "name": "BILL HOLDINGS INC",
       "ticker": "BILL",
       "asset_type": "Equity",
-      "weight": 0.0124,
+      "weight": 0.0121,
       "sedol": "BKDS4H5",
       "company": "cusip:090043100"
     },
@@ -607,7 +599,7 @@
       "name": "NEXI SPA",
       "ticker": "NEXI IM",
       "asset_type": "Equity",
-      "weight": 0.0113,
+      "weight": 0.0116,
       "sedol": "BJ1F880",
       "company": "name:nexi@italy"
     },
@@ -615,7 +607,7 @@
       "name": "HUT 8 CORP",
       "ticker": "HUT CN",
       "asset_type": "Equity",
-      "weight": 0.011,
+      "weight": 0.0115,
       "sedol": "BQQ8805",
       "company": "cusip:44812J104"
     },
@@ -623,7 +615,7 @@
       "name": "ACI WORLDWIDE INC",
       "ticker": "ACIW",
       "asset_type": "Equity",
-      "weight": 0.0106,
+      "weight": 0.0105,
       "sedol": "2889155",
       "company": "cusip:004498101"
     },
@@ -647,9 +639,17 @@
       "name": "VIRTU FINANCIAL INC-CLASS A",
       "ticker": "VIRT",
       "asset_type": "Equity",
-      "weight": 0.0099,
+      "weight": 0.0098,
       "sedol": "BWTVWD4",
       "company": "name:virtu financial"
+    },
+    {
+      "name": "HUB24 LTD",
+      "ticker": "HUB AU",
+      "asset_type": "Equity",
+      "weight": 0.0081,
+      "sedol": "BD4T5X1",
+      "company": "name:hub24"
     }
   ]
 }

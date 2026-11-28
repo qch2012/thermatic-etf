@@ -1,7 +1,7 @@
 {
   "ticker": "XAR",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-27T04:32:42.635952+00:00",
+  "as_of": "2026-11-25",
+  "fetched_at": "2026-11-28T04:13:47.658780+00:00",
   "stale": false,
   "source": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xar.xlsx",
   "holdings": [
@@ -9,43 +9,43 @@
       "name": "LOCKHEED MARTIN CORP",
       "ticker": "LMT",
       "asset_type": "Equity",
-      "weight": 0.03701673,
+      "weight": 0.03721571,
       "cusip": "539830109",
       "sedol": "2522096",
       "company": "cusip:539830109"
     },
     {
-      "name": "HEICO CORP",
-      "ticker": "HEI",
-      "asset_type": "Equity",
-      "weight": 0.03543081,
-      "cusip": "422806109",
-      "sedol": "2419217",
-      "company": "cusip:422806109"
-    },
-    {
-      "name": "NORTHROP GRUMMAN CORP",
-      "ticker": "NOC",
-      "asset_type": "Equity",
-      "weight": 0.03535534,
-      "cusip": "666807102",
-      "sedol": "2648806",
-      "company": "cusip:666807102"
-    },
-    {
       "name": "STANDARDAERO INC",
       "ticker": "SARO",
       "asset_type": "Equity",
-      "weight": 0.03503291,
+      "weight": 0.03520689,
       "cusip": "85423L103",
       "sedol": "BQPDNZ1",
       "company": "cusip:85423L103"
     },
     {
+      "name": "NORTHROP GRUMMAN CORP",
+      "ticker": "NOC",
+      "asset_type": "Equity",
+      "weight": 0.0351101,
+      "cusip": "666807102",
+      "sedol": "2648806",
+      "company": "cusip:666807102"
+    },
+    {
+      "name": "HEICO CORP",
+      "ticker": "HEI",
+      "asset_type": "Equity",
+      "weight": 0.0350865,
+      "cusip": "422806109",
+      "sedol": "2419217",
+      "company": "cusip:422806109"
+    },
+    {
       "name": "HUNTINGTON INGALLS INDUSTRIE",
       "ticker": "HII",
       "asset_type": "Equity",
-      "weight": 0.03450298,
+      "weight": 0.03455228,
       "cusip": "446413106",
       "sedol": "B40SSC9",
       "company": "cusip:446413106"
@@ -54,7 +54,7 @@
       "name": "L3HARRIS TECHNOLOGIES INC",
       "ticker": "LHX",
       "asset_type": "Equity",
-      "weight": 0.03410475,
+      "weight": 0.03406208,
       "cusip": "502431109",
       "sedol": "BK9DTN5",
       "company": "cusip:502431109"
@@ -63,52 +63,52 @@
       "name": "HONEYWELL AEROSPACE INC",
       "ticker": "HONA",
       "asset_type": "Equity",
-      "weight": 0.03378947,
+      "weight": 0.0339159,
       "cusip": "43849R105",
       "sedol": "BN7RHB4",
       "company": "cusip:43849R105"
     },
     {
-      "name": "TEXTRON INC",
-      "ticker": "TXT",
-      "asset_type": "Equity",
-      "weight": 0.03365964,
-      "cusip": "883203101",
-      "sedol": "2885937",
-      "company": "cusip:883203101"
-    },
-    {
       "name": "TRANSDIGM GROUP INC",
       "ticker": "TDG",
       "asset_type": "Equity",
-      "weight": 0.03319501,
+      "weight": 0.03329054,
       "cusip": "893641100",
       "sedol": "B11FJK3",
       "company": "cusip:893641100"
     },
     {
-      "name": "WOODWARD INC",
-      "ticker": "WWD",
-      "asset_type": "Equity",
-      "weight": 0.03318706,
-      "cusip": "980745103",
-      "sedol": "2948089",
-      "company": "cusip:980745103"
-    },
-    {
       "name": "GENERAL DYNAMICS CORP",
       "ticker": "GD",
       "asset_type": "Equity",
-      "weight": 0.03298712,
+      "weight": 0.03327186,
       "cusip": "369550108",
       "sedol": "2365161",
       "company": "cusip:369550108"
     },
     {
+      "name": "WOODWARD INC",
+      "ticker": "WWD",
+      "asset_type": "Equity",
+      "weight": 0.03319964,
+      "cusip": "980745103",
+      "sedol": "2948089",
+      "company": "cusip:980745103"
+    },
+    {
+      "name": "TEXTRON INC",
+      "ticker": "TXT",
+      "asset_type": "Equity",
+      "weight": 0.03297354,
+      "cusip": "883203101",
+      "sedol": "2885937",
+      "company": "cusip:883203101"
+    },
+    {
       "name": "RTX CORP",
       "ticker": "RTX",
       "asset_type": "Equity",
-      "weight": 0.03272004,
+      "weight": 0.03234547,
       "cusip": "75513E101",
       "sedol": "BM5M5Y3",
       "company": "cusip:75513E101"
@@ -117,34 +117,34 @@
       "name": "GENERAL ELECTRIC",
       "ticker": "GE",
       "asset_type": "Equity",
-      "weight": 0.03234263,
+      "weight": 0.03172713,
       "cusip": "369604301",
       "sedol": "BL59CR9",
       "company": "cusip:369604301"
     },
     {
-      "name": "HOWMET AEROSPACE INC",
-      "ticker": "HWM",
-      "asset_type": "Equity",
-      "weight": 0.02999365,
-      "cusip": "443201108",
-      "sedol": "BKLJ8V2",
-      "company": "cusip:443201108"
-    },
-    {
       "name": "MOOG INC CLASS A",
       "ticker": "MOG.A",
       "asset_type": "Equity",
-      "weight": 0.02954298,
+      "weight": 0.02961471,
       "cusip": "615394202",
       "sedol": "2601218",
       "company": "cusip:615394202"
     },
     {
+      "name": "HOWMET AEROSPACE INC",
+      "ticker": "HWM",
+      "asset_type": "Equity",
+      "weight": 0.02955252,
+      "cusip": "443201108",
+      "sedol": "BKLJ8V2",
+      "company": "cusip:443201108"
+    },
+    {
       "name": "FTAI AVIATION LTD",
       "ticker": "FTAI",
       "asset_type": "Equity",
-      "weight": 0.02809148,
+      "weight": 0.02834442,
       "cusip": "G3730V105",
       "sedol": "BLKFTK4",
       "company": "cusip:G3730V105"
@@ -153,7 +153,7 @@
       "name": "VSE CORP",
       "ticker": "VSEC",
       "asset_type": "Equity",
-      "weight": 0.02793973,
+      "weight": 0.02767327,
       "cusip": "918284100",
       "sedol": "2926773",
       "company": "cusip:918284100"
@@ -162,34 +162,34 @@
       "name": "ATI INC",
       "ticker": "ATI",
       "asset_type": "Equity",
-      "weight": 0.02708518,
+      "weight": 0.02764969,
       "cusip": "01741R102",
       "sedol": "2526117",
       "company": "cusip:01741R102"
     },
     {
-      "name": "CURTISS WRIGHT CORP",
-      "ticker": "CW",
-      "asset_type": "Equity",
-      "weight": 0.02628583,
-      "cusip": "231561101",
-      "sedol": "2241205",
-      "company": "cusip:231561101"
-    },
-    {
       "name": "BOEING CO/THE",
       "ticker": "BA",
       "asset_type": "Equity",
-      "weight": 0.02622594,
+      "weight": 0.02596039,
       "cusip": "097023105",
       "sedol": "2108601",
       "company": "cusip:097023105"
     },
     {
+      "name": "CURTISS WRIGHT CORP",
+      "ticker": "CW",
+      "asset_type": "Equity",
+      "weight": 0.02574254,
+      "cusip": "231561101",
+      "sedol": "2241205",
+      "company": "cusip:231561101"
+    },
+    {
       "name": "HEXCEL CORP",
       "ticker": "HXL",
       "asset_type": "Equity",
-      "weight": 0.02579025,
+      "weight": 0.02539006,
       "cusip": "428291108",
       "sedol": "2416779",
       "company": "cusip:428291108"
@@ -198,7 +198,7 @@
       "name": "KARMAN HOLDINGS INC",
       "ticker": "KRMN",
       "asset_type": "Equity",
-      "weight": 0.02464445,
+      "weight": 0.02448136,
       "cusip": "485924104",
       "sedol": "BTRFVH4",
       "company": "cusip:485924104"
@@ -207,7 +207,7 @@
       "name": "ROCKET LAB CORP",
       "ticker": "RKLB",
       "asset_type": "Equity",
-      "weight": 0.02412548,
+      "weight": 0.02428183,
       "cusip": "773121108",
       "sedol": "BT6C8Z3",
       "company": "cusip:773121108"
@@ -216,7 +216,7 @@
       "name": "BWX TECHNOLOGIES INC",
       "ticker": "BWXT",
       "asset_type": "Equity",
-      "weight": 0.02389112,
+      "weight": 0.0235993,
       "cusip": "05605H100",
       "sedol": "BZ0W624",
       "company": "cusip:05605H100"
@@ -225,7 +225,7 @@
       "name": "AXON ENTERPRISE INC",
       "ticker": "AXON",
       "asset_type": "Equity",
-      "weight": 0.0215641,
+      "weight": 0.02280102,
       "cusip": "05464C101",
       "sedol": "BDT5S35",
       "company": "cusip:05464C101"
@@ -234,7 +234,7 @@
       "name": "MERCURY SYSTEMS INC",
       "ticker": "MRCY",
       "asset_type": "Equity",
-      "weight": 0.02132401,
+      "weight": 0.02124922,
       "cusip": "589378108",
       "sedol": "2144047",
       "company": "cusip:589378108"
@@ -243,7 +243,7 @@
       "name": "AEROVIRONMENT INC",
       "ticker": "AVAV",
       "asset_type": "Equity",
-      "weight": 0.02064446,
+      "weight": 0.0207664,
       "cusip": "008073108",
       "sedol": "B1P5YY8",
       "company": "cusip:008073108"
@@ -252,7 +252,7 @@
       "name": "KRATOS DEFENSE + SECURITY",
       "ticker": "KTOS",
       "asset_type": "Equity",
-      "weight": 0.01997304,
+      "weight": 0.0201735,
       "cusip": "50077B207",
       "sedol": "2512149",
       "company": "cusip:50077B207"
@@ -261,7 +261,7 @@
       "name": "CARPENTER TECHNOLOGY",
       "ticker": "CRS",
       "asset_type": "Equity",
-      "weight": 0.01874237,
+      "weight": 0.01838478,
       "cusip": "144285103",
       "sedol": "2177504",
       "company": "cusip:144285103"
@@ -270,7 +270,7 @@
       "name": "AAR CORP",
       "ticker": "AIR",
       "asset_type": "Equity",
-      "weight": 0.01538815,
+      "weight": 0.0152006,
       "cusip": "000361105",
       "sedol": "2001119",
       "company": "cusip:000361105"
@@ -279,7 +279,7 @@
       "name": "LOAR HOLDINGS INC",
       "ticker": "LOAR",
       "asset_type": "Equity",
-      "weight": 0.01388744,
+      "weight": 0.01427259,
       "cusip": "53947R105",
       "sedol": "BLDCK32",
       "company": "cusip:53947R105"
@@ -288,7 +288,7 @@
       "name": "V2X INC",
       "ticker": "VVX",
       "asset_type": "Equity",
-      "weight": 0.01352331,
+      "weight": 0.01379916,
       "cusip": "92242T101",
       "sedol": "BQS2V17",
       "company": "cusip:92242T101"
@@ -297,7 +297,7 @@
       "name": "LEONARDO DRS INC",
       "ticker": "DRS",
       "asset_type": "Equity",
-      "weight": 0.0122786,
+      "weight": 0.01223981,
       "cusip": "52661A108",
       "sedol": "BNSNZQ2",
       "company": "cusip:52661A108"
@@ -306,43 +306,43 @@
       "name": "ARXIS INC A",
       "ticker": "ARXS",
       "asset_type": "Equity",
-      "weight": 0.01176277,
+      "weight": 0.01197871,
       "cusip": "04339D105",
       "sedol": "BVH8P08",
       "company": "cusip:04339D105"
     },
     {
-      "name": "DUCOMMUN INC",
-      "ticker": "DCO",
-      "asset_type": "Equity",
-      "weight": 0.0116317,
-      "cusip": "264147109",
-      "sedol": "2283229",
-      "company": "cusip:264147109"
-    },
-    {
-      "name": "ASTRONICS CORP",
-      "ticker": "ATRO",
-      "asset_type": "Equity",
-      "weight": 0.01159178,
-      "cusip": "046433108",
-      "sedol": "2060518",
-      "company": "cusip:046433108"
-    },
-    {
       "name": "ARCHER AVIATION INC A",
       "ticker": "ACHR",
       "asset_type": "Equity",
-      "weight": 0.01148195,
+      "weight": 0.01192857,
       "cusip": "03945R102",
       "sedol": "BMHVDS8",
       "company": "cusip:03945R102"
     },
     {
+      "name": "ASTRONICS CORP",
+      "ticker": "ATRO",
+      "asset_type": "Equity",
+      "weight": 0.01146706,
+      "cusip": "046433108",
+      "sedol": "2060518",
+      "company": "cusip:046433108"
+    },
+    {
+      "name": "DUCOMMUN INC",
+      "ticker": "DCO",
+      "asset_type": "Equity",
+      "weight": 0.01143345,
+      "cusip": "264147109",
+      "sedol": "2283229",
+      "company": "cusip:264147109"
+    },
+    {
       "name": "FIREFLY AEROSPACE INC",
       "ticker": "FLY",
       "asset_type": "Equity",
-      "weight": 0.00939509,
+      "weight": 0.00922648,
       "cusip": "31816X106",
       "sedol": "BPK4SR9",
       "company": "cusip:31816X106"
@@ -351,7 +351,7 @@
       "name": "REDWIRE CORP",
       "ticker": "RDW",
       "asset_type": "Equity",
-      "weight": 0.00854893,
+      "weight": 0.00839976,
       "cusip": "75776W103",
       "sedol": "BL5FDV8",
       "company": "cusip:75776W103"
@@ -360,7 +360,7 @@
       "name": "INTUITIVE MACHINES INC",
       "ticker": "LUNR",
       "asset_type": "Equity",
-      "weight": 0.00829645,
+      "weight": 0.00835754,
       "cusip": "46125A100",
       "sedol": "BNHTR54",
       "company": "cusip:46125A100"
@@ -369,7 +369,7 @@
       "name": "BETA TECHNOLOGIES INC  CL A",
       "ticker": "BETA",
       "asset_type": "Equity",
-      "weight": 0.00754991,
+      "weight": 0.0077819,
       "cusip": "086921103",
       "sedol": "BT3CTW0",
       "company": "cusip:086921103"
@@ -378,7 +378,7 @@
       "name": "VOYAGER TECHNOLOGIES INC A",
       "ticker": "VOYG",
       "asset_type": "Equity",
-      "weight": 0.00570755,
+      "weight": 0.00574944,
       "cusip": "92892B103",
       "sedol": "BQMJ1G9",
       "company": "cusip:92892B103"
@@ -387,7 +387,7 @@
       "name": "NATIONAL PRESTO INDS INC",
       "ticker": "NPK",
       "asset_type": "Equity",
-      "weight": 0.00448623,
+      "weight": 0.00482479,
       "cusip": "637215104",
       "sedol": "2626802",
       "company": "cusip:637215104"
@@ -396,7 +396,7 @@
       "name": "CADRE HOLDINGS INC",
       "ticker": "CDRE",
       "asset_type": "Equity",
-      "weight": 0.00394857,
+      "weight": 0.00398341,
       "cusip": "12763L105",
       "sedol": "BKVKB49",
       "company": "cusip:12763L105"
@@ -405,7 +405,7 @@
       "name": "PARK AEROSPACE CORP",
       "ticker": "PKE",
       "asset_type": "Equity",
-      "weight": 0.002554,
+      "weight": 0.00251802,
       "cusip": "70014A104",
       "sedol": "BK9TGC1",
       "company": "cusip:70014A104"
@@ -414,34 +414,34 @@
       "name": "YORK SPACE SYSTEMS INC",
       "ticker": "YSS",
       "asset_type": "Equity",
-      "weight": 0.00201684,
+      "weight": 0.00213418,
       "cusip": "987084100",
       "sedol": "BV4MN09",
       "company": "cusip:987084100"
     },
     {
-      "name": "SATELLOGIC INC A",
-      "ticker": "SATL",
-      "asset_type": "Equity",
-      "weight": 0.00184229,
-      "cusip": "80401C100",
-      "sedol": "BT8QHD4",
-      "company": "cusip:80401C100"
-    },
-    {
       "name": "AEVEX CORP CL A",
       "ticker": "AVEX",
       "asset_type": "Equity",
-      "weight": 0.00177772,
+      "weight": 0.00188976,
       "cusip": "00835T107",
       "sedol": "BVPKF40",
       "company": "cusip:00835T107"
     },
     {
+      "name": "SATELLOGIC INC A",
+      "ticker": "SATL",
+      "asset_type": "Equity",
+      "weight": 0.00183134,
+      "cusip": "80401C100",
+      "sedol": "BT8QHD4",
+      "company": "cusip:80401C100"
+    },
+    {
       "name": "RED CAT HOLDINGS INC",
       "ticker": "RCAT",
       "asset_type": "Equity",
-      "weight": 0.00146806,
+      "weight": 0.00147421,
       "cusip": "75644T100",
       "sedol": "BJBLT85",
       "company": "cusip:75644T100"
@@ -450,7 +450,7 @@
       "name": "VIRGIN GALACTIC HOLDINGS INC",
       "ticker": "SPCE",
       "asset_type": "Equity",
-      "weight": 0.00086678,
+      "weight": 0.00092988,
       "cusip": "92766K403",
       "sedol": "BSNTQK1",
       "company": "cusip:92766K403"
@@ -459,14 +459,7 @@
       "name": "SSI US GOV MONEY MARKET CLASS",
       "ticker": null,
       "asset_type": "Other",
-      "weight": 0.00064791,
-      "company": null
-    },
-    {
-      "name": "US DOLLAR",
-      "ticker": null,
-      "asset_type": "Other",
-      "weight": 5.401e-05,
+      "weight": 0.00069084,
       "company": null
     }
   ]

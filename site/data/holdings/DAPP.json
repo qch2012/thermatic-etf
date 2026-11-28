@@ -1,7 +1,7 @@
 {
   "ticker": "DAPP",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-27T04:32:08.247035+00:00",
+  "as_of": "2026-11-26",
+  "fetched_at": "2026-11-28T04:13:10.329671+00:00",
   "stale": false,
   "source": "https://www.vaneck.com/us/en/etf/equity/dapp/holdings/download/xlsx/",
   "holdings": [
@@ -9,42 +9,42 @@
       "name": "Block Inc",
       "ticker": "XYZ",
       "asset_type": "Equity",
-      "weight": 0.1371,
+      "weight": 0.1391,
       "company": "cusip:852234103"
     },
     {
       "name": "Coinbase Global Inc",
       "ticker": "COIN",
       "asset_type": "Equity",
-      "weight": 0.0861,
+      "weight": 0.0863,
       "company": "cusip:19260Q107"
     },
     {
       "name": "Riot Platforms Inc",
       "ticker": "RIOT",
       "asset_type": "Equity",
-      "weight": 0.068,
+      "weight": 0.0684,
       "company": "cusip:767292105"
     },
     {
       "name": "Circle Internet Group Inc",
       "ticker": "CRCL",
       "asset_type": "Equity",
-      "weight": 0.066,
+      "weight": 0.0659,
       "company": "cusip:172573107"
     },
     {
       "name": "Bitmine Immersion Technologies Inc",
       "ticker": "BMNR",
       "asset_type": "Equity",
-      "weight": 0.06,
+      "weight": 0.0604,
       "company": "name:bitmine immersion technologies"
     },
     {
       "name": "Figure Technology Solutions Inc",
       "ticker": "FIGR",
       "asset_type": "Equity",
-      "weight": 0.0533,
+      "weight": 0.0556,
       "company": "cusip:349381103"
     },
     {
@@ -55,66 +55,66 @@
       "company": "cusip:44812J104"
     },
     {
+      "name": "Strategy Inc",
+      "ticker": "MSTR",
+      "asset_type": "Equity",
+      "weight": 0.0492,
+      "company": "cusip:594972408"
+    },
+    {
       "name": "Core Scientific Inc",
       "ticker": "CORZ",
       "asset_type": "Equity",
-      "weight": 0.0502,
+      "weight": 0.0488,
       "company": "cusip:21874A106"
     },
     {
       "name": "Terawulf Inc",
       "ticker": "WULF",
       "asset_type": "Equity",
-      "weight": 0.0483,
+      "weight": 0.0478,
       "company": "cusip:88080T104"
-    },
-    {
-      "name": "Strategy Inc",
-      "ticker": "MSTR",
-      "asset_type": "Equity",
-      "weight": 0.0483,
-      "company": "cusip:594972408"
-    },
-    {
-      "name": "Metaplanet Inc",
-      "ticker": "3350 JP",
-      "asset_type": "Equity",
-      "weight": 0.0401,
-      "company": "name:metaplanet"
     },
     {
       "name": "Bullish",
       "ticker": "BLSH",
       "asset_type": "Equity",
-      "weight": 0.0392,
+      "weight": 0.0394,
       "company": "cusip:G16910120"
+    },
+    {
+      "name": "Metaplanet Inc",
+      "ticker": "3350 JP",
+      "asset_type": "Equity",
+      "weight": 0.038,
+      "company": "name:metaplanet"
     },
     {
       "name": "Galaxy Digital Inc",
       "ticker": "GLXY",
       "asset_type": "Equity",
-      "weight": 0.0379,
+      "weight": 0.0375,
       "company": "cusip:36317J209"
     },
     {
       "name": "Mara Holdings Inc",
       "ticker": "MARA",
       "asset_type": "Equity",
-      "weight": 0.0375,
+      "weight": 0.0371,
       "company": "cusip:565788106"
     },
     {
       "name": "Applied Digital Corp",
       "ticker": "APLD",
       "asset_type": "Equity",
-      "weight": 0.0372,
+      "weight": 0.037,
       "company": "cusip:038169207"
     },
     {
       "name": "Iren Ltd",
       "ticker": "IREN",
       "asset_type": "Equity",
-      "weight": 0.0341,
+      "weight": 0.0334,
       "company": "cusip:Q4982L109"
     },
     {
@@ -128,42 +128,28 @@
       "name": "Bc Technology Group Ltd",
       "ticker": "863 HK",
       "asset_type": "Equity",
-      "weight": 0.0285,
+      "weight": 0.0267,
       "company": "name:bc technology group"
     },
     {
       "name": "Cipher Mining Inc",
       "ticker": "CIFR",
       "asset_type": "Equity",
-      "weight": 0.027,
+      "weight": 0.0266,
       "company": "name:cipher mining"
     },
     {
       "name": "Bitdeer Technologies Group",
       "ticker": "BTDR",
       "asset_type": "Equity",
-      "weight": 0.0186,
+      "weight": 0.0202,
       "company": "cusip:G11448100"
-    },
-    {
-      "name": "USD CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0002,
-      "company": null
-    },
-    {
-      "name": "EUR CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
     },
     {
       "name": "Other/Cash",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0003,
+      "weight": -0.0,
       "company": null
     }
   ]

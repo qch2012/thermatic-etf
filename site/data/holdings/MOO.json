@@ -1,7 +1,7 @@
 {
   "ticker": "MOO",
-  "as_of": "2026-11-24",
-  "fetched_at": "2026-11-27T04:32:25.752242+00:00",
+  "as_of": "2026-11-26",
+  "fetched_at": "2026-11-28T04:13:28.038165+00:00",
   "stale": false,
   "source": "https://www.vaneck.com/us/en/etf/equity/moo/holdings/download/xlsx/",
   "holdings": [
@@ -9,77 +9,91 @@
       "name": "Bayer Ag",
       "ticker": "BAYN GR",
       "asset_type": "Equity",
-      "weight": 0.0894,
+      "weight": 0.0859,
       "company": "name:bayer@germany"
     },
     {
       "name": "Deere & Co",
       "ticker": "DE",
       "asset_type": "Equity",
-      "weight": 0.081,
+      "weight": 0.0834,
       "company": "cusip:244199105"
     },
     {
       "name": "Zoetis Inc",
       "ticker": "ZTS",
       "asset_type": "Equity",
-      "weight": 0.0683,
+      "weight": 0.0682,
       "company": "cusip:98978V103"
     },
     {
       "name": "Vylor Inc",
       "ticker": "VYLR",
       "asset_type": "Equity",
-      "weight": 0.0637,
+      "weight": 0.0636,
       "company": "cusip:92892R108"
     },
     {
       "name": "Nutrien Ltd",
       "ticker": "NTR",
       "asset_type": "Equity",
-      "weight": 0.0597,
+      "weight": 0.0593,
       "company": "cusip:67077M108"
     },
     {
       "name": "Archer-Daniels-Midland Co",
       "ticker": "ADM",
       "asset_type": "Equity",
-      "weight": 0.0502,
+      "weight": 0.0509,
       "company": "cusip:039483102"
     },
     {
       "name": "Tyson Foods Inc",
       "ticker": "TSN",
       "asset_type": "Equity",
-      "weight": 0.0472,
+      "weight": 0.0466,
       "company": "name:tyson foods"
     },
     {
       "name": "Kubota Corp",
       "ticker": "6326 JP",
       "asset_type": "Equity",
-      "weight": 0.0442,
+      "weight": 0.045,
       "company": "name:kubota@japan"
     },
     {
       "name": "Cf Industries Holdings Inc",
       "ticker": "CF",
       "asset_type": "Equity",
-      "weight": 0.0425,
+      "weight": 0.0422,
       "company": "name:cf industries holdings@united states"
     },
     {
       "name": "Mowi Asa",
       "ticker": "MOWI NO",
       "asset_type": "Equity",
-      "weight": 0.036,
+      "weight": 0.0363,
       "company": "name:mowi@norway"
+    },
+    {
+      "name": "Cnh Industrial Nv",
+      "ticker": "CNH",
+      "asset_type": "Equity",
+      "weight": 0.028,
+      "company": "cusip:N20944109"
+    },
+    {
+      "name": "Bunge Global Sa",
+      "ticker": "BG",
+      "asset_type": "Equity",
+      "weight": 0.0277,
+      "company": "name:bunge global@united states"
     },
     {
       "name": "China Mengniu Dairy Co Ltd",
       "ticker": "2319 HK",
       "asset_type": "Equity",
-      "weight": 0.0277,
+      "weight": 0.0276,
       "company": "name:china mengniu dairy"
     },
     {
@@ -90,67 +104,53 @@
       "company": "name:toro@united states"
     },
     {
-      "name": "Bunge Global Sa",
-      "ticker": "BG",
+      "name": "Darling Ingredients Inc",
+      "ticker": "DAR",
       "asset_type": "Equity",
-      "weight": 0.0268,
-      "company": "name:bunge global@united states"
-    },
-    {
-      "name": "Cnh Industrial Nv",
-      "ticker": "CNH",
-      "asset_type": "Equity",
-      "weight": 0.0263,
-      "company": "cusip:N20944109"
+      "weight": 0.0227,
+      "company": "cusip:237266101"
     },
     {
       "name": "Wilmar International Ltd",
       "ticker": "WIL SP",
       "asset_type": "Equity",
-      "weight": 0.0226,
-      "company": "name:wilmar international@singapore"
-    },
-    {
-      "name": "Darling Ingredients Inc",
-      "ticker": "DAR",
-      "asset_type": "Equity",
       "weight": 0.0223,
-      "company": "cusip:237266101"
+      "company": "name:wilmar international@singapore"
     },
     {
       "name": "Yara International Asa",
       "ticker": "YAR NO",
       "asset_type": "Equity",
-      "weight": 0.0221,
+      "weight": 0.022,
       "company": "name:yara international@norway"
     },
     {
       "name": "Elanco Animal Health Inc",
       "ticker": "ELAN",
       "asset_type": "Equity",
-      "weight": 0.0214,
+      "weight": 0.0209,
       "company": "name:elanco animal health"
-    },
-    {
-      "name": "Salmar Asa",
-      "ticker": "SALM NO",
-      "asset_type": "Equity",
-      "weight": 0.0176,
-      "company": "name:salmar@norway"
     },
     {
       "name": "Mosaic Co/The",
       "ticker": "MOS",
       "asset_type": "Equity",
-      "weight": 0.0175,
+      "weight": 0.0179,
       "company": "cusip:61945C103"
     },
     {
       "name": "Agco Corp",
       "ticker": "AGCO",
       "asset_type": "Equity",
-      "weight": 0.017,
+      "weight": 0.0174,
       "company": "cusip:001084102"
+    },
+    {
+      "name": "Salmar Asa",
+      "ticker": "SALM NO",
+      "asset_type": "Equity",
+      "weight": 0.0174,
+      "company": "name:salmar@norway"
     },
     {
       "name": "Rumo Sa",
@@ -170,29 +170,29 @@
       "name": "Charoen Pokphand Foods Pcl",
       "ticker": "CPF-R TB",
       "asset_type": "Equity",
-      "weight": 0.0104,
+      "weight": 0.0102,
       "company": "name:charoen pokphand foods pcl"
     },
     {
       "name": "Nh Foods Ltd",
       "ticker": "2282 JP",
       "asset_type": "Equity",
-      "weight": 0.0098,
+      "weight": 0.01,
       "company": "name:nh foods@japan"
-    },
-    {
-      "name": "Treasury Wine Estates Ltd",
-      "ticker": "TWE AU",
-      "asset_type": "Equity",
-      "weight": 0.0089,
-      "company": "name:treasury wine estates"
     },
     {
       "name": "Cal-Maine Foods Inc",
       "ticker": "CALM",
       "asset_type": "Equity",
-      "weight": 0.0088,
+      "weight": 0.0087,
       "company": "name:cal maine foods@united states"
+    },
+    {
+      "name": "Treasury Wine Estates Ltd",
+      "ticker": "TWE AU",
+      "asset_type": "Equity",
+      "weight": 0.0086,
+      "company": "name:treasury wine estates"
     },
     {
       "name": "Bucher Industries Ag",
@@ -205,7 +205,7 @@
       "name": "K+s Ag",
       "ticker": "SDF GR",
       "asset_type": "Equity",
-      "weight": 0.0079,
+      "weight": 0.0077,
       "company": "name:k@germany"
     },
     {
@@ -226,22 +226,15 @@
       "name": "Icl Group Ltd",
       "ticker": "ICL",
       "asset_type": "Equity",
-      "weight": 0.0067,
+      "weight": 0.0066,
       "company": "cusip:M53213100"
     },
     {
       "name": "Ioi Corp Bhd",
       "ticker": "IOI MK",
       "asset_type": "Equity",
-      "weight": 0.0063,
-      "company": "name:ioi corp bhd"
-    },
-    {
-      "name": "Neogen Corp",
-      "ticker": "NEOG",
-      "asset_type": "Equity",
       "weight": 0.0062,
-      "company": "cusip:640491106"
+      "company": "name:ioi corp bhd"
     },
     {
       "name": "Bakkafrost P/F",
@@ -254,8 +247,15 @@
       "name": "Schouw & Co A/S",
       "ticker": "SCHO DC",
       "asset_type": "Equity",
-      "weight": 0.0061,
+      "weight": 0.006,
       "company": "name:schouw"
+    },
+    {
+      "name": "Neogen Corp",
+      "ticker": "NEOG",
+      "asset_type": "Equity",
+      "weight": 0.0059,
+      "company": "cusip:640491106"
     },
     {
       "name": "Nippon Suisan Kaisha Ltd",
@@ -268,7 +268,7 @@
       "name": "Genus Plc",
       "ticker": "GNS LN",
       "asset_type": "Equity",
-      "weight": 0.0054,
+      "weight": 0.0053,
       "company": "name:genus"
     },
     {
@@ -279,18 +279,18 @@
       "company": "name:golden agri resources@singapore"
     },
     {
-      "name": "Leroy Seafood Group Asa",
-      "ticker": "LSG NO",
-      "asset_type": "Equity",
-      "weight": 0.0049,
-      "company": "name:leroy seafood group@norway"
-    },
-    {
       "name": "Pilgrim's Pride Corp",
       "ticker": "PPC",
       "asset_type": "Equity",
       "weight": 0.0049,
       "company": "name:pilgrim s pride"
+    },
+    {
+      "name": "Leroy Seafood Group Asa",
+      "ticker": "LSG NO",
+      "asset_type": "Equity",
+      "weight": 0.0048,
+      "company": "name:leroy seafood group@norway"
     },
     {
       "name": "Maruha Nichiro Corp",
@@ -310,14 +310,14 @@
       "name": "Taiwan Fertilizer Co Ltd",
       "ticker": "1722 TT",
       "asset_type": "Equity",
-      "weight": 0.0033,
+      "weight": 0.0032,
       "company": "name:taiwan fertilizer@taiwan"
     },
     {
       "name": "Charoen Pokphand Indonesia Tbk Pt",
       "ticker": "CPIN IJ",
       "asset_type": "Equity",
-      "weight": 0.0032,
+      "weight": 0.0031,
       "company": "name:charoen pokphand indonesia tbk pt"
     },
     {
@@ -326,6 +326,13 @@
       "asset_type": "Equity",
       "weight": 0.0014,
       "company": "cusip:302491303"
+    },
+    {
+      "name": "Phosagro Pjsc",
+      "ticker": "PHOR RM",
+      "asset_type": "Equity",
+      "weight": 0.0,
+      "company": "name:phosagro pjsc"
     },
     {
       "name": "Private",
@@ -342,59 +349,10 @@
       "company": "name:private"
     },
     {
-      "name": "Phosagro Pjsc",
-      "ticker": "PHOR RM",
-      "asset_type": "Equity",
-      "weight": 0.0,
-      "company": "name:phosagro pjsc"
-    },
-    {
-      "name": "USD CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0098,
-      "company": null
-    },
-    {
-      "name": "SGD CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "JPY CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "EUR CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "BRL CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
-      "name": "AUD CASH",
-      "ticker": null,
-      "asset_type": "Cash",
-      "weight": 0.0,
-      "company": null
-    },
-    {
       "name": "Other/Cash",
       "ticker": null,
       "asset_type": "Cash",
-      "weight": -0.0084,
+      "weight": 0.0014,
       "company": null
     }
   ]
